@@ -1,1272 +1,419 @@
 
 
-
-
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" class="no-js isELI">
-<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
 	Crackle Privacy Policy
-</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="apple-itunes-app" content="app-id=377951542" /><meta name="google-play-app" content="app-id=com.gotv.crackle.handset" /><meta name="description" content="Watch hundreds of movies and TV shows online. Crackle offers all your favorite genres uncut, unedited, and unbelievably free -- Just press play!" /><meta name="keywords" content="free movies, free TV, free movies online, free online movies, online movies, watch online movies, watch movies free online, free movies, hulu, youtube, drama movies, watch tv, action movies" /><meta property="og:title" content="Crackle" /><meta property="og:type" content="website" /><meta property="og:url" content="http://www.crackle.com" /><meta property="og:image" content="http://www.crackle.com/styles/themes/default/images/facebookShare.jpg" /><meta property="og:site_name" content="Crackle" /><meta property="fb:admins" content="1791849691, 638421864, 1252703978" /><meta property="og:locale" content="en_US" /><meta property="fb:app_id" content="91018702399" /><meta property="og:description" content="Crackle - Your online TV network, with new episodes daily.  Watch movies online, free tv show, episodes." />
-        <style>
-            html {
-                background: #ffffff;
-            }
-        </style>
-        <script type="text/javascript">
-	
-var Browser={Version:function(){var version=999;if(navigator.appVersion.indexOf("MSIE")!=-1)
-version=parseFloat(navigator.appVersion.split("MSIE")[1]);return version;}};if(!window.XMLHttpRequest)XMLHttpRequest=function()
-{try{return new ActiveXObject("Msxml2.XMLHTTP.6.0")}catch(e){}
-try{return new ActiveXObject("Msxml2.XMLHTTP.3.0")}catch(e){}
-try{return new ActiveXObject("Msxml2.XMLHTTP")}catch(e){}
-try{return new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}
-throw new Error("Could not find an XMLHttpRequest alternative.")};function MyXMLHttpRequest(onload)
-{this.req=new XMLHttpRequest();this.isComplete=false;function NULL(){}
-var _this=this;this.req.onreadystatechange=function()
-{if(_this.req.readyState==4)
-{_this.req.onreadystatechange=NULL;_this.isComplete=true;onload((_this.req.status>=400)?null:_this.req,_this.url);}};this.sendAsync=function(body)
-{setTimeout(function(){_this.req.send(body||null);},1);}
-this.get=function(url)
-{this.url=url;try
-{this.req.open("GET",url,true);}
-catch(e)
-{alert(e);}
-this.sendAsync();}
-this.post=function(url,mapParams)
-{var strParams="";for(var key in mapParams)
-{var value=mapParams[key];if(strParams)
-strParams+="&";strParams+=key+"="+encodeURIComponent(value||"");}
-this.url=url;this.req.open("POST",url,true);this.req.setRequestHeader("Content-type","application/x-www-form-urlencoded");this.sendAsync(strParams);}}
-function QueuedLoader(strUrlPrefix,callback)
-{var _rgPendingScripts=[];this.Load=function(strHref)
-{var req=new MyXMLHttpRequest(OnLoad);_rgPendingScripts.push(req);if(strHref.charAt(0)=="/")
-strHref=strUrlPrefix+strHref;req.get(strHref);}
-this.Add=function(strText)
-{var req={isComplete:true,req:{responseText:strText}};_rgPendingScripts.push(req);if(_rgPendingScripts.length==1)
-OnLoad(req.req);}
-function OnLoad(r)
-{if(_rgPendingScripts[0].req!=r)
-return;while(_rgPendingScripts.length>0)
-{req=_rgPendingScripts[0];if(!req.isComplete)
-return;callback(req.req.responseText);_rgPendingScripts.shift();}}}
-var _jsLoader=new QueuedLoader("/app/jsmin.ashx?v=20550&p=",function(str)
-{var e=document.createElement("script");e.type="text/javascript";if("text"in e)e.text=str;else if("textContent"in e)e.textContent=str;else if("innerHTML"in e)e.innerHTML=str;else e.appendChild(document.createTextNode(str));document.getElementsByTagName("head")[0].appendChild(e);})
-var _cssLoader=new QueuedLoader("/app/cssmin.ashx?v=20550&p=",function(str)
-{var e=document.createElement("style");e.type="text/css";if("styleSheet"in e)e.styleSheet.cssText=str;else if("text"in e)e.text=str;else if("textContent"in e)e.textContent=str;else if("innerHTML"in e)e.innerHTML=str;else e.appendChild(document.createTextNode(str));document.getElementsByTagName("head")[0].appendChild(e);})
-var _fScriptsLoaded=false,_adRight,_adFooter,_adGutters,_isIE=(navigator.userAgent.toLocaleLowerCase().indexOf('msie')>-1),_isIOS=false,_isAndroid=false,_isMobile=(_isIOS||_isAndroid),_currentLocale='en-us',_isLatAm=(_currentLocale=='pt-br'||_currentLocale=='es'),_closeText="close x",_charMaxLimit='characters max. limit',_registerEmailAddress='Enter your Email Address.',_registerEmailAddressInvalidEmail='Please enter a valid email address.'
-_registerUsernameRequired='User name is required.',_registerPasswordLength='Passwords must be between 8 and 20 characters in length and must contain at least one number or symbol.',_registerPasswordDoesNotMatch='Your password does not match.',_registerGenderRequired='Gender is required.',_registerCountryRequired='Please select your country',_registerAcceptTOS='Please accept Terms of Agreement',_registerValidBirthDate='Enter a valid Month, Day and Year for Date Of Birth.',_registerEnterActivationCode='Please enter your activation code.',_registerAccountDeactivated='You deactivated your account successfully.',_registerValidEmailAddress='Please enter a valid email address.',_registerEnterPassword='Please enter a password.',_registerCaptcha='Please type the 4 digit code in the image.',_registerConfirmEmail='Email is not confirmed.',_emptyUserPlaylist='Are you sure you want to remove all items?',_deleteUserPlaylist='Are you sure you want to delete this watchlist?';if(typeof(s_account)=="undefined"){var s_account='crackleprod';}
-</script>
-    <link rel="stylesheet" type="text/css" href="/styles/themes/default/OutreachPage_69413E5D64EB6BCFF92970F219B0F3AA.css" />
-
-    <style type="text/css" rel="stylesheet" id="ctl00_MasterHeadStyles_Style2">
-	
-        #mainTop {
-            height: 1px;
-            margin: 0px;
-            line-height: 1px;
-        }
-    
-</style> 
-
-        <!--[if IE 7]>
-<link rel="stylesheet" href="/styles/themes/fonts/font-awesome-ie7.min.css">
-<![endif]-->
-        
-
-	<script type="text/javascript" src="/scripts/OutreachPage_71914B2154B202477283A8287C8936D7.js"></script> 
- 
-    <script type="text/javascript">
-        var site_section = "outreach";
-        var key_values = 'tag=Privacy'
-  </script>
-
-  
-        <script src="//us-creative.s3.amazonaws.com/crackle/crackle.deeplinker.proto.js"></script>
-        <script type="text/javascript">
-            (function() {
-                var TypeKitID, loc = window.location.hostname, top = loc.substr(loc.lastIndexOf('.') + 1, loc.length);
-                if (!!top.match(/com|br|mx|co|ar/)) {
-                    TypeKitID = 'bsv6cgh';
-                } else if (!!top.match(/bo|sv|ec|pa|hn/)) {
-                    TypeKitID = 'kce5des';
-                } else if (!!top.match(/pe|ve|uy|py|ni/)) {
-                    TypeKitID = 'mix4zbn';
-                } else if (!!top.match(/gt|do|cl|cr/)) {
-                    TypeKitID = 'qqs1mny';
-                } else { TypeKitID = 'bsv6cgh'; }
-                var config = {
-                    kitId: TypeKitID,
-                    scriptTimeout: 3000
-                };
-                var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-            })();
-            var $jq = (jQuery).noConflict();
-            var CrackleLogger = new Crackle.utils.CrackleLogger(false);
-    
-    
-            AddedToQueueInit();
-            //OfflineQueueInit();
-    
-        
-            Crackle.social.facebook.showNUXDialog = false;
- 
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId: '91018702399',
-                    status: true,
-                    cookie: true,
-                    xfbml: true,
-                    oauth: true,
-                    channelUrl: '/facebookChannel.aspx',
-                    version: 'v2.2'
-        });
-            
-        Crackle.social.facebook.init(function() {
-            if ($jq('#nowPlaying').length == 1) {
-                Crackle.social.facebook.parseXFBML();
-                Crackle.social.facebook.loadComments();
-                return false;
-            }
-            if ($jq('#activities').length == 1) {
-                Crackle.social.facebook.parseXFBML($jq('#fb_activity')[0]);
-            }
-        });
-    };
-    // Crackle Strings 
-    Crackle.str = {
-        socialOn: 'Social On',
-        socialOff: 'Social Off',
-        socialIsOn: 'Social is ON',
-        socialIsOff: 'Social is OFF',
-        readMore: 'Read More',
-        hideDetails: 'Hide Details',
-        signInUsingFB: 'Sign in using Facebook',
-        recommended: '(Recommended)',
-        or: 'or',
-        signInToCrackle: 'Sign in to Crackle',
-        email: 'Email',
-        password: 'Password',
-        forgotPassword: 'Forgot password?',
-        rememberMe: 'Remember me',
-        signIn: 'Sign In',
-        registerForCrackle: 'register for Crackle',
-        myWatchlist: 'My Watchlist',
-        addToWatchlist: '+ Watchlist',
-        inMyWatchlist: 'In My Watchlist',
-        remove: 'Remove',
-        notifyMe: 'Notify Me',
-        notified: 'Notified',
-        seeAll: 'See All'
-    };
-    Crackle.social.facebook.socialShare = false;
-            Crackle.social.facebook.socialReminder = false;
-            Crackle.stats.pstOffsetInHours = -7;
-
-            // Global Ad Config
-            Crackle.ads.GlobalAdConfig = {
-                prefix: 'cr.crack.',
-        region: 'opus',
-        siteSection: 'home',
-        profile: 'g_iframe_js',
-        userAge: '',
-        userGender: ''
-    };
-
-    
-            Crackle.ads.GlobalAdConfig.server = '2517d';
-            Crackle.ads.GlobalAdConfig.network = '151933';
-            
-
-            Crackle.views.init();
-
-            Crackle.player.pauseAndResume.isDisabled = false;
-        </script>
-        
-        
-        <script type="text/javascript" src="//cdn.optimizely.com/js/284669517.js"></script>
-        <script type='text/javascript'>
-    $jq(document).ready(function(){
-        Crackle.dialogs.login.init('www.crackle.com', true);
-        if (_adFooter) 
-    	    _adFooter.InitializeDefault();
-
-        
 
 
-        });
-        </script>
-        <script type='text/javascript'>
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-832857-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-    var _prum = [['id', '523cace6abe53dfc63000000'],['mark', 'firstbyte', (new Date()).getTime()]];
-    (function() {
-        var s = document.getElementsByTagName('script')[0], p = document.createElement('script');
-        p.async = 'async';
-        p.src = '//rum-static.pingdom.net/prum.min.js';
-        s.parentNode.insertBefore(p, s);
-    })();
-        </script>
-
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" /></head>
-<body >
-
-    <script type="text/javascript">
-        // add ie information
-        (function($) {
-            $(function() {
-                if (document.documentMode) {
-                    $('body').addClass('ie' + document.documentMode);
-                }
-            });
-        })(window.jQuery);
-    </script>
 
 
-    
 
 
-    
 
-    <div id="fb-root"></div>
-    <script type="text/javascript">
-        (function (d) {
-            var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-            if (d.getElementById(id)) { return; }
-            js = d.createElement('script'); js.id = id; js.async = true;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-        ref.parentNode.insertBefore(js, ref);
-    } (document));
-    </script>
-    
-    <div id="signin" style="display: none;"></div>
-    <div id="addtoqueue" style="display: none"></div>
-    <div id="subscribetochannel" style="display: none"></div>
-    <div id="socialMenuContainer">
-        <div id="socialMenu" class="socialOff">
-            <div style="display: none;" id="socialOn">
-                <a id="socialShareReminder" href="javascript:void(0);" onclick="Crackle.social.facebook.toggleReminder();">
-                    <div class="leftBlock">
-                        <span id="socialReminder" ></span>
-                    </div>
-                    <div class="rightBlock">
-                        <span>Remind me every time my watch activity will be posted.</span>
-                    </div>
-                </a>
-                <div class="clearall"></div>
-            </div>
-            <div id="socialOff">
-                <div class="login-facebook">
-                    <div id="fbLoginBtn" class="fb-login-button">
-                        <a class="fb_button fb_button_large" href="javascript:void(0)" onclick="Crackle.social.facebook.login();">
-                            <span class="fb_button_text">Log In with Facebook</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div id="memberProfile">
-                
-                <a id="linkEditProfile" class="menuLink" href="javascript:void(0);" name="&lid=edit-profile&lpos=header-right">Profile</a>
-                
-            </div>
-            <div id="memberSignout">
-                <a class="menuLink" href="javascript:void(0);" onclick="Crackle.social.facebook.logout(); Crackle.stats.omniture.trLogout();">Sign Out</a>
-            </div>
-        </div>
-        <div style="display:none;" id="publicAwareness" >
-            <a href="#" id="closeAwareness">X</a>
-            <div class="socialOn">
-                <div class="socialStatus">Social Sharing is ON.</div>
-                <div class="socialMessage">Your Facebook friends can now see your activities on Crackle. <a href="/outreach/faq#social_sharing" target="_blank">More Info</a></div>
-            </div>
-            <div class="socialOff">
-                <div class="socialStatus">Social Sharing is OFF.</div>
-                <div class="socialMessage">Your Facebook friends will not be able to see your activities on Crackle. <a href="/outreach/faq#social_sharing" target="_blank">More Info</a></div>
-            </div>
-        </div>
-        <div id="newUserExperience">
-            <div class="newUserHeader">
-                <div class="facebookLogo">Crackle + Facebook</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Remind me every time my watch activity will be posted.
+
+
+
+
+
+
+
+
+Log In with Facebook
+
+
+
+
+
+Profile
+
+
+Sign Out
+
+
+
+X
+
+Social Sharing is ON.
+Your Facebook friends can now see your activities on Crackle. More Info
+
+
+Social Sharing is OFF.
+Your Facebook friends will not be able to see your activities on Crackle. More Info
+
+
+
+
+Crackle + Facebook
                 Social Sharing and Crackle - It's On
-            </div>
-            <p class="socialReasons">It's easier than ever to share your favorite Crackle content with your Facebook friends. Just log in with Facebook and you're done. Social Sharing allows you to...</p>
-            <ul>
-                <li>Comment, rate and create a personal Watchlist</li>
-<li>Seamlessly share what you're watching and all your Crackle activity</li>
-<li>Discover what your Facebook friends are watching, rating and sharing.</li>
-            </ul>
-            <div class="newUserReasons">Control your social voice</div>
-            <p class="socialLearnMore">You have full control over what you share with your Facebook friends. You can choose to be notified instantly of every watch activity before you share or turn off Social Sharing completely. <a href="/outreach/faq#social_sharing" target="_blank">Click here</a> to learn more.</p>
-            <div class="newUserReasons">Ready to get your Social on?</div>
-            <div id="fbActionButtons" class="clearall">
-                <a href="#" class="btnGray">Turn Social Off</a>
-                <a href="#" class="btnOrange">Keep Social On</a>
-            </div>
-        </div>
-    </div>
+            
+It's easier than ever to share your favorite Crackle content with your Facebook friends. Just log in with Facebook and you're done. Social Sharing allows you to...
 
-    
+Comment, rate and create a personal Watchlist
+Seamlessly share what you're watching and all your Crackle activity
+Discover what your Facebook friends are watching, rating and sharing.
 
-<script type="text/javascript">
-    $jq(function () {
-        var url = location.href.toLowerCase();
-        $jq('.header-link a').each(function () {
-            $jq(this).removeClass('highlighted');
-            if (this.href.toLowerCase() == url) {
-                $jq(this).addClass('highlighted');
-            }
-        });
-    });
-</script>
+Control your social voice
+You have full control over what you share with your Facebook friends. You can choose to be notified instantly of every watch activity before you share or turn off Social Sharing completely. Click here to learn more.
+Ready to get your Social on?
 
-<div style="background: #000;">
-    <div id="new-header">
-        
-        
+Turn Social Off
+Keep Social On
 
-<div id="topbar">
-    <div class="center">
-        <div id="logged-in-nav">
-            <div id="ctl00_WebsiteNewHeader_ucTopBar_pnlLoginLinks">
-	
-                <a href="#" onclick="return gotoMyWatchlist();" name="&lid=my-watchlist&lpos=header-right">My Watchlist</a>
+
+
+
+
+
+
+
+
+
+My Watchlist
                 |
-                <a href="#" onclick="return openLogin();" name='&lid=login&lpos=header-right'>Sign In</a>
+                Sign In
                 | 
-                <a href="https://www.crackle.com/accounts/create/JoinCrackle.aspx?urlReturn=http%3a%2f%2fwww.crackle.com%2foutreach%2findex.aspx?page=privacy" name="&lid=join&lpos=header-right">Register</a>
-            
-</div>
-        </div>
-        <div id="logged-out-nav">
-            <div id="ctl00_WebsiteNewHeader_ucTopBar_pnlUserInfo">
-	
-                <!-- Facebook logged in social on status -->
-                <div style="display: none;">
-                    <span id="socialStatus">Social Off</span>
-                    <a id="socialToggle" href="javascript:void(0);" onclick="var isOn =Crackle.social.facebook.isSocialOn(); Crackle.social.facebook.toggleSocial();Crackle.stats.omniture.trFBSocialToggle(!isOn);" >Social</a>
-                </div>
-                <div id="memberAvatar">
-                    <img id="facebookAvatar" src="/styles/themes/default/images/crackleDefaultAvatar.png" />
-                </div>
-            
-</div>
-            <span id="my-watchlist-link" style="float: right;">
-                <a id="linkMyWatchlist" class="menuLink" href="#" name="&lid=my-watchlist&lpos=header-right" onclick="return gotoMyWatchlist();">My Watchlist
-                    <!--(<span class="user-queue-count">0</span>)-->
-                </a>
-            </span>
-        </div>
-        <script type="text/javascript">
-            $jq(function () {
-                var socialMenu = $jq('#socialMenu');
-                var socialToggle = $jq('#socialToggle');
-                var publicAwareness = $jq('#publicAwareness');
-
-                function hideSocialMenu() {
-                    socialMenu.delay(500, 'hideSocialMenu').queue('hideSocialMenu', function () {
-                        socialMenu.hide();
-                    }).dequeue('hideSocialMenu');
-                }
-
-                $jq('#ctl00_WebsiteNewHeader_ucTopBar_pnlUserInfo').hoverIntent({
-                    over: function () {
-                        if (publicAwareness.css('display') == 'none') {
-                            socialMenu.show().stop('hideSocialMenu', true);
-                        }
-                    },
-                    interval: 150,
-                    timeout: 500,
-                    out: hideSocialMenu
-                });
-
-                socialMenu.hoverIntent({
-                    over: function () {
-                        socialMenu.stop('hideSocialMenu', true);
-                    },
-                    interval: 10,
-                    timeout: 500,
-                    out: hideSocialMenu
-                });
-
-                socialToggle.bind('displayPublicAwareness', function (evt) {
-                    if (!Crackle.social.facebook.isAuthorized()) { return false; }
-                    socialMenu.hide();
-                    publicAwareness.show().delay(10000).fadeOut(1000);
-                });
-
-                $jq('#closeAwareness').bind('click', function (evt) {
-                    socialToggle.stop('displayPublicAwareness', false);
-                    publicAwareness.hide();
-                    evt.preventDefault();
-                });
-
-                $jq('body').delegate('.tooltipActions .item-in-watchlist, .tooltipActions .item-in-notifications', {
-                    mouseover: function () {
-                        $jq(this).text(Crackle.str.remove);
-                    },
-                    mouseout: function () {
-                        var elem = $jq(this);
-                        elem.text((elem.hasClass('item-in-watchlist') ? Crackle.str.inMyWatchlist : Crackle.str.notified));
-                    }
-                }).delegate('.tooltipActions .add-to-watchlist-btn, .tooltipActions .notify-me-btn', {
-                    click: function (evt) {
-                        var elem = $jq(this);
-                        $jq($jq.bt.vars.closeWhenOpenStack).btOff();
-                        if (Crackle.user.IsLoggedIn() && elem.hasClass('add-to-watchlist-btn')) {
-                            $jq('#my-watchlist-container').html('<div class="loading" />');
-                        }
-                        Crackle.media.handleWatchlistNotificationStatus(elem);
-                        evt.preventDefault();
-                    }
-                });
-
-                // Make sure the menu has the correct links, can't rely on the LoadUser function
-                return (_user != null ? _user.DisplayUser() : '');
-            });
-        </script>
-    </div>
-</div>
-
-
-        
-        
-<div id="crackle-autocomplete-wrapper">
-    <input type="text" class="inactive" id="crackle-autocomplete" value="" />
-    <img src="/images/search/button-clear.png" class="button-clear" />
-</div>
-<ul class="crackle-autocomplete-ul"></ul>
-<script type="text/javascript">
-    $jq(function () {
-        $jq('#crackle-autocomplete')
-            .crackleAutoComplete({
-                resultsOffsetTop: 1,
-                resultsOffsetLeft: 50,
-                geoCode: 'US',
-                keywordCookieName: 'crackle.searchKeyword',
-                partnerId: 20,
-                texts: {
-                    inText: 'in',
-			                noResultsText: 'NO RESULTS FOUND.',
-			                noResultsLinkText: 'TRY EXPLORING OUR <a href="/c/genres" data-type="genres">GENRES</a>.',
-			                placeholderText: 'Search'
-			            }
-            });
-    });
-</script>
-
-
-
-
-        
-        <ul class="header-ul">
-            <li title="Crackle" class="header-logo" data-url="/" onclick="Crackle.stats.omniture.header.logo(this);"></li>
-
-            
-            
-            <li class="header-link">
-                <a href="/c/movies" name="&lid=Movies&lpos=subheader:1">Movies</a>
-            </li>
-            
-            <li class="header-link">
-                <a href="/c/shows" name="&lid=TV&lpos=subheader:2">TV</a>
-            </li>
-            
-            <li class="header-link">
-                <a href="/c/watchlists" name="&lid=Watchlists&lpos=subheader:3">Watchlists</a>
-            </li>
-            
-            <li class="header-link">
-                <a href="/shows/index.aspx?c=82#o=2&amp;fa=82&amp;fs=&amp;fab=&amp;fg=&amp;fry=" name="&lid=Browse&lpos=subheader:4">Browse</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-    
-
-    <!--[if IE 6]>
-        <script>document.write('<div class="ie6-message"><p>Your browser is no longer supported. Please upgrade to a modern browser</p><div class="browsers"><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" class="ie"></a><a href="http://www.mozilla.com/en-US/firefox/" class="firefox"></a><a href="http://www.apple.com/safari/" class="safari"></a><a href="http://www.google.com/chrome" class="chrome"></a></div></div>');</script>
-    <![endif]-->
-    <div class="content-wrapper" id="content-wrapper">
-        
-        
-
-        
-        <div id="main">
-            
-        </div>
-
-
-        
-        <div id="content">
-            
-    <div class="staticBody">
-		<h1 id="PageTitle">Crackle Privacy Policy</h1>
-        <div><p><style type="text/css">
-    .staticBody li {
-        list-style-position: inside;
-        margin: 10px;
-    }
-
-    #privacyOverview td {
-        border: 1px solid #e7e7e7;
-        padding: 10px;
-    }
-</style></p>
-<h1>Last Modified: October 22 , 2014 <a href="/outreach/privacy_old">(view archived versions)</a></h1>
-<p>Welcome to Crackle.com and Crackle&rsquo;s mobile and web-based applications (the &quot;Service&quot;) operated by Crackle, Inc. (&quot;Crackle&quot; or &ldquo;we&rdquo;). Your privacy is important to us and we have prepared this Privacy Policy to explain to you:</p>
-<ul>
-    <li>What information we collect and why.</li>
-    <li>How we use and share that information.</li>
-    <li>How you can access and update that information.</li>
-</ul>
-<p>&nbsp;</p>
-<p>By using the Service, you consent to the collection and use of your information as outlined in this Privacy Policy. Please read this Privacy Policy carefully, and if you have any questions, feel free to <a href="mailto:sonyprivacy@spe.sony.com">contact us</a>.</p>
-<div style="margin: 20px 50px 0px 50px">
-<div id="privacyOverview">
-<h4>Privacy Overview</h4>
-<p>The following is a brief overview of Crackle&rsquo;s Privacy Policy.  For the full text of the Privacy Policy, please read on or click on the links below to take you directly to the section you are interested in.</p>
-<table border="0">
-    <tbody>
-        <tr>
-            <td valign="top">
-            <h4><a href="#informationWeCollect"><b>What information we collect and why</b></a></h4>
-            <div>
-            <ul>
-                <li>You may use many of Crackle&rsquo;s features anonymously, but we may use cookies and other technologies to keep track of your interactions with the Service and to highlight content that may be of particular interest to you based on past visits to the Service.</li>
-                <li>This information may be combined with information obtained from Crackle&rsquo;s affiliates and other companies.</li>
-                <li>When you register for a Crackle account, we will ask you for personal information.</li>
-                <li>We identify the country from which you are accessing the Service because some content is restricted by location. We also use your location to target relevant content and ads to you.</li>
-            </ul>
-            </div>
-            </td>
-            <td valign="top"><a href="#informationWeCollect"><b>How we use and share your personal information</b></a>                     <br />
-            <br />
-            <ul>
-                <li>We use the information collected to provide you the services and products you request and to provide you more relevant content and ads, including information about Crackle sweepstakes and promotions.</li>
-                <li>We share website analytics, your interactions with the Service and information about your device(s) with third parties to provide the Services to you and for advertising purposes.</li>
-            </ul>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top"><a href="#optingOutOfCommunications"><b>How you can access and update that information</b></a>                     <br />
-            <br />
-            <ul>
-                <li>If you wish to view your information or update it, please visit your profile page.</li>
-            </ul>
-            </td>
-            <td valign="top"><a href="#optingOutOfCommunications"><b>Opting-out of Crackle newsletters</b></a>                     <br />
-            <br />
-            <ul>
-                <li>We want to communicate with you only if you want to hear from us. If you wish to discontinue your Crackle newsletter subscription, please click the unsubscribe link at the bottom of the Crackle newsletter.</li>
-            </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-</div>
-<h4 id="informationWeCollect" name="informationWeCollect">Information We Collect and How We use it</h4>
-<p>We collect information in two ways: (i) when you provide information about yourself and (ii) automatically when you use the Service, for various purposes related to providing you the Services and products as described below.</p>
-<h4>Information You Choose To Submit</h4>
-<p><b>(a) Registering for a Crackle Account.</b> When you register to become a member of the Service, we collect your user name, email address, gender, and date of birth (collectively &quot;Personal Information&quot;). You may also create a profile that includes a photo and a brief message about yourself.</p>
-<p>We use your Personal Information to notify you of new product releases, to send service notifications, to customize the content and advertising you see, to fulfill your requests for products and services, to improve our services, to conduct research, and to solicit your feedback and input about the Service. In addition, if you have opted into receiving newsletters or other communications from us, we use your Personal Information for that purpose.</p>
-<p><b>(b) Entering Contests and Sweepstakes.</b> For contests, sweepstakes and other promotions conducted on or through the Service, we use the Personal Information and other personal information you choose to provide to communicate with you regarding such contest, sweepstakes or other promotion and you are deemed to consent to us sharing such Personal Information with our contest, sweepstakes or promotional partners for the purpose of administering awards.</p>
-<p><b>(c) Sharing with Third Parties.</b> Other than as set forth in this Privacy Policy, we will not share your Personal Information with third parties unless you have given us permission to do so.</p>
-<h4>Information We Automatically Collect</h4>
-<p><b>(a) Usage Data.</b> We automatically collect certain information to help us understand how our users use the Service (which we will refer to in this Privacy Policy collectively as &quot;Usage Data&quot;). For example, each time you use the Service we may collect your IP address or other unique identifier for the computer, mobile device, technology or other device, in part because some content is restricted to certain locations.</p>
-<p id="privacyCookies" name="privacyCookies">(b)	<b>Cookies.</b> In addition, we use a technology called &quot;cookies.&quot; A cookie is a piece of data that identifies you as a unique user. We use cookies to improve the quality of our Service and make the Service easier to use. We do this by storing information (for example, settings preferences) about a particular user session in cookies in order to provide you with a seamless experience during a particular session. Certain of our third-party Providers (as defined in the next paragraph) may use cookies in connection with the services they perform on our behalf. If you choose to do so, you can configure your browser to delete existing cookies or disable cookies altogether. However, certain features of the Service may not work if you delete or disable cookies.</p>
-<p><b>(c) Using this Automatically Collected Information for Service Performance and Advertising.</b> Advertising allows us to provide you the rich content available on Crackle for free. Some of our ads are based on the content of pages you are viewing elsewhere on the internet (i.e. online behavioral advertising). We believe that such tailored ads are more relevant to you and, therefore, more desirable.</p>
-<p>We also use automatically collected information for Service performance, data management and to display the appropriate content available in your country.</p>
-<p>We may contract with companies or persons to provide certain services including data management, promotional and advertising services (&quot;Providers&quot;). We give our Providers the information needed for them to perform these services. We also ask our Providers to abide by this Privacy Policy with respect to Usage Data or other data we share with them.</p>
-<p>Certain Providers of advertising services may use Usage Data (together with any information they collect directly from you via cookies and any information that you submit directly to them) to (a) improve, enhance and implement the sale, display and targeting of advertising on the Service and (b) combine such Usage Data with user data from their other customers to compile aggregate statistics, metrics and general trend data.</p>
-<p>You can opt out of the collection of data by certain Providers for online behavioral advertising at the <a href="http://www.networkadvertising.org/choices" target="_blank">Network Advertising Initiative&rsquo;s opt-out page.</a>. For more information and choices about interest-based ads, you may also visit the website for the <a href="http://www.aboutads.info" target="_blank">Self-Regulatory Principles for Online Behavioral Advertising.</a>. Crackle adheres to the Self Regulatory principles posted on this Service.</p>
-<p>Additionally, the Service features Nielsen&rsquo;s proprietary measurement software which will allow users to contribute to market research, like Nielsen&rsquo;s TV Ratings.  For more information about the measurement software and to learn about your choices with regard to Nielsen&rsquo;s measurement, you may visit <a href="http://www.nielsen.com/digitalprivacy" target="_blank">Nielsen&rsquo;s Digital Measurement Privacy Policy</a>.</p>
-<h4>Legal Reasons for Sharing Your Information</h4>
-<p>Notwithstanding anything in this Privacy Policy to the contrary, you understand and agree that Crackle may, in good faith, access, preserve, and disclose any information we have collected about you or that you have submitted:</p>
-<p>(a)	In response to subpoenas, court orders, or legal process, or to establish, protect, or exercise our legal rights or defend against legal claims;</p>
-<p>(b)	To protect the rights and property of Crackle, its affiliates, or the public;</p>
-<p>(c)	If we believe it is necessary in order to investigate, prevent, or take action regarding illegal activities, fraud, or situations involving potential threats to the safety of any person;</p>
-<p>(d)	To our parent company, subsidiaries, joint ventures, or other companies under common control with Crackle (in which case we will require such entities to honor this Privacy Policy);</p>
-<p>(e)	If Crackle is acquired by or merged with another entity (in which case we will require such entity to assume our obligations under this Privacy Policy); and</p>
-<p>(f)	Crackle may forward any counter notification that you submit pursuant to Crackle&#39;s Terms of Service, and any related communications, to third parties.</p>
-<h4 id="optingOutOfCommunications">Opting Out Of Future Communications; Updating And Deleting Your Information</h4>
-<p>We want to communicate with you only if you want to hear from us.  If you wish to discontinue your Crackle newsletter subscription, please click the unsubscribe link at the bottom of the Crackle newsletter. If you would like to update or delete your email address or Personal Information that you previously submitted to us, you may do so by editing your Profile page at any time by following the process described <a href="/outreach/faq#editing_profile">here.</a>.  If you have questions or concerns regarding this Privacy Policy, please feel free to <a href="mailto:sonyprivacy@spe.sony.com">contact us</a> or write to us at:</p>
-<address>Crackle, Inc.,         <br />
-10202 Washington Blvd.,         <br />
-Harry Cohn Building, Culver City, CA 90232         <br />
-Attn: Customer Service</address>
-<h4>Public / Social Areas</h4>
-<p>Your use of areas of the Service that are intended for interaction with other users may reveal your user name and may allow you to publish certain personal information about you. By choosing to use these areas, you understand and agree that anyone with access to those areas may access and forward any information about you that is contained in or that you post to those areas. As with any social networking service, you should use care when disclosing your personal information to strangers.</p>
-<p>Also, the Service may permit interactions between the Service and a third party website or service, such as enabling you to &quot;like&quot; a product on our Service or &quot;share&quot; content to other websites or services. If you choose to &quot;like&quot; or &quot;share&quot; content on the Service or to otherwise post information from or via the Service to a third party&#39;s website, service, feature or application, that information will become public and the third party may have access to information about you and your use of our Services.</p>
-<h4>Third-Party Web Sites</h4>
-<p>The Service may contain links to websites operated and maintained by third parties over which we have no control. Privacy policies on such linked websites may be different from our Privacy Policy. You access such linked websites at your own risk. Similarly, the Service may be accessed and used from third-party websites that we do not control. We have no control over the privacy policies of such third-party websites and you access such third-party websites at your own risk.</p>
-<h4>Security; Monitoring</h4>
-<p>We incorporate commercially reasonable safeguards to help protect and secure your Personal Information. However, no electronic data transmission or storage of information can be guaranteed to be 100% secure. Please note that we cannot ensure or warrant the security of any information you transmit to us, and you use the Services and provide us with your information at your own risk.</p>
-<p>To help protect you and others, we may monitor your use of the Services and use your Personal Information, Usage Data and/or other information we collect in order to: identify fraudulent activities and transactions; prevent abuse of and investigate and/or prosecute potential threats to or misuse of the Services; ensure compliance with the Terms of Use and this Privacy Policy; investigate violations of or enforce these agreements; and protect the rights and property of you, Crackle, its partners and other customers. This security monitoring may result in the collection, recording, and analysis of online activity or communications through the Services. If you do not consent to these conditions, you must discontinue your use of the Services.</p>
-<h4>General Audience Service</h4>
-<p>The Service is a general audience website and application, and we do not knowingly collect personally identifiable information from children under the age of 13. If we become aware that we have inadvertently received personally identifiable information from a user under the age of 13, we will delete such information from our records. Because we do not knowingly collect any personally identifiable information from children under the age of 13, we also do not knowingly distribute such information to third parties.</p>
-<h4>Notice to California Residents</h4>
-<p>Pursuant to California Civil Code Section 1798.83, Crackle has a comprehensive privacy policy that sets forth that Crackle only shares personal information with third parties for direct marketing purposes if you specifically opt-in or are offered the opportunity to opt-out and elect not to opt-out to such sharing at the time you provide personal information or at the time you choose to participate in a feature on the Service. If you do not opt-in or if you opt-out at that time, Crackle does not share your information with that identified third party for marketing purposes.</p>
-<p>California Business &amp; Professions Code Section 22575(b) (as amended effective January 1, 2014) provides that California residents are entitled to know how Crackle responds to &ldquo;Do Not Track&rdquo; browser settings.  Like many other websites and online services, Crackle does not currently alter its practices when it receives Do Not Track signals because there is no consensus among industry participants as to what &ldquo;Do Not Track&rdquo; means in this context. To find out more about &ldquo;Do Not Track,&rdquo; you may wish to visit <a href="http://www.allaboutdnt.com/" target="_blank">About Do Not Track (DNT)</a>. In addition, California residents are entitled to know that third parties may collect personal information about your online activities over time and across different websites when you visit the Service. For more information about this, please refer to the following Sections above:  Opting Out Of Future Communications; Updating And Deleting Your Information, Information We Automatically Collect About You, and Third Party Web Sites.</p>
-<h4>Consent to Transfer</h4>
-<p>The Services are operated in the United States. If you are located in the European Union, Canada or elsewhere outside of the United States, please be aware that information we collect will be transferred to and processed in the United States. By using the Services, or providing us with any information, you consent to this transfer, processing and storage of your information in the United States, a jurisdiction in which the privacy laws may not be as comprehensive as those in the country where you reside and/or are a citizen.</p>
-<h4>Changes</h4>
-<p>Crackle may, in its sole and absolute discretion, change this Privacy Policy from time to time. In case of any material change to this Privacy Policy, we will replace the &ldquo;Privacy&rdquo; link on our home page with a link entitled &ldquo;Privacy: Updated&rdquo; for no less than 30 days. All changes to the Privacy Policy will be effective when posted, and your continued use of the Service after the posting will constitute acceptance of, and agreement to be bound by, those changes. If you object to any such changes, your sole recourse shall be to cease using the Service. However, if we make any change that allows us to use your Personal Information in any materially different manner than we were permitted under the Privacy Policy in effect at the time you submitted such Personal Information, we will obtain your consent before making such materially different use.</p>
-<h4>Additional Questions</h4>
-<p>Again, feel free to <a href="mailto:sonyprivacy@spe.sony.com">contact us</a> any time if you have further questions about this Privacy Policy.</p>
-</div></div>
-         <div class="clearall"></div>
-    </div>
-
-            <div class="clearall"></div>
-        </div>
-
-
-        
-        
-        
-    <!-- Freewheel -->
-    
-         <span id="ad20002000" class="_fwph">
-            <form id="_fw_form_ad20002000" style="display: none">
-                <input type="hidden" name="_fw_input_ad20002000" id="_fw_input_ad20002000" value="ptgt=s&h=2000&w=2000&flag=+cmpn">
-            </form>
-            <span id="_fw_container_ad20002000"></span>
-        </span>
-    
-        
-    </div>
-    <div class="footerWrapper">
-        <div id="footer" class="footer">
-            
-    <ul>
-       
-                <li>
-                  
-
-<div class="title">Top Movies</div>
-<ul>
-    
-           <li>
-              <a name="&lpos=footer" href="/c/joe-dirt-2-beautiful-loser">Joe Dirt 2</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/joe-dirt">Joe Dirt</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/click">Click</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/ali-g-indahouse">Ali G IndaHouse</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/lock,-stock-and-two-smoking-barrels">Lock, Stock, and Two Smoking Barrels</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/underworld">Underworld</a>
-           </li>
-       
-</ul>
-
-                </li>
-           
-                <li>
-                  
-
-<div class="title">JUST ADDED</div>
-<ul>
-    
-           <li>
-              <a name="&lpos=footer" href="/c/olympus-has-fallen">Olympus Has Fallen</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/lockout">Lockout</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/district-9">District 9</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/the-skulls">The Skulls</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/21">21</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/you-got-served">You Got Served</a>
-           </li>
-       
-</ul>
-
-                </li>
-           
-                <li>
-                  
-
-<div class="title">Explore</div>
-<ul>
-    
-           <li>
-              <a name="&lpos=footer" href="/c/Movies">Movies</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/c/shows">TV</a>
-           </li>
-       
-</ul>
-
-                </li>
-           
-                <li>
-                  
-
-<div class="title">About</div>
-<ul>
-    
-           <li>
-              <a name="&lpos=footer" href="/outreach/platforms">Supported Devices</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/about">Company News/About Us</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/outreach/faq">FAQ</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/outreach/tos/">Terms of Service</a>
-           </li>
-       
-</ul>
-
-                </li>
-           
-                <li>
-                  
-
-<div class="title">HOW TO</div>
-<ul>
-    
-           <li>
-              <a name="&lpos=footer" href="http://www.crackle.com/outreach/customersupport">Customer Support</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="/emaillist/unsubscribe.aspx">Unsubscribe</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="http://advertising.crackle.com/">Advertise With Us</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="http://www.crackle.com/outreach/privacy">Privacy Policy</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="http://www.crackle.com/outreach/privacy#privacyCookies">Cookies</a>
-           </li>
-       
-           <li>
-              <a name="&lpos=footer" href="http://www.crackle.com/outreach/aboutads">About Ads</a>
-           </li>
-       
-</ul>
-
-                </li>
-           
-    </ul>
-            <div class="info">
-                
-
-<form id="divNewsLetterAlert" onsubmit="subscribeToNewsletter(); return false;">
-   <div id="ctl00_CtrlSubscribeNewsletter_divSubscribe" class="subscribe" style="margin-top: 0 !important;">
-        <div class="title">Crackle Newsletter</div>
-        <div class="desc">Want to know what new movies and shows are on Crackle? ‘Course you do.</div>
-
-        <a class="btnOrange btnSmall" name="&lpos=crackle-insider&lid=join-us" href="http://www.crackle.com/emaillist/subscribe.aspx">Join Us</a>
-   </div>
-</form>
-                <div id="followus">
-                    <div style="float: left;">Follow us:</div>
-                    <a href="http://www.twitter.com/crackle" id="twitter" name="&lpos=footer&lid=follow-us-twitter" onclick="dfpFloodlightBtn('twitt537'); OmnTrackExitLink();" target="_blank"></a>
-                    <a href="http://www.facebook.com/crackle" id="facebook" name="&lpos=footer&lid=follow-us-facebook" onclick="dfpFloodlightBtn('faceb671'); OmnTrackExitLink();" target="_blank"></a>
-                </div>
-            </div>
-            <div style="clear: both;">
-                <p>&copy; Crackle, Inc. 2015</p>
-            </div>
-        </div>
-    </div>
-
-    
-<script type="text/javascript">
-    (function () {
-        var adprefix = 'cr.crack.';
-        
-        var appendKeyValuePair = function (kvpString) {
-            window.key_values = window.key_values || '';
-            window.key_values += kvpString;
-        };
-        appendKeyValuePair('');
-        
-
-        
-        var profilePath = "crackle_linktag2_live";
-        window._fw_linktag_params = {
-            scan_delay: 0,
-            server: "2517d.v.fwmrm.net/ad/g/1",
-            network_id: "151933", // test
-            profile: "151933:crackle_linktag2_live",
-            other_global_params: "csid=" + adprefix + 'opus' + "_" + site_section,
-            key_values: ((typeof (key_values) == "undefined") ? "" : key_values)
-        };
-            
-
-
-
-
-
-        //Customer may not change the code below:
-        var e = function () {
-            if (document.addEventListener) document.removeEventListener('DOMContentLoaded', e, false);
-            else window.detachEvent('onload', e);
-            window._fw_page_ready = true;
-        };
-        if (document.addEventListener) document.addEventListener('DOMContentLoaded', e, false);
-        else if (window.attachEvent) window.attachEvent('onload', e);
-
-        var lt = document.createElement('script');
-        lt.type = 'text/javascript';
-        lt.async = true;
-
-        //FOR PRODUCTION
-        
-        lt.src = "http://adm.fwmrm.net/p/" + profilePath + "/LinkTag2.js";
-
-        //FOR DEMO AND TEST ONLY
-        //lt.src = "LinkTag2.js";
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lt, s);
-    })();
-
-</script>
-
-
-    <script type="text/javascript">
-        $jq(function () {
-            $jq('html').css('background-color', '#e3e3e3');
-            if (navigator.appVersion.indexOf('MSIE 9.0') > -1) {
-                $jq('.btnOrange').css('filter', 'none');
-                $jq('.btnGray').css('filter', 'none');
-            }
-
-            // open the login dialog from a query string
-            var queryString = ParseQueryString(location.search);
-            if (queryString.openLogin && queryString.openLogin === 'true') {
-                // Wait half a second to prevent FOUT
-                setTimeout(Crackle.dialogs.login.open, 500);
-            }
-
-            Crackle.dialogs.initSmartAppBanner();
-        });
-        var console = console || {
-            log: function (log) {
-                return log;
-            }
-        };
-    </script>
-    
-
-<script type="text/javascript">
-        
-    s.eVar8 = "";
-
-</script>
-
-<script type="text/javascript">
-    "function"!==typeof window.DIL&&(window.DIL=function(a,c){var d=[],b,g;a!==Object(a)&&(a={});var e,h,k,q,p,n,l,D,m,J,K,E;e=a.partner;h=a.containerNSID;k=a.iframeAttachmentDelay;q=!!a.disableDestinationPublishingIframe;p=a.iframeAkamaiHTTPS;n=a.mappings;l=a.uuidCookie;D=!0===a.enableErrorReporting;m=a.visitorService;J=a.declaredId;K=!0===a.removeFinishedScriptsAndCallbacks;E=!0===a.delayAllUntilWindowLoad;var L,M,N,F,C,O,P;L=!0===a.disableScriptAttachment;M=!0===a.disableCORSFiring;N=!0===a.disableDefaultRequest;
-        F=a.afterResultForDefaultRequest;C=a.dpIframeSrc;O=!0===a.testCORS;P=!0===a.useJSONPOnly;D&&DIL.errorModule.activate();var Q=!0===window._dil_unit_tests;(b=c)&&d.push(b+"");if(!e||"string"!==typeof e)return b="DIL partner is invalid or not specified in initConfig",DIL.errorModule.handleError({name:"error",message:b,filename:"dil.js"}),Error(b);b="DIL containerNSID is invalid or not specified in initConfig, setting to default of 0";if(h||"number"===typeof h)h=parseInt(h,10),!isNaN(h)&&0<=h&&(b="");
-        b&&(h=0,d.push(b),b="");g=DIL.getDil(e,h);if(g instanceof DIL&&g.api.getPartner()===e&&g.api.getContainerNSID()===h)return g;if(this instanceof DIL)DIL.registerDil(this,e,h);else return new DIL(a,"DIL was not instantiated with the 'new' operator, returning a valid instance with partner = "+e+" and containerNSID = "+h);var y={IS_HTTPS:"https:"===document.location.protocol,POST_MESSAGE_ENABLED:!!window.postMessage,COOKIE_MAX_EXPIRATION_DATE:"Tue, 19 Jan 2038 03:14:07 UTC"},G={stuffed:{}},u={},r={firingQueue:[],
-            fired:[],firing:!1,sent:[],errored:[],reservedKeys:{sids:!0,pdata:!0,logdata:!0,callback:!0,postCallbackFn:!0,useImageRequest:!0},callbackPrefix:"demdexRequestCallback",firstRequestHasFired:!1,useJSONP:!0,abortRequests:!1,num_of_jsonp_responses:0,num_of_jsonp_errors:0,num_of_cors_responses:0,num_of_cors_errors:0,corsErrorSources:[],num_of_img_responses:0,num_of_img_errors:0,toRemove:[],removed:[],readyToRemove:!1,platformParams:{d_nsid:h+"",d_rtbd:"json",d_jsonv:DIL.jsonVersion+"",d_dst:"1"},nonModStatsParams:{d_rtbd:!0,
-                d_dst:!0,d_cts:!0,d_rs:!0},modStatsParams:null,adms:{TIME_TO_CATCH_ALL_REQUESTS_RELEASE:2E3,calledBack:!1,mid:null,noVisitorAPI:!1,instance:null,releaseType:"no VisitorAPI",admsProcessingStarted:!1,process:function(f){try{if(!this.admsProcessingStarted){var s=this,a,x,b,d,c;if("function"===typeof f&&"function"===typeof f.getInstance){if(m===Object(m)&&(a=m.namespace)&&"string"===typeof a)x=f.getInstance(a);else{this.releaseType="no namespace";this.releaseRequests();return}if(x===Object(x)&&"function"===
-                typeof x.isAllowed&&"function"===typeof x.getMarketingCloudVisitorID){if(!x.isAllowed()){this.releaseType="VisitorAPI not allowed";this.releaseRequests();return}this.instance=x;this.admsProcessingStarted=!0;b=function(f){"VisitorAPI"!==s.releaseType&&(s.mid=f,s.releaseType="VisitorAPI",s.releaseRequests())};Q&&(d=m.server)&&"string"===typeof d&&(x.server=d);c=x.getMarketingCloudVisitorID(b);if("string"===typeof c&&c.length){b(c);return}setTimeout(function(){"VisitorAPI"!==s.releaseType&&(s.releaseType=
-                "timeout",s.releaseRequests())},this.TIME_TO_CATCH_ALL_REQUESTS_RELEASE);return}this.releaseType="invalid instance"}else this.noVisitorAPI=!0;this.releaseRequests()}}catch(e){this.releaseRequests()}},releaseRequests:function(){this.calledBack=!0;r.registerRequest()},getMarketingCloudVisitorID:function(){return this.instance?this.instance.getMarketingCloudVisitorID():null},getMIDQueryString:function(){var f=v.isPopulatedString,s=this.getMarketingCloudVisitorID();f(this.mid)&&this.mid===s||(this.mid=
-                s);return f(this.mid)?"d_mid="+this.mid+"&":""}},declaredId:{declaredId:{init:null,request:null},declaredIdCombos:{},setDeclaredId:function(f,s){var a=v.isPopulatedString,x=encodeURIComponent;if(f===Object(f)&&a(s)){var b=f.dpid,d=f.dpuuid,c=null;if(a(b)&&a(d)){c=x(b)+"$"+x(d);if(!0===this.declaredIdCombos[c])return"setDeclaredId: combo exists for type '"+s+"'";this.declaredIdCombos[c]=!0;this.declaredId[s]={dpid:b,dpuuid:d};return"setDeclaredId: succeeded for type '"+s+"'"}}return"setDeclaredId: failed for type '"+
-                s+"'"},getDeclaredIdQueryString:function(){var f=this.declaredId.request,s=this.declaredId.init,a="";null!==f?a="&d_dpid="+f.dpid+"&d_dpuuid="+f.dpuuid:null!==s&&(a="&d_dpid="+s.dpid+"&d_dpuuid="+s.dpuuid);return a}},registerRequest:function(f){var s=this.firingQueue;f===Object(f)&&s.push(f);this.firing||!s.length||E&&!DIL.windowLoaded||(this.adms.calledBack?(f=s.shift(),f.src=f.src.replace(/demdex.net\/event\?d_nsid=/,"demdex.net/event?"+this.adms.getMIDQueryString()+"d_nsid="),v.isPopulatedString(f.corsPostData)&&
-                (f.corsPostData=f.corsPostData.replace(/^d_nsid=/,this.adms.getMIDQueryString()+"d_nsid=")),A.fireRequest(f),this.firstRequestHasFired||"script"!==f.tag&&"cors"!==f.tag||(this.firstRequestHasFired=!0)):this.processVisitorAPI())},processVisitorAPI:function(){this.adms.process(window.Visitor)},requestRemoval:function(f){if(!K)return"removeFinishedScriptsAndCallbacks is not boolean true";var s=this.toRemove,a,b;f===Object(f)&&(a=f.script,b=f.callbackName,(a===Object(a)&&"SCRIPT"===a.nodeName||"no script created"===
-                a)&&"string"===typeof b&&b.length&&s.push(f));if(this.readyToRemove&&s.length){b=s.shift();a=b.script;b=b.callbackName;"no script created"!==a?(f=a.src,a.parentNode.removeChild(a)):f=a;window[b]=null;try{delete window[b]}catch(d){}this.removed.push({scriptSrc:f,callbackName:b});DIL.variables.scriptsRemoved.push(f);DIL.variables.callbacksRemoved.push(b);return this.requestRemoval()}return"requestRemoval() processed"}};g=function(){var f="http://fast.",a="?d_nsid="+h+"#"+encodeURIComponent(document.location.href);
-                    if("string"===typeof C&&C.length)return C+a;y.IS_HTTPS&&(f=!0===p?"https://fast.":"https://");return f+e+".demdex.net/dest4.html"+a};var z={THROTTLE_START:3E4,throttleTimerSet:!1,id:"destination_publishing_iframe_"+e+"_"+h,url:g(),iframe:null,iframeHasLoaded:!1,sendingMessages:!1,messages:[],messagesPosted:[],messageSendingInterval:y.POST_MESSAGE_ENABLED?15:100,jsonProcessed:[],attachIframe:function(){var f=this,a=document.createElement("iframe");a.id=this.id;a.style.cssText="display: none; width: 0; height: 0;";
-                        a.src=this.url;t.addListener(a,"load",function(){f.iframeHasLoaded=!0;f.requestToProcess()});document.body.appendChild(a);this.iframe=a},requestToProcess:function(f,a){var b=this;f&&!v.isEmptyObject(f)&&this.process(f,a);this.iframeHasLoaded&&this.messages.length&&!this.sendingMessages&&(this.throttleTimerSet||(this.throttleTimerSet=!0,setTimeout(function(){b.messageSendingInterval=y.POST_MESSAGE_ENABLED?15:150},this.THROTTLE_START)),this.sendingMessages=!0,this.sendMessages())},process:function(f,
-                        a){var b=encodeURIComponent,d,c,e,g,h,n;a===Object(a)&&(n=t.encodeAndBuildRequest(["",a.dpid||"",a.dpuuid||""],","));if((d=f.dests)&&d instanceof Array&&(c=d.length))for(e=0;e<c;e++)g=d[e],g=[b("dests"),b(g.id||""),b(g.y||""),b(g.c||"")],this.addMessage(g.join("|"));if((d=f.ibs)&&d instanceof Array&&(c=d.length))for(e=0;e<c;e++)g=d[e],g=[b("ibs"),b(g.id||""),b(g.tag||""),t.encodeAndBuildRequest(g.url||[],","),b(g.ttl||""),"",n],this.addMessage(g.join("|"));if((d=f.dpcalls)&&d instanceof Array&&(c=
-                        d.length))for(e=0;e<c;e++)g=d[e],h=g.callback||{},h=[h.obj||"",h.fn||"",h.key||"",h.tag||"",h.url||""],g=[b("dpm"),b(g.id||""),b(g.tag||""),t.encodeAndBuildRequest(g.url||[],","),b(g.ttl||""),t.encodeAndBuildRequest(h,","),n],this.addMessage(g.join("|"));this.jsonProcessed.push(f)},addMessage:function(f){var a=encodeURIComponent,a=D?a("---destpub-debug---"):a("---destpub---");this.messages.push(a+f)},sendMessages:function(){var f=this,a;this.messages.length?(a=this.messages.shift(),DIL.xd.postMessage(a,
-                        this.url,this.iframe.contentWindow),this.messagesPosted.push(a),setTimeout(function(){f.sendMessages()},this.messageSendingInterval)):this.sendingMessages=!1}},I={traits:function(f){v.isValidPdata(f)&&(u.sids instanceof Array||(u.sids=[]),t.extendArray(u.sids,f));return this},pixels:function(f){v.isValidPdata(f)&&(u.pdata instanceof Array||(u.pdata=[]),t.extendArray(u.pdata,f));return this},logs:function(f){v.isValidLogdata(f)&&(u.logdata!==Object(u.logdata)&&(u.logdata={}),t.extendObject(u.logdata,
-                        f));return this},customQueryParams:function(f){v.isEmptyObject(f)||t.extendObject(u,f,r.reservedKeys);return this},signals:function(f,a){var b,d=f;if(!v.isEmptyObject(d)){if(a&&"string"===typeof a)for(b in d={},f)f.hasOwnProperty(b)&&(d[a+b]=f[b]);t.extendObject(u,d,r.reservedKeys)}return this},declaredId:function(f){r.declaredId.setDeclaredId(f,"request");return this},result:function(f){"function"===typeof f&&(u.callback=f);return this},afterResult:function(f){"function"===typeof f&&(u.postCallbackFn=
-                        f);return this},useImageRequest:function(){u.useImageRequest=!0;return this},clearData:function(){u={};return this},submit:function(){A.submitRequest(u);u={};return this},getPartner:function(){return e},getContainerNSID:function(){return h},getEventLog:function(){return d},getState:function(){var f={},a={};t.extendObject(f,r,{callbackPrefix:!0,useJSONP:!0,registerRequest:!0});t.extendObject(a,z,{attachIframe:!0,requestToProcess:!0,process:!0,sendMessages:!0});return{pendingRequest:u,otherRequestInfo:f,
-                            destinationPublishingInfo:a}},idSync:function(f){if(f!==Object(f)||"string"!==typeof f.dpid||!f.dpid.length)return"Error: config or config.dpid is empty";if("string"!==typeof f.url||!f.url.length)return"Error: config.url is empty";var a=f.url,b=f.minutesToLive,d=encodeURIComponent,c,a=a.replace(/^https:/,"").replace(/^http:/,"");if("undefined"===typeof b)b=20160;else if(b=parseInt(b,10),isNaN(b)||0>=b)return"Error: config.minutesToLive needs to be a positive number";c=t.encodeAndBuildRequest(["",
-                            f.dpid,f.dpuuid||""],",");f=["ibs",d(f.dpid),"img",d(a),b,"",c];z.addMessage(f.join("|"));r.firstRequestHasFired&&z.requestToProcess();return"Successfully queued"},aamIdSync:function(f){if(f!==Object(f)||"string"!==typeof f.dpuuid||!f.dpuuid.length)return"Error: config or config.dpuuid is empty";f.url="//dpm.demdex.net/ibs:dpid="+f.dpid+"&dpuuid="+f.dpuuid;return this.idSync(f)},passData:function(f){if(v.isEmptyObject(f))return"Error: json is empty or not an object";A.defaultCallback(f);return"json submitted for processing"},
-                            getPlatformParams:function(){return r.platformParams},getEventCallConfigParams:function(){var f=r,a=f.modStatsParams,b=f.platformParams,d;if(!a){a={};for(d in b)b.hasOwnProperty(d)&&!f.nonModStatsParams[d]&&(a[d.replace(/^d_/,"")]=b[d]);f.modStatsParams=a}return a}},A={corsMetadata:function(){var f="none",a=!0;"undefined"!==typeof XMLHttpRequest&&XMLHttpRequest===Object(XMLHttpRequest)&&("withCredentials"in new XMLHttpRequest?f="XMLHttpRequest":(new Function("/*@cc_on return /^10/.test(@_jscript_version) @*/"))()?
-                            f="XMLHttpRequest":"undefined"!==typeof XDomainRequest&&XDomainRequest===Object(XDomainRequest)&&(a=!1),0<Object.prototype.toString.call(window.HTMLElement).indexOf("Constructor")&&(a=!1));return{corsType:f,corsCookiesEnabled:a}}(),getCORSInstance:function(){return"none"===this.corsMetadata.corsType?null:new window[this.corsMetadata.corsType]},submitRequest:function(f){r.registerRequest(A.createQueuedRequest(f));return!0},createQueuedRequest:function(f){var a=r,b,d=f.callback,c="img",g;if(!v.isEmptyObject(n)){var e,
-                            m,l;for(e in n)n.hasOwnProperty(e)&&(m=n[e],null!=m&&""!==m&&e in f&&!(m in f||m in r.reservedKeys)&&(l=f[e],null!=l&&""!==l&&(f[m]=l)))}v.isValidPdata(f.sids)||(f.sids=[]);v.isValidPdata(f.pdata)||(f.pdata=[]);v.isValidLogdata(f.logdata)||(f.logdata={});f.logdataArray=t.convertObjectToKeyValuePairs(f.logdata,"=",!0);f.logdataArray.push("_ts="+(new Date).getTime());"function"!==typeof d&&(d=this.defaultCallback);a.useJSONP=!0!==f.useImageRequest;a.useJSONP&&(c="script",b=a.callbackPrefix+"_"+h+"_"+
-                            (new Date).getTime());a=this.makeRequestSrcData(f,b);!P&&(g=this.getCORSInstance())&&a.truncated&&(this.corsMetadata.corsCookiesEnabled||a.isDeclaredIdCall)&&(c="cors");return{tag:c,src:a.src,corsSrc:a.corsSrc,internalCallbackName:b,callbackFn:d,postCallbackFn:f.postCallbackFn,useImageRequest:!!f.useImageRequest,requestData:f,corsInstance:g,corsPostData:a.corsPostData,hasCORSError:!1}},defaultCallback:function(f,a){var b,d,c,e,g,h,m,n,w;if((b=f.stuff)&&b instanceof Array&&(d=b.length))for(c=0;c<d;c++)if((e=
-                            b[c])&&e===Object(e)){g=e.cn;h=e.cv;m=e.ttl;if("undefined"===typeof m||""===m)m=Math.floor(t.getMaxCookieExpiresInMinutes()/60/24);n=e.dmn||"."+document.domain.replace(/^www\./,"");w=e.type;g&&(h||"number"===typeof h)&&("var"!==w&&(m=parseInt(m,10))&&!isNaN(m)&&t.setCookie(g,h,1440*m,"/",n,!1),G.stuffed[g]=h)}b=f.uuid;v.isPopulatedString(b)&&!v.isEmptyObject(l)&&(d=l.path,"string"===typeof d&&d.length||(d="/"),c=parseInt(l.days,10),isNaN(c)&&(c=100),t.setCookie(l.name||"aam_did",b,1440*c,d,l.domain||
-                            "."+document.domain.replace(/^www\./,""),!0===l.secure));q||r.abortRequests||z.requestToProcess(f,a)},makeRequestSrcData:function(f,a){f.sids=v.removeEmptyArrayValues(f.sids||[]);f.pdata=v.removeEmptyArrayValues(f.pdata||[]);var b=r,d=b.platformParams,c=t.encodeAndBuildRequest(f.sids,","),g=t.encodeAndBuildRequest(f.pdata,","),m=(f.logdataArray||[]).join("&");delete f.logdataArray;var n=y.IS_HTTPS?"https://":"http://",l=b.declaredId.getDeclaredIdQueryString(),k;k=[];var w,q,p,u;for(w in f)if(!(w in
-                            b.reservedKeys)&&f.hasOwnProperty(w))if(q=f[w],w=encodeURIComponent(w),q instanceof Array)for(p=0,u=q.length;p<u;p++)k.push(w+"="+encodeURIComponent(q[p]));else k.push(w+"="+encodeURIComponent(q));k=k.length?"&"+k.join("&"):"";w=!1;c="d_nsid="+d.d_nsid+l+(c.length?"&d_sid="+c:"")+(g.length?"&d_px="+g:"")+(m.length?"&d_ld="+encodeURIComponent(m):"");d="&d_rtbd="+d.d_rtbd+"&d_jsonv="+d.d_jsonv+"&d_dst="+d.d_dst;n=n+e+".demdex.net/event";g=b=n+"?"+c+(b.useJSONP?d+"&d_cb="+(a||""):"")+k;2048<b.length&&
-                            (b=b.substring(0,b.lastIndexOf("&")),w=!0);return{corsSrc:n+"?"+(O?"testcors=1&d_nsid="+h+"&":"")+"_ts="+(new Date).getTime(),src:b,originalSrc:g,truncated:w,corsPostData:c+d+k,isDeclaredIdCall:""!==l}},fireRequest:function(f){if("img"===f.tag)this.fireImage(f);else{var a=r.declaredId,a=a.declaredId.request||a.declaredId.init||{},a={dpid:a.dpid||"",dpuuid:a.dpuuid||""};"script"===f.tag?this.fireScript(f,a):"cors"===f.tag&&this.fireCORS(f,a)}},fireImage:function(a){var c=r,e,g;c.abortRequests||(c.firing=
-                            !0,e=new Image(0,0),c.sent.push(a),e.onload=function(){c.firing=!1;c.fired.push(a);c.num_of_img_responses++;c.registerRequest()},g=function(e){b="imgAbortOrErrorHandler received the event of type "+e.type;d.push(b);c.abortRequests=!0;c.firing=!1;c.errored.push(a);c.num_of_img_errors++;c.registerRequest()},e.addEventListener?(e.addEventListener("error",g,!1),e.addEventListener("abort",g,!1)):e.attachEvent&&(e.attachEvent("onerror",g),e.attachEvent("onabort",g)),e.src=a.src)},fireScript:function(a,
-                            c){var g=this,h=r,m,n,l=a.src,k=a.postCallbackFn,q="function"===typeof k,p=a.internalCallbackName;h.abortRequests||(h.firing=!0,window[p]=function(g){try{g!==Object(g)&&(g={});var m=a.callbackFn;h.firing=!1;h.fired.push(a);h.num_of_jsonp_responses++;m(g,c);q&&k(g,c)}catch(l){l.message="DIL jsonp callback caught error with message "+l.message;b=l.message;d.push(b);l.filename=l.filename||"dil.js";l.partner=e;DIL.errorModule.handleError(l);try{m({error:l.name+"|"+l.message},c),q&&k({error:l.name+"|"+
-                            l.message},c)}catch(H){}}finally{h.requestRemoval({script:n,callbackName:p}),h.registerRequest()}},L?(h.firing=!1,h.requestRemoval({script:"no script created",callbackName:p})):(n=document.createElement("script"),n.addEventListener&&n.addEventListener("error",function(d){h.requestRemoval({script:n,callbackName:p});b="jsonp script tag error listener received the event of type "+d.type+" with src "+l;g.handleScriptError(b,a)},!1),n.type="text/javascript",n.src=l,m=DIL.variables.scriptNodeList[0],m.parentNode.insertBefore(n,
-                            m)),h.sent.push(a),h.declaredId.declaredId.request=null)},fireCORS:function(a,c){function g(n){var l;try{if(l=JSON.parse(n),l!==Object(l)){h.handleCORSError(a,c,"Response is not JSON");return}}catch(k){h.handleCORSError(a,c,"Error parsing response as JSON");return}try{var H=a.callbackFn;m.firing=!1;m.fired.push(a);m.num_of_cors_responses++;H(l,c);t&&q(l,c)}catch(p){p.message="DIL handleCORSResponse caught error with message "+p.message;b=p.message;d.push(b);p.filename=p.filename||"dil.js";p.partner=
-                            e;DIL.errorModule.handleError(p);try{H({error:p.name+"|"+p.message},c),t&&q({error:p.name+"|"+p.message},c)}catch(r){}}finally{m.registerRequest()}}var h=this,m=r,n=this.corsMetadata.corsType,l=a.corsSrc,k=a.corsInstance,p=a.corsPostData,q=a.postCallbackFn,t="function"===typeof q;if(!m.abortRequests){m.firing=!0;if(M)m.firing=!1;else try{k.open("post",l,!0),"XMLHttpRequest"===n?(k.withCredentials=!0,k.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),k.onreadystatechange=function(){4===
-                            this.readyState&&(200===this.status?g(this.responseText):h.handleCORSError(a,c,"onreadystatechange"))}):"XDomainRequest"===n&&(k.onload=function(){g(this.responseText)}),k.onerror=function(){h.handleCORSError(a,c,"onerror")},k.ontimeout=function(){h.handleCORSError(a,c,"ontimeout")},k.send(p)}catch(u){this.handleCORSError(a,c,"try-catch")}m.sent.push(a);m.declaredId.declaredId.request=null}},handleCORSError:function(a,b,c){a.hasCORSError||(a.hasCORSError=!0,r.num_of_cors_errors++,r.corsErrorSources.push(c),
-                            a.tag="script",this.fireScript(a,b))},handleScriptError:function(a,b){r.num_of_jsonp_errors++;this.handleRequestError(a,b)},handleRequestError:function(a,b){var c=r;d.push(a);c.abortRequests=!0;c.firing=!1;c.errored.push(b);c.registerRequest()}},v={isValidPdata:function(a){return a instanceof Array&&this.removeEmptyArrayValues(a).length?!0:!1},isValidLogdata:function(a){return!this.isEmptyObject(a)},isEmptyObject:function(a){if(a!==Object(a))return!0;for(var b in a)if(a.hasOwnProperty(b))return!1;
-                                return!0},removeEmptyArrayValues:function(a){for(var b=0,c=a.length,d,g=[],b=0;b<c;b++)d=a[b],"undefined"!==typeof d&&null!==d&&""!==d&&g.push(d);return g},isPopulatedString:function(a){return"string"===typeof a&&a.length}},t={addListener:function(){if(document.addEventListener)return function(a,b,c){a.addEventListener(b,function(a){"function"===typeof c&&c(a)},!1)};if(document.attachEvent)return function(a,b,c){a.attachEvent("on"+b,function(a){"function"===typeof c&&c(a)})}}(),convertObjectToKeyValuePairs:function(a,
-                                b,c){var d=[],g,e;b||(b="=");for(g in a)a.hasOwnProperty(g)&&(e=a[g],"undefined"!==typeof e&&null!==e&&""!==e&&d.push(g+b+(c?encodeURIComponent(e):e)));return d},encodeAndBuildRequest:function(a,b){return this.map(a,function(a){return encodeURIComponent(a)}).join(b)},map:function(a,b){if(Array.prototype.map)return a.map(b);if(void 0===a||null===a)throw new TypeError;var c=Object(a),d=c.length>>>0;if("function"!==typeof b)throw new TypeError;for(var g=Array(d),e=0;e<d;e++)e in c&&(g[e]=b.call(b,c[e],
-                                e,c));return g},filter:function(a,b){if(!Array.prototype.filter){if(void 0===a||null===a)throw new TypeError;var c=Object(a),d=c.length>>>0;if("function"!==typeof b)throw new TypeError;for(var g=[],e=0;e<d;e++)if(e in c){var h=c[e];b.call(b,h,e,c)&&g.push(h)}return g}return a.filter(b)},getCookie:function(a){a+="=";var b=document.cookie.split(";"),c,d,e;c=0;for(d=b.length;c<d;c++){for(e=b[c];" "===e.charAt(0);)e=e.substring(1,e.length);if(0===e.indexOf(a))return decodeURIComponent(e.substring(a.length,
-                                e.length))}return null},setCookie:function(a,b,c,d,e,g){var h=new Date;c&&(c*=6E4);document.cookie=a+"="+encodeURIComponent(b)+(c?";expires="+(new Date(h.getTime()+c)).toUTCString():"")+(d?";path="+d:"")+(e?";domain="+e:"")+(g?";secure":"")},extendArray:function(a,b){return a instanceof Array&&b instanceof Array?(Array.prototype.push.apply(a,b),!0):!1},extendObject:function(a,b,c){var d;if(a===Object(a)&&b===Object(b)){for(d in b)!b.hasOwnProperty(d)||!v.isEmptyObject(c)&&d in c||(a[d]=b[d]);return!0}return!1},
-                                    getMaxCookieExpiresInMinutes:function(){return((new Date(y.COOKIE_MAX_EXPIRATION_DATE)).getTime()-(new Date).getTime())/1E3/60}};"error"===e&&0===h&&t.addListener(window,"load",function(){DIL.windowLoaded=!0});var B=function(){r.registerRequest();S();q||r.abortRequests||z.attachIframe();r.readyToRemove=!0;r.requestRemoval()},S=function(){q||setTimeout(function(){N||r.firstRequestHasFired||r.adms.admsProcessingStarted||r.adms.calledBack||("function"===typeof F?I.afterResult(F).submit():I.submit())},
-                                    DIL.constants.TIME_TO_DEFAULT_REQUEST)},R=document;"error"!==e&&(DIL.windowLoaded?B():"complete"!==R.readyState&&"loaded"!==R.readyState?t.addListener(window,"load",B):DIL.isAddedPostWindowLoadWasCalled?t.addListener(window,"load",B):E||(k="number"===typeof k?parseInt(k,10):0,0>k&&(k=0),setTimeout(B,k||DIL.constants.TIME_TO_CATCH_ALL_DP_IFRAME_ATTACHMENT)));r.declaredId.setDeclaredId(J,"init");this.api=I;this.getStuffedVariable=function(a){var b=G.stuffed[a];b||"number"===typeof b||(b=t.getCookie(a))||
-                                    "number"===typeof b||(b="");return b};this.validators=v;this.helpers=t;this.constants=y;this.log=d;Q&&(this.pendingRequest=u,this.requestController=r,this.setDestinationPublishingUrl=g,this.destinationPublishing=z,this.requestProcs=A,this.variables=G,this.callWindowLoadFunctions=B)},function(){var a=document,c;null==a.readyState&&a.addEventListener&&(a.readyState="loading",a.addEventListener("DOMContentLoaded",c=function(){a.removeEventListener("DOMContentLoaded",c,!1);a.readyState="complete"},!1))}(),
-    DIL.extendStaticPropertiesAndMethods=function(a){var c;if(a===Object(a))for(c in a)a.hasOwnProperty(c)&&(this[c]=a[c])},DIL.extendStaticPropertiesAndMethods({version:"5.7",jsonVersion:1,constants:{TIME_TO_DEFAULT_REQUEST:50,TIME_TO_CATCH_ALL_DP_IFRAME_ATTACHMENT:500},variables:{scriptNodeList:document.getElementsByTagName("script"),scriptsRemoved:[],callbacksRemoved:[]},windowLoaded:!1,dils:{},isAddedPostWindowLoadWasCalled:!1,isAddedPostWindowLoad:function(a){this.isAddedPostWindowLoadWasCalled=
-    !0;this.windowLoaded="function"===typeof a?!!a():"boolean"===typeof a?a:!0},create:function(a){try{return new DIL(a)}catch(c){return(new Image(0,0)).src="http://error.demdex.net/event?d_nsid=0&d_px=14137&d_ld=name%3Derror%26filename%3Ddil.js%26partner%3Dno_partner%26message%3DError%2520in%2520attempt%2520to%2520create%2520DIL%2520instance%2520with%2520DIL.create()%26_ts%3D"+(new Date).getTime(),Error("Error in attempt to create DIL instance with DIL.create()")}},registerDil:function(a,c,d){c=c+"$"+
-    d;c in this.dils||(this.dils[c]=a)},getDil:function(a,c){var d;"string"!==typeof a&&(a="");c||(c=0);d=a+"$"+c;return d in this.dils?this.dils[d]:Error("The DIL instance with partner = "+a+" and containerNSID = "+c+" was not found")},dexGetQSVars:function(a,c,d){c=this.getDil(c,d);return c instanceof this?c.getStuffedVariable(a):""},xd:{postMessage:function(a,c,d){var b=1;c&&(window.postMessage?d.postMessage(a,c.replace(/([^:]+:\/\/[^\/]+).*/,"$1")):c&&(d.location=c.replace(/#.*$/,"")+"#"+ +new Date+
-    b++ +"&"+a))}}}),DIL.errorModule=function(){var a=DIL.create({partner:"error",containerNSID:0,disableDestinationPublishingIframe:!0}),c={harvestererror:14138,destpuberror:14139,dpmerror:14140,generalerror:14137,error:14137,noerrortypedefined:15021,evalerror:15016,rangeerror:15017,referenceerror:15018,typeerror:15019,urierror:15020},d=!1;return{activate:function(){d=!0},handleError:function(b){if(!d)return"DIL error module has not been activated";b!==Object(b)&&(b={});var g=b.name?(b.name+"").toLowerCase():
-    "",e=[];b={name:g,filename:b.filename?b.filename+"":"",partner:b.partner?b.partner+"":"no_partner",site:b.site?b.site+"":document.location.href,message:b.message?b.message+"":""};e.push(g in c?c[g]:c.noerrortypedefined);a.api.pixels(e).logs(b).useImageRequest().submit();return"DIL error report sent"},pixelMap:c}}(),DIL.tools={},DIL.modules={helpers:{handleModuleError:function(a,c,d){var b="";c=c||"Error caught in DIL module/submodule: ";a===Object(a)?b=c+(a.message||"err has no message"):(b=c+"err is not a valid object",
-    a={});a.message=b;d instanceof DIL&&(a.partner=d.api.getPartner());DIL.errorModule.handleError(a);return this.errorMessage=b}}});
-    DIL.tools.getSearchReferrer=function(a,c){var d=DIL.getDil("error"),b=DIL.tools.decomposeURI(a||document.referrer),g="",e="",h={queryParam:"q"};return(g=d.helpers.filter([c===Object(c)?c:{},{hostPattern:/aol\./},{hostPattern:/ask\./},{hostPattern:/bing\./},{hostPattern:/google\./},{hostPattern:/yahoo\./,queryParam:"p"}],function(a){return!(!a.hasOwnProperty("hostPattern")||!b.hostname.match(a.hostPattern))}).shift())?{valid:!0,name:b.hostname,keywords:(d.helpers.extendObject(h,g),e=h.queryPattern?
-    (g=(""+b.search).match(h.queryPattern))?g[1]:"":b.uriParams[h.queryParam],decodeURIComponent(e||"").replace(/\+|%20/g," "))}:{valid:!1,name:"",keywords:""}};
-    DIL.tools.decomposeURI=function(a){var c=DIL.getDil("error"),d=document.createElement("a");d.href=a||document.referrer;return{hash:d.hash,host:d.host.split(":").shift(),hostname:d.hostname,href:d.href,pathname:d.pathname.replace(/^\//,""),protocol:d.protocol,search:d.search,uriParams:function(a,d){c.helpers.map(d.split("&"),function(c){c=c.split("=");a[c.shift()]=c.shift()});return a}({},d.search.replace(/^(\/|\?)?|\/$/g,""))}};
-    DIL.tools.getMetaTags=function(){var a={},c=document.getElementsByTagName("meta"),d,b,g,e,h;d=0;for(g=arguments.length;d<g;d++)if(e=arguments[d],null!==e)for(b=0;b<c.length;b++)if(h=c[b],h.name===e){a[e]=h.content;break}return a};
-    DIL.modules.siteCatalyst={dil:null,handle:DIL.modules.helpers.handleModuleError,init:function(a,c,d,b){try{var g=this,e={name:"DIL Site Catalyst Module Error"},h=function(a){e.message=a;DIL.errorModule.handleError(e);return a};this.options=b===Object(b)?b:{};this.dil=null;if(c instanceof DIL)this.dil=c;else return h("dilInstance is not a valid instance of DIL");e.partner=c.api.getPartner();if(a!==Object(a))return h("siteCatalystReportingSuite is not an object");window.AppMeasurement_Module_DIL=a.m_DIL=
-    function(a){var b="function"===typeof a.m_i?a.m_i("DIL"):this;if(b!==Object(b))return h("m is not an object");b.trackVars=g.constructTrackVars(d);b.d=0;b.s=a;b._t=function(){var a,b,c=","+this.trackVars+",",d=this.s,e,k=[];e=[];var p={},q=!1;if(d!==Object(d))return h("Error in m._t function: s is not an object");if(this.d){if("function"===typeof d.foreachVar)d.foreachVar(function(a,b){"undefined"!==typeof b&&(p[a]=b,q=!0)},this.trackVars);else{if(!(d.va_t instanceof Array))return h("Error in m._t function: s.va_t is not an array");
-        if(d.lightProfileID)(a=d.lightTrackVars)&&(a=","+a+","+d.vl_mr+",");else if(d.pe||d.linkType)a=d.linkTrackVars,d.pe&&(b=d.pe.substring(0,1).toUpperCase()+d.pe.substring(1),d[b]&&(a=d[b].trackVars)),a&&(a=","+a+","+d.vl_l+","+d.vl_l2+",");if(a){b=0;for(k=a.split(",");b<k.length;b++)0<=c.indexOf(","+k[b]+",")&&e.push(k[b]);e.length&&(c=","+e.join(",")+",")}e=0;for(b=d.va_t.length;e<b;e++)a=d.va_t[e],0<=c.indexOf(","+a+",")&&"undefined"!==typeof d[a]&&null!==d[a]&&""!==d[a]&&(p[a]=d[a],q=!0)}g.includeContextData(d,
-        p).store_populated&&(q=!0);q&&this.d.api.signals(p,"c_").submit()}}};a.loadModule("DIL");a.DIL.d=c;return e.message?e.message:"DIL.modules.siteCatalyst.init() completed with no errors"}catch(k){return this.handle(k,"DIL.modules.siteCatalyst.init() caught error with message ",this.dil)}},constructTrackVars:function(a){var c=[],d,b,g,e,h;if(a===Object(a)){d=a.names;if(d instanceof Array&&(g=d.length))for(b=0;b<g;b++)e=d[b],"string"===typeof e&&e.length&&c.push(e);a=a.iteratedNames;if(a instanceof Array&&
-        (g=a.length))for(b=0;b<g;b++)if(d=a[b],d===Object(d)&&(e=d.name,h=parseInt(d.maxIndex,10),"string"===typeof e&&e.length&&!isNaN(h)&&0<=h))for(d=0;d<=h;d++)c.push(e+d);if(c.length)return c.join(",")}return this.constructTrackVars({names:"pageName channel campaign products events pe pev1 pev2 pev3".split(" "),iteratedNames:[{name:"prop",maxIndex:75},{name:"eVar",maxIndex:250}]})},includeContextData:function(a,c){var d={},b=!1;if(a.contextData===Object(a.contextData)){var g=a.contextData,e=this.options.replaceContextDataPeriodsWith,
-        h=this.options.filterFromContextVariables,k={},q,p,n,l;"string"===typeof e&&e.length||(e="_");if(h instanceof Array)for(q=0,p=h.length;q<p;q++)n=h[q],this.dil.validators.isPopulatedString(n)&&(k[n]=!0);for(l in g)!g.hasOwnProperty(l)||k[l]||!(h=g[l])&&"number"!==typeof h||(l=("contextData."+l).replace(/\./g,e),c[l]=h,b=!0)}d.store_populated=b;return d}};
-    DIL.modules.GA={dil:null,arr:null,tv:null,errorMessage:"",defaultTrackVars:["_setAccount","_setCustomVar","_addItem","_addTrans","_trackSocial"],defaultTrackVarsObj:null,signals:{},hasSignals:!1,handle:DIL.modules.helpers.handleModuleError,init:function(a,c,d){try{this.tv=this.arr=this.dil=null;this.errorMessage="";this.signals={};this.hasSignals=!1;var b={name:"DIL GA Module Error"},g="";c instanceof DIL?(this.dil=c,b.partner=this.dil.api.getPartner()):(g="dilInstance is not a valid instance of DIL",
-    b.message=g,DIL.errorModule.handleError(b));a instanceof Array&&a.length?this.arr=a:(g="gaArray is not an array or is empty",b.message=g,DIL.errorModule.handleError(b));this.tv=this.constructTrackVars(d);this.errorMessage=g}catch(e){this.handle(e,"DIL.modules.GA.init() caught error with message ",this.dil)}finally{return this}},constructTrackVars:function(a){var c=[],d,b,g,e;if(this.defaultTrackVarsObj!==Object(this.defaultTrackVarsObj)){g=this.defaultTrackVars;e={};d=0;for(b=g.length;d<b;d++)e[g[d]]=
-    !0;this.defaultTrackVarsObj=e}else e=this.defaultTrackVarsObj;if(a===Object(a)){a=a.names;if(a instanceof Array&&(b=a.length))for(d=0;d<b;d++)g=a[d],"string"===typeof g&&g.length&&g in e&&c.push(g);if(c.length)return c}return this.defaultTrackVars},constructGAObj:function(a){var c={};a=a instanceof Array?a:this.arr;var d,b,g,e;d=0;for(b=a.length;d<b;d++)g=a[d],g instanceof Array&&g.length&&(g=[],e=a[d],g instanceof Array&&e instanceof Array&&Array.prototype.push.apply(g,e),e=g.shift(),"string"===
-    typeof e&&e.length&&(c[e]instanceof Array||(c[e]=[]),c[e].push(g)));return c},addToSignals:function(a,c){if("string"!==typeof a||""===a||null==c||""===c)return!1;this.signals[a]instanceof Array||(this.signals[a]=[]);this.signals[a].push(c);return this.hasSignals=!0},constructSignals:function(){var a=this.constructGAObj(),c={_setAccount:function(a){this.addToSignals("c_accountId",a)},_setCustomVar:function(a,b,c){"string"===typeof b&&b.length&&this.addToSignals("c_"+b,c)},_addItem:function(a,b,c,d,
-    e,g){this.addToSignals("c_itemOrderId",a);this.addToSignals("c_itemSku",b);this.addToSignals("c_itemName",c);this.addToSignals("c_itemCategory",d);this.addToSignals("c_itemPrice",e);this.addToSignals("c_itemQuantity",g)},_addTrans:function(a,b,c,d,e,g,h,k){this.addToSignals("c_transOrderId",a);this.addToSignals("c_transAffiliation",b);this.addToSignals("c_transTotal",c);this.addToSignals("c_transTax",d);this.addToSignals("c_transShipping",e);this.addToSignals("c_transCity",g);this.addToSignals("c_transState",
-    h);this.addToSignals("c_transCountry",k)},_trackSocial:function(a,b,c,d){this.addToSignals("c_socialNetwork",a);this.addToSignals("c_socialAction",b);this.addToSignals("c_socialTarget",c);this.addToSignals("c_socialPagePath",d)}},d=this.tv,b,g,e,h,k,q;b=0;for(g=d.length;b<g;b++)if(e=d[b],a.hasOwnProperty(e)&&c.hasOwnProperty(e)&&(q=a[e],q instanceof Array))for(h=0,k=q.length;h<k;h++)c[e].apply(this,q[h])},submit:function(){try{if(""!==this.errorMessage)return this.errorMessage;this.constructSignals();
-        return this.hasSignals?(this.dil.api.signals(this.signals).submit(),"Signals sent: "+this.dil.helpers.convertObjectToKeyValuePairs(this.signals,"=",!0)+this.dil.log):"No signals present"}catch(a){return this.handle(a,"DIL.modules.GA.submit() caught error with message ",this.dil)}},Stuffer:{LIMIT:5,dil:null,cookieName:null,delimiter:null,errorMessage:"",handle:DIL.modules.helpers.handleModuleError,callback:null,v:function(){return!1},init:function(a,c,d){try{this.callback=this.dil=null,this.errorMessage=
-        "",a instanceof DIL?(this.dil=a,this.v=this.dil.validators.isPopulatedString,this.cookieName=this.v(c)?c:"aam_ga",this.delimiter=this.v(d)?d:"|"):this.handle({message:"dilInstance is not a valid instance of DIL"},"DIL.modules.GA.Stuffer.init() error: ")}catch(b){this.handle(b,"DIL.modules.GA.Stuffer.init() caught error with message ",this.dil)}finally{return this}},process:function(a){var c,d,b,g,e,h;h=!1;var k=1;if(a===Object(a)&&(c=a.stuff)&&c instanceof Array&&(d=c.length))for(a=0;a<d;a++)if((b=
-        c[a])&&b===Object(b)&&(g=b.cn,e=b.cv,g===this.cookieName&&this.v(e))){h=!0;break}if(h){c=e.split(this.delimiter);"undefined"===typeof window._gaq&&(window._gaq=[]);b=window._gaq;a=0;for(d=c.length;a<d&&!(h=c[a].split("="),e=h[0],h=h[1],this.v(e)&&this.v(h)&&b.push(["_setCustomVar",k++,e,h,1]),k>this.LIMIT);a++);this.errorMessage=1<k?"No errors - stuffing successful":"No valid values to stuff"}else this.errorMessage="Cookie name and value not found in json";if("function"===typeof this.callback)return this.callback()},
-            submit:function(){try{var a=this;if(""!==this.errorMessage)return this.errorMessage;this.dil.api.afterResult(function(c){a.process(c)}).submit();return"DIL.modules.GA.Stuffer.submit() successful"}catch(c){return this.handle(c,"DIL.modules.GA.Stuffer.submit() caught error with message ",this.dil)}}}};
-    DIL.modules.Peer39={aid:"",dil:null,optionals:null,errorMessage:"",calledBack:!1,script:null,scriptsSent:[],returnedData:[],handle:DIL.modules.helpers.handleModuleError,init:function(a,c,d){try{this.dil=null;this.errorMessage="";this.calledBack=!1;this.optionals=d===Object(d)?d:{};d={name:"DIL Peer39 Module Error"};var b=[],g="";this.isSecurePageButNotEnabled(document.location.protocol)&&(g="Module has not been enabled for a secure page",b.push(g),d.message=g,DIL.errorModule.handleError(d));c instanceof
-    DIL?(this.dil=c,d.partner=this.dil.api.getPartner()):(g="dilInstance is not a valid instance of DIL",b.push(g),d.message=g,DIL.errorModule.handleError(d));"string"===typeof a&&a.length?this.aid=a:(g="aid is not a string or is empty",b.push(g),d.message=g,DIL.errorModule.handleError(d));this.errorMessage=b.join("\n")}catch(e){this.handle(e,"DIL.modules.Peer39.init() caught error with message ",this.dil)}finally{return this}},isSecurePageButNotEnabled:function(a){return"https:"===a&&!0!==this.optionals.enableHTTPS?
-    !0:!1},constructSignals:function(){var a=this,c=this.constructScript(),d=DIL.variables.scriptNodeList[0];window["afterFinished_"+this.aid]=function(){try{var b=a.processData(p39_KVP_Short("c_p","|").split("|"));b.hasSignals&&a.dil.api.signals(b.signals).submit()}catch(c){}finally{a.calledBack=!0,"function"===typeof a.optionals.afterResult&&a.optionals.afterResult()}};d.parentNode.insertBefore(c,d);this.scriptsSent.push(c);return"Request sent to Peer39"},processData:function(a){var c,d,b,g,e={},h=
-    !1;this.returnedData.push(a);if(a instanceof Array)for(c=0,d=a.length;c<d;c++)b=a[c].split("="),g=b[0],b=b[1],g&&isFinite(b)&&!isNaN(parseInt(b,10))&&(e[g]instanceof Array||(e[g]=[]),e[g].push(b),h=!0);return{hasSignals:h,signals:e}},constructScript:function(){var a=document.createElement("script"),c=this.optionals,d=c.scriptId,b=c.scriptSrc,c=c.scriptParams;a.id="string"===typeof d&&d.length?d:"peer39ScriptLoader";a.type="text/javascript";"string"===typeof b&&b.length?a.src=b:(a.src=(this.dil.constants.IS_HTTPS?
-    "https:":"http:")+"//stags.peer39.net/"+this.aid+"/trg_"+this.aid+".js","string"===typeof c&&c.length&&(a.src+="?"+c));return a},submit:function(){try{return""!==this.errorMessage?this.errorMessage:this.constructSignals()}catch(a){return this.handle(a,"DIL.modules.Peer39.submit() caught error with message ",this.dil)}}};
-
-
-    var _scDilObj;
-    /*Checking for the accoutn variable two different ways*/
-    if (typeof s != 'undefined' && s === Object(s) && typeof s.account != 'undefined' && s.account) {
-        _scDilObj = s_gi(s.account);
-    } else {
-        _scDilObj = s_gi(s_account);
-    };
-    /*Defensive checking to make sure the ID for Declared ID is present in eVar8*/
-
-    if (typeof _scDilObj.eVar8 != 'undefined' && _scDilObj.eVar8 != "") 
-
-    {
-        var cGuid = _scDilObj.eVar8
-        var objP = {
-            partner : 'crackle',
-            uuidCookie : {
-                name : 'aam_uuid',
-                days : 30
-            },
-            declaredId : {
-                dpid :  "13381" ,
-                dpuuid : cGuid
-            }
-        };
-    } else {
-        /*if the ID isn’t present,  create the object without the declared id*/
-        var objP = {
-            partner : 'crackle',
-            uuidCookie : {
-                name : 'aam_uuid',
-                days : 30
-            }
-        };
-    };
-
-    /*now that we have configured the object of the argument, create my DIL instance*/
-    var craDil = DIL.create(objP);
-
-
-    // Code for sending Site Catalyst data to AAM
-    var _scDilObj = s_gi(s_account);
-    DIL.modules.siteCatalyst.init(_scDilObj, craDil, {
-        names: ['pageName', 'channel', 'campaign', 'products', 'events', 'pe', 'referrer', 'server', 'purchaseID', 'zip', 'state'],
-        iteratedNames: [{
-            name: 'eVar',
-            maxIndex: 75
-        }, {
-            name: 'prop',
-            maxIndex: 75
-        }, {
-            name: 'pev',
-            maxIndex: 3
-        }, {
-            name: 'hier',
-            maxIndex: 4
-        }]
-    });
-</script>
-
-<script type="text/javascript">
-    function OmnTrackCustomLink(name)
-    {
-        s.linkTrackVars = 'eVar17,eVar18,eVar19';
-        s.eVar17 = s.getTimeParting('h', '-7'); // Set hour 
-        s.eVar18 = s.getTimeParting('d', '-7'); // Set day
-        s.eVar19 = s.getTimeParting('w', '-7'); // Set Weekend / Weekday
-        s.tl(this,'o',name);
-    }	
-	
-    function OmnTrackExitLink(name)
-    {
-        s.linkTrackVars = 'eVar17,eVar18,eVar19';
-        s.eVar17 = s.getTimeParting('h', '-7'); // Set hour 
-        s.eVar18 = s.getTimeParting('d', '-7'); // Set day
-        s.eVar19 = s.getTimeParting('w', '-7'); // Set Weekend / Weekday
-        s.tl(this,'e',name);
-    }	
-	
-    var campaignId = 0;
-    var cmpre = /[&?#]cmpid=([^&?#=]*)/;
-    var res = cmpre.exec(window.location);
-    if (res && res[1]) { campaignId = res[1]; }
-	
-    var refDomain = "";
-    if (! document.referrer.match(/crackle\.com/))
-    {
-        var domMa = /(?:http:\/\/)?(?:https:\/\/)?([^/]*)/i.exec(document.referrer)
-        if (domMa && domMa[1])
-            refDomain = domMa[1];
-    }
-    Crackle.stats.SetCampaignCookiesAndLogUniques (campaignId, refDomain);
-
-    var strQuery = GetQueryFromAfterPound (window.location.href);
-    var qs = ParseQueryString (strQuery);
-
-    //SiteCatalyst code version: H.19.3.
-    //Copyright 1997-2009 Omniture, Inc. More info available at
-    //http://www.omniture.com -->
-
-    /* You may give each page an identifying name, server, and channel on
-    the next lines. */
-    s.pageName="crackle.com:Privacy"
-    s.server=""
-    s.channel=""
-    s.pageType=""
-    s.prop1="outreach"
-    s.prop2="static view"
-    s.prop3=""
-    s.prop6=""
-    
-    s.prop7="Logged Out"
-    
-    s.prop40=window.location.href;
-    if (qs && qs ["q"])
-        s.prop6 = qs["q"];
-    /* Conversion Variables */
-    s.campaign= "";
-    try 
-    {
-        if (campaignId && campaignId > 0)
-            s.campaign = campaignId;
-    } catch (e) {}
-
-    s.state = "";
-    s.zip = "";
-    //s.events="";
-    s.products = "";
-    s.purchaseID = "";
-    s.eVar1 = "";
-    s.eVar10 = getPrettyDomain(document.domain.toLowerCase());
-    s.prop50=s.eVar10;
-    
-    s.eVar5 = "Home Site";
-    
-    s.eVar39 = "crackle";
-    
-
-    if (qs["utm_source"])
-        s.eVar51 = qs["utm_source"];
-    if (qs["utm_medium"])
-        s.eVar52 = qs["utm_medium"];
-    if (qs["utm_campaign"])
-        s.eVar53 = qs["utm_campaign"];
-    if (qs["utm_term"])
-        s.eVar54 = qs["utm_term"];
-    if (qs["utm_content"])
-        s.eVar55 = qs["utm_content"];
-
-    var pcmp = Crackle.stats.GetPcmpObFromCookies()
-
-    s.eVar14 = Crackle.stats.GetDaysSinceFirstVisit(pcmp,-7).toString();
-    s.eVar15 = s.getDaysSinceLastVisit('s_lv');
-    s.eVar32 = s.getReferrer();
-    s.eVar58 = Crackle.stats.GetMonthOfFirstVisit(pcmp,-7);
-
-    
-
-    if(qs && qs["regsuccess"]) {
-        s.events =  "event3,event20";
-    }
-    else {
-        s.events = "";
-    }
-
-    // Optimizely SiteCatalyst Integration
-    window.optimizely = window.optimizely || [];
-    window.optimizely.push("activateSiteCatalyst");
-
-    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
-    var s_code=s.t();if(s_code)document.write(s_code) //--></script>
-<!--/DO NOT REMOVE/-->
-<!-- End SiteCatalyst code version: H.19.3. -->
-
-
-<!-- Begin comScore Tag -->
-
-
-<script type="text/javascript">
-    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-    COMSCORE.beacon({
-        c1: 2,
-        c2: 6035898,
-        c3: "",
-        c4: 'crackle.com',
-        c5: "000000",
-        c6: "",
-        c15: ""
-    });
-</script>
-<noscript>
-    <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035898&c3=&c4=crackle.com&c5=000000&c6=&c15=&cj=1" />
-</noscript>
-<!-- End comScore Tag -->
-
-
-<!-- Begin Optify code -->
-
-<!-- End Optify code -->
-
-<!-- Google Code for Retargeting Remarketing List -->
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 1055266888;
-    var google_conversion_language = "en";
-    var google_conversion_format = "3";
-    var google_conversion_color = "ffffff";
-    var google_conversion_label = 'yXfWCIS92QIQyLCY9wM';
-    var google_conversion_value = 0;
-    
-    /* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-<noscript>
-    <div style="display: inline;">
-        
-        <img height="1" width="1" style="border-style: none;" alt="" src="//www.googleadservices.com/pagead/conversion/1055266888/?label=yXfWCIS92QIQyLCY9wM&amp;guid=ON&amp;script=0" />
-        
-    </div>
-</noscript>
-<script>
-    $jq('img[src*="googleadservices"]').css('display', 'none');
-    $jq('iframe[name*="stpostframe"]').css('display', 'none');
-</script>
-
-
-    
-
-
-<!-- Google Tag Manager -->
-<noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNCTX4" height="0" width="0" style="display: none; visibility: hidden"></iframe>
-</noscript>
-<script type="text/javascript" src="/scripts/googleTagManager/googleTagManagerFactory.js"></script>
-<script type="text/javascript">
-    $jq(function () {
-
-        window.dataLayer = [];
-        var options = {
-            isEnabled: true,
-            pageType: "",
-            country: "",
-            age: "",
-            hasOptedInForNewsletter: "false",
-            isRegistrationSuccessful: "false",
-            isFacebookLogin: "false",
-            mediaId: "0",
-            omnitureType: "",
-            mediaTitle: "",
-            studio: "",
-            genre: "",
-            releaseYear: "0",
-            rating: "0",
-            shareNetwork: ""
-        };
-        options.jsMethodsList = [];
-        
-
-        // init GTM
-        Crackle.GoogleTagManager.init(options);
-
-
-
-        /* START: Google code */
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KNCTX4');
-        /* END: Google code */
-    });
-
-</script>
-<!-- End Google Tag Manager -->
-
-
-</body>
-
-</html>
+                Register
+
+
+
+
+
+
+Social Off
+Social
+
+
+
+
+
+
+My Watchlist
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Movies
+
+
+TV
+
+
+Watchlists
+
+
+Browse
+
+
+
+
+
+
+
+
+
+
+Crackle Privacy Policy
+
+Last Modified: October 22 , 2014 (view archived versions)
+Welcome to Crackle.com and Crackle’s mobile and web-based applications (the "Service") operated by Crackle, Inc. ("Crackle" or “we”). Your privacy is important to us and we have prepared this Privacy Policy to explain to you:
+
+What information we collect and why.
+How we use and share that information.
+How you can access and update that information.
+
+ 
+By using the Service, you consent to the collection and use of your information as outlined in this Privacy Policy. Please read this Privacy Policy carefully, and if you have any questions, feel free to contact us.
+
+
+Privacy Overview
+The following is a brief overview of Crackle’s Privacy Policy.  For the full text of the Privacy Policy, please read on or click on the links below to take you directly to the section you are interested in.
+
+
+
+
+What information we collect and why
+
+
+You may use many of Crackle’s features anonymously, but we may use cookies and other technologies to keep track of your interactions with the Service and to highlight content that may be of particular interest to you based on past visits to the Service.
+This information may be combined with information obtained from Crackle’s affiliates and other companies.
+When you register for a Crackle account, we will ask you for personal information.
+We identify the country from which you are accessing the Service because some content is restricted by location. We also use your location to target relevant content and ads to you.
+
+
+
+How we use and share your personal information 
+
+
+We use the information collected to provide you the services and products you request and to provide you more relevant content and ads, including information about Crackle sweepstakes and promotions.
+We share website analytics, your interactions with the Service and information about your device(s) with third parties to provide the Services to you and for advertising purposes.
+
+
+
+
+How you can access and update that information 
+
+
+If you wish to view your information or update it, please visit your profile page.
+
+
+Opting-out of Crackle newsletters 
+
+
+We want to communicate with you only if you want to hear from us. If you wish to discontinue your Crackle newsletter subscription, please click the unsubscribe link at the bottom of the Crackle newsletter.
+
+
+
+
+
+
+Information We Collect and How We use it
+We collect information in two ways: (i) when you provide information about yourself and (ii) automatically when you use the Service, for various purposes related to providing you the Services and products as described below.
+Information You Choose To Submit
+(a) Registering for a Crackle Account. When you register to become a member of the Service, we collect your user name, email address, gender, and date of birth (collectively "Personal Information"). You may also create a profile that includes a photo and a brief message about yourself.
+We use your Personal Information to notify you of new product releases, to send service notifications, to customize the content and advertising you see, to fulfill your requests for products and services, to improve our services, to conduct research, and to solicit your feedback and input about the Service. In addition, if you have opted into receiving newsletters or other communications from us, we use your Personal Information for that purpose.
+(b) Entering Contests and Sweepstakes. For contests, sweepstakes and other promotions conducted on or through the Service, we use the Personal Information and other personal information you choose to provide to communicate with you regarding such contest, sweepstakes or other promotion and you are deemed to consent to us sharing such Personal Information with our contest, sweepstakes or promotional partners for the purpose of administering awards.
+(c) Sharing with Third Parties. Other than as set forth in this Privacy Policy, we will not share your Personal Information with third parties unless you have given us permission to do so.
+Information We Automatically Collect
+(a) Usage Data. We automatically collect certain information to help us understand how our users use the Service (which we will refer to in this Privacy Policy collectively as "Usage Data"). For example, each time you use the Service we may collect your IP address or other unique identifier for the computer, mobile device, technology or other device, in part because some content is restricted to certain locations.
+(b)	Cookies. In addition, we use a technology called "cookies." A cookie is a piece of data that identifies you as a unique user. We use cookies to improve the quality of our Service and make the Service easier to use. We do this by storing information (for example, settings preferences) about a particular user session in cookies in order to provide you with a seamless experience during a particular session. Certain of our third-party Providers (as defined in the next paragraph) may use cookies in connection with the services they perform on our behalf. If you choose to do so, you can configure your browser to delete existing cookies or disable cookies altogether. However, certain features of the Service may not work if you delete or disable cookies.
+(c) Using this Automatically Collected Information for Service Performance and Advertising. Advertising allows us to provide you the rich content available on Crackle for free. Some of our ads are based on the content of pages you are viewing elsewhere on the internet (i.e. online behavioral advertising). We believe that such tailored ads are more relevant to you and, therefore, more desirable.
+We also use automatically collected information for Service performance, data management and to display the appropriate content available in your country.
+We may contract with companies or persons to provide certain services including data management, promotional and advertising services ("Providers"). We give our Providers the information needed for them to perform these services. We also ask our Providers to abide by this Privacy Policy with respect to Usage Data or other data we share with them.
+Certain Providers of advertising services may use Usage Data (together with any information they collect directly from you via cookies and any information that you submit directly to them) to (a) improve, enhance and implement the sale, display and targeting of advertising on the Service and (b) combine such Usage Data with user data from their other customers to compile aggregate statistics, metrics and general trend data.
+You can opt out of the collection of data by certain Providers for online behavioral advertising at the Network Advertising Initiative’s opt-out page.. For more information and choices about interest-based ads, you may also visit the website for the Self-Regulatory Principles for Online Behavioral Advertising.. Crackle adheres to the Self Regulatory principles posted on this Service.
+Additionally, the Service features Nielsen’s proprietary measurement software which will allow users to contribute to market research, like Nielsen’s TV Ratings.  For more information about the measurement software and to learn about your choices with regard to Nielsen’s measurement, you may visit Nielsen’s Digital Measurement Privacy Policy.
+Legal Reasons for Sharing Your Information
+Notwithstanding anything in this Privacy Policy to the contrary, you understand and agree that Crackle may, in good faith, access, preserve, and disclose any information we have collected about you or that you have submitted:
+(a)	In response to subpoenas, court orders, or legal process, or to establish, protect, or exercise our legal rights or defend against legal claims;
+(b)	To protect the rights and property of Crackle, its affiliates, or the public;
+(c)	If we believe it is necessary in order to investigate, prevent, or take action regarding illegal activities, fraud, or situations involving potential threats to the safety of any person;
+(d)	To our parent company, subsidiaries, joint ventures, or other companies under common control with Crackle (in which case we will require such entities to honor this Privacy Policy);
+(e)	If Crackle is acquired by or merged with another entity (in which case we will require such entity to assume our obligations under this Privacy Policy); and
+(f)	Crackle may forward any counter notification that you submit pursuant to Crackle's Terms of Service, and any related communications, to third parties.
+Opting Out Of Future Communications; Updating And Deleting Your Information
+We want to communicate with you only if you want to hear from us.  If you wish to discontinue your Crackle newsletter subscription, please click the unsubscribe link at the bottom of the Crackle newsletter. If you would like to update or delete your email address or Personal Information that you previously submitted to us, you may do so by editing your Profile page at any time by following the process described here..  If you have questions or concerns regarding this Privacy Policy, please feel free to contact us or write to us at:
+Crackle, Inc.,         
+10202 Washington Blvd.,         
+Harry Cohn Building, Culver City, CA 90232         
+Attn: Customer Service
+Public / Social Areas
+Your use of areas of the Service that are intended for interaction with other users may reveal your user name and may allow you to publish certain personal information about you. By choosing to use these areas, you understand and agree that anyone with access to those areas may access and forward any information about you that is contained in or that you post to those areas. As with any social networking service, you should use care when disclosing your personal information to strangers.
+Also, the Service may permit interactions between the Service and a third party website or service, such as enabling you to "like" a product on our Service or "share" content to other websites or services. If you choose to "like" or "share" content on the Service or to otherwise post information from or via the Service to a third party's website, service, feature or application, that information will become public and the third party may have access to information about you and your use of our Services.
+Third-Party Web Sites
+The Service may contain links to websites operated and maintained by third parties over which we have no control. Privacy policies on such linked websites may be different from our Privacy Policy. You access such linked websites at your own risk. Similarly, the Service may be accessed and used from third-party websites that we do not control. We have no control over the privacy policies of such third-party websites and you access such third-party websites at your own risk.
+Security; Monitoring
+We incorporate commercially reasonable safeguards to help protect and secure your Personal Information. However, no electronic data transmission or storage of information can be guaranteed to be 100% secure. Please note that we cannot ensure or warrant the security of any information you transmit to us, and you use the Services and provide us with your information at your own risk.
+To help protect you and others, we may monitor your use of the Services and use your Personal Information, Usage Data and/or other information we collect in order to: identify fraudulent activities and transactions; prevent abuse of and investigate and/or prosecute potential threats to or misuse of the Services; ensure compliance with the Terms of Use and this Privacy Policy; investigate violations of or enforce these agreements; and protect the rights and property of you, Crackle, its partners and other customers. This security monitoring may result in the collection, recording, and analysis of online activity or communications through the Services. If you do not consent to these conditions, you must discontinue your use of the Services.
+General Audience Service
+The Service is a general audience website and application, and we do not knowingly collect personally identifiable information from children under the age of 13. If we become aware that we have inadvertently received personally identifiable information from a user under the age of 13, we will delete such information from our records. Because we do not knowingly collect any personally identifiable information from children under the age of 13, we also do not knowingly distribute such information to third parties.
+Notice to California Residents
+Pursuant to California Civil Code Section 1798.83, Crackle has a comprehensive privacy policy that sets forth that Crackle only shares personal information with third parties for direct marketing purposes if you specifically opt-in or are offered the opportunity to opt-out and elect not to opt-out to such sharing at the time you provide personal information or at the time you choose to participate in a feature on the Service. If you do not opt-in or if you opt-out at that time, Crackle does not share your information with that identified third party for marketing purposes.
+California Business & Professions Code Section 22575(b) (as amended effective January 1, 2014) provides that California residents are entitled to know how Crackle responds to “Do Not Track” browser settings.  Like many other websites and online services, Crackle does not currently alter its practices when it receives Do Not Track signals because there is no consensus among industry participants as to what “Do Not Track” means in this context. To find out more about “Do Not Track,” you may wish to visit About Do Not Track (DNT). In addition, California residents are entitled to know that third parties may collect personal information about your online activities over time and across different websites when you visit the Service. For more information about this, please refer to the following Sections above:  Opting Out Of Future Communications; Updating And Deleting Your Information, Information We Automatically Collect About You, and Third Party Web Sites.
+Consent to Transfer
+The Services are operated in the United States. If you are located in the European Union, Canada or elsewhere outside of the United States, please be aware that information we collect will be transferred to and processed in the United States. By using the Services, or providing us with any information, you consent to this transfer, processing and storage of your information in the United States, a jurisdiction in which the privacy laws may not be as comprehensive as those in the country where you reside and/or are a citizen.
+Changes
+Crackle may, in its sole and absolute discretion, change this Privacy Policy from time to time. In case of any material change to this Privacy Policy, we will replace the “Privacy” link on our home page with a link entitled “Privacy: Updated” for no less than 30 days. All changes to the Privacy Policy will be effective when posted, and your continued use of the Service after the posting will constitute acceptance of, and agreement to be bound by, those changes. If you object to any such changes, your sole recourse shall be to cease using the Service. However, if we make any change that allows us to use your Personal Information in any materially different manner than we were permitted under the Privacy Policy in effect at the time you submitted such Personal Information, we will obtain your consent before making such materially different use.
+Additional Questions
+Again, feel free to contact us any time if you have further questions about this Privacy Policy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Top Movies
+
+
+Joe Dirt 2
+
+
+Joe Dirt
+
+
+Click
+
+
+Ali G IndaHouse
+
+
+Lock, Stock, and Two Smoking Barrels
+
+
+Underworld
+
+
+
+
+JUST ADDED
+
+
+Olympus Has Fallen
+
+
+Lockout
+
+
+District 9
+
+
+The Skulls
+
+
+21
+
+
+You Got Served
+
+
+
+
+Explore
+
+
+Movies
+
+
+TV
+
+
+
+
+About
+
+
+Supported Devices
+
+
+Company News/About Us
+
+
+FAQ
+
+
+Terms of Service
+
+
+
+
+HOW TO
+
+
+Customer Support
+
+
+Unsubscribe
+
+
+Advertise With Us
+
+
+Privacy Policy
+
+
+Cookies
+
+
+About Ads
+
+
+
+
+
+
+
+Crackle Newsletter
+Want to know what new movies and shows are on Crackle? ‘Course you do.
+Join Us
+
+
+
+Follow us:
+
+
+
+
+
+© Crackle, Inc. 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
