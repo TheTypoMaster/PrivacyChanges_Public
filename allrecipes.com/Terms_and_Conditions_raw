@@ -1,0 +1,1268 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html class="ie6" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+<!-- ARLOG SERVER:USSEAWB08 LOCAL_IP: 192.168.5.128 REMOTE_IP:50.198.174.253 TYPESPECIFICID: 0 MERCH_KEY: MerchData_0_1_0_0_***_18_38_43_62_67 -->
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="pics-Label" content="(pics-1.1 &quot;http://www.icra.org/pics/vocabularyv03/&quot; l gen true for &quot;http://allrecipes.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 1) gen true for &quot;http://www.allrecipes.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 1))" /><meta id="ctl00_metaRobots" name="ROBOTS" content="noodp" /><meta http-equiv="Window-target" content="_top" /><meta http-equiv="x-dns-prefetch-control" content="off" /><link rel="meta" href="http://allrecipes.com/labels.xml" type="application/rdf+xml" title="ICRA labels" /><link rel="search" type="application/opensearchdescription+xml" title="Allrecipes" href="http://images.media-allrecipes.com/opensearch.xml" /><meta id="ctl00_metaKeywords" name="keywords" />
+
+
+
+<meta id="ctl00_ucOpenGraphMetadata_metaOpenGraphSiteName" property="og:site_name" content="Allrecipes.com"></meta>
+<meta property="fb:app_id" content="66102450266" /><style id="ctl00_HeadStyle" type="text/css">
+
+/* Layout CSS MUST load locally on all pages*/
+body {text-align: center; background-color:#F7F7F7; background-repeat: repeat-y; background-position: center top; background-attachment:fixed; margin: 0;padding: 0; background-image:url(http://images.media-allrecipes.com/global/nav/topnav2/backgrounds/global-wallpaper-1016-2013.png);}
+
+#wrap {width: 1000px;margin: 0 auto;text-align: left;}
+
+#main {float: left;width: 675px;}
+
+#farright {float: right;width: 310px;}
+#left {float: left;width: 170px;}
+#center {float: right;width: 505px;}
+#copyright 	{width: 1000px; margin: 0 auto; padding: 6px 0px 55px; color: #666666; font-family: Verdana, San-Serif; font-size: 9px;background-color:#fff;clear:left;}
+#copyright a{font-size:9px;}
+
+.right {float: right;}
+.left {float: left;}
+
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+.clearfix {display:inline-block;}
+/* Hide from IE Mac */
+.clearfix {display:block;}
+/* End hide from IE Mac */
+
+.navlist {list-style-type: none; padding: 0 0 1px 0;}
+ul.navlist li {display: inline;}
+	
+/* end layout styles */
+
+.truncate-inline {text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url(http://allrecipes.com/xbl/ellipsis.xml#ellipsis);white-space:nowrap;overflow:hidden;display:inline-block;max-width:100%;}
+.truncate-block {text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url(http://allrecipes.com/xbl/ellipsis.xml#ellipsis);white-space:nowrap;overflow:hidden;display:block;max-width:100%;}
+.ellipsis2 {-moz-binding: url('/xbl/ellipsis.xml#ellipsis');}
+
+#content {background-image: none; }
+#main {float: left; width: 675px;}
+#center {float: right; width: 675px; }
+#topcenter {padding-left: 20px;}
+
+</style>  
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "6036305" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036305&cv=2.0&cj=1" />
+    </noscript>   
+
+    <!-- End comScore Tag -->
+    
+<!-- BEGIN Krux Interchange Tag config -->
+<script type="text/javascript">
+    window.Krux || ((Krux = function () { Krux.q.push(arguments); }).q = []);
+    (function () {
+        function retrieve(n) {
+            var m, k = 'kx' + n;
+            if (window.localStorage) {
+                return window.localStorage[k] || "";
+            } else if (navigator.cookieEnabled) {
+                m = document.cookie.match(k + '=([^;]*)');
+                return (m && unescape(m[1])) || "";
+            } else {
+                return '';
+            }
+        }
+        var kvs = [];
+        Krux.user = retrieve('user');
+        if (Krux.user) {
+            kvs.push('kuid=' + Krux.user);
+        }
+        Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+        for (var i = 0; i < Krux.segments.length; i++) {
+            kvs.push('ksg=' + Krux.segments[i]);
+        }
+        Krux.dartKeyValues = kvs.length ? kvs.join(';') + ';' : '';
+    })();
+</script>
+<!-- END Krux Interchange config -->
+
+<!-- BEGIN Krux Control Tag -->
+<script class="kxct" data-version="async:1.7" type="text/javascript">
+    window.Krux || ((Krux = function () { Krux.q.push(arguments) }).q = []);
+    var host = window.location.host;
+    var tag = host.match(/(test\.)|(beta\.)|^(perf)/) ? "JewjpFUx" : (host.match(/(ci\.)|(localhost\.)/) ? "JewjwQyx" : "H1gAR3V7");
+    (function () {
+        var k = document.createElement('script'); k.type = 'text/javascript'; k.async = true;
+        var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+        k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+          (location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=" + tag;
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(k, s);
+    })();
+</script>
+<!-- END Krux Controltag -->
+
+    <title>
+	Legal
+</title>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('require', 'linker');
+        ga('linker:autoLink', ['allrecipes.com', 'allrecipes.corp']);
+        ga('create', 'UA-43872967-1', { 'allowLinker': true });
+
+    </script>
+    
+    <!-- Maxymiser script start -->
+    <script type="text/javascript" src="//service.maxymiser.net/cdn/allrecipes/js/mmcore.js"></script>
+    <!-- Maxymiser script end -->
+<link href="http://css01.media-allrecipes.com/css2009/v-2015.0812/Core.css" rel="Stylesheet" type="text/css" media="all" /><meta name="msapplication-starturl" content="http://allrecipes.com/" /><meta name="application-name" content="Allrecipes.com" /><meta name="msapplication-TileImage" content="http://allrecipes.com/AR_favicon_144x144.png" /><meta name="msapplication-TileColor" content="#737477" /><meta name="msapplication-square150x150logo" content="http://allrecipes.com/AR_favicon_310x310.png" /><meta name="msapplication-square70x70logo" content="http://allrecipes.com/AR_favicon_128x128.png" /><meta name="msapplication-task" content="name=Home;action-uri=http://allrecipes.com/;icon-uri=http://allrecipes.com/favicon.ico" /><meta name="msapplication-task" content="name=Browse Recipes;action-uri=http://allrecipes.com/recipes/;icon-uri=http://allrecipes.com/favicon.ico" /><meta name="msapplication-task" content="name=Menus;action-uri=http://allrecipes.com/menus/;icon-uri=http://allrecipes.com/favicon.ico" /><meta name="msapplication-task" content="name=Recipe Buzz;action-uri=http://allrecipes.com/recipe-exchange/recipe-requests.aspx;icon-uri=http://allrecipes.com/favicon.ico" /><meta name="msapplication-task" content="name=Recipe Box;action-uri=http://allrecipes.com/my/recipebox/default.aspx;icon-uri=http://allrecipes.com/favicon.ico" /><script type="text/javascript" src="http://js01.media-allrecipes.com/js/bundles/v-2015.0812/main-site-gpt-pubmatic.compressed.min.js"></script><link href="http://css01.media-allrecipes.com/js/bundles/v-2015.0812/main-site-css.compressed.min.css" rel="Stylesheet" type="text/css" media="all" /><link href="http://css01.media-allrecipes.com/css06/global/v-2015.0812/customersupport.css" rel="Stylesheet" type="text/css" media="all" /><script type="text/javascript" language="JavaScript">adid="";aradsord=Math.random()*10000000000000000;if (typeof AR == "undefined") { AR = { AdData: {} }; };</script><link rel="icon" href="http://allrecipes.com/favicon.ico"></link><link rel="shortcut icon" href="http://allrecipes.com/favicon.ico"></link></head>
+<body onunload="if(unregisterAllEvents){unregisterAllEvents();}">
+    <div id="fb-root"></div>
+    <img id="arbi_tb" src="//images.media-allrecipes.com/ar/spacer.gif" width="1" height="1" onload="setTimeout(function(){if($('#arbi_tb').attr('src').indexOf('media-allrecipes.com')>0) {$('#arbi_tb').attr('src','//s3.amazonaws.com/bi.tracking/spacer.gif?pn='+encodeURI(document.domain.toLowerCase() + window.location.pathname.toLowerCase())+'&t='+(new Date().getTime()));}},10);" />
+    
+
+
+<script type="text/javascript">
+    AR.TypeSpecificID = 0;
+    AR.FriendlyName = "";
+    AR.ImageServer = "http://images.media-allrecipes.com/";
+    AR.Config.ClientServiceUrl = "/Services/Client.svc/";
+    AR.Config.ApplicationPath = "";
+
+    AR.VisitorInfo._data = {"_isLoggedIn":false,"_isRecognized":false,"_isSupportingMember":false,"_ID":0,"_country":"USA","_ip":"50.198.174.253"};
+
+    AR.FeatureToggle = "";
+</script>
+    
+    
+    
+    
+    <div id="topads">
+        <div id="divTopLeaderboardAds"><div id='div-gpt-ad-leaderboard'>
+</div>
+</div>
+        
+    </div>
+    <form method="post" action="legal.aspx" id="aspnetForm" style="margin: 0px; padding: 0px;">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="11" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MTc1NTAyMDUPFgYeCExhc3RQYWdlZB4RcHJlUG9zdEJhY2tTZXJ2ZXIFCVVTU0VBV0IwOB4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgJmD2QWGgIFDxYCHglpbm5lcmh0bWwFKzxkaXYgaWQ9J2Rpdi1ncHQtYWQtbGVhZGVyYm9hcmQnPg0KPC9kaXY+DQpkAgcPZBYMAgEPZBYIAgEPZBYCZg9kFgQCCQ9kFgQCAQ8PFgIeCEltYWdlVXJsBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh4FdGl0bGUFBlNlYXJjaGQCAw8WAh4EaHJlZgU4aHR0cDovL2FsbHJlY2lwZXMuY29tL3NlYXJjaC9kZWZhdWx0LmFzcHg/bXM9MSZydD1yJnF0PWkWAgIBDw8WAh8EBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh8FBRFpbmdyZWRpZW50IHNlYXJjaGQCDQ8PFgIeC05hdmlnYXRlVXJsBThodHRwOi8vYWxscmVjaXBlcy5jb20vc2VhcmNoL2RlZmF1bHQuYXNweD9tcz0xJnJ0PXImcXQ9aWQWAmYPDxYCHwQFMGh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vYXIvc3BhY2VyLmdpZhYCHwUFFHNlYXJjaCBieSBpbmdyZWRpZW50ZAICD2QWCgIBDxYCHwYFP2h0dHA6Ly9hbGxyZWNpcGVzLmNvbS9yZWNpcGVzL21haW4uYXNweD9wcm9wMjQ9UE5fMS4wLjBfUmVjaXBlcxYCAgEPDxYCHwQFMGh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vYXIvc3BhY2VyLmdpZhYCHwUFB3JlY2lwZXNkAgMPFgIfBgU8aHR0cDovL2FsbHJlY2lwZXMuY29tL3Zp" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="ZGVvL21haW4uYXNweD9wcm9wMjQ9UE5fMi4wLjBfVmlkZW9zFgICAQ8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lmFgIfBQUFdmlkZW9kAgUPFgIfBgVUaHR0cDovL2FsbHJlY2lwZXMuY29tL3JlY2lwZXMvaG9saWRheXMtYW5kLWV2ZW50cy9tYWluLmFzcHg/cHJvcDI0PVBOXzMuMC4wX0hvbGlkYXlzFgICAQ8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lmFgIfBQUIaG9saWRheXNkAgcPFgIfBgVSaHR0cDovL2FsbHJlY2lwZXMuY29tL3JlY2lwZS1leGNoYW5nZS9yZWNpcGUtcmVxdWVzdHMuYXNweD9wcm9wMjQ9UE5fNC4wLjBfVGhlYnV6ehYCAgEPDxYCHwQFMGh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vYXIvc3BhY2VyLmdpZhYCHwUFCHRoZSBidXp6ZAIJDxYCHwYFWGh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9mZWF0dXJlcy9hbGxyZWNpcGVzLW1hZ2F6aW5lL2RlZmF1bHQuYXNweD9wcm9wMjQ9UE5fNS4wLjBfTWFnYXppbmUWAgIBDw8WAh8EBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh8FBRNBbGxyZWNpcGVzIE1hZ2F6aW5lZAIDD2QWAgIBD2QWCGYPZBYGAgEPFgIfBgVGaHR0cDovL2FsbHJlY2lwZXMuY29tL215L3JlY2lwZWJveC9kZWZhdWx0LmFzcHg/ZTM9VEJfMS4wLjBfUmVjaXBlLUJveGQCAw8WAh8GBU1odHRwOi8vYWxscmVjaXBlcy5jb20vbXkvc2hvcHBpbmdsaXN0" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="L2RlZmF1bHQuYXNweD9lMz1UQl8yLjAuMF9TaG9wcGluZy1MaXN0c2QCBQ8WAh8GBT5odHRwOi8vYWxscmVjaXBlcy5jb20vbWVudXMvbWFpbi5hc3B4P2UzPVRCXzMuMC4wX01lbnUtUGxhbm5lcmQCAQ9kFgYCAQ8WAh8GBUpodHRwOi8vYWxscmVjaXBlcy5jb20vbXkvcmVjaXBlYm94L2RlZmF1bHQuYXNweD9wcm9wMjQ9VEJfMS4wLjBfUmVjaXBlLUJveGQCAw8WAh8GBVFodHRwOi8vYWxscmVjaXBlcy5jb20vbXkvc2hvcHBpbmdsaXN0L2RlZmF1bHQuYXNweD9wcm9wMjQ9VEJfMi4wLjBfU2hvcHBpbmctTGlzdHNkAgUPFgIfBgVCaHR0cDovL2FsbHJlY2lwZXMuY29tL21lbnVzL21haW4uYXNweD9wcm9wMjQ9VEJfMy4wLjBfTWVudS1QbGFubmVyZAICD2QWBgIBDxYCHwYFRmh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9teS9yZWNpcGVib3gvZGVmYXVsdC5hc3B4P2UzPVRCXzEuMC4wX1JlY2lwZS1Cb3hkAgMPFgIfBgVNaHR0cDovL2FsbHJlY2lwZXMuY29tL215L3Nob3BwaW5nbGlzdC9kZWZhdWx0LmFzcHg/ZTM9VEJfMi4wLjBfU2hvcHBpbmctTGlzdHNkAgUPFgIfBgVAaHR0cDovL2FsbHJlY2lwZXMuY29tL215L21lbnVzL2RlZmF1bHQuYXNweD9lMz1UQl8zLjAuMF9NeS1NZW51c2QCAw9kFgYCAQ8WAh8GBUpodHRwOi8vYWxscmVjaXBlcy5jb20vbXkvcmVjaXBlYm94L2RlZmF1bHQuYXNweD9wcm9wMjQ9VEJfMS4wLjBfUmVjaXBlLUJveGQCAw8WAh8GBVFodHRwOi8vYWxscmVjaXBlcy5jb20vbXkvc2hvcHBpbmdsaXN0L2RlZmF1bHQuYXNweD9w" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="cm9wMjQ9VEJfMi4wLjBfU2hvcHBpbmctTGlzdHNkAgUPFgIfBgVEaHR0cDovL2FsbHJlY2lwZXMuY29tL215L21lbnVzL2RlZmF1bHQuYXNweD9wcm9wMjQ9VEJfMy4wLjBfTXktTWVudXNkAgQPZBYGAgEPZBYEZg9kFgICAQ8WAh8GBUtodHRwOi8vYWxscmVjaXBlcy5jb20vc3VwcG9ydGluZ21lbWJlcnNoaXAvaW5mby5hc3B4P2UzPVRCXzQuMC4wX1NOLkdldC1Qcm9kAgQPZBYCAgUPZBYCZg8PFgIfBwUnfi9TdXBwb3J0aW5nTWVtYmVyc2hpcC9JbmZvLmFzcHg/ZWN0PTIxFgQeBWNsYXNzBQxwcm9QaWxsMjl4MTAeBXN0eWxlZWQCAw8WAh8GBT9odHRwOi8vYWxscmVjaXBlcy5jb20vbXkvZGVmYXVsdC5hc3B4P2UzPVRCXzYuMS4xX0pvaW4tZm9yLUZyZWVkAgsPFgIfBgUgfi9NZW1iZXJzaGlwL0ZvcmdvdFBhc3N3b3JkLmFzcHhkAgMPFgIfAwU9PGRpdiBpZD0nZGl2LWdwdC1hZC1wdXNoZG93bicgY2xhc3M9J2FkLXB1c2hkb3duJyA+DQo8L2Rpdj4NCmQCBw9kFgICAQ8PFgIfBwUiaHR0cDovL20uYWxscmVjaXBlcy5jb20/c2l0ZXByZWY9bWRkAg0PFgIeB1Zpc2libGVoZAIRD2QWDgIGDxYCHwMFKTxkaXYgaWQ9J2Rpdi1ncHQtYWQtdG9wLXJpZ2h0Jz4NCjwvZGl2Pg0KZAILDxYCHwMFLTxkaXYgaWQ9J2Rpdi1ncHQtYWQtYm90dG9tLXJpZ2h0Myc+DQo8L2Rpdj4NCmQCDg9kFgJmD2QWBGYPZBYCZg8PFgIfBwUnfi9TdXBwb3J0aW5nTWVtYmVyc2hpcC9JbmZvLmFzcHg/ZWN0PTIxFgQfCAUMcHJvUGlsbDM1eDEyHwllZAIBDw8WAh8HBTJodHRw" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="Oi8vYWxscmVjaXBlcy5jb20vbWVudXMvbWFpbi5hc3B4P3drbWVudWFsc3U9MWRkAhMPZBYCZg9kFgYCAQ8WAh4EVGV4dAUZTmV3IE1lbnVzIGZyb20gQWxscmVjaXBlc2QCAw9kFgJmDw8WAh8HBSd+L1N1cHBvcnRpbmdNZW1iZXJzaGlwL0luZm8uYXNweD9lY3Q9MjEWBB8IBQxwcm9QaWxsMzV4MTIfCWVkAgkPZBYCAgEPDxYCHwcFJ2h0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51cy9uZXdlc3QuYXNweGRkAhQPZBYCZg9kFggCAQ8WAh8LBRBOZXcgTWVtYmVyIE1lbnVzZAIDD2QWAmYPDxYCHwcFJ34vU3VwcG9ydGluZ01lbWJlcnNoaXAvSW5mby5hc3B4P2VjdD0yMRYEHwgFDHByb1BpbGwzNXgxMh8JZWQCBw9kFgICAQ9kFgICAQ8WAh4LXyFJdGVtQ291bnQCBBYIZg9kFgICAQ9kFg4CAQ8PFgYeCENzc0NsYXNzBTxpbWFnZS1saW5rIGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVudXMfBwV9aHR0cDovL2FsbHJlY2lwZXMuY29tL21lbnUvNjQ0ODQ0MjMvZ2FtZS1kYXktc25hY2tzLS0td2Vlay00L2RldGFpbC5hc3B4P3AzND1MYXRlc3QlMjBVc2VyJTIwTWVudXMlM2FUaHVtYiZlOT1NZW51JTIwUGVyc29uYWweBF8hU0ICAhYCHgNyZWwFCG5vZm9sbG93FgJmDw8WAh8EBT5odHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL3VzZXJwaG90b3MvNTB4NTAvNTg2OTY0LmpwZ2RkAgMPDxYIHw0FQHRydW5jYXRlLWJsb2NrIGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVu" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="dXMfCwUYR2FtZSBEYXkgU25hY2tzIC0gV2VlayA0HwcFfWh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51LzY0NDg0NDIzL2dhbWUtZGF5LXNuYWNrcy0tLXdlZWstNC9kZXRhaWwuYXNweD9wMzQ9TGF0ZXN0JTIwVXNlciUyME1lbnVzJTNhVGl0bGUmZTk9TWVudSUyMFBlcnNvbmFsHw4CAhYCHw8FCG5vZm9sbG93ZAIFDxYCHwsFCjEyIFJlY2lwZXNkAgcPFgIfCwUHNCBNZWFsc2QCCQ8PFgQfCwUJbHV0emZsY2F0HwcFMGh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9jb29rLzExNDkyNDUwL3Byb2ZpbGUuYXNweGRkAgsPZBYCZg8PFgIfBwUnfi9TdXBwb3J0aW5nTWVtYmVyc2hpcC9JbmZvLmFzcHg/ZWN0PTIxFgQfCAUMcHJvUGlsbDI5eDEwHwkFDm1hcmdpbi10b3A6NHB4ZAINDxYCHwsFGkF1Z3VzdCAyNywgMjAxNSwgMTowMSBwLm0uZAIBD2QWAgIBD2QWDgIBDw8WBh8NBTxpbWFnZS1saW5rIGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVudXMfBwV9aHR0cDovL2FsbHJlY2lwZXMuY29tL21lbnUvNjQ0ODQzNzIvZ2FtZS1kYXktc25hY2tzLS0td2Vlay0zL2RldGFpbC5hc3B4P3AzND1MYXRlc3QlMjBVc2VyJTIwTWVudXMlM2FUaHVtYiZlOT1NZW51JTIwUGVyc29uYWwfDgICFgIfDwUIbm9mb2xsb3cWAmYPDxYCHwQFPmh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vdXNlcnBob3Rvcy81MHg1MC82MTQ0NzUuanBnZGQCAw8PFggfDQVAdHJ1bmNhdGUtYmxvY2sgbGlua1JlcXVpcmVzU3VwcG9ydGluZ01l" />
+<input type="hidden" name="__VIEWSTATE6" id="__VIEWSTATE6" value="bWJlcnNoaXAgZmVhdHVyZUhpbnRNZW51cx8LBRhHYW1lIERheSBTbmFja3MgLSBXZWVrIDMfBwV9aHR0cDovL2FsbHJlY2lwZXMuY29tL21lbnUvNjQ0ODQzNzIvZ2FtZS1kYXktc25hY2tzLS0td2Vlay0zL2RldGFpbC5hc3B4P3AzND1MYXRlc3QlMjBVc2VyJTIwTWVudXMlM2FUaXRsZSZlOT1NZW51JTIwUGVyc29uYWwfDgICFgIfDwUIbm9mb2xsb3dkAgUPFgIfCwUKMTQgUmVjaXBlc2QCBw8WAh8LBQc0IE1lYWxzZAIJDw8WBB8LBQlsdXR6ZmxjYXQfBwUwaHR0cDovL2FsbHJlY2lwZXMuY29tL2Nvb2svMTE0OTI0NTAvcHJvZmlsZS5hc3B4ZGQCCw9kFgJmDw8WAh8HBSd+L1N1cHBvcnRpbmdNZW1iZXJzaGlwL0luZm8uYXNweD9lY3Q9MjEWBB8IBQxwcm9QaWxsMjl4MTAfCQUObWFyZ2luLXRvcDo0cHhkAg0PFgIfCwUbQXVndXN0IDI3LCAyMDE1LCAxMjo1OSBwLm0uZAICD2QWAgIBD2QWDgIBDw8WBh8NBTxpbWFnZS1saW5rIGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVudXMfBwV9aHR0cDovL2FsbHJlY2lwZXMuY29tL21lbnUvNjQ0ODQzNTgvZ2FtZS1kYXktc25hY2tzLS0td2Vlay0yL2RldGFpbC5hc3B4P3AzND1MYXRlc3QlMjBVc2VyJTIwTWVudXMlM2FUaHVtYiZlOT1NZW51JTIwUGVyc29uYWwfDgICFgIfDwUIbm9mb2xsb3cWAmYPDxYCHwQFP2h0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vdXNlcnBob3Rvcy81MHg1MC8yMTYxMDA1LmpwZ2RkAgMPDxYIHw0FQHRydW5jYXRlLWJsb2Nr" />
+<input type="hidden" name="__VIEWSTATE7" id="__VIEWSTATE7" value="IGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVudXMfCwUYR2FtZSBEYXkgU25hY2tzIC0gV2VlayAyHwcFfWh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51LzY0NDg0MzU4L2dhbWUtZGF5LXNuYWNrcy0tLXdlZWstMi9kZXRhaWwuYXNweD9wMzQ9TGF0ZXN0JTIwVXNlciUyME1lbnVzJTNhVGl0bGUmZTk9TWVudSUyMFBlcnNvbmFsHw4CAhYCHw8FCG5vZm9sbG93ZAIFDxYCHwsFCjEzIFJlY2lwZXNkAgcPFgIfCwUHNCBNZWFsc2QCCQ8PFgQfCwUJbHV0emZsY2F0HwcFMGh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9jb29rLzExNDkyNDUwL3Byb2ZpbGUuYXNweGRkAgsPZBYCZg8PFgIfBwUnfi9TdXBwb3J0aW5nTWVtYmVyc2hpcC9JbmZvLmFzcHg/ZWN0PTIxFgQfCAUMcHJvUGlsbDI5eDEwHwkFDm1hcmdpbi10b3A6NHB4ZAINDxYCHwsFG0F1Z3VzdCAyNywgMjAxNSwgMTI6NTkgcC5tLmQCAw9kFgICAQ9kFg4CAQ8PFgYfDQU8aW1hZ2UtbGluayBsaW5rUmVxdWlyZXNTdXBwb3J0aW5nTWVtYmVyc2hpcCBmZWF0dXJlSGludE1lbnVzHwcFfWh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51LzY0NDg0MzQ0L2dhbWUtZGF5LXNuYWNrcy0tLXdlZWstMS9kZXRhaWwuYXNweD9wMzQ9TGF0ZXN0JTIwVXNlciUyME1lbnVzJTNhVGh1bWImZTk9TWVudSUyMFBlcnNvbmFsHw4CAhYCHw8FCG5vZm9sbG93FgJmDw8WAh8EBT5odHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL3VzZXJwaG90b3MvNTB4NTAvNDAxODczLmpwZ2Rk" />
+<input type="hidden" name="__VIEWSTATE8" id="__VIEWSTATE8" value="AgMPDxYIHw0FQHRydW5jYXRlLWJsb2NrIGxpbmtSZXF1aXJlc1N1cHBvcnRpbmdNZW1iZXJzaGlwIGZlYXR1cmVIaW50TWVudXMfCwUYR2FtZSBEYXkgU25hY2tzIC0gV2VlayAxHwcFfWh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51LzY0NDg0MzQ0L2dhbWUtZGF5LXNuYWNrcy0tLXdlZWstMS9kZXRhaWwuYXNweD9wMzQ9TGF0ZXN0JTIwVXNlciUyME1lbnVzJTNhVGl0bGUmZTk9TWVudSUyMFBlcnNvbmFsHw4CAhYCHw8FCG5vZm9sbG93ZAIFDxYCHwsFCjEyIFJlY2lwZXNkAgcPFgIfCwUHNCBNZWFsc2QCCQ8PFgQfCwUJbHV0emZsY2F0HwcFMGh0dHA6Ly9hbGxyZWNpcGVzLmNvbS9jb29rLzExNDkyNDUwL3Byb2ZpbGUuYXNweGRkAgsPZBYCZg8PFgIfBwUnfi9TdXBwb3J0aW5nTWVtYmVyc2hpcC9JbmZvLmFzcHg/ZWN0PTIxFgQfCAUMcHJvUGlsbDI5eDEwHwkFDm1hcmdpbi10b3A6NHB4ZAINDxYCHwsFG0F1Z3VzdCAyNywgMjAxNSwgMTI6NTggcC5tLmQCCQ8WAh8KaBYCAgEPDxYCHwcFJ2h0dHA6Ly9hbGxyZWNpcGVzLmNvbS9tZW51cy9uZXdlc3QuYXNweGRkAhkPFgIfAwUtPGRpdiBpZD0nZGl2LWdwdC1hZC1ib3R0b20tcmlnaHQxJz4NCjwvZGl2Pg0KZAIbDxYCHwMFLTxkaXYgaWQ9J2Rpdi1ncHQtYWQtYm90dG9tLXJpZ2h0Mic+DQo8L2Rpdj4NCmQCGQ8PFgIfBwUiaHR0cDovL20uYWxscmVjaXBlcy5jb20/c2l0ZXByZWY9bWRkAhsPZBYCZg8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lm" />
+<input type="hidden" name="__VIEWSTATE9" id="__VIEWSTATE9" value="FgIfBQUIRmFjZWJvb2tkAhwPZBYCZg8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lmFgIfBQUJUGludGVyZXN0ZAIdD2QWAmYPDxYCHwQFMGh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vYXIvc3BhY2VyLmdpZhYCHwUFB1R3aXR0ZXJkAh4PZBYCZg8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lmFgIfBQUHVHdpdHRlcmQCHw9kFgJmDw8WAh8EBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh8FBQtHb29nbGUgUGx1c2QCIA9kFgJmDw8WAh8EBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh8FBQZUdW1ibHJkAiEPZBYCZg8PFgIfBAUwaHR0cDovL2ltYWdlcy5tZWRpYS1hbGxyZWNpcGVzLmNvbS9hci9zcGFjZXIuZ2lmFgIfBQUHWW91VHViZWQCIg9kFgJmDw8WAh8EBTBodHRwOi8vaW1hZ2VzLm1lZGlhLWFsbHJlY2lwZXMuY29tL2FyL3NwYWNlci5naWYWAh8FBRBGcmVzaCBCaXRlcyBCbG9nZAIjD2QWAmYPDxYCHwQFMGh0dHA6Ly9pbWFnZXMubWVkaWEtYWxscmVjaXBlcy5jb20vYXIvc3BhY2VyLmdpZhYCHwUFC1N0dW1ibGVVcG9uZAIrDxYCHwMFMDxkaXYgaWQ9J2Rpdi1ncHQtYWQtaW50ZXJzdGl0aWFsLW9vcCc+DQo8L2Rpdj4NCmQCLQ8WFh4NQWRJbXByZXNzaW9uc2YeDkludGVybmFsU291cmNlZR4KVHJhY2tpbmdJRGUeCk1haWxGb3Jt" />
+<input type="hidden" name="__VIEWSTATE10" id="__VIEWSTATE10" value="YXRlHgZTZXJ2ZXIFCVVTU0VBV0IwOB4IQnVsa01haWxlHg9Jc0F1dGhlbnRpY2F0ZWRoHghQYWdlTmFtZQUYL2hlbHAvYWJvdXR1cy9sZWdhbC5hc3B4HgpBZFNpdGVab25lBQEvHhZEaXNhYmxlU2NyaXB0UmVuZGVyaW5naB4GQWRLZXlzZWQYBQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFKGN0bDAwJHVjTWFpbk5hdiR1Y1NlYXJjaE5hdiRidG5TZWFyY2hOYXYFJ2N0bDAwJHVjTWFpbk5hdiR1Y1NpZ25Jbk5hdiRjYnhSZW1lbWJlcgUoY3RsMDAkdWNNZW51TGlzdFVzZXJNZW51cyRtdndOZXdlc3RNZW51cw8PZAIBZAUmY3RsMDAkdWNNZW51TGlzdEFSTWVudXMkbXZ3TmV3ZXN0TWVudXMPD2RmZAUlY3RsMDAkdWNNYWluTmF2JHVjU2lnbkluTmF2JE12d0FjY2Vzcw8PZGZkBSRjdGwwMCR1Y01haW5OYXYkdWNUb29sYmFyJE12d1Rvb2xCYXIPD2RmZA==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+function getDisplayName() {return '';}AR.Ads.Site='';
+AR.Ads.Zone='';
+AR.Ads.KeyValues='';
+AR.Ads.KeyWords='';
+AR.Ads.Ord = aradsord;
+AR.Ads.VisitorID = '';
+AR.Ads.VisitorStatus = 'unrecognized';
+AR.Ads.VisitorStatusAbbr = 'u';
+AR.Ads.SessionGroup = '0';
+AR.Ads.TypeSpecificID = '0';
+AR.Ads.ItemAdKey = '';
+//]]>
+</script>
+
+        <div id="wrap">
+            
+
+<div id="mainNavContainer" class="clearfix">
+    <a id="ctl00_ucMainNav_ucLogoNav_lnkMainLogo" href="http://allrecipes.com/?prop24=PN_Logo"><div id="divLogo" class="arMainlogo" title="Allrecipes">
+<img src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Allrecipes home" width="1" height="1" />
+</div></a>
+
+    <div id="mainNav">
+        <div id="ctl00_ucMainNav_ucSearchNav_divMainSearch" class="mainsrchDiv"> 
+    <span id="closeSearch" class="closeSearch" style="display:none;"></span>                   
+
+    <div id="ctl00_srchinput" class="mainsrchinput">
+        <div id="searchControls" style="display: none;">
+            <input type="hidden" name="ctl00$ucMainNav$ucSearchNav$hidPredictiveSearch" id="hidPredictiveSearch" />       
+            <input name="ctl00$ucMainNav$ucSearchNav$txtSearchNav" type="text" id="txtSearchNav" maxlength="150" autocomplete="off" class="mainsrchBox searchBox" />
+            
+        </div>
+        
+        <div id="smallSearch">
+            <a id="lnkSmallSearch" class="normalSrchBtn" href="javascript:void(0);">
+                <img id="imgSmallSearchButton" class="normalSrchBtn" title="Search" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Search" height="32" width="99" />
+            </a>
+            <span></span>
+             <a href="http://allrecipes.com/search/default.aspx?ms=1&rt=r&qt=i" id="lnkIngredientSearchMin" class="ingredientSrchBtn">
+                <img id="imgIngredientSearch" title="ingredient search" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="ingredient search" height="32" width="87" />
+            </a>
+       </div>
+        <div id="bigSearch" style="display:none;">
+           
+            <div id="divBigOrangeSearch" class="orangeSearchbg">
+                <input type="image" name="ctl00$ucMainNav$ucSearchNav$btnSearchNav" id="btnSearchNav" name="" type="image" class="magGlass" src="http://images.media-allrecipes.com/global/icons/search-icon-lrg.png" alt="Search" title="Search" src="" />
+            </div>            
+        </div>
+    </div>
+    <ul class="srchSuggest">
+            <li></li>
+            <li><span class="matchedLtr"></span></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    
+    <a id="lnkIngredientSearch" class="search_link search-link-ingredient" rel="nofollow" href="http://allrecipes.com/search/default.aspx?ms=1&amp;rt=r&amp;qt=i" style="display:none;"><img id="Image1" title="search by ingredient" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="search by ingredient" height="34" width="150" /></a> 
+
+</div>
+
+        
+<nav>
+    <ul>
+        <li>
+            <a href="http://allrecipes.com/recipes/main.aspx?prop24=PN_1.0.0_Recipes" id="ctl00_ucMainNav_ucTopNav_lnkRecipesTab">
+                <img id="ctl00_ucMainNav_ucTopNav_imgRecipesTab" title="recipes" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="recipes" />
+            </a>
+        </li>
+        <li>
+            <a href="http://allrecipes.com/video/main.aspx?prop24=PN_2.0.0_Videos" id="ctl00_ucMainNav_ucTopNav_lnkVideoTab">
+                <img id="ctl00_ucMainNav_ucTopNav_imgVideosTab" title="video" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="video" />
+            </a>
+        </li> 
+        <li>
+            <a href="http://allrecipes.com/recipes/holidays-and-events/main.aspx?prop24=PN_3.0.0_Holidays" id="ctl00_ucMainNav_ucTopNav_lnkHolidaysTab">
+                <img id="ctl00_ucMainNav_ucTopNav_imgHolidaysTab" title="holidays" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="holidays" />
+            </a>
+        </li>
+        <li>
+            <a href="http://allrecipes.com/recipe-exchange/recipe-requests.aspx?prop24=PN_4.0.0_Thebuzz" id="ctl00_ucMainNav_ucTopNav_lnkTheBuzzTab">
+                <img id="ctl00_ucMainNav_ucTopNav_imgTheBuzzTab" title="the buzz" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="the buzz" />
+            </a>
+        </li>
+        <li>
+            <a href="http://allrecipes.com/features/allrecipes-magazine/default.aspx?prop24=PN_5.0.0_Magazine" id="ctl00_ucMainNav_ucTopNav_lnkArMagazineTab">
+                <img id="ctl00_ucMainNav_ucTopNav_imgMagTab" title="Allrecipes Magazine" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Allrecipes Magazine" />
+            </a>
+        </li>
+    </ul>
+</nav>
+    </div>
+    <div class="leftToolbContainer">
+        
+        <nav>
+        <ul id="mainNavToolbar">
+            
+                    <li><a href="http://allrecipes.com/my/recipebox/default.aspx?e3=TB_1.0.0_Recipe-Box" id="ctl00_ucMainNav_ucToolbar_lnkRecipeBoxLoggedNotIn" class="linkRequiresLogin" rel="nofollow">RECIPE BOX</a></li>
+                    <li><a href="http://allrecipes.com/my/shoppinglist/default.aspx?e3=TB_2.0.0_Shopping-Lists" id="ctl00_ucMainNav_ucToolbar_lnkShoppingListLoggedNotIn" class="linkRequiresLogin" rel="nofollow">SHOPPING LISTS</a></li>
+                    <li><a href="http://allrecipes.com/menus/main.aspx?e3=TB_3.0.0_Menu-Planner" id="ctl00_ucMainNav_ucToolbar_lnkMenuPlannerLoggedNotIn" rel="nofollow">MENU PLANNER</a></li>
+                    <li><a href="javascript:void(0)" id="ctl00_ucMainNav_ucToolbar_lnkCookingSchoolLoggedNotIn" class="jqCookingSchool" rel="nofollow">COOKING SCHOOL</a></li>
+                
+        </ul>
+        </nav>
+        
+
+<ul id="signInToolbar">
+    
+            <li>
+                <a href="http://allrecipes.com/supportingmembership/info.aspx?e3=TB_4.0.0_SN.Get-Pro" id="ctl00_ucMainNav_ucSignInNav_lnkGoProAnon" aria-haspopup="true" rel="nofollow">Go Pro!</a>
+            </li>
+            <li class="signInOutlink greyDivider signInSwapColors">
+                <a href="javascript:void(0)" class="lnkSignIn unsavedExempt" rel="nofollow">Sign In or Sign Up </a>
+            </li>
+        
+</ul> 
+
+<div class="signInOutModule">
+    <!-- show when signing in -->
+    <div class="signInOutModForm signIn signInOutBorder" id="signInForm" style="display: none;">
+        <label>Email or Username</label>
+        <a href="http://allrecipes.com/my/default.aspx?e3=TB_6.1.1_Join-for-Free" id="ctl00_ucMainNav_ucSignInNav_lnkJoinForFreeSignInForm" class="joinForFree linkShowsRegister" aria-haspopup="true" rel="nofollow">Join for free!</a>
+        <input name="ctl00$ucMainNav$ucSignInNav$txtUsername" type="text" id="txtUsername" maxlength="100" />
+        <div id="lblSignInErrorEmail" class="signInError" style="color:red"></div>
+        <div style="clear:both;"></div>
+
+        <label class="pwordLabel">Password</label>
+        <input name="ctl00$ucMainNav$ucSignInNav$txtPassword" type="password" id="txtPassword" maxlength="30" />
+        <a href="../../Membership/ForgotPassword.aspx" id="ctl00_ucMainNav_ucSignInNav_lnkForgotPassword" class="forgotMyPassword" rel="nofollow">Forgot password?</a>
+        <div id="lblSignInErrorPassword" class="signInError" style="color:red"></div>
+
+        <div>
+        <a href="javascript:void(0)" class="orangeBtn button medbtnFont" id="btnLogIn" rel="nofollow" ><span>Sign In</span></a> 
+
+        <input name="ctl00$ucMainNav$ucSignInNav$cbxRemember" type="checkbox" id="cbxRemember" />
+        <label class="chkbxLabel">Remember me</label>
+        </div>
+    </div>
+    <!-- end signing in -->
+                
+    <!-- show when already signed in -->
+    <div class="signInOutModForm signOut signInOutBorder" id="signOutForm" style="display: none;">
+
+        <div style="float: left;">
+            <a href="javascript:void(0)" id="ctl00_ucMainNav_ucSignInNav_lnkMyAllrecipesImg" rel="nofollow"><img id="ctl00_ucMainNav_ucSignInNav_imgSignOutModForm" width="75" height="75" /></a>
+        </div>
+        <ul>
+            <li><a href="javascript:void(0)" id="ctl00_ucMainNav_ucSignInNav_lnkMyAllrecipes" rel="nofollow">my allrecipes</a></li>
+            <li><a href="javascript:void(0)" id="ctl00_ucMainNav_ucSignInNav_lnkMyProfile" rel="nofollow">profile</a></li>
+            <li><a href="javascript:void(0)" id="ctl00_ucMainNav_ucSignInNav_lnkSettings" rel="nofollow">settings</a></li>
+        </ul>
+                
+        <a id="ctl00_ucMainNav_ucSignInNav_lnkLogout" class="grayBtn button medbtnFont sign-out-mod-logout" rel="nofollow"><span>Sign Out</span></a>
+    </div>
+</div>
+
+
+
+
+    </div>
+ </div>
+<script type="text/javascript">
+    if (AR.Nav != null && AR.Nav.PredictiveSearch != null) {
+        var isEnabled = 'False';
+        var delay = '200';
+        var minLength = '3';
+        AR.Search.Init();
+        AR.Nav.PredictiveSearch.Initialize(isEnabled, delay, minLength);
+    }
+</script>	    
+            <div id="divAdsBelowNav"><div id='div-gpt-ad-pushdown' class='ad-pushdown' >
+</div>
+</div>
+            <div id="content" class="clearfix">           
+            <noscript>
+                
+            </noscript>
+                
+            
+            
+            <div id="main">
+                
+
+<div id="header">
+<div id="centernavdiv">
+<div id="breadcrumbs">
+<a id="ctl00_SubHeaderMainPlaceHolder_Hyperlink35" href="../../default.aspx">Allrecipes Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a id="ctl00_SubHeaderMainPlaceHolder_Hyperlink12" href="../default.aspx">Customer Support</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Terms of Service Notice
+</div>
+<div id="header2"><h1 id="h1Feature">Terms of Service Notice</h1></div>
+<p style="margin-top: 0;">Last updated: <strong>October 17, 2012</strong></p>
+</div>
+</div> 
+
+
+                
+                <div id="center">                              
+                    
+<div id="searchstripe">&nbsp;</div>
+<!-- / searchstripe -->
+
+<div id="yay">      
+
+
+<a name="top"></a>
+<div class="faqitem">
+<p>Welcome to <a id="ctl00_CenterColumnPlaceHolder_Hyperlink2" href="../../default.aspx">Allrecipes.com</a>
+(the &#8220;Web site&#8221;). Please read this Terms of Service (&#8220;Notice&#8221;) carefully before using 
+the Web site. By viewing or otherwise using this Web site, you agree you are 13 or older and agree to the Allrecipes privacy 
+policy and to the terms of service in this Notice.
+<br /><br />
+
+We reserve the right in our sole discretion to change, modify, add, or delete portions of this Notice 
+at any time. We will provide notice of such changes only by posting the updated Notice on our Web site 
+and changing the &#8220;last updated&#8221; date listed above. This Notice applies exclusively to your access to, 
+interaction with, and use of, this Web site and does not alter in any way the terms or conditions of 
+any other agreement you might have with Allrecipes.com, Inc. (&#8220;Allrecipes&#8221;) for products, services, 
+or otherwise. We encourage you to review our Notice each time you visit our site to see if it has been 
+updated since your last visit. 
+<br /><br />
+
+If you have any questions regarding the use of the Web site, please refer to the 
+Frequently Asked Questions section within Customer Support. All other 
+questions or comments about the Web site should be directed to 
+<a id="ctl00_CenterColumnPlaceHolder_Hyperlink11" href="mailto:CustomerSupport@allrecipes.com">CustomerSupport@allrecipes.com</a>. 
+</p>
+
+</div>
+
+    <div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink49" href="#top">TOP</a>
+    </div><br />
+    
+    
+    
+<div class="faqitem">
+<p> <strong>Privacy Policy</strong><br />
+Allrecipes believes strongly in protecting user privacy. Allrecipes has therefore adopted a Privacy Policy. Users of this Web site 
+should refer to Allrecipes&#8217; Privacy Policy, available for viewing 
+<a id="ctl00_CenterColumnPlaceHolder_Hyperlink4" href="Privacy.aspx">here</a>, before providing any 
+information. 
+<br /><br />
+
+USER REGISTRATION<br />
+(A) In order to access or use some features of the Web site, you will have to become a registered user. 
+If you are under the age of thirteen, then you are not permitted to register as a user or otherwise 
+submit personal information to Allrecipes.com. 
+<br /><br />
+
+(B) In order to become a registered user, you must provide true, accurate and complete registration 
+information and, if such information changes, promptly update the relevant registration information. 
+During registration, you will create a user name and password (a &#8220;Membership&#8221;), which may permit you 
+access to certain areas of the Web site not available to non-registered users. You are responsible for 
+safeguarding and maintaining the confidentiality of your Membership. You are solely responsible for the 
+activity that occurs under your Membership, whether or not you have authorized the activity. You agree 
+to notify us immediately at our customer support address 
+<a id="ctl00_CenterColumnPlaceHolder_Hyperlink6" href="mailto:CustomerSupport@allrecipes.com">CustomerSupport@allrecipes.com</a> 
+of any breach of security or unauthorized use of your Membership. 
+
+<br /><br />
+(C) Recipes or other content saved by a member will be public and viewable by all. Private 
+recipes including weblinks, references and custom recipes entered by the member will remain private, 
+unless marked &#8220;shared&#8221; by the member. 
+<br /><br />
+(D) All members are automatically signed up to win giveaways drawn at random.  Notification will appear 
+within your member recipe box, if you have won.
+
+
+
+
+
+
+<br /><br />
+<br /><br />
+
+
+<strong>Proprietary Rights</strong>
+<br /><br />
+
+<strong>I. Content</strong><br />
+Allrecipes or its affiliates or licensors solely and exclusively own all rights, title and interest in all web site materials, 
+including, without limitation, the Allrecipes logo, design, text, copy, graphics, videos, other files, and the selection 
+and arrangement thereof (collectively, &#8220;Content&#8221;). 
+<br /><br />
+
+
+
+<strong>II. Website Usage</strong><br />
+Other than as expressly permitted in these Terms of Use, you may not reproduce, distribute, publish, transmit, modify, 
+create derivative works from, or otherwise exploit any content, code, data or materials on or available through the web site.  
+When you use the website, you agree to comply with all applicable federal, state, and local laws, including, without 
+limitation, copyright law. You may display and print material from this Web site solely for personal, non-commercial use,
+provided you keep all copyright or other proprietary notices intact. Any other use of Content, including any commercial use, 
+reproduction for purposes other than described above, modification, distribution, republication, display, or performance, 
+without the prior written permission of Allrecipes, is strictly prohibited.
+
+<br /><br />
+
+Other prohibited uses include:
+<br /><br />
+
+i) Use of robots, spiders, or any automatic device, or use of any manual process to copy or scrape the web site Content 
+for any purpose without the express written permission of Allrecipes. Notwithstanding the foregoing, Allrecipes grants 
+the operators of public search engines permission to use spiders to copy materials from the site for the sole purpose 
+of and solely to the extent necessary for creating publicly available searchable indices of the materials, but not 
+caches or archives of such materials.
+<br /><br />
+
+
+ii) You may not use, frame or utilize framing techniques to enclose any Allrecipes trademark, logo, or other proprietary 
+information, including the images found at this Web site, the content of any text, or the layout/design of any page or 
+form contained on any page of the Web site, without Allrecipes&#8217; express written consent. Except as noted in these 
+Terms of Use, you are not conveyed any right or license, by implication, estoppel or otherwise, in or under any patent, 
+trademark, copyright, or proprietary right of Allrecipes or any third party.
+
+<br /><br />
+
+<strong>III. API Usage</strong><br />
+You are granted a limited, nonexclusive, non-sublicensable right to access the Allrecipes Application Programming Interface 
+(API) on the terms specified herein. This website, the API and the Content are available for your personal, non-commercial 
+use only. Any other use, including but not limited to any commercial use, reproduction for mass distribution, modification, 
+republication, display, or performance, without the prior written permission of Allrecipes, is strictly prohibited.  You may 
+not reproduce, distribute, publish, transmit, modify, create derivative works from, or otherwise exploit any content, code, data or materials available through the API.
+
+<br /><br />
+We reserve the right, without notice and in our sole discretion, to terminate your license to use the API. Violation of 
+any of these terms or conditions may subject you to legal actions. 
+
+<br /><br />
+
+
+<strong>IV. Trademarks</strong><br />
+&#8220;Allrecipes.com,&#8221; &#8220;Allrecipes,&#8221; and other trademarks on this Web site are 
+trademarks of Allrecipes or its affiliates or licensors, and may not be copied, imitated or used, 
+in whole or in part, without the prior written permission of Allrecipes. In addition, all page headers, 
+custom graphics, button icons, and scripts are service marks, trademarks, and/or trade dress of 
+Allrecipes, and may not be copied, imitated, or used, in whole or in part, without the prior written 
+permission of Allrecipes. All other trademarks, registered trademarks, product names and company names 
+or logos mentioned on the Web site are the property of their respective owners.  
+<br /><br />
+
+Allrecipes might have other patents, patent applications, trademarks, copyrights, or other intellectual 
+property rights covering subject matter in any Web pages, and any software part of the Web site. Except 
+to the extent we may have granted you licenses to certain intellectual property in this Notice, our 
+providing you with such Web pages or any software does not give you any license to our intellectual 
+property. Any rights not expressly granted herein are reserved.</p>
+
+</div>
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink1" href="#top">TOP</a>
+    </div><br />
+
+<div class="faqitem">
+<p><strong>Hyperlinks</strong><br />
+You are granted a limited, nonexclusive right to create a hyperlink to the homepage or recipe home 
+page of this Web site only, provided such link does not portray Allrecipes or any of its products and 
+services in a false, misleading, derogatory, or otherwise defamatory manner. This limited right may be 
+revoked at any time. </p>
+<br />
+
+<p><strong>Third-Party Content &#38; Services</strong><br />
+Allrecipes may provide hyperlinks to sites such as search engines and content of third parties 
+(&#8220;Third-Party Content&#8221;) as a service to those interested in this information. Allrecipes does not 
+monitor nor does Allrecipes have control over any Third-Party Content. Allrecipes does not endorse or 
+adopt any Third-Party Content and can make no guarantee as to its accuracy or completeness. Allrecipes 
+does not warrant the accuracy of any information contained on, and undertakes no responsibility to 
+update or review, any Third-Party Content. Users use these hyperlinks and Third-Party Content contained 
+therein at their own risk.</p>
+<br />
+
+
+<p><strong>Submissions</strong><br />
+By submitting, disclosing, or offering any recipe, review, photograph, image, video, &#8220;favorites&#8221; list, 
+comments, feedback, postcards, suggestions, ideas, notes, drawings, concepts, and other information, 
+content or material, or other item (each, a &#8220;Submitted Item&#8221;) to Allrecipes, either online or offline 
+and whether or not solicited by Allrecipes, you hereby grant to Allrecipes an irrevocable, nonexclusive, 
+perpetual, worldwide, royalty-free right and license to use, display, publicly perform, modify, 
+reproduce, publish, distribute, make derivative works of, sublicense, and otherwise commercially and 
+non-commercially exploit your Submitted Items and all copyright, trade secret, trademark, or other 
+intellectual property rights therein, in any manner or medium now existing or hereafter developed 
+(including but not limited to print, film, or electronic storage devices), and the exclusive right to use, display, 
+publicly perform, modify, reproduce, publish, distribute, make derivative works of, sublicense, and 
+otherwise exploit all such materials on commercial websites, without compensation of 
+any kind to you or any third party. 
+<br /><br />
+
+You hereby represent and warrant (a) you have all necessary right, power, and authority to grant the 
+license set forth herein to your Submitted Item, and (b) your Submitted Item does not violate, 
+misappropriate, or infringe any copyright, trade secret, trademark or other intellectual property 
+right of any third party. You will take, at Allrecipes’ expense, any further action (including, without 
+limitation, execution of affidavits and other documents) reasonably requested by Allrecipes to effect, 
+perfect, and confirm the license granted to Allrecipes to your Submitted Item as set forth herein.  
+<br /><br />
+
+Publication or use of any Submitted Items is at the sole discretion of Allrecipes and Allrecipes is 
+under no obligation to publish or use any Submitted Item. If your Submitted Item is published, used 
+and/or posted on the Web site or otherwise used by Allrecipes, we may include your name, likeness, 
+photo or biographical information in conjunction with such publication, posting, or use. By submitting, 
+disclosing, or offering a Submitted Item, you hereby grant Allrecipes the right to use your name in 
+connection with the publication, use or posting of your Submitted Item. You must include your full 
+name and e-mail address with your Submitted Item so we can contact you if we have any questions about 
+your Submitted Item; however, only your name and not your e-mail address will be published with your 
+Submitted Item.</p>
+
+</div>
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink3" href="#top">TOP</a>
+    </div><br />
+
+
+<div class="faqitem">
+<p><strong>User Conduct</strong><br />
+This Web site might include discussion forums or other interactive areas, including, but not limited to, 
+bulletin boards, and recipe storage and exchange areas. All such forums and interactive areas shall be 
+used only for non-commercial purposes. You are solely liable for any material you upload or transmit to 
+the discussion forums or interactive areas of this Web site. You agree not to use the Web site to do 
+any of the following:</p>
+
+
+<ol>
+<li>Upload, post, e-mail, transmit, distribute or otherwise publish any message, information, text or other material (&#8220;Material&#8221;) that may be considered to be unlawful, harmful, libelous, tortious, defamatory, obscene, vulgar, pornographic, indecent, lewd, harassing, threatening, invasive of privacy or publicity rights, abusive, inflammatory, hateful, or racially, ethnically or otherwise objectionable; </li>
+<li>Upload or transmit any Material that would constitute or encourage a criminal offense, violate the rights of any party, or that would otherwise create liability or violate any local, state, national, or international law, including, without limitation, the regulations of the U.S. Securities and Exchange Commission, any rules of any securities exchange such as the New York Stock Exchange, the American Stock Exchange, or the NASDAQ; </li>
+<li>Upload, e-mail, transmit, or otherwise make available any Material that might infringe any patent, trademark, trade secret, copyright, or other intellectual or proprietary right of any party; </li>
+<li>Impersonate any person or entity or otherwise misrepresent your affiliation with a person or entity; </li>
+<li>Without Allrecipes&#8217; written permission, distribute, publish, or make available any unsolicited or unauthorized promotions, advertising or solicitations for funds, goods or services, including junk mail, spam, and chain letters; </li>
+<li>Harm minors in any way; or </li>
+<li>Upload, post, e-mail, transmit, or otherwise make available any Material that contains software viruses or any other computer code, files, or programs designed to interrupt, destroy, or limit the functionality of any computer software or hardware or telecommunications equipment. </li>
+</ol>
+</div>
+
+
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink5" href="#top">TOP</a>
+    </div><br />
+
+<div class="faqitem">
+<p><strong>Disclaimer</strong><br />
+THIS WEB SITE AND THE CONTENT AVAILABLE ON IT ARE PROVIDED ON AN &#8220;AS IS&#8221; AND &#8220;AS AVAILABLE&#8221; BASIS 
+WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND YOU AGREE USE OF THIS WEB SITE AND/OR 
+ITS CONTENT IS AT YOUR SOLE RISK. ALLRECIPES DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, 
+BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND 
+NON-INFRINGEMENT. ALLRECIPES DOES NOT REPRESENT OR WARRANT MATERIALS ON THIS WEB SITE ARE ACCURATE, 
+COMPLETE, RELIABLE, CURRENT, OR ERROR-FREE. ALLRECIPES DOES NOT REPRESENT OR WARRANT THIS WEB SITE 
+OR ITS SERVER(S) ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. YOU ACKNOWLEDGE YOUR USE OF THE 
+WEB SITE AND CONTENT IS AT YOUR SOLE RISK.  
+<br /><br />
+
+Allrecipes reserves the right to change any and all Content contained on this Web site at any time 
+without notice. Reference to any products, services, processes, or other information, by trade name, 
+trademark, manufacturer, and supplier or otherwise does not constitute or imply endorsement, 
+sponsorship or recommendation thereof by Allrecipes.  
+<br /><br />
+
+<strong>Limitation of Liability</strong><br />
+IN NO EVENT SHALL ALLRECIPES OR ITS AFFILIATES, OR ANY OF THEIR OFFICERS, DIRECTORS, EMPLOYEES, 
+AGENTS, OR SUPPLIERS BE LIABLE FOR ANY DIRECT, SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL 
+DAMAGES, OR ANY OTHER DAMAGES OF ANY KIND, INCLUDING, BUT NOT LIMITED TO, LOSS OF USE, LOSS OF 
+PROFITS OR LOSS OF DATA, WHETHER IN AN ACTION IN CONTRACT, TORT (INCLUDING, BUT NOT LIMITED TO, 
+NEGLIGENCE), OR OTHERWISE, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF, OR INABILITY 
+TO USE, THIS WEB SITE OR CONTENT CONTAINED ON, OR ACCESSED THROUGH, THIS WEB SITE, EVEN IF 
+ALLRECIPES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. Some jurisdictions do not 
+allow the limitation or exclusion of liability for incidental or consequential damages, so some 
+of the above might not apply to you.</p>
+</div>
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink8" href="#top">TOP</a>
+    </div><br />
+    
+    <div class="faqitem">
+
+<p><strong>Indemnification</strong><br />
+You agree to defend, indemnify and hold harmless Allrecipes, its affiliates, and all of their 
+officers, directors, agents, suppliers, and licensors from and against any and all claims, damages, 
+costs and expenses, including attorneys&#8217; fees, arising from or related to your use of the Web site 
+or any Materials or Submissions you provide, including, but not limited to, any claim by a third 
+party that any Materials or Submissions infringe or violate such third party&#8217;s rights or interests.</p>
+<br />
+
+<p><strong>Removal and Disclosure</strong><br />
+We reserve the right to, at our sole discretion, remove, take down, destroy or delete any Material 
+and Submissions at any time and for any reason, including, but not limited to Material and Submissions, 
+that we deem inappropriate or which we believe might subject us to any liability. We may access, 
+use and disclose transaction information about your use of our Web site, and any Material and 
+Submissions transmitted by you via or in connection with our Web site, to the extent permitted by 
+law, in order to comply with the law (e.g., a lawful subpoena); to initiate, render, bill and collect 
+for our products and services; to protect our rights or property, or to protect users of our Web site 
+from fraudulent, abusive, or unlawful use of our Web site. INDIRECT OR ATTEMPTED VIOLATIONS OF THIS 
+NOTICE OR ANY RELATED POLICY, GUIDELINE OR AGREEMENT, AND ACTUAL OR ATTEMPTED VIOLATIONS BY A THIRD 
+PARTY ON YOUR BEHALF, SHALL BE CONSIDERED VIOLATIONS OF THIS AGREEMENT BY YOU.</p>
+
+<br />
+<p><strong>Applicable Law</strong><br />
+These terms of service shall be governed by and construed in accordance with the laws of the state 
+of Washington, without regard to its choice of law principles to the contrary. You agree any action at 
+law or in equity arising out of or relating to these terms of service shall be filed only in the 
+state and federal courts residing in King County, Washington, and you hereby irrevocably and 
+unconditionally consent and submit to the exclusive jurisdiction of such courts over any suit, 
+action, or proceeding arising out of this Notice.</p>
+
+<br />
+<p><strong>Termination</strong><br />
+Allrecipes reserves the right, without notice and in its sole discretion at any time, to terminate 
+your license to use this Web site, to block or prevent future access to and use of this Web site, and 
+to remove and discard any Material and Submissions.</p>
+
+<br />
+<p><strong>Severability</strong><br />
+If any provision of this Notice shall be deemed unlawful, void, or for any reason unenforceable, 
+then that provision shall be deemed severable from this Notice and shall not affect the validity and 
+enforceability of any remaining provisions.</p>
+
+</div>
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink9" href="#top">TOP</a>
+    </div><br />
+    
+    
+    
+<div class="faqitem">
+<a id="A1"></a>
+<p><strong>ADDITIONAL TERMS.</strong><br />
+<p><strong>Allrecipes Pro privileges</strong><br /><br />
+
+<strong>Subscription Services</strong><br />  
+Some features of or services provided through the Web site require a fee-based subscription 
+(all fee-based subscriptions are referred to as &#8220;Subscription Services&#8221;). If you elect to purchase 
+Subscription Services you understand that your subscription is personal to you and the members of 
+your household, and you may not transfer or make available your account name and password to others, 
+including without limitation your co-workers. Any distribution by you of your account name and 
+password may result in cancellation of your subscription without refund and in additional charges 
+based on unauthorized use. Subscription Services may change, without prior notice.  From time to 
+time we may offer certain special promotions or offers (such as free premiums with purchase, 
+or product discounts, etc) associated with our products (&#8220;special premiums&#8221;). Shipment of such 
+special premiums may take 6-12 weeks for delivery. Allrecipes reserves the right to charge 
+shipping fees associated with these special premiums/products. Any and all promotions and/or 
+offers, including those for special premiums may be discontinued at anytime, without prior 
+notice at our discretion and are only available while supplies last or for the duration noted.  
+Special discounts are applicable for one-time use only. Subsequent renewals will be charged at the then-current rate.
+
+<br /><br />
+
+<strong>Cancelling Subscription Services.</strong><br />   
+You may terminate Subscription Services at any time by contacting our Customer Support at 
+<a id="ctl00_CenterColumnPlaceHolder_Hyperlink7" href="mailto:CustomerSupport@allrecipes.com">CustomerSupport@allrecipes.com</a>. 
+If you have a dispute with us relating to the Web site or the 
+Subscription Services, you may cancel the Subscription Services. The cancellation of Subscription 
+Services is your only remedy with respect to any such dispute that you may have with us. We will 
+attempt to process all cancellation requests within 72 hours after we receive your request. Any 
+such termination or cancellation is subject to the no-refund policy described below. Please remember 
+that if we determine, in our sole discretion, that you are not complying with any terms of conditions 
+in this Notice, the Privacy Policy, or other terms of service on our Web site, we reserve the 
+right to terminate your Subscription Services. Upon any termination or cancellation of your 
+Subscription Services, we may immediately deactivate or delete your subscription service related 
+features and content.
+
+<br /><br />
+<strong>Payment.</strong><br /> 
+Prices for all Subscription Services exclude all applicable taxes and telecommunication charges, 
+unless expressly stated otherwise and are in the form of US Dollars. To the extent permissible under 
+law, you are responsible for any applicable taxes, whether or not they are listed on your receipt or 
+statement. If you purchase Subscription Services, you agree to pay, using a valid credit card (or other 
+form of payment that we may accept from time to time), the applicable fees and taxes (if any) set forth 
+on the Web site. We reserve the right, upon prior notice to you, to change the amount of any fees and to 
+institute new fees, effective at the end of your current subscription period. All authorized charges 
+will be billed to your designated credit card account (or other payment method) on the terms described 
+in the specific offer. If payment cannot be charged to your credit card or your payment is returned to 
+Allrecipes for any reason, Allrecipes reserves the right to either suspend or terminate your access to 
+the unpaid-for Subscription Services.
+
+<br /><br />
+CONFIDENTIALITY.  All information supplied by you to Allrecipes.com during the completion of the 
+registration and subscription forms is subject to the Privacy Policy.
+
+<br /><br />
+
+LIMITATION ON LIABILITY.  Allrecipes.com is not responsible for any problems or technical malfunction 
+of any telephone network or lines, computer online systems, servers, or providers, computer equipment, 
+software, failure of any e-mail or redemption to be received by Allrecipes.com on account of technical 
+problems or traffic congestion online or on the Internet or at any web site, or any combination 
+thereof including any injury or damage to entrant's or any other person&#8217;s computer related to or 
+resulting from downloading any materials consistent with this Trial or subsequent use of 
+Allrecipes.com.  If, for any reason, the Trial offer is not capable of running online as planned, 
+including infection by computer virus, bugs, tampering, unauthorized intervention, fraud, technical 
+failures, or any other causes beyond the control of Allrecipes.com which threatens or corrupts or 
+adversely affects the administration, security, fairness, integrity or proper conduct of this Trial 
+offer, Allrecipes.com, reserves the right, in its sole discretion, to cancel, terminate or suspend 
+the offer and/or any Trials.  CAUTION:  ANY ATTEMPT BY YOU TO DELIBERATELY DAMAGE ANY WEB SITE OR 
+UNDERMINE THE LEGITIMATE OPERATION OF THE SUBSCRIPTION OFFER, MAY BE A VIOLATION OF CRIMINAL AND CIVIL 
+LAWS AND SHOULD SUCH AN ATTEMPT BE MADE, ALLRECIPES.COM WILL DISQUALIFY YOUR ATTEMPTED REDEMPTION AND 
+RESERVES THE RIGHT TO SEEK DAMAGES FROM YOU TO THE FULLEST EXTENT PERMITTED BY LAW.
+
+<br /><br />
+
+<strong>Renewal Program.</strong>  Allrecipes.com will notify prior to automatically renewing your 
+subscription on the anniversary of your purchase to ensure that there is no interruption of your 
+Allrecipes Pro privileges. Allrecipes.com will charge your credit card at the then-current renewal 
+rate using the credit card information we have on file for your account.  Please contact the 
+Allrecipes.com Customer Support Department at 
+<a id="ctl00_CenterColumnPlaceHolder_Hyperlink13" href="mailto:CustomerSupport@allrecipes.com">CustomerSupport@allrecipes.com</a>  
+to cancel your automatic renewal, cancel your subscription, or change your payment method.
+
+
+</p>
+</div>    
+    
+    
+    
+    
+<div class="faqitem">
+<a id="copyrightcomplaints"></a>
+<p><strong>Copyright Complaints</strong><br />
+Pursuant to Title 17, United States Code, Section 512(c)(2), notifications of claimed copyright 
+infringement must be sent to Service Provider&#8217;s Designated Agent. 
+<br /><br />
+
+Notification must be submitted to the following Designated Agent: 
+<br /><br />
+
+Service Provider: Allrecipes
+<br /><br />
+
+Name of Agent Designated to Receive Notification of Claimed Infringement: Monica Williams
+<br /><br />
+
+Full Address of Designated Agent to Which Notification Should be Sent: 413 Pine Street, Suite 500, Seattle, WA 98101
+<br /><br />
+
+Telephone Number of Designated Agent: 206.292.3990
+<br /><br />
+
+Facsimile Number of Designated Agent: 206.436.7406
+<br /><br />
+
+E-Mail Address of Designated Agent: dmca@allrecipes.com
+<br /><br />
+
+To be effective, the notification must be a written communication that includes the following:</p>
+
+<br />
+<ol style="margin-left: 10px;">
+<li>A physical or electronic signature of person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; </li>
+<li>Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site; </li>
+<li>Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material; </li>
+<li>Information reasonably sufficient to permit us to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted; </li>
+<li>A statement that the complaining party has a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and </li>
+<li>A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed. </li>
+</ol>
+
+<p>We may give notice of a claim of copyright infringement to our users by means of a general notice on the Web site, electronic mail to a user’s e-mail address in our records, or by written communication sent by first-class mail to a user’s address in our records. Allrecipes may, within its sole discretion, terminate authorization of users to its Web site who are repeat infringers.</p>
+
+</div>
+
+<div class="faqitem right paging">
+    <a id="ctl00_CenterColumnPlaceHolder_Hyperlink10" href="#top">TOP</a>
+    </div>
+    <br />
+
+<div class="faqitem" style="border-bottom:0;">
+    
+
+    
+
+<p> <strong>SMS Campaign</strong><br />
+Allrecipes.com is sponsoring the Thanksgiving Hero SMS Campaign: Text "Holiday" to 63485 and learn how to avoid the 12 most common Thanksgiving Cooking Disasters.  Msg &#38; data rates may apply. You will receive one message upon participating. An automated message will be delivered to the phone number the consumer provides upon participating.
+
+<br /><br />
+
+Text <strong>STOP</strong> to cancel. Text <strong>HELP</strong> for help. Carriers on shortcode 63485 are as follows &#8212; Sprint, Boost, Verizon Wireless, AT&#38;T, US Cellular®,  Cricket, and T-Mobile®.  For more information, contact Customer Care (877-571-0774). Contact for Consent is not a condition of purchase. For more information, see the <a href="../../help/aboutus/privacy.aspx">Allrecipes Privacy Policy</a>.    
+
+    
+
+</p>
+
+</div>
+
+
+</div>
+
+
+                </div>
+                <!-- end center -->
+                <!-- added for guil bug in hubs -->
+                <div style="clear: both; font-size: 1px;">
+                    &nbsp;</div>
+            </div>
+            <!-- end main -->
+            
+                
+                <div id="farright">
+                    
+                    
+                    
+                    <!-- end top-right -->      
+                 
+                                  
+                    
+
+
+<div class="rightcolblock" style="border-width: 0;margin: 0px 5px;">
+<div class="custcareleft"><h3><a id="ctl00_RightColumnMiddlePlaceHolder_ctl00_lnkContactUs" href="../contactus.aspx">CONTACT US</a></h3>
+<h2>ALLRECIPES</h2></div>
+
+<p>413 Pine Street<br />
+Suite 500<br />
+Seattle, Washington 98101
+<br />          
+<br />          
+</p>
+
+<p><a href="http://www.facebook.com/allrecipes" rel="nofollow" target="_blank">Fan us on Facebook!</a></p>    
+<p><a href="http://twitter.com/AllrecipesNews" rel="nofollow" target="_blank">Follow us on Twitter!</a></p>    
+</div>
+
+
+
+                    <div id="ads-right">
+                        <div id="divTopRightGptAd"><div id='div-gpt-ad-top-right'>
+</div>
+</div>
+                    </div>                    
+
+                    <div style="clear: left">
+                    </div>
+                    <span><div class="toprightmerch"><a href="https://secure.allrecipesmagazine.com/order/?containerName=june15_banners&ordersrc=allrecipes_lozenge&soid=toprightmerch"><img src="http://images.media-allrecipes.com/images/58963.png" width="300" height="35" alt="Subscribe Today!" border="0"></a></div></span><div id="divRightBottom3GptAd" class="rrAdPad"><div id='div-gpt-ad-bottom-right3'>
+</div>
+</div><div id="rightContainer" class="rrModule seasonalWidget">
+<div class="topCorners">
+     <h4>In Season</h4>
+</div>
+ <div class="rightcolcontainerDiv">
+     <div class="seasonalItemWrap">
+             <a id="anchorImage" href="http://allrecipes.com/recipes/everyday-cooking/budget-cooking/?prop24=RR_Seasonal_Slide1_Mealtime-Money" target="_self">
+                 <img target="_blank" style="width:75px; height:75px;" alt="Mealtime Money-Savers" title="Mealtime Money-Savers" id="imageThumbnail" src="http://images.media-allrecipes.com/images/33985.jpg">
+             </a>
+    <div class="seasonalDesc">
+             <a id="anchorLink" href="http://allrecipes.com/recipes/everyday-cooking/budget-cooking/?prop24=RR_Seasonal_Slide1_Mealtime-Money" class="seasonaLtxtLink" style="visibility: visible;" title="Mealtime Money-Savers" target="_self">Mealtime Money-Savers</a>
+             <p id="paraDetail" class="seasonalPara"style="visibility: visible;">Browse through over 500 recipes for delicious, budget-friendly meals.</p>
+     </div>
+     </div>
+     <div class="seasonalItemWrap">
+             <a id="anchorImage" href="http://allrecipes.com/recipes/side-dish/sauces-and-condiments/canning-and-preserving/?prop24=RR_Seasonal_Slide2_Can-What-You-C" target="_self">
+                 <img target="_blank" style="width:75px; height:75px;" alt="Can What You Can't" title="Can What You Can't" id="imageThumbnail" src="http://images.media-allrecipes.com/images/14665.jpg">
+             </a>
+    <div class="seasonalDesc">
+             <a id="anchorLink" href="http://allrecipes.com/recipes/side-dish/sauces-and-condiments/canning-and-preserving/?prop24=RR_Seasonal_Slide2_Can-What-You-C" class="seasonaLtxtLink" style="visibility: visible;" title="Can What You Can't" target="_self">Can What You Can't</a>
+             <p id="paraDetail" class="seasonalPara"style="visibility: visible;">The old saying goes, "Eat what you can, and can what you can't!" We have the know-how.</p>
+     </div>
+     </div>
+     <div class="seasonalItemWrap">
+             <a id="anchorImage" href="https://secure.allrecipesmagazine.com/order/?containerName=june15_misc&ordersrc=allrecipes_rightrail&prop24=RR_Seasonal_Slide3_Subscribe-Toda" target="_blank">
+                 <img target="_blank" style="width:75px; height:75px;" alt="Subscribe Today! Only $7.99" title="Subscribe Today! Only $7.99" id="imageThumbnail" src="http://images.media-allrecipes.com/images/59187.png">
+             </a>
+    <div class="seasonalDesc">
+             <a id="anchorLink" href="https://secure.allrecipesmagazine.com/order/?containerName=june15_misc&ordersrc=allrecipes_rightrail&prop24=RR_Seasonal_Slide3_Subscribe-Toda" class="seasonaLtxtLink" style="visibility: visible;" title="Subscribe Today! Only $7.99" target="_blank">Subscribe Today! Only $7.99</a>
+             <p id="paraDetail" class="seasonalPara"style="visibility: visible;">Delicious recipes, party ideas, and cooking tips! Get a year of Allrecipes magazine for $7.99!</p>
+     </div>
+     </div>
+     <div class="clearDiv"></div>
+ </div>
+</div>
+<script type="text/javascript">
+$('p.seasonalPara').textTruncate({ multiline: true, height: 45 });
+</script>
+<div id="ctl00_mpbMostPopularBlogs_rightContainer" class="rrModule">
+
+    <div class="topCorners">
+    <h4>Most Popular Blogs</h4>
+    </div>
+
+    <div class="rightcolcontainerDiv">
+        
+        
+                <ul class="mostPopular">
+            
+                <li class="ellip-container">               
+                    <a href="http://allrecipes.com/cook/180252838/blogentry.aspx?postid=347637" id="ctl00_mpbMostPopularBlogs_rptMostPopularBlogs_ctl01_lnkPopularBlogTitle" class="truncate-inline">When does a body call it enough?</a>             
+                    <div>August 27, 2015 6:24 PM</div>
+                </li>
+            
+                <li class="ellip-container">               
+                    <a href="http://allrecipes.com/cook/10896017/blogentry.aspx?postid=347633" id="ctl00_mpbMostPopularBlogs_rptMostPopularBlogs_ctl02_lnkPopularBlogTitle" class="truncate-inline">Very Sad News...</a>             
+                    <div>August 27, 2015 12:44 PM</div>
+                </li>
+            
+                <li class="ellip-container">               
+                    <a href="http://allrecipes.com/cook/13116299/blogentry.aspx?postid=347629" id="ctl00_mpbMostPopularBlogs_rptMostPopularBlogs_ctl03_lnkPopularBlogTitle" class="truncate-inline">Hello! I Must Be Going!</a>             
+                    <div>August 23, 2015 7:15 PM</div>
+                </li>
+            
+                </ul>
+            
+        <p class="readBlog">
+            Read our <a id="ctl00_mpbMostPopularBlogs_lnkAllrecipesBlog" href="../../Cook/13290867/Blog.aspx">allrecipes.com blog</a>
+        </p>
+
+        <div class="rightcolLinkdiv">
+         
+            <a id="ctl00_mpbMostPopularBlogs_lnkMostPopularBlogsStartABlog" class="linkRequiresSupportingMembership featureHintBlogs" rel="nofollow" href="http://allrecipes.com/my/shared/blogs/edit.aspx">Start a Blog</a>
+             <a id="ctl00_mpbMostPopularBlogs_ucMDBling_lnkPitch" title="Pro Member (Learn more about Pro)" class="proPill29x10" href="../../SupportingMembership/Info.aspx?ect=21" style="position:relative; top:2px;"></a>
+            |
+            <a id="ctl00_mpbMostPopularBlogs_lnkMostPopularBlogsReadAllBlogs" href="../../Community/Blogs.aspx">Read All Blogs</a>
+        </div>
+
+    </div>
+
+    <div class="rightcolBottomCorners"></div>
+</div><div id="ctl00_rvrRecentlyViewedRecipes_rightContainer" class="rrModule">
+    <div class="topCorners">
+    <h4>Recently Viewed Recipes</h4>
+    </div>
+     <div class="rightcolcontainerDiv">   
+        <div id="ctl00_rvrRecentlyViewedRecipes_pnlRecentlyViewedEmpty" class="emptyMsg">
+	
+            You haven't looked at any recipes lately. Get clicking!
+</div>
+        
+        <div class="rightcolLinkdiv">
+            Quick Links:
+            <a id="ctl00_rvrRecentlyViewedRecipes_lnkRVRRecipeBox" class="linkRequiresLogin" rel="nofollow" href="../../My/RecipeBox/Default.aspx">Recipe Box</a>
+            |
+            <a id="ctl00_rvrRecentlyViewedRecipes_lnkRVRShoppingList" class="linkRequiresLogin" rel="nofollow" href="../../My/ShoppingList/Default.aspx">Shopping List</a>
+            |
+            <a id="ctl00_rvrRecentlyViewedRecipes_lnkClipboardMore" href="../../Recipe-Tools/Clipboard/Recent.aspx">More &#187;</a>
+        </div>
+    </div>
+    <div class="rightcolBottomCorners"></div>
+</div><div id="divRightBottom1GptAd" class="rrAdPad"><div id='div-gpt-ad-bottom-right1'>
+</div>
+</div>
+                    <div id="divRightBottom2GptAd" class="rrAdPad"><div id='div-gpt-ad-bottom-right2'>
+</div>
+</div>
+                    <!-- end ads_right -->
+                    <div style="height: 12px;">
+                        &nbsp;</div>
+                </div>
+                
+            <!-- end farright -->
+
+                
+
+        </div>
+        <!-- end content -->
+        
+        
+        <div id="footer">
+            <ul id="footernav" class="navlist">
+                <li class="first"><a id="ctl00_lnkFootHome" href="http://allrecipes.com/">Allrecipes.com</a></li>
+                <li><a id="ctl00_lnkMobileSite" rel="nofollow" onclick="return confirm(&#39;Sure you want to leave the full site? To come back, you must tap the Full Site link at the bottom of the page.&#39;);" href="http://m.allrecipes.com?sitepref=m">Allrecipes Mobile</a></li>
+                <li><a id="ctl00_lnkFootContact" href="http://dish.allrecipes.com/customer-service/contact-us-2/">Contact Us</a></li>
+                <li><a id="ctl00_lnkFootAdvertising" href="http://ads.allrecipes.com">Advertising</a></li>
+                <li><a id="ctl00_lnkFootNewsroom" href="http://press.allrecipes.com">Newsroom</a></li>
+                <li><a id="ctl00_lnkFootJobs" href="http://dish.allrecipes.com/allrecipes-jobs/">Jobs</a></li>
+                <li><a id="ctl00_lnkFootMap" href="http://allrecipes.com/help/sitemap.aspx">Site Map</a></li>
+                <li><a id="ctl00_lnkFootRSS" href="http://allrecipes.com/help/aboutus/rss.aspx">RSS Feeds</a></li>
+                <li><a id="ctl00_lnkFootCustomer" href="http://dish.allrecipes.com/customer-service/">Customer Support</a></li>
+            </ul>          
+            <ul id="footernav3" class="navlist">
+                <li class="first"><a id="ctl00_lnkFootMobile" href="http://allrecipes.com/features/mobile/default.aspx">Allrecipes Apps</a></li>
+                <li><a id="ctl00_lnkAllrecipesYouTube" href="http://youtube.com/allrecipes">Allrecipes - YouTube</a></li>
+                <li><a id="ctl00_lnkFoodWishesYouTube" href="http://youtube.com/foodwishes">Food Wishes - YouTube</a></li>
+                <li><a id="ctl00_lnkARShopZazzle" href="http://www.zazzle.com/allrecipes?rf=238656405950238074">Shop Allrecipes</a></li>
+
+                <li><a id="ctl00_lnkARMag" href="http://armagazine.com/site-footer" target="_blank">Allrecipes Magazine</a></li>       
+                
+
+                <li><a id="ctl00_lnkMeredith" href="http://www.meredith.com/marketing_solutions/interactive_media.html">Meredith Women&#8217;s Network</a></li>
+                <li><a id="ctl00_lnkContestsandSweeps" href="../../community/contests/default.aspx?prop24=PN_6.2.4_SN.Contestsand-Swe">Promotions</a></li>
+            </ul>
+            
+        </div>
+        
+        <!-- end footer -->
+
+        </div>
+        
+    
+<script type='text/javascript' src='http://js01.media-allrecipes.com/js/bundles/v-2015.0812/main-site-bottom.compressed.min.js' ></script>
+<script type="text/javascript">
+//<![CDATA[
+AR.Extenders.BindEnterToButton('txtSearchNav','btnSearchNav');//]]>
+</script>
+<script type='text/javascript'>  (function () { $.extend(AR.FeatureToggles, {"FirstImpressionAdTargeting":true,"GptRefactorForPubmatic":true,"Yieldbot":true,"PubmaticForIE":true,"RenderLanguageVariations":true,"CookingSchoolLink":true}) } )(); </script></form>
+    <!-- end wrap -->
+    <div style="padding: 10px 0;" id="countries">
+         <a id="ctl00_HyperLink16" href="http://allrecipes.com.ar">Argentina</a>
+        <span>&nbsp;|&nbsp;</span>
+        <a id="ctl00_lolCountryANZ" href="http://allrecipes.com.au">Australia &amp; New Zealand</a>
+        <span>&nbsp;|&nbsp;</span>
+        <a id="ctl00_HyperLink5" href="http://allrecipes.com.br/">Brazil</a>
+        <span>&nbsp;|&nbsp;</span>
+        
+         <a id="ctl00_lolCountryCanada" href="../../Handlers/SetLocalSite.ashx?country=CAN">Canada</a>
+        <span>&nbsp;|&nbsp;</span>
+        
+         <a id="ctl00_HyperLink8" href="http://allrecipes.cn/">China</a>
+        <span>&nbsp;|&nbsp;</span>
+        <a id="ctl00_HyperLink9" href="http://allrecipes.fr/">France</a>
+        <span>&nbsp;|&nbsp;</span>
+         <a id="ctl00_HyperLink10" href="http://de.allrecipes.com/">Germany</a>
+        <span>&nbsp;|&nbsp;</span>
+         <a id="ctl00_HyperLink14" href="http://allrecipes.co.in/">India</a>
+        <span>&nbsp;|&nbsp;</span>
+         <a id="ctl00_HyperLink1" href="http://allrecipes.it/">Italy</a>
+        <span>&nbsp;|&nbsp;</span>
+         <a id="ctl00_HyperLink11" href="http://allrecipes.jp/">Japan</a>
+        <span>&nbsp;|&nbsp;</span>
+        
+       <a id="ctl00_HyperLink18" href="http://allrecipes.kr/">Korea</a>
+        <span>&nbsp;|&nbsp;</span>
+     
+       <a id="ctl00_HyperLink6" href="http://allrecipes.com.mx/">Mexico</a>
+        
+          <br />
+         <br />
+         
+         
+        <a id="ctl00_HyperLink12" href="http://allrecipes.nl/">Netherlands</a>
+        <span>&nbsp;|&nbsp;</span>
+         <a id="ctl00_HyperLink17" href="http://allrecipes.pl/">Poland</a>
+       <span>&nbsp;|&nbsp;</span>
+        
+         <a id="ctl00_HyperLink3" href="http://qc.allrecipes.ca/">Quebec</a>
+        <span>&nbsp;|&nbsp;</span>
+
+         <a id="ctl00_HyperLink7" href="http://allrecipes.ru/">Russia</a>
+        <span>&nbsp;|&nbsp;</span>
+         
+        
+         <a id="ctl00_HyperLink15" href="http://allrecipes.asia/">SE Asia</a>
+        <span>&nbsp;|&nbsp;</span>
+          
+        <a id="ctl00_lolCountryUK" href="http://allrecipes.co.uk">United Kingdom &amp; Ireland</a>
+        <span>&nbsp;|&nbsp;</span>
+                
+        United States
+        
+    </div>
+
+		<div class="socialSharingFtr">
+			<ul>
+				<li><a id="ctl00_HyperLink4" class="facebookftr" href="https://www.facebook.com/allrecipes" title="Facebook" target="_blank"><img id="ctl00_Image2" title="Facebook" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Facebook" /></a></li>
+				<li><a id="ctl00_HyperLink2" class="pinterestftr" href="http://pinterest.com/allrecipes/" title="Pinterest" target="_blank"><img id="ctl00_Image1" title="Pinterest" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Pinterest" /></a></li>
+				<li><a id="ctl00_HyperLink13" class="twitterftr" href="https://twitter.com/Allrecipes" title="Twitter" target="_blank"><img id="ctl00_Image3" title="Twitter" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Twitter" /></a></li>
+				<li><a id="ctl00_HyperLink24" class="instagramftr" href="http://instagram.com/allrecipes" title="Instagram" target="_blank"><img id="ctl00_Image9" title="Twitter" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Twitter" /></a></li>
+				<li><a id="ctl00_HyperLink21" class="plusoneftr" href="https://plus.google.com/+allrecipes/" title="Google Plus" target="_blank"><img id="ctl00_Image6" title="Google Plus" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Google Plus" /></a></li>
+				<li><a id="ctl00_HyperLink20" class="tumblrftr" href="http://allrecipes.tumblr.com/" title="Tumblr" target="_blank"><img id="ctl00_Image5" title="Tumblr" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Tumblr" /></a></li>
+				<li><a id="ctl00_HyperLink22" class="youtubeftr" href="http://www.youtube.com/allrecipes" title="YouTube" target="_blank"><img id="ctl00_Image7" title="YouTube" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="YouTube" /></a></li>
+				<li><a id="ctl00_HyperLink19" class="freshbitesftr" href="http://freshbitesblog.com/" title="Fresh Bites Blog" target="_blank"><img id="ctl00_Image4" title="Fresh Bites Blog" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="Fresh Bites Blog" /></a></li>
+				<li><a id="ctl00_HyperLink23" class="stumbleftr" href="http://www.stumbleupon.com/channel/allrecipes" title="StumbleUpon" target="_blank"><img id="ctl00_Image8" title="StumbleUpon" src="http://images.media-allrecipes.com/ar/spacer.gif" alt="StumbleUpon" /></a></li>
+			</ul>
+		</div>
+
+    <div id="copyright">
+        &#0169; Copyright 2015 Allrecipes.com&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<a id="ctl00_lnkFootPrivacy" href="http://www.meredith.com/privacy.html" target="blank">Privacy Policy&#8212;Your California Rights</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="ctl00_lnkDataPolicy" href="http://www.meredith.com/datapolicy.html" target="_blank">Data Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="ctl00_lnkFootLegal" class="ftLegal" href="http://allrecipes.com/help/aboutus/legal.aspx">Terms of Service</a>&nbsp;&nbsp;|&nbsp;&nbsp;<!--Ghostery Inc tag cid: 1333 pid: 282 --><a id="_bapw-link" href="#" target="_blank"><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important;padding-right:5px !important;"/><span>AdChoices</span></a>
+    </div>
+    
+    <div class="modal-overlay"></div>
+    
+    
+    
+
+<div class="modal rsz-container modal-dialog-template">
+    <div class="rsz-header">
+        <div class="ulcorner"></div>
+        <div class="rsz-header-content">
+            
+        <div class="aspxdialog-title"></div>
+    
+            
+            <div class="modal-close-button">
+                <a href="javascript:void(0);" class="close-modal unsavedExempt" 
+                    onmouseover="window.status='Close'; return true;"
+                    onmouseout="window.status=''; return true;">
+                    <!--#-->
+                </a>
+            </div>
+        </div>
+        <div class="urcorner"></div>
+    </div>
+    <div class="rsz-left-border"></div>
+    <div class="rsz-content">
+        
+    
+    </div>
+    <div class="rsz-right-border"></div>
+    <div class="rsz-footer">
+        <div class="llcorner"></div>
+        <div class="rsz-footer-content"></div>
+        <div class="lrcorner"></div>
+    </div>
+</div>
+ 
+
+    <div id="divGptInterstitial"><div id='div-gpt-ad-interstitial-oop'>
+</div>
+</div>
+    
+    <script language="Javascript" type="text/javascript"><!--
+var omnitureAccount="rdirdallrecipes";
+// --></script><script type="text/javascript" src="http://js01.media-allrecipes.com/js/omni/v-2015.0812/ar_s_code.js"></script><script language="Javascript" type="text/javascript"><!--
+function getHourOfDay(){
+    var hourOfDay;
+    var date=new Date();
+    var hours=date.getHours();
+    if (hours==12) {hourOfDay=hours + ' PM';}
+    else if (hours>12) {hourOfDay=( hours-12 )+ ' PM';}
+    else {hourOfDay=hours+ ' AM';}
+    return hourOfDay;
+}
+
+function getDayOfWeek(){
+    var retVal = '';
+    switch (new Date().getDay()){
+        case 0:retVal = 'Sun';break;
+        case 1:retVal = 'Mon';break;
+        case 2:retVal = 'Tue';break;
+        case 3:retVal = 'Wed';break;
+        case 4:retVal = 'Thu';break;
+        case 5:retVal = 'Fri';break;
+        case 6:retVal = 'Sat';break;
+    }
+    return retVal;
+}s.pageName="/help/aboutus/legal.aspx";s.server="USSEAWB08";s.events="event1";s.eVar1=s.pageName;s.eVar10="Anonymous Visitor";s.prop38="allrecipes.com";s.eVar15=s.prop38;s.prop5="/";s.prop39=s_getLoadTime();s.prop22=getHourOfDay();s.prop23=getDayOfWeek();s.hier="AR";s.eVar6="NON MEMBER"; if (s.getQueryParam("prop30") != "" && !isNaN(s.getQueryParam("prop30"))) s.prop30 = s.getQueryParam("prop30"); else s.prop30 = "blank"; if (s.getQueryParam("prop31") != "" && !isNaN(s.getQueryParam("prop31"))) s.prop31 = s.getQueryParam("prop31"); else s.prop31 = "blank";
+                    function querySt(ji) {
+    hu = window.location.search.substring(1).toLowerCase();
+    ji = ji.toLowerCase();
+    gy = hu.split("&");
+    rt = '';
+    cm = '';
+    for (i=0;i<gy.length;i++) {
+        ft = gy[i].split("=");
+        if (ft[0] == ji) {
+            rt += cm + ft[1];
+            cm = ',';
+        }
+    }
+    return rt;
+}
+
+                    if (s.getQueryParam("recipeID") != "" && !isNaN(s.getQueryParam("recipeID")))
+                        s.prop32 = querySt("RecipeID"); else s.prop32 = "blank";
+var s_code=s.t();if(s_code)document.write(s_code);
+// --></script><script language="Javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript>
+	<img src="http://metric.allrecipes.com/b/ss/rdirdallrecipes/1/H.9--NS/0" height="1" width="1" border="0" alt="" />
+</noscript><!--/DO NOT REMOVE/-->
+ 
+    
+    
+    
+    
+
+    
+    <script type="text/javascript" language="javascript">
+        function nielsen_sitecensus() {
+            var d = new Image(1, 1);
+            d.onerror = d.onload = function () {
+                d.onerror = d.onload = null;
+            };
+            d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-104143h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+        }
+        $(document).ready(function () {
+            var t = setTimeout("nielsen_sitecensus()", 15);
+        });
+    </script>
+    <noscript>
+      <div>
+        <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-readersdigest&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+      </div>
+    </noscript>
+    <script type="text/javascript">
+        $(function () {
+            if (document.getElementById('revsci-net')) { return; }
+            var revsci = document.createElement('script'); revsci.type = 'text/javascript'; revsci.async = true;
+            revsci.src = 'http://js.revsci.net/gateway/gw.js?csid=D11170&auto=t'; revsci.id = 'revsci-net';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(revsci, s);
+        });
+    </script>
+     <script type="text/javascript" src="http://tags.mdotlabs.com/tracking.php?siteID=28aO"></script>
+     <script>(function () { var g = 282, i = 1333, a = false, h = document, j = h.getElementById("_bapw-link"), e = (h.location.protocol == "https:"), f = (e ? "https" : "http") + "://", c = f + (e ? "a248.e.akamai.net/betterad.download.akamai.com/91609" : "cdn.betrad.com") + "/pub/"; function b(k) { var d = new Image(); d.src = f + "l.betrad.com/pub/p.gif?pid=" + g + "&ocid=" + i + "&i" + k + "=1&r=" + Math.random() } h.getElementById("_bapw-icon").src = c + "icon1.png"; j.onmouseover = function () { if (/#$/.test(j.href)) { j.href = "http://info.evidon.com/pub_info/" + g + "?v=1" } }; j.onclick = function () { var k = window._bap_p_overrides; function d(n, q) { var o = h.getElementsByTagName("head")[0] || h.documentElement, m = a, l = h.createElement("script"); function p() { l.onload = l.onreadystatechange = null; o.removeChild(l); q() } l.src = n; l.onreadystatechange = function () { if (!m && (this.readyState == "loaded" || this.readyState == "complete")) { m = true; p() } }; l.onload = p; o.insertBefore(l, o.firstChild) } if (k && k.hasOwnProperty(g)) { if (k[g].new_window) { b("c"); return true } } this.onclick = "return " + a; d(f + "ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", function () { d(c + "pub2.js", function () { BAPW.i(j, { pid: g, ocid: i }) }) }); return a }; b("i") }()); var _bap_p_overrides = _bap_p_overrides || {}; _bap_p_overrides[282] = { new_window: true };</script></body>
+</html>
