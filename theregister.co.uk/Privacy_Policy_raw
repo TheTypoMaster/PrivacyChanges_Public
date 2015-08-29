@@ -740,35 +740,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Accelerate Citrix login times with cross-tier insight</h4>
+                <h4>Go beyond APM with real-time IT operations analytics</h4>
                 <div class=standfirst>
-                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
+                    How IT operations teams can harness wire data already for real-time operational intelligence
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4013/vmturbo-wp-assuring-application-performance-feb-2015.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Demand-driven application control: assuring application performance</h4>
+                <h4>Empowering E-commerce against unpredictable demand</h4>
                 <div class=standfirst>
-                    The evolution of enterprise applications, the data centers in which they reside and the increasing expectations of businesses and end-users on the Quality of Service delivered.
+                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4020/ibm-x-force-threat-intelligence-q2-2015.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4019/ibm-security-combat-securty-threats.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>IBM X-Force Threat Intelligence Quarterly 2Q 2015</h4>
+                <h4>Combat the latest security attacks with global threat intelligence</h4>
                 <div class=standfirst>
-                    Learn how to combat insider threats in the wake of the changing threat landscape.
+                    With the IBM Security portfolio users can leverage in-depth knowledge and understanding of threats to bring business value to their organisations.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4062/ga-wp-keeping-your-data-safe-wsj-symantec.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Keeping your data safe</h4>
+                <h4>Securing the cloud</h4>
                 <div class=standfirst>
-                    Understanding worldwide cloud adoption across leading organizations and the challenges associated with its use.
+                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
                 </div>
             </a>
         </div>
@@ -795,13 +795,6 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/27/google_apple_ads/">
-                            <img src="https://regmedia.co.uk/2015/08/27/adverts_comp.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
-                <h4>Google tells iOS 9 app devs: Switch off HTTPS if you want that sweet sweet ad money from us
-                </h4>
-            </a>
-        </li>
-        <li>
             <a href="/2015/08/28/product_roundup_seven_msata_ssds/">
                             <img src="https://regmedia.co.uk/2015/08/24/crucial_mx200_msata_ssd_2.jpg?x=88&amp;y=58&amp;crop=1" alt="Crucial MX200 mSATA SSD" width=88 height=58>
                 <h4>Storage boosters: Six mSATA format SSDs on test
@@ -812,6 +805,13 @@ Southport PR8 1LJ</p>
             <a href="/2015/08/28/google_robocar_suffers_brain_freeze_after_seeing_hipster_cyclist/">
                             <img src="https://regmedia.co.uk/2015/05/12/cyclist_london.jpg?x=88&amp;y=58&amp;crop=1" alt="A cyclist on the road in London." width=88 height=58>
                 <h4>Google robo-car suffers brain freeze after seeing hipster cyclist
+                </h4>
+            </a>
+        </li>
+        <li>
+            <a href="/2015/08/28/bofh_2015_episode_12/">
+                            <img src="https://regmedia.co.uk/2013/04/30/bofh.png?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
+                <h4><abbr title="Bastard Operator from Hell">BOFH</abbr>: An architect and his own entirely avoidable downfall
                 </h4>
             </a>
         </li>
@@ -1017,7 +1017,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(800) });
+        $(function() { set_bucket_group(939) });
     </script>
         <div id="fb-root"></div>
     </div>

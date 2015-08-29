@@ -98,7 +98,7 @@ googletag.enableServices();</script>
 <script src="//thehill.com/sites/all/themes/thehill/js/script.js?ntsr4h"></script>
 <script src="//thehill.com/sites/all/themes/thehill/js/dfp.gpt.logger.override.js?ntsr4h"></script>
 <script src="//thehill.com/sites/all/themes/thehill/js/overriden/mostpopular.js?ntsr4h"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"thehill","theme_token":"gqRhZM6IiyCLyUtnoR-14jwwS8VVkwHhFTU2rUdBGNU","js":{"0":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"4":1,"http:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.js":1,"15":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"\/\/maps.googleapis.com\/maps\/api\/js?sensor=false":1,"sites\/all\/modules\/google_map_field\/js\/google_map_field_node_display.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"16":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/thehill_carousel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/jquery.caroufredsel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.transit.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.touchSwipe.min.js":1,"sites\/all\/modules\/mostpopular\/js\/fade.js":1,"sites\/all\/modules\/mostpopular\/js\/mostpopular.js":1,"17":1,"sites\/all\/themes\/thehill\/js\/script.js":1,"sites\/all\/themes\/thehill\/js\/dfp.gpt.logger.override.js":1,"sites\/all\/themes\/thehill\/js\/overriden\/mostpopular.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-basic.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-full.css":1,"sites\/all\/themes\/thehill\/system.menus.css":1,"sites\/all\/themes\/thehill\/css\/normalize.css":1,"sites\/all\/themes\/thehill\/css\/wireframes.css":1,"sites\/all\/themes\/thehill\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/thehill\/css\/page-backgrounds.css":1,"sites\/all\/themes\/thehill\/css\/tabs.css":1,"sites\/all\/themes\/thehill\/css\/pages.css":1,"sites\/all\/themes\/thehill\/css\/blocks.css":1,"sites\/all\/themes\/thehill\/css\/navigation.css":1,"sites\/all\/themes\/thehill\/css\/views-styles.css":1,"sites\/all\/themes\/thehill\/css\/nodes.css":1,"sites\/all\/themes\/thehill\/css\/comments.css":1,"sites\/all\/themes\/thehill\/css\/forms.css":1,"sites\/all\/themes\/thehill\/css\/fields.css":1,"sites\/all\/themes\/thehill\/css\/print.css":1,"sites\/all\/themes\/thehill\/css\/articles-teaser.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ad_timeout":"17000","thehill_carousel":{"carousels":{"#thehill_blocks_blogs-menu ul":{"auto":{"play":1,"timeoutDuration":12000,"pauseOnHover":true},"circular":true,"infinite":false,"prev":"#blogs_menu_prev","next":"#blogs_menu_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"items":5,"scroll":{"items":5,"duration":1000,"pauseOnHover":true}},"ul.features-items":{"auto":{"play":1,"timeoutDuration":8000,"pauseOnHover":true},"circular":true,"infinite":false,"prev":"#features_prev","next":"#features_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"items":1,"scroll":{"items":1,"duration":1000,"pauseOnHover":true}},"#thehill_blocks_blogs-promotion ul":{"auto":false,"infinite":false,"circular":true,"next":"#blog_promotions_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}},"#thehill_blocks_more-videos ul":{"auto":false,"circular":true,"prev":"#more_videos_prev","next":"#more_videos_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"pagination":{"container":"#more_videos_pager","items":4,"pauseOnHover":true},"items":4,"scroll":{"items":4,"duration":1000,"timeoutDuration":2000}},".block-mostpopular .mostpopular--content ul":{"auto":false,"infinite":false,"circular":true,"next":"#most_popular_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"mostpopular":true,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"thehill_mostpopular":{"sid":"4","iid":"1","tag":"most_popular_insert"},"mostpopular":{"url":"\/mostpopular\/ajax"}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"thehill","theme_token":"g5UjH36A1nD4gUlPkL5_v0EuZlb1ZShq-QPeEANxrk0","js":{"0":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"4":1,"http:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.js":1,"15":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"\/\/maps.googleapis.com\/maps\/api\/js?sensor=false":1,"sites\/all\/modules\/google_map_field\/js\/google_map_field_node_display.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"16":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/thehill_carousel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/jquery.caroufredsel.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.mousewheel.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.transit.min.js":1,"sites\/all\/modules\/thehill\/thehill_blocks\/js\/carousel\/helper-plugins\/jquery.touchSwipe.min.js":1,"sites\/all\/modules\/mostpopular\/js\/fade.js":1,"sites\/all\/modules\/mostpopular\/js\/mostpopular.js":1,"17":1,"sites\/all\/themes\/thehill\/js\/script.js":1,"sites\/all\/themes\/thehill\/js\/dfp.gpt.logger.override.js":1,"sites\/all\/themes\/thehill\/js\/overriden\/mostpopular.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/menu_attach_block\/menu_attach_block.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-basic.css":1,"sites\/all\/modules\/mostpopular\/css\/mostpopular-full.css":1,"sites\/all\/themes\/thehill\/system.menus.css":1,"sites\/all\/themes\/thehill\/css\/normalize.css":1,"sites\/all\/themes\/thehill\/css\/wireframes.css":1,"sites\/all\/themes\/thehill\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/thehill\/css\/page-backgrounds.css":1,"sites\/all\/themes\/thehill\/css\/tabs.css":1,"sites\/all\/themes\/thehill\/css\/pages.css":1,"sites\/all\/themes\/thehill\/css\/blocks.css":1,"sites\/all\/themes\/thehill\/css\/navigation.css":1,"sites\/all\/themes\/thehill\/css\/views-styles.css":1,"sites\/all\/themes\/thehill\/css\/nodes.css":1,"sites\/all\/themes\/thehill\/css\/comments.css":1,"sites\/all\/themes\/thehill\/css\/forms.css":1,"sites\/all\/themes\/thehill\/css\/fields.css":1,"sites\/all\/themes\/thehill\/css\/print.css":1,"sites\/all\/themes\/thehill\/css\/articles-teaser.css":1}},"chartbeat":{"uid":3100,"domain":"thehill.com","useCanonical":true,"noCookies":false},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ad_timeout":"17000","thehill_carousel":{"carousels":{"#thehill_blocks_blogs-menu ul":{"auto":{"play":1,"timeoutDuration":12000,"pauseOnHover":true},"circular":true,"infinite":false,"prev":"#blogs_menu_prev","next":"#blogs_menu_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"items":5,"scroll":{"items":5,"duration":1000,"pauseOnHover":true}},"ul.features-items":{"auto":{"play":1,"timeoutDuration":8000,"pauseOnHover":true},"circular":true,"infinite":false,"prev":"#features_prev","next":"#features_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"items":1,"scroll":{"items":1,"duration":1000,"pauseOnHover":true}},"#thehill_blocks_blogs-promotion ul":{"auto":false,"infinite":false,"circular":true,"next":"#blog_promotions_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}},"#thehill_blocks_more-videos ul":{"auto":false,"circular":true,"prev":"#more_videos_prev","next":"#more_videos_next","mousewheel":true,"swipe":{"onMouse":true,"onTouch":true},"pagination":{"container":"#more_videos_pager","items":4,"pauseOnHover":true},"items":4,"scroll":{"items":4,"duration":1000,"timeoutDuration":2000}},".block-mostpopular .mostpopular--content ul":{"auto":false,"infinite":false,"circular":true,"next":"#most_popular_next","mousewheel":false,"swipe":{"onMouse":true,"onTouch":true},"items":6,"mostpopular":true,"direction":"up","scroll":{"items":6,"duration":1000,"timeoutDuration":2000}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"thehill_mostpopular":{"sid":"4","iid":"1","tag":"most_popular_insert"},"mostpopular":{"url":"\/mostpopular\/ajax"}});</script>
   <script type="text/javascript" src="//use.typekit.net/ylz3ven.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f5d7e1bc8befe"></script>
@@ -188,7 +188,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
   <label class="element-invisible" for="edit-search-block-form--2">Search </label>
  <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="0" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-XqusZFvsCWbR614a_VYML4eavswqWnXvtX-5uw_nzdM" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-SzrCGKJEw8sqclQ_Z10A91hkHbGmPN60UZwXvY2ZCbo" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>
@@ -209,7 +209,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/administration" class="menu__link menu__link">Administration</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/ballot-box/polls" class="menu__link menu__link">Polls</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/homenews/sunday-talk-shows" class="menu__link menu__link">Sunday Talk Shows</a></li>
-<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block view-dom-id-1037195501c3cb355ab5a0b44f575a75">
+<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block view-dom-id-5c3f4de976c5cd56cb5e02ccc78860fd">
         
   
   
@@ -300,21 +300,21 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-3"><a href="/video/national-security" class="menu__link menu__link">National Security Video</a></li>
 <li class="menu__item is-leaf menu__item is-leaf last leaf depth-3"><a href="/signup/1209734507" class="menu__link menu__link">Signup for National Security Email</a></li>
 </ul></li>
-<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_7 view-dom-id-204a093e76ddd8bc0d923fb56b84e5c7">
+<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_7 view-dom-id-d6ed7b411980f883cd080295acf2bfaf">
         
   
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
-  <div class="views-field views-field-field-article-categories">        <div class="field-content"><a href="/policy/finance" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Finance</a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/policy/finance/252253-feds-vice-chairman-leaves-door-open-to-september-rate-hike">Fed&#039;s vice chairman leaves door open to September rate hike</a></span>  </div>  
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/policy/finance/252253-feds-vice-chairman-leaves-door-open-to-september-rate-hike"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/fischerstanley_082915getty.jpg?itok=-0d9cOrl" width="211" height="119" /></a></div>  </div>  </div>
+  <div class="views-field views-field-field-article-categories">        <div class="field-content"><a href="/policy/energy-environment" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Energy &amp; Environment</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/policy/energy-environment/252231-anger-builds-at-epa-over-radioactive-landfill">Anger builds at EPA over radioactive landfill</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/policy/energy-environment/252231-anger-builds-at-epa-over-radioactive-landfill"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/nuclearplant_getty.jpg?itok=Se6Rke5N" width="211" height="119" /></a></div>  </div>  </div>
   <div class="views-row views-row-2 views-row-even views-row-last">
       
   <div class="views-field views-field-field-article-categories">        <div class="field-content"><a href="/policy/finance" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Finance</a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/policy/finance/252123-politicians-show-sports-teams-the-money-on-stadiums">Politicians show sports teams the money on stadiums</a></span>  </div>  
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/policy/finance/252123-politicians-show-sports-teams-the-money-on-stadiums"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/milwaukeestadium_062315getty.jpg?itok=aYZq0yfD" width="211" height="119" /></a></div>  </div>  </div>
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/policy/finance/252253-feds-vice-chairman-leaves-door-open-to-september-rate-hike">Fed&#039;s vice chairman leaves door open to September rate hike</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/policy/finance/252253-feds-vice-chairman-leaves-door-open-to-september-rate-hike"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/fischerstanley_082915getty.jpg?itok=QU7I7m6-" width="211" height="119" /></a></div>  </div>  </div>
     </div>
   
   
@@ -333,7 +333,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/international" class="menu__link menu__link">International</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/cybersecurity" class="menu__link menu__link">Cybersecurity</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/regulation/national-security" class="menu__link menu__link">National Security</a></li>
-<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_8 view-dom-id-ffbf71a61d80c4de25ae7433301d4605">
+<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_8 view-dom-id-0a0c624f46817f0719e9dc8b05bdcfef">
         
   
   
@@ -381,7 +381,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/congress-blog" class="menu__link menu__link">Congress Blog</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/in-the-know" class="menu__link menu__link">In The Know</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/blogs/twitter-room" class="menu__link menu__link">Twitter Room</a></li>
-<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_1 view-dom-id-75148a2ade4e7b905298a2732b7ec826">
+<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_1 view-dom-id-9271fd51cbcfa8b397a8d81c9d11f353">
         
   
   
@@ -389,13 +389,13 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
   <div class="views-field views-field-field-blog-section">        <div class="field-content"><a href="/blogs/blog-briefing-room" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Blog Briefing Room</a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/blog-briefing-room/news/252255-report-dnc-chairwoman-blocked-iran-resolution-at-party-meeting">Wasserman Schultz blocked Iran resolution at DNC meeting: report</a></span>  </div>  
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/blog-briefing-room/news/252255-report-dnc-chairwoman-blocked-iran-resolution-at-party-meeting"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/blogs/wasserman-schultz-debbie_031814aw_0.jpg?itok=NZPH8m2q" width="211" height="119" /></a></div>  </div>  </div>
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/blog-briefing-room/news/252258-rouhani-no-military-limitations-for-iran-in-deal">Rouhani: No military &#039;limitations&#039; for Iran in deal</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/blog-briefing-room/news/252258-rouhani-no-military-limitations-for-iran-in-deal"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/rouhanihassan_032315getty.jpg?itok=RhyqrvP2" width="211" height="119" /></a></div>  </div>  </div>
   <div class="views-row views-row-2 views-row-even views-row-last">
       
-  <div class="views-field views-field-field-blog-section">        <div class="field-content"><a href="/blogs/ballot-box" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ballot Box</a></div>  </div>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/ballot-box/presidential-races/252254-christie-proposes-plan-to-track-illegal-immigrants-like">Christie: Track immigrants the way FedEx tracks packages</a></span>  </div>  
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/ballot-box/presidential-races/252254-christie-proposes-plan-to-track-illegal-immigrants-like"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/blogs/christiechris_063015getty.jpg?itok=uzQvzJxm" width="211" height="119" /></a></div>  </div>  </div>
+  <div class="views-field views-field-field-blog-section">        <div class="field-content"><a href="/taxonomy/term/29" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Ballot Box</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/ballot-box/presidential-races/252257-biden-makes-unannounced-visit-at-delaware-political-event">Biden makes surprise visit to Delaware political event</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blogs/ballot-box/presidential-races/252257-biden-makes-unannounced-visit-at-delaware-political-event"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/video_images/biden.png?itok=tasHWf4r" width="213" height="119" /></a></div>  </div>  </div>
     </div>
   
   
@@ -407,7 +407,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 </ul></li>
 <li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/business-a-lobbying" class="menu__link menu__link">Business</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/business-a-lobbying/lobbying-contracts" class="menu__link menu__link">Lobbying Contracts</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/business-a-lobbying/lobbying-revenue" class="menu__link menu__link">Lobbying Revenue</a></li>
-<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_6 view-dom-id-51653d9d6a5a48cde449f69304002adb">
+<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_6 view-dom-id-3d6be9059bc9d871cf26326f05029fcf">
         
   
   
@@ -435,7 +435,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 </ul></li>
 <li class="menu__item is-expanded menu__item is-expanded expanded depth-1"><a href="/opinion" class="menu__link menu__link">Opinion</a><ul class="menu"><li class="menu__item is-leaf menu__item is-leaf first leaf depth-2"><a href="/opinion/columnists" class="menu__link menu__link">Columnists</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/opinion/letters" class="menu__link menu__link">Letters</a></li>
-<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_3 view-dom-id-e25b11a0f29068f71431f2c6b9678e34">
+<li class="menu__item is-leaf last leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_3 view-dom-id-671807978bfc2495b35805e0a29ce195">
         
   
   
@@ -449,7 +449,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
       
   <div class="views-field views-field-field-article-categories">        <div class="field-content"><a href="/opinion/op-ed" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Op-Ed</a></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/opinion/op-ed/251820-iran-diplomacy-history-is-on-obamas-side">Iran diplomacy: History is on Obama’s side</a></span>  </div>  
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/opinion/op-ed/251820-iran-diplomacy-history-is-on-obamas-side"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/obamakerry_getty.jpg?itok=SRmpDQrL" width="211" height="119" /></a></div>  </div>  </div>
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/opinion/op-ed/251820-iran-diplomacy-history-is-on-obamas-side"><img typeof="foaf:Image" src="http://thehill.com/sites/default/files/styles/thumb_menu/public/article_images/obamakerry_getty.jpg?itok=qewlwt3X" width="211" height="119" /></a></div>  </div>  </div>
     </div>
   
   
@@ -475,7 +475,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/ask-a-b" class="menu__link menu__link">Ask A.B.</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/lawmaker-interviews" class="menu__link menu__link">Lawmaker Interviews</a></li>
 <li class="menu__item is-leaf menu__item is-leaf leaf depth-2"><a href="/video/best-stories-of-the-week" class="menu__link menu__link">The Best Stories of the Week</a></li>
-<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_5 view-dom-id-cb92a4c8fd20d1c0b78bc319af4470f6">
+<li class="menu__item is-leaf leaf menu-views"><div class="view view-menu-promotions view-id-menu_promotions view-display-id-block_5 view-dom-id-49c95871f4f8fbe5a2437d192c1e02f2">
         
   
   
@@ -541,8 +541,8 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
               <li>
           <div class="blog_menu_item">
             <header class="blog_menu_item_header">
-              <a href="/blogs/blog-briefing-room" title="Blog Briefing Room">Blog Briefing Room</a>              <h3><a href="/blogs/blog-briefing-room/news/252255-report-dnc-chairwoman-blocked-iran-resolution-at-party-meeting" title="Wasserman Schultz blocked Iran resolution...">Wasserman Schultz blocked Iran resolution...</a></h3>
-              <time>03:26pm</time>
+              <a href="/blogs/blog-briefing-room" title="Blog Briefing Room">Blog Briefing Room</a>              <h3><a href="/blogs/blog-briefing-room/news/252258-rouhani-no-military-limitations-for-iran-in-deal" title="Rouhani: No military &#039;limitations&#039; for...">Rouhani: No military &#039;limitations&#039; for...</a></h3>
+              <time>04:51pm</time>
             </header>
           </div>
         </li>
@@ -581,8 +581,8 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
               <li>
           <div class="blog_menu_item">
             <header class="blog_menu_item_header">
-              <a href="/blogs/ballot-box" title="Ballot Box">Ballot Box</a>              <h3><a href="/blogs/ballot-box/gop-primaries/252256-trump-im-not-looking-to-attack-anybody-with-tv-ads" title="Trump: ‘I’m not looking to attack anybody...">Trump: ‘I’m not looking to attack anybody...</a></h3>
-              <time>03:40pm</time>
+              <a href="/blogs/ballot-box" title="Ballot Box">Ballot Box</a>              <h3><a href="/blogs/ballot-box/gop-primaries/252259-fiorina-epa-has-decimated-agriculture-industries" title="Fiorina: EPA has &#039;decimated&#039; agriculture...">Fiorina: EPA has &#039;decimated&#039; agriculture...</a></h3>
+              <time>05:23pm</time>
             </header>
           </div>
         </li>
@@ -727,7 +727,7 @@ document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/prometheus-theh
 <div class="form-item form-type-textfield form-item-list">
  <input class="hidden form-text" type="text" id="edit-list" name="list" value="" size="60" maxlength="128" />
 </div>
-<input type="submit" id="edit-submit--2" name="op" value="Sign Up" class="form-submit" /><input type="hidden" name="form_build_id" value="form-N37EdaXA_XvLAu7j25_8728JYlqPFksL6e3LsxSJqfE" />
+<input type="submit" id="edit-submit--2" name="op" value="Sign Up" class="form-submit" /><input type="hidden" name="form_build_id" value="form-YozP7j4DtQZDQVxDWffnhGwnRJHTthTL0REKEWtXpW8" />
 <input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
 </div></form></div>
 
@@ -1167,7 +1167,7 @@ scrolling="no"></iframe -->
           <div class="blog_promotion_item">
             <header class="blog_menu_item_header">
               <a href="/blogs/blog-briefing-room" title="Blog Briefing Room">Blog Briefing Room</a>            </header>
-            <h3><a href="/blogs/blog-briefing-room/news/252255-report-dnc-chairwoman-blocked-iran-resolution-at-party-meeting" title="Wasserman Schultz blocked Iran...">Wasserman Schultz blocked Iran...</a></h3>
+            <h3><a href="/blogs/blog-briefing-room/news/252258-rouhani-no-military-limitations-for-iran-in-deal" title="Rouhani: No military &#039;limitations&#039; for...">Rouhani: No military &#039;limitations&#039; for...</a></h3>
           </div>
         </li>
               <li>
@@ -1209,7 +1209,7 @@ scrolling="no"></iframe -->
           <div class="blog_promotion_item">
             <header class="blog_menu_item_header">
               <a href="/blogs/ballot-box" title="Ballot Box">Ballot Box</a>            </header>
-            <h3><a href="/blogs/ballot-box/gop-primaries/252256-trump-im-not-looking-to-attack-anybody-with-tv-ads" title="Trump: ‘I’m not looking to attack...">Trump: ‘I’m not looking to attack...</a></h3>
+            <h3><a href="/blogs/ballot-box/gop-primaries/252259-fiorina-epa-has-decimated-agriculture-industries" title="Fiorina: EPA has &#039;decimated&#039;...">Fiorina: EPA has &#039;decimated&#039;...</a></h3>
           </div>
         </li>
               <li>
@@ -1499,7 +1499,7 @@ scrolling="no"></iframe -->
 <div class="form-item form-type-textfield form-item-list">
  <input class="hidden form-text" type="text" id="edit-list--2" name="list" value="" size="60" maxlength="128" />
 </div>
-<input type="submit" id="edit-submit--3" name="op" value="Sign Up" class="form-submit" /><input type="hidden" name="form_build_id" value="form-dkiJTwG3m-Tn8tFlJT4zbk6m1k5xh_sZZ5P4mH7pfMI" />
+<input type="submit" id="edit-submit--3" name="op" value="Sign Up" class="form-submit" /><input type="hidden" name="form_build_id" value="form-zZeuRZzMy3FfMCCMslY08rZK5G51IsN0zDoCw1uG2e4" />
 <input type="hidden" name="form_id" value="thehill_blocks_signup_form" />
 </div></form></div>
 
