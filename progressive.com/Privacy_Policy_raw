@@ -135,7 +135,7 @@
   var progLogin = "https://onlineservice3.progressive.com/SelfService.Web/SelfService.aspx?Page=Login.AuthenticateUser&amp;QueryStringSetKey=SessionGateway&amp;OfferingID=SelfService&amp;SessionStart=TRUE";
 
   try {
-  	var visitorID = 'ID=680edff09c934d639a88d8d3841a17db';
+  	var visitorID = 'ID=38e2d743028d403c86fb8d5a769c75bd';
   	visitorID = visitorID.split('=')[1];
   	if (visitorID === undefined) {
   		visitorID = '';
@@ -146,7 +146,7 @@
   epm.CountryCode = "US";
   epm.PostalCode = "10020";
   epm.StateCode = "NY";
-  epm.Time = "0746";
+  epm.Time = "0902";
   epm.Day = "Sat";
   epm.Date = "08/29/2015";
   epm.Source = "";
@@ -171,7 +171,7 @@
 
 	<script type="text/javascript" src="https://www.progressive.com/js/jquery-1.7.2.min.js;pv77f6d22d31ac6be2"></script>
 	<script type="text/javascript" src="https://www.progressive.com/js/modernizr-1.7.min.js;pv18c75822d34d9542"></script>
-	<!--[if lte IE 7]><script type="text/javascript" src="https://www.progressive.com/js/json2.js;pv8a9d4b0623157922"></script><![endif]-->
+	<!--[if lte IE 7]><script type="text/javascript" src="https://www.progressive.com/js/json2.js"></script><![endif]-->
 	<script type="text/javascript" src="https://www.progressive.com/js/jquery.validate-1.9.min.js;pv36e06b6a77aae01c"></script>
 	<script type="text/javascript" src="https://www.progressive.com/js/coreQuote.bundle;pvf09c5582f06beafe"></script>
 	
@@ -202,7 +202,7 @@
 	var epm = epm || [];
 	var dataLayer = [{
 		'domain': getDomainForGA(),
-		'siteServerSessionID': '680edff09c934d639a88d8d3841a17db',
+		'siteServerSessionID': '38e2d743028d403c86fb8d5a769c75bd',
 		'partnerCode': epm.Code || '',
 		'device': epm.Device || '',
 		'deviceType': epm.DeviceType || '',

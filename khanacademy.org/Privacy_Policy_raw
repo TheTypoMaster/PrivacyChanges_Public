@@ -38,7 +38,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
         // TODO(eater): Remove after clues are fully launched
         allowEditingClues: false,
         staticHost: "www.kastatic.org",
-        bingoId: "_gae_bingo_random:zW521sOnXfgxk4LlQiVItkWdcFCnKemHBkJ4ZxBu",
+        bingoId: "_gae_bingo_random:OagXWXDzF3mZBLjzeMT5wC4nsS5yKgJjUNZ5-NWW",
 
         "FB_APP_NAMESPACE": "khanacademy",
         
@@ -53,7 +53,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
             
         },
         currentServerTime: function() {
-            return 1440849248.32004;
+            return 1440853732.7767;
         },
 
         // return a path to this static content given a path url - example:
@@ -87,7 +87,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 
         stripePublicKey: "pk_live_bOMeT1j35MoCY5NMcddnG0ke",
 
-        requestLogId: "55e19d6000ff04c1861670ab1f0001737e6b68616e2d61636164656d7900013135303832382d313030362d36373331373464323638313700010143",
+        requestLogId: "55e1aee400ff0bb30b56af2e460001737e6b68616e2d61636164656d7900013135303832382d313030362d3637333137346432363831370001013b",
         gaeStatsKeyPrefix: null,
 
         SHOW_SAT_DEV: false,
@@ -130,7 +130,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
     });
     ga('set', 'dimension8', "main:/about/privacy-policy");
     ga('set', 'dimension3', "true");
-    ga('set', 'dimension7', "a1:");
+    ga('set', 'dimension7', "a0:");
 
     ga('send', 'pageview');
 </script>
@@ -1940,8 +1940,8 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
                 var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
                 s.async = true; s.src = '//s3.amazonaws.com/ki.js/53782/bH0.js'; f.parentNode.insertBefore(s, f);
                 }, 1);
-                _kiq.push(['identify', '_gae_bingo_random:zW521sOnXfgxk4LlQiVItkWdcFCnKemHBkJ4ZxBu']);
-                _kiq.push(['set', {"eligible_for_nps_survey": true, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
+                _kiq.push(['identify', '_gae_bingo_random:OagXWXDzF3mZBLjzeMT5wC4nsS5yKgJjUNZ5-NWW']);
+                _kiq.push(['set', {"eligible_for_nps_survey": false, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
             })();
         </script>
 
@@ -2060,7 +2060,7 @@ olark.identify('8268-583-10-4648');
             
             window.olark('api.visitor.updateCustomFields', {
                 loggedIn: false,
-                bingoId: "_gae_bingo_random:zW521sOnXfgxk4LlQiVItkWdcFCnKemHBkJ4ZxBu"
+                bingoId: "_gae_bingo_random:OagXWXDzF3mZBLjzeMT5wC4nsS5yKgJjUNZ5-NWW"
             });
         }, 0);
     </script>

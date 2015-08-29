@@ -115,7 +115,7 @@
         var _jive_auth_token ="no-user";
         var _jive_locale = "en_US";
         var _jive_translation_language = "en"
-        var _jive_browser_event = {"providers":["activityStream.poll","appAlert.create"],"since":1440765635480};
+        var _jive_browser_event = {"providers":["activityStream.poll","appAlert.create"],"since":1440844185903};
         var _jive_browser_event_polling_delay = 300000;
         var _jive_timezoneoffset = -7;
 
@@ -270,7 +270,7 @@ if (dwr == null) var dwr = {};
 if (dwr.engine == null) dwr.engine = {};
 if (DWREngine == null) var DWREngine = dwr.engine;
 
-DWREngine._origScriptSessionId = "863F66244ACD71C09C2EF3AC57DF6F4E";
+DWREngine._origScriptSessionId = "E7B85A018CC36DF5320C94DB6F4E16A1";
 DWREngine._sessionCookieName = "JSESSIONID"; // JSESSIONID
 DWREngine._allowGetForSafariButMakeForgeryEasier = "true";
 DWREngine._scriptTagProtection = "throw 'allowScriptTagRemoting is false.';";
@@ -799,7 +799,7 @@ opacity:1;
 <script>
 jive.i18n.addMsgs({'global.home':'Home','browse.breadcrumb.place.link':'Apple Support Communities','community.list.spaces.unauthorized.tooltip':'You are not authorized to view this space.','browse.breadcrumb.people.link':'All People'});
 
-jive.i18n.addMsgs({'share.email.remove.link':'Invite the user','share.attachment.send.link':'Send a PDF','user.autocomplete.limit':'No more than {0} people can be selected at a time.','share.user.nopermission.attachment':'This user does not have access to the item you\'re trying to share.  An email with a PDF attachment will be sent to this user.','user.picker.title.singular':'Select Person','user.picker.tab.change.label':'Change','share.guest.nopermission.attachment':'This person is not a member of the community. We\'ll send them a PDF of this content.','partner.browse.external.contributor':'External Contributor','user.picker.tab.add.label':'Add','share.list.nopermission.noattachment':'These users do not have access to the item you\'re trying to share.  An email linking to this content will be sent to these users.','global.group.member_only':'Member only group','error.rest.error_finding':'The content that you requested could not be displayed due to an error. You may have been logged out. If this problem persists please contact your system administrator.','share.private.access':'This content is currently private to you.','user.autocomplete.email':'Please continue entering an email address.','a11y.boundary.dialog.start':'Dialog begins','user.autocomplete.email.none':'No matching users found.  If you\'re entering an email address, please continue typing.','user.autocomplete.none':'No matching users found.','user.picker.adding_users':'Adding Users','tips.onboarding.tip5.body3':'Examples:','share.list.nopermission.attachment':'These users do not have access to the item you\'re trying to share.  An email with a PDF attachment will be sent to these users.','global.loading':'Loading...','user.autocomplete.domains':'Valid domains: <em>{0}</em>','global.bookmark':'Bookmark','global.close':'Close','user.autocomplete.placeholder.emailprefix':'john.smith@','send.invite.nonusers.noimport.label':'Type or paste email addresses.','share.notrelated':'You can only send messages to your Friends / Connections (people following you). You must remove users marked with an exclamation point before your message can be sent.','a11y.boundary.menu.end':'Menu ends','profile.friends.labels.title':'Labels','share.guest.nopermission.invite.private':'This person is not a member of the community. We\'ll send them an invitation and grant them access to this user tip.  If you don\'t want to send an invite, you can send a PDF of this user tip instead.','global.cancel':'Cancel','user.autocomplete.emptyemail':'Only domains within your company are allowed.','user.autocomplete.placeholder.domain':'example.com','share.guest.nopermission.invite.attachment':'This person is not a member of the community. We\'ll send them an invitation.  If you don\'t want to send an invite, you can send a PDF of this user tip instead.','send.invite.nonusers.noimport.explanation':'Separate multiple entries with a space, comma, or semi-colon, or hit <strong class="font-color-meta">Enter</strong> after each one.','user.autocomplete.note':'Note:','global.close.modal':'Close Popup','user.autocomplete.placeholder.anotheremailprefix':'kim.wood@','global.comment':'Reply','error.general':'An error occurred processing your request. If this problem persists, please contact the webmaster or administrator of this site.','global.discussion':'Discussion','user.picker.title':'Select People','user.autocomplete.placeholder.user':'Jane Doe','global.people':'People','global.externalUrl':'External URL','share.link.title':'Quickly share this content with a person or group of people','global.status':'Status Updates','share.guest.nopermission.noattachment':'This person is not a member of the community. We\'ll send them an email linking to this content.','share.link':'Share','global.group.open':'Group','global.blogPost':'Announcement','share.user.nopermission.private':'This user will be granted access to the item you\'re trying to share.','error.rest.error_destroying':'Your content could not be removed due to an error. You may have been logged out. If this problem persists please contact your system administrator.','share.secretgroup':'You cannot share a secret group. Users must be invited to join.','activity.in_user_container2.we':'{0}\'s update','user.autocomplete.notemail':'Please enter a valid email address.','share.guest.nopermission.invite.noattachment':'This person is not a member of the community. We\'ll send them an invitation.  If you don\'t want to send an invite, you can send an email about this content instead.','share.email.send.link':'Send an email','global.searching':'Searching','error.rest.error_updating':'Your content could not be saved due to an error. You may have been logged out. If this problem persists please contact your system administrator.','user.picker.close':'Close','share.submit.button':'Share','a11y.boundary.menu.start':'Menu begins','send.private.autoaccess':'','error.rest.refresh_page':'Click here to refresh this page.','user.autocomplete.domains.trial':'Only domains within {0} are allowed for this trial.','share.user.nopermission.noattachment':'This user does not have access to the item you\'re trying to share.  An email linking to this content will be sent to this user.','share.message.label':'Message','a11y.boundary.dialog.end':'Dialog ends','share.title':'Share this {0}','global.group.secret':'Secret group','global.group.private':'Private group','share.confirm':'Share successful','customize.loading':'Loading...','share.list.nopermission.private':'These users will be granted access to the item you\'re trying to share.','global.guest':'Guest','global.group.bookmark':'Bookmark group','share.attachment.remove.link':'Invite the user','error.rest.error_saving':'Your content could not be saved due to an error. You may have been logged out. If this problem persists please contact your system administrator.','share.people.label':'Share with','global.message':'Message','user.picker.tab.remove.label':'Remove'});
+jive.i18n.addMsgs({'share.email.remove.link':'Invite the user','share.attachment.send.link':'Send a PDF','user.autocomplete.limit':'No more than {0} people can be selected at a time.','share.user.nopermission.attachment':'This user does not have access to the item you\'re trying to share.  An email with a PDF attachment will be sent to this user.','user.picker.title.singular':'Select Person','user.picker.tab.change.label':'Change','share.guest.nopermission.attachment':'This person is not a member of the community. We\'ll send them a PDF of this content.','partner.browse.external.contributor':'External Contributor','user.picker.tab.add.label':'Add','share.list.nopermission.noattachment':'These users do not have access to the item you\'re trying to share.  An email linking to this content will be sent to these users.','global.group.member_only':'Member only group','error.rest.error_finding':'The content that you requested could not be displayed. Please try again in a few moments.','share.private.access':'This content is currently private to you.','user.autocomplete.email':'Please continue entering an email address.','a11y.boundary.dialog.start':'Dialog begins','user.autocomplete.email.none':'No matching users found.  If you\'re entering an email address, please continue typing.','user.autocomplete.none':'No matching users found.','user.picker.adding_users':'Adding Users','tips.onboarding.tip5.body3':'Examples:','share.list.nopermission.attachment':'These users do not have access to the item you\'re trying to share.  An email with a PDF attachment will be sent to these users.','global.loading':'Loading...','user.autocomplete.domains':'Valid domains: <em>{0}</em>','global.bookmark':'Bookmark','global.close':'Close','user.autocomplete.placeholder.emailprefix':'john.smith@','send.invite.nonusers.noimport.label':'Type or paste email addresses.','share.notrelated':'You can only send messages to your Friends / Connections (people following you). You must remove users marked with an exclamation point before your message can be sent.','a11y.boundary.menu.end':'Menu ends','profile.friends.labels.title':'Labels','share.guest.nopermission.invite.private':'This person is not a member of the community. We\'ll send them an invitation and grant them access to this user tip.  If you don\'t want to send an invite, you can send a PDF of this user tip instead.','global.cancel':'Cancel','user.autocomplete.emptyemail':'Only domains within your company are allowed.','user.autocomplete.placeholder.domain':'example.com','share.guest.nopermission.invite.attachment':'This person is not a member of the community. We\'ll send them an invitation.  If you don\'t want to send an invite, you can send a PDF of this user tip instead.','send.invite.nonusers.noimport.explanation':'Separate multiple entries with a space, comma, or semi-colon, or hit <strong class="font-color-meta">Enter</strong> after each one.','user.autocomplete.note':'Note:','global.close.modal':'Close Popup','user.autocomplete.placeholder.anotheremailprefix':'kim.wood@','global.comment':'Reply','error.general':'An error occurred processing your request. If this problem persists, please contact the webmaster or administrator of this site.','global.discussion':'Discussion','user.picker.title':'Select People','user.autocomplete.placeholder.user':'Jane Doe','global.people':'People','global.externalUrl':'External URL','share.link.title':'Quickly share this content with a person or group of people','global.status':'Status Updates','share.guest.nopermission.noattachment':'This person is not a member of the community. We\'ll send them an email linking to this content.','share.link':'Share','global.group.open':'Group','global.blogPost':'Announcement','share.user.nopermission.private':'This user will be granted access to the item you\'re trying to share.','error.rest.error_destroying':'Your content could not be removed. Please try again in a few moments.','share.secretgroup':'You cannot share a secret group. Users must be invited to join.','activity.in_user_container2.we':'{0}\'s update','user.autocomplete.notemail':'Please enter a valid email address.','share.guest.nopermission.invite.noattachment':'This person is not a member of the community. We\'ll send them an invitation.  If you don\'t want to send an invite, you can send an email about this content instead.','share.email.send.link':'Send an email','global.searching':'Searching','error.rest.error_updating':'Your content could not be saved. Please try again in a few moments.','user.picker.close':'Close','share.submit.button':'Share','a11y.boundary.menu.start':'Menu begins','send.private.autoaccess':'','error.rest.refresh_page':'Click here to refresh this page.','user.autocomplete.domains.trial':'Only domains within {0} are allowed for this trial.','share.user.nopermission.noattachment':'This user does not have access to the item you\'re trying to share.  An email linking to this content will be sent to this user.','share.message.label':'Message','a11y.boundary.dialog.end':'Dialog ends','share.title':'Share this {0}','global.group.secret':'Secret group','global.group.private':'Private group','share.confirm':'Share successful','customize.loading':'Loading...','share.list.nopermission.private':'These users will be granted access to the item you\'re trying to share.','global.guest':'Guest','global.group.bookmark':'Bookmark group','share.attachment.remove.link':'Invite the user','error.rest.error_saving':'Your post could not be saved. Please try again in a few moments.','share.people.label':'Share with','global.message':'Message','user.picker.tab.remove.label':'Remove'});
 
 jive.i18n.addMsgs({'sgroup.not.found':'Error joining or leaving the group. The group was not found.','sgroup.join.cancel':'Cancel request to join','sgroup.leave.accept':'Yes - leave this group','sgroup.leave.title':'Leave Group','sgroup.banned_member.msg':'You have been banned from the group and are not allowed to join.','sgroup.leave.canceljoin':'Are you sure you want to cancel your request to join {0}?','sgroup.leave.already.gone':'You have already left this group.','sgroup.cancel.message':'Your request to join this group has been removed.','sgroup.leave.follow.remove':'You will also stop following all group content when leaving this group.','global.colon':':','sgroup.leave.onlyowner':'You can\'t leave this group because you are the only owner.','sgroup.join.confirm':'You have successfully joined this group and are now following it.','sgroup.join.notallowed':'You are not allowed to join this group.','sgroup.leave.message':'You are no longer a member of this group, and are no longer following content in this group.','sgroup.leave.onlyowner.info':'You must either delete this group or make another user an owner.','sgroup.join.apprvl.info':'This group\'s owner will need to approve your membership request before you gain access to group content.','sgroup.leave.confirm':'Are you sure you want to leave {0}?'});
 
@@ -1199,7 +1199,7 @@ By <a href="/people/Matt%20K."
 data-externalId=""
 data-username="Matt%20K."
 data-avatarId="1259"
-id="jive-250010429049549545262128"
+id="jive-25001041384426560324966"
 data-userId="2500104"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1214,7 +1214,7 @@ created by <a href="/people/Matt%20K."
 data-externalId=""
 data-username="Matt%20K."
 data-avatarId="1259"
-id="jive-250010429049549548914101"
+id="jive-25001041384426563665345"
 data-userId="2500104"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1222,7 +1222,7 @@ class="jiveTT-hover-user jive-username-link"
 data-externalId=""
 data-username="Mandy_S."
 data-avatarId="1225"
-id="jive-28883829049549549437626"
+id="jive-2888381384426564242390"
 data-userId="288838"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1235,7 +1235,7 @@ class="jiveTT-hover-user jive-username-link"
 
      
         <span class="jive-content-footer-item">
-            211784&nbsp;Views
+            212242&nbsp;Views
         </span>
 
             
@@ -1260,7 +1260,7 @@ Last Modified: Jul 13, 2015 4:13 PM            </div>
 
     <footer class="jive-content-footer clearfix font-color-meta">
         <div class="apple-footer-like">
-    <span data-type="small" data-can-like="false" data-ratingType="like" data-likes="458" class="js-acclaim-container acclaim-container  acclaim-like-container  j-disabled">
+    <span data-type="small" data-can-like="false" data-ratingType="like" data-likes="460" class="js-acclaim-container acclaim-container  acclaim-like-container  j-disabled">
         <span>
             <span class="j-social-action">
             <span class="jive-icon-sml jive-icon-like"></span>
@@ -1268,10 +1268,10 @@ Last Modified: Jul 13, 2015 4:13 PM            </div>
 Like
             </span>
             <label class="j-508-label" id="showLikes-5952-102-count-label">
-Show 458 Likes            </label>
+Show 460 Likes            </label>
                 (<a href="#" class=" jive-acclaim-likedlink" role="button" aria-labelledby="showLikes-5952-102-count-label"
-                    data-command="showLikes" data-object-id="5952" data-object-type="102" data-count="458"
-                    >458</a>)
+                    data-command="showLikes" data-object-id="5952" data-object-type="102" data-count="460"
+                    >460</a>)
         </span>
     </span>
         </div>
@@ -1291,7 +1291,7 @@ Categories:
 
 <!-- END document -->
 
-        <div class="jive-content-rating j-rc4 clearfix" data-guid="G57W7R6X3I436TMD6XORII7N96U2KDOG">
+        <div class="jive-content-rating j-rc4 clearfix" data-guid="NMWWPL12D497HJK7IZN4U0PURQ3074IR">
 
 <script type='text/javascript'>
     $j(document).ready(function() {
@@ -1320,7 +1320,7 @@ Categories:
         };
 
 
-        new jive.Rate(14, 2997, 102, 5952, 'doc', i18n, true, 'G57W7R6X3I436TMD6XORII7N96U2KDOG', rteOptions);
+        new jive.Rate(14, 2997, 102, 5952, 'doc', i18n, true, 'NMWWPL12D497HJK7IZN4U0PURQ3074IR', rteOptions);
     });
 
 </script>
@@ -1495,6 +1495,28 @@ Categories:
     <div class="j-box-body">
         <ul class="j-icon-list">
                     <li>
+                        <a href="https://discussions.apple.com/message/28808270#28808270">
+            <span              title="Discussion"
+            class="jive-icon-med jive-icon-discussion-question"
+ ></span>
+                            Re: Can't unlock system preferences - hung &quot;Authenticating&quot;
+                        </a>
+                    </li>
+                    <li>  <!-- Customization for Incoming links widget, #153 -->
+                    	11 hours ago
+                    </li>
+                    <li>
+                        <a href="https://discussions.apple.com/message/28805488#28805488">
+            <span              title="Discussion"
+            class="jive-icon-med jive-icon-discussion-question"
+ ></span>
+                            Re: My Macbook Air's screen freezes up. It rarely boots under normal conditions. I have to force quit if it freezes up. It boots in safe mode more easily (but not always!). If it boots successfully then it works as if nothing was wrong. Please help.
+                        </a>
+                    </li>
+                    <li>  <!-- Customization for Incoming links widget, #153 -->
+                    	20 hours ago
+                    </li>
+                    <li>
                         <a href="https://discussions.apple.com/message/28804358#28804358">
             <span              title="Discussion"
             class="jive-icon-med jive-icon-discussion-question"
@@ -1503,7 +1525,7 @@ Categories:
                         </a>
                     </li>
                     <li>  <!-- Customization for Incoming links widget, #153 -->
-                    	4 hours ago
+                    	1 day ago
                     </li>
                     <li>
                         <a href="https://discussions.apple.com/message/28803220#28803220">
@@ -1514,7 +1536,7 @@ Categories:
                         </a>
                     </li>
                     <li>  <!-- Customization for Incoming links widget, #153 -->
-                    	12 hours ago
+                    	1 day ago
                     </li>
                     <li>
                         <a href="https://discussions.apple.com/message/28801963#28801963">
@@ -1525,7 +1547,7 @@ Categories:
                         </a>
                     </li>
                     <li>  <!-- Customization for Incoming links widget, #153 -->
-                    	17 hours ago
+                    	2 days ago
                     </li>
                     <li>
                         <a href="https://discussions.apple.com/message/28792534#28792534">
@@ -1533,28 +1555,6 @@ Categories:
             class="jive-icon-med jive-icon-discussion-question"
  ></span>
                             Re: Safari shuts down my imac early 2009
-                        </a>
-                    </li>
-                    <li>  <!-- Customization for Incoming links widget, #153 -->
-                    	2 days ago
-                    </li>
-                    <li>
-                        <a href="https://discussions.apple.com/message/28792452#28792452">
-            <span              title="Discussion"
-            class="jive-icon-med jive-icon-discussion-correct"
- ></span>
-                            Re: Is there another iPod touch coming out soon or just iOS 9?
-                        </a>
-                    </li>
-                    <li>  <!-- Customization for Incoming links widget, #153 -->
-                    	2 days ago
-                    </li>
-                    <li>
-                        <a href="https://discussions.apple.com/message/28792069#28792069">
-            <span              title="Discussion"
-            class="jive-icon-med jive-icon-discussion-question"
- ></span>
-                            Re: Mail Not Responding
                         </a>
                     </li>
                     <li>  <!-- Customization for Incoming links widget, #153 -->
