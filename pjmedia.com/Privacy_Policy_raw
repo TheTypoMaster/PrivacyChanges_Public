@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=133565902'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1009113083'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=967321822'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1837951125&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1473051997'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1550245723'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1095936476'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=373750369&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=542015255');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1523445953');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=290988480');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1582660261');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1176752781');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=2120875685');"></a>
   </span>
 </span>
 
@@ -608,11 +608,11 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 
 
 							
+											<li><a href="http://pjmedia.com/tatler/2015/08/28/obama-on-israel-relationship-my-best-friends-are-the-ones-i-can-be-honest-with-if-i-think-theyre-wrong/">Obama on Israel Relationship: 'My Best Friends Are the Ones I Can Be Honest With' If 'I Think They're Wrong'</a></li>
+											
 											<li><a href="http://pjmedia.com/tatler/2015/08/28/when-will-abc-release-full-vester-flanagan-manifesto/">When Will ABC News Release the Full Vester Flanagan Manifesto?</a></li>
 											
-											<li><a href="http://pjmedia.com/richardfernandez/2015/08/27/that-old-time-religion/">That Old Time Religion</a></li>
-											
-											<li><a href="http://pjmedia.com/tatler/2015/08/28/charles-barkley-blacks-have-always-voted-dem-and-theyre-still-poor/">Charles Barkley: Blacks Have Always Voted Dem, 'and They're Still Poor'</a></li>
+											<li><a href="http://pjmedia.com/tatler/2015/08/28/fbi-investigating-hillary-clinton-for-possible-violation-of-the-espionage-act-video/"> FBI Investigating Hillary Clinton for Possible Violation of the Espionage Act (Video)</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":366,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":334,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

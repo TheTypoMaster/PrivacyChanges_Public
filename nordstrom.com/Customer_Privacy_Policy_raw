@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"9E4C629202BABB2826916ACF134423C3646174653D323031352D30382D3239267573657269643D6231363866666535303838643432336138623439306461333732333538366239","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"b168ffe5088d423a8b490da3723586b9","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6a89c1d0-f648-41f3-800d-5fd59062ad6b","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4E6CAE362400638B23E8403C063357D2646174653D323031352D30382D3239267573657269643D3861316565383765333534333436613461393830376436623738353763313835","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"8a1ee87e354346a4a9807d6b7857c185","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"f385804f-e02e-4d1e-923b-0f94402a1f66","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -1752,11 +1752,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Earn up to a $200 Note!</h2>
 		<p>
 			
 				
-					<a href="back-to-school-shopping?origin=footer-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpfooter_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="spend-more-get-more?origin=footer-promo" manual_cm_sp="corp-_-corp_0817smgm_2716-_-swpfooter_details" title="Restrictions apply">Restrictions apply</a>.
 				
 		</p>
 	</section>

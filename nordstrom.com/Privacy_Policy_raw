@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"760429DB89BE14AE76E7E32C77430AAC646174653D323031352D30382D3239267573657269643D6461356438366262343237373436656261646536396163653961633465376566","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"da5d86bb427746ebade69ace9ac4e7ef","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"ca3e4759-098d-40f7-9fed-7d2f1520f2c3","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"E08DA0EAA58493EA87FE3362CFF7B0C9646174653D323031352D30382D3239267573657269643D3239353134623630396530643430346138303561626235656161303738663566","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"29514b609e0d404a805abb5eaa078f5f","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"1a8f9446-5a29-4052-a862-3d7ea0c61c59","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			
+			A new shop for emerging and advanced designers.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -2289,11 +2289,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Emails with style.</h2>
+		<h2>Get our iPad app.</h2>
 		<p>
-			Events and expert advice that matter to you.
+			Fashion&#39;s always a tap away with our free app.
 				
-					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
+					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
 				
 		</p>
 	</section>
