@@ -49,7 +49,7 @@
         }
     };
 </script>
-<link href="/styles/site/match_centered.min.cssx?v=8.0.5716.27083" rel="stylesheet"/><style>
+<link href="/styles/site/match_enhanced.min.cssx?v=8.0.5716.27083" rel="stylesheet"/><style>
     #bodyContent{width:960px;}
     #privacyPolicy,  h3.subHeader{font:12px/1.4em Arial, Helvetica, sans-serif;}
     #privacyPolicy {line-height:1.4em;}
@@ -453,6 +453,14 @@
 
 
 
+        
+            <div style="display: none;" id="SharkFinModal" behavior="MatchCore.UI.Site.ModalDialog" meta="{autoCenter:'true', moveOutHierarchy : true}">
+                <div class="close modal_dismiss">
+                    <img alt="Close" src="http://images.match.com/match/elements/close.gif" style="height:16px;width:16px;border-width:0px;" />
+                </div>
+                <h2>Great - your profile is now visible!</h2>
+                <span class="modal_dismiss">Close Window »</span>
+            </div>
         <div>
             <div class="sharkFinContainer">
                 <div class="sharkFinInner">
@@ -677,7 +685,7 @@
     <p><em>&#42;&#42; Our Terms of Use Agreement was revised 02/05/2014.</em></p>
 
 	<div class="cls_13122_footercopyright">
-		<p>&copy; Copyright 2015 Match.com, L.L.C. wec1-013fec1-008s-</p>
+		<p>&copy; Copyright 2015 Match.com, L.L.C. wec1-023fec1-007s-</p>
 	</div>
 
 	
@@ -724,12 +732,12 @@
 
 <!-- 
 PC=101
-SID=a27fbf34-045e-4260-a220-5270e85ebefb
+SID=8e95ecc1-1edb-4f5a-bef4-6cc09ad3e7b1
 Theme=0
 TrackingID=0
-Server=16
-APPID=008
-RN=1566280 
+Server=55
+APPID=007
+RN=1722459 
 -->
  
         

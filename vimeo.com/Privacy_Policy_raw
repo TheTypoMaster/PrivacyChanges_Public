@@ -24,7 +24,7 @@
    <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/js/player.js">
  <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/css/player.css">
   <script>
- var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.0\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css","player_url":"player.vimeo.com"};
+ var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.0\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css"};
  </script>
         <script>
  var googletag = googletag || {},
@@ -401,8 +401,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active">We really love videos. To see videos we really, REALLY love, head to <a href="/staffpicks">Staff Picks</a>.</p>
- <p>We can help you avoid severe migraines by gently walking you through <a href="/help/compression">video compression best practices</a> with our friendly tutorials.</p>
+ <p class="active"><a href="/help/faq/watching-videos/playback-issues#can-i-loop-a-video">Turn on looping</a> for your embedded video so it will play over and over and over and over and over and…you get the idea.</p>
+ <p>Your face: it’s great. But with our <a href="/settings/profile">Profile Portrait Editor</a>, it could be the best.</p>
 </aside>
  </div>
 </footer>

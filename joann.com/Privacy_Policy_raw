@@ -9457,7 +9457,7 @@ body {background: none repeat scroll 0 0 #f6f4f4 !important;}
 		
 		// CSS3 multiple columns fallback
 		if(!Modernizr.csscolumns) {
-			Modernizr.load("http://demandware.edgesuite.net/aamm_prd/on/demandware.static/Sites-JoAnn-Site/-/default/v1440662670660/lib/jquery.columnizer.min.js");
+			Modernizr.load("http://demandware.edgesuite.net/aamm_prd/on/demandware.static/Sites-JoAnn-Site/-/default/v1440748964487/lib/jquery.columnizer.min.js");
 			try {
 				jQuery('div.level-2 ul.level-2').columnize();
 				jQuery('div.level-2 ul.level-2').columnize({ width: 200 });
@@ -10711,7 +10711,7 @@ var google_remarketing_only = true;
 
 <script type='text/javascript'>
 	var nothing = 'whatever';
-	var ebSession = 'GEqkjEUaLBOUYxCei4BUXs7aCx64oLnA3Zo=';
+	var ebSession = 'fwqgppCDbyvn3ftACoHJJxoyqaFns7s1gjo=';
 	var ebRev = '[Revenue]';
 	var ebOrderID = '[OrderID]';
 	var ebProductID = '[ProductID]';
@@ -10723,7 +10723,7 @@ var google_remarketing_only = true;
 	//]]>
 </script>
 <noscript>
-<img width="1" height="1" style="border:0" src="HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=172257&amp;Value=[Revenue]&amp;OrderID=[OrderID]&amp;ProductID=[ProductID]&amp;ProductInfo=/on/demandware.store/Sites-JoAnn-Site/default/Page-Show&amp;Session=GEqkjEUaLBOUYxCei4BUXs7aCx64oLnA3Zo=&amp;ns=1"/>
+<img width="1" height="1" style="border:0" src="HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=172257&amp;Value=[Revenue]&amp;OrderID=[OrderID]&amp;ProductID=[ProductID]&amp;ProductInfo=/on/demandware.store/Sites-JoAnn-Site/default/Page-Show&amp;Session=fwqgppCDbyvn3ftACoHJJxoyqaFns7s1gjo=&amp;ns=1"/>
 </noscript>
 
 
