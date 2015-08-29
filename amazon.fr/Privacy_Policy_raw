@@ -524,10 +524,10 @@ P.when('cs-retail-help-omniture','jQuery', 'ready').execute('cs-retail-help-omni
   background-repeat: repeat-x;
 }
 --></style>
-<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::auiDebug=0::isSecure=0 navc-W9E71vSrl28eJdnHBZxJIijPr/JVB1l7TNyfqehdknI1iJdJ9Qea3APvpe9zWDAssyDlbsWsEQM= rid-1KHRZSGWQMDPM3N1M60G seq-225 (Sat Aug 29 04:08:58 2015) **CACHED-BY-NCCC** -->
+<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::auiDebug=0::isSecure=0 navc-X8FcKAxX91FeFe4OJKNAvqLz7v9sEABnavPKqrDF/mPsFNJ8ApqrHwKdcpcJHMWkVNudVz7hR3o= rid-0VAVQAE7XRQ4TYVHH4J5 seq-225 (Sat Aug 29 05:08:10 2015) **CACHED-BY-NCCC** -->
 <link rel="stylesheet" href="http://z-ecx.images-amazon.com/images/G/01/AUIClients/NavAuiBeaconbeltAssets-ccdaa8beeb2c5689349b8de873bc64b67df7fdb9.min._V2_.css" />
 <link rel="stylesheet" href="https://images-eu.ssl-images-amazon.com/images/I/01h78L-cgLL._RC|215ezqStD+L.css_.css#AUIClients/NavMetaAsset" />
-<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::auiDebug=0::isSecure=0 navc-W9E71vSrl28eJdnHBZxJIijPr/JVB1l7TNyfqehdknI1iJdJ9Qea3APvpe9zWDAssyDlbsWsEQM= rid-1KHRZSGWQMDPM3N1M60G seq-225 (Sat Aug 29 04:08:58 2015) **CACHED-BY-NCCC** -->
+<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::auiDebug=0::isSecure=0 navc-X8FcKAxX91FeFe4OJKNAvqLz7v9sEABnavPKqrDF/mPsFNJ8ApqrHwKdcpcJHMWkVNudVz7hR3o= rid-0VAVQAE7XRQ4TYVHH4J5 seq-225 (Sat Aug 29 05:08:10 2015) **CACHED-BY-NCCC** -->
 <script>
 (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('navCF').execute(function() {
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/G/01/AUIClients/NavAuiBeaconbeltAssets-2e7b8d44aa668445e7a2f0f8f5d2e7a5bf2233e1.min._V2_.js');
@@ -605,7 +605,7 @@ window._navbar = (function (o) {
 }(window._navbar || {}));
 
 window.$Nav && $Nav.declare('logEvent.enabled',
-  false);
+  true);
 
 
 window.$Nav && $Nav.declare('config.lightningDeals',{});
@@ -615,7 +615,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 </script>
 
 
-<!-- navp-Vd3hsojjjzqpHIGZSoOhecWtRiUQgKdj35QxbPoJTrBdunRVDrOdIrjp7wnzSskvlbd3qhWmD/Q= rid-1RK50VQV2T76KRC4K14F (Sat Aug 29 04:57:05 2015) -->
+<!-- navp-109qLoMMGZsLJHgYHl72Po4x07Phaa52v12kinybfkN6GhXwEFwFcVSWfcyyIJGsOqeQSV+svYc= rid-0BX9S3YBCKJ28EN6TK66 (Sat Aug 29 06:27:49 2015) -->
 
 
 
@@ -681,7 +681,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
            
 
   <div id='nav-swmslot'>
-    <div id="navSwmHoliday" style="background-image: url(http://g-ecx.images-amazon.com/images/G/08/products/softlines/2015-08-EARLYBIRD-FW15/GW_SWMS_400x39_white_VF._V314551684_.jpg); width: 400px; height: 39px; overflow: hidden;"><img alt='Soldes' src='http://g-ecx.images-amazon.com/images/G/08/x-locale/common/transparent-pixel._V314499273_.gif' border='0' width='400px' height='39px' usemap='#nav-swm-holiday-map' /></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,39" href ="/b?ie=UTF8&node=5883340031" alt ="Nouveautés 15€ offerts" /></map></div>
+    <div id="navSwmHoliday" style="background-image: url(http://g-ecx.images-amazon.com/images/G/08/products/dvd/images/2015-08/7dayspecial/FR_DVD_7DaySpecial_11-8-2015_400x39-light_r1._V312556598_.png); width: 400px; height: 39px; overflow: hidden;"><img alt='la semaine de la vidéo*' src='http://g-ecx.images-amazon.com/images/G/08/x-locale/common/transparent-pixel._V314499273_.gif' border='0' width='400px' height='39px' usemap='#nav-swm-holiday-map' /></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,39" href ="/b?ie=UTF8&node=6711172031" alt ="la semaine de la vidéo*" /></map></div>
   </div>
 
          </div>
@@ -949,7 +949,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', false);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"1RK50VQV2T76KRC4K14F","isPrime":0,"weblabs":"","primeMenuWidth":310});
+  {"rid":"0BX9S3YBCKJ28EN6TK66","isPrime":0,"weblabs":"","primeMenuWidth":310});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -963,7 +963,7 @@ window.$Nav && $Nav.declare('config.yourAccountPrimeHover',
 window.$Nav && $Nav.declare('config.primeEventLoggingEnabled', false);
 
 window.$Nav && $Nav.declare('config.primeFlyoutProfilingUrl',
-    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=1RK50VQV2T76KRC4K14F');
+    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=0BX9S3YBCKJ28EN6TK66');
 
 window.$Nav && $Nav.declare('config.searchBackState',
   {});
@@ -1003,7 +1003,7 @@ if (window.amznJQ && amznJQ.available) {
     , searchAliases: ["aps", "stripbooks", "popular", "dvd", "electronics", "videogames", "toys", "english-books", "kitchen", "luggage", "classical", "vhs", "software", "jewelry", "watches", "music-song", "music-title", "music-artist", "mp3-downloads", "digital-music", "digital-music-track", "digital-music-album", "digital-text", "lighting", "baby", "beauty", "hpc", "office-products", "shoes", "sports", "mi", "computers", "clothing", "appliances", "diy", "mobile-apps", "pets", "gift-cards", "automotive", "garden", "tradein-aps", "warehouse-deals", "grocery", "luxury-beauty", "banjo-apps", "industrial"]
     , isDoCtw: 1
     , pageType: "GPHelp"
-    , requestId: "1RK50VQV2T76KRC4K14F"
+    , requestId: "0BX9S3YBCKJ28EN6TK66"
     , keydownTriggeredWeblabs: []
     , displayTriggeredWeblabs: [      function(data) {
         return data && data.fastlabs ? data.fastlabs : undefined;
@@ -2026,8 +2026,8 @@ vos livres au format papier</span></a></td>
 <div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class='nav_first'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=548524' class='nav_a'>Conditions générales de vente</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=3329781' class='nav_a'>Vos informations personnelles</a></li><li class='nav_last'><a href='/cookiesetpublicitesurinternet' class='nav_a'>Cookies et Publicité sur Internet</a></li></ul><span>© 1996-2015, Amazon.com, Inc. ou ses filiales.</span><ul></ul></div>
 </div>
 
-<!-- whfh-Gd/wQB1qX6v0/8T7cFqVE1LyaiZjgtj6sXSumqt5S1Q+UGVOwqXuF8hbrwdgy8Ps rid-1RK50VQV2T76KRC4K14F -->
-<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//aax-eu.amazon-adsystem.com/s/iu3?d=amazon.fr&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440817026043" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
+<!-- whfh-IYtn87e2Z3LlRrVwbxVuIGJwuxcQQo0b5WWEDbhK9D2ckHxdSoMJe45izn1UuzpI rid-0BX9S3YBCKJ28EN6TK66 -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//aax-eu.amazon-adsystem.com/s/iu3?d=amazon.fr&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440822469124" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
 
 
 
@@ -2104,7 +2104,7 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
     (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute(function (A) { A.preload(pUrls); });
 });
 
-  /* nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::isSecure=0::preload navc-LFumrLwiLhtsoLMpiB/9ZDtRHIo8YqkRxzM+ZQb8tYcvlX0h4SnPirGXLiHD7vf0pirKZG9MnjI= rid-1PFQEGM2N3F13649HR33 seq-487 (Sat Aug 29 04:01:08 2015) **CACHED-BY-NCCC** */
+  /* nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&54476:C::isSecure=0::preload navc-Z1z+bQJPP9rYYwSUknataDwFn1DxxJhQMX8Q6Hw4jwZ2IULaek+w51Dn7vZ+ER2BN/c+2JEUEKQ= rid-0PW4ENGX5QH5CK97Y19Z seq-487 (Sat Aug 29 05:11:54 2015) **CACHED-BY-NCCC** */
   
   __auiPreloadIndex = window.__auiPreloadIndex || 0;
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute("auiPreloadJS_"+(++__auiPreloadIndex), function(A){

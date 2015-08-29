@@ -113,7 +113,7 @@
 <!--<![endif]-->
     <script src="/Scripts/ads.js"></script>
     <script>
-        NADAjs.ABDetect.LogResult('1561205', '7e0c416b-f6c5-47e4-9e67-5be457dd9496', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
+        NADAjs.ABDetect.LogResult('1656725', 'a7742e71-37c7-444a-9b99-7112a7afd714', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
     </script>
 
  
@@ -149,7 +149,7 @@
 
                 var description = $("meta[property='og:description']").attr("content");
                 var title = $("meta[property='og:title']").attr("content");
-                var serverpageurl = "http://www.nadaguides.com/Privacy-policy";
+                var serverpageurl = "http://nadaguides.com/Privacy-policy";
                 var ogurl = $("meta[property='og:url']").attr("content");
 
                 if (description == undefined || description == '')
@@ -339,7 +339,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         if (typeof NADAEmailjs != 'undefined') {
-            NADAEmailjs.EmailFriend.Init('297','1561205', 'Privacy Policy', '');  
+            NADAEmailjs.EmailFriend.Init('297','1656725', 'Privacy Policy', '');  
         }
     });
 </script>     </div>
@@ -629,7 +629,7 @@
     
 <script type="text/javascript">
     
-    xyz = "camellia";
+    xyz = "helesia";
 </script>    
     
     

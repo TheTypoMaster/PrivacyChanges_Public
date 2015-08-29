@@ -740,35 +740,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Accelerate Citrix login times with cross-tier insight</h4>
+                <h4>Go beyond APM with real-time IT operations analytics</h4>
                 <div class=standfirst>
-                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
+                    How IT operations teams can harness wire data already for real-time operational intelligence
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4012/vmturbo-and-arista-networks-assuring-application-qos.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Assuring application performance at scale</h4>
+                <h4>Empowering E-commerce against unpredictable demand</h4>
                 <div class=standfirst>
-                    Empowering data center operators with an open and programmable network that easily scales to thousands of compute and storage nodes.
+                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4051/wgw03016usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4043/sew03033usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Avoiding insider threats to enterprise security</h4>
+                <h4>Strategy considerations for building a security operations center</h4>
                 <div class=standfirst>
-                    Protect and monitor privileged user identities and activities across the extended enterprise.
+                    This paper describes the persistent and evolving IT threat landscape, along with the need for and benefits of building an enterprise security operations center (SOC).
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4063/forrester-use-actionable-threat-intelligence-to-protect-your-digital-business.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4059/sans-breaches-happen-be-prepared-1214.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Use actionable threat intelligence to protect your digital business</h4>
+                <h4>Breaches happen: Be prepared</h4>
                 <div class=standfirst>
-                    Key characteristic of actionable threat intelligence and learn how to maximize threat intelligence to protect your digital business from targeted cyber-attacks.
+                    Discussing how a layered approach to security provides better protection of your organization's IT assets.
                 </div>
             </a>
         </div>
@@ -963,20 +963,6 @@ Southport PR8 1LJ</p>
 
 
 
-    <script>
-        $(function() {
-            if ($('#hot').length) {
-                var ab_set = {
-                    view_tracking:  'true',
-                    click_tracking: 'true',
-                    click_target:   '#hot a',
-                    group:          'A (control)',
-                    name:           'AB: Hot 2015'
-                };
-                track_bucket_user(ab_set);
-            }
-        });
-    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1028,7 +1014,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(4) });
+        $(function() { set_bucket_group(458) });
     </script>
         <div id="fb-root"></div>
     </div>
