@@ -1707,7 +1707,7 @@ var cmPageType_cat = 'CATEGORY:';
 var cmPageType_avail= 'AVAILABILITY:';
 var cmCat = "";
 var cmPageID = "";
-var searchWord = escapeQuote('');
+var searchWord = escapeQuote('snow chain');
 var pageViewAttr = new Array(15);
 var productViewAttr = new Array(15);
 var shop5Attr = new Array(15);
@@ -1785,7 +1785,8 @@ registerAttr[0] = priceZone;
 srchEvtAttr[0] = priceZone;
 ecomEvtAttr[0] = priceZone;
 pageViewAttr[6] = marketType;
-srchEvtAttr[1] = escapeQuote('');
+srchEvtAttr[1] = escapeQuote('snow chain');
+pageViewAttr[12]="Form";
 function cmVCCatId(defaultCatId, oiid, vcString)
 {
 cmCatId = defaultCatId;

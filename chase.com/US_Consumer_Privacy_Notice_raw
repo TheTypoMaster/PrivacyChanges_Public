@@ -1002,7 +1002,7 @@ require( [ 'jquery', 'site/components/mega-menu'], function( $, Megamenu ){
 </div>
 </div>
 <div class="leftnav-layout-content-section">
-                                <div class="parsys iparsys body-section-leftnavtree"><div class="section"><div class="leftnavtree"><div class="left-nav-tree" id="4302ae48-7c20-4b22-a309-9b7edcf873d9">
+                                <div class="parsys iparsys body-section-leftnavtree"><div class="section"><div class="leftnavtree"><div class="left-nav-tree" id="eea51cdb-a2f5-49c8-b17d-f7819b79149b">
 <div class="left-nav-tree-title"></div> 
 <div class="nav-menu-tree ln-nav-panel">
 <ul class="nav-tree">
@@ -1130,7 +1130,7 @@ require( [ 'jquery', 'site/components/mega-menu'], function( $, Megamenu ){
 <script>
 var browserUrl=document.getElementById("browserUrl");
 require(['site/components/container/left-nav-tree'], function(LeftNavTree){ 
-    var tree = new LeftNavTree('4302ae48-7c20-4b22-a309-9b7edcf873d9',browserUrl);
+    var tree = new LeftNavTree('eea51cdb-a2f5-49c8-b17d-f7819b79149b',browserUrl);
 });
 </script></div>
 </div><div class="section"><div class="new"></div>

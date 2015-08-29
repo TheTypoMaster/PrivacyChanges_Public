@@ -305,13 +305,13 @@
 								 <span class="site-header-my-account">My Account</span>
 								 <div class="site-header-dd-contents">
 									<div class="site-header-dd-item signInBtn">
-										<a title="login" href="/myfly/login.jsp;jsessionid=nBo3YDn8aNLtxZ8Ig9rpHA**.bluefly_node9">sign in</a>
+										<a title="login" href="/myfly/login.jsp;jsessionid=mtuS9qmzTy0e1OgFMwhSOQ**.bluefly_node16">sign in</a>
 									</div>
 									<div class="site-header-dd-item">
 										or
 									</div>
 									<div class="site-header-dd-item regBtn">
-										<a title="register" href="/myfly/login.jsp;jsessionid=nBo3YDn8aNLtxZ8Ig9rpHA**.bluefly_node9">register</a>
+										<a title="register" href="/myfly/login.jsp;jsessionid=mtuS9qmzTy0e1OgFMwhSOQ**.bluefly_node16">register</a>
 									</div>
 									<div class="site-header-dd-item myAccount">
 										<a href="/myfly/login.jsp" rel="nofollow">my account</a>
@@ -325,7 +325,7 @@
 					<input type="hidden" id="securityStatus" value="0"/>
 				</div>
 				<div class="site-header-shopping-bag">
-					<a title="shopping bag" class="site-header-shopping-bag-link" href="/cart/cart.jsp;jsessionid=nBo3YDn8aNLtxZ8Ig9rpHA**.bluefly_node9">
+					<a title="shopping bag" class="site-header-shopping-bag-link" href="/cart/cart.jsp;jsessionid=mtuS9qmzTy0e1OgFMwhSOQ**.bluefly_node16">
 						<span class="site-header-shopping-bag-text">My Bag</span>
 						<span class="site-header-shopping-bag-icon"></span>
 						<span class="site-header-shopping-bag-cart-count">
@@ -1108,11 +1108,11 @@ li#main-nav-woman { padding-left: 0!important; }
            							
        	    						
            	  							<!-- begin global header content -->
-<div class="global-promotions-banner"><img src="http://cdn.media.bluefly.com/media/promotions/images/2015/0715/sales/150828_O_BF_HP_Global_Coupon_a.jpg" alt="sale" border="0" usemap="#shipping" />
+<div class="global-promotions-banner"><img src="http://cdn.media.bluefly.com/media/promotions/images/2015/0715/sales/150829_O_BF_HP_Global_Coupon.jpg" alt="sale" border="0" usemap="#shipping" />
   <map name="shipping" id="shipping">
-    <area class="open-promotion-details" shape="rect" coords="726,-6,1140,43" href="#" alt="details"  />
-    <area shape="rect" coords="524,-6,724,38" href="/handbags-accessories/designer-handbags?so=pop&brandType=Contemporary&isMarketplace&sosc=true" alt="Shop Contemporary" />
-<area shape="rect" coords="-143,-10,524,54" href="/handbags-accessories/designer-handbags?so=pop&brandType=Designer&isMarketplace=false&sosc=true" alt="Shop Designer" />
+    <area class="open-promotion-details" shape="rect" coords="758,-7,1172,42" href="#" alt="details"  />
+    <area shape="rect" coords="642,-1,756,44" href="/custom/custom.jsp?promoId=m2340226&mpromoId=m2741938" alt="Shop Men" />
+<area shape="rect" coords="-25,-10,642,54" href="/custom/custom.jsp?promoId=m2350107&mpromoId=m2741937" alt="Shop Women" />
   </map>
 </div>
 
@@ -1124,13 +1124,9 @@ li#main-nav-woman { padding-left: 0!important; }
       <li><b>*Free Shipping:</b> *Free shipping offer requires the use of coupon code SHIP150 and an order minimum of $150 (sub-total of all items in your cart, not including shipping costs or sales tax). Offer not valid on international orders. Offer cannot be combined with other coupons and/or applied retroactively to previously placed orders.</li>
             
       <li><b>*Returns:</b> *Enjoy FREE RETURN SHIPPING when you use our pre-paid FedEx domestic return label and select to have your return total refunded in the form of Bluefly Store Credit.</li>
-      
-      
-      <li><b>*Handbag, Dress, Zegna, Skincare Sale:</b> *Sale ends at 5:30 AM EST on 8-29-2015. Discount is reflected in pricing and excludes final sale and out of stock items. Reduced prices cannot be applied retroactively to purchases made prior to the start of this sale or to purchases made after the end of this sale.</li>
-              
-          
+               
                                      
-        <li><b>*End Of Summer Blowout Sale:</b> *Sale ends at 5:30 AM EST on 8-31-2015. Discount is reflected in pricing and excludes final sale and out of stock items. Reduced prices cannot be applied retroactively to purchases made prior to the start of this sale or to purchases made after the end of this sale.</li>
+        <li><b>*End Of Summer Blowout Sale, Handbag, Dress, Swim Sale:</b> *Sale ends at 5:30 AM EST on 8-31-2015. Discount is reflected in pricing and excludes final sale and out of stock items. Reduced prices cannot be applied retroactively to purchases made prior to the start of this sale or to purchases made after the end of this sale.</li>
   
               
               <li><b>*Designer Sample, Women's Warehouse, Men's Warehouse Sale:</b> *Discount is reflected in pricing and excludes final sale and out of stock items. Reduced prices cannot be applied retroactively to purchases made prior to the start of this sale or to purchases made after the end of this sale.</li>
@@ -1873,8 +1869,8 @@ $(document).ready(function(){
     
  
     
- <!-- server: vmapp209: -->
-<!-- SessionID: nBo3YDn8aNLtxZ8Ig9rpHA**.bluefly_node9 -->
+ <!-- server: vmapp216: -->
+<!-- SessionID: mtuS9qmzTy0e1OgFMwhSOQ**.bluefly_node16 -->
 
     
  
@@ -1890,7 +1886,7 @@ $(document).ready(function(){
  
  <script type="text/javascript">
 	if(dataDictionary != undefined) {
-		dataDictionary.serverName = 'vmapp209';
+		dataDictionary.serverName = 'vmapp216';
 	}
  </script>
  <script src="http://cdn.www.bluefly.com/media/library/js/eluminate2014.js?20140930095251

@@ -1104,7 +1104,7 @@ var context = '';
 				
 						pname = '/index'; //hijack the pname var
 						//context = 'wwwa1';
-					  	//logPageView('www','/index','CD8F89969565BCC15BF118EF6693769E.VGS-AS09','http://track.netzero.net','wwwa1');
+					  	//logPageView('www','/index','DBB1E4EE536E6F259D9F4607E409797B.DCA-AS02','http://track.netzero.net','wwwa1');
 				
 				
 		
@@ -1114,16 +1114,16 @@ var context = '';
 
 
 if(servlet != 'sp'){
-	//logPageView(servlet,pname,'CD8F89969565BCC15BF118EF6693769E.VGS-AS09','http://track.netzero.net',context);
+	//logPageView(servlet,pname,'DBB1E4EE536E6F259D9F4607E409797B.DCA-AS02','http://track.netzero.net',context);
 	try{
-		logPageView(servlet,pname,'CD8F89969565BCC15BF118EF6693769E.VGS-AS09','http://track.netzero.net',context);
+		logPageView(servlet,pname,'DBB1E4EE536E6F259D9F4607E409797B.DCA-AS02','http://track.netzero.net',context);
 	 }
 	catch(e){		
 	} 
 }
 
 function debug_pv_values(){
-	alert('servlet='+servlet+'\npname='+pname+'\nsID=CD8F89969565BCC15BF118EF6693769E.VGS-AS09\ntrackServer=http://track.netzero.net\ncontext='+context)
+	alert('servlet='+servlet+'\npname='+pname+'\nsID=DBB1E4EE536E6F259D9F4607E409797B.DCA-AS02\ntrackServer=http://track.netzero.net\ncontext='+context)
 }
 </script>	
 	
