@@ -760,16 +760,16 @@ var context = '';
 
 
 if(servlet != 'sp'){
-	//logPageView(servlet,pname,'2C6892BDA055A691C9090F94797AB122.DCA-AS08','http://track.juno.com',context);
+	//logPageView(servlet,pname,'E1A88415E96BED8A81110567BF0E9E84.DCA-AS08','http://track.juno.com',context);
 	try{
-		logPageView(servlet,pname,'2C6892BDA055A691C9090F94797AB122.DCA-AS08','http://track.juno.com',context);
+		logPageView(servlet,pname,'E1A88415E96BED8A81110567BF0E9E84.DCA-AS08','http://track.juno.com',context);
 	 }
 	catch(e){		
 	} 
 }
 
 function debug_pv_values(){
-	alert('servlet='+servlet+'\npname='+pname+'\nsID=2C6892BDA055A691C9090F94797AB122.DCA-AS08\ntrackServer=http://track.juno.com\ncontext='+context)
+	alert('servlet='+servlet+'\npname='+pname+'\nsID=E1A88415E96BED8A81110567BF0E9E84.DCA-AS08\ntrackServer=http://track.juno.com\ncontext='+context)
 }
 </script>	
 	

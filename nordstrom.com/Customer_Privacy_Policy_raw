@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"EFE97F0E549684D4D0D73D54786CD17E646174653D323031352D30382D3239267573657269643D6239323439363133623332323465323438323731373832643330656338393462","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"b9249613b3224e248271782d30ec894b","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"5d3536b4-cd24-4f39-a6f2-8bd031f44db1","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"E1EF7F90D5E960F94DDD338ED0C1533F646174653D323031352D30382D3239267573657269643D3634656335393330326433373431616439306133656637666661306433336566","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"64ec59302d3741ad90a3ef7ffa0d33ef","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"c7345faa-cac1-4c24-a7fd-62385e3e3f93","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -1752,11 +1752,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Get our iPad app.</h2>
+		<h2>Let&#39;s get personal.</h2>
 		<p>
-			Fashion&#39;s always a tap away with our free app.
+			See items selected especially for you.
 				
-					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
+					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
 				
 		</p>
 	</section>

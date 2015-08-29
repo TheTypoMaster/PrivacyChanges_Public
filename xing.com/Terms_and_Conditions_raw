@@ -6,7 +6,7 @@
 
 <meta name="referrer" content="default">
 
-<meta name="logjam-request-id" content="perlapp-production-13127d14d7294456a649c9846b5cf08b">
+<meta name="logjam-request-id" content="perlapp-production-cfbf43898f8e4b5281eed6db0bf93e43">
 
 
 <meta name="logjam-action" content="User#tandc">
@@ -98,7 +98,7 @@ baseUrl: "https://www.xing.com",
 countryCode: "us",
 reklame:{base:"https://ad.de.doubleclick.net/N3673",type:"/adi",unit:"/xing"},
 
-maskedLinkCallback: "callback777_2d8c07ed6b288b68",
+maskedLinkCallback: "callback525_d56637cf31783414",
 
 confirmPresets:{"delete":{title:"Wirklich löschen?",okLabel:"Ja, bitte löschen."}},
 toTop:"Nach oben",
@@ -155,12 +155,12 @@ XING – For a better working life
 <div id="login-dropdown">
 <form accept-charset="UTF-8" action="https://login.xing.com/login" class="clfx" method="post" novalidate>
 
-<script src="https://login.xing.com/check?logged_out_sid=b55b91668a28027946da2b9003d84f52&dest_url=https%3a%2f%2fwww.xing.com%2fapp%2fuser%3fop%3dlogin%26dest%3d%252fterms&section=core&locale=de&token_param=auth_token" defer></script>
+<script src="https://login.xing.com/check?logged_out_sid=1b0d8dbabdf5b6ff035b85f08f06143a&dest_url=https%3a%2f%2fwww.xing.com%2fapp%2fuser%3fop%3dlogin%26dest%3d%252fterms&section=core&locale=de&token_param=auth_token" defer></script>
 <script>
 try { sessionStorage.myXing = ""; } catch(e) {}
 </script>
 <input name="utf8" type="hidden" value="&#x2713;">
-<input name="logged_out_sid" type="hidden" value="b55b91668a28027946da2b9003d84f52">
+<input name="logged_out_sid" type="hidden" value="1b0d8dbabdf5b6ff035b85f08f06143a">
 <input name="locale" type="hidden" value="de">
 <input name="login_form[dest_url]" type="hidden" value="https://www.xing.com/app/user?op=login&amp;dest=%2fterms">
 <input name="login_form[section]" type="hidden" value="core">

@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440862763;
+  PageCriteria.timestamp = 1440867234;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440861920659),
+            serverDate: new Date(1440867233841),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"15":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"16":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
+adverts.botIPs={"16":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"17":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
 
-adverts.initSlots({"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015082915',
+            weatherDate: '2015082916',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -942,25 +942,25 @@ DM.later('bundle', function () {
   <ul class="link-bogr2 linkro-wocc">
     <li>
       <a href="/tvshowbiz/article-3215213/Kylie-Jenner-flashes-glimpse-racy-bralet-beneath-chic-blazer-dress-locks-hands-Tyga-clubbing-LA.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/14/2BC3EB3100000578-0-image-a-155_1440854744112.jpg" height="115" width="154" alt="" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC5EA2E00000578-0-image-a-192_1440863785278.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kylie Jenner flashes her racy bralet beneath chic blazer dress as she locks hands with Tyga on her way out of LA nightclub
+          No hard feelings? Scantily-clad Kylie Jenner and boyfriend Tyga party with Kourtney Kardashian's ex Scott Disick
           </strong>
-          Hand in hand
+          
         </span>
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3215126/Mama-s-boy-Zayn-Malik-supported-mother-Tricia-head-dinner-date-following-controversial-weeks.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/11/2BC32CCC00000578-0-image-a-66_1440844533806.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215298/Madonna-s-daughter-Lourdes-Leon-dons-plunging-yellow-dress-sells-clothes-second-hand-store.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC48E6C00000578-0-image-a-178_1440861810748.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Mama's boy! Zayn Malik is supported by his mother Tricia as they head out for a dinner date in Beverly Hills following singer's recent online feuds
+          Material Girl! Madonna's daughter Lourdes Leon dons plunging yellow dress as she sells her clothes to second hand store
           </strong>
-          
+          Stood out from crowd
         </span>
       </a>
     </li>
@@ -982,14 +982,14 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3215115/Bikini-clad-Danielle-Lloyd-tops-tan-tiny-two-piece-dotes-young-relative-family-getaway-Ibiza.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/12/2BC3320D00000578-0-image-m-17_1440847924108.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215126/Mama-s-boy-Zayn-Malik-supported-mother-Tricia-head-dinner-date-following-controversial-weeks.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/11/2BC32CCC00000578-0-image-a-66_1440844533806.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Bikini-clad Danielle Lloyd tops up her tan in tiny two-piece as she dotes on young relative during family getaway to Ibiza
+          Mama's boy! Zayn Malik is supported by his mother Tricia as they head out for a dinner date in Beverly Hills following singer's recent online feuds
           </strong>
-          Mum-of-three chilled out
+          
         </span>
       </a>
     </li>
@@ -1035,14 +1035,26 @@ photodesk@splashnews.com" />
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3215298/Madonna-s-daughter-Lourdes-Leon-dons-plunging-yellow-dress-sells-clothes-second-hand-store.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC48E6C00000578-0-image-a-178_1440861810748.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215115/Bikini-clad-Danielle-Lloyd-tops-tan-tiny-two-piece-dotes-young-relative-family-getaway-Ibiza.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/12/2BC3320D00000578-0-image-m-17_1440847924108.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Material Girl! Madonna's daughter Lourdes Leon dons plunging yellow dress as she sells her clothes to second hand store
+          Bikini-clad Danielle Lloyd tops up her tan in tiny two-piece as she dotes on young relative during family getaway to Ibiza
           </strong>
-          Stood out from crowd
+          Mum-of-three chilled out
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215322/She-s-no-angel-Kym-Marsh-flashes-pert-posterior-skimpy-fancy-dress-outfit-shows-support-star-studded-gay-pride-event.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC4474600000578-0-image-a-91_1440861872673.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          She's no angel! Kym Marsh flashes her pert posterior in skimpy fancy dress outfit as she shows her support at star-studded gay pride event
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1057,6 +1069,21 @@ photodesk@splashnews.com" />
           Enjoying her tropical travels
         </span>
       </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215351/Robin-Wright-Ben-Foster-call-engagement-months-rekindling-romance-following-break-year.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC5F73D00000578-0-image-m-5_1440862511736.jpg" height="115" width="154" alt="Women in the World sixth annual Summit at David H. Koch Theater in Lincoln Center, NYC.....Pictured: Ben Foster, Robin Wright..Ref: SPL1004796  220415  ..Picture by: Derek Storm / Splash News....Splash News and Pictures..Los Angeles: 310-821-2666..New York: 212-619-2666..London: 870-934-2666..photodesk@splashnews.com.." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Robin Wright and Ben Foster 'call off their engagement' months after rekindling their romance following break-up last year
+          </strong>
+          Second time they've split
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215238/Nicki-Minaj-ditches-revealing-outfits-opts-elegant-florals-night-Meek-ahead-VMAs.html">
@@ -1081,9 +1108,6 @@ photodesk@splashnews.com" />
           Quality time
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215199/Alex-Jones-beams-reunited-Chris-Evans-final-One-appearance-ahead-new-Gear-role.html">
@@ -1181,6 +1205,9 @@ photodesk@splashnews.com" />
         </span>
       </a>
     </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
     <li>
       <a href="/tvshowbiz/article-3215097/Christina-Milian-visits-pop-clothes-shop-hooded-cape-star-spangled-jeans.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/10/2BC3136400000578-0-image-a-4_1440840113885.jpg" height="115" width="154" alt="" />
@@ -1204,9 +1231,6 @@ photodesk@splashnews.com" />
           Out with kids
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3214994/Kourtney-Kardashian-shares-cuddly-pair-selfies-rarely-seen-eight-month-old-son-Reign.html">
@@ -2488,202 +2512,14 @@ photodesk@splashnews.com" />
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214171/Crop-wearing-Kylie-Jenner-takes-inspiration-Beetlejuice-movie.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/13/2BBCC52C00000578-0-image-m-2_1440765504982.jpg" height="115" width="154" alt="28 Aug 2015 - WEST HOLLYWOOD - USA
-*** EXCLUSIVE ALL ROUND PICTURES ***
-REALITY TV STAR KYLIE JENNER BARES HER MIDRIFF IN A CROP TOP AND STRIPED TROUSERS AS SHE ARRIVES AT THE NICE GUY RESTAURANT IN WEST HOLLYWOOD!
-BYLINE MUST READ : XPOSUREPHOTOS.COM
-***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION ***
-**UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE  44 208 344 2007**" />
+      <a href="/tvshowbiz/article-3214388/Charlie-Sheen-wants-Donald-Trump-s-running-mate.html" class="bottom">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/17/2BBF1CAF00000578-0-image-m-33_1440779188354.jpg" height="115" width="154" alt="UNIVERSAL CITY, CA - MAY 12:  Charlie Sheen visits &quot;Extra&quot; at Universal Studios Hollywood on May 12, 2015 in Universal City, California.  (Photo by Noel Vasquez/Getty Images)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kylie Jenner takes inspiration from Beetlejuice as she shows off her toned abs in a crop top and zany striped trousers
+          'I'd be his Vice President in a heartbeat!' Charlie Sheen wants to be Donald Trump's running mate
           </strong>
-          Would Kim wear those?
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214503/Audrina-Patridge-looks-boho-chic-patterned-dress-shops-friends-LA.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/18/2BBF3B4F00000578-0-image-m-50_1440782435659.jpg" height="115" width="154" alt="Audrina Patridge Shops at Nasty Gal on Melrose\n\nPictured: Audrina Patridge\nRef: SPL1111048  270815  \nPicture by: All Access Photo Group\n\nSplash News and Pictures\nLos Angeles: 310-821-2666\nNew York: 212-619-2666\nLondon: 870-934-2666\nphotodesk@splashnews.com\n" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          A trip back to the '60s! Hills vet Audrina Patridge looks boho chic in paisley dress and round sunglasses as she shops in LA
-          </strong>
-          1st Look host showed off her fashion credentials
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214518/Charles-Cassie-Kelley-Lady-Antebellum-finally-expecting-long-fertility-struggle.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBF4ED400000578-0-image-m-43_1440789037146.jpg" height="115" width="154" alt="NASHVILLE, TN - APRIL 27:  Recording Charles Kelley and wife Cassie McConnell attend the Vh1 Save The Music Musically Mastered Menu at The Cordelle on April 27, 2015 in Nashville, Tennessee.  (Photo by Jason Davis/Getty Images for Vh1 Save The Music)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'We never stopped hoping': Charles Kelley of Lady Antebellum and his wife Cassie reveal they are expecting a boy as they talk about long fertility struggle
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/femail/article-3214622/Meet-family-Prince-Albert-II-Princess-Charlene-pose-little-twins-Prince-Jacques-Princess-Gabriella-local-dancers-enjoying-traditional-Monaco-picnic.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBF5D2C00000578-0-image-a-32_1440789454357.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Meet the family! Prince Albert II and Princess Charlene pose with little twins Prince Jacques and Princess Gabriella and local dancers before enjoying a Monaco picnic&nbsp;
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214415/Brooke-Shields-looks-chic-fitted-jumpsuit-opening-night-Whorl-Inside-Loop.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/16/2BBED4C200000578-0-image-m-17_1440775673573.jpg" height="115" width="154" alt="NEW YORK, NY - AUGUST 27:  Brooke Shields attends the &quot;Whorl Inside A Loop&quot; off-broadway opening night at Second Stage Theatre on August 27, 2015 in New York City.  (Photo by Grant Lamos IV/Getty Images)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          She just doesn't age! Brooke Shields, 50, glows in fitted jumpsuit and motorcycle jacket at opening night of NYC play Whorl Inside A Loop
-          </strong>
-          She's still a Pretty Baby
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214564/Cami-Li-turns-old-friend-support-ex-fiance-Kirk-Norcross-announces-expecting-baby.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/18/2BBF712200000578-0-image-a-50_1440784098669.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Cami Li turns to an old friend for support as ex-fiance Kirk Norcross announces he is expecting a baby
-          </strong>
-          The 28-year-old model joined Chloe Goodman
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214342/Tila-Tequila-strips-pants-Celebrity-Big-Brother-house.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/16/2BBEE02700000578-0-image-m-261_1440776583430.jpg" height="115" width="154" alt="Editorial Use Only 
- Mandatory Credit: Photo by REX Shutterstock (5011668k)
- Tila Tequila putting on her jeans
- 'Celebrity Big Brother: UK vs USA' TV show, Elstree Studios, Hertfordshire, Britain - 28 Aug 2015" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Tila Tequila claims British boys can't handle her as she strips down to her pants in the Celebrity Big Brother house
-          </strong>
-          She's an old pro at this!
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3214192/Trainwreck-s-Amy-Schumer-says-s-rich-lives-humble-one-bedroom-walk-flat-fold-bed-not-exactly.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/15/2BBEA3FC00000578-0-image-m-27_1440773191744.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          EXCLUSIVE: Amy Schumer says although she's rich she lives in a humble one-bedroom walk-up flat with a fold-down bed. Well, not exactly...
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214274/Hot-white-Rita-Ora-displays-toned-torso-skintight-crop-mini-skirt-heads-dinner-LA.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/15/2BBD901100000578-0-image-a-6_1440772154587.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Hot white now! Rita Ora displays her toned torso in skintight crop top and mini skirt as she heads out for dinner in LA
-          </strong>
-          There's no missing her!
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214891/Gwen-Stefani-seen-without-wedding-band-shops-son-Apollo.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/01/2BC0E74A00000578-0-image-m-60_1440809054189.jpg" height="115" width="154" alt="Picture Shows: Apollo Rossdale, Gwen Stefani  August 28, 2015\n \n Singer and busy mom Gwen Stefani is spotted taking her sons Apollo and Zuma out for lunch in Studio City, California. Gwen, who recently called it quits with her husband Gavin Rossdale, can be seen without her wedding ring during the outing.\n \n Non Exclusive\n UK RIGHTS ONLY\n \n Pictures by : FameFlynet UK &copy; 2015\n Tel : +44 (0)20 3551 5049\n Email : info@fameflynet.uk.com" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Ring-ing in the change? Defiant Gwen Stefani is seen without her wedding band again... as she shops with sweet son Apollo
-          </strong>
-          Shopp  in Studio City
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214246/Jamelia-Kirsty-Gallagher-practice-new-moves-Strictly-Come-Dancing-rehearsals-underway-ahead-new-series.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/14/2BBD2F0E00000578-0-image-a-153_1440768111800.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Jamelia and Kirsty Gallacher get their fancy footwork in step as Strictly Come Dancing rehearsals get underway
-          </strong>
-          Ready to rumba!
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214107/Casey-Batchelor-shows-ample-chest-pert-posterior-racy-pink-lingerie-shoots-raunchy-calender-outdoors.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/13/2BBC848F00000578-0-image-a-107_1440764039978.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Casey Batchelor shows off her ample bust and pert posterior in racy pink lingerie as she shoots raunchy calendar outdoors
-          </strong>
-          Looking peachy
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214277/Kimberley-Garner-ties-reveal-taut-stomach-visits-local-pet-shop-skinny-blue-jeans-sunglasses.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/14/2BBD4ECA00000578-0-image-m-62_1440769800751.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Kimberley Garner ties up her top to reveal her taut stomach as she visits local pet shop&nbsp;in skinny blue jeans and sunglasses
-          </strong>
-          Shopping for her puppy
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/femail/article-3214126/James-Middleton-gets-hands-girlfriend-Donna-Air-luxury-family-Caribbean-break.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/12/2BBC7EF400000578-0-image-m-77_1440761022453.jpg" height="115" width="154" alt="EXCLUSIVE: ***PREMIUM EXCLUSIVE RATES APPLY MINIMUM SET REPRO FEE 1500 POUNDS***\n***STRICTLY NO WEB UNTIL 12PM GMT 29TH AUGUST***Pippa Middleton seen paddle boarding with brother James whilst on a family holiday in St. Barts. Pics taken 21st August" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Things are hotting up! James Middleton gets hands-on with girlfriend Donna Air on luxury family Caribbean break &nbsp;
-          </strong>
-          Been quietly dating for over two years
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214112/Myleene-Klass-reveals-doing-bit-end-sexualisation-children.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/14/2BBCE41800000578-0-image-m-40_1440767822724.jpg" height="115" width="154" alt="myleene klass" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Bikini model Myleene Klass reveals she is 'doing her bit to put an end to the over-sexualisation of children'
-          </strong>
-          Wants to protect her kids
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214292/Travelling-style-Gwyneth-Paltrow-leaves-Hamptons-vacation-children-Moses-Apple-helicopter.html" class="bottom">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/15/2BBD692D00000578-0-image-m-77_1440770895137.jpg" height="115" width="154" alt="EXCLUSIVE TO INF.\nAugust 27, 2015: Gwyneth Paltrow spotted with her kids Apple and Moses as they leave the Hamptons on a private helicopter in East Hampton, NY.\nMandatory Credit: Matt Agudo/INFphoto.com Ref: infusny-251" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Travelling in style! Gwyneth Paltrow leaves Hamptons vacation with children Moses and Apple by helicopter
-          </strong>
-          Nearly time for the kids to go back to school
+          Gruesome twosome!
         </span>
       </a>
     </li>

@@ -1072,7 +1072,7 @@ $(document).ready(function(){
 							Create Your Account
 						</button>
 					</div>
-					<input type="hidden" name="dwfrm_login_securekey" value="423345356"/>
+					<input type="hidden" name="dwfrm_login_securekey" value="135297493"/>
 				</fieldset>
 			</form>
 			
@@ -7923,6 +7923,83 @@ and (max-device-width : 480px) {
 		
 		
 
+		<div id="be-inspired" class="subpanel subpanel-col-1 clearfix">		
+			<i class="closer icon-close"></i>
+
+			<div class="subpanel-shop-all shop-all-be-inspired">
+				<a href="http://www.pier1.com/dept/be-inspired,default,sc.html">shop all Be Inspired</a>
+			</div>
+
+			
+				<div class="subpanel-column">
+					
+						
+						
+							
+						
+						
+							
+						
+						
+							
+						
+						
+							
+						
+						
+							
+						
+						
+							
+						
+						
+							
+					
+					
+						
+							<div class="level-4">
+								
+								
+								<a href="http://www.pier1.com/dept/be-inspired,default,sc.html?prefn1=saveNow&amp;prefv1=true">Sale</a>
+							</div>
+						
+						
+							<div class="level-4">
+								
+								
+								<a href="http://www.pier1.com/dept/be-inspired,default,sc.html?prefn1=clearance&amp;prefv1=true">Clearance</a>
+							</div>
+						
+						
+					
+				</div>
+			
+			<script type="text/javascript">
+				if ($('#topNavCategoryPromoTemplate_be-inspired').length) {
+					var classNames = $('#menu-panel #be-inspired').attr('class').split(' ');
+			        $.each(classNames, function (i, className) {
+			        	if (new RegExp('^subpanel-col-').test(className)) {
+							try {
+				        		var parts = className.split('-');
+				        		var oldColumnCount = parts.pop();
+				        		var newColumnCount = parseInt(oldColumnCount) + 1;
+				        		var resizedClassName = 'subpanel-col-' + newColumnCount;
+				        		$('#menu-panel #be-inspired').removeClass(className).addClass(resizedClassName).append('<div id="nav-promo_be-inspired"></div>');
+				        		$('#nav-promo_be-inspired').loadTemplate('#topNavCategoryPromoTemplate_be-inspired', null);
+							} catch(ex) { }
+			        		return false;
+			        	}
+			        });
+				}
+			</script>
+		</div>
+	
+		
+		
+		
+		
+		
+
 		<div id="sectional-seating" class="subpanel subpanel-col-1 clearfix">		
 			<i class="closer icon-close"></i>
 
@@ -8036,83 +8113,6 @@ and (max-device-width : 480px) {
 				        		var resizedClassName = 'subpanel-col-' + newColumnCount;
 				        		$('#menu-panel #swatch-station').removeClass(className).addClass(resizedClassName).append('<div id="nav-promo_swatch-station"></div>');
 				        		$('#nav-promo_swatch-station').loadTemplate('#topNavCategoryPromoTemplate_swatch-station', null);
-							} catch(ex) { }
-			        		return false;
-			        	}
-			        });
-				}
-			</script>
-		</div>
-	
-		
-		
-		
-		
-		
-
-		<div id="be-inspired" class="subpanel subpanel-col-1 clearfix">		
-			<i class="closer icon-close"></i>
-
-			<div class="subpanel-shop-all shop-all-be-inspired">
-				<a href="http://www.pier1.com/dept/be-inspired,default,sc.html">shop all Be Inspired</a>
-			</div>
-
-			
-				<div class="subpanel-column">
-					
-						
-						
-							
-						
-						
-							
-						
-						
-							
-						
-						
-							
-						
-						
-							
-						
-						
-							
-						
-						
-							
-					
-					
-						
-							<div class="level-4">
-								
-								
-								<a href="http://www.pier1.com/dept/be-inspired,default,sc.html?prefn1=saveNow&amp;prefv1=true">Sale</a>
-							</div>
-						
-						
-							<div class="level-4">
-								
-								
-								<a href="http://www.pier1.com/dept/be-inspired,default,sc.html?prefn1=clearance&amp;prefv1=true">Clearance</a>
-							</div>
-						
-						
-					
-				</div>
-			
-			<script type="text/javascript">
-				if ($('#topNavCategoryPromoTemplate_be-inspired').length) {
-					var classNames = $('#menu-panel #be-inspired').attr('class').split(' ');
-			        $.each(classNames, function (i, className) {
-			        	if (new RegExp('^subpanel-col-').test(className)) {
-							try {
-				        		var parts = className.split('-');
-				        		var oldColumnCount = parts.pop();
-				        		var newColumnCount = parseInt(oldColumnCount) + 1;
-				        		var resizedClassName = 'subpanel-col-' + newColumnCount;
-				        		$('#menu-panel #be-inspired').removeClass(className).addClass(resizedClassName).append('<div id="nav-promo_be-inspired"></div>');
-				        		$('#nav-promo_be-inspired').loadTemplate('#topNavCategoryPromoTemplate_be-inspired', null);
 							} catch(ex) { }
 			        		return false;
 			        	}
@@ -10259,7 +10259,7 @@ omnRemoteIP = "52.2.142.173";
 omnServer = omnRemoteIP;
 omnDay = "Saturday";
 omnWeekday = "WeekEnd";
-omnHour=  "8";
+omnHour=  "9";
 omnReferrerURL= "";
 omnDeviceType= "desktop";
 </script>
