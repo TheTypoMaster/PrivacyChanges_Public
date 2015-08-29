@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "38dc5b8dd0ff437dabd145023e2f4690";
+var comscoreHash = "78fe77fa661bbaa8d63eaad15724d9f1";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=38dc5b8dd0ff437dabd145023e2f4690&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=78fe77fa661bbaa8d63eaad15724d9f1&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -383,7 +383,7 @@ Moms
 </a>
 <div class="submenu">
 <a href="http://www.popsugar.com/Parenting" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag1">Parenting</a>
-<a href="http://www.popsugar.com/pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
+<a href="http://www.popsugar.com/Pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
 <a href="http://www.popsugar.com/Food-and-Fun" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag3">Food & Fun</a>
 <a href="http://www.popsugar.com/Kid-Shopping" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag4">Kid Shopping</a>
 <a href="http://www.popsugar.com/Family-Life" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag5">Family Life</a>
@@ -918,16 +918,6 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="modal-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
@@ -938,12 +928,12 @@ data-attr-name="A-Listers" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="modal-list-TV">
+id="modal-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="modal-list-Movies">
 <span class="checkbox"></span>
-<span class="attr-name">TV</span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -954,6 +944,16 @@ data-attr-name="Young Hollywood" />
 <label for="modal-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="modal-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1236,16 +1236,6 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="ad-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
@@ -1256,12 +1246,12 @@ data-attr-name="A-Listers" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="ad-list-TV">
+id="ad-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="ad-list-Movies">
 <span class="checkbox"></span>
-<span class="attr-name">TV</span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1272,6 +1262,16 @@ data-attr-name="Young Hollywood" />
 <label for="ad-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="ad-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1331,16 +1331,6 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="fb-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
@@ -1351,12 +1341,12 @@ data-attr-name="A-Listers" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="fb-list-TV">
+id="fb-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="fb-list-Movies">
 <span class="checkbox"></span>
-<span class="attr-name">TV</span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1367,6 +1357,16 @@ data-attr-name="Young Hollywood" />
 <label for="fb-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="fb-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1449,6 +1449,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Sat, 29 Aug 2015 10:56:56 -0700 in 79.67ms : web22 : none -->
+<!-- Hamsters typed up this page on Sat, 29 Aug 2015 12:17:51 -0700 in 62.94ms : web31 : none -->
 </body>
 </html>

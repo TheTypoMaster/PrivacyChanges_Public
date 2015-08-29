@@ -472,7 +472,7 @@ a{color:#00628b;text-decoration:none}a:hover{color:#009ee0;text-decoration:under
       token: ''
     },
     loggerUrl: '//beacon.gutefrage.net/js/logger',
-    hostname: 'gfapp39.endor.gutefrage.net',
+    hostname: 'gfapp41.endor.gutefrage.net',
     baseUrl: 'http://www.gutefrage.net'   };
 
   window.gf.core = window.gf.core || {
@@ -552,7 +552,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
 
             window.gf.ext.gutefrage.settings.platform = 'gf';
       window.gf.ext.gutefrage.settings.platforms = ['gutefrage', 'motorradfrage', 'sportlerfrage', 'finanzfrage', 'reisefrage', 'gesundheitsfrage', 'computerfrage', 'autofrage'];
-      window.gf.ext.gutefrage.settings.featureManager.rate = 74;
+      window.gf.ext.gutefrage.settings.featureManager.rate = 61;
       window.gf.ext.gutefrage.settings.isInternal = false;
       
       if (window.gf.app.version === 'desktop') {
@@ -616,7 +616,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           + "&amp;user_agent=" + escape(navigator.userAgent)
           + "&amp;gf_version=" + escape(gf.ext.gutefrage.settings.version)
           + "&amp;visitor_type=" + escape('visitor')
-          + "&amp;hostname=" + escape("gfapp39.endor.gutefrage.net");
+          + "&amp;hostname=" + escape("gfapp41.endor.gutefrage.net");
 
       new Image().src = loggerUrl + parameters;
     };
@@ -1405,7 +1405,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
   <a href="https://www.gutefrage.net/password_anfrage">Nutzernamen oder Passwort vergessen?</a>
 
   <div class="Form-item Form-item__checkbox">
-    <input id="fLogin_remember_55e1f3fa203ab" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e1f3fa203ab" class="Form-label Form-label__checkbox">
+    <input id="fLogin_remember_55e205854fffb" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e205854fffb" class="Form-label Form-label__checkbox">
       Angemeldet bleiben    </label>
   </div>
 
@@ -1440,7 +1440,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     data-ng-init="regToggle.init()"
     data-tabset-default-tab="registrierung-privat">
 
-  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm1108790988" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
+  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm781501711" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
     <input type="hidden" name="fRegister[checksum]" data-ng-value="form.f.checksum">
     
     
@@ -2389,9 +2389,9 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
         </li>
                 <li>
           <div class="UserTeaser">
-            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/images\/user\/avatar_medium.png?d41d8cd98f00b204e9800998ecf8427e","alt":"gutefragenet90"}'></span>            <div class="pull-left">
-              <a href="/nutzer/gutefragenet90" class="UserTeaser-name" title="gutefragenet90" data-gf-tooltip='{"url":"\/nutzer\/gutefragenet90\/tooltipp","type":"user","track":"user"}'>gutefragenet90</a><br>
-              Punkte: 775<br>
+            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/media\/user\/Antwortapparat_medium.png?b1f65ab962b1f72dd87de5a67ab9783a","alt":"Antwortapparat"}'></span>            <div class="pull-left">
+              <a href="/nutzer/Antwortapparat" class="UserTeaser-name" title="Antwortapparat" data-gf-tooltip='{"url":"\/nutzer\/Antwortapparat\/tooltipp","type":"user","track":"user"}'>Antwortapparat</a><br>
+              Punkte: 790<br>
                           </div>
           </div>
         </li>
@@ -2410,7 +2410,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     <div class="Block-badge Block-badge__highlight">&#xe621;</div>
     <div class="Block-body Block-body__small">
       <h3 class="Block-headline Block-headline__highlight">
-        Gute Fragen von heute        <small>Aktuell 15.045.109 gute Fragen</small>
+        Gute Fragen von heute        <small>Aktuell 15.045.523 gute Fragen</small>
       </h3>
 
       <ul class="QuestionTeaser-list">
@@ -2420,20 +2420,9 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
               <a class="QuestionTeaser-title" href="/frage/wieso-hat-der-staat-kein-geld-damit-pflegebeduerftige-menschen-anstaendig-versorgt-werden">Wieso hat der Staat kein Geld, damit pflegebedürftige Menschen anständig versorgt werden?</a>
               Über 2 Jahre lang habe ich jene alten, pflegebedürftigen Menschen gepflegt, die Deutschland nach dem Krieg wieder aufgebaut haben. Jeder, der schon mal in diesem Bereich tätig war oder einen Pflegefall in der Familie hatte, wird mir bestätigen kön...            </p>
             <span class="QuestionTeaser-upVotes pull-right">
-              13            </span>
+              15            </span>
             <a href="/frage/wieso-hat-der-staat-kein-geld-damit-pflegebeduerftige-menschen-anstaendig-versorgt-werden" class="more-link pull-left">
               18 Antworten            </a>
-          </article>
-        </li>
-                <li>
-                    <article id="question-50558660" class="QuestionTeaser">
-            <p data-gf-truncate-text>
-              <a class="QuestionTeaser-title" href="/frage/was-kann-man-gegen-die-werbung-freundschaftsanfragen-auf-gutefragenet-machen">Was kann man gegen die Werbung-Freundschaftsanfragen auf gutefrage.net machen?</a>
-                          </p>
-            <span class="QuestionTeaser-upVotes pull-right">
-              8            </span>
-            <a href="/frage/was-kann-man-gegen-die-werbung-freundschaftsanfragen-auf-gutefragenet-machen" class="more-link pull-left">
-              6 Antworten            </a>
           </article>
         </li>
                 <li>
@@ -2444,7 +2433,18 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
             <span class="QuestionTeaser-upVotes pull-right">
               7            </span>
             <a href="/frage/sex-vor-der-ehe-religion" class="more-link pull-left">
-              28 Antworten            </a>
+              31 Antworten            </a>
+          </article>
+        </li>
+                <li>
+                    <article id="question-50521900" class="QuestionTeaser">
+            <p data-gf-truncate-text>
+              <a class="QuestionTeaser-title" href="/frage/an-den-gott-die-glaubensgrundlage-welcher-religion-glaubt-ihr">An den Gott/ die Glaubensgrundlage welcher Lebenseinstellung/Religion glaubt ihr?</a>
+                          </p>
+            <span class="QuestionTeaser-upVotes pull-right">
+              7            </span>
+            <a href="/frage/an-den-gott-die-glaubensgrundlage-welcher-religion-glaubt-ihr" class="more-link pull-left">
+              48 Antworten            </a>
           </article>
         </li>
               </ul>
@@ -2487,21 +2487,21 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
               
         <div data-gf-paginator-content class="Paginator-content ">
           <div class="VideoTeaser">
-            <a href="/video/leckeres-sommer-cocktail-rezept-deep-love" class="VideoTeaser-thumbnail VideoTeaser-thumbnail__large">
-              <span data-gf-image='{"desktopSrc": "http://images.gutefrage.net/media/video/56710_normal.jpg"}'></span>
-            </a>
-            <a href="/video/leckeres-sommer-cocktail-rezept-deep-love" class="VideoTeaser-title" title="Leckeres Sommer-Cocktail-Rezept: Deep Love">
-              Leckeres Sommer-Cocktail-Rezept: Deep Love            </a>
-          </div>
-        </div>
-              
-        <div data-gf-paginator-content class="Paginator-content ">
-          <div class="VideoTeaser">
             <a href="/video/schnelle-rezepte-fuer-die-schule---tomate-mozzarella-broetchen" class="VideoTeaser-thumbnail VideoTeaser-thumbnail__large">
               <span data-gf-image='{"desktopSrc": "http://images.gutefrage.net/media/video/56760_normal.jpg"}'></span>
             </a>
             <a href="/video/schnelle-rezepte-fuer-die-schule---tomate-mozzarella-broetchen" class="VideoTeaser-title" title="Schnelle Rezepte für die Schule - Tomate-Mozzarella-Brötchen">
               Schnelle Rezepte für die Schule - Tomate-Mozzarella-Brötchen            </a>
+          </div>
+        </div>
+              
+        <div data-gf-paginator-content class="Paginator-content ">
+          <div class="VideoTeaser">
+            <a href="/video/leckeres-sommer-cocktail-rezept-deep-love" class="VideoTeaser-thumbnail VideoTeaser-thumbnail__large">
+              <span data-gf-image='{"desktopSrc": "http://images.gutefrage.net/media/video/56710_normal.jpg"}'></span>
+            </a>
+            <a href="/video/leckeres-sommer-cocktail-rezept-deep-love" class="VideoTeaser-title" title="Leckeres Sommer-Cocktail-Rezept: Deep Love">
+              Leckeres Sommer-Cocktail-Rezept: Deep Love            </a>
           </div>
         </div>
       
