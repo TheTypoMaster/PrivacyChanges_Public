@@ -748,27 +748,27 @@ Southport PR8 1LJ</p>
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4015/pure-storage-and-vmturbo-assuring-workload-performance.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4013/vmturbo-wp-assuring-application-performance-feb-2015.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Assuring workload performance through Pure Storage and VMTurbo</h4>
+                <h4>Demand-driven application control: assuring application performance</h4>
                 <div class=standfirst>
-                    Three primary use cases for the VMTurbo Pure Storage Control Module are discussed, including assuring performance in both homogeneous and heterogeneous storage environments.
+                    The evolution of enterprise applications, the data centers in which they reside and the increasing expectations of businesses and end-users on the Quality of Service delivered.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4024/?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4021/wgw03076usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Gartner Magic Quadrant for intrusion prevention systems</h4>
+                <h4>Strengthening networks and endpoints with behaviour-based protection</h4>
                 <div class=standfirst>
-                    The network IPS market continues being absorbed by next-generation firewall placements. Access the latest Gartner Magic Quadrant for Intrusion Prevention Systems to learn more.
+                    How integrated, intelligent solutions from IBM can detect and help prevent threats from the network perimeter to remote endpoints
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4063/forrester-use-actionable-threat-intelligence-to-protect-your-digital-business.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4060/the-evolution-of-ransomware.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Use actionable threat intelligence to protect your digital business</h4>
+                <h4>The evolution of ransomware</h4>
                 <div class=standfirst>
-                    Key characteristic of actionable threat intelligence and learn how to maximize threat intelligence to protect your digital business from targeted cyber-attacks.
+                    How different types of ransomware work, not just from a technological point of view but also from a psychological viewpoint.
                 </div>
             </a>
         </div>
@@ -802,16 +802,16 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/28/google_robocar_suffers_brain_freeze_after_seeing_hipster_cyclist/">
-                            <img src="https://regmedia.co.uk/2015/05/12/cyclist_london.jpg?x=88&amp;y=58&amp;crop=1" alt="A cyclist on the road in London." width=88 height=58>
-                <h4>Google robo-car suffers brain freeze after seeing hipster cyclist
+            <a href="/2015/08/28/product_roundup_seven_msata_ssds/">
+                            <img src="https://regmedia.co.uk/2015/08/24/crucial_mx200_msata_ssd_2.jpg?x=88&amp;y=58&amp;crop=1" alt="Crucial MX200 mSATA SSD" width=88 height=58>
+                <h4>Storage boosters: Six mSATA format SSDs on test
                 </h4>
             </a>
         </li>
         <li>
-            <a href="/2015/08/28/product_roundup_seven_msata_ssds/">
-                            <img src="https://regmedia.co.uk/2015/08/24/crucial_mx200_msata_ssd_2.jpg?x=88&amp;y=58&amp;crop=1" alt="Crucial MX200 mSATA SSD" width=88 height=58>
-                <h4>Storage boosters: Six mSATA format SSDs on test
+            <a href="/2015/08/28/google_robocar_suffers_brain_freeze_after_seeing_hipster_cyclist/">
+                            <img src="https://regmedia.co.uk/2015/05/12/cyclist_london.jpg?x=88&amp;y=58&amp;crop=1" alt="A cyclist on the road in London." width=88 height=58>
+                <h4>Google robo-car suffers brain freeze after seeing hipster cyclist
                 </h4>
             </a>
         </li>
@@ -966,20 +966,6 @@ Southport PR8 1LJ</p>
 
 
 
-    <script>
-        $(function() {
-            if ($('#spotlight').length) {
-                var ab_set = {
-                    view_tracking:  'true',
-                    click_tracking: 'true',
-                    click_target:   '#spotlight a',
-                    group:          'B (over img with large text)',
-                    name:           'AB: Spotlight 2015'
-                };
-                track_bucket_user(ab_set);
-            }
-        });
-    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1031,7 +1017,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(88) });
+        $(function() { set_bucket_group(830) });
     </script>
         <div id="fb-root"></div>
     </div>
