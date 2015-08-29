@@ -740,35 +740,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Go beyond APM with real-time IT operations analytics</h4>
+                <h4>Accelerate Citrix login times with cross-tier insight</h4>
                 <div class=standfirst>
-                    How IT operations teams can harness wire data already for real-time operational intelligence
+                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4015/pure-storage-and-vmturbo-assuring-workload-performance.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Empowering E-commerce against unpredictable demand</h4>
+                <h4>Assuring workload performance through Pure Storage and VMTurbo</h4>
                 <div class=standfirst>
-                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
+                    Three primary use cases for the VMTurbo Pure Storage Control Module are discussed, including assuring performance in both homogeneous and heterogeneous storage environments.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4019/ibm-security-combat-securty-threats.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4047/sel03035usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Combat the latest security attacks with global threat intelligence</h4>
+                <h4>Dangers of the deep, dark web</h4>
                 <div class=standfirst>
-                    With the IBM Security portfolio users can leverage in-depth knowledge and understanding of threats to bring business value to their organisations.
+                    A high-level overview of two mainstream networks in the Deep Web: Tor or .onion sites and I2P. There are other, similar anonymous networks, but these are the two most used.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4063/forrester-use-actionable-threat-intelligence-to-protect-your-digital-business.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Securing the cloud</h4>
+                <h4>Use actionable threat intelligence to protect your digital business</h4>
                 <div class=standfirst>
-                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
+                    Key characteristic of actionable threat intelligence and learn how to maximize threat intelligence to protect your digital business from targeted cyber-attacks.
                 </div>
             </a>
         </div>
@@ -966,6 +966,20 @@ Southport PR8 1LJ</p>
 
 
 
+    <script>
+        $(function() {
+            if ($('#spotlight').length) {
+                var ab_set = {
+                    view_tracking:  'true',
+                    click_tracking: 'true',
+                    click_target:   '#spotlight a',
+                    group:          'E (large image, large text below & grey)',
+                    name:           'AB: Spotlight 2015'
+                };
+                track_bucket_user(ab_set);
+            }
+        });
+    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1017,7 +1031,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(939) });
+        $(function() { set_bucket_group(120) });
     </script>
         <div id="fb-root"></div>
     </div>

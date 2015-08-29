@@ -472,7 +472,7 @@ a{color:#00628b;text-decoration:none}a:hover{color:#009ee0;text-decoration:under
       token: ''
     },
     loggerUrl: '//beacon.gutefrage.net/js/logger',
-    hostname: 'gfapp34.endor.gutefrage.net',
+    hostname: 'gfapp37.endor.gutefrage.net',
     baseUrl: 'http://www.gutefrage.net'   };
 
   window.gf.core = window.gf.core || {
@@ -552,7 +552,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
 
             window.gf.ext.gutefrage.settings.platform = 'gf';
       window.gf.ext.gutefrage.settings.platforms = ['gutefrage', 'motorradfrage', 'sportlerfrage', 'finanzfrage', 'reisefrage', 'gesundheitsfrage', 'computerfrage', 'autofrage'];
-      window.gf.ext.gutefrage.settings.featureManager.rate = 60;
+      window.gf.ext.gutefrage.settings.featureManager.rate = 81;
       window.gf.ext.gutefrage.settings.isInternal = false;
       
       if (window.gf.app.version === 'desktop') {
@@ -616,7 +616,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           + "&amp;user_agent=" + escape(navigator.userAgent)
           + "&amp;gf_version=" + escape(gf.ext.gutefrage.settings.version)
           + "&amp;visitor_type=" + escape('visitor')
-          + "&amp;hostname=" + escape("gfapp34.endor.gutefrage.net");
+          + "&amp;hostname=" + escape("gfapp37.endor.gutefrage.net");
 
       new Image().src = loggerUrl + parameters;
     };
@@ -1405,7 +1405,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
   <a href="https://www.gutefrage.net/password_anfrage">Nutzernamen oder Passwort vergessen?</a>
 
   <div class="Form-item Form-item__checkbox">
-    <input id="fLogin_remember_55e228802e6ac" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e228802e6ac" class="Form-label Form-label__checkbox">
+    <input id="fLogin_remember_55e239e62be90" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e239e62be90" class="Form-label Form-label__checkbox">
       Angemeldet bleiben    </label>
   </div>
 
@@ -1440,7 +1440,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     data-ng-init="regToggle.init()"
     data-tabset-default-tab="registrierung-privat">
 
-  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm1796515630" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
+  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm1943337094" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
     <input type="hidden" name="fRegister[checksum]" data-ng-value="form.f.checksum">
     
     
@@ -2373,25 +2373,25 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
       <ol class="UserTeaser-list" start="1">
                 <li>
           <div class="UserTeaser">
-            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/media\/user\/Pummelweib_medium.png?43906489217c9f2e5521a2d01fb35b38","alt":"Pummelweib"}'></span>            <div class="pull-left">
-              <a href="/nutzer/Pummelweib" class="UserTeaser-name" title="Pummelweib" data-gf-tooltip='{"url":"\/nutzer\/Pummelweib\/tooltipp","type":"user","track":"user"}'>Pummelweib</a><br>
-              Punkte: 1165<br>
+            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/media\/user\/FEUERLORD35_medium.png?e3bbe6eae7cd3bcbac2862ea95486357","alt":"FEUERLORD35"}'></span>            <div class="pull-left">
+              <a href="/nutzer/FEUERLORD35" class="UserTeaser-name" title="FEUERLORD35" data-gf-tooltip='{"url":"\/nutzer\/FEUERLORD35\/tooltipp","type":"user","track":"user"}'>FEUERLORD35</a><br>
+              Punkte: 190<br>
                           </div>
           </div>
         </li>
                 <li>
           <div class="UserTeaser">
-            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/media\/user\/Antwortapparat_medium.png?b1f65ab962b1f72dd87de5a67ab9783a","alt":"Antwortapparat"}'></span>            <div class="pull-left">
-              <a href="/nutzer/Antwortapparat" class="UserTeaser-name" title="Antwortapparat" data-gf-tooltip='{"url":"\/nutzer\/Antwortapparat\/tooltipp","type":"user","track":"user"}'>Antwortapparat</a><br>
-              Punkte: 1105<br>
+            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/images\/user\/avatar_medium.png?d41d8cd98f00b204e9800998ecf8427e","alt":"daniel23wiese"}'></span>            <div class="pull-left">
+              <a href="/nutzer/daniel23wiese" class="UserTeaser-name" title="daniel23wiese" data-gf-tooltip='{"url":"\/nutzer\/daniel23wiese\/tooltipp","type":"user","track":"user"}'>daniel23wiese</a><br>
+              Punkte: 160<br>
                           </div>
           </div>
         </li>
                 <li>
           <div class="UserTeaser">
-            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/images\/user\/avatar_medium.png?d41d8cd98f00b204e9800998ecf8427e","alt":"gutefragenet90"}'></span>            <div class="pull-left">
-              <a href="/nutzer/gutefragenet90" class="UserTeaser-name" title="gutefragenet90" data-gf-tooltip='{"url":"\/nutzer\/gutefragenet90\/tooltipp","type":"user","track":"user"}'>gutefragenet90</a><br>
-              Punkte: 940<br>
+            <span class="is-hidden-mobile UserTeaser-avatar" data-gf-image='{"desktopSrc":"\/\/images.gutefrage.net\/images\/user\/avatar_medium.png?d41d8cd98f00b204e9800998ecf8427e","alt":"LeckerCola"}'></span>            <div class="pull-left">
+              <a href="/nutzer/LeckerCola" class="UserTeaser-name" title="LeckerCola" data-gf-tooltip='{"url":"\/nutzer\/LeckerCola\/tooltipp","type":"user","track":"user"}'>LeckerCola</a><br>
+              Punkte: 160<br>
                           </div>
           </div>
         </li>
@@ -2410,7 +2410,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     <div class="Block-badge Block-badge__highlight">&#xe621;</div>
     <div class="Block-body Block-body__small">
       <h3 class="Block-headline Block-headline__highlight">
-        Gute Fragen von heute        <small>Aktuell 15.046.273 gute Fragen</small>
+        Gute Fragen von heute        <small>Aktuell 15.046.548 gute Fragen</small>
       </h3>
 
       <ul class="QuestionTeaser-list">
@@ -2420,9 +2420,9 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
               <a class="QuestionTeaser-title" href="/frage/wieso-hat-der-staat-kein-geld-damit-pflegebeduerftige-menschen-anstaendig-versorgt-werden">Wieso hat der Staat kein Geld, damit pflegebedürftige Menschen anständig versorgt werden?</a>
               Über 2 Jahre lang habe ich jene alten, pflegebedürftigen Menschen gepflegt, die Deutschland nach dem Krieg wieder aufgebaut haben. Jeder, der schon mal in diesem Bereich tätig war oder einen Pflegefall in der Familie hatte, wird mir bestätigen kön...            </p>
             <span class="QuestionTeaser-upVotes pull-right">
-              15            </span>
+              16            </span>
             <a href="/frage/wieso-hat-der-staat-kein-geld-damit-pflegebeduerftige-menschen-anstaendig-versorgt-werden" class="more-link pull-left">
-              20 Antworten            </a>
+              22 Antworten            </a>
           </article>
         </li>
                 <li>
@@ -2431,20 +2431,20 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
               <a class="QuestionTeaser-title" href="/frage/woran-erkennt-man-ob-maedchen-einen-huebsch-finden">Woran erkennt man ob Mädchen einen hübsch finden?</a>
               Also ich mein jetzt fremde Mädchen wenn man z.B. in der Bahn oder im Bus ist und sie in deiner nähe sitzt oder halt auf offener Straße. Woran erkennt man am ehesten das sie einen hübsch findet? Ich mein wenn sie dich oft anschaut kann das auch hei...            </p>
             <span class="QuestionTeaser-upVotes pull-right">
-              8            </span>
+              9            </span>
             <a href="/frage/woran-erkennt-man-ob-maedchen-einen-huebsch-finden" class="more-link pull-left">
-              4 Antworten            </a>
+              5 Antworten            </a>
           </article>
         </li>
                 <li>
-                    <article id="question-50527700" class="QuestionTeaser">
+                    <article id="question-50560375" class="QuestionTeaser">
             <p data-gf-truncate-text>
-              <a class="QuestionTeaser-title" href="/frage/sex-vor-der-ehe-religion">Sex vor der Ehe: soll man sich aus religiösen Gründen enthalten?</a>
-              Hallo, ich mache mir im Moment sehr viele Gedanken über das Thema. Ich bin selbst gläubig, aber es gibt einfach einige Dinge, die ich nicht 100% nachvollziehen kann. Zum Beispiel vorehelichen Sex. Wir haben das 21jh und die Situation hat sich voll...            </p>
+              <a class="QuestionTeaser-title" href="/frage/gibt-es-schicksal-oder-ist-alles-purer-zufall">Gibt es Schicksal oder ist alles purer Zufall?</a>
+              Alles was im Leben passiert, ist es Zufall oder Schicksal? Sei es im Berufsleben, in Liebesangelegenheiten oder das Leben an sich, alles schon irgendwie Vorbestimmt oder Zufall?            </p>
             <span class="QuestionTeaser-upVotes pull-right">
               7            </span>
-            <a href="/frage/sex-vor-der-ehe-religion" class="more-link pull-left">
-              32 Antworten            </a>
+            <a href="/frage/gibt-es-schicksal-oder-ist-alles-purer-zufall" class="more-link pull-left">
+              13 Antworten            </a>
           </article>
         </li>
               </ul>
@@ -2522,11 +2522,11 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
 </div>
 
 <div id="teaser-sidebar" class="Block is-hidden-mobile"
-  data-gf-track-element='{"c":"teaser","a":"teaser-1700","l":"display"}'>
+  data-gf-track-element='{"c":"einfachbloggenmobile","a":"promobox","l":"display"}'>
   <div class="Block-body Block-body__tiny">
-    <a href="https://www.gutefrage.net/schwangerschaft/uebersicht"
-      data-gf-track-link='{"c":"teaser","a":"teaser-1700","l":"click-image"}'>
-      <span class="img-responsive" data-gf-image='{"desktopSrc": "//images.gutefrage.net/media/promotion/bilder/schwangerschaftsidebarteaser300_original.jpg "}'></span>
+    <a href="https://www.gutefrage.net/einfachbloggen"
+      data-gf-track-link='{"c":"einfachbloggenmobile","a":"promobox","l":"click-image"}'>
+      <span class="img-responsive" data-gf-image='{"desktopSrc": "//images.gutefrage.net/media/promotion/bilder/promobox-whitepaper-einfachbloggenmobile_original.jpg "}'></span>
     </a>
   </div>
 </div>
