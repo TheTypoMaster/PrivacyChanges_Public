@@ -1,1622 +1,907 @@
 
 
 
-<!doctype html>
-
-<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<!-- the "no-js" class is for Modernizr. -->
-
-<head data-template-set="html5-reset" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-
-    <meta charset="utf-8">
-
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width" user-scaleable="no">
-
-    <title>The Atlantic</title>
-
-    <!-- Fav icons/tiles -->
-    <link rel="shortcut icon" href="http://cdn.theatlantic.com/assets/static/theatlantic/common/img/favicon.ico">
-    <link rel="apple-touch-icon" href="http://cdn.theatlantic.com/assets/static/theatlantic/common/img/apple-touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="http://cdn.theatlantic.com/assets/static/theatlantic/common/img/apple-touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="http://cdn.theatlantic.com/assets/static/theatlantic/common/img/apple-touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="http://cdn.theatlantic.com/assets/static/theatlantic/common/img/apple-touch-icon-ipad-retina.png">
-
-    <meta name="application-name" content="">
-    <meta name="msapplication-TileColor" content="">
-    <meta name="msapplication-TileImage" content="">
-
-    <link rel="alternate" type="application/rss+xml" title="The Atlantic" href="http://feeds.feedburner.com/TheAtlantic" />
-    <link rel="alternate" type="application/rss+xml" title="Best of The Atlantic" href="http://feeds.feedburner.com/Best-Of-The-Atlantic" />
-
-    <!-- Meta -->
-    
-    <meta name="keywords" content="The Atlantic, The Atlantic Magazine, TheAtlantic.com, Atlantic, news, opinion, breaking news, analysis, commentary, business, politics, culture, international, science, technology, national and life">
-    <meta name="description" content="The Atlantic covers news and analysis on politics, business, culture, technology, national, international and life on the official site of The Atlantic Magazine.">
-    <link rel="image_src" href="http://cdn.theatlantic.com/assets/static/theatlantic/img/default-thumbnail.png">
-
-    <meta property="og:site_name" content="The Atlantic">
-    <meta property="og:locale" content="en_US">
-    <meta property="fb:admins" content="577048155,17301937">
-    <meta property="fb:page_id" content="29259828486">
-    <meta property="fb:app_id" content="100770816677686">
-    <link href="https://plus.google.com/109258622984321091629" rel="publisher" />
-    <meta name="p:domain_verify" content="68e1a0361a557708fefc992f3309ed70"/>
-
-    <meta property="og:title" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.theatlantic.com/privacy-policy/" />
-
-    
-        <link rel="canonical" href="http://www.theatlantic.com/privacy-policy/" />
-    
-
-    <meta property="og:image" content="http://cdn.theatlantic.com/assets/static/theatlantic/img/default-thumbnail.png">
-    <meta property="og:description" content="The Atlantic covers news and analysis on politics, business, culture, technology, national, international and life on the official site of The Atlantic Magazine.">
-
-    
-
-    <meta name="twitter:site" content="@theatlantic" />
-    <meta name="twitter:domain" content="theatlantic.com" />
-    
-    <meta name="twitter:card" content="summary" />
-    
-
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "http://www.theatlantic.com",
-      "logo": "http://cdn.theatlantic.com/front/images/logo/213x70.png",
-      "sameAs" : [
-        "https://www.facebook.com/TheAtlantic",
-        "https://twitter.com/theatlantic",
-        "https://plus.google.com/109258622984321091629/posts"]
-    }
-    </script>
-
-    
-        
-            <meta name="ROBOTS" content="INDEX, FOLLOW">
-        
-    
-
-    
-    
-    <meta name='parsely-page' content='{"title": "", "type": "", "section": "", "author": "", "link": "http://www.theatlantic.com/privacy-policy/", "pub_date": ""}'>
-
-    <script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
-
-    
-
-    
-
-    <!-- Sitewide styles go here. -->
-    <link href="http://cdn.theatlantic.com/assets/static/theatlantic/css/site_rollup.7302e07b02ef.css" rel="stylesheet" type="text/css" />
-    <link href="http://cdn.theatlantic.com/assets/static/theatlantic/css/print_rollup.a11e1bf703b5.css" rel="stylesheet" type="text/css" media="print" />
-
-    
-
-    <script>
-        var Atlantic = {};
-        Atlantic.page_info = {
-  "domain": "www.theatlantic.com", 
-  "image": "http://cdn.theatlantic.com/assets/static/theatlantic/img/default-thumbnail.png", 
-  "channels": [], 
-  "is_news": false, 
-  "canonical_url": "", 
-  "original_url": "", 
-  "seo_title": "", 
-  "site_url": "http://www.theatlantic.com", 
-  "primary_channel": "", 
-  "share_dek": "", 
-  "is_instant": false, 
-  "share_title": "", 
-  "description": "The Atlantic covers news and analysis on politics, business, culture, technology, national, international and life on the official site of The Atlantic Magazine.", 
-  "tags": [], 
-  "is_404": false, 
-  "extra_omniture_params": {}, 
-  "kicker": "", 
-  "authors": [], 
-  "report": "", 
-  "path": "/privacy-policy/", 
-  "article_id": "", 
-  "share_text": "", 
-  "url": "http://www.theatlantic.com/privacy-policy/", 
-  "is_sponsored": false, 
-  "title": "", 
-  "og_type": "website", 
-  "is_magazine": false, 
-  "view": "", 
-  "is_features": false
-};
-        Atlantic.STATIC_URL = "http://cdn.theatlantic.com/assets/static/";
-        Atlantic.MEDIA_URL = "http://cdn.theatlantic.com/assets/media/";
-        Atlantic.PROFILES_URL = "https://profiles.theatlantic.com/";
-        Atlantic.PROFILES_SERVER_VERSION = "1.1.17";
-
-        // Used for comment counts
-        var disqus_shortname = 'theatlantic';
-        var s_account = "atlanticprod";
-    </script>
-    
-
-    
-    <script src="http://cdn.theatlantic.com/assets/static/theatlantic/common/js/advertisement.js"></script>
-
-    <!-- Optimizely -->
-    <script src="//cdn.optimizely.com/js/335305610.js"></script>
-
-    <script type="text/javascript" src="http://cdn.theatlantic.com/assets/static/theatlantic/js/head.b9aedbdce1ff.js" charset="utf-8"></script>
-
-    
-        <script type="text/javascript">
-// Set all mandatory properties that don't change.
-s.account = "atlanticprod";
-s.charSet="UTF-8";
-s.currencyCode="USD";
-s.trackDownloadLinks=true;
-s.trackExternalLinks=true;
-s.trackInlineStats=true;
-s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls";
-s.linkInternalFilters="javascript:,thewire.com,citylab.com,theatlantic.com,localhost";
-s.linkLeaveQueryString=false;
-s.linkTrackVars="None";
-s.linkTrackEvents="None";
-s.visitorNamespace="atlanticmedia";
-s.trackingServer="atlanticmedia.122.2o7.net";
-
-// Optimizely Adobe Analytics SiteCatalyst Integration
- window.optimizely = window.optimizely || [];
- window.optimizely.push("activateSiteCatalyst");
-
-/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
-var s_code = s.t();
-if (s_code) document.write(s_code)
-if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
-</script>
-<noscript><img src="http://atlanticmedia.122.2o7.net/b/ss/atlanticprod/1/H.23.6--NS/0"
-height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
-<!-- End SiteCatalyst code version: H.23.6. -->
-
-
-        <script type="text/javascript">
-        (function() {
-            // Duplicate a few existing s.props to be passed with linkTrackVars. If
-            // we just reused the existing s.props, data would be recorded twice.
-            s.prop65 = s.prop64; // AB Test cookie
-            s.prop66 = location.pathname;
-            s.prop67 = Atlantic.page_info.view;
-            s.prop68 = s.prop23; // Viewport
-            s.prop69 = ""; // Referring domain.
-
-            // You can coerce a URL into a URL object by creating a fake <a>
-            // element and setting the href. Newer browsers have a real URL
-            // constructor but this works in IE<10.
-            if (document.referrer !== "") {
-                var tmp = document.createElement("a");
-                tmp.href = document.referrer;
-                s.prop69 = tmp.hostname;
-            }
-
-            s.linkTrackVars =
-            "prop61,prop65,prop66,prop67,prop68,prop69,prop43,prop44,eVar21,eVar22,eVar25,eVar26,eVar27,eVar32,eVar33,eVar35,eVar36,eVar37,eVar38,eVar39,eVar40,eVar20,evar41,evar43";
-        })();
-        </script>
-    
-
-
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    
-</head>
-
-<body data-page-type=""
-    id=""
-    class="">
-
-
-<!-- Omniture noscript counter -->
-<noscript><div><a href="http://www.omniture.com" title="Web Analytics" ><img
-src="http://atlanticmedia.122.2o7.net/b/ss/atlanticprod/1/H.22--NS/0"
-height="1" width="1" alt="" /></a></div></noscript>
-<!--/DO NOT REMOVE/-->
-
-
-
-
-
-<div id="site" class="">
-    
-
-        
-            
-
-
-
-
-
-<header id="site-header-container">
-    
-
-    <div id="site-header-wrapper" class="fluid-container" data-omni-click="r'',r'header',d,r' ',r' ',@href">
-        <div id="site-header">
-            <a href="/" data-omni-click="inherit"><h1 class="site-logo">The Atlantic</h1></a>
-            <ul id="site-nav">
-                <li class="subscribe"><a href="/subscribe/subscribe-magazine/" data-omni-click="inherit"><span>Subscribe</span></a></li>
-                <li class="search"><a href="#" data-toggles="#site-search-wrapper" data-omni-click="inherit"><span>Search</span></a></li>
-                <li class="menu"><a href="#" data-toggles="#site-menu-wrapper" data-omni-click="inherit"><span>Menu</span></a></li>
-            </ul>
-            
-        </div>
-    </div>
-    <div id="site-search-wrapper" class="fluid-container">
-        <form class="site-search" action="/search/" method="get">
-            <input type="text" placeholder="Enter search terms" name="q" />
-            <button type="submit"></button>
-        </form>
-    </div>
-    <div id="site-menu-wrapper" data-omni-click="r'',r'header',d,r' ',r' ',@href">
-        <nav id="site-menu" class="fluid-container">
-            <a href="#" class="close-link">Close</a>
-            
-            <ul class="popular-links header-section">
-                <li><a href="/" data-omni-click="inherit">Home</a></li>
-                <li><a href="/latest/" data-omni-click="inherit">Latest</a></li>
-                <li><a href="/most-popular/" data-omni-click="inherit">Most Popular</a></li>
-                <li><a href="/magazine/" data-omni-click="inherit">Magazine</a></li>
-                <li><a href="/video/" data-omni-click="inherit">Video</a></li>
-                <li><a href="/photo/" data-omni-click="inherit">Photo</a></li>
-                <li><a href="/writers/" data-omni-click="inherit">Writers</a></li>
-
-            </ul>
-            <div class="nav-lower">
-                <ul class="channel-links header-section">
-                    <li><a href="/news/" data-omni-click="inherit">News</a></li>
-                    <li><a href="/politics/" data-omni-click="inherit">Politics</a></li>
-                    <li><a href="/business/" data-omni-click="inherit">Business</a></li>
-                    <li><a href="/entertainment/" data-omni-click="inherit">Culture</a></li>
-                    <li><a href="/technology/" data-omni-click="inherit">Tech</a></li>
-                    <li><a href="/health/" data-omni-click="inherit">Health</a></li>
-                    <li><a href="/education/" data-omni-click="inherit">Education</a></li>
-                    <li><a href="/sexes/" data-omni-click="inherit">Sexes</a></li>
-                    <li><a href="/national/" data-omni-click="inherit">U.S.</a></li>
-                    <li><a href="/international/" data-omni-click="inherit">Global</a></li>
-                </ul>
-                <ul class="other-links header-section">
-                    <li><a href='/notes/'>Notes</a></li>
-                    <li><a href="/special-reports/" data-omni-click="inherit">Projects</a></li>
-                    <li><a href="/live/" data-omni-click="inherit">Events</a></li>
-                    <li><a href="/ebooks/" data-omni-click="inherit">Books</a></li>
-                    <li><a href="/store/" data-omni-click="inherit">Shop</a></li>
-                </ul>
-
-                <div class="register-subscribe header-section">
-                    <div class="register">
-                        <div class="janrain-utils">
-                            <ul id="nav-login">
-                                <li data-omni-click="inherit"><a href="/profiles/?screenToRender=editProfile" class="captureProfileLink signed-in-utils">Your Account</a><a href="#" class="captureSignOutLink signed-in-utils">Sign Out</a></li>
-                                <li data-omni-click="inherit"><a href="#" class="captureSignInLink signed-out-utils" data-screen-to-render='signIn'>Sign In</a><a href="#" class="captureSignInLink signed-out-utils" data-screen-to-render='signIn'>Sign Up</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="subscribe">
-                        
-                        
-                        
-                            
-                            
-                            <a href="/subscribe/magazine-cover-drop-down/" data-omni-click="inherit">
-                                <img class="cover lazyload" data-src="http://cdn.theatlantic.com/assets/media/img/issues/2015/08/06/0915_Cover_RGB/large.jpg" width="100" height="131" />
-                            </a>
-                            
-                        
-                        <h2>Subscribe</h2>
-                        <p>Get 10 issues a year and save 65% off the cover price.</p>
-                        <a class="button order-now" href="/subscribe/subscribe-navigation/" data-omni-click="inherit">Order Now</a>
-                        
-                    </div>
-                    
-                </div>
-
-                <!-- Follow Us -->
-                <div class="follow header-section">
-                    <h2>Follow</h2>
-                    <ul class="social-icons color round">
-                        <li><a data-omni-click="inherit" href="https://www.facebook.com/TheAtlantic" class="social-icon facebook">Facebook</a></li>
-                        <li><a data-omni-click="inherit" href="https://twitter.com/TheAtlantic" class="social-icon twitter">Twitter</a></li>
-                        <li><a data-omni-click="inherit" href="https://www.linkedin.com/company/the-atlantic" class="social-icon linkedin">LinkedIn</a></li>
-                        <li><a data-omni-click="inherit" href="http://theatlantic.tumblr.com/" class="social-icon tumblr">Tumblr</a></li>
-                        <li><a data-omni-click="inherit" href="https://www.pinterest.com/theatlantic/" class="social-icon pinterest">Pinterest</a></li>
-                        <li><a data-omni-click="inherit" href="http://www.theatlantic.com/follow-the-atlantic/#follow-rssfeeds" class="social-icon rss">RSS</a></li>
-                        <li><a data-omni-click="inherit" href="https://itunes.apple.com/us/app/atlantic-magazine-digital/id397599894?mt=8" class="social-icon apple">App Store</a></li>
-                    </ul>
-                    <a data-omni-click="inherit" href="/newsletters/sign-up/">See our Newsletters &gt;</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
-
-            <!--[if lt IE 9]>
-            <div class="browser-warning">
-                <div class="container">
-                    <strong>Your browser is no longer supported.</strong>
-                    For maximum compatibility
-                    we recommend upgrading to a <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">newer version of IE</a>,
-                    or another browser such as <a href="http://www.google.com/chrome/">Chrome</a>
-                    or <a href="http://www.mozilla.com/en-US/firefox/new/">Firefox</a>.
-                </div>
-            </div>
-            <![endif]-->
-
-        
-
-        
-<article id="static">
-    <div class="fluid-container">
-        <div class="static-river">
-            <h1 class="hed">Privacy Policy</h1>
-            <div class="article-body">
-                
-                    <p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-outline-level: 1"><em style="line-height: 1.6em;"><strong>Effective: January 1, 2015 &nbsp; &nbsp;</strong></em></p>
-
-<p>At the Atlantic Monthly Group, Inc. (&quot;The Atlantic&quot;), we want you to enjoy and benefit from our websites and online services secure in the knowledge that we have implemented fair information practices designed to protect your privacy. &nbsp;Our privacy policy is applicable to The Atlantic, and The Atlantic&rsquo;s affiliates and subsidiaries whose websites, mobile applications and other online services are directly linked (the &ldquo;Sites&rdquo;). &nbsp;The privacy policy describes the kinds of information we may gather during your visit to these Sites, how we use your information, when we might disclose your personally identifiable information, and how you can manage your information. &nbsp;</p>
-
-<p>This privacy policy does not apply to Sites maintained by other companies or organizations to which we may link or who may link to us. We are not responsible for the actions and privacy policies of third party websites. &nbsp;</p>
-
-<p><strong>By visiting our Sites, you are accepting the practices described in our privacy policy, including our use of cookies and similar online tools. &nbsp;If you do not agree to the terms of this privacy policy, please do not use the Sites. &nbsp;We reserve the right to modify or amend the terms of our privacy policy from time to time without notice. Your continued use of our Sites following the posting of changes to these terms will mean you accept those changes. &nbsp;If we intend to apply the modifications or amendments to this privacy policy retroactively or to personally identifiable information already in our possession, we will provide you with notice of the modifications or amendments and seek your consent for such use.</strong></p>
-
-<ul>
-	<li><a href="#What Information">What Information Is Collected?</a></li>
-	<li><a href="#How Do the Sites Use Cookies">How Do the Sites Use Cookies and Other Tracking Technologies?</a></li>
-	<li><a href="#How Do We Use Your Information">How Do We Use Your Information?</a></li>
-	<li><a href="#Who Can See Your Information">Who Can See Your Information?</a></li>
-	<li><a href="#What Are Your Choices">What Are Your Choices?</a></li>
-	<li><a href="#Governing Law">Governing Law &amp; Notice to Non-U.S. Users</a></li>
-	<li><a href="#Other Important Information">Other Important Information</a></li>
-	<li><a href="#Questions">Questions About this Policy; Access to Your Information</a></li>
-</ul>
-
-<p><u><a name="What Information"><strong>What Information Is Collected?</strong></a></u></p>
-
-<p>We collect two basic types of information from you in conjunction with your use of the Sites: non-personally identifiable information and personally identifiable information. &nbsp;Non-personally identifiable information does not individually identify you, but it may include tracking and usage information about your general location, demographics, use of the Sites and the Internet. &nbsp;Personally identifiable information is any information that can individually identify you and includes, your name, address, phone number, and email address, or non-personally identifiable information that has been linked to such personally identifiable information. &nbsp; &nbsp;</p>
-
-<p><strong>Personally Identifiable Information</strong></p>
-
-<p>As a general matter, you can browse the Sites without submitting your personally identifiable information to us. &nbsp;However, there are a number of circumstances in which you may supply us with your personally identifiable information, including when you subscribe to our publications, newsletters, and other content; place an order; register for a Site or any part thereof; complete a survey or participate in market research; enter a contest; upload content; or when you seek employment at The Atlantic.</p>
-
-<p><strong>Non-Personally Identifiable Information</strong></p>
-
-<p>When you interact with the Sites, we may collect certain information that does not identify you individually (&ldquo;non-personally identifiable information&rdquo; or &ldquo;non-PII&rdquo;), such as demographic data; information about your computer, mobile device, or other device that you use to access the Sites, including IP address, general location information, unique device identifiers, browser type, browser language, and other transactional information. We may also collect information about your use of the Sites, including your search terms and search results, and additional &ldquo;traffic data&rdquo; such as time of access, date of access, software crash reports, session identification number, access times, and referring website addresses. &nbsp;Our servers may automatically keep an activity log of your use of our Sites. &nbsp;In addition to non-identifiable individual information, we may collect aggregate data regarding the use of the Sites.</p>
-
-<p><strong>Collection of Personally Identifiable Information From or Through Social Media Sites</strong></p>
-
-<p>In addition, when you interact with any The Atlantic property page or account on a social media platform, such as Facebook, Twitter, Tumblr, or LinkedIn, we may collect the personally identifiable information that you make available to us on that page or account including your social media account ID. &nbsp;However, we will comply with the privacy policies of the corresponding social media platform and we will only collect and store such personally identifiable information that we are permitted to collect by those social media platforms. &nbsp;If you choose to link or login to your The Atlantic account with or through a social networking service, The Atlantic and that service may share certain information about you and your activities. With your consent, we also may share information about your activities, including what you view on the Sites, with that social network&rsquo;s users.</p>
-
-<p><strong>Collection of Your Source IP Address/Location Information</strong></p>
-
-<p>We collect and store your device&rsquo;s source IP address which may disclose the general location of your device at the time you access the Sites. &nbsp;Advertisements and certain content may be directed to you as a result of this data.</p>
-
-<p><br />
-<u><a id="How Do the Sites Use Cookies" name="How Do the Sites Use Cookies"><strong>How Do the Sites Use Cookies and Other Tracking Technologies?</strong></a></u></p>
-
-<p>Like many websites, we use &ldquo;cookies&rdquo;, which are small text files that are stored on your computer or equipment when you visit certain online pages that record your preferences and actions. We use cookies to track use of our Sites and online services. We may also use cookies to monitor traffic, improve the Sites and make it easier and/or relevant for your use. &nbsp;Most web browsers automatically accept cookies, but, if you prefer, you can usually modify your browser setting to disable or reject cookies. If you delete your cookies or if you set your web browser to decline cookies, some features of the Sites may not work or may not work as designed. &nbsp;For more information on cookies and how to disable them, you can consult the information provided by the Interactive Advertising Bureau at <a href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>.</p>
-
-<p>We may also use web beacons and web storage technologies. &nbsp;A web beacon (also known as an &ldquo;action tag&rdquo;, &ldquo;tracer tag&rdquo;, or &ldquo;single-pixel gif&rdquo;) is an invisible graphic on a web page that is programmed to collect information about your use of a given website. Web Storage is a feature in some browsers that permits websites to store data within your browser rather within a cookie. &nbsp;We do not share or provide personally identifiable information we may collect in web beacons or store in Web Storage, such as names, e-mail addresses and phone numbers, to unaffiliated third parties without your express permission.</p>
-
-<p>We may partner with third party advertising companies to better provide advertisements about goods and services that may be of interest to you. &nbsp;These third parties may use cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you when you use the Sites. &nbsp;They may collect information about your online activities over time and across different websites and other online services. &nbsp;They may use this information to provide you with interest-based advertising or other targeted content. &nbsp;These advertising partners do not have access to or use your name, address, e-mail address, telephone number or other personally identifiable information from us, without your consent. &nbsp;They may, however, use persistent identifiers to anonymously track your Internet usage across other websites in their networks beyond these Sites. &nbsp;While we restrict their further use of such information, such third parties may, with sufficient data from other sources, be able to personally identify you, unknown to us. &nbsp;</p>
-
-<p>Third-party ad serving companies and other unaffiliated advertisers also display advertisements on our site. As part of their service, they may place a separate cookie on your computer or utilize other data collection and tracking technologies, to collect information such as your IP address, browser type, the server your computer is logged onto, the area code and zip code associated with your server, and whether you responded to a particular advertisement. For a listing of the third party companies we may allow to place cookies to serve ads on the Sites, <a href="/privacy-policy/third-party-ad-partners/">click here</a>. &nbsp;We do not control these third parties&rsquo; tracking technologies, how they may be used, or the information they may collect and we are not responsible for the privacy policies or the content of those third parties. &nbsp;Please visit the sites of those businesses at the links above to review their privacy policies. We may add or change the list of third party ad servers from time to time and we encourage you to check this section for changes. &nbsp;You can learn more about about online advertising at <a href="http://www.aboutads.info/consumers">www.aboutads.info/consumers</a>. &nbsp;</p>
-
-<p>Your browser or device may include &ldquo;Do Not Track&rdquo; functionality. &nbsp;Because a &ldquo;Do Not Track&rdquo; compliance protocol has not yet been finalized, The Atlantic&rsquo;s information collection and disclosure practices, and the choices that we provide to customers, will continue to operate as described in this privacy policy, whether or not a Do Not Track signal is received.<br />
-<br />
-<u><a id="How Do We Use Your Information" name="How Do We Use Your Information"><strong>How Do We Use Your Information?</strong></a></u></p>
-
-<p>We use the information we learn from you to help us personalize and continually improve your experience on the Sites, including to:</p>
-
-<ul>
-	<li>Provide you with the content, products and services you request</li>
-	<li>Post your user generated content to our Sites as you request</li>
-	<li>Communicate with you about your account or transactions with us and send you information about features and enhancements on or to our Sites</li>
-	<li>Communicate with you about changes to our policies</li>
-	<li>Communicate with you about your comment to a story or topic</li>
-	<li>Personalize content and experiences on our Sites, including providing you recommendations based on your preferences</li>
-	<li>Send you newsletters, offers and promotions for our products and services, third party products and services, or special events by e-mail, text, or other another medium</li>
-	<li>Provide you with advertising including advertising based on your activity on our Sites or activity on third party sites and applications</li>
-	<li>Administer our loyalty programs</li>
-	<li>Administer contests, sweepstakes, promotions, and surveys</li>
-	<li>Optimize or improve our products, services and operations</li>
-	<li>Detect, investigate, and prevent activities that may violate our policies or be illegal</li>
-	<li>Perform statistical, demographic, and marketing analyses of users of the Sites and their purchasing patterns</li>
-</ul>
-
-<p>We may use the information from one portion of the Sites on other portions of Sites in our network of Sites, all of which are owned and operated by The Atlantic, and we may combine information gathered from multiple portions of the Sites into a single user record. &nbsp;</p>
-
-<p><br />
-<u><a id="Who Can See Your Information" name="Who Can See Your Information"><strong>Who Can See Your Information?</strong></a></u></p>
-
-<p>We will not disclose your personally identifiable information collected from the Sites to any organizations not part of The Atlantic or its subsidiaries or related entities, except as described in this privacy policy. &nbsp;</p>
-
-<p><strong>Third-Party Agents</strong><br />
-&nbsp;&nbsp; &nbsp;<br />
-We have third party agents, subsidiaries, affiliates and partners that perform functions on our behalf, including, but not limited to, hosting, content syndication, content management tools, social media integration, marketing, analytics, billing and customer service. &nbsp;These entities may have access to personally identifiable information if needed to perform their functions. &nbsp;If such access is required, the third parties will be obligated to maintain the confidentiality and security of that personally identifiable information. &nbsp;They are restricted from using, selling, distributing or altering this data in any way other than to provide the requested services to the Sites.</p>
-
-<p><strong>Business Partners and Other Third Parties</strong></p>
-
-<p>From time to time we allow companies whose products or services we feel may interest our print subscribers to advertise to those subscribers, using the names and addresses provided to us during the process of subscribing to the print edition. &nbsp;We do not share our subscribers&rsquo; names and addresses directly with these companies, however. &nbsp;In those instances, we use a reputable third party to administer the process on our behalf. &nbsp;Many of our subscribers find this a valuable and time-saving service. If you do not want your name and address to be shared for these purposes, you can opt-out of such sharing by e-mailing us at techtrouble(at)theatlantic(dot)com, or calling or writing us at the contact information provided.</p>
-
-<p><strong>Assignment</strong></p>
-
-<p>In the event of a corporate change in control resulting from, for example, a sale to, or merger with, another entity, or in the event of a sale of assets or a bankruptcy, The Atlantic may transfer your personally identifiable information to the new party in control or the party acquiring assets. &nbsp;Under such circumstances we would, to the extent possible, require the acquiring party to follow the practices described in this privacy policy, as it may be amended from time to time. &nbsp;Nevertheless, we cannot promise that an acquiring company or the merged company will have the same privacy practices or treat your information the same as described in this privacy policy.</p>
-
-<p><strong>Law Enforcement, Legal Process, and Emergency Situations</strong></p>
-
-<p>In some cases, we may use or disclose your personally identifiable information to a third party if we are required to do so by law or if we in good faith believe that such action is necessary to comply with the law or legal process; to protect and defend our rights or to prevent misuse of our Sites; or to protect the personal safety of our employees, agents, partners, the users of the Sites, or the public.</p>
-
-<p><strong>Use of Non-Personally Identifiable Information</strong></p>
-
-<p>We may disclose or share individual, non-personally identifiable information and aggregate information in any manner other than that described herein that we deem appropriate or necessary. Among other things, we will disclose non-personally identifiable information to third parties to help us determine how people use parts of the Sites and who our users are so we can improve our Sites. &nbsp;We will also disclose non-personally identifiable information to our partners and other third parties about how our users collectively use the Sites.</p>
-
-<p><br />
-<u><a id="What Are Your Choices" name="What Are Your Choices"><strong>What Are Your Choices?</strong></a></u></p>
-
-<p>We believe you should have choices about the collection, use and sharing of your information. &nbsp;Although you cannot opt-out of all data collection when you visit our sites, you can limit the collection, use and sharing of your information. &nbsp;</p>
-
-<p><strong>Collection of personally identifiable information</strong><br />
-All personally identifiable information is provided on a voluntary basis. &nbsp;If you do not want The Atlantic to collect such information, you should not submit it to the Sites. &nbsp;However, doing so will restrict your ability to access some content and use some of the functionality of the sites. &nbsp;</p>
-
-<p><strong>Sharing of personally identifiable information</strong><br />
-You may opt-out of having your personally identifiable information shared with business partners and third parties for marketing and advertising purposes by e-mailing us at techtrouble(at)theatlantic(dot)com, or contacting us at the phone numbers or postal address provided below.</p>
-
-<p><strong>Online, Interest Based Advertising</strong><br />
-You may be able to opt-out of the use of your information for online, interest based advertising from participating whether advertising partners and unaffiliated third parties through the Network Advertising Initiative&rsquo;s opt-out program by clicking <a href="http://www.networkadvertising.org/managing/opt_out.asp">http://www.networkadvertising.org/managing/opt_out.asp</a>.</p>
-
-<p><strong>Emails and Newsletters</strong><br />
-You may always opt-out of receiving future e-mail marketing messages and newsletters from The Atlantic by following the instructions contained within the emails and newsletters, or by e-mailing, calling or writing us at the addresses below. &nbsp;</p>
-
-<p><br />
-<u><a id="Governing Law" name="Governing Law"><strong>Governing Law &amp; Notice to Non-U.S. Users</strong></a></u></p>
-
-<p>These Sites are published in the United States. We attempt to protect the personally identifiable information of all users of our Sites and we attempt to comply with local data protection and consumer rights laws to the extent they may apply to The Atlantic&rsquo;s services, but our family of Sites are located and targeted to United States citizens and our policies are directed at compliance with those laws. &nbsp;If you are uncertain whether this privacy policy conflicts with the applicable local privacy laws where you are located, you should not submit your personally identifiable information to The Atlantic. &nbsp;</p>
-
-<p>If you are located outside the United States of America, you should be aware that information about you will be transferred to the United States of America. If you are located in a country outside the United States of America and voluntarily submit personally identifiable information to us, you thereby consent to the general use of such information as provided in this privacy policy and to the transfer of that information to, and/or storage of that information in, the United States of America.</p>
-
-<p><u><a id="Other Important Information" name="Other Important Information"><strong>Other Important Information </strong></a></u></p>
-
-<p><strong>How Your Information Is Secured</strong></p>
-
-<p>We take reasonable security measures to protect your information, including the use of physical, technical and administrative controls. &nbsp;Please understand, however, that while we try our best to safeguard your personally identifiable information once we receive it, no transmission of data over the Internet or any other public network can be guaranteed to be 100% secure. &nbsp;You need to help protect the privacy of your own information. You must take precautions to protect the security of any personally identifiable information that you may transmit over any home networks, wireless routers, wireless (WiFi) networks or similar devices by using encryption and other techniques to prevent unauthorized persons from intercepting or receiving any of your personally identifiable information. You are responsible for the security of your information when using unencrypted, open access or otherwise unsecured networks. &nbsp;&nbsp;</p>
-
-<p>The time period for which we keep information varies according to the purpose for which it is used for. In some cases, there are legal requirements to keep data for a minimum period. Unless there is a specific legal requirement for us to keep the information, we will retain it for no longer than is necessary for the purposes for which the data was collected or for which it is to be further processed.</p>
-
-<p><strong>Contests, Sweepstakes or Games</strong></p>
-
-<p>When we run a contest or sweepstakes or game relating to our Sites, it will be accompanied by a set of rules. The rules for each contest, sweepstakes or game will specify how the information gathered from you for entry will be used and disclosed if it is different than as described in this privacy policy. &nbsp;In conjunction with your entry in such contest or sweepstakes, personally identifiable information will be collected only if you voluntarily submit it. &nbsp;</p>
-
-<p><strong>Children&rsquo;s Information</strong></p>
-
-<p>The Sites are not intended for children under 13 years of age. &nbsp;The Atlantic does not knowingly collect personal information from children under 13 years of age. If you are under 13 years of age, do not provide personal information to The Atlantic without providing us with consent from your parents. If The Atlantic discovers that a child under the age of 13 has provided The Atlantic with personal information and we do not have parental consent, The Atlantic will immediately delete that child&rsquo;s information from the Sites. If you believe that company has been provided with the personal information of a child under the age of 13 without parental consent, please notify us immediately at techtrouble(at)theatlantic(dot)com.</p>
-
-<p><strong>Your California Privacy Rights </strong></p>
-
-<p>California Civil Code Section 1798.83 permits customers of The Atlantic who are California residents to request certain information regarding its disclosure of their personally identifiable information to third parties for their direct marketing purposes. To make such a request, please send an e-mail to techtrouble(at)theatlantic(dot)com specifying that you seek your &ldquo;California Customer Choice Notice.&rdquo; &nbsp;Please allow thirty days for a response.</p>
-
-<p><u><a id="Questions" name="Questions"><strong>Questions About this Policy; Access to Your Information</strong></a></u></p>
-
-<p>If you have an account with The Atlantic, you may review and change your information by logging into your account and editing your account profile. &nbsp;If you have questions about our privacy policy, you may contact us at:</p>
-
-<p><strong>Email:</strong><br />
-<a href="mailto:techtrouble@theatlantic.com?subject=Privacy%20Policy%20">techtrouble(at)theatlantic(dot)com</a></p>
-
-<p><strong>Telephone:</strong><br />
-(800)234-2411 (United States)<br />
-(515) 237-3670 (International)</p>
-
-<p><strong>Postal Service:</strong><br />
-Atlantic Monthly Group, Inc.<br />
-ATTN: General Counsel<br />
-600 New Hampshire Avenue, NW<br />
-Washington, DC 20037</p>
-
-<p><strong>For Print Subscriptions:</strong><br />
-Atlantic Customer Care<br />
-PO Box 37564<br />
-Boone, IA 50037-0564<br />
-theatlantic@cdsfulfillment.com</p>
-
-<p>You may also use the contact information provided to request access or changes to your personally identifiable information; however, you will not be permitted to examine the personally identifiable information of any other person or entity and may be required to provide us with personally identifiable information to verify your identity prior to accessing any records containing information about you. &nbsp;We may not accommodate a request to change or delete personally identifiable information if we believe doing so would violate any law or legal requirement, or cause the information to be incorrect.</p>
-
-<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-outline-level: 1"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman', 'serif'; FONT-SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'"><o:p></o:p></span></p>
-
-                
-            </div>
-        </div>
-        <div class="right-rail">
-            <div class="ad-article">
-                
-
-    <gpt-ad id="ad-boxtop" 
-        targeting-pos="boxtop"
-        class="ad ad-boxtop"
-        
-        
-        
-        
-        >
-        
-            <gpt-sizeset viewport-size="[1010, 0]" sizes="[[300, 250], [300, 251], [300, 351], [300, 600]]"></gpt-sizeset>
-        
-            <gpt-sizeset viewport-size="[0, 0]" sizes="[]"></gpt-sizeset>
-        
-    </gpt-ad>
-
-
-            </div>
-            <div class="most-popular-container" id="static-most-popular">
-                <h2>Most Popular</h2>
-
-                
-    <div class="most-popular-list">
-    <ul class="most-popular">
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/technology/archive/2015/08/ballpoint-pens-object-lesson-history-handwriting/402205/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402205.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/5274433697_22a832dfb6_o/hero_wide_640.jpg?1440451183" class="lazyload">
-            
-            <figcaption class="credit">Nayu Kim / Flickr</figcaption>
-            
-        </figure>
-    
-
-        <h3 class="hed">How The Ballpoint Pen Killed Cursive</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/josh-giesbrecht/" title="Josh Giesbrecht">Josh Giesbrecht</a></li>
-    </ul>
-
-    <div class="article-content ">
-        <p class="dek">Thicker ink, fewer smudges, and more strained hands: an <a href="http://objectsobjectsobjects.com/">Object Lesson</a></p>
-        
-        <div class="excerpt">
-            <p>Recently, Bic launched a<a href="http://www.bicfightforyourwrite.com/"> </a><a href="http://www.bicfightforyourwrite.com/">campaign to &#x201C;save handwriting.&#x201D;</a> Named &#x201C;Fight for Your Write,&#x201D; it includes a pledge to &#x201C;encourage the act of handwriting&#x201D; in the pledge-taker&#x2019;s home and community, and emphasizes putting more of the company&#x2019;s ballpoints into classrooms.</p>&#13;
-&#13;
-<p>As a teacher, I couldn&#x2019;t help but wonder how anyone could think there&#x2019;s a shortage. I find ballpoint pens all over the place: on classroom floors, behind desks. Dozens of castaways collect in cups on every teacher&#x2019;s desk. They&#x2019;re so ubiquitous that the word &#x201C;ballpoint&#x201D; is rarely used; they&#x2019;re just &#x201C;pens.&#x201D; But despite its popularity, the ballpoint pen is relatively new in the history of handwriting, and its influence on popular handwriting is more complicated than the Bic campaign would imply.</p>&#13;
-&#13;
-
-        </div>
-        
-    </div>
-    <a class="read-more" href="/technology/archive/2015/08/ballpoint-pens-object-lesson-history-handwriting/402205/" data-omni-click="inherit">
+
+
+
+
+
+
+
+
+
+
+The Atlantic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Atlantic
+
+Subscribe
+Search
+Menu
+
+
+
+
+
+
+
+
+
+
+
+Close
+
+Home
+Latest
+Most Popular
+Magazine
+Video
+Photo
+Writers
+
+
+
+News
+Politics
+Business
+Culture
+Tech
+Health
+Education
+Sexes
+U.S.
+Global
+
+
+Notes
+Projects
+Events
+Books
+Shop
+
+
+
+
+
+Your AccountSign Out
+Sign InSign Up
+
+
+
+
+
+
+
+Subscribe
+Get 10 issues a year and save 65% off the cover price.
+Order Now
+
+
+
+
+Follow
+
+Facebook
+Twitter
+LinkedIn
+Tumblr
+Pinterest
+RSS
+App Store
+
+See our Newsletters >
+
+
+
+
+
+
+
+
+
+Privacy Policy
+
+Effective: January 1, 2015    
+At the Atlantic Monthly Group, Inc. ("The Atlantic"), we want you to enjoy and benefit from our websites and online services secure in the knowledge that we have implemented fair information practices designed to protect your privacy.  Our privacy policy is applicable to The Atlantic, and The Atlantic’s affiliates and subsidiaries whose websites, mobile applications and other online services are directly linked (the “Sites”).  The privacy policy describes the kinds of information we may gather during your visit to these Sites, how we use your information, when we might disclose your personally identifiable information, and how you can manage your information.  
+This privacy policy does not apply to Sites maintained by other companies or organizations to which we may link or who may link to us. We are not responsible for the actions and privacy policies of third party websites.  
+By visiting our Sites, you are accepting the practices described in our privacy policy, including our use of cookies and similar online tools.  If you do not agree to the terms of this privacy policy, please do not use the Sites.  We reserve the right to modify or amend the terms of our privacy policy from time to time without notice. Your continued use of our Sites following the posting of changes to these terms will mean you accept those changes.  If we intend to apply the modifications or amendments to this privacy policy retroactively or to personally identifiable information already in our possession, we will provide you with notice of the modifications or amendments and seek your consent for such use.
+
+What Information Is Collected?
+How Do the Sites Use Cookies and Other Tracking Technologies?
+How Do We Use Your Information?
+Who Can See Your Information?
+What Are Your Choices?
+Governing Law & Notice to Non-U.S. Users
+Other Important Information
+Questions About this Policy; Access to Your Information
+
+What Information Is Collected?
+We collect two basic types of information from you in conjunction with your use of the Sites: non-personally identifiable information and personally identifiable information.  Non-personally identifiable information does not individually identify you, but it may include tracking and usage information about your general location, demographics, use of the Sites and the Internet.  Personally identifiable information is any information that can individually identify you and includes, your name, address, phone number, and email address, or non-personally identifiable information that has been linked to such personally identifiable information.    
+Personally Identifiable Information
+As a general matter, you can browse the Sites without submitting your personally identifiable information to us.  However, there are a number of circumstances in which you may supply us with your personally identifiable information, including when you subscribe to our publications, newsletters, and other content; place an order; register for a Site or any part thereof; complete a survey or participate in market research; enter a contest; upload content; or when you seek employment at The Atlantic.
+Non-Personally Identifiable Information
+When you interact with the Sites, we may collect certain information that does not identify you individually (“non-personally identifiable information” or “non-PII”), such as demographic data; information about your computer, mobile device, or other device that you use to access the Sites, including IP address, general location information, unique device identifiers, browser type, browser language, and other transactional information. We may also collect information about your use of the Sites, including your search terms and search results, and additional “traffic data” such as time of access, date of access, software crash reports, session identification number, access times, and referring website addresses.  Our servers may automatically keep an activity log of your use of our Sites.  In addition to non-identifiable individual information, we may collect aggregate data regarding the use of the Sites.
+Collection of Personally Identifiable Information From or Through Social Media Sites
+In addition, when you interact with any The Atlantic property page or account on a social media platform, such as Facebook, Twitter, Tumblr, or LinkedIn, we may collect the personally identifiable information that you make available to us on that page or account including your social media account ID.  However, we will comply with the privacy policies of the corresponding social media platform and we will only collect and store such personally identifiable information that we are permitted to collect by those social media platforms.  If you choose to link or login to your The Atlantic account with or through a social networking service, The Atlantic and that service may share certain information about you and your activities. With your consent, we also may share information about your activities, including what you view on the Sites, with that social network’s users.
+Collection of Your Source IP Address/Location Information
+We collect and store your device’s source IP address which may disclose the general location of your device at the time you access the Sites.  Advertisements and certain content may be directed to you as a result of this data.
+
+How Do the Sites Use Cookies and Other Tracking Technologies?
+Like many websites, we use “cookies”, which are small text files that are stored on your computer or equipment when you visit certain online pages that record your preferences and actions. We use cookies to track use of our Sites and online services. We may also use cookies to monitor traffic, improve the Sites and make it easier and/or relevant for your use.  Most web browsers automatically accept cookies, but, if you prefer, you can usually modify your browser setting to disable or reject cookies. If you delete your cookies or if you set your web browser to decline cookies, some features of the Sites may not work or may not work as designed.  For more information on cookies and how to disable them, you can consult the information provided by the Interactive Advertising Bureau at www.allaboutcookies.org.
+We may also use web beacons and web storage technologies.  A web beacon (also known as an “action tag”, “tracer tag”, or “single-pixel gif”) is an invisible graphic on a web page that is programmed to collect information about your use of a given website. Web Storage is a feature in some browsers that permits websites to store data within your browser rather within a cookie.  We do not share or provide personally identifiable information we may collect in web beacons or store in Web Storage, such as names, e-mail addresses and phone numbers, to unaffiliated third parties without your express permission.
+We may partner with third party advertising companies to better provide advertisements about goods and services that may be of interest to you.  These third parties may use cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you when you use the Sites.  They may collect information about your online activities over time and across different websites and other online services.  They may use this information to provide you with interest-based advertising or other targeted content.  These advertising partners do not have access to or use your name, address, e-mail address, telephone number or other personally identifiable information from us, without your consent.  They may, however, use persistent identifiers to anonymously track your Internet usage across other websites in their networks beyond these Sites.  While we restrict their further use of such information, such third parties may, with sufficient data from other sources, be able to personally identify you, unknown to us.  
+Third-party ad serving companies and other unaffiliated advertisers also display advertisements on our site. As part of their service, they may place a separate cookie on your computer or utilize other data collection and tracking technologies, to collect information such as your IP address, browser type, the server your computer is logged onto, the area code and zip code associated with your server, and whether you responded to a particular advertisement. For a listing of the third party companies we may allow to place cookies to serve ads on the Sites, click here.  We do not control these third parties’ tracking technologies, how they may be used, or the information they may collect and we are not responsible for the privacy policies or the content of those third parties.  Please visit the sites of those businesses at the links above to review their privacy policies. We may add or change the list of third party ad servers from time to time and we encourage you to check this section for changes.  You can learn more about about online advertising at www.aboutads.info/consumers.  
+Your browser or device may include “Do Not Track” functionality.  Because a “Do Not Track” compliance protocol has not yet been finalized, The Atlantic’s information collection and disclosure practices, and the choices that we provide to customers, will continue to operate as described in this privacy policy, whether or not a Do Not Track signal is received.
+
+How Do We Use Your Information?
+We use the information we learn from you to help us personalize and continually improve your experience on the Sites, including to:
+
+Provide you with the content, products and services you request
+Post your user generated content to our Sites as you request
+Communicate with you about your account or transactions with us and send you information about features and enhancements on or to our Sites
+Communicate with you about changes to our policies
+Communicate with you about your comment to a story or topic
+Personalize content and experiences on our Sites, including providing you recommendations based on your preferences
+Send you newsletters, offers and promotions for our products and services, third party products and services, or special events by e-mail, text, or other another medium
+Provide you with advertising including advertising based on your activity on our Sites or activity on third party sites and applications
+Administer our loyalty programs
+Administer contests, sweepstakes, promotions, and surveys
+Optimize or improve our products, services and operations
+Detect, investigate, and prevent activities that may violate our policies or be illegal
+Perform statistical, demographic, and marketing analyses of users of the Sites and their purchasing patterns
+
+We may use the information from one portion of the Sites on other portions of Sites in our network of Sites, all of which are owned and operated by The Atlantic, and we may combine information gathered from multiple portions of the Sites into a single user record.  
+
+Who Can See Your Information?
+We will not disclose your personally identifiable information collected from the Sites to any organizations not part of The Atlantic or its subsidiaries or related entities, except as described in this privacy policy.  
+Third-Party Agents
+    
+We have third party agents, subsidiaries, affiliates and partners that perform functions on our behalf, including, but not limited to, hosting, content syndication, content management tools, social media integration, marketing, analytics, billing and customer service.  These entities may have access to personally identifiable information if needed to perform their functions.  If such access is required, the third parties will be obligated to maintain the confidentiality and security of that personally identifiable information.  They are restricted from using, selling, distributing or altering this data in any way other than to provide the requested services to the Sites.
+Business Partners and Other Third Parties
+From time to time we allow companies whose products or services we feel may interest our print subscribers to advertise to those subscribers, using the names and addresses provided to us during the process of subscribing to the print edition.  We do not share our subscribers’ names and addresses directly with these companies, however.  In those instances, we use a reputable third party to administer the process on our behalf.  Many of our subscribers find this a valuable and time-saving service. If you do not want your name and address to be shared for these purposes, you can opt-out of such sharing by e-mailing us at techtrouble(at)theatlantic(dot)com, or calling or writing us at the contact information provided.
+Assignment
+In the event of a corporate change in control resulting from, for example, a sale to, or merger with, another entity, or in the event of a sale of assets or a bankruptcy, The Atlantic may transfer your personally identifiable information to the new party in control or the party acquiring assets.  Under such circumstances we would, to the extent possible, require the acquiring party to follow the practices described in this privacy policy, as it may be amended from time to time.  Nevertheless, we cannot promise that an acquiring company or the merged company will have the same privacy practices or treat your information the same as described in this privacy policy.
+Law Enforcement, Legal Process, and Emergency Situations
+In some cases, we may use or disclose your personally identifiable information to a third party if we are required to do so by law or if we in good faith believe that such action is necessary to comply with the law or legal process; to protect and defend our rights or to prevent misuse of our Sites; or to protect the personal safety of our employees, agents, partners, the users of the Sites, or the public.
+Use of Non-Personally Identifiable Information
+We may disclose or share individual, non-personally identifiable information and aggregate information in any manner other than that described herein that we deem appropriate or necessary. Among other things, we will disclose non-personally identifiable information to third parties to help us determine how people use parts of the Sites and who our users are so we can improve our Sites.  We will also disclose non-personally identifiable information to our partners and other third parties about how our users collectively use the Sites.
+
+What Are Your Choices?
+We believe you should have choices about the collection, use and sharing of your information.  Although you cannot opt-out of all data collection when you visit our sites, you can limit the collection, use and sharing of your information.  
+Collection of personally identifiable information
+All personally identifiable information is provided on a voluntary basis.  If you do not want The Atlantic to collect such information, you should not submit it to the Sites.  However, doing so will restrict your ability to access some content and use some of the functionality of the sites.  
+Sharing of personally identifiable information
+You may opt-out of having your personally identifiable information shared with business partners and third parties for marketing and advertising purposes by e-mailing us at techtrouble(at)theatlantic(dot)com, or contacting us at the phone numbers or postal address provided below.
+Online, Interest Based Advertising
+You may be able to opt-out of the use of your information for online, interest based advertising from participating whether advertising partners and unaffiliated third parties through the Network Advertising Initiative’s opt-out program by clicking http://www.networkadvertising.org/managing/opt_out.asp.
+Emails and Newsletters
+You may always opt-out of receiving future e-mail marketing messages and newsletters from The Atlantic by following the instructions contained within the emails and newsletters, or by e-mailing, calling or writing us at the addresses below.  
+
+Governing Law & Notice to Non-U.S. Users
+These Sites are published in the United States. We attempt to protect the personally identifiable information of all users of our Sites and we attempt to comply with local data protection and consumer rights laws to the extent they may apply to The Atlantic’s services, but our family of Sites are located and targeted to United States citizens and our policies are directed at compliance with those laws.  If you are uncertain whether this privacy policy conflicts with the applicable local privacy laws where you are located, you should not submit your personally identifiable information to The Atlantic.  
+If you are located outside the United States of America, you should be aware that information about you will be transferred to the United States of America. If you are located in a country outside the United States of America and voluntarily submit personally identifiable information to us, you thereby consent to the general use of such information as provided in this privacy policy and to the transfer of that information to, and/or storage of that information in, the United States of America.
+Other Important Information 
+How Your Information Is Secured
+We take reasonable security measures to protect your information, including the use of physical, technical and administrative controls.  Please understand, however, that while we try our best to safeguard your personally identifiable information once we receive it, no transmission of data over the Internet or any other public network can be guaranteed to be 100% secure.  You need to help protect the privacy of your own information. You must take precautions to protect the security of any personally identifiable information that you may transmit over any home networks, wireless routers, wireless (WiFi) networks or similar devices by using encryption and other techniques to prevent unauthorized persons from intercepting or receiving any of your personally identifiable information. You are responsible for the security of your information when using unencrypted, open access or otherwise unsecured networks.   
+The time period for which we keep information varies according to the purpose for which it is used for. In some cases, there are legal requirements to keep data for a minimum period. Unless there is a specific legal requirement for us to keep the information, we will retain it for no longer than is necessary for the purposes for which the data was collected or for which it is to be further processed.
+Contests, Sweepstakes or Games
+When we run a contest or sweepstakes or game relating to our Sites, it will be accompanied by a set of rules. The rules for each contest, sweepstakes or game will specify how the information gathered from you for entry will be used and disclosed if it is different than as described in this privacy policy.  In conjunction with your entry in such contest or sweepstakes, personally identifiable information will be collected only if you voluntarily submit it.  
+Children’s Information
+The Sites are not intended for children under 13 years of age.  The Atlantic does not knowingly collect personal information from children under 13 years of age. If you are under 13 years of age, do not provide personal information to The Atlantic without providing us with consent from your parents. If The Atlantic discovers that a child under the age of 13 has provided The Atlantic with personal information and we do not have parental consent, The Atlantic will immediately delete that child’s information from the Sites. If you believe that company has been provided with the personal information of a child under the age of 13 without parental consent, please notify us immediately at techtrouble(at)theatlantic(dot)com.
+Your California Privacy Rights 
+California Civil Code Section 1798.83 permits customers of The Atlantic who are California residents to request certain information regarding its disclosure of their personally identifiable information to third parties for their direct marketing purposes. To make such a request, please send an e-mail to techtrouble(at)theatlantic(dot)com specifying that you seek your “California Customer Choice Notice.”  Please allow thirty days for a response.
+Questions About this Policy; Access to Your Information
+If you have an account with The Atlantic, you may review and change your information by logging into your account and editing your account profile.  If you have questions about our privacy policy, you may contact us at:
+Email:
+techtrouble(at)theatlantic(dot)com
+Telephone:
+(800)234-2411 (United States)
+(515) 237-3670 (International)
+Postal Service:
+Atlantic Monthly Group, Inc.
+ATTN: General Counsel
+600 New Hampshire Avenue, NW
+Washington, DC 20037
+For Print Subscriptions:
+Atlantic Customer Care
+PO Box 37564
+Boone, IA 50037-0564
+theatlantic@cdsfulfillment.com
+You may also use the contact information provided to request access or changes to your personally identifiable information; however, you will not be permitted to examine the personally identifiable information of any other person or entity and may be required to provide us with personally identifiable information to verify your identity prior to accessing any records containing information about you.  We may not accommodate a request to change or delete personally identifiable information if we believe doing so would violate any law or legal requirement, or cause the information to be incorrect.
+
+
+
+
+
+
+
+
+
+
+
+Most Popular
+
+
+
+
+
+
+Nayu Kim / Flickr
+
+How The Ballpoint Pen Killed Cursive
+
+
+Josh Giesbrecht
+
+
+Thicker ink, fewer smudges, and more strained hands: an Object Lesson
+
+Recently, Bic launched a campaign to “save handwriting.” Named “Fight for Your Write,” it includes a pledge to “encourage the act of handwriting” in the pledge-taker’s home and community, and emphasizes putting more of the company’s ballpoints into classrooms.
+As a teacher, I couldn’t help but wonder how anyone could think there’s a shortage. I find ballpoint pens all over the place: on classroom floors, behind desks. Dozens of castaways collect in cups on every teacher’s desk. They’re so ubiquitous that the word “ballpoint” is rarely used; they’re just “pens.” But despite its popularity, the ballpoint pen is relatively new in the history of handwriting, and its influence on popular handwriting is more complicated than the Bic campaign would imply.
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/magazine/archive/2015/09/the-coddling-of-the-american-mind/399356/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'399356.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/2015/07/WEL_Haidt_PC_Kid_FNL_WEBCrop/hero_wide_640.jpg?1438197190" class="lazyload">
-            
-            <figcaption class="credit">Andrew B. Myers / The Atlantic</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">The Coddling of the American Mind</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/greg-lukianoff/" title="Greg Lukianoff">Greg Lukianoff</a> and <a href="/author/jonathan-haidt/" title="Jonathan Haidt">Jonathan Haidt</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek"><span><span>In the name of emotional well-being, college students are increasingly demanding protection from words and ideas they don&rsquo;t like. Here&rsquo;s why that&rsquo;s disastrous for education&mdash;and mental health. </span></span></p>
-        
-        <div class="excerpt">
-            <p class="dropcap"><span class="smallcaps"><b>S</b>omething strange is </span>happening at America&#x2019;s colleges and universities. A movement is arising, undirected and driven largely by students, to scrub campuses clean of words, ideas, and subjects that might cause discomfort or give offense. Last December, Jeannie Suk wrote in an online article for <i>The New Yorker</i> about law students asking her fellow professors at Harvard not to teach rape law&#x2014;or, in one case, even use the word <i>violate</i> (as in &#x201C;that violates the law&#x201D;) lest it cause students distress. In February, Laura Kipnis, a professor at Northwestern University, wrote an essay in <i>The Chronicle of Higher Education </i>describing a new campus politics of sexual paranoia&#x2014;and was then subjected to a long investigation after students who were offended by the article and by a tweet she&#x2019;d sent filed Title IX complaints against her. In June, a professor protecting himself with a pseudonym wrote an essay for Vox describing how gingerly he now has to teach. &#x201C;I&#x2019;m a Liberal Professor, and My Liberal Students Terrify Me,&#x201D; the headline said. A number of popular comedians, including Chris Rock, have stopped performing on college campuses (see Caitlin Flanagan&#x2019;s <a href="http://www.theatlantic.com/magazine/archive/2015/09/thats-not-funny/399335/">article</a> in this month&#x2019;s issue). Jerry Seinfeld and Bill Maher have publicly condemned the oversensitivity of college students, saying too many of them can&#x2019;t take a joke.</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/magazine/archive/2015/09/the-coddling-of-the-american-mind/399356/" data-omni-click="inherit">
+
+
+Andrew B. Myers / The Atlantic
+
+The Coddling of the American Mind
+
+
+Greg Lukianoff and Jonathan Haidt
+
+
+In the name of emotional well-being, college students are increasingly demanding protection from words and ideas they don’t like. Here’s why that’s disastrous for education—and mental health. 
+
+Something strange is happening at America’s colleges and universities. A movement is arising, undirected and driven largely by students, to scrub campuses clean of words, ideas, and subjects that might cause discomfort or give offense. Last December, Jeannie Suk wrote in an online article for The New Yorker about law students asking her fellow professors at Harvard not to teach rape law—or, in one case, even use the word violate (as in “that violates the law”) lest it cause students distress. In February, Laura Kipnis, a professor at Northwestern University, wrote an essay in The Chronicle of Higher Education describing a new campus politics of sexual paranoia—and was then subjected to a long investigation after students who were offended by the article and by a tweet she’d sent filed Title IX complaints against her. In June, a professor protecting himself with a pseudonym wrote an essay for Vox describing how gingerly he now has to teach. “I’m a Liberal Professor, and My Liberal Students Terrify Me,” the headline said. A number of popular comedians, including Chris Rock, have stopped performing on college campuses (see Caitlin Flanagan’s article in this month’s issue). Jerry Seinfeld and Bill Maher have publicly condemned the oversensitivity of college students, saying too many of them can’t take a joke.
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/entertainment/archive/2015/08/the-american-lawn-a-eulogy/402745/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402745.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/9166219795_a4374232db_k/hero_wide_640.jpg?1440785895" class="lazyload">
-            
-            <figcaption class="credit">Robert Couse-Baker / Flickr</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">The Life and Death of the American Lawn</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/megan-garber/" title="Megan Garber">Megan Garber</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">Grasses&mdash;green, neatly trimmed, symbols of civic virtue&mdash;shaped the national landscape. They have now outlived their purpose.</p>
-        
-        <div class="excerpt">
-            <p>The hashtag <a href="http://twitter.com/search?q=%23droughtshaming&amp;src=tyah">#droughtshaming</a>&#x2014;which primarily exists, as its name suggests, to publicly decry people who have failed to do their part to conserve water during California&#x2019;s latest drought&#x2014;has claimed many victims. <a href="https://twitter.com/jonk/status/636736957507338240">Anonymous lawn-waterers</a>. <a href="http://twitter.com/Alpen_Geoff/status/633412893204086785">Anonymous sidewalk-washers</a>. <a href="https://twitter.com/ReporterArce/status/637011331544014848">The city of Beverly Hills</a>. The tag&#x2019;s most high-profile shamee thus far, however, <a href="http://www.courthousenews.com/2015/07/07/district-drought-shames-tom-selleck-in-court.htm">has been the actor Tom Selleck</a>. Who was sued earlier this summer by Ventura County&#x2019;s <span>Calleguas Municipal Water District for the alleged theft of hydrant water, supposedly used to nourish his 60-acre ranch. Which includes, this being California, an avocado farm, and also an expansive lawn. </span></p>&#13;
-&#13;
-<p>The case was <a href="http://www.theguardian.com/film/2015/jul/10/tom-selleck-settles-legal-dispute-over-water-theft">settled out of court</a> on terms that remain undisclosed, and everyone has since moved on with their lives. What&#x2019;s remarkable about the whole thing, though&#x2014;well, besides the fact that Magnum P.I. has apparently become, in his semi-retirement, a gentleman farmer&#x2014;is how much of a shift all the Selleck-shaming represents, as a civic impulse. For much of American history, the healthy lawn&#x2014;green, lush, neatly shorn&#x2014;has been a symbol not just of prosperity, individual and communal, <a href="https://books.google.com/books/about/Lawn_People.html?id=jcKH9K_DHd0C">but of something deeper</a>: shared ideals, collective responsibility, the assorted conveniences of conformity. Lawns, originally designed to connect homes even as they enforced the distance between them, are shared domestic spaces. They are also socially regulated spaces. &#x201C;When smiling lawns and tasteful cottages begin to embellish a country,&#x201D; Andrew Jackson Downing, one of the fathers of American landscaping, <a href="https://books.google.com/books?id=p3Ka51j5BBEC&amp;pg=PR5&amp;lpg=PR5&amp;dq=When+smiling+lawns+and+tasteful+cottages+begin+to+embellish+a+country&amp;source=bl&amp;ots=xSyzg0jbJj&amp;sig=dg4L5flRRqijwUvlTPz2NWePkzI&amp;hl=en&amp;sa=X&amp;ved=0CCoQ6AEwAmoVChMIrLCA977MxwIVhSoeCh1ZrQNV#v=onepage&amp;q=When%20smiling%20lawns%20and%20tasteful%20cottages%20begin%20to%20embellish%20a%20country&amp;f=false">put it</a>, &#x201C;we know that order and culture are established.&#x201D;</p>&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/entertainment/archive/2015/08/the-american-lawn-a-eulogy/402745/" data-omni-click="inherit">
+
+
+Netflix
+
+Narcos: Pablo Escobar by Way of Ken Burns
+
+
+David Sims
+
+
+The new drama series, which follows the Colombian kingpin’s rise to power, feels more like a well-researched documentary than the gripping saga it wants to be.
+
+Netflix’s new series Narcos is possibly arriving at the wrong time: The doldrums of summer aren’t really the ideal moment for a narratively dense, documentary-like look at the rise and fall of the Colombian drug kingpin Pablo Escobar. Narrated in voiceover by DEA Agent Steve Murphy (Boyd Holbrook), the early hours of Narcos feel like a history lesson, though an visually sumptuous one. 
+
+As Netflix continues to expand its streaming empire, it’s making a concerted effort to appeal to worldwide audiences, and Narcos fits neatly into that plan, alongside last year’s expensive critical flop Marco Polo. Narcos was shot on location in Colombia and stars the acclaimed Brazilian actor Wagner Moura as Escobar. It takes full advantage of its setting, loaded with sweeping helicopter shots of the Colombian jungle where Escobar founded his cocaine empire, filling a power vacuum left by various political upheavals in late-’70s South America.
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/politics/archive/2015/08/donald-trump-the-gop-and-the-hispanic-vote/402658/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402658.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/rt/hero_wide_640.jpg?1440749545" class="lazyload">
-            
-            <figcaption class="credit">Lucy Nicholson / Reuters</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">Donald Trump and the Hispanic Vote</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/conor-friedersdorf/" title="Conor Friedersdorf">Conor Friedersdorf</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">The billionaire&rsquo;s campaign is alienating the fastest-growing demographic in American politics&mdash;and the talk-radio right treats damage control as heresy.</p>
-        
-        <div class="excerpt">
-            <p>With Marco Rubio and Jeb Bush running for president, many Republicans hoped 2016 would be the year when the GOP won its biggest ever share of the Hispanic vote. Now Donald Trump is the frontrunner. And if he hangs on to win the nomination, the GOP will almost certainly do worse among Hispanic voters than ever before. Earlier this week, Gallup released an extraordinary poll about how Hispanics view the Republican candidates. Jeb Bush is easily the most popular. Ted Cruz is least popular among the traditional choices. Nearly everyone else fits in between them in a range so narrow that the 5 percent margin of error could scramble their order.</p>&#13;
-&#13;
-<p>But not Trump, who is wildly, staggeringly unpopular among Hispanics:</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/politics/archive/2015/08/donald-trump-the-gop-and-the-hispanic-vote/402658/" data-omni-click="inherit">
+
+
+Robert Couse-Baker / Flickr
+
+The Life and Death of the American Lawn
+
+
+Megan Garber
+
+
+Grasses—green, neatly trimmed, symbols of civic virtue—shaped the national landscape. They have now outlived their purpose.
+
+The hashtag #droughtshaming—which primarily exists, as its name suggests, to publicly decry people who have failed to do their part to conserve water during California’s latest drought—has claimed many victims. Anonymous lawn-waterers. Anonymous sidewalk-washers. The city of Beverly Hills. The tag’s most high-profile shamee thus far, however, has been the actor Tom Selleck. Who was sued earlier this summer by Ventura County’s Calleguas Municipal Water District for the alleged theft of hydrant water, supposedly used to nourish his 60-acre ranch. Which includes, this being California, an avocado farm, and also an expansive lawn. 
+The case was settled out of court on terms that remain undisclosed, and everyone has since moved on with their lives. What’s remarkable about the whole thing, though—well, besides the fact that Magnum P.I. has apparently become, in his semi-retirement, a gentleman farmer—is how much of a shift all the Selleck-shaming represents, as a civic impulse. For much of American history, the healthy lawn—green, lush, neatly shorn—has been a symbol not just of prosperity, individual and communal, but of something deeper: shared ideals, collective responsibility, the assorted conveniences of conformity. Lawns, originally designed to connect homes even as they enforced the distance between them, are shared domestic spaces. They are also socially regulated spaces. “When smiling lawns and tasteful cottages begin to embellish a country,” Andrew Jackson Downing, one of the fathers of American landscaping, put it, “we know that order and culture are established.”
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/entertainment/archive/2015/08/netflix-narcos-pablo-escobar/402730/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402730.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/narco_s1_003_h/hero_wide_640.jpg?1440778761" class="lazyload">
-            
-            <figcaption class="credit">Netflix</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed"><em>Narcos</em>: Pablo Escobar by Way of Ken Burns</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/david-sims/" title="David Sims">David Sims</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">The new drama series, which follows the Colombian kingpin&rsquo;s rise to power, feels more like a well-researched documentary than the gripping saga it wants to be.</p>
-        
-        <div class="excerpt">
-            <p>Netflix&#x2019;s new series <em>Narcos</em> is possibly arriving at the wrong time: The doldrums of summer aren&#x2019;t really the ideal moment for a narratively dense, documentary-like look at the rise and fall of the Colombian drug kingpin Pablo Escobar. <span>Narrated in voiceover by DEA Agent Steve Murphy (Boyd Holbrook), the early hours of </span><em>Narcos </em><span>feel like a history lesson, though an visually sumptuous one. </span></p>&#13;
-<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->&#13;
-&#13;
-<!-- END "MORE ON" SINGLE STORY BOX v. 2 --><p>As Netflix continues to expand its streaming empire, it&#x2019;s making a concerted effort to appeal to worldwide audiences, and <em>Narcos </em>fits neatly into that plan, alongside last year&#x2019;s <a href="http://www.theatlantic.com/entertainment/archive/2014/12/in-defense-of-marco-polo/383905/">expensive critical flop <em>Marco Polo</em></a>. <em>Narcos</em> was shot on location in Colombia and stars the acclaimed Brazilian actor Wagner Moura as Escobar. It takes full advantage of its setting, loaded with sweeping helicopter shots of the Colombian jungle where Escobar founded his cocaine empire, filling a power vacuum left by various political upheavals in late-&#x2019;70s South America.</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/entertainment/archive/2015/08/netflix-narcos-pablo-escobar/402730/" data-omni-click="inherit">
+
+
+Lucy Nicholson / Reuters
+
+Donald Trump and the Hispanic Vote
+
+
+Conor Friedersdorf
+
+
+The billionaire’s campaign is alienating the fastest-growing demographic in American politics—and the talk-radio right treats damage control as heresy.
+
+With Marco Rubio and Jeb Bush running for president, many Republicans hoped 2016 would be the year when the GOP won its biggest ever share of the Hispanic vote. Now Donald Trump is the frontrunner. And if he hangs on to win the nomination, the GOP will almost certainly do worse among Hispanic voters than ever before. Earlier this week, Gallup released an extraordinary poll about how Hispanics view the Republican candidates. Jeb Bush is easily the most popular. Ted Cruz is least popular among the traditional choices. Nearly everyone else fits in between them in a range so narrow that the 5 percent margin of error could scramble their order.
+But not Trump, who is wildly, staggeringly unpopular among Hispanics:
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/politics/archive/2015/08/trump-jeb-bush-wimp/402598/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402598.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/bush_heartless/hero_wide_640.jpg?1440701295" class="lazyload">
-            
-            <figcaption class="credit">David Goldman / AP</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">How Trump Makes Jeb Bush Seem Like a Wimp</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/peter-beinart/" title="Peter Beinart">Peter Beinart</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">The Republican frontrunner has offered Bush the perfect chance to display some passion&mdash;but he&rsquo;s declined to take it.</p>
-        
-        <div class="excerpt">
-            <p>Donald Trump has gotten a boost in his efforts to maul Jeb Bush in recent days from an unexpected source: Jeb Bush himself.</p>&#13;
-&#13;
-<p>Trump&#x2019;s attack on Jeb isn&#x2019;t mostly about issues. As with most things Trump, it&#x2019;s mostly about persona. The Donald thinks Jeb is a dud. &#x201C;He&#x2019;s a man that doesn&#x2019;t want to be doing what he&#x2019;s doing,&#x201D; Trump <a href="http://www.politico.com/story/2015/06/donald-trump-calls-jeb-bush-unhappy-119153.html#ixzz3jwWiROqv">said</a> in June. &#x201C;I call him the reluctant warrior, and warrior&#x2019;s probably not a good word. I think Bush is an unhappy person. I don&#x2019;t think he has any energy.&#x201D;</p>&#13;
-<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->&#13;
-&#13;
-<!-- END "MORE ON" SINGLE STORY BOX v. 2 --><p>Over the last week, Jeb has proven Trump right. Trump, and his supporters, continue to demonize Mexican American illegal immigrants. On Tuesday, Trump threw the most popular Spanish-language broadcaster in America out of a press conference. That same day, Ann Coulter warmed up for Trump in Iowa by <a href="http://www.realclearpolitics.com/video/2015/08/25/ann_coulter_introduces_donald_trump_at_iowa_speech_i_feel_like_im_dreaming_the_great_wall_of_trump.html">offering</a> gruesome details of murders by Mexican &#x201C;illegals,&#x201D; and suggesting that once Trump builds his wall along America&#x2019;s southern border, tourists can come watch the &#x201C;live drone shows.&#x201D;</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/politics/archive/2015/08/trump-jeb-bush-wimp/402598/" data-omni-click="inherit">
+
+
+David Goldman / AP
+
+How Trump Makes Jeb Bush Seem Like a Wimp
+
+
+Peter Beinart
+
+
+The Republican frontrunner has offered Bush the perfect chance to display some passion—but he’s declined to take it.
+
+Donald Trump has gotten a boost in his efforts to maul Jeb Bush in recent days from an unexpected source: Jeb Bush himself.
+Trump’s attack on Jeb isn’t mostly about issues. As with most things Trump, it’s mostly about persona. The Donald thinks Jeb is a dud. “He’s a man that doesn’t want to be doing what he’s doing,” Trump said in June. “I call him the reluctant warrior, and warrior’s probably not a good word. I think Bush is an unhappy person. I don’t think he has any energy.”
+
+Over the last week, Jeb has proven Trump right. Trump, and his supporters, continue to demonize Mexican American illegal immigrants. On Tuesday, Trump threw the most popular Spanish-language broadcaster in America out of a press conference. That same day, Ann Coulter warmed up for Trump in Iowa by offering gruesome details of murders by Mexican “illegals,” and suggesting that once Trump builds his wall along America’s southern border, tourists can come watch the “live drone shows.”
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/politics/archive/2015/08/peggy-hubbards-attack-on-black-lives-matter/402128/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402128.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/ff-1/hero_wide_640.jpg?1440417160" class="lazyload">
-            
-            <figcaption class="credit">Kenny Bahr / Reuters</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">Peggy Hubbard's Attack on Black Lives Matter</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/conor-friedersdorf/" title="Conor Friedersdorf">Conor Friedersdorf</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">An African American grandmother&rsquo;s conservative critique of her community goes viral, picking up where Bill Cosby left off.</p>
-        
-        <div class="excerpt">
-            <p>Over the weekend, at least 7 million people watched Peggy Hubbard, a black grandmother, excoriate the Black Lives Matter movement in <a href="https://www.facebook.com/peggy.hubbard1/videos/1176909579005002/?pnref=story">an emotional video</a> posted to her Facebook page. 71,000 people liked the post. 16,000 people left comments. And discussions like <a href="https://www.reddit.com/r/news/comments/3i1h3f/a_little_girl_is_dead_frustrated_moms/">this one on Reddit</a> rippled out across the Internet.</p>&#13;
-&#13;
-<p>Two breaking news events prompted the U.S. Navy veteran, who grew up in Ferguson, Missouri, to speak out and share her feelings. In the first, two white police officers <span><a href="http://www.wsj.com/articles/autopsy-suspect-killed-by-st-louis-police-was-shot-in-back-1440166387">killed</a> Mansur Ball-Bey, a young black man. Police say that he tried to flee out the back door of the house where they were serving a warrant and that he pointed a stolen gun at them before they shot, a narrative that his family disputes. </span>In the second news story, 9-year-old Jamyla Bolden <a href="http://www.stltoday.com/news/local/crime-and-courts/crowd-urges-peace-healing-at-vigil-for--year-old/article_bb249529-3870-5ae1-83da-8545f4a6773e.html">was killed</a> by a stray bullet from a drive-by shooting as she lay in her mother&#x2019;s bed. The perpetrator is unknown.</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/politics/archive/2015/08/peggy-hubbards-attack-on-black-lives-matter/402128/" data-omni-click="inherit">
+
+
+Alysia Alexander
+
+A Conversation With Koko the Gorilla
+
+
+Roc Morin
+
+
+An afternoon spent with the famous gorilla who knows sign language, and the scientist who taught her how to “talk”
+
+One of the first words that Koko used to describe herself was Queen. The gorilla was only a few years old when she first made the gesture—sweeping a paw diagonally across her chest as if tracing a royal sash.
+“It was a sign we almost never used!” Koko’s head-caretaker Francine Patterson laughed. “Koko understands that she’s special because of all the attention she's had from professors, and caregivers, and the media.”
+The cause of the primate’s celebrity is her extraordinary aptitude for language. Over the past 43 years, since Patterson began teaching Koko at the age of 1, the gorilla has learned more than 1,000 words of modified American Sign Language—a vocabulary comparable to that of a 3-year-old human child. While there have been many attempts to teach human languages to animals, none have been more successful than Patterson’s achievement with Koko.
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/technology/archive/2015/08/koko-the-talking-gorilla-sign-language-francine-patterson/402307/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402307.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/Koko_and_Roc/hero_wide_640.jpg?1440532975" class="lazyload">
-            
-            <figcaption class="credit">Alysia Alexander</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">A Conversation With Koko the Gorilla</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/roc-morin/" title="Roc Morin">Roc Morin</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">An afternoon spent with the famous gorilla who knows sign language, and the scientist who taught her how to &ldquo;talk&rdquo;</p>
-        
-        <div class="excerpt">
-            <p>One of the first words that Koko used to describe herself was Queen. The gorilla was only a few years old when she first made the gesture&#x2014;sweeping a paw diagonally across her chest as if tracing a royal sash.</p>&#13;
-&#13;
-<p>&#x201C;It was a sign we almost never used!&#x201D; Koko&#x2019;s head-caretaker Francine Patterson laughed. &#x201C;Koko understands that she&#x2019;s special because of all the attention she's had from professors, and caregivers, and the media.&#x201D;</p>&#13;
-&#13;
-<p>The cause of the primate&#x2019;s celebrity is her extraordinary aptitude for language. Over the past 43 years, since Patterson began teaching Koko at the age of 1, the gorilla has learned more than 1,000 words of modified American Sign Language&#x2014;a vocabulary comparable to that of a 3-year-old human child. While there have been many attempts to teach human languages to animals, none have been more successful than Patterson&#x2019;s achievement with Koko.</p>&#13;
-&#13;
 
-        </div>
-        
-    </div>
-    <a class="read-more" href="/technology/archive/2015/08/koko-the-talking-gorilla-sign-language-francine-patterson/402307/" data-omni-click="inherit">
+
+
+NASA / Reuters
+
+Photos of the Week: 8/22-8/28
+
+
+Alan Taylor
+
+
+Hikers on a moonlit night in Mexico, a massive ball pit in Washington, D.C., Usain Bolt taken down by a Segway in China, a squirrel monkey riding a capybara in Japan, and much more.
+
+Hikers on a moonlit night in Mexico, Homer Simpson calls for calm at a protest in Chile, Kumbh Mela in India, a massive ball pit in Washington, D.C., Usain Bolt taken down by a Segway in China, a squirrel monkey riding a capybara in Japan, a conference of Furry enthusiasts in Germany, and much more.
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/photo/2015/08/photos-of-the-week-822-828/402733/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402733.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/photo/2015/08/photos-of-the-week-822-828/w01_RTX1PSGS-1/hero_wide_640.jpg?1440780984" class="lazyload">
-            
-            <figcaption class="credit">NASA / Reuters</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">Photos of the Week: 8/22-8/28</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/alan-taylor/" title="Alan Taylor">Alan Taylor</a></li>
-    </ul>
 
-    <div class="article-content ">
-        <p class="dek">Hikers on a moonlit night in Mexico, a massive ball pit in Washington, D.C., Usain Bolt taken down by a Segway in China, a squirrel monkey riding a capybara in Japan, and much more.</p>
-        
-        <div class="excerpt">
-            <p>Hikers on a moonlit night in Mexico, Homer Simpson calls for calm at a protest in Chile, Kumbh Mela in India, a massive ball pit in Washington, D.C., Usain Bolt taken down by a Segway in China, a squirrel monkey riding a capybara in Japan, a conference of Furry enthusiasts in Germany, and much more.</p>
-        </div>
-        
-    </div>
-    <a class="read-more" href="/photo/2015/08/photos-of-the-week-822-828/402733/" data-omni-click="inherit">
+
+
+
+Kacper Pempel / Reuters
+
+Who’s Doing the Talking on Twitter?
+
+
+Kalev H. Leetaru
+
+
+The social network once aspired to be a “global town square.” Is that goal still attainable?
+
+In the summer of 2013, Dick Costolo, the CEO of Twitter, reflected on his vision of the company as a “global town square.” The social network is “all public, real-time conversational, and widely distributed, and public is the first word in there,” he told an audience at the Brookings Institution.
+Thousands of years ago, he added, the Greek Agora was “where you went to find out what was going on and talk about it, right? You came and talked about what was going on in your part of the village, and I came and talked about what was going on in mine, and the politician was there, and we listened to the issues of the day, and a musician was there and a preacher was there, etcetera, and it was multidirectional and it was unfiltered, and it was inside out, meaning the news was coming from the people it was happening to, not some observer. And, you know, along comes the printing press, and then radio, and then television, etcetera, etcetera, and all of these advances in technology are in service to removing the friction of distance and time in distributing the information. So we get to the point, ultimately, with CNN World Wide News, that you’ve completely eliminated the friction of time and distance, and then along comes a service like Twitter that has the elimination of time and distance built into it, but also brings back all those capabilities of the Agora. It’s inside out again, it’s coming from the participants.”
+
+
+
         
         Continue Reading
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article ">
-    <a href="/health/archive/2015/08/psychology-studies-reliability-reproducability-nosek/402466/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'402466.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/img/mt/2015/08/2942689610_23d97d847a_b/hero_wide_640.jpg?1440623705" class="lazyload">
-            
-            <figcaption class="credit">Lali Masriera / Flickr</figcaption>
-            
-        </figure>
     
 
-        <h3 class="hed">How Reliable Are Psychology Studies?</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/ed-yong/" title="Ed Yong">Ed Yong</a></li>
-    </ul>
-
-    <div class="article-content ">
-        <p class="dek">A new study shows that the field suffers from a reproducibility problem, but the extent of the issue is still hard to nail down.</p>
-        
-        <div class="excerpt">
-            <p>No one is entirely clear on how Brian Nosek pulled it off, including Nosek himself. Over the last three years, the psychologist from the University of Virginia persuaded some 270 of his peers to channel their free time into <a href="https://osf.io/ezcuj/wiki/home/">repeating 100 published psychological experiments</a> to see if they could get the same results a second time around. There would be no glory, no empirical eurekas, no breaking of fresh ground. Instead, this initiative&#x2014;the <a href="https://osf.io/ezcuj/wiki/home/">Reproducibility Project</a>&#x2014;would be the first big systematic attempt to answer questions that have been vexing psychologists for years, if not decades. What proportion of results in their field are reliable?</p>&#13;
-&#13;
-<p>A few signs hinted that the reliable proportion might be unnervingly small. Psychology has been recently rocked by <a href="http://www.nature.com/news/replication-studies-bad-copy-1.10634">several high-profile controversies</a>, including: the publication of studies that documented impossible effects <a href="https://www.sciencebasedmedicine.org/the-power-of-replication-bems-psi-research/">like precognition</a>, failures to replicate <a href="http://chronicle.com/article/Power-of-Suggestion/136907/">the results of classic textbook experiments</a>, and some prominent cases of <a href="http://www.nature.com/news/the-data-detective-1.10937">outright</a> <a href="http://www.nature.com/news/2011/111101/full/479015a.html">fraud</a>.</p>&#13;
-&#13;
-
-        </div>
-        
-    </div>
-    <a class="read-more" href="/health/archive/2015/08/psychology-studies-reliability-reproducability-nosek/402466/" data-omni-click="inherit">
-        
-        Continue Reading
-        
-    </a>
-</li>
-
-        
-        
-            
 
 
 
-<li class="most-popular-article most-popular-video">
-    <a href="/video/index/400241/vanlife/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'400241.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/video/img/2015/08/vanlife1/still.png?1438641968" class="lazyload">
-            
-        </figure>
-    
 
-        <h3 class="hed">The Wanderlust of #Vanlife</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/sam-price-waldman/" title="Sam Price-Waldman">Sam Price-Waldman</a></li>
-    </ul>
 
-    <div class="article-content without-excerpt">
-        <p class="dek">How an Instagram hashtag inspired a movement</p>
-        
-    </div>
-    <a class="read-more" href="/video/index/400241/vanlife/" data-omni-click="inherit">
+The Wanderlust of #Vanlife
+
+
+Sam Price-Waldman
+
+
+How an Instagram hashtag inspired a movement
+
+
+
+
+
         
         Watch Video
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article most-popular-video">
-    <a href="/video/index/401099/melanoma-mela-no-more/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'401099.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/video/img/2015/08/THUMB_8/still.jpg?1439469123" class="lazyload">
-            
-        </figure>
     
 
-        <h3 class="hed">The Importance of Being Naked</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/nicolas-pollock/" title="Nicolas Pollock">Nicolas Pollock</a>, <a href="/author/kasia-cieplak-mayr-von-baldegg/" title="Kasia Cieplak-Mayr von Baldegg">Kasia Cieplak-Mayr von Baldegg</a>, <a href="/author/sam-price-waldman/" title="Sam Price-Waldman">Sam Price-Waldman</a>, and <a href="/author/james-hamblin/" title="James Hamblin">James Hamblin</a></li>
-    </ul>
 
-    <div class="article-content without-excerpt">
-        <p class="dek">Why aren&#39;t more people doing basic skin-cancer screening?</p>
-        
-    </div>
-    <a class="read-more" href="/video/index/401099/melanoma-mela-no-more/" data-omni-click="inherit">
+
+
+
+
+The Importance of Being Naked
+
+
+Nicolas Pollock, Kasia Cieplak-Mayr von Baldegg, Sam Price-Waldman, and James Hamblin
+
+
+Why aren't more people doing basic skin-cancer screening?
+
+
         
         Watch Video
         
-    </a>
-</li>
-
-        
-            
-
-
-
-<li class="most-popular-article most-popular-video">
-    <a href="/video/index/383057/the-best-71-second-animation-youll-watch-today/" class="article-link" data-omni-click="r'.',r' ',d,r'mostpop',$li,r'383057.'">
-    
-        <figure class="lead-img">
-            <img data-src="http://cdn.theatlantic.com/assets/media/video/img/2014/11/A_Tale_of_Momentum_and_Inertia_7/still.jpg?1431547694" class="lazyload">
-            
-        </figure>
     
 
-        <h3 class="hed">The Best 71-Second Animation You'll Watch Today</h3>
-    </a>
-    <ul class="metadata">
-        <li class="byline"><a href="/author/chris-heller/" title="Chris Heller">Chris Heller</a></li>
-    </ul>
 
-    <div class="article-content without-excerpt">
-        <p class="dek">A rock monster tries to save a village from destruction.</p>
-        
-    </div>
-    <a class="read-more" href="/video/index/383057/the-best-71-second-animation-youll-watch-today/" data-omni-click="inherit">
+
+
+
+
+The Best 71-Second Animation You'll Watch Today
+
+
+Chris Heller
+
+
+A rock monster tries to save a village from destruction.
+
+
         
         Watch Video
         
-    </a>
-</li>
-
-        
-    </ul>
-</div>
-
     
-            </div>
-        </div>
-    </div>
 
-</article>
+
+
+
+
+
+What Can We Do to Be Happier?
+
+
+Kasia Cieplak-Mayr von Baldegg, Sam Price-Waldman, and Greyson Korhonen
+
+
+"Try to assume the best about other people."
+
 
         
-            
-            <div id="janrain-screens" class="profile-screens"></div>
+        Watch Video
         
-
-        
-            
+    
 
 
 
-<footer id="site-footer" data-omni-click="r'',r'footer',d,r' ',r' ',@href">
-    <div class="row">
-        <section class="subscribe">
-            <div class="footer-content border">
-                <div id="subscribe-header" >
-                    <h1 class="footer-title">Subscribe</h1>
-                    <p class="promo-tag">Get 10 issues a year and save 65% off the cover price.</p>
-                </div>
-                <a href="/subscribe/footer-cover" data-omni-click="inherit">
-                    <div id="issue-image">
-                        
-                        
-                        
-                        
-                        
-                        <img class="cover lazyload" data-src="http://cdn.theatlantic.com/assets/media/img/issues/2015/08/06/0915_Cover_RGB/large.jpg">
-                        
-                        
-                        
-                    </div>
-                </a>
 
-                <div class="wrap-form">
-                    <form action="/subscribe/embedded-footer-features/" method="post" id="footerCircForm" class="labeled">
 
-        <input type="HIDDEN" name="lsid" value="50301515139038984">
-        <input type="HIDDEN" name="vid" value="1">
-        <input type="HIDDEN" name="cds_page_id" value="173343">
-        <input type="HIDDEN" name="cds_mag_code" value="ATL">
-        <input type="HIDDEN" name="cds_form_submitted" value="subscription_US_billme:subscription_US_billme1">
-        <input type="HIDDEN" name="cds_doms_order_number" value="">
-        <input type="HIDDEN" name="cds_doms_offer_code" value="">
-        <input type="HIDDEN" name="cds_doms_package_offer_id" value="">
-        <input type="HIDDEN" name="cds_config_id" value="">
-        <input type="HIDDEN" name="cds_series_status" value="">
 
-        <input class="name label" name="cds_name" type="text" value="" placeholder="Name" keyev="true">
 
-        <input class="address1 label" name="cds_address_1" type="text" value="" placeholder="Address 1">
-        <input class="address2 label" name="cds_address_1" type="text" value="" placeholder="Address 2">
-        <input class="city label" name="cds_city" type="text" value="" placeholder="City">
-        <div class="styled-select">
-        <select class="state" name="cds_state">
-            <option selected disabled value="">State</option>
-            <option value="AL">Alabama</option>
-            <option value="AK">Alaska</option>
-            <option value="AB">Alberta</option>
-            <option value="AS">American Samoa</option>
-            <option value="AE">APO/FPO-Africa</option>
-            <option value="AE">APO/FPO-Canada</option>
-            <option value="AE">APO/FPO-Europe</option>
-            <option value="AE">APO/FPO-Middle East</option>
-            <option value="AA">APO/FPO-Americas</option>
-            <option value="AP">APO/FPO-Pacific</option>
-            <option value="AZ">Arizona</option>
-            <option value="AR">Arkansas</option>
-            <option value="BC">British Columbia</option>
-            <option value="CA">California</option>
-            <option value="CO">Colorado</option>
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="DC">District of Columbia</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="GU">Guam</option>
-            <option value="HI">Hawaii</option>
-            <option value="ID">Idaho</option>
-            <option value="IL">Illinois</option>
-            <option value="IN">Indiana</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="ME">Maine</option>
-            <option value="MB">Manitoba</option>
-            <option value="MH">Marshall Islands</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="FM">Micronesia</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NV">Nevada</option>
-            <option value="NB">New Brunswick</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NM">New Mexico</option>
-            <option value="NY">New York</option>
-            <option value="NF">Newfoundland</option>
-            <option value="NL">Newfoundland-Labrador</option>
-            <option value="NC">North Carolina</option>
-            <option value="ND">North Dakota</option>
-            <option value="MP">Northern Mariana Isles</option>
-            <option value="NT">Northwest Territories</option>
-            <option value="NS">Nova Scotia</option>
-            <option value="NU">Nunavut</option>
-            <option value="OH">Ohio</option>
-            <option value="OK">Oklahoma</option>
-            <option value="ON">Ontario</option>
-            <option value="OR">Oregon</option>
-            <option value="PW">Palau</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="PE">Prince Edward Island</option>
-            <option value="PR">Puerto Rico</option>
-            <option value="PQ">Quebec</option>
-            <option value="QC">Quebec</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SK">Saskatchewan</option>
-            <option value="SC">South Carolina</option>
-            <option value="SD">South Dakota</option>
-            <option value="TN">Tennessee</option>
-            <option value="TX">Texas</option>
-            <option value="UT">Utah</option>
-            <option value="VT">Vermont</option>
-            <option value="VI">Virgin Islands</option>
-            <option value="VA">Virginia</option>
-            <option value="WA">Washington</option>
-            <option value="WV">West Virginia</option>
-            <option value="WI">Wisconsin</option>
-            <option value="WY">Wyoming</option>
-            <option value="YT">Yukon Territories</option>
-        </select>
-    </div>
-        <input name="cds_zip" type="text" pattern="\d*" size="10" value="" placeholder="Zip" class="zip label" />
-        <input name="cds_country" type="text" value="United States" placeholder="Country" class="country label" />
-        <input name="cds_email" type="email" value="" placeholder="Email" class="email label" />
-        <input class="submit" type="submit" value="Order Now" name="Submit" />
-</form>
 
-                </div>
-                <div class="fraud-alert">
-                    <a href="/personal/archive/2013/10/fraud-alert-regarding-i-the-atlantic-i/280278/" data-omni-click="inherit">Fraud Alert regarding The Atlantic</a>
-                </div>
-            </div>
-        </section>
 
-        <section class="newsletters toggleable">
-            <div class="footer-content border">
-                <h1 class="footer-title toggle">Newsletters<span>+</span></h1>
-            </div>
-            <div class="footer-content toggleable-content" id="footer-newsletter-signup" data-newsletter-signup="1">
-                <form action="http://theatlantic.us2.list-manage.com/subscribe/post?u=ed2d318978b7dc9b30b1f464f&amp;id=f2eeb0a9f3" method="post" target="_blank" name="mc-embedded-subscribe-form">
-                    <div class="newsletter-column wide">
-                        <ul class="options wide">
-                            <li class="newsletter-header italic">
+
+
+
+
+Subscribe
+Get 10 issues a year and save 65% off the cover price.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State
+Alabama
+Alaska
+Alberta
+American Samoa
+APO/FPO-Africa
+APO/FPO-Canada
+APO/FPO-Europe
+APO/FPO-Middle East
+APO/FPO-Americas
+APO/FPO-Pacific
+Arizona
+Arkansas
+British Columbia
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Manitoba
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Micronesia
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Brunswick
+New Hampshire
+New Jersey
+New Mexico
+New York
+Newfoundland
+Newfoundland-Labrador
+North Carolina
+North Dakota
+Northern Mariana Isles
+Northwest Territories
+Nova Scotia
+Nunavut
+Ohio
+Oklahoma
+Ontario
+Oregon
+Palau
+Pennsylvania
+Prince Edward Island
+Puerto Rico
+Quebec
+Quebec
+Rhode Island
+Saskatchewan
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Yukon Territories
+
+
+
+
+
+
+
+
+
+Fraud Alert regarding The Atlantic
+
+
+
+
+
+Newsletters+
+
+
+
+
+
+
                                 The Atlantic
-                            </li>
-                            <div class="newsletter-sub-column">
-                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="1" name="group[7413][16777216]" id="group_33554432">
-                                    <label for="group_33554432"><i>The Atlantic</i> Daily</label>
-                                </li>
-                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="4" name="group[7413][4]" id="mce-group[7413]-7413-0">
-                                    <label for="mce-group[7413]-7413-0">This Week</label>
-                                </li>
-                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="32" name="group[7413][32]" id="mce-group[7413]-7413-1">
-                                    <label for="mce-group[7413]-7413-1">This Month</label>
-                                </li>
-                            </div>
-                            <div class="newsletter-sub-column">
-                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="256" name="group[7413][256]" id="mce-group[7413]-7413-3">
-                                    <label for="mce-group[7413]-7413-3">New Photo Galleries</label>
-                                </li>
-                                <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="524288" name="group[7413][524288]" id="mce-group[7413][524288]">
-                                    <label for="mce-group[7413][524288]">Top Videos This Week</label>
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
-                    <ul class="options">
-                        <div class="newsletter-column">
-                            <li data-omni-click="inherit" class="newsletter-header italic">
+                            
+
+
+The Atlantic Daily
+
+
+This Week
+
+
+This Month
+
+
+
+
+New Photo Galleries
+
+
+Top Videos This Week
+
+
+
+
+
+
+
                                 CityLab
-                            </li>
-                            <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="1" name="group[7045][1]" id="mce-group[7045]-7045-0">
-                                <label for="mce-group[7045]-7045-0">Today’s Top Stories</label>
-                            </li>
-                            <li data-omni-click="inherit" class="checkbox"><input type="checkbox" value="4194304" name="group[7045][2097152]" id="mce-group[7045]-7045-4194304">
-                                <label for="mce-group[7045]-7045-4194304">This Week's Most Popular Stories</label>
-                            </li>
-                        </div>
-                        <div class="signup newsletter-column">
-                            <li data-omni-click="inherit" class="opt-in checkbox"><input type="checkbox" value="8" checked name="group[7421][8]" id="mce-group[7421][8]">
-                                <label class="italic" id="opt-in" for="mce-group[7421][8]">I want to receive updates from partners and sponsors.</label>
-                            </li>
-                            <li data-omni-click="inherit" class="newsletter-input newsletter-email">
-                                <input class="full-width" type="email" id="newsletter-email" name="EMAIL" placeholder="Email">
-                            </li>
-                            <li data-omni-click="inherit" class="newsletter-input newsletter-submit">
-                                <input class="full-width submit" type="submit" id="newsletter-submit" name="subscribe" value="Sign up">
-                            </li>
-                        </div>
-                    </ul>
-                    <p class="message"></p>
-                </form>
-            </div>
-        </section>
-    </div>
-    <div class="row">
-        <section class="follow toggleable">
-            <div class="footer-content border">
-                <h1 class="footer-title toggle">Follow<span>+</span></h1>
-            </div>
-            <div class="footer-content toggleable-content">
-                <ul class="nav-social-links social-icons color round">
-                    <li><a data-omni-click="inherit" class="social-icon facebook" href="https://www.facebook.com/TheAtlantic">Facebook</a></li>
-                    <li><a data-omni-click="inherit" class="social-icon twitter" href="https://twitter.com/TheAtlantic">Twitter</a></li>
-                    <li><a data-omni-click="inherit" class="social-icon linkedin" href="https://www.linkedin.com/company/the-atlantic">LinkedIn</a></li>
-                    <li><a data-omni-click="inherit" href="http://theatlantic.tumblr.com/" class="social-icon tumblr">Tumblr</a></li>
-                    <li><a data-omni-click="inherit" href="https://www.pinterest.com/theatlantic/" class="social-icon pinterest">Pinterest</a></li>
-                    <li><a data-omni-click="inherit" class="social-icon rss" href="/follow-the-atlantic/#follow-rssfeeds">RSS</a></li>
-                    <li><a data-omni-click="inherit" class="social-icon apple" href="http://wda.biz/mrmxub">App Store</a></li>
-                </ul>
-            </div>
-        </section>
-        <section class="about toggleable">
-            <div class="footer-content border">
-                <h1 class="footer-title toggle">About<span>+</span></h1>
-            </div>
-            <div class="footer-content toggleable-content">
-                <ul class="links">
-                    <div class="about-link-group">
-                        <li><a data-omni-click="inherit" href="/masthead/">Masthead</a></li>
-                        <li><a data-omni-click="inherit" href="/faq/">FAQ</a></li>
-                        <li><a data-omni-click="inherit" href="/press/">Press</a></li>
-                        <li><a data-omni-click="inherit" href="/jobs/">Jobs</a></li>
-                    </div>
-                    <div class="about-link-group">
-                        <li><a data-omni-click="inherit" href="/store/">Shop</a></li>
-                        <li><a data-omni-click="inherit" href="/ebooks/">Books</a></li>
-                        <li><a data-omni-click="inherit" href="/emporium/">Emporium</a></li>
-                    </div>
-                </ul>
-                <ul class="links">
-                    <div class="about-link-group">
-                        <li><a data-omni-click="inherit" href="/contact/">Contact Us</a></li>
-                        <li><a data-omni-click="inherit" href="/privacy-policy/">Privacy Policy</a></li>
-                        <li><a data-omni-click="inherit" href="/advertise/">Advertise</a></li>
-                        <li><a data-omni-click="inherit" href="http://cdn.theatlantic.com/static/front/docs/ads/TheAtlanticAdvertisingGuidelines.pdf">Advertising Guidelines</a></li>
-                    </div>
-                    <div class="about-link-group">
-                        <li><a data-omni-click="inherit" href="/terms-and-conditions/">Terms and Conditions</a></li>
-                        <li><a data-omni-click="inherit" href="/register-cds/">Subscriber Help</a></li>
-                        
-                        
-                        <li><a data-omni-click="inherit" href="/site-map/">Site Map</a></li>
-                    </div>
-                </ul>
-            </div>
-        </section>
-    </div>
-    <div class="copyright">
-        <p> Copyright © 2015 by The Atlantic Monthly Group. All Rights Reserved. <a href="https://www.verizondigitalmedia.com/platform/deliver/">CDN</a> powered by Verizon Digital Media Services. </p><p>Insights powered by <a href="http://www.parsely.com/">Parsely</a>
-    </p>
-</div>
-</footer>
+                            
 
-<!-- TODO:  prevent three section/divs in a row on large view screens -->
-
-        
-    
-
-</div>
+Today’s Top Stories
 
 
-<script type="gpt-config">
-    {
-        "globals": {
-  "title": ""
-},
-        "zone": "/4624/TheAtlanticOnline/misc",
-        "peer39": true,
-        "adtest_domain": "dctestsite",
-        "lazy_load": 3
-    }
-</script>
-
-
-<div class="native-promo-slider">
-    <button class="close"><span>Close</span></button>
-    
-
-    <gpt-ad id="ad-slider" 
-        targeting-pos="slider"
-        class="ad ad-slider"
-        lazy-load="0" 
-        defer="1" 
-        prevent-reload="1"
-        
-        >
-        
-            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 150], [1, 2]]"></gpt-sizeset>
-        
-    </gpt-ad>
-
-
-</div>
+This Week's Most Popular Stories
 
 
 
 
-<!-- BEGIN: Welcome Screens -->
-<div id="lightbox-welcome" class="welcome-lightbox">
-    <div class="welcome-lightbox-continue">
-        (<span class="welcome-lightbox-count"></span>) Continue &gt;
-    </div>
-    
-
-    <gpt-ad id="ad-welcome" 
-        targeting-pos="welcome"
-        class="ad ad-welcome"
-        lazy-load="0" 
-        
-        prevent-reload="1"
-        
-        >
-        
-            <gpt-sizeset viewport-size="[1010, 0]" sizes="[[640, 480], [300, 608], [1024, 768]]"></gpt-sizeset>
-        
-            <gpt-sizeset viewport-size="[680, 0]" sizes="[[640, 480], [300, 608], [768, 1024]]"></gpt-sizeset>
-        
-            <gpt-sizeset viewport-size="[0, 0]" sizes="[[300, 258]]"></gpt-sizeset>
-        
-    </gpt-ad>
-
-
-</div>
-
-
-<script type="text/javascript">
-    Atlantic.ad_queue = Atlantic.ad_queue || [];
-    Atlantic.ad_queue.push(function(){
-        Atlantic.Ad.sizeListener(/^welcome/, function(pos, size){
-            if (!size) {
-                return false;
-            }
-            var $lightbox = $('#lightbox-welcome');
-
-            // The lightbox's class includes the size, so ipad
-            // ads and other weird cases can have their own styling.
-            $lightbox.addClass("active format-" + size.join("x"));
-            if (typeof window.welcomeScreen === 'undefined') {
-                window.welcomeScreen = new Atlantic.WelcomeScreen();
-            }
-            window.welcomeScreen.show();
-
-            // Clicking elsewhere on the page will close the iframe
-            // after 1 second.
-            setTimeout(function() {
-                $(document).on("click", function(e) {
-                    if (!$.contains($("#ad_")[0], e.target)) {
-                        welcomeScreen.hide();
-                    }
-                });
-            }, 1500);
-        });
-    });
-</script>
-<!-- End welcome screen -->
+I want to receive updates from partners and sponsors.
 
 
 
 
 
-    <script type="text/javascript" src="http://cdn.theatlantic.com/assets/static/theatlantic/js/footer_rollup.26dac37c42af.js" charset="utf-8"></script>
-    
-        <script type="text/javascript" src="http://cdn.theatlantic.com/assets/static/theatlantic/js/vendors.5832d9e5e89d.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+Follow+
+
+
+
+Facebook
+Twitter
+LinkedIn
+Tumblr
+Pinterest
+RSS
+App Store
+
+
+
+
+
+About+
+
+
+
+
+Masthead
+FAQ
+Press
+Jobs
+
+
+Shop
+Books
+Emporium
+
+
+
+
+Contact Us
+Privacy Policy
+Advertise
+Advertising Guidelines
+
+
+Terms and Conditions
+Subscriber Help
+Site Map
+
+
+
+
+
+
+ Copyright © 2015 by The Atlantic Monthly Group. All Rights Reserved. CDN powered by Verizon Digital Media Services. Insights powered by Parsely
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        () Continue >
     
 
 
 
 
-<script id="peer39ScriptLoader" src="//stags.peer39.net/1406/trg_1406.js" async="async"></script>
-<script src="//www.googletagservices.com/tag/js/gpt.js" async="async"></script>
-
-
-<!-- Ads. -->
-<script type='text/javascript' src='http://c.amazon-adsystem.com/aax2/amzn_ads.js'></script>
-<script type='text/javascript'>
-    if (/adtest\=1/.test(window.location.search) || /adtest\./.test(window.location.hostname)) {
-        amznads.debug_mode = true;
-    }
-
-    try {
-        amznads.getAds('3239');
-    } catch(e) { /*ignore*/}
-</script>
-<script type='text/javascript'>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-
-    try {
-        amznads.setTargetingForGPTAsync('amznslots');
-    } catch(e) { /*ignore*/}
-</script>
-
-
-
-
-<!-- Analytics, etc. -->
-
-<script src="http://siterecruit.comscore.com/sr/atlantic/broker.js"></script>
-<!-- Begin comScore Tag -->
-<script type="text/javascript">
-//<![CDATA[
-  var _comscore = _comscore || [];
-  _comscore.push({ c1: "2", c2: "6463921" });
-</script>
-<script type="text/javascript" async="async" src="//sb.scorecardresearch.com/beacon.js"></script>
-<noscript>
-  <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6463921&amp;cv=2.0&amp;cj=1" alt="" />
-</noscript>
-<!-- End comScore Tag -->
-
-<!-- START Nielsen Online SiteCensus V6.0 -->
-<!-- COPYRIGHT 2012 Nielsen Online -->
-<script type="text/javascript">
-(function () {
-var d = new Image(1, 1);
-d.onerror = d.onload = function () {
-d.onerror = d.onload = null;
-};
-d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
-})();
-</script>
-<noscript>
-<div>
-<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&ts=noscript" 
-width="1" height="1" alt="" />
-</div>
-</noscript>
-<!-- END Nielsen Online SiteCensus V6.0 -->
-<!-- Google Analytics -->
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-20189-19']);
-_gaq.push(['_trackPageview']);
-</script>
-<script type="text/javascript" src="//www.google-analytics.com/ga.js" async="async"></script>
-<!-- End Google Analytics -->
-
-<!-- START Parse.ly Include: Standard -->
-<div id="parsely-root" style="display: none">
-    <a id="parsely-cfg" data-parsely-site="theatlantic.com"
-        href="http://parsely.com">Powered by the Parse.ly Publisher Platform (P3).</a>
-</div>
-<script type="text/javascript" src="//d1z2jf7jlzjs58.cloudfront.net/p.js" async="async"></script>
-<!-- END Parse.ly Include -->
-
-
-<!-- Facebook Tracking Pixel -->
-<script>(function() {
-    var _fbq = window._fbq || (window._fbq = []);
-    _fbq.push(['addPixelId', "1407501962855831"]);
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(["track", "PixelInitialized", {}]);
-</script>
-<script type="text/javascript" src="//connect.facebook.net/en_US/fbds.js" async="async"></script>
-<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1407501962855831&amp;ev=NoScript" /></noscript>
-<!-- End Facebook Tracking Pixel -->
-
-
-
-<!-- chartbeat -->
-<script type="text/javascript">
-//<![CDATA[
-var _sf_async_config={uid: 102508, domain:"www.theatlantic.com"};
-
-_sf_async_config.path = "/privacy-policy/";
-_sf_async_config.title = "";
-_sf_async_config.sections = "";
-_sf_async_config.authors = "";
-
-window._sf_endpt=(new Date()).getTime();
-</script>
-<script type="text/javascript" language="javascript" src="//static.chartbeat.com/js/chartbeat.js" async="async"></script>
-
-
-
-
-<!-- Simplereach -->
-<script>
-__reach_config = {
-  "title": "", 
-  "url": "http://www.theatlantic.com/privacy-policy/", 
-  "tags": [], 
-  "pid": "516eed0e4240cfbf3000002a", 
-  "channels": [], 
-  "authors": [], 
-  "date": "1857-01-01T00:00:00"
-}
-</script>
-<script type="text/javascript" src="//d8rk54i4mohrb.cloudfront.net/js/reach.js" async="async"></script>
-
-
-
-
-    <!-- Begin Taboola Tag -->
-<script type="text/javascript">
-window._taboola = window._taboola || [];
-_taboola.push({
-    article: 'auto'
-    });
-</script>
-<script type="text/javascript" src="http://cdn.taboolasyndication.com/libtrc/theatlantic/loader.js" async="async"></script>
-<!-- End Taboola Tag -->
 
 
 
 
 
-<!-- Load social buttons last, so we don't care if they hang -->
-
-    
-<script src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=100770816677686" async="async" />
-
-
-    <!-- Twitter -->
-<script id="twitter-wjs" src="//platform.twitter.com/widgets.js" async="async"></script>
 
 
 
 
-<!-- 2015-08-28T18:41:41.948507 -->
-<!-- PAGE_COMPLETED -->
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by the Parse.ly Publisher Platform (P3).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

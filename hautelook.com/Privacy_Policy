@@ -1,1836 +1,1279 @@
 
-<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
-    <head>
-                                <script type="text/javascript">/*<![CDATA[*/(function(e,f){function h(a){if(a.mode){var b=g("mobify-mode");b&&a[b]||(b=a.mode(c.ua));return a[b]}return a}function m(){function a(a){e.addEventListener(a,function(){c[a]=+new Date},!1)}e.addEventListener&&(a("DOMContentLoaded"),a("load"))}function n(){var a=new Date;a.setTime(a.getTime()+3E5);f.cookie="mobify-path=; expires="+a.toGMTString()+"; path=/";e.location.reload()}function p(){k({src:"https://preview.mobify.com/v7/"})}function g(a){if(a=f.cookie.match(RegExp("(^|; )"+a+"((=([^;]*))|(; |$))")))return a[4]||""}function l(a){f.write('<plaintext style="display:none">');setTimeout(function(){d.capturing=!0;a()},0)}function k(a,b){var e=f.getElementsByTagName("script")[0],c=f.createElement("script"),d;for(d in a)c[d]=a[d];b&&c.setAttribute("class",b);e.parentNode.insertBefore(c,e)}var d=e.Mobify={},c=d.Tag={};d.points=[+new Date];d.tagVersion=[7,0];c.ua=e.navigator.userAgent;c.getOptions=h;c.init=function(a){c.options=a;if(""!==g("mobify-path"))if(m(),a.skipPreview||"true"!=g("mobify-path")&&!/mobify-path=true/.test(e.location.hash)){var b=h(a);if(b){var d=function(){b.post&&b.post()};a=function(){b.pre&&b.pre();k({id:"mobify-js",src:b.url,onerror:n,onload:d},"mobify")};!1===b.capture?a():l(a)}}else l(p)}})(window,document);(function(){var m="//cdn.mobify.com/sites/hautelook-smartphone/production/adaptive.min.js";var t="//cdn.mobify.com/sites/hautelook-tablet/production/adaptive.min.js";Mobify.Tag.init({mode:function(o){return/ipad|android(?!.*mobile)/i.test(o)?"tablet":/ip(hone|od)|android.*(mobile)|blackberry.*applewebkit|bb1\d.*mobile/i.test(o)?"mobile" :"desktop"},tablet:{url:t},mobile:{url: m},desktop:{capture:!1,url:"//a.mobify.com/hautelook-smartphone/a.js"}})})();/*]]>*/</script>
-                    
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
 
-                    <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width"/>
-            <meta property="og:site_name" content="HauteLook" />
-        
-        <title>HauteLook - Privacy</title>
+  
 
-                    <link rel="apple-touch-icon" sizes="72x72" href="/hl-apple-touch-icon-72x72.png?unknown" />
-            <link rel="apple-touch-icon" sizes="114x114" href="/hl-apple-touch-icon-114x114.png?unknown" />
-        
-                
-                    <link href="/bundles/assets/styles/head_rack.css?unknown" rel="stylesheet"/>
-        
-                            
-                    <script>
-                (function(global) {
-    'use strict';
 
-    global.ENV = {
-        features: [
-            ['rack-product-full-screen-image', false],
-            ['rack-has-launched', true]
-        ],
-        EMBER_MODULE_OVERRIDES: [],
-        EXTEND_PROTOTYPES: {
-            String: true,
-            Function: true,
-            Array: false
-        },
-        GAT_UA: 'UA\x2D415580\x2D11',
-        LOG_MODULE_RESOLVER: false,
-        URL_LOGIN_SOFT: '\x2Fapi\x2Flogin\x2Fsoft',
-        SENTRY_DSN: 'https\x3A\x2F\x2F0c00da09bbc743d7ae892e4961c452a2\x40app.getsentry.com\x2F16242',
-        ENVIRONMENT: 'prod',
-        COOKIE_DOMAIN: '.hautelook.com',
-        SITE: 'hautelook',
-        USE_AUTHENTICATION_MODALS_ON_FLASH_PAGES: false,
-        FACEBOOK_API_KEY: '220400137997144',
-        PRODUCT_FLASH_PINTEREST_SHARE_SID: '98992',
-        PRODUCT_FLASH_TWITTER_SHARE_SID: '98992',
-        PRODUCT_FLASH_FACEBOOK_SHARE_SID: '98991',
-        SPINNER_URL: '\x2Fbundles\x2Fhautelooklayout\x2Fimages\x2Fspinners\x2Fdefault\x2Dspinner\x2D\x2Dhl.gif',
-        STORE_LOCATOR_MAP_API_KEY: 'Akg8diDnRUpYM3oZZqb5yPQHVVNrh1_a52x1rxPo1BmKybaDPJ3q3qJ4Z9EKgyEz',
-        PINTEREST_SHARE_DESC_TEMPLATE: '\x7B\x7B\x3Dit.description\x7D\x7D\x20\x7B\x7B\x3Fit.brandName\x7D\x7Dby\x20\x7B\x7B\x3Dit.brandName\x7D\x7D\x20\x7B\x7B\x3F\x7D\x7Don\x20\x40HauteLook',
-        TWITTER_SHARE_DESC_TEMPLATE: 'Check\x20out\x20what\x20I\x20found\x20\x7B\x7B\x3Fit.brandName\x7D\x7Dfrom\x20\x7B\x7B\x3Dit.brandName\x7D\x7D\x20\x7B\x7B\x3F\x7D\x7D\x40Hautelook\x20\x23Hautelook',
-        TWITTER_SHARE_TAG: "",
-        THREE_DELTA_VERIFY_AND_STORE_URI_TEMPLATE: "https\x3A\x2F\x2Fsilentpost.paymentworksuite.com\x2FSilentPostService.svc\x2F\x7Bservice\x7D",
-        THREE_DELTA_VERIFY_AND_STORE_CUSTOMER_IDENTIFIER_LOCATION_CODE: "HauteLook",
-        THREE_DELTA_VERIFY_AND_STORE_CUSTOMER_IDENTIFIER_MERCHANT_CODE: "HauteLook",
-        THREE_DELTA_VERIFY_AND_STORE_TERMINAL_IDENTIFIER_LOCATION_CODE: "HauteLook",
-        THREE_DELTA_VERIFY_AND_STORE_TERMINAL_IDENTIFIER_TERMINAL_CODE: "HauteLook",
-        THREE_DELTA_VERIFY_AND_STORE_TERMINAL_IDENTIFIER_MERCHANT_CODE: "HauteLook",
-        THREE_DELTA_VERIFY_AND_STORE_RESULT_URL: "https\x3A\x2F\x2Fwww.hautelook.com\x2Fthree\x2Ddelta\x2Fresult",
-        THREE_DELTA_VERIFY_AND_STORE_RESPONSE_TYPE: "Return",
-        THREE_DELTA_VERIFY_AND_STORE_AP_COUNT: "1",
-        THREE_DELTA_VERIFY_AND_STORE_PT_COUNT: "0",
-        THREE_DELTA_VERIFY_AND_STORE_CREDIT_CARD_CSC_INDICATOR: "Provided",
-        CHAT_LINK_LOGGED_IN_TEMPLATE: 'https\x3A\x2F\x2Fsupport.nordstromrack.com\x2Fapp\x2Fchat\x2Fchat_landing\x2Femail\x2F\x7Bemail\x7D\x2Fsubject\x2F\x7Bsubject\x7D\x2Ffirst_name\x2F\x7BfirstName\x7D\x2Flast_name\x2F\x7BlastName\x7D\x2F_icf_122\x2F372',
-        CHAT_LINK_LOGGED_OUT_TEMPLATE: 'https\x3A\x2F\x2Fsupport.nordstromrack.com\x2Fapp\x2Fchat\x2Fchat_landing\x2Fsubject\x2F\x7Bsubject\x7D\x2F_icf_122\x2F372',
-        NORDSTROM_VERIFY_AND_STORE_URI_TEMPLATE: "https\x3A\x2F\x2Fpayment.api.nordstromapi.com\x2Fapi\x2Fprotection\x2Fprotect\x7B\x3Fquery\x2A\x7D",
-        NORDSTROM_VERIFY_AND_STORE_API_KEY: "hkde859dq5gg8jjv9rp4hy6p"
-    };
-}(window));
-            </script>
 
-            <script src="/bundles/assets/scripts/head.js?unknown"></script>
 
-            
-            <script src="//cdn.optimizely.com/js/64242013.js"></script>
 
-        
-                            
-        <link rel="canonical" href="https://www.hautelook.com/help/privacy" />
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            </head>
+HauteLook - Privacy
 
-    <body
-        class="hautelook default-page"
-        data-scope="application"
-        data-bind="
-            css: isHolidayStylingEnabled: holiday,
-            css: isHolidayStylingEnabled: holiday--hautelook,
-            css: isHolidayStylingInLightMode: holiday--light
-        "
-    >
 
-        <header
-        class="
-            site-header site-header--hautelook
-            js-back-to-top__boundary--top
-        "
-        data-scope="header"
-        data-bind="
-            css: isHolidayStylingEnabled: site-header--holiday,
-            css: isLightHolidayStylingEnabled: site-header--light-holiday
-        "
-    >
-                    <div
-                class="site-header__order-by-phone"
-                data-render="order-by-phone"
-            >
-            </div>
 
-            <div class="site-header__top site-header__top--hautelook">
-                <div class="container show-overflow">
 
-                    <nav
-    class="
-        site-header__site-tabs
-        site-tabs
-    "
-><a
-        href="//www.nordstromrack.com/?ref=nrtab"
-        class="
-            site-tabs__tab site-tabs__tab--hautelook
-                                "
-    ><span class="site-tabs_tab-icon site-tabs_tab-icon--nr"></span>
+
+
+
+
+
+
+
+
+
+
+
         Nordstrom Rack
-    </a><a
-        href="//www.hautelook.com/events?ref=hltab"
-        class="
-            site-tabs__tab site-tabs__tab--hautelook
-            site-tabs__tab--active        "
-    ><span class="site-tabs_tab-icon site-tabs_tab-icon--hl"></span>
+    
         HauteLook
-    </a></nav>
-                    <nav
-    class="
-        site-header__secondary-nav
-        secondary-nav
-    "
-><div
-        class="secondary-nav__block"
-        style="display: none;"
-        data-bind="visible:isSignedIn"
-    ><div
-            class="secondary-nav__block"
-            style="display: none;"
-            data-bind="visible:isGreetingVisible"
-        ><span class="secondary-nav__link secondary-nav__link--hautelook"><span
-                    data-bind="visible: isHolidayStylingEnabled"
-                    style="display: none;"
-                >
+    
+
                     Happy Holidays,
-                </span><span data-bind="hidden: isHolidayStylingEnabled">
+                
                     Hello,
-                </span><span data-bind="text: firstName"></span></span><span class="secondary-nav__separator"></span></div><div
-            class="secondary-nav__block"
-            data-bind="
-                mouseenter: scheduleShowAccountMenu,
-                mouseleave: scheduleHideAccountMenu
-            "
-        ><a
-                data-bind="click: showAccountMenuForTouchDevices"
-                href="/orders"
-                class="secondary-nav__link secondary-nav__link--hautelook secondary-nav__link--account"
-            >
+                
                 Account
-                <span
-                    class="secondary-nav__credit"
-                    data-bind="visible: hasCredit"
-                >
-                    (Credit:<span data-bind="text: availableCredit"></span>)
-                </span></a><div class="secondary-nav__account-menu-container hide" data-bind="visible:isAccountMenuOpen"><ul class="secondary-nav__account-menu"><li class="secondary-nav__account-menu-item"><a href="/orders">Orders</a></li><li class="secondary-nav__account-menu-item"><a href="/returns">Returns</a></li><li class="secondary-nav__account-menu-item"><a href="/invites">Invites</a></li><li class="secondary-nav__account-menu-item"><a href="/credit">Credit</a></li><li class="secondary-nav__account-menu-item"><a href="/shipping">Shipping &amp; Payment</a></li><li class="secondary-nav__account-menu-item secondary-nav__account-menu-item--margin-bottom"><a href="/account">Profile</a></li><li class="secondary-nav__account-menu-item secondary-nav__account-menu-item--sign-out"><a
-                                    href="/logout"
-                            >
+                
+                    (Credit:)
+                OrdersReturnsInvitesCreditShipping & PaymentProfile
                 Sign Out
-            </a></li></ul><div class="secondary-nav__account-menu-pointer"></div></div></div><span class="secondary-nav__separator"></span></div><div
-        class="secondary-nav__block"
-        style="display: none;"
-        data-bind="visible:isSignInVisible"
-    ><a
-    href="/login"
-    class="secondary-nav__link secondary-nav__link--hautelook"
-    >Log In / Sign Up</a><span class="secondary-nav__separator"></span></div><div class="secondary-nav__block"><a
-            href="/faq"
-            class="secondary-nav__link secondary-nav__link--hautelook"
-        >
+            Log In / Sign Up
             Help
-        </a><span class="secondary-nav__separator"></span><a
-        href="/invites"
-        class="
-            invite-a-friend-from-header
-            secondary-nav__link secondary-nav__link--hautelook
-            secondary-nav__link--last-child
-        "
-        data-bind="click: inviteAFriendFromHeaderClicked"
-    >
+        
         Invite a Friend
 
-        <span
-            data-bind="visible: memberIncentive"
-            style="display: none;"
-        >
-            , Get $<span data-bind="text: memberIncentive"></span></span></a></div></nav>
-                </div>
-            </div>
-            <div class="site-header__middle">
-                <div class="container">
-                    <a
-                        href="/events/all"
-                        class="site-header__logo"
-                    ></a>
-                    <div
-                        class="site-header__cart-button"
-                        data-scope="cart-button"
-                        data-bind="visible: isVisible"
-                    >
-                        <a
-    href="/checkout"
-    class="cart-button cart-button--hautelook"
-    data-bind="
-        click: showCart,
-        css: isCartOpen:cart-button--open
-    "
->
+        
+            , Get $
+
+
+
+
+
+
+
 
     Cart
 
-    <span
-        class="cart-button__icon"
-    ></span><span
-        class="cart-button__count"
-        data-bind="
-            text: cartCount,
-            hidden: isCartEmpty
-        "
-        style="display: none;"
-    ></span></a>                        <div
-                            class="site-header__expiration-alert"
-                            data-render="cart-expiration-alert"
-                        ></div>
-                    </div>
-                    <div
-                        class="site-header__cart"
-                        data-render="cart"
-                    ></div>
-                    <div
-                        class="site-header__header-promo site-header__header-promo--hautelook"
-                        data-bind="click: headerPromoWasClicked"
-                    ></div>
-                </div>
-            </div>
-            <div
-                class="site-header__bottom"
-                data-scope="primary-nav"
-            >
-                <div class="container">
+     
 
-                                            <ul class="events-nav">
-  <li class="events-nav__tab first" data-bind="css: activeTabs.all:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/all" class="events-nav__label">ALL EVENTS</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/95272" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95272">70&#039;s Redux: OOBERSWANK</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/92904" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:92904">Bliss Slimming Treatment Must-Haves</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/93051" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93051">70&#039;s Redux: Clogs &amp; More</a>
-      </li>
-      <li data-row="5" data-column="1">
-        <a href="/events/95153" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95153">70&#039;s Redux: Fringe, Flares &amp; More</a>
-      </li>
-      <li data-row="6" data-column="1">
-        <a href="/events/86039" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:86039">70&#039;s Redux: Ponchos, Wraps &amp; More</a>
-      </li>
-      <li data-row="7" data-column="1">
-        <a href="/events/97100" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:97100">70&#039;s Redux: Saddle Bags, Fringe &amp; More</a>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/94035" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:94035">70&#039;s Redux: Gemstone Tassels, Lariats &amp; More</a>
-      </li>
-      <li data-row="9" data-column="1">
-        <a href="/events/95490" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95490">70&#039;s Redux: SPY Dresses</a>
-      </li>
-      <li data-row="10" data-column="1">
-        <a href="/events/90337" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:90337">70&#039;s Redux: Boots &amp; Booties</a>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/96833" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96833">Joan Vass</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/93178" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93178">70&#039;s Redux: Retro Blazers, Shirts &amp; More</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/89145" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:89145">Joan Vass Shapewear</a>
-      </li>
-      <li data-row="14" data-column="1">
-        <a href="/events/91563" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:91563">70&#039;s Redux: Sneaker Brands Loved Then &amp; Now</a>
-      </li>
-      <li data-row="15" data-column="1">
-        <a href="/events/94204" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:94204">Crown Brush</a>
-      </li>
-      <li data-row="16" data-column="1">
-        <a href="/events/93339" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93339">Muk Luks</a>
-      </li>
-      <li data-row="17" data-column="1">
-        <a href="/events/81171" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:81171">Muubaa Leather</a>
-      </li>
-      <li data-row="18" data-column="1">
-        <a href="/events/96566" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96566">Helene Jewelry</a>
-      </li>
-      <li data-row="19" data-column="1">
-        <a href="/events/96171" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96171">Gypsy05</a>
-      </li>
-      <li data-row="20" data-column="1">
-        <a href="/events/91315" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:91315">Arturo Chiang</a>
-      </li>
-      <li data-row="21" data-column="1">
-        <a href="/events/94018" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:94018">Gorjana Jewelry</a>
-      </li>
-      <li data-row="22" data-column="1">
-        <a href="/events/93511" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93511">FURLA</a>
-      </li>
-      <li data-row="23" data-column="1">
-        <a href="/events/93188" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93188">Keen</a>
-      </li>
-      <li data-row="24" data-column="1">
-        <a href="/events/96173" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96173">CoTZ The Healthier Sunscreen</a>
-      </li>
-      <li data-row="25" data-column="1">
-        <a href="/events/96222" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96222">Levi&#039;s Underwear</a>
-      </li>
-      <li data-row="26" data-column="1">
-        <a href="/events/91721" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:91721">Odd Sox</a>
-      </li>
-      <li data-row="27" data-column="1">
-        <a href="/events/95581" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95581">The Coverii</a>
-      </li>
-      <li data-row="28" data-column="1">
-        <a href="/events/90477" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:90477">Fall Shoe Favorites</a>
-      </li>
-      <li data-row="29" data-column="1">
-        <a href="/events/95270" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95270">Friday Faves Under $25</a>
-      </li>
-      <li data-row="30" data-column="1">
-        <a href="/events/95700" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95700">On the Fringe: Minnetonka &amp; More</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_2"><ul class="events-nav__list">
-      <li data-row="1" data-column="2">
-        <a href="/events/98115" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:98115">Levi&#039;s Men</a>
-      </li>
-      <li data-row="2" data-column="2">
-        <a href="/events/91512" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:91512">Levi&#039;s Men&#039;s Shoes</a>
-      </li>
-      <li data-row="3" data-column="2">
-        <a href="/events/84336" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:84336">Keen Men</a>
-      </li>
-      <li data-row="4" data-column="2">
-        <a href="/events/94476" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:94476">Keen Kids</a>
-      </li>
-      <li data-row="5" data-column="2">
-        <a href="/events/95485" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:95485">FAB Starpoint: Character Backpacks &amp; More</a>
-      </li>
-      <li data-row="6" data-column="2">
-        <a href="/events/93945" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:93945">First Look at Fall: ANNA Kids</a>
-      </li>
-      <li data-row="7" data-column="2">
-        <a href="/events/97416" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:97416">Freckles + Kitty</a>
-      </li>
-      <li data-row="8" data-column="2">
-        <a href="/events/82528" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:82528">Parvez Taj: Renowned L.A. Artist</a>
-      </li>
-      <li data-row="9" data-column="2">
-        <a href="/events/96792" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96792">Playful Pillow Cases Starting at $15</a>
-      </li>
-      <li data-row="10" data-column="2">
-        <a href="/events/96795" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:96795">Poolside Playtime: Loungers, Heaters, Games &amp; More</a>
-      </li>
-      <li data-row="11" data-column="2">
-        <a href="/events/97278" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Newest Events:97278">Fun &amp; Flirty Solar Lighting</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="12" data-column="2">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="13" data-column="2">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="14" data-column="2">
-        <a href="/events/95602" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95602">VINCE</a>
-      </li>
-      <li data-row="15" data-column="2">
-        <a href="/events/93580" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93580">Tart</a>
-      </li>
-      <li data-row="16" data-column="2">
-        <a href="/events/85017" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:85017">Denim Essentials Featuring DL1961</a>
-      </li>
-      <li data-row="17" data-column="2">
-        <a href="/events/95569" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95569">Jealous Tomato</a>
-      </li>
-      <li data-row="18" data-column="2">
-        <a href="/events/98133" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:98133">CZ by Kenneth Jay Lane</a>
-      </li>
-      <li data-row="19" data-column="2">
-        <a href="/events/94274" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94274">Let It Rain: Boots</a>
-      </li>
-      <li data-row="20" data-column="2">
-        <a href="/events/90399" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:90399">Michael Antonio</a>
-      </li>
-      <li data-row="21" data-column="2">
-        <a href="/events/94901" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94901">Adam Marc Jewelry: Stacking Rings &amp; More</a>
-      </li>
-      <li data-row="22" data-column="2">
-        <a href="/events/90554" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:90554">Pre-Pair for Fall: New Boots &amp; Booties</a>
-      </li>
-      <li data-row="23" data-column="2">
-        <a href="/events/94465" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94465">Earth Wood Watches &amp; Accessories</a>
-      </li>
-      <li data-row="24" data-column="2">
-        <a href="/events/93744" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93744">Disguise Costumes</a>
-      </li>
-      <li data-row="25" data-column="2">
-        <a href="/events/89552" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:89552">FREEZE Girls: Back-to-School Tees &amp; Hoodies</a>
-      </li>
-      <li data-row="26" data-column="2">
-        <a href="/events/97512" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97512">FREEZE Boys: Back-to-School Tees &amp; Hoodies</a>
-      </li>
-      <li data-row="27" data-column="2">
-        <a href="/events/91317" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:91317">Converse</a>
-      </li>
-      <li data-row="28" data-column="2">
-        <a href="/events/86589" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:86589">Converse Men</a>
-      </li>
-      <li data-row="29" data-column="2">
-        <a href="/events/88778" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:88778">Converse Kids</a>
-      </li>
-      <li data-row="30" data-column="2">
-        <a href="/events/96168" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96168">Bedhead</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_3"><ul class="events-nav__list">
-      <li data-row="1" data-column="3">
-        <a href="/events/97499" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97499">Hye Park &amp; Lune</a>
-      </li>
-      <li data-row="2" data-column="3">
-        <a href="/events/95769" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95769">Ben Sherman Collection</a>
-      </li>
-      <li data-row="3" data-column="3">
-        <a href="/events/86349" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:86349">Saturdays Surf NYC Shoes &amp; Accessories</a>
-      </li>
-      <li data-row="4" data-column="3">
-        <a href="/events/93952" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93952">Dress Code: Kids&#039; Dressed Up Duds</a>
-      </li>
-      <li data-row="5" data-column="3">
-        <a href="/events/96692" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96692">Mod Garden</a>
-      </li>
-      <li data-row="6" data-column="3">
-        <a href="/events/96432" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96432">Free Shipping: Funky Art Finds</a>
-      </li>
-      <li data-row="7" data-column="3">
-        <a href="/events/94844" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94844">Kitchen Blowout: Up to 75% Off</a>
-      </li>
-      <li data-row="8" data-column="3">
-        <a href="/events/77402" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:77402">Tart Outerwear</a>
-      </li>
-      <li data-row="9" data-column="3">
-        <a href="/events/94023" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94023">Fine Jewelry Favorites: Up to 80% Off</a>
-      </li>
-      <li data-row="10" data-column="3">
-        <a href="/events/93841" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93841">Vintage Addiction</a>
-      </li>
-      <li data-row="11" data-column="3">
-        <a href="/events/95273" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95273">Sizzlin&#039; Hues</a>
-      </li>
-      <li data-row="12" data-column="3">
-        <a href="/events/95495" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95495">Glam Evening Clutches</a>
-      </li>
-      <li data-row="13" data-column="3">
-        <a href="/events/94026" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94026">Shine Collection</a>
-      </li>
-      <li data-row="14" data-column="3">
-        <a href="/events/94200" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94200">H.I.M-istry Naturals Skincare for Men</a>
-      </li>
-      <li data-row="15" data-column="3">
-        <a href="/events/94651" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94651">VINCE Men</a>
-      </li>
-      <li data-row="16" data-column="3">
-        <a href="/events/93312" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93312">Dress Code: Kenneth Cole New York &amp; More</a>
-      </li>
-      <li data-row="17" data-column="3">
-        <a href="/events/94467" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94467">Dress Code: Alligator Strap Watches &amp; More</a>
-      </li>
-      <li data-row="18" data-column="3">
-        <a href="/events/90684" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:90684">Dress Code: Antonio Mauritzi</a>
-      </li>
-      <li data-row="19" data-column="3">
-        <a href="/events/97055" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97055">Dress Code: Kids&#039; Shoes</a>
-      </li>
-      <li data-row="20" data-column="3">
-        <a href="/events/81312" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:81312">VINCE Kids</a>
-      </li>
-      <li data-row="21" data-column="3">
-        <a href="/events/96468" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96468">Words of Wisdom in Black &amp; White</a>
-      </li>
-      <li data-row="22" data-column="3">
-        <a href="/events/94946" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94946">Spa Day: Pamper Yourself</a>
-      </li>
-      <li data-row="23" data-column="3">
-        <a href="/events/94944" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94944">Best in Solar: Fountains &amp; Beyond</a>
-      </li>
-      <li data-row="24" data-column="3">
-        <a href="/events/94201" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94201">Aesthetica Cosmetics</a>
-      </li>
-      <li data-row="25" data-column="3">
-        <a href="/events/94203" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94203">COACH Fragrances</a>
-      </li>
-      <li data-row="26" data-column="3">
-        <a href="/events/94199" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94199">Julie Hewett Cosmetics</a>
-      </li>
-      <li data-row="27" data-column="3">
-        <a href="/events/94202" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94202">Deep Sea Cosmetics</a>
-      </li>
-      <li data-row="28" data-column="3">
-        <a href="/events/95979" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95979">Epilady: Hair Removal &amp; Facial Tools</a>
-      </li>
-      <li data-row="29" data-column="3">
-        <a href="/events/95280" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95280">Dress Code: Polished to Perfection</a>
-      </li>
-      <li data-row="30" data-column="3">
-        <a href="/events/91963" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:91963">Papi Underwear &amp; Lounge Under $15</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_4"><ul class="events-nav__list">
-      <li data-row="1" data-column="4">
-        <a href="/events/96436" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96436">James Tattersall</a>
-      </li>
-      <li data-row="2" data-column="4">
-        <a href="/events/96622" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96622">CoXist: Trending Styles Under $30</a>
-      </li>
-      <li data-row="3" data-column="4">
-        <a href="/events/93061" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93061">BEARPAW Men</a>
-      </li>
-      <li data-row="4" data-column="4">
-        <a href="/events/94198" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94198">Burberry Fragrances</a>
-      </li>
-      <li data-row="5" data-column="4">
-        <a href="/events/94656" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94656">Threads 4 Thought</a>
-      </li>
-      <li data-row="6" data-column="4">
-        <a href="/events/94588" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94588">All-New Furniture Introductions</a>
-      </li>
-      <li data-row="7" data-column="4">
-        <a href="/events/84581" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:84581">Under $35: Laura Ashley Closet Storage &amp; More</a>
-      </li>
-      <li data-row="8" data-column="4">
-        <a href="/events/90794" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:90794">Prepare to Fall Back:  Cozy Quilt Sets</a>
-      </li>
-      <li data-row="9" data-column="4">
-        <a href="/events/94654" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94654">Apolis</a>
-      </li>
-      <li data-row="10" data-column="4">
-        <a href="/events/91566" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:91566">Vintage Shoe Co &amp; Walkover</a>
-      </li>
-      <li data-row="11" data-column="4">
-        <a href="/events/93176" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93176">Dress Code: Men&#039;s Blazers &amp; More</a>
-      </li>
-      <li data-row="12" data-column="4">
-        <a href="/events/89428" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:89428">Dress Code: Cynthia Rowley &amp; More</a>
-      </li>
-      <li data-row="13" data-column="4">
-        <a href="/events/95106" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95106">Bernie Mev</a>
-      </li>
-      <li data-row="14" data-column="4">
-        <a href="/events/92778" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:92778">Dress Code: Head Over Heels</a>
-      </li>
-      <li data-row="15" data-column="4">
-        <a href="/events/92779" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:92779">Dress Code: Pretty in Pumps</a>
-      </li>
-      <li data-row="16" data-column="4">
-        <a href="/events/97529" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97529">Dress Code: Donatienne Handbags</a>
-      </li>
-      <li data-row="17" data-column="4">
-        <a href="/events/95973" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95973">Fabulous Finds for Your Pooch</a>
-      </li>
-      <li data-row="18" data-column="4">
-        <a href="/events/94798" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94798">Clutter-Free Kitchen: Storage &amp; Organization</a>
-      </li>
-      <li data-row="19" data-column="4">
-        <a href="/events/96784" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96784">French Country Accents &amp; Decor</a>
-      </li>
-      <li data-row="20" data-column="4">
-        <a href="/events/96788" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96788">Affordable Furniture for Small Spaces</a>
-      </li>
-      <li data-row="21" data-column="4">
-        <a href="/events/96469" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96469">Splish Splash Take a Bath</a>
-      </li>
-      <li data-row="22" data-column="4">
-        <a href="/events/97347" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97347">To-Go Cups with Sass</a>
-      </li>
-      <li data-row="23" data-column="4">
-        <a href="/events/95579" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95579">Doe &amp; Rae Dresses</a>
-      </li>
-      <li data-row="24" data-column="4">
-        <a href="/events/93847" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:93847">Dress Code: Dainty Baubles We Adore</a>
-      </li>
-      <li data-row="25" data-column="4">
-        <a href="/events/95494" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:95494">Color Me Fall: Bags Up to 75% Off</a>
-      </li>
-      <li data-row="26" data-column="4">
-        <a href="/events/94196" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:94196">Stila</a>
-      </li>
-      <li data-row="27" data-column="4">
-        <a href="/events/96937" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96937">Home Grown:  Terrariums &amp; Indoor Greenery</a>
-      </li>
-      <li data-row="28" data-column="4">
-        <a href="/events/97146" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97146">Industrial Meets Glam: Pendant Lighting</a>
-      </li>
-      <li data-row="29" data-column="4">
-        <a href="/events/97059" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:97059">Free Shipping: New Rugs for Fall</a>
-      </li>
-      <li data-row="30" data-column="4" class="last">
-        <a href="/events/96911" data-bind="click:onHeaderSubNavClicked" data-analytics-label="All Events:Events Ending Soon:96911">Decor to Make It Home</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-  <li class="events-nav__tab" data-bind="css: activeTabs.women:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/women" class="events-nav__label">WOMEN</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/95272" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95272">70&#039;s Redux: OOBERSWANK</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/92904" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:92904">Bliss Slimming Treatment Must-Haves</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/93051" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:93051">70&#039;s Redux: Clogs &amp; More</a>
-      </li>
-      <li data-row="5" data-column="1">
-        <a href="/events/95153" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95153">70&#039;s Redux: Fringe, Flares &amp; More</a>
-      </li>
-      <li data-row="6" data-column="1">
-        <a href="/events/86039" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:86039">70&#039;s Redux: Ponchos, Wraps &amp; More</a>
-      </li>
-      <li data-row="7" data-column="1">
-        <a href="/events/97100" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:97100">70&#039;s Redux: Saddle Bags, Fringe &amp; More</a>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/94035" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:94035">70&#039;s Redux: Gemstone Tassels, Lariats &amp; More</a>
-      </li>
-      <li data-row="9" data-column="1">
-        <a href="/events/95490" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95490">70&#039;s Redux: SPY Dresses</a>
-      </li>
-      <li data-row="10" data-column="1">
-        <a href="/events/90337" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:90337">70&#039;s Redux: Boots &amp; Booties</a>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/96833" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:96833">Joan Vass</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/89145" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:89145">Joan Vass Shapewear</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/94204" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:94204">Crown Brush</a>
-      </li>
-      <li data-row="14" data-column="1">
-        <a href="/events/93339" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:93339">Muk Luks</a>
-      </li>
-      <li data-row="15" data-column="1">
-        <a href="/events/81171" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:81171">Muubaa Leather</a>
-      </li>
-      <li data-row="16" data-column="1">
-        <a href="/events/96566" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:96566">Helene Jewelry</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_2"><ul class="events-nav__list">
-      <li data-row="1" data-column="2">
-        <a href="/events/96171" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:96171">Gypsy05</a>
-      </li>
-      <li data-row="2" data-column="2">
-        <a href="/events/91315" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:91315">Arturo Chiang</a>
-      </li>
-      <li data-row="3" data-column="2">
-        <a href="/events/94018" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:94018">Gorjana Jewelry</a>
-      </li>
-      <li data-row="4" data-column="2">
-        <a href="/events/93511" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:93511">FURLA</a>
-      </li>
-      <li data-row="5" data-column="2">
-        <a href="/events/93188" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:93188">Keen</a>
-      </li>
-      <li data-row="6" data-column="2">
-        <a href="/events/96173" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:96173">CoTZ The Healthier Sunscreen</a>
-      </li>
-      <li data-row="7" data-column="2">
-        <a href="/events/95581" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95581">The Coverii</a>
-      </li>
-      <li data-row="8" data-column="2">
-        <a href="/events/90477" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:90477">Fall Shoe Favorites</a>
-      </li>
-      <li data-row="9" data-column="2">
-        <a href="/events/95270" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95270">Friday Faves Under $25</a>
-      </li>
-      <li data-row="10" data-column="2">
-        <a href="/events/95700" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Newest Events:95700">On the Fringe: Minnetonka &amp; More</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="11" data-column="2">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="12" data-column="2">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="13" data-column="2">
-        <a href="/events/95602" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95602">VINCE</a>
-      </li>
-      <li data-row="14" data-column="2">
-        <a href="/events/93580" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:93580">Tart</a>
-      </li>
-      <li data-row="15" data-column="2">
-        <a href="/events/85017" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:85017">Denim Essentials Featuring DL1961</a>
-      </li>
-      <li data-row="16" data-column="2">
-        <a href="/events/95569" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95569">Jealous Tomato</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_3"><ul class="events-nav__list">
-      <li data-row="1" data-column="3">
-        <a href="/events/98133" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:98133">CZ by Kenneth Jay Lane</a>
-      </li>
-      <li data-row="2" data-column="3">
-        <a href="/events/94274" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94274">Let It Rain: Boots</a>
-      </li>
-      <li data-row="3" data-column="3">
-        <a href="/events/90399" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:90399">Michael Antonio</a>
-      </li>
-      <li data-row="4" data-column="3">
-        <a href="/events/94901" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94901">Adam Marc Jewelry: Stacking Rings &amp; More</a>
-      </li>
-      <li data-row="5" data-column="3">
-        <a href="/events/90554" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:90554">Pre-Pair for Fall: New Boots &amp; Booties</a>
-      </li>
-      <li data-row="6" data-column="3">
-        <a href="/events/94465" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94465">Earth Wood Watches &amp; Accessories</a>
-      </li>
-      <li data-row="7" data-column="3">
-        <a href="/events/91317" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:91317">Converse</a>
-      </li>
-      <li data-row="8" data-column="3">
-        <a href="/events/96168" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:96168">Bedhead</a>
-      </li>
-      <li data-row="9" data-column="3">
-        <a href="/events/97499" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:97499">Hye Park &amp; Lune</a>
-      </li>
-      <li data-row="10" data-column="3">
-        <a href="/events/77402" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:77402">Tart Outerwear</a>
-      </li>
-      <li data-row="11" data-column="3">
-        <a href="/events/94023" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94023">Fine Jewelry Favorites: Up to 80% Off</a>
-      </li>
-      <li data-row="12" data-column="3">
-        <a href="/events/93841" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:93841">Vintage Addiction</a>
-      </li>
-      <li data-row="13" data-column="3">
-        <a href="/events/95273" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95273">Sizzlin&#039; Hues</a>
-      </li>
-      <li data-row="14" data-column="3">
-        <a href="/events/95495" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95495">Glam Evening Clutches</a>
-      </li>
-      <li data-row="15" data-column="3">
-        <a href="/events/94200" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94200">H.I.M-istry Naturals Skincare for Men</a>
-      </li>
-      <li data-row="16" data-column="3">
-        <a href="/events/94467" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94467">Dress Code: Alligator Strap Watches &amp; More</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_4"><ul class="events-nav__list">
-      <li data-row="1" data-column="4">
-        <a href="/events/94201" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94201">Aesthetica Cosmetics</a>
-      </li>
-      <li data-row="2" data-column="4">
-        <a href="/events/94203" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94203">COACH Fragrances</a>
-      </li>
-      <li data-row="3" data-column="4">
-        <a href="/events/94199" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94199">Julie Hewett Cosmetics</a>
-      </li>
-      <li data-row="4" data-column="4">
-        <a href="/events/94202" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94202">Deep Sea Cosmetics</a>
-      </li>
-      <li data-row="5" data-column="4">
-        <a href="/events/95979" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95979">Epilady: Hair Removal &amp; Facial Tools</a>
-      </li>
-      <li data-row="6" data-column="4">
-        <a href="/events/95280" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95280">Dress Code: Polished to Perfection</a>
-      </li>
-      <li data-row="7" data-column="4">
-        <a href="/events/94198" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94198">Burberry Fragrances</a>
-      </li>
-      <li data-row="8" data-column="4">
-        <a href="/events/89428" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:89428">Dress Code: Cynthia Rowley &amp; More</a>
-      </li>
-      <li data-row="9" data-column="4">
-        <a href="/events/95106" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95106">Bernie Mev</a>
-      </li>
-      <li data-row="10" data-column="4">
-        <a href="/events/92778" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:92778">Dress Code: Head Over Heels</a>
-      </li>
-      <li data-row="11" data-column="4">
-        <a href="/events/92779" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:92779">Dress Code: Pretty in Pumps</a>
-      </li>
-      <li data-row="12" data-column="4">
-        <a href="/events/97529" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:97529">Dress Code: Donatienne Handbags</a>
-      </li>
-      <li data-row="13" data-column="4">
-        <a href="/events/95579" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95579">Doe &amp; Rae Dresses</a>
-      </li>
-      <li data-row="14" data-column="4">
-        <a href="/events/93847" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:93847">Dress Code: Dainty Baubles We Adore</a>
-      </li>
-      <li data-row="15" data-column="4">
-        <a href="/events/95494" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:95494">Color Me Fall: Bags Up to 75% Off</a>
-      </li>
-      <li data-row="16" data-column="4" class="last">
-        <a href="/events/94196" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Women:Events Ending Soon:94196">Stila</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-  <li class="events-nav__tab" data-bind="css: activeTabs.men:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/men" class="events-nav__label">MEN</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/93178" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:93178">70&#039;s Redux: Retro Blazers, Shirts &amp; More</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/91563" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:91563">70&#039;s Redux: Sneaker Brands Loved Then &amp; Now</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/96222" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:96222">Levi&#039;s Underwear</a>
-      </li>
-      <li data-row="5" data-column="1">
-        <a href="/events/91721" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:91721">Odd Sox</a>
-      </li>
-      <li data-row="6" data-column="1">
-        <a href="/events/98115" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:98115">Levi&#039;s Men</a>
-      </li>
-      <li data-row="7" data-column="1">
-        <a href="/events/91512" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:91512">Levi&#039;s Men&#039;s Shoes</a>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/84336" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Newest Events:84336">Keen Men</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="9" data-column="1">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="10" data-column="1">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/94465" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94465">Earth Wood Watches &amp; Accessories</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/86589" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:86589">Converse Men</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/95769" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:95769">Ben Sherman Collection</a>
-      </li>
-      <li data-row="14" data-column="1">
-        <a href="/events/86349" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:86349">Saturdays Surf NYC Shoes &amp; Accessories</a>
-      </li>
-      <li data-row="15" data-column="1">
-        <a href="/events/94026" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94026">Shine Collection</a>
-      </li>
-      <li data-row="16" data-column="1">
-        <a href="/events/94200" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94200">H.I.M-istry Naturals Skincare for Men</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_2"><ul class="events-nav__list">
-      <li data-row="1" data-column="2">
-        <a href="/events/94651" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94651">VINCE Men</a>
-      </li>
-      <li data-row="2" data-column="2">
-        <a href="/events/93312" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:93312">Dress Code: Kenneth Cole New York &amp; More</a>
-      </li>
-      <li data-row="3" data-column="2">
-        <a href="/events/94467" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94467">Dress Code: Alligator Strap Watches &amp; More</a>
-      </li>
-      <li data-row="4" data-column="2">
-        <a href="/events/90684" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:90684">Dress Code: Antonio Mauritzi</a>
-      </li>
-      <li data-row="5" data-column="2">
-        <a href="/events/91963" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:91963">Papi Underwear &amp; Lounge Under $15</a>
-      </li>
-      <li data-row="6" data-column="2">
-        <a href="/events/96436" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:96436">James Tattersall</a>
-      </li>
-      <li data-row="7" data-column="2">
-        <a href="/events/96622" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:96622">CoXist: Trending Styles Under $30</a>
-      </li>
-      <li data-row="8" data-column="2">
-        <a href="/events/93061" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:93061">BEARPAW Men</a>
-      </li>
-      <li data-row="9" data-column="2">
-        <a href="/events/94198" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94198">Burberry Fragrances</a>
-      </li>
-      <li data-row="10" data-column="2">
-        <a href="/events/94656" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94656">Threads 4 Thought</a>
-      </li>
-      <li data-row="11" data-column="2">
-        <a href="/events/94654" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:94654">Apolis</a>
-      </li>
-      <li data-row="12" data-column="2">
-        <a href="/events/91566" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:91566">Vintage Shoe Co &amp; Walkover</a>
-      </li>
-      <li data-row="13" data-column="2" class="last">
-        <a href="/events/93176" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Men:Events Ending Soon:93176">Dress Code: Men&#039;s Blazers &amp; More</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-  <li class="events-nav__tab" data-bind="css: activeTabs.kids:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/kids" class="events-nav__label">KIDS</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/94476" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Newest Events:94476">Keen Kids</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/95485" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Newest Events:95485">FAB Starpoint: Character Backpacks &amp; More</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/93945" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Newest Events:93945">First Look at Fall: ANNA Kids</a>
-      </li>
-      <li data-row="5" data-column="1">
-        <a href="/events/97416" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Newest Events:97416">Freckles + Kitty</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="6" data-column="1">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="7" data-column="1">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/93744" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:93744">Disguise Costumes</a>
-      </li>
-      <li data-row="9" data-column="1">
-        <a href="/events/89552" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:89552">FREEZE Girls: Back-to-School Tees &amp; Hoodies</a>
-      </li>
-      <li data-row="10" data-column="1">
-        <a href="/events/97512" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:97512">FREEZE Boys: Back-to-School Tees &amp; Hoodies</a>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/88778" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:88778">Converse Kids</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/93952" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:93952">Dress Code: Kids&#039; Dressed Up Duds</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/97055" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:97055">Dress Code: Kids&#039; Shoes</a>
-      </li>
-      <li data-row="14" data-column="1" class="last">
-        <a href="/events/81312" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Kids:Events Ending Soon:81312">VINCE Kids</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-  <li class="events-nav__tab" data-bind="css: activeTabs.home:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/home" class="events-nav__label">HOME</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/82528" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Newest Events:82528">Parvez Taj: Renowned L.A. Artist</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/96792" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Newest Events:96792">Playful Pillow Cases Starting at $15</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/96795" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Newest Events:96795">Poolside Playtime: Loungers, Heaters, Games &amp; More</a>
-      </li>
-      <li data-row="5" data-column="1">
-        <a href="/events/97278" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Newest Events:97278">Fun &amp; Flirty Solar Lighting</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="6" data-column="1">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="7" data-column="1">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/96692" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96692">Mod Garden</a>
-      </li>
-      <li data-row="9" data-column="1">
-        <a href="/events/96432" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96432">Free Shipping: Funky Art Finds</a>
-      </li>
-      <li data-row="10" data-column="1">
-        <a href="/events/94844" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:94844">Kitchen Blowout: Up to 75% Off</a>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/96468" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96468">Words of Wisdom in Black &amp; White</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/94946" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:94946">Spa Day: Pamper Yourself</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/94944" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:94944">Best in Solar: Fountains &amp; Beyond</a>
-      </li>
-      <li data-row="14" data-column="1">
-        <a href="/events/94588" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:94588">All-New Furniture Introductions</a>
-      </li>
-      <li data-row="15" data-column="1">
-        <a href="/events/84581" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:84581">Under $35: Laura Ashley Closet Storage &amp; More</a>
-      </li>
-      <li data-row="16" data-column="1">
-        <a href="/events/90794" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:90794">Prepare to Fall Back:  Cozy Quilt Sets</a>
-      </li>
-        </ul></li>
-        <li class="events-nav__column column_2"><ul class="events-nav__list">
-      <li data-row="1" data-column="2">
-        <a href="/events/95973" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:95973">Fabulous Finds for Your Pooch</a>
-      </li>
-      <li data-row="2" data-column="2">
-        <a href="/events/94798" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:94798">Clutter-Free Kitchen: Storage &amp; Organization</a>
-      </li>
-      <li data-row="3" data-column="2">
-        <a href="/events/96784" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96784">French Country Accents &amp; Decor</a>
-      </li>
-      <li data-row="4" data-column="2">
-        <a href="/events/96788" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96788">Affordable Furniture for Small Spaces</a>
-      </li>
-      <li data-row="5" data-column="2">
-        <a href="/events/96469" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96469">Splish Splash Take a Bath</a>
-      </li>
-      <li data-row="6" data-column="2">
-        <a href="/events/97347" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:97347">To-Go Cups with Sass</a>
-      </li>
-      <li data-row="7" data-column="2">
-        <a href="/events/96937" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96937">Home Grown:  Terrariums &amp; Indoor Greenery</a>
-      </li>
-      <li data-row="8" data-column="2">
-        <a href="/events/97146" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:97146">Industrial Meets Glam: Pendant Lighting</a>
-      </li>
-      <li data-row="9" data-column="2">
-        <a href="/events/97059" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:97059">Free Shipping: New Rugs for Fall</a>
-      </li>
-      <li data-row="10" data-column="2" class="last">
-        <a href="/events/96911" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Home:Events Ending Soon:96911">Decor to Make It Home</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-  <li class="events-nav__tab last" data-bind="css: activeTabs.beauty:events-nav__tab--active, mouseenter: showTabMenu, mouseleave: hideTabMenu">
-    <a href="/events/beauty" class="events-nav__label">BEAUTY</a>
-    <div class="events-nav__separator"></div>
-    <ul class="events-nav__menu menu_level_1">
-        <li class="events-nav__column column_1"><ul class="events-nav__list">
-      <li class="events-nav__header first" data-row="1" data-column="1">
-        <span>Newest Events</span>
-      </li>
-      <li data-row="2" data-column="1">
-        <a href="/events/92904" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Newest Events:92904">Bliss Slimming Treatment Must-Haves</a>
-      </li>
-      <li data-row="3" data-column="1">
-        <a href="/events/94204" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Newest Events:94204">Crown Brush</a>
-      </li>
-      <li data-row="4" data-column="1">
-        <a href="/events/96173" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Newest Events:96173">CoTZ The Healthier Sunscreen</a>
-      </li>
-      <li class="events-nav__placeholder" data-row="5" data-column="1">
-        <span></span>
-      </li>
-      <li class="events-nav__header" data-row="6" data-column="1">
-        <span>Events Ending Soon</span>
-      </li>
-      <li data-row="7" data-column="1">
-        <a href="/events/94200" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94200">H.I.M-istry Naturals Skincare for Men</a>
-      </li>
-      <li data-row="8" data-column="1">
-        <a href="/events/94201" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94201">Aesthetica Cosmetics</a>
-      </li>
-      <li data-row="9" data-column="1">
-        <a href="/events/94203" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94203">COACH Fragrances</a>
-      </li>
-      <li data-row="10" data-column="1">
-        <a href="/events/94199" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94199">Julie Hewett Cosmetics</a>
-      </li>
-      <li data-row="11" data-column="1">
-        <a href="/events/94202" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94202">Deep Sea Cosmetics</a>
-      </li>
-      <li data-row="12" data-column="1">
-        <a href="/events/95979" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:95979">Epilady: Hair Removal &amp; Facial Tools</a>
-      </li>
-      <li data-row="13" data-column="1">
-        <a href="/events/94198" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94198">Burberry Fragrances</a>
-      </li>
-      <li data-row="14" data-column="1" class="last">
-        <a href="/events/94196" data-bind="click:onHeaderSubNavClicked" data-analytics-label="Beauty:Events Ending Soon:94196">Stila</a>
-      </li>
-        </ul></li>
-    </ul>
-  </li>
-</ul>
 
-                    
-                    <div class="rack-link-container">
-                    <a class="rack-link"
-   data-bind="click: onRackLinkClicked"></a>
-                    </div>
 
-                    <div
-                        class="
-                            site-search
-                            site-search--hautelook
-                            site-search--light
-                            site-search--small
-                            site-header__search
-                        "
-                        data-render="global-site-search"
-                        style="display: none;"
-                    ></div>
-                </div>
-            </div>
-            </header>
 
-            <div >
-            <div class="hl-privacy-page"><h2>
+
+
+
+
+
+ALL EVENTS
+
+
+
+
+Newest Events
+
+
+Muubaa Leather
+
+
+Gypsy05
+
+
+Bliss Slimming Treatment Must-Haves
+
+
+Arturo Chiang
+
+
+Gorjana Jewelry
+
+
+70's Redux: OOBERSWANK
+
+
+70's Redux: Clogs & More
+
+
+70's Redux: Fringe, Flares & More
+
+
+70's Redux: Ponchos, Wraps & More
+
+
+70's Redux: Saddle Bags, Fringe & More
+
+
+70's Redux: SPY Dresses
+
+
+70's Redux: Boots & Booties
+
+
+70's Redux: Retro Blazers, Shirts & More
+
+
+70's Redux: Sneaker Brands Loved Then & Now
+
+
+FURLA
+
+
+Keen
+
+
+The Coverii
+
+
+Fall Shoe Favorites
+
+
+Friday Faves Under $25
+
+
+On the Fringe: Minnetonka & More
+
+
+Levi's Men
+
+
+Levi's Men's Shoes
+
+
+Keen Men
+
+
+Keen Kids
+
+
+FAB Starpoint: Character Backpacks & More
+
+
+First Look at Fall: ANNA Kids
+
+
+Freckles + Kitty
+
+
+Parvez Taj: Renowned L.A. Artist
+
+
+Playful Pillow Cases Starting at $15
+
+
+
+
+Poolside Playtime: Loungers, Heaters, Games & More
+
+
+Fun & Flirty Solar Lighting
+
+
+70's Redux: Gemstone Tassels, Lariats & More
+
+
+Joan Vass
+
+
+Joan Vass Shapewear
+
+
+Crown Brush
+
+
+Muk Luks
+
+
+Helene Jewelry
+
+
+CoTZ The Healthier Sunscreen
+
+
+Levi's Underwear
+
+
+Odd Sox
+
+
+
+
+
+Events Ending Soon
+
+
+Converse
+
+
+Converse Men
+
+
+Converse Kids
+
+
+Bedhead
+
+
+Hye Park & Lune
+
+
+Ben Sherman Collection
+
+
+Saturdays Surf NYC Shoes & Accessories
+
+
+Dress Code: Kids' Dressed Up Duds
+
+
+Mod Garden
+
+
+Free Shipping: Funky Art Finds
+
+
+Kitchen Blowout: Up to 75% Off
+
+
+Tart Outerwear
+
+
+Fine Jewelry Favorites: Up to 80% Off
+
+
+Vintage Addiction
+
+
+Sizzlin' Hues
+
+
+Glam Evening Clutches
+
+
+Shine Collection
+
+
+
+
+H.I.M-istry Naturals Skincare for Men
+
+
+VINCE Men
+
+
+Dress Code: Kenneth Cole New York & More
+
+
+Dress Code: Alligator Strap Watches & More
+
+
+Dress Code: Antonio Mauritzi
+
+
+Dress Code: Kids' Shoes
+
+
+VINCE Kids
+
+
+Words of Wisdom in Black & White
+
+
+Spa Day: Pamper Yourself
+
+
+Best in Solar: Fountains & Beyond
+
+
+Aesthetica Cosmetics
+
+
+COACH Fragrances
+
+
+Julie Hewett Cosmetics
+
+
+Deep Sea Cosmetics
+
+
+Epilady: Hair Removal & Facial Tools
+
+
+Dress Code: Polished to Perfection
+
+
+Papi Underwear & Lounge Under $15
+
+
+James Tattersall
+
+
+CoXist: Trending Styles Under $30
+
+
+BEARPAW Men
+
+
+Burberry Fragrances
+
+
+Threads 4 Thought
+
+
+All-New Furniture Introductions
+
+
+Under $35: Laura Ashley Closet Storage & More
+
+
+Prepare to Fall Back:  Cozy Quilt Sets
+
+
+Apolis
+
+
+Vintage Shoe Co & Walkover
+
+
+Dress Code: Men's Blazers & More
+
+
+Dress Code: Cynthia Rowley & More
+
+
+Bernie Mev
+
+
+
+
+Dress Code: Head Over Heels
+
+
+Dress Code: Pretty in Pumps
+
+
+Dress Code: Donatienne Handbags
+
+
+Fabulous Finds for Your Pooch
+
+
+Clutter-Free Kitchen: Storage & Organization
+
+
+French Country Accents & Decor
+
+
+Affordable Furniture for Small Spaces
+
+
+Splish Splash Take a Bath
+
+
+To-Go Cups with Sass
+
+
+Doe & Rae Dresses
+
+
+Dress Code: Dainty Baubles We Adore
+
+
+Color Me Fall: Bags Up to 75% Off
+
+
+Home Grown:  Terrariums & Indoor Greenery
+
+
+Industrial Meets Glam: Pendant Lighting
+
+
+Free Shipping: New Rugs for Fall
+
+
+Decor to Make It Home
+
+
+Tart
+
+
+Denim Essentials Featuring DL1961
+
+
+Jealous Tomato
+
+
+Let It Rain: Boots
+
+
+Michael Antonio
+
+
+Adam Marc Jewelry: Stacking Rings & More
+
+
+Pre-Pair for Fall: New Boots & Booties
+
+
+Earth Wood Watches & Accessories
+
+
+FREEZE Girls: Back-to-School Tees & Hoodies
+
+
+FREEZE Boys: Back-to-School Tees & Hoodies
+
+
+VINCE
+
+
+CZ by Kenneth Jay Lane
+
+
+Disguise Costumes
+
+
+Stila
+
+
+
+
+
+WOMEN
+
+
+
+
+Newest Events
+
+
+Muubaa Leather
+
+
+Gypsy05
+
+
+Bliss Slimming Treatment Must-Haves
+
+
+Arturo Chiang
+
+
+Gorjana Jewelry
+
+
+70's Redux: OOBERSWANK
+
+
+70's Redux: Clogs & More
+
+
+70's Redux: Fringe, Flares & More
+
+
+70's Redux: Ponchos, Wraps & More
+
+
+70's Redux: Saddle Bags, Fringe & More
+
+
+70's Redux: SPY Dresses
+
+
+70's Redux: Boots & Booties
+
+
+FURLA
+
+
+Keen
+
+
+The Coverii
+
+
+
+
+Fall Shoe Favorites
+
+
+Friday Faves Under $25
+
+
+On the Fringe: Minnetonka & More
+
+
+70's Redux: Gemstone Tassels, Lariats & More
+
+
+Joan Vass
+
+
+Joan Vass Shapewear
+
+
+Crown Brush
+
+
+Muk Luks
+
+
+Helene Jewelry
+
+
+CoTZ The Healthier Sunscreen
+
+
+
+
+
+Events Ending Soon
+
+
+Converse
+
+
+Bedhead
+
+
+Hye Park & Lune
+
+
+Tart Outerwear
+
+
+
+
+Fine Jewelry Favorites: Up to 80% Off
+
+
+Vintage Addiction
+
+
+Sizzlin' Hues
+
+
+Glam Evening Clutches
+
+
+H.I.M-istry Naturals Skincare for Men
+
+
+Dress Code: Alligator Strap Watches & More
+
+
+Aesthetica Cosmetics
+
+
+COACH Fragrances
+
+
+Julie Hewett Cosmetics
+
+
+Deep Sea Cosmetics
+
+
+Epilady: Hair Removal & Facial Tools
+
+
+Dress Code: Polished to Perfection
+
+
+Burberry Fragrances
+
+
+Dress Code: Cynthia Rowley & More
+
+
+Bernie Mev
+
+
+Dress Code: Head Over Heels
+
+
+
+
+Dress Code: Pretty in Pumps
+
+
+Dress Code: Donatienne Handbags
+
+
+Doe & Rae Dresses
+
+
+Dress Code: Dainty Baubles We Adore
+
+
+Color Me Fall: Bags Up to 75% Off
+
+
+Tart
+
+
+Denim Essentials Featuring DL1961
+
+
+Jealous Tomato
+
+
+Let It Rain: Boots
+
+
+Michael Antonio
+
+
+Adam Marc Jewelry: Stacking Rings & More
+
+
+Pre-Pair for Fall: New Boots & Booties
+
+
+Earth Wood Watches & Accessories
+
+
+VINCE
+
+
+CZ by Kenneth Jay Lane
+
+
+Stila
+
+
+
+
+
+MEN
+
+
+
+
+Newest Events
+
+
+70's Redux: Retro Blazers, Shirts & More
+
+
+70's Redux: Sneaker Brands Loved Then & Now
+
+
+Levi's Men
+
+
+Levi's Men's Shoes
+
+
+Keen Men
+
+
+Levi's Underwear
+
+
+Odd Sox
+
+
+
+
+
+Events Ending Soon
+
+
+Converse Men
+
+
+Ben Sherman Collection
+
+
+Saturdays Surf NYC Shoes & Accessories
+
+
+Shine Collection
+
+
+H.I.M-istry Naturals Skincare for Men
+
+
+VINCE Men
+
+
+
+
+Dress Code: Kenneth Cole New York & More
+
+
+Dress Code: Alligator Strap Watches & More
+
+
+Dress Code: Antonio Mauritzi
+
+
+Papi Underwear & Lounge Under $15
+
+
+James Tattersall
+
+
+CoXist: Trending Styles Under $30
+
+
+BEARPAW Men
+
+
+Burberry Fragrances
+
+
+Threads 4 Thought
+
+
+Apolis
+
+
+Vintage Shoe Co & Walkover
+
+
+Dress Code: Men's Blazers & More
+
+
+Earth Wood Watches & Accessories
+
+
+
+
+
+KIDS
+
+
+
+
+Newest Events
+
+
+Keen Kids
+
+
+FAB Starpoint: Character Backpacks & More
+
+
+First Look at Fall: ANNA Kids
+
+
+Freckles + Kitty
+
+
+
+
+
+Events Ending Soon
+
+
+Converse Kids
+
+
+Dress Code: Kids' Dressed Up Duds
+
+
+Dress Code: Kids' Shoes
+
+
+VINCE Kids
+
+
+FREEZE Girls: Back-to-School Tees & Hoodies
+
+
+FREEZE Boys: Back-to-School Tees & Hoodies
+
+
+Disguise Costumes
+
+
+
+
+
+HOME
+
+
+
+
+Newest Events
+
+
+Parvez Taj: Renowned L.A. Artist
+
+
+Playful Pillow Cases Starting at $15
+
+
+Poolside Playtime: Loungers, Heaters, Games & More
+
+
+Fun & Flirty Solar Lighting
+
+
+
+
+
+Events Ending Soon
+
+
+Mod Garden
+
+
+Free Shipping: Funky Art Finds
+
+
+Kitchen Blowout: Up to 75% Off
+
+
+Words of Wisdom in Black & White
+
+
+Spa Day: Pamper Yourself
+
+
+Best in Solar: Fountains & Beyond
+
+
+All-New Furniture Introductions
+
+
+Under $35: Laura Ashley Closet Storage & More
+
+
+Prepare to Fall Back:  Cozy Quilt Sets
+
+
+
+
+Fabulous Finds for Your Pooch
+
+
+Clutter-Free Kitchen: Storage & Organization
+
+
+French Country Accents & Decor
+
+
+Affordable Furniture for Small Spaces
+
+
+Splish Splash Take a Bath
+
+
+To-Go Cups with Sass
+
+
+Home Grown:  Terrariums & Indoor Greenery
+
+
+Industrial Meets Glam: Pendant Lighting
+
+
+Free Shipping: New Rugs for Fall
+
+
+Decor to Make It Home
+
+
+
+
+
+BEAUTY
+
+
+
+
+Newest Events
+
+
+Bliss Slimming Treatment Must-Haves
+
+
+Crown Brush
+
+
+CoTZ The Healthier Sunscreen
+
+
+
+
+
+Events Ending Soon
+
+
+H.I.M-istry Naturals Skincare for Men
+
+
+Aesthetica Cosmetics
+
+
+COACH Fragrances
+
+
+Julie Hewett Cosmetics
+
+
+Deep Sea Cosmetics
+
+
+Epilady: Hair Removal & Facial Tools
+
+
+Burberry Fragrances
+
+
+Stila
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             HauteLook Privacy Policy
-        </h2><p>
+        
             We respect your privacy, and take great care to safeguard information in our possession. Your preferences for use of your information are our highest priority.
-        </p><h4>
+        
             HauteLook Privacy Policy Highlights
-        </h4><p>
+        
             As a member of the Nordstrom family of companies (Nordstrom Inc., Nordstrom Rack, Nordstrom fsb, Nordstrom Canada, Jeffrey and Trunk Club, Inc.), HauteLook takes seriously the protection and proper use of your personal information. Please read the following to learn more about our privacy policy. By visiting the HauteLook website and domain name, and any other linked pages, features, content, or application services offered from time to time by us (collectively, the "Website"), or using any of our services, you acknowledge that you accept the practices outlined in this Privacy Policy.
-        </p><p>
+        
             HauteLook does not share customer information (including email addresses) outside the Nordstrom family of companies unless it is necessary to provide you with products or services available from HauteLook. Any third-party companies we use to provide you with products or services are required to keep your information secure and confidential. We may also disclose information when you tell us to do so, to identify or contact you, to protect your rights or the rights of HauteLook or as required or permitted by law.
-        </p><p>
-            Within the Nordstrom family, we restrict access to your information to only those individuals who need to provide you with our products or services. If you have any other questions or concerns regarding how HauteLook or Nordstrom manages, accesses or uses your personal information, please write to us at PO Box 21986, Seattle, WA 98111-3986, email us at <a href="mailto:privacy@nordstrom.com">privacy@nordstrom.com</a> or call 1-866-554-6591.
-        </p><h4>
+        
+            Within the Nordstrom family, we restrict access to your information to only those individuals who need to provide you with our products or services. If you have any other questions or concerns regarding how HauteLook or Nordstrom manages, accesses or uses your personal information, please write to us at PO Box 21986, Seattle, WA 98111-3986, email us at privacy@nordstrom.com or call 1-866-554-6591.
+        
             HauteLook Privacy Policy
-        </h4><p>
+        
             Welcome to HauteLook. As a customer of HauteLook and the Nordstrom family of companies, your trust is our most important asset. We take the protection and proper use of your personal information seriously and are committed to protecting your personal information in our possession. In order to preserve your trust, we want you to understand what personal information we may collect from you, how we use such information, and the choices you have regarding our use of this information.
-        </p><p>
+        
             In this policy, "personal information" means any information by which you can be identified, located or contacted, such as your name (first and last), address (city, state, zip), email address, or telephone number.
-        </p><p>
+        
             This Privacy Policy governs your experience on this website unless otherwise indicated.
-        </p><h4>
+        
             Types of Information We Collect
-        </h4><p>
+        
             We collect personal information when communicating or interacting with you through HauteLook.com, our stores or the Nordstrom family of companies. Some examples include:
-        </p><ul><li>
+        
                 When you register with us, create a Wish List or Product Review account on our website
-            </li><li>
+            
                 when you request that merchandise be sent to you or others, make purchases or returns with us, place an order with us online, via phone, mail, email or fax, or request an e-receipt
-            </li><li>
+            
                 fulfilling orders you place and delivering packages
-            </li><li>
+            
                 requesting content and communications from us or when making recommendations to you
-            </li><li>
+            
                 subscribing to HauteLook.com  Email Updates (our email newsletter) or other communications from us or managing your preferences with us
-            </li><li>
+            
                 applying for an account with us
-            </li><li>
+            
                 your Financial Account numbers when transacting with us
-            </li><li>
+            
                 interacting with our websites or mobile sites, mobile applications and services
-            </li><li>
+            
                 when you participate in any of our programs such as contests, sweepstakes, surveys, loyalty programs, wedding programs etc.
-            </li><li>
+            
                 when you apply for employment which may include your social security number or social insurance number
-            </li><li>
+            
                 working with our salespeople who assist you with your fashion needs and purchases
-            </li><li>
+            
                 through communications with you, or through the Nordstrom family of companies
-            </li><li>
+            
                 contacting us with a comment, question or complaint
-            </li></ul><p>
+            
             We may also collect personal information about you from other third parties, such as demographic firms, to make our future service and marketing efforts more efficient and personalized for you. We may combine all information we collect and we may disclose this information within our corporate family of companies or our service providers. When you visit our websites we may also gather certain information automatically and store it in log files. This information may include Internet Protocol (IP) addresses or other device identifiers, browser information, Internet Service Provider (ISP), operating system, location, date/time stamp and clickstream data.
-        </p><h4>
+        
             How We Use Your Information
-        </h4><p>
+        
             We use the personal information that we and our service providers collect to conduct our business and to provide you with the best possible products, services and experience. We may collect and use your information to provide you products and services, notify you of product recalls or safety issues, process and respond to your application for current or future career opportunities, process membership requests when you apply or otherwise administer your participation in our programs, to respond to your comments, questions or complaints, determine your satisfaction with our programs and service, to personalize your experiences, if you ask us to, send you marketing communications and other information you have chosen to receive regarding our products, services, marketing or special events. We also use your personal information for our everyday business purposes such as security, payment processing, analytics, operations, fraud detection and prevention, reporting, making back-ups and legal compliance.
-        </p><h4>
+        
             How We Share Your Information
-        </h4><p>
+        
             To best serve you, we may share your personal information with other members of the Nordstrom family of companies and with service providers that provide support services to us or that help us market our products and services, administer our programs, operations, fulfill your requests, surveys, contests, sweepstakes and product reviews, or provide you with membership information. Service providers, third parties who perform services on our behalf, are contractually restricted from using your information in any manner other than in helping us to provide you with the products and services available from Nordstrom. We may also, in certain instances, disclose your personal information when we have reason to believe that it is necessary to identify you, contact you, to advise you of a product recall, detect and protect you or us from fraud, manage information security or bring legal action to protect your rights or the rights of Nordstrom or others. We may also disclose your personal information when you ask us to do so or when we believe it is required or permitted by law.
-        </p><h4>
+        
             Cookies, Web Beacons, and Other Similar Technologies
-        </h4><p>
+        
             Our website uses "cookie" and "web beacon" technology. We use cookies and web beacons to identify your device, provide website user authentication, conduct fraud prevention and management services, distinguish you from other visitors, record your IP address and understand your use of our site, and identify the name of the website from which you linked to HauteLook. This information is used for fulfilling contracts with our business partners, and to help us serve you better by improving our website design, as well as our products, services, and promotions. We do not otherwise track any information about your use of other websites. Information obtained through cookies and web beacons may be shared with or obtained by service providers on our behalf. A cookie is a small data file that is placed on the hard drive of your computer when you visit a website. A "session cookie" expires immediately when you end your session (i.e., close your browser). A "persistent cookie" stores information on the hard drive so when you end your session and return to the same website at a later date, the cookie information is still available. A web beacon is a small string of code that represents a clear graphic image and is used in conjunction with a cookie.
-        </p><p>
+        
             When you visit our website, we may use both a session and a persistent cookie. This HauteLook-placed cookie may contain information (such as a unique user ID) that is used to track your usage of our website and in some cases, your email address. Your email address and name are only saved in this HauteLook-placed cookie if you register with us. A web beacon allows us to capture certain additional types of information about a visitor's actions on a web site, such as a visitor's cookie number, the time, date, duration and number of page views, a description of the page where the Web beacon is placed, and details about any items that were purchased.
-        </p><p>
+        
             If you register with us, this HauteLook-placed cookie allows us to recognize you when you return to our website and provides you with access to your account information. If you save your information with or order from us, we may also use cookies to monitor and maintain information about your use of our website. If you have not saved your information with or ordered from us, we may monitor and maintain information about your use of our website in a manner that does not identify you. You can disable cookies at any time by using your browser options; however, if you turn off cookies, we will not be able to track your order or enable you to make a purchase from our website. In addition, we will not be able to recognize you as a registered user to allow you access to your account information.
-        </p><p>
-            We may use Flash Cookies (also known as Local Stored Objects) or other similar technologies. A Flash cookie is a small data file placed on a computer using Adobe Flash technology that may be built into your computer or downloaded by you to your computer. We use these technologies to personalize and enhance your online experience, facilitate processes, personalize and store your settings. Flash cookies may help our website visitors to, for example, set volume preference associated with a video experience, play games and perform surveys. They help us improve our sites by measuring which areas are of greatest interest to customers. We do not use Flash cookies for marketing or behavioral targeting purposes. Flash cookies are different from browser cookies and the cookie management tools provided by your browser will not remove Flash cookies. <a href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html" target="_blank">Learn how</a> to manage privacy and storage settings for Flash cookies. If you disable Flash cookies or other similar technologies, please be aware that you may not have access to certain features and services that make your online experience more efficient and enjoyable.
-        </p><h4><a name="third_party"></a>
+        
+            We may use Flash Cookies (also known as Local Stored Objects) or other similar technologies. A Flash cookie is a small data file placed on a computer using Adobe Flash technology that may be built into your computer or downloaded by you to your computer. We use these technologies to personalize and enhance your online experience, facilitate processes, personalize and store your settings. Flash cookies may help our website visitors to, for example, set volume preference associated with a video experience, play games and perform surveys. They help us improve our sites by measuring which areas are of greatest interest to customers. We do not use Flash cookies for marketing or behavioral targeting purposes. Flash cookies are different from browser cookies and the cookie management tools provided by your browser will not remove Flash cookies. Learn how to manage privacy and storage settings for Flash cookies. If you disable Flash cookies or other similar technologies, please be aware that you may not have access to certain features and services that make your online experience more efficient and enjoyable.
+        
             Third-Party Advertising Partners
-        </h4><p>
+        
             We use third-party service providers to serve advertisements (banners or links) on our behalf across the Internet.
-        </p><p>
+        
             These advertising service providers may collect non-identifiable information about your visits to our website, and your interaction with our products and services. Such non-identifiable information does not include your name, address, email address or other personal information. The information is collected through the use of cookies and pixel tags (also known as action tags), which is industry-standard technology used by most major websites.
-        </p><p>
+        
             Our third party advertising partners may use information about your visits to other websites to target advertisements for products and services available from HauteLook.
-        </p><p>
-            Currently, we use third party-placed tracking pixels and cookies from the following advertising delivery partners such as TellApart and Yahoo. In the future we may partner with other companies to provide interest-based advertising, both on and off HauteLook.com. If this occurs, you may opt-out of the partner ads by clicking on the ad and setting your opt-out.   To learn more or to opt-out of receiving interest-based advertising generally,  <a href="http://www.networkadvertising.org/" target="_blank">please visit Network Advertising Initiative.</a></p><h4>
+        
+            Currently, we use third party-placed tracking pixels and cookies from the following advertising delivery partners such as TellApart and Yahoo. In the future we may partner with other companies to provide interest-based advertising, both on and off HauteLook.com. If this occurs, you may opt-out of the partner ads by clicking on the ad and setting your opt-out.   To learn more or to opt-out of receiving interest-based advertising generally,  please visit Network Advertising Initiative.
             Social Media Interactions
-        </h4><p>
+        
             HauteLook invites you to socialize and share your fashion inspiration, finds and purchases with your friends using Social Media tools such as Facebook, Twitter, Tumblr, Pinterest and Instagram. If you choose to use these tools, you may be sharing certain profile elements, including your comments. This sharing is subject to each social media program's privacy policies. We also use Facebook Social Plugins to allow Facebook to share information and friends' activities with its members while they are on our website. For example, Social Plugins allow Facebook to show you and your friends' "Likes" on our product pages if you are logged into Facebook while shopping at HauteLook.com. HauteLook does not receive or control any of the content from Facebook Social Plugins. To remove a previously-given Facebook "Like" through HauteLook, place your cursor in the "grayed out" Like button and click on the "X" that appears. This removes the "Like" from your Facebook Page, as well as from HauteLook’s websites. You can also delete comments made while at HauteLook.com from your Facebook Page.
-        </p><p>
-            For more information about Facebook Social Plugins and other social media tools, <a href="https://developers.facebook.com/docs/plugins/" target="_blank">click here.</a></p><p>
+        
+            For more information about Facebook Social Plugins and other social media tools, click here.
             We may allow you to sign in to your HauteLook.com account using Facebook Connect. If you choose to do this, we may collect information necessary to facilitate social interactions such as friend lists, birthday, check-ins, basic profile information and your profile picture but only if the privacy settings you and your friends set within Facebook allow it. We will use the information we collect to create and facilitate an interactive social experience and to bring you products, services and programs from HauteLook. HauteLook will always comply both with its privacy policy as well as with Facebook Connect terms regarding use of Facebook profile information.
-        </p><h4>
+        
             Links to Other Websites and Services
-        </h4><p>
+        
             Websites provided by the HauteLook and the Nordstrom family of companies may include links to other Internet sites, content, or videos (embedded or direct links) maintained by third parties ('Linked Sites').  HauteLook provides Linked Sites to you solely as a convenience, and the inclusion of Linked Sites does not imply endorsement by HauteLook of the Linked Sites. You access Linked Sites at your own risk and by accessing them you leave HauteLook’s website. Linked Sites are not under the control of HauteLook and HauteLook is not responsible for the contents of any Linked Site, including the privacy policies or tracking technologies they may use. We encourage you to check the applicable privacy policy to determine how they will handle any personally identifying information they collect from you.
-        </p><h4>
+        
             Browser Do Not Track Signals
-        </h4><p>
-            Although our websites currently do not have a mechanism to recognize the various web browser Do Not Track signals, we do offer our customers choices to manage their preferences that are provided in the previous sections above. To learn more about browser tracking signals and Do Not Track please visit <a href="http://www.allaboutdnt.org" target="_blank">www.allaboutdnt.org</a></p><h4>
+        
+            Although our websites currently do not have a mechanism to recognize the various web browser Do Not Track signals, we do offer our customers choices to manage their preferences that are provided in the previous sections above. To learn more about browser tracking signals and Do Not Track please visit www.allaboutdnt.org
             Security
-        </h4><p>
+        
             We maintain physical, electronic and procedural safeguards to protect the confidentiality and security of personal information transmitted to us using this website. To help guard your information, our website uses Secure Sockets Layer (SSL). SSL encrypts your credit card number, name and address so only HauteLook is able to decode your information. Please note that email is not encrypted and is not considered to be a secure means of transmitting credit card information.
-        </p><p>
+        
             To be sure your connection is secure, look at the bottom status bar of your browser window. If you see an unbroken key or a closed lock (depending on your browser) the SSL is active and your information is secure. Most browsers offer additional security alerts as well. If for some reason you are unable to connect to our secure server, please call us toll free at 1-888-282-6060.
-        </p><p>
+        
             We also ask customers to carefully review their accounts and immediately report any unexpected activity to HauteLook and their issuing bank or credit card company. Additionally, we are asking all our customers to take measures to help protect personal information in their online accounts, including the following:
-        </p><ul><li>
+        
                 Install the latest security updates and anti-virus software on your computer or mobile devices to help prevent malware and viruses
-            </li><li>
+            
                 Reset your email account password
-            </li><li>
+            
                 Use complex passwords (a minimum of 7 alpha/numeric cAsE sEnsitive characters)
-            </li><li>
+            
                 Do not use the same password on more than one website
-            </li><li>
+            
                 Do not share your password with others
-            </li><li>
+            
                 Password protect your personal mobile device(s)
-            </li><li>
+            
                 Sign out/log off website sessions so that your session is closed and cannot be accessed by another user on the same computer, especially when using a public computer or terminal
-            </li><li>
+            
                 Visit these additional resources:
-                <ul><li><a target="_blank" href="http://www.us-cert.gov/cas/tips/">http://www.us-cert.gov/cas/tips/</a></li><li><a target="_blank" href="http://www.microsoft.com/security/pc-security/protect-pc.aspx">http://www.microsoft.com/security/pc-security/protect-pc.aspx</a></li><li><a target="_blank" href="http://www.clarkhoward.com/news/clark-howard/technology/clark-howards-virus-spyware-and-malware-protection/nFZJ/">http://www.clarkhoward.com/news/clark-howard/technology/clark-howards-virus-spyware-and-malware-protection/nFZJ/</a></li></ul></li></ul><h4>
+                http://www.us-cert.gov/cas/tips/http://www.microsoft.com/security/pc-security/protect-pc.aspxhttp://www.clarkhoward.com/news/clark-howard/technology/clark-howards-virus-spyware-and-malware-protection/nFZJ/
             Fraud Alerts: Protecting Your Personal Information
-        </h4><p>
-            You may come in contact with websites, emails or texts that try to lure you into providing personal information with an offer such as a HauteLook or Nordstrom gift card. Nordstrom does not sponsor these offers nor are we affiliated with the promotion originators. If you become aware of any potentially fraudulent activity on a website or in an email or text, please forward the information to <a href="mailto:onlinefraud@nordstrom.com">onlinefraud@nordstrom.com</a> or call us at 1-888-282-6060 so that we can follow up. We take these matters, and the protection of our customers' sensitive information, very seriously. <a href="http://shop.nordstrom.com/c/fraud-alert" target="_blank">View</a> our Fraud Alerts page.
-        </p><h4>
+        
+            You may come in contact with websites, emails or texts that try to lure you into providing personal information with an offer such as a HauteLook or Nordstrom gift card. Nordstrom does not sponsor these offers nor are we affiliated with the promotion originators. If you become aware of any potentially fraudulent activity on a website or in an email or text, please forward the information to onlinefraud@nordstrom.com or call us at 1-888-282-6060 so that we can follow up. We take these matters, and the protection of our customers' sensitive information, very seriously. View our Fraud Alerts page.
+        
             California Privacy Rights
-        </h4><p>
-            California law entitles residents to ask us for a notice describing what categories of personal information we share with third parties or with corporate affiliates (such as Nordstrom Bank, and HauteLook) for those entities direct marketing purposes. HauteLook does not provide any personal information to third parties for their own direct marketing purposes. If you want to request a notice or have any questions about  HauteLook or Nordstrom privacy practices, please contact us at <a href="mailto:privacy@nordstrom.com">privacy@nordstrom.com</a>.
-        </p><h4>
+        
+            California law entitles residents to ask us for a notice describing what categories of personal information we share with third parties or with corporate affiliates (such as Nordstrom Bank, and HauteLook) for those entities direct marketing purposes. HauteLook does not provide any personal information to third parties for their own direct marketing purposes. If you want to request a notice or have any questions about  HauteLook or Nordstrom privacy practices, please contact us at privacy@nordstrom.com.
+        
             Children's Privacy
-        </h4><p>
+        
             HauteLook  will never knowingly request or collect personal information from any person under 13 years of age without prior verifiable parental consent. If you are under 13 years old please do not provide your information on our website.
-        </p><p>
+        
             If we become aware that an individual is under the age of 13 and has submitted any information to HauteLook for any purpose without prior verifiable parental consent, we will delete his or her information from our files.
-        </p><h4>
+        
             Data Processing and Storage
-        </h4><p>
+        
             HauteLook and its third party service providers may process or store your personal information outside of the United States or Canada and other countries. In accordance with the laws of those countries, in certain circumstances your personal information may be accessible by foreign law enforcement, regulatory bodies or other authorities. For more information of our use of foreign service providers please contact us as described below.
-        </p><h4>
+        
             Your Access
-        </h4><p>
+        
             We respect your need to be able to access and update the personal information that you have provided to us. If you have registered online, you may access and update your personal information at any time by logging into your account. You may also request access and update your personal information by email or writing to HauteLook or  the Nordstrom Privacy Office at the contact information set out below (subject to certain exceptions and as prescribed by law). We may request certain personal information to verify the identity of the individual seeking access to their personal information records.
-        </p><h4>
+        
             Changes to privacy policy
-        </h4><p>
+        
             HauteLook may amend this Privacy Policy from time to time. Use of information we collect now is subject to the Privacy Policy in effect at the time such information is used. If we make changes in the way we use Personal Information, we will notify you by posting an announcement on our Website or sending you an email. You are bound by any changes to the Privacy Policy when you use the Website after such changes have been first posted.
-        </p><h4>
+        
             Questions or concerns
-        </h4><p>
+        
             If you have any questions or concerns regarding our Privacy Policy, please contact us at:
-        </p><p><strong>HauteLook</strong><br />
-            1212 S. Flower Street, Suite #300<br />
-            Los Angeles, CA 90015<br />
-            1-888-547-8438<br /><a href="mailto:membercare@hautelook.com">membercare@hautelook.com</a></p><p><strong>Nordstrom Privacy</strong><br />
-            PO Box 21986<br />
-            Seattle, WA 98111-3986<br />
-            1-866-554-6591<br /><a href="mailto:privacy@nordstrom.com">privacy@nordstrom.com</a></p><p>
+        HauteLook
+            1212 S. Flower Street, Suite #300
+            Los Angeles, CA 90015
+            1-888-547-8438membercare@hautelook.comNordstrom Privacy
+            PO Box 21986
+            Seattle, WA 98111-3986
+            1-866-554-6591privacy@nordstrom.com
             Last Updated: November 24, 2014
-        </p></div>        </div>
-    
-        <footer
-        id="module-footer"
-        class="
-            footer footer--hautelook
-            js-back-to-top__boundary--bottom
-        "
-    >
-                <div class="footer-head footer-head--hautelook">
-            <div class="footer-head__content footer-head__content--hautelook">
-                    <div class="footer-head__social-media footer-head__social-media--hautelook">
-        <a href="//facebook.com/hautelook"
-            target="_blank"
-            class="
-                social-media__link social-media__link--hautelook
-                social-media__link--facebook--hautelook
-            "
-            title="Facebook"
-        ></a>
-        <a href="//twitter.com/HauteLook"
-            target="_blank"
-            class="
-                social-media__link social-media__link--hautelook
-                social-media__link--twitter--hautelook
-            "
-            title="Twitter"
-        ></a>
-        <a href="//pinterest.com/hautelook/"
-            target="_blank"
-            class="
-                social-media__link social-media__link--hautelook
-                social-media__link--pinterest--hautelook
-            "
-            title="Pinterest"
-        ></a>
-        <a href="http://instagram.com/hautelook"
-            target="_blank"
-            class="
-                social-media__link social-media__link--hautelook
-                social-media__link--instagram--hautelook
-            "
-            title="Instagram"
-        ></a>
-        <a href="//youtube.com/user/HauteLook"
-            target="_blank"
-            class="
-                social-media__link social-media__link--hautelook
-                social-media__link--youtube--hautelook
-            "
-            title="YouTube"
-        ></a>
-    </div>
+         
 
-                    <div class="
-        footer-head__mobile-promo-compact footer-head__mobile-promo-compact--hautelook
-        mobile-promo-compact
-    ">
-        <span
-            class="
-                mobile-promo-compact__icon
-                mobile-promo-compact__icon--mobile--small
-            "
-        ></span>
-        <a
-            class="mobile-promo-compact__link"
-            href="//itunes.apple.com/us/app/hautelook/id390783984"
-        >
+
+
+
+
+
+
+
+
+
+
+
+
             iPhone
-        </a>
-        <span class="mobile-promo-compact__separator">|</span>
-        <a
-            class="mobile-promo-compact__link"
-            href="//itunes.apple.com/us/app/hautelook/id390783984"
-        >
+        
+|
+
             iPad
-        </a>
-        <span class="mobile-promo-compact__separator">|</span>
-        <a
-            class="mobile-promo-compact__link"
-            href="//play.google.com/store/apps/details?id=com.hautelook.mcom"
-        >
+        
+|
+
             Android
-        </a>
-    </div>
-            </div>
-        </div>
-        <div class="footer-body footer-body--hautelook">
-            <div class="footer-body__content">
-                    <div class="footer-body__column footer-body__column--hautelook">
-        <ul
-            class="
-                footer-body__list
-                footer-body__list--hautelook
-            "
-        >
-            <li
-                class="
-                    footer-body__list-item
-                    footer-body__list-item--first
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--heading
-                    "
-                    href="/events/all"
-                >
+        
+
+
+
+
+
+
+
+
+
                     ALL EVENTS
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/events/women"
-                >
-                    Women
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/events/men"
-                >
-                    Men
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/events/kids"
-                >
-                    Kids
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/events/home"
-                >
-                    Home
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/events/beauty"
-                >
-                    Beauty
-                </a>
-            </li>
-        </ul>
-    </div>
-
-                    <div class="footer-body__column footer-body__column--hautelook">
-        <ul
-            class="
-                footer-body__list
-                footer-body__list--first
-                footer-body__list--hautelook
-            "
-        >
-            <li
-                class="
-                    footer-body__list-item
-                    footer-body__list-item--first
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--heading
-                    "
-                    href="/orders"
-                >
-                    MY ACCOUNT
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/account"
-                >
-                    Profile
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/orders"
-                >
-                    Orders
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/returns"
-                >
-                    Returns
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/credit"
-                >
-                    Credit
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/shipping"
-                >
-                    Shipping &amp; Payment
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/preferences"
-                >
-                    Email Preferences
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/invites"
-                >
-                    Manage Invites
-                </a>
-            </li>
-        </ul>
-    </div>
-
-                    <div class="footer-body__column footer-body__column--hautelook">
-        <ul
-            class="
-                footer-body__list
-                footer-body__list--hautelook
-            "
-        >
-            <li
-                class="
-                    footer-body__list-item
-                    footer-body__list-item--first
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--heading
-                    "
-                    href="/about"
-                >ABOUT</a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="http://about.nordstrom.com/careers#/headquarters-careers/hautelook"
-                >Careers</a>
-            </li>
-        </ul>
-        <ul
-            class="
-                footer-body__list
-                footer-body__list--hautelook
-                footer-body__list--secondary
-            "
-        >
-            <li
-                class="
-                    footer-body__list-item
-                    footer-body__list-item--first
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--heading
-                    "
-                    href="//www.nordstromrack.com/rewards"
-                >MORE TO EXPLORE</a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="//www.nordstromrack.com/rewards"
-                >Nordstrom Rewards</a>
-            </li>
-            <li
-                class="
-                    footer-body__list-item
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--gift-cards
-                    "
-                    href="http://shop.nordstrom.com/c/nordstrom-gift-cards"
-                    target="_blank"
-                >
-                    Gift Cards
-                    <span
-                        class="footer-body__new-window-icon"
-                    ></span>
-                </a>
-            </li>
-        </ul>
-    </div>
-
-                    <div
-        class="
-            footer-body__column footer-body__column--hautelook
-            footer-body__column--last
-        "
-    >
-        <ul
-            class="
-                footer-body__list
-                footer-body__list--hautelook
-            "
-        >
-            <li
-                class="
-                    footer-body__list-item
-                    footer-body__list-item--first
-                "
-            >
-                <a
-                    class="
-                        footer-body__link
-                        footer-body__link--heading
-                    "
-                    href="/support"
-                >
-                    MEMBER CARE
-                </a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/ship-return-policy"
-                >Shipping &amp; Return Policy</a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/support">FAQ</a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    href="/support#contact_us_page"
-                >Contact Us</a>
-            </li>
-            <li class="footer-body__list-item">
-                <a
-                    class="footer-body__link"
-                    data-scope="right-now-chat"
-                    data-bind="click:openChat"
-                    href="#"
-                >Live Chat</a>
-            </li>
-        </ul>
-    </div>
-            </div>
-        </div>
-        <div class="footer-foot__content footer-foot__content--hautelook"><div class="footer-foot-fine-print footer-foot-fine-print--hautelook"><span
-                class="
-                    footer-foot__copy
-                    footer-foot-fine-print__copy footer-foot-fine-print__copy--hautelook
-                "
-            >
-                &copy; 2015 HauteLook | A Nordstrom Company
-            </span><a
-                class="
-                    footer-foot__link
-                    footer-foot-fine-print__link footer-foot-fine-print__link--hautelook
-                "
-                href="/help/terms"
-            >Terms &amp; Conditions</a><a
-                class="
-                    footer-foot__link
-                    footer-foot-fine-print__link footer-foot-fine-print__link--hautelook
-                "
-                href="/help/privacy"
-            >Your Privacy Rights</a><a
-                class="
-                    footer-foot__link
-                    footer-foot-fine-print__link footer-foot-fine-print__link--hautelook
-                "
-                href="/help/privacy#third_party"
-            >Interest Based Ads</a></div><div class="footer-foot-company-family"><a
-                class="
-                    footer-foot__link
-                    footer-foot__nordstrom-logo
-                "
-                href="http://shop.nordstrom.com/"
-                target="_blank"
-            ></a><a
-                class="
-                    footer-foot__link
-                    footer-foot__nordstrom-rack-logo
-                "
-                href="http://www.nordstromrack.com/?cm_mmc=site-_-footer-_-nr-_-toggle&amp;utm_source=site&amp;utm_medium=footer&amp;utm_content=nr&amp;utm_campaign=toggle"
-            ></a><a
-                class="
-                    footer-foot__link
-                    footer-foot__hautelook-logo
-                "
-                href="/"
-            ></a></div></div>            </footer>
-
-            <!-- START Tealium -->
-                    <script>
-    var utag_data = {};
-        (function(a,b,c,d){
-                    a='//tags.tiqcdn.com/utag/hautelook/main/prod/utag.js';
-                b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
-        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
-    }) ();
-</script>
-                <!-- END Tealium -->
-
-                    <script>
-$.cachedScript("//cdn.ravenjs.com/1.1.16/raven.min.js").done(function() {
-    var dsn = ENV.SENTRY_DSN;
-    if (!dsn) {
-        return;
-    }
-
-    var options = {
-        whitelistUrls: [
-            /hautelook\.com/,
-            /nordstromrack\.com/,
-            /optimizely\.com/
-        ]
-    };
-
-    Raven.config(dsn, options).install()
-});
-</script>
-        
-                <script src="/bundles/hautelooklayout/js/router.js?unknown"></script>
-        
-        <script src="/bundles/assets/scripts/body.js?unknown"></script>
-
-        <!-- START Google Analytics -->
-                    <script defer src='//www.google-analytics.com/analytics.js'></script>
-<script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
-    ga.l=+new Date;
-    window.ga('create', ENV.GAT_UA, {'cookieDomain': ENV.COOKIE_DOMAIN});
-    // Optimizely Universal Analytics Integration Code
-    window.optimizely = window.optimizely || [];
-    window.optimizely.push("activateUniversalAnalytics");
-    // End Optimizely Code
-    window.ga('send', 'pageview');
-    window.ga('require', 'ec');
-</script>
-                <!-- END Google Analytics -->
-
-        <!-- START Core Metrics -->
-                    <script src="//libs.coremetrics.com/eluminate.js"></script>
-<script>
-    // Client Managed First Party
-    cmSetClientID("90409691",true,"data.coremetrics.com","hautelook.com");
-</script>
-                <!-- END Core Metrics -->
-
-        <!-- START Fit Predictor -->
-                    <script>
-    window.ssp_key = 'hautelook';
-    window.ssp_version = 'v1';
-
-    window.ssp = window.ssp||function(){(window.ssp.q=window.ssp.q||[]).push(arguments)};
-    ssp.SNIPPET_VERSION="1.0.1";
-</script>
-<script async src="//hautelook.sspinc.io/v1/ssp.js"></script>
-                <!-- END Fit Predictor -->
-
-        <!-- START Sociable Labs -->
-                    <script defer src="//d2ibutkotxl0ax.cloudfront.net/prod/sociable-tag.js" id="sociablejs" data-sl-token="c4372b55"></script>
-<script>
-    (function(){
-        var email = '';
-        var memberCookie = Cookies.get('hauteLookMember');
-
-        if (memberCookie) {
-            var parsedCookie = JSON.parse(memberCookie);
-            email = parsedCookie.email;
-        }
-
-        window.ODY = window.ODY || [];
-        window.SLMetaData = window.SLMetaData || {
-            email: email
-        };
-    })();
-</script>
-                <!-- END Sociable Labs -->
-
-        <script>
-            requireModule('hldesktop/app');
-        </script>
-
-            <script>
-        requireModule('hldesktop/app').send("enableMarketingIdentifierProcessing");
-    </script>
-
-            <script>
-        requireModule('hldesktop/app').send("notifyAnalytics", "page-viewed");
-    </script>
-
-
-    
                 
-    </body>
-</html>
+
+
+
+                    Women
+                
+
+
+
+                    Men
+                
+
+
+
+                    Kids
+                
+
+
+
+                    Home
+                
+
+
+
+                    Beauty
+                
+
+
+
+
+
+
+
+                    MY ACCOUNT
+                
+
+
+
+                    Profile
+                
+
+
+
+                    Orders
+                
+
+
+
+                    Returns
+                
+
+
+
+                    Credit
+                
+
+
+
+                    Shipping & Payment
+                
+
+
+
+                    Email Preferences
+                
+
+
+
+                    Manage Invites
+                
+
+
+
+
+
+
+ABOUT
+
+
+Careers
+
+
+
+
+MORE TO EXPLORE
+
+
+Nordstrom Rewards
+
+
+
+                    Gift Cards
+                    
+
+
+
+
+
+
+
+
+                    MEMBER CARE
+                
+
+
+Shipping & Return Policy
+
+
+FAQ
+
+
+Contact Us
+
+
+Live Chat
+
+
+
+
+
+
+                © 2015 HauteLook | A Nordstrom Company
+            Terms & ConditionsYour Privacy RightsInterest Based Ads 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
