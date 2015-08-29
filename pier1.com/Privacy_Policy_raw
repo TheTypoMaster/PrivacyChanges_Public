@@ -727,22 +727,22 @@ var monetateT = new Date().getTime();
 <script>jqversion = 'jquery-1.11.1.min.js';</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/css/main-desktop_IE8.css" />
+<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/css/main-desktop_IE8.css" />
 <![endif]-->
 
 <!--[if gte IE 9]><!-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
-<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/css/main-desktop.min.css" />
+<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/css/main-desktop.min.css" />
 <!--<![endif]-->
 
-<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/jquery.loadTemplate-1.4.4.js"></script>  
+<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/jquery.loadTemplate-1.4.4.js"></script>  
 
 <!-- fallback for when CDN is not available -->
-<script>window.jQuery || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/lib/jquery/' + jqversion +'">\x3C/script>')</script>
+<script>window.jQuery || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/lib/jquery/' + jqversion +'">\x3C/script>')</script>
 
-<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/jquery.cookie.js"></script>
-<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/vendor/jquery.custom.dialog.js"></script>
+<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/jquery.cookie.js"></script>
+<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/vendor/jquery.custom.dialog.js"></script>
 
 
 
@@ -771,13 +771,13 @@ var monetateT = new Date().getTime();
 
 	
 		
-			<link href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/_head-css.css" rel="stylesheet" />
+			<link href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/_head-css.css" rel="stylesheet" />
 
 <!--[if lte IE 8]>
-<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/_head-ie8-css.css"/>
+<link rel="stylesheet" href="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/_head-ie8-css.css"/>
 <![endif]-->
 
-<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/_head-js.js"></script>
+<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/_head-js.js"></script>
 <script>
    /* debug */
 $(document).ready(function(){
@@ -793,7 +793,7 @@ $(document).ready(function(){
 	
  
 	
-<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/internal/jscript/dwac-14.8.js"></script>
+<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/internal/jscript/dwac-14.8.js"></script>
 
 	</head>
 	<body class="desktop">
@@ -1072,7 +1072,7 @@ $(document).ready(function(){
 							Create Your Account
 						</button>
 					</div>
-					<input type="hidden" name="dwfrm_login_securekey" value="265388084"/>
+					<input type="hidden" name="dwfrm_login_securekey" value="161929274"/>
 				</fieldset>
 			</form>
 			
@@ -2065,7 +2065,7 @@ and (max-device-width : 480px) {
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/css/modal-promo-150202.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/css/modal-promo-150202.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -2608,15 +2608,6 @@ and (max-device-width : 480px) {
 									
 							<div class="level-5">
 							
-								<a href="http://www.pier1.com/outdoor/standard-seating/outdoor-benches,default,sc.html">
-									Benches
-								</a>
-							</div>
-						
-							
-									
-							<div class="level-5">
-							
 								<a href="http://www.pier1.com/outdoor/standard-seating/outdoor-rocking-chairs,default,sc.html">
 									Rocking Chairs &amp; Motion
 								</a>
@@ -2691,7 +2682,15 @@ and (max-device-width : 480px) {
 						
 						
 						
-							
+						
+						<div class="level-4">
+							<a href="http://www.pier1.com/outdoor/outdoor-storage,default,sc.html">
+								Furniture Covers & Storage
+							</a>
+						</div>
+
+						
+					
 						
 						
 						
@@ -2769,6 +2768,8 @@ and (max-device-width : 480px) {
 							</div>
 						
 							
+								
+							
 									
 							<div class="level-5">
 							
@@ -2783,15 +2784,6 @@ and (max-device-width : 480px) {
 							
 								<a href="http://www.pier1.com/outdoor/outdoor-dining-furniture/outdoor-bar-carts-and-sideboards,default,sc.html">
 									Bar Carts &amp; Sideboards
-								</a>
-							</div>
-						
-							
-									
-							<div class="level-5">
-							
-								<a href="http://www.pier1.com/outdoor/outdoor-dining-furniture/bistro-sets,default,sc.html">
-									Bistro Sets
 								</a>
 							</div>
 						
@@ -2904,7 +2896,21 @@ and (max-device-width : 480px) {
 						
 						
 						
+						
+						<div class="level-4">
+							<a href="http://www.pier1.com/outdoor/umbrellas,default,sc.html">
+								Patio Umbrellas
+							</a>
+						</div>
+
+						
 							
+								
+							
+								
+							
+								
+					
 						
 						
 						
@@ -2944,6 +2950,11 @@ and (max-device-width : 480px) {
 						
 						
 							
+						
+						
+							
+						
+						
 						
 						
 							
@@ -3072,47 +3083,13 @@ and (max-device-width : 480px) {
 							</div>
 						
 							
-									
-							<div class="level-5">
-							
-								<a href="http://www.pier1.com/Pet-Accessories/pet-accessories,default,sc.html">
-									Pet Accessories
-								</a>
-							</div>
-						
-					
-						
-						
-						
-						
-						
-						<div class="level-4">
-							<a href="http://www.pier1.com/outdoor/umbrellas,default,sc.html">
-								Patio Umbrellas
-							</a>
-						</div>
-
-						
-							
-								
-							
-								
-							
 								
 					
 						
 						
 						
 						
-						
-						<div class="level-4">
-							<a href="http://www.pier1.com/outdoor/outdoor-storage,default,sc.html">
-								Furniture Covers & Storage
-							</a>
-						</div>
-
-						
-					
+							
 						
 						
 						
@@ -4040,8 +4017,8 @@ and (max-device-width : 480px) {
 						
 						
 						<div class="level-4">
-							<a href="http://www.pier1.com/Monogram-Shop/monogram-collections-rugs-menu,default,sc.html">
-								Monogram Shop
+							<a href="http://www.pier1.com/The-Monogram-Shop/monogram-collections-rugs-menu,default,sc.html">
+								The Monogram Shop
 							</a>
 						</div>
 
@@ -4437,8 +4414,8 @@ and (max-device-width : 480px) {
 						
 						
 						<div class="level-4">
-							<a href="http://www.pier1.com/Monogram-Shop/monogram-collections-pillows-menu,default,sc.html">
-								Monogram Shop
+							<a href="http://www.pier1.com/The-Monogram-Shop/monogram-collections-pillows-menu,default,sc.html">
+								The Monogram Shop
 							</a>
 						</div>
 
@@ -4968,7 +4945,7 @@ and (max-device-width : 480px) {
 							<div class="level-5">
 							
 								<a href="http://www.pier1.com/dining_entertaining/features/dining-monogram-redirect,default,sc.html">
-									Monogram Shop
+									The Monogram Shop
 								</a>
 							</div>
 						
@@ -5757,8 +5734,8 @@ and (max-device-width : 480px) {
 						
 						
 						<div class="level-4">
-							<a href="http://www.pier1.com/Monogram-Shop/monogram-collections-wall-decor-menu,default,sc.html">
-								Monogram Shop
+							<a href="http://www.pier1.com/The-Monogram-Shop/monogram-collections-wall-decor-menu,default,sc.html">
+								The Monogram Shop
 							</a>
 						</div>
 
@@ -6523,8 +6500,8 @@ and (max-device-width : 480px) {
 						
 						
 						<div class="level-4">
-							<a href="http://www.pier1.com/Monogram-Shop/monogram-collections-decor-menu,default,sc.html">
-								Monogram Shop
+							<a href="http://www.pier1.com/The-Monogram-Shop/monogram-collections-decor-menu,default,sc.html">
+								The Monogram Shop
 							</a>
 						</div>
 
@@ -8356,7 +8333,7 @@ and (max-device-width : 480px) {
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/global/banner/global-banner-150730.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/global/banner/global-banner-150730.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -8933,7 +8910,7 @@ and (max-device-width : 480px) {
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/customer_relations/site_policies/Site-Policies-150210.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/customer_relations/site_policies/Site-Policies-150210.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -9241,7 +9218,7 @@ width:55%;
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/customer_relations/site_policies/Site-Policies-150210.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/customer_relations/site_policies/Site-Policies-150210.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -9945,7 +9922,7 @@ $(document).ready(function(){
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440806741939/css/modal-window.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440836728229/css/modal-window.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -10222,10 +10199,10 @@ Order by 11:59 pm CT on June 25 and receive your order anywhere in the contiguou
 
 	
 	
-	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/omniture/omniture_helpers.js"></script>	
-	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/omniture/s_code.js"></script>	
-	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/omniture/handle_events.js"></script>
-	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/omniture/attach_events.js"></script>
+	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/omniture/omniture_helpers.js"></script>	
+	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/omniture/s_code.js"></script>	
+	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/omniture/handle_events.js"></script>
+	<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/omniture/attach_events.js"></script>
 
 
 
@@ -10237,7 +10214,7 @@ Order by 11:59 pm CT on June 25 and receive your order anywhere in the contiguou
 		
 		
 		<script>
-			var omnLocale = "en_US";
+			var omnLocale = "en_GB";
 var omnShippingMethod = "";
 var omnAccount = "";
 var omnEmail = "";
@@ -10282,7 +10259,7 @@ omnRemoteIP = "52.2.142.173";
 omnServer = omnRemoteIP;
 omnDay = "Saturday";
 omnWeekday = "WeekEnd";
-omnHour=  "1";
+omnHour=  "2";
 omnReferrerURL= "";
 omnDeviceType= "desktop";
 </script>
@@ -10354,8 +10331,8 @@ var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 	
 		<script language="JavaScript" type="text/javascript"></script>
 
-		<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/analytics/handle_events.GA.js"></script>
-		<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/analytics/attach_events.GA.js"></script>
+		<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/analytics/handle_events.GA.js"></script>
+		<script language="JavaScript" type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/analytics/attach_events.GA.js"></script>
 	
 
 
@@ -10600,8 +10577,8 @@ lpAddVars('session','Demandware','true');
 <script src="//ajax.aspnetcdn.com/ajax/knockout/knockout-3.1.0.js"></script>
 <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
 
-<script>window.ko || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/knockout-3.1.0.js">\x3C/script>')</script>
-<script>window.jQuery.validator || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/jquery.validate.min.js">\x3C/script>')</script>
+<script>window.ko || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/knockout-3.1.0.js">\x3C/script>')</script>
+<script>window.jQuery.validator || document.write('<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/jquery.validate.min.js">\x3C/script>')</script>
 
 
 <script src="/on/demandware.store/Sites-pier1_us-Site/default/Resources-Load?t=appresources"></script>
@@ -10611,7 +10588,7 @@ lpAddVars('session','Demandware','true');
 
 
 
-		<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/js/built.js"></script>
+		<script src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/js/built.js"></script>
 </iselseif>
 
 <script>
@@ -10631,7 +10608,7 @@ lpAddVars('session','Demandware','true');
 	<div id="dialog-container"></div>
 </div>
 	<!-- Demandware Analytics code 1.0 -->
-<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440806741939/internal/jscript/dwanalytics.js"></script>
+<script type="text/javascript" src="http://demandware.edgesuite.net/aaid_prd/on/demandware.static/Sites-pier1_us-Site/-/default/v1440836728229/internal/jscript/dwanalytics.js"></script>
 <script type="text/javascript">//<!--
 /* <![CDATA[ */
 try{

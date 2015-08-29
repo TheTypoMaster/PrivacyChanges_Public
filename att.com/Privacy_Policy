@@ -24,8 +24,6 @@
 // Updated 07-29-2015 | Keith Davis - KD5879 //
 // Updated 08-11-2015 | Keith Davis - KD5879 //
 // Updated 08-12-2015 | Keith Davis - KD5879 //
-// Updated 08-27-2015 | Keith Davis - KD5879 //
-// Updated 08-28-2015 | Keith Davis - KD5879 //
  
 if (location.pathname == '/Common/about_us/privacy_policy/print_policy.html') {
 	pid = 'printversion';
@@ -183,9 +181,9 @@ function setFaqContent(sectionID)
 			+ 'What does this Policy cover?'
 			+ 'This Privacy Policy covers our practices regarding the information we collect about our customers and users (how we collect it and how we use it). Use of our products and services, as well as visits to our websites, are subject to this Privacy Policy.'
 			+ 'Do you have any Privacy Policies other than this one?'
-						+ 'Yes. AT&T companies that do not operate under our brand, or certain co-branded services, may have separate privacy policies'
-			+ 'Some areas outside the United States require us to work a little differently. In that case, AT&T may adopt separate privacy policies as necessary to reflect the requirements of applicable local laws, such as with our wireless operations in Mexico. Satellite TV subscribers in certain U.S. Territories also may have separate privacy policies. Satellite TV subscribers in certain U.S. Territories also may have separate privacy policies.'
-			+ 'The Joint AT&T EchoStar Privacy Policy for AT&T|DISH Network Customer Account Information remains in effect for AT&T|DISH subscribers.'			
+			+ 'Yes. The Joint AT&T EchoStar Privacy Policy for AT&T|DISH Network Customer Account Information remains in effect for AT&T|DISH subscribers.'
+			+ 'AT&T companies that do not operate under our brand, or certain co-branded services, may have separate privacy policies'
+			+ 'Some areas outside the United States require us to work a little differently. In that case, AT&T may adopt separate privacy policies as necessary to reflect the requirements of applicable local laws. Satellite TV subscribers in certain U.S. Territories also may have separate privacy policies. Satellite TV subscribers in certain U.S. Territories also may have separate privacy policies.'			
 			+ ' What about my family members and other users of my AT&T account? Does this Policy apply to them?'
 			+ ' Yes. You're responsible for making sure all family members or other users under your account understand and agree to this Policy. Get everyone together and talk about it. Or, send it by e-mail to make sure they're on board. Hang it on the fridge. Up to you, just share it! '
 			+ 'When is information not covered by this Policy?'
