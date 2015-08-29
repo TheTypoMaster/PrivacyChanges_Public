@@ -125,8 +125,8 @@ var bannerUrl0 = '%6943%Home_Page%Home_Page%728X180_TOP'.replace(/%/g,'/'); var 
 
 googletag.enableServices();});</script></head>
 <body >
-    <form method="post" action="/LandedPages/TermsOfService.aspx" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="52KFwgF2RzJwkWQ3CQ9XAjLKdxVfTIGVMGFtGFIs7D67lSnTLK/Ss+wNPfQNKPpwwIkC9zxvPiTbfd0UNqkwoBOxHE1AwurWvfzQj/3bxPbE1suEPRUbhzk2zfzIzyZmcYxvMjri5QdlYzYoGDS680pjgK+YKH36acXQvvUIzs49lqLIURhbXL+JrYHG5ktm" />
+    <form method="post" action="/LandedPages/termsofservice.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="oFdx1D4eQxtWg5e7uQ+P/4934PABU8GEI78wR3/dXQFBeTfsPOiSmdXIroX3qs89Lp91NA5lUbY1J2awSK+lBXIx5BxntNErKvwvqBCmKUfvSYfglymUJyzZnvW2ovZylRjXSrjTenSVigodA8gCuXxzLwkds+MxpLUk9MCgJ2HEuDq6tYe61IQZyaAzBsno" />
 
         <div class="container">
             
@@ -353,6 +353,16 @@ var _zaVer=4,_zaq=_zaq||[];
 	<ul>
         
 		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Study-Americans-make-up-15-percent-of-settler-population-in-West-Bank-413610'>
+				        <img class="sub-menu-featured-item-img" alt='west bank settlement'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=254557&h=123&w=210' 
+                                     title='Palestinian laborers work on a construction site in a religious Jewish settlement in the West Bank. [File] Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">Study: Americans make up 15% of settler population in West Bank</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Israel-hits-back-at-Swiss-envoys-ugly-act-in-showing-Netanyahu-bird-droppings-cartoon-413605'>
 				        <img class="sub-menu-featured-item-img" alt='Benjamin Netanyahu '  
                                      data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=292645&h=123&w=210' 
@@ -379,16 +389,6 @@ var _zaVer=4,_zaq=_zaq||[];
                                      title='Mayor of Jerusalem Nir Barkat and Chief Rabbi Yitzhak Yosef brought in the Hanukka holiday Tuesday evening at a ceremony by the Western Wall Photo By: WESTERN WALL HERITAGE FOUNDATION'/>
                         
 				        <p class="sub-menu-featured-item-text">‘Borderline corruption’ alleged against haredi political parties, chief rabbi</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Foreign-Ministry-head-Gold-hopeful-Israel-Turkey-will-reconcile-soon-413552'>
-				        <img class="sub-menu-featured-item-img" alt='Dore Gold'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=287437&h=123&w=210' 
-                                     title='Dore Gold Photo By: REUTERS'/>
-                        
-				        <p class="sub-menu-featured-item-text">Foreign Ministry head Gold ‘hopeful’ Israel, Turkey will reconcile soon</p>
 			        </a>
 		        </li>
             
@@ -502,6 +502,26 @@ var _zaVer=4,_zaq=_zaq||[];
 	<ul>
         
 		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Israel-News/Homeland-creator-to-direct-film-on-Israels-rescue-of-Ethiopian-Jews-413617'>
+				        <img class="sub-menu-featured-item-img" alt='Ethiopian Jews'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=264274&h=123&w=210' 
+                                     title='Members of the Ethiopian Jewish community in Israel mark the holiday of Sigd in Jerusalem November 20, 2014 Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">‘Homeland’ creator to direct film on Israel’s rescue of Ethiopian Jews</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Study-Americans-make-up-15-percent-of-settler-population-in-West-Bank-413610'>
+				        <img class="sub-menu-featured-item-img" alt='west bank settlement'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=254557&h=123&w=210' 
+                                     title='Palestinian laborers work on a construction site in a religious Jewish settlement in the West Bank. [File] Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">Study: Americans make up 15% of settler population in West Bank</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Israel-hits-back-at-Swiss-envoys-ugly-act-in-showing-Netanyahu-bird-droppings-cartoon-413605'>
 				        <img class="sub-menu-featured-item-img" alt='Benjamin Netanyahu '  
                                      data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=292645&h=123&w=210' 
@@ -518,26 +538,6 @@ var _zaVer=4,_zaq=_zaq||[];
                                      title='Prime Minister Benjamin Netanyahu visits the Israeli pavilion at Expo 2015 in Milan Photo By: REUTERS'/>
                         
 				        <p class="sub-menu-featured-item-text">Switzerland regrets cartoon showing doves defecating on Netanyahu</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Borderline-corruption-alleged-against-haredi-political-parties-chief-rabbi-413558'>
-				        <img class="sub-menu-featured-item-img" alt='Western Wall'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=266974&h=123&w=210' 
-                                     title='Mayor of Jerusalem Nir Barkat and Chief Rabbi Yitzhak Yosef brought in the Hanukka holiday Tuesday evening at a ceremony by the Western Wall Photo By: WESTERN WALL HERITAGE FOUNDATION'/>
-                        
-				        <p class="sub-menu-featured-item-text">‘Borderline corruption’ alleged against haredi political parties, chief rabbi</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Israel-News/Politics-And-Diplomacy/Foreign-Ministry-head-Gold-hopeful-Israel-Turkey-will-reconcile-soon-413552'>
-				        <img class="sub-menu-featured-item-img" alt='Dore Gold'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=287437&h=123&w=210' 
-                                     title='Dore Gold Photo By: REUTERS'/>
-                        
-				        <p class="sub-menu-featured-item-text">Foreign Ministry head Gold ‘hopeful’ Israel, Turkey will reconcile soon</p>
 			        </a>
 		        </li>
             
@@ -573,6 +573,18 @@ var _zaVer=4,_zaq=_zaq||[];
 <div class="sub-menu-featured-items-wrap">
 	<ul>
         
+		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Arab-Israeli-Conflict/WATCH-Palestinians-struggle-with-IDF-soldier-preventing-boys-arrest-413627'>
+				        <img class="sub-menu-featured-item-img" alt='IDF soldier attacked by Palestinians, August 28, 2015'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297343&h=123&w=210' 
+                                     title='IDF soldier attacked by Palestinians, August 28, 2015 Photo By: REUTERS'/>
+                                               
+                            <span class="sub-menu-featured-item-image-video"><i class="icon" data-icon="m"></i></span>
+                        
+				        <p class="sub-menu-featured-item-text">WATCH: Palestinians struggle with IDF soldier, preventing boy's arrest</p>
+			        </a>
+		        </li>
+            
 		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Arab-Israeli-Conflict/Family-of-missing-soldier-slams-Hamas-lies-broadcast-on-Al-Jazeera-413561'>
 				        <img class="sub-menu-featured-item-img" alt='Sec.-Lt. Hadar Goldin '  
@@ -613,16 +625,6 @@ var _zaVer=4,_zaq=_zaq||[];
 			        </a>
 		        </li>
             
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Arab-Israeli-Conflict/UNRWA-Facebook-page-with-racist-posts-isnt-ours-413485'>
-				        <img class="sub-menu-featured-item-img" alt='UNRWA '  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=296848&h=123&w=210' 
-                                     title='THIS IMAGE on an UNRWA school’s Facebook page has aroused outrage. Photo By: FACEBOOK'/>
-                        
-				        <p class="sub-menu-featured-item-text">UNRWA: Facebook page with racist posts isn’t ours</p>
-			        </a>
-		        </li>
-            
 	</ul>
 </div>
 					        </div>
@@ -656,6 +658,36 @@ var _zaVer=4,_zaq=_zaq||[];
 	<ul>
         
 		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Diaspora/Jewish-CEO-of-Ashley-Madison-infidelity-site-resigns-amid-hacking-scandal-413624'>
+				        <img class="sub-menu-featured-item-img" alt='Ashley Madison'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=288361&h=123&w=210' 
+                                     title='Ashley Madison online advertisement Photo By: screenshot'/>
+                        
+				        <p class="sub-menu-featured-item-text">Jewish CEO of Ashley Madison infidelity site resigns amid hacking scandal</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Diaspora/Yazidi-leaders-demand-Jewish-Schindler-prove-he-is-saving-people-413622'>
+				        <img class="sub-menu-featured-item-img" alt='isis'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=290695&h=123&w=210' 
+                                     title='Yazidi refugee. Photo By: AHMAD AL-RUBAYE / AFP'/>
+                        
+				        <p class="sub-menu-featured-item-text">Yazidi leaders demand ‘Jewish Schindler’ prove he is saving people</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Diaspora/Report-Iran-cancels-Israeli-conductors-Tehran-performance-413615'>
+				        <img class="sub-menu-featured-item-img" alt='Daniel Barenboim'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297043&h=123&w=210' 
+                                     title='Israeli-Argentine conductor Daniel Barenboim Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">Report: Iran cancels Israeli conductor’s Tehran performance</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Diaspora/Jews-have-too-much-power-and-must-be-stopped-white-supremacist-shooter-tells-jury-413602'>
 				        <img class="sub-menu-featured-item-img" alt='Frazier Glenn Cross Jr, also known as Glenn Miller, sits in a courtroom in Olathe, Kansas'  
                                      data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297340&h=123&w=210' 
@@ -672,36 +704,6 @@ var _zaVer=4,_zaq=_zaq||[];
                                      title='People are silhouetted as they pose with mobile devices in front of a screen projected with a Facebook logo. Photo By: REUTERS'/>
                         
 				        <p class="sub-menu-featured-item-text">Germany warns Facebook: Clamp down on Holocaust denial - or else</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Diaspora/Poland-almost-certain-it-has-located-buried-Nazi-train-413593'>
-				        <img class="sub-menu-featured-item-img" alt='Survivors of Auschwitz arrive to the former camp in Oswiecim'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297337&h=123&w=210' 
-                                     title='Survivors of Auschwitz arrive to the former camp in Oswiecim Photo By: REUTERS'/>
-                        
-				        <p class="sub-menu-featured-item-text">Poland almost certain it has located buried Nazi train</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Diaspora/LIVE-STREAMING-Obama-gives-special-Iran-deal-address-to-North-American-Jews-413590'>
-				        <img class="sub-menu-featured-item-img" alt='US President Barack Obama laughs during a meeting at the White House'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297334&h=123&w=210' 
-                                     title='US President Barack Obama laughs during a meeting at the White House Photo By: OFFICIAL WHITE HOUSE PHOTO / PETE SOUZA'/>
-                        
-				        <p class="sub-menu-featured-item-text">Obama predicts 'pretty quick' US-Israel realignment on Iran</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Diaspora/Spanish-broadcaster-apologizes-for-Jewish-Satanism-show-413584'>
-				        <img class="sub-menu-featured-item-img" alt='Anti-Semitic graffiti is seen on a monument dedicated to the victims of the Krakow ghetto'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=297328&h=123&w=210' 
-                                     title='Anti-Semitic graffiti is seen on a monument dedicated to the victims of the Krakow ghetto located at the site of the former concentration camp in Plaszczow Photo By: REUTERS'/>
-                        
-				        <p class="sub-menu-featured-item-text">Spanish broadcaster apologizes for ‘Jewish Satanism’ show</p>
 			        </a>
 		        </li>
             
@@ -778,6 +780,16 @@ var _zaVer=4,_zaq=_zaq||[];
 	<ul>
         
 		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Middle-East/ISIS-Threat/US-confirms-Islamic-State-computer-expert-killed-in-air-strike-413612'>
+				        <img class="sub-menu-featured-item-img" alt='Computer hacking'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=295303&h=123&w=210' 
+                                     title='Computer hacking (illustrative) Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">US confirms Islamic State computer expert killed in air strike</p>
+			        </a>
+		        </li>
+            
+		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Middle-East/ISIS-Threat/Analysis-Is-ISIS-here-to-stay-in-the-Middle-East-413475'>
 				        <img class="sub-menu-featured-item-img" alt='ISIS executes Syrian soldiers in ruins of ampitheater in Palmyra'  
                                      data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=291712&h=123&w=210' 
@@ -807,18 +819,6 @@ var _zaVer=4,_zaq=_zaq||[];
 			        </a>
 		        </li>
             
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Middle-East/ISIS-Threat/WATCH-Iraqi-warplanes-bomb-ISIS-targets-413214'>
-				        <img class="sub-menu-featured-item-img" alt='isis'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=296920&h=123&w=210' 
-                                     title='Iraq releases video of air strikes on ISIS Photo By: REUTERS'/>
-                                               
-                            <span class="sub-menu-featured-item-image-video"><i class="icon" data-icon="m"></i></span>
-                        
-				        <p class="sub-menu-featured-item-text">WATCH: Iraqi warplanes bomb ISIS targets</p>
-			        </a>
-		        </li>
-            
 	</ul>
 </div></li>
 			
@@ -830,6 +830,16 @@ var _zaVer=4,_zaq=_zaq||[];
 <div class="sub-menu-featured-items-wrap">
 	<ul>
         
+		        <li class="sub-menu-featured-item">
+			        <a href='http://www.jpost.com/Middle-East/ISIS-Threat/US-confirms-Islamic-State-computer-expert-killed-in-air-strike-413612'>
+				        <img class="sub-menu-featured-item-img" alt='Computer hacking'  
+                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=295303&h=123&w=210' 
+                                     title='Computer hacking (illustrative) Photo By: REUTERS'/>
+                        
+				        <p class="sub-menu-featured-item-text">US confirms Islamic State computer expert killed in air strike</p>
+			        </a>
+		        </li>
+            
 		        <li class="sub-menu-featured-item">
 			        <a href='http://www.jpost.com/Middle-East/Iran/US-State-Department-clarifies-description-of-Parchin-as-nuclear-site-413598'>
 				        <img class="sub-menu-featured-item-img" alt='International Atomic Energy Agency (IAEA) Director-General Yukiya Amano is seen through a camera'  
@@ -859,16 +869,6 @@ var _zaVer=4,_zaq=_zaq||[];
                                      title='Adam Szubin, the acting undersecretary of treasury for terrorism and financial fntelligence  Photo By: REUTERS'/>
                         
 				        <p class="sub-menu-featured-item-text">Obama aide due to arrive in Israel for talks on Iran nuclear deal</p>
-			        </a>
-		        </li>
-            
-		        <li class="sub-menu-featured-item">
-			        <a href='http://www.jpost.com/Middle-East/Europe-scrambling-for-a-solution-as-migrant-crisis-hits-a-peak-413570'>
-				        <img class="sub-menu-featured-item-img" alt='Four-year-old Rashida from Kobani, Syria, part of a new group of more than a thousand immigrants'  
-                                     data-original='http://www.jpost.com/HttpHandlers/ShowImage.ashx?id=296642&h=123&w=210' 
-                                     title='Four-year-old Rashida from Kobani, Syria, part of a new group of more than a thousand immigrants, sleeps as they wait at border line of Macedonia and Greece to enter into Macedonia Photo By: REUTERS'/>
-                        
-				        <p class="sub-menu-featured-item-text">Europe scrambling for a solution as migrant crisis hits a peak</p>
 			        </a>
 		        </li>
             

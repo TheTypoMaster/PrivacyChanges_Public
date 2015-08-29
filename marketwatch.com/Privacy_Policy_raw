@@ -396,7 +396,7 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">10:24 <span>AM EDT</span></div>
+	<div class="currenttime">11:39 <span>AM EDT</span></div>
 	<div class="currentdate">August 29, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
@@ -455,6 +455,10 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724610"><span class="timestamp"><span>11:15a</span></span><p><a href="/story/are-your-retirement-drawdown-strategies-meeting-your-needs-2015-08-29?link=MW_latest_news" target="_blank">Are your retirement drawdown strategies meeting your needs?</a></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724609"><span class="timestamp"><span>10:59a</span></span><p><a href="/story/facebook-users-flood-mark-zuckerberg-with-thank-yous-2015-08-29?link=MW_latest_news" target="_blank">Facebook users flood Mark Zuckerberg with thank you’s</a></p></li>
+
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724608"><span class="timestamp"><span>10:11a</span></span><p><a href="/story/dont-panic-dont-sell-plan-2015-08-26?link=MW_latest_news" target="_blank">Don’t panic, don’t sell — plan</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724607"><span class="timestamp"><span>10:09a</span></span><p><a href="/story/worried-about-your-investments-heres-the-best-advice-2015-08-29?link=MW_latest_news" target="_blank">Worried about your investments? Here’s the best advice</a></p></li>
@@ -490,10 +494,6 @@
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724588"><span class="timestamp"><span>5:51p</span></span><p><a href="/story/pbf-energy-reports-chemical-leak-in-delaware-refinery-wsj-2015-08-28?link=MW_latest_news" target="_blank">PBF Energy reports chemical leak in Delaware refinery</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724586"><span class="timestamp"><span>5:35p</span></span><p><a href="/story/nassim-talebs-black-swan-fund-made-1-billion-this-week-2015-08-28-171033431?link=MW_latest_news" target="_blank">Nassim Taleb’s ‘Black Swan’ fund made $1 billion this week</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724584"><span class="timestamp"><span>5:06p</span></span><p><a href="/story/staples-office-depot-to-delay-close-of-merger-on-ftc-request-2015-08-28?link=MW_latest_news" target="_blank">Staples, Office Depot to delay close of merger on FTC request</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724583"><span class="timestamp"><span>5:03p</span></span><p><a href="/story/drug-maker-cortendo-files-for-ipo-2015-08-28?link=MW_latest_news" target="_blank">Drug maker Cortendo files for IPO</a></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -660,7 +660,7 @@ Biggest Political Disrupters
 
 
 			</li>
-			<li class="">
+			<li class=" invisible">
 				<div class="invisible startdate">1368511200000</div>
 				<div class="invisible enddate">1368511200000</div>
 				
@@ -713,7 +713,7 @@ Winning a credit-agency dispute
 
 
 			</li>
-			<li class=" invisible">
+			<li class="">
 				<div class="invisible startdate">1367820000000</div>
 				<div class="invisible enddate">1367820000000</div>
 				
@@ -903,7 +903,7 @@ Winning a credit-agency dispute
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Saturday";
-			            s.eVar32 = "09:00";
+			            s.eVar32 = "10:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1124,7 +1124,7 @@ Winning a credit-agency dispute
         
 		MarketWatch.Kiosk.setup("#kiosk",
 		{
-			startIndex: 2,
+			startIndex: 3,
 			autostart: true,
 			refresh: true,
 			adInRotation: false
@@ -1144,7 +1144,7 @@ Winning a credit-agency dispute
          };
 
          MarketWatch.DayParting.setup({
-            time: new Date("Sat, 29 Aug 2015 14:24:42 GMT"),
+            time: new Date("Sat, 29 Aug 2015 15:39:02 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });
