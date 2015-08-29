@@ -905,9 +905,9 @@ mboxCreate('global_nav','type='+Dtv.Profile.type,'visit='+Dtv.Profile.visit,'pro
 	
 
 <!-- DBUG
-SNAME:PXDTPW09D
-PID:ANON:4319674461_px
-LID:4601997629
+SNAME:DXDTPW20B
+PID:ANON:4380919444_dn
+LID:4646144073
 
 
 isPr:false
@@ -917,12 +917,12 @@ isAuto:false
 
 -->
 <ul id="DBUG" style="display:none;font-size:1px;">
-	<li id="DBUG_SNAME">PXDTPW09D</li>
+	<li id="DBUG_SNAME">DXDTPW20B</li>
 	
-	<li id="DBUG_PID_ANON">4319674461_px</li>
+	<li id="DBUG_PID_ANON">4380919444_dn</li>
 	
 	
-	<li id="DBUG_LID">4601997629</li>
+	<li id="DBUG_LID">4646144073</li>
 
 
 	<li id="DBUG_isPr">false</li>
@@ -1321,7 +1321,7 @@ isAuto:false
 <div id="topnav_nfl_placeholder"></div>
 <div class="dtv-login-box bau-login" id="login-box-module">
 <input type=hidden id="user-session-success-url" value= />
-<form id="signinForm" name="signinForm" action="https://cprodmasx.att.com/commonLogin/igate_wam/login.do?_DARGS=/DTVAPP/global/old/loginBox.jsp" method="post"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="5556720581220077965" type="hidden"/> </div>
+<form id="signinForm" name="signinForm" action="https://cprodmasx.att.com/commonLogin/igate_wam/login.do?_DARGS=/DTVAPP/global/old/loginBox.jsp" method="post"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="-8531420696417097269" type="hidden"/> </div>
 <input type="hidden" id="isTguardAuthEnabled" name="isTguardAuthEnabled" value="true" />
 <input type="hidden" id="nflRushHourEnabled" name="nflRushHourEnabled" value="false" />
 <input type="hidden" name="loginPage" value="https://www.directv.com/DTVAPP/login/login.jsp" />
@@ -2336,7 +2336,7 @@ Not a DIRECTV <span class="customer-text">Customer?</span><br />
 <p>We look forward to sending you the latest news and offers tailored to your specific interests.</p>
 </div>
 <div id="email_signup_form_container">
-<form id="email_signup_form" action="/DTVAPP/content/contentPage.jsp?_DARGS=/DTVAPP/content/component/emailSignup.jsp" method="post"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="5556720581220077965" type="hidden"/> </div>
+<form id="email_signup_form" action="/DTVAPP/content/contentPage.jsp?_DARGS=/DTVAPP/content/component/emailSignup.jsp" method="post"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="-8531420696417097269" type="hidden"/> </div>
 <h4>Get the Inside Scoop</h4>
 <div id="email_interest_message_container">
 <div class="dtv-message-tup js_message_wrapper error-message" style="display:none">
@@ -4538,7 +4538,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po
 
 
 
-<!-- Omniture START: 13465989045854045 -->
+<!-- Omniture START: 14073035563161199 -->
 <!-- CMP Code for Refer A Friend Project -->
 <!-- Online Opinion variable -->
 <script type="text/javascript">
@@ -4590,8 +4590,8 @@ if (typeof(Reporting.errorPage) == "undefined") {
 Reporting.errorPage = false;
 }
 Reporting.PageData.accountNumber = "";
-Reporting.PageData.upId = "4319674461_px";
-Reporting.PageData.prospectAccountNumber = "4319674461_px";
+Reporting.PageData.upId = "4380919444_dn";
+Reporting.PageData.prospectAccountNumber = "4380919444_dn";
 if (readCookie('socialUserDetails')!=null && readCookie('socialUserDetails') != ''){
 Reporting.PageData.userType = "existing";
 } else {
@@ -4992,7 +4992,7 @@ jQuery(document).trigger(Reporting.Constants.DTV_REPORTING_DATA_SENT);
 jQuery(Reporting.reportPageData);
 if ($profile.loggers.omniture) $profile.loggers.omniture.stop();
 </script>
-<!-- Omniture END: 13465989053134045 (7 msec) Load Counter: 1 -->
+<!-- Omniture END: 14073035569605199 (6 msec) Load Counter: 1 -->
 
 
 

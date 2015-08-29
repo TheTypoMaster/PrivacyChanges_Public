@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "a106e24263413d7a969e67c0c1230d87";
+var comscoreHash = "db224369b863027b9340fe0a7276e171";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=a106e24263413d7a969e67c0c1230d87&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=db224369b863027b9340fe0a7276e171&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -938,22 +938,22 @@ data-attr-name="Movies" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="modal-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="modal-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="modal-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1256,22 +1256,22 @@ data-attr-name="Movies" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="ad-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="ad-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="ad-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1351,22 +1351,22 @@ data-attr-name="Movies" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="fb-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="fb-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="fb-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 </div>
@@ -1449,6 +1449,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Fri, 28 Aug 2015 18:26:39 -0700 in 70.92ms : web32 : none -->
+<!-- Hamsters typed up this page on Fri, 28 Aug 2015 19:53:48 -0700 in 67.83ms : web32 : none -->
 </body>
 </html>

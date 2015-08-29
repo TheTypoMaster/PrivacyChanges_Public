@@ -740,11 +740,11 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3631/open-itoa-white-paper-140809.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Designing and building an open ITOA architecture</h4>
+                <h4>Accelerate Citrix login times with cross-tier insight</h4>
                 <div class=standfirst>
-                    Learn about a new IT data taxonomy defined by the four data sources of IT visibility: wire, machine, agent, and synthetic data sets.
+                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
                 </div>
             </a>
 
@@ -756,19 +756,19 @@ Southport PR8 1LJ</p>
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4042/?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4051/wgw03016usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Magic Quadrant on managed security services</h4>
+                <h4>Avoiding insider threats to enterprise security</h4>
                 <div class=standfirst>
-                    This Magic Quadrant presents enterprise buyers with advice on selecting MSS providers to support global service requirements.
+                    Protect and monitor privileged user identities and activities across the extended enterprise.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4060/the-evolution-of-ransomware.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4063/forrester-use-actionable-threat-intelligence-to-protect-your-digital-business.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>The evolution of ransomware</h4>
+                <h4>Use actionable threat intelligence to protect your digital business</h4>
                 <div class=standfirst>
-                    How different types of ransomware work, not just from a technological point of view but also from a psychological viewpoint.
+                    Key characteristic of actionable threat intelligence and learn how to maximize threat intelligence to protect your digital business from targeted cyber-attacks.
                 </div>
             </a>
         </div>
@@ -788,13 +788,6 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/27/the_raspberry_pi_is_succeeding_in_ways_its_makers_ialmosti_imagined/">
-                            <img src="https://regmedia.co.uk/2015/06/17/raspberry_pi_official_case.jpg?x=88&amp;y=58&amp;crop=1" alt="Raspberry Pi Official Case" width=88 height=58>
-                <h4>The Raspberry Pi is succeeding in ways its makers <i>almost</i> imagined
-                </h4>
-            </a>
-        </li>
-        <li>
             <a href="/2015/08/27/malvertising_feature/">
                             <img src="https://regmedia.co.uk/2015/08/26/malvertising_8734364.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
                 <h4>Malware menaces poison ads as Google, Yahoo<i>!</i> look away
@@ -809,9 +802,16 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/27/ashley_madison_men/">
-                            <img src="https://regmedia.co.uk/2015/08/26/lonely.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
-                <h4>The most tragic thing about the Ashley Madison hack? It was really 1% actual women
+            <a href="/2015/08/27/google_apple_ads/">
+                            <img src="https://regmedia.co.uk/2015/08/27/adverts_comp.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
+                <h4>Google tells iOS 9 app devs: Switch off HTTPS if you want that sweet sweet ad money from us
+                </h4>
+            </a>
+        </li>
+        <li>
+            <a href="/2015/08/28/google_robocar_suffers_brain_freeze_after_seeing_hipster_cyclist/">
+                            <img src="https://regmedia.co.uk/2015/05/12/cyclist_london.jpg?x=88&amp;y=58&amp;crop=1" alt="A cyclist on the road in London." width=88 height=58>
+                <h4>Google robo-car suffers brain freeze after seeing hipster cyclist
                 </h4>
             </a>
         </li>
@@ -963,6 +963,20 @@ Southport PR8 1LJ</p>
 
 
 
+    <script>
+        $(function() {
+            if ($('#hot').length) {
+                var ab_set = {
+                    view_tracking:  'true',
+                    click_tracking: 'true',
+                    click_target:   '#hot a',
+                    group:          'A (control)',
+                    name:           'AB: Hot 2015'
+                };
+                track_bucket_user(ab_set);
+            }
+        });
+    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1014,7 +1028,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(880) });
+        $(function() { set_bucket_group(4) });
     </script>
         <div id="fb-root"></div>
     </div>
