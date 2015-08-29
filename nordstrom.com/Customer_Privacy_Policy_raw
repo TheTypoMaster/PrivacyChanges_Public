@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"A9941CD1AEAD46DA22DAD02F111A37C1646174653D323031352D30382D3238267573657269643D3136386237316264303837393464353761653435386361366463623936626631","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"168b71bd08794d57ae458ca6dcb96bf1","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"ff2121c1-6ce6-4916-97be-a72f467a438e","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"653E9DE25F06C39B51B79EB5B68C6CA7646174653D323031352D30382D3238267573657269643D3533313637363466646365323466376562613432653765373136613764616462","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"5316764fdce24f7eba42e7e716a7dadb","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"e6225eca-ddf3-40f6-8843-8debc62b4433","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			
+			A new shop for emerging and advanced designers.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -1752,11 +1752,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Get our iPad app.</h2>
+		<h2>Let&#39;s get personal.</h2>
 		<p>
-			Fashion&#39;s always a tap away with our free app.
+			See items selected especially for you.
 				
-					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
+					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
 				
 		</p>
 	</section>

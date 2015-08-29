@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=929447830'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1700382254'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1492713916'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1447240074&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=855210374'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=999772006'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=980342679'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=162086578&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1119826636');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=775870963');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1278321129');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=178544832');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1578869592');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1908336975');"></a>
   </span>
 </span>
 
@@ -608,11 +608,11 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 
 
 							
-											<li><a href="http://pjmedia.com/tatler/2015/08/28/when-will-abc-release-full-vester-flanagan-manifesto/">When Will ABC News Release the Full Vester Flanagan Manifesto?</a></li>
-											
 											<li><a href="http://pjmedia.com/richardfernandez/2015/08/27/that-old-time-religion/">That Old Time Religion</a></li>
 											
-											<li><a href="http://pjmedia.com/blog/federal-government-subsidizes-halal-food-in-public-schools/">Federal Government Subsidizes Halal Food in Public Schools</a></li>
+											<li><a href="http://pjmedia.com/tatler/2015/08/28/when-will-abc-release-full-vester-flanagan-manifesto/">When Will ABC News Release the Full Vester Flanagan Manifesto?</a></li>
+											
+											<li><a href="http://pjmedia.com/tatler/2015/08/28/trump-to-emancipate-america-from-14th-amendment/">Trump to Emancipate America--from 14th Amendment?</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -640,7 +640,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/lifestyle/2015/08/28/confessions-of-a-puzzle-evader/">Yes, You May Look It Up on the Internet: Confessions of a Puzzle-Evader</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/27/conan-spoofs-trumpramos-fight/">Conan Spoofs Trump/Ramos Fight</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/27/class-warfare-disney-style/">Class Warfare, Disney-Style?</a></li>
+				<li><a href="http://pjmedia.com/lifestyle/2015/08/28/explore-the-wonders-of-flight-at-the-experimental-aviation-museum-in-oshkosh/">Explore the Wonders of Flight at the Experimental Aviation Museum in Oshkosh</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/28/confessions-of-a-puzzle-evader/">Yes, You May Look It Up on the Internet: Confessions of a Puzzle-Evader</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/27/conan-spoofs-trumpramos-fight/">Conan Spoofs Trump/Ramos Fight</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213371/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">THE GOVERNMENT AS PIMP: <a target="_blank" href="http://www.powerlineblog.com/archives/2015/08/thoughts-from-the-ammo-line-77.php">Thoughts from the ammo line.</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213347/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">YES, THIS IS EMBARRASSING NATIONAL PUBLICITY:  <a target="_blank" href="http://www.dailymail.co.uk/news/article-3214567/University-Tennessee-tells-staff-students-stop-using-switch-xe-zir-xyr-instead.html?ito=social-twitter_dailymailus">University of Tennessee tells staff and students to stop using &#8216;he&#8217; and &#8216;she&#8217; &#8211; and switch to &#8216;xe&#8217;, &#8216;zir&#8217; and &#8216;xyr&#8217; instead</A>  No, I won&#8217;t be using these terms in my classes, though this is just some stuff on a website, not a directive sent to the faculty or anything as some seem to think.  And yes, the University of Tennessee seems to have imbibed a huge dose of PC Kool-Aid <a target="_blank" href="http://pjmedia.com/instapundit/212509/">all of a sudden.</a>  Faculty speculation is that it has something to do with pressure from the Obama DOJ, but I don&#8217;t really know.  One suspects, however, that this will produce budgetary skepticism from the state legislature, which will probably wonder if we don&#8217;t have more administrators than we have useful work for them to do. ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213366/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">SHOCKINGLY, IT APPEARED IN THE NEW YORK TIMES, OF ALL PLACES:  <a target="_blank" href="https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/08/28/unfair-to-justice-thomas/">A Misleading Story About Justice Clarence Thomas.</a></a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213373/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">COCKROACHES: <a target="_blank" href="http://www.nationalreview.com/corner/423244/many-lefts-dark-corners-andrew-stuttaford">‘Like Many from the Left’s Dark Corners’ .</a></a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":387,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":351,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

@@ -497,7 +497,6 @@ window.jQuery_1_10_2 = $.noConflict(true);
 
 
 
-
 <script src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/Analytics.js"></script>
 <script>
 dojo.addOnLoad(function() {
@@ -773,6 +772,7 @@ aria-label="Shopping Cart">
 <span>Checkout</span>
 </a>
 <div id="freeShippingMessage">
+FREE Shipping on All Orders over $50.00!
 </div>
 </div>
 </div>
@@ -1113,6 +1113,13 @@ class="menuLink" role="menuitem" tabindex="-1">
 Slim Fit Suits
 </a>
 </li>
+<li>
+<a id="subcategoryLink_900023103_900025125_900025246"
+href="http://www.josbank.com/big-or-tall-fit-suits"
+class="menuLink" role="menuitem" tabindex="-1">
+Big or Tall Suits
+</a>
+</li>
 </ul>
 </li>
 
@@ -1156,6 +1163,12 @@ All Dress Shirts
 </a>
 </li>
 <li class="">
+<a id="categoryLink_900023104_900025201" href="http://www.josbank.com/slim-fit-dress-shirts" class="menuLink"
+role="menuitem" tabindex="-1">
+Slim Fit Dress Shirts
+</a>
+</li>
+<li class="">
 <a id="categoryLink_900023104_900025202" href="http://www.josbank.com/french-cuff" class="menuLink"
 role="menuitem" tabindex="-1">
 French Cuff Dress Shirts
@@ -1165,12 +1178,6 @@ French Cuff Dress Shirts
 <a id="categoryLink_900023104_900025203" href="http://www.josbank.com/tailored-fit-dress-shirts" class="menuLink"
 role="menuitem" tabindex="-1">
 Tailored Fit Dress Shirts
-</a>
-</li>
-<li class="">
-<a id="categoryLink_900023104_900032103" href="http://www.josbank.com/1905-dress-shirts" class="menuLink"
-role="menuitem" tabindex="-1">
-1905 Dress Shirts
 </a>
 </li>
 <li class="">
@@ -1493,12 +1500,6 @@ Executive Ties
 </a>
 </li>
 <li class="">
-<a id="categoryLink_900023107_900032102" href="http://www.josbank.com/1905-ties" class="menuLink"
-role="menuitem" tabindex="-1">
-1905 Ties
-</a>
-</li>
-<li class="">
 <a id="categoryLink_900023107_900025308" href="http://www.josbank.com/joseph-ties" class="menuLink"
 role="menuitem" tabindex="-1">
 Joseph Ties
@@ -1793,13 +1794,6 @@ VIP Vacation In Paradise Knit Shirts
 href="http://www.josbank.com/clearance-knit-shirts"
 class="menuLink" role="menuitem" tabindex="-1">
 Clearance Knit Shirts
-</a>
-</li>
-<li>
-<a id="subcategoryLink_900023102_900025158_900025335"
-href="http://www.josbank.com/signature-knit-shirts"
-class="menuLink" role="menuitem" tabindex="-1">
-Signature Knit Shirts
 </a>
 </li>
 </ul>
@@ -2894,7 +2888,7 @@ dojo.publish("CMPageRefreshEvent");
 
 <div class="left_espot">
 <a href="/current-promotions" title="" target="">
-<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_082815.gif" alt="" BORDER="0"/>
+<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_082915.gif" alt="" BORDER="0"/>
 </a>
 </div>
 
