@@ -1072,7 +1072,7 @@ $(document).ready(function(){
 							Create Your Account
 						</button>
 					</div>
-					<input type="hidden" name="dwfrm_login_securekey" value="1174442370"/>
+					<input type="hidden" name="dwfrm_login_securekey" value="871811649"/>
 				</fieldset>
 			</form>
 			
@@ -8345,7 +8345,7 @@ and (max-device-width : 480px) {
 		
 		
 		
-			<div class="html-slot-container html-slot-global-banner-150826">
+			<div class="html-slot-container html-slot-global-banner-150826-lastday">
 	
 							
 				
@@ -8376,13 +8376,22 @@ and (max-device-width : 480px) {
 </script>
 				
 				
-				<style>
-    .together {
-        white-space: nowrap;
-    }
-    .mobile .not-mobile {
-        display: none;
-    }
+				<div class="global-banner-wrapper two-lines">
+    <span class="offer-message">
+  <a href="http://www.pier1.com/savings-clearance/pier-one-coupons,default,sc.html?icid=1311">
+          <div class="global-brown">20<sup>%</sup> off all regular-priced fragrance & candleholders, halloween, lamps, <br class="main-break">pillows & throws, and dinnerware, serveware & glassware </div>
+  </a>
+  </span>
+    <span class="offer-details">
+     <a href="http://www.pier1.com/savings-clearance/pier-one-coupons,default,sc.html?icid=1311">
+      <div class="global-gray">Last Day! <span class="line-seperator">|</span> Shop the entire sale using code <span class="global-dark-gray">SAVE20 > </span><span class="line-seperator">|</span>
+</div>
+</a>
+<a class="dialog-trigger details" href="#" data-dialog="#save20">DETAILS</a>
+</span>
+</div>
+
+<style>
     .global-brown {
         color: #950b04 !important;
         text-transform: uppercase;
@@ -8402,20 +8411,6 @@ and (max-device-width : 480px) {
         }
     }
 </style>
-<div class="global-banner-wrapper two-lines">
-    <span class="offer-message">
-  <a href="http://www.pier1.com/savings-clearance/pier-one-coupons,default,sc.html?icid=1311">
-          <div class="global-brown">20<sup>%</sup> off all regular-priced fragrance & candleholders, halloween, lamps, pillows & throws, and dinnerware, serveware & glassware</div>
-  </a>
-  </span>
-    <span class="offer-details">
-     <a href="http://www.pier1.com/savings-clearance/pier-one-coupons,default,sc.html?icid=1311">
-      <div class="global-gray">Hurry! Ends Aug. 29! <span class="line-seperator">|</span> Shop the entire sale using code <span class="global-dark-gray together">SAVE20 > </span><span class="line-seperator not-mobile">|</span>
-</div>
-</a>
-<a class="dialog-trigger details" href="#" data-dialog="#save20">DETAILS</a>
-</span>
-</div>
 			</div>
 		
 		
@@ -10287,7 +10282,7 @@ omnRemoteIP = "52.2.142.173";
 omnServer = omnRemoteIP;
 omnDay = "Friday";
 omnWeekday = "WeekDay";
-omnHour=  "21";
+omnHour=  "22";
 omnReferrerURL= "";
 omnDeviceType= "desktop";
 </script>
