@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440867234;
+  PageCriteria.timestamp = 1440871696;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440867233841),
+            serverDate: new Date(1440869863184),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"16":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"17":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
+adverts.botIPs={"18":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"19":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
 
-adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015082916',
+            weatherDate: '2015082917',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -982,6 +982,18 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215379/Rita-Ora-puts-cleavage-display-dons-plunging-PVC-bralet-tartan-miniskirt-night-Los-Angeles.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/17/2BC6245F00000578-0-image-a-108_1440864121737.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Racy Rita Ora puts her cleavage on display in plunging PVC bralet and tartan miniskirt as she debuts rainbow hair
+          </strong>
+          Couldn't resist flashing some flesh in LA
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215126/Mama-s-boy-Zayn-Malik-supported-mother-Tricia-head-dinner-date-following-controversial-weeks.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/11/2BC32CCC00000578-0-image-a-66_1440844533806.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -990,6 +1002,44 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
           Mama's boy! Zayn Malik is supported by his mother Tricia as they head out for a dinner date in Beverly Hills following singer's recent online feuds
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li class="native-ad">
+      <div id="native_puff" class="adHolder" data-track-module="ap-nativead_puff_article^nativead">
+        <script type="text/javascript">
+          adverts.addToArray({id: 'native_puff', type: '308x120,308x150,300x120', pos: 'native_puff'});
+        </script>
+      </div>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215341/Jasmin-Walia-flaunts-ample-cleavage-toned-curves-patterned-bikini-soaks-sun-friends-Ibiza.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC5BA0100000578-0-image-m-66_1440861115646.jpg" height="115" width="154" alt="28.AIUG.2015 - IBIZA - SPAIN
+** EXCLUSIVE ALL ROUND PICTURES **
+TOWIE STAR JASMIN WALIA ENJOYS TIME BY THE POOL WITH FRIENDS IN IBIZIA
+BYLINE MUST READ : XPOSUREPHOTOS.COM
+*AVAILABLE FOR UK SALE ONLY*
+BYLINE MUST READ : XPOSUREPHOTOS.COM
+***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION***
+*UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE 0208 344 2007*" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Jasmin Walia flaunts her ample cleavage and toned curves in patterned bikini as she soaks up in the sun with friends in Ibiza
+          </strong>
+          The dots suit her
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3186070/Are-delicious-sticky-ribs-Celebrity-chef-Ed-Baines-puts-M-S-s-barbecue-range-ultimate-taste-test.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/26/17/2BAEFBCD00000578-0-image-a-8_1440608022662.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Are these the most delicious sticky ribs EVER? Celebrity chef Ed Baines puts M&amp;S's barbecue range to the ultimate taste test &nbsp;
+          </strong>
+          <b>SPONSORED</b>
         </span>
       </a>
     </li>
@@ -1015,22 +1065,15 @@ photodesk@splashnews.com" />
         </span>
       </a>
     </li>
-    <li class="native-ad">
-      <div id="native_puff" class="adHolder" data-track-module="ap-nativead_puff_article^nativead">
-        <script type="text/javascript">
-          adverts.addToArray({id: 'native_puff', type: '308x120,308x150,300x120', pos: 'native_puff'});
-        </script>
-      </div>
-    </li>
     <li>
-      <a href="/femail/article-3186070/Are-delicious-sticky-ribs-Celebrity-chef-Ed-Baines-puts-M-S-s-barbecue-range-ultimate-taste-test.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/26/17/2BAEFBCD00000578-0-image-a-8_1440608022662.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215418/Helen-Flanagan-cradles-angelic-baby-Matilda-football-match.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/17/2BC6893D00000578-0-image-m-6_1440865899550.jpg" height="115" width="154" alt="Helen Flanagan Baby PREVIEW.jpg" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Are these the most delicious sticky ribs EVER? Celebrity chef Ed Baines puts M&amp;S's barbecue range to the ultimate taste test &nbsp;
+          Sleeping beauty: Helen Flanagan cradles angelic baby Matilda as she takes her to watch her footballing father Scott Sinclair in action
           </strong>
-          <b>SPONSORED</b>
+          Suits motherhood
         </span>
       </a>
     </li>
@@ -1045,6 +1088,9 @@ photodesk@splashnews.com" />
           Mum-of-three chilled out
         </span>
       </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215322/She-s-no-angel-Kym-Marsh-flashes-pert-posterior-skimpy-fancy-dress-outfit-shows-support-star-studded-gay-pride-event.html">
@@ -1081,9 +1127,6 @@ photodesk@splashnews.com" />
           Second time they've split
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215238/Nicki-Minaj-ditches-revealing-outfits-opts-elegant-florals-night-Meek-ahead-VMAs.html">
@@ -1169,6 +1212,9 @@ photodesk@splashnews.com" />
         </span>
       </a>
     </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
     <li>
       <a href="/tvshowbiz/article-3214555/Jenna-Jameson-shows-fuller-figure-enters-Celebirty-Big-Brother-house.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC0580900000578-0-image-m-15_1440798359607.jpg" height="115" width="154" alt="BOREHAMWOOD, ENGLAND - AUGUST 27:  Jenna Jameson enters the Celebrity Big Brother house at Elstree Studios on August 27, 2015 in Borehamwood, England.  (Photo by Karwai Tang/WireImage)" />
@@ -1187,9 +1233,21 @@ photodesk@splashnews.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          So who's made the most dough from Bake Off? It's not who you think (even though Paul and Mary have cooked up fortunes that will make you simmer with envy)
+          So who's made the most dough from Bake Off? It's not who you think (even though Paul and Mary have cooked fortunes that will make you simmer with envy)
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215309/I-m-number-one-groupie-Brody-Jenner-s-mother-Linda-shows-support-joins-DJ-gig-Hawaii.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/17/2BC3494000000578-0-image-m-2_1440866687446.jpg" height="115" width="154" alt="HONOLULU, HI - AUGUST 28:  Celebrity DJ Brody Jenner and actress Linda Thompson attend the Grand Opening of SKY Waikiki on August 28, 2015 in Honolulu, Hawaii.  (Photo by Jesse Grant/Getty Images for Sky Waikiki)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I'm his number one groupie!' Brody Jenner's mother Linda shows her support as she joins him for DJ gig in Hawaii
+          </strong>
+          He hit the turntables to get the party underway
         </span>
       </a>
     </li>
@@ -1204,9 +1262,6 @@ photodesk@splashnews.com" />
           
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215097/Christina-Milian-visits-pop-clothes-shop-hooded-cape-star-spangled-jeans.html">
@@ -1804,6 +1859,18 @@ W www.barcroftindia.com" />
           <span class="arrow-small-r"></span>
           <strong>
           'Exercising will be last on my mind': Pregnant Jessie James Decker talks cravings and why she'll be in no hurry to snap back into shape after baby No.2
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215311/Kate-Waterhouse-gushes-brother-Tom-s-beautiful-newborn-son-William-said-introduced-Sophia-baby.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC6230800000578-0-image-a-15_1440863402913.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I took my daughter in to meet him': Kate Waterhouse gushes over brother Tom's 'beautiful' newborn son William after introducing him to her baby Sophia
           </strong>
           
         </span>
@@ -2418,7 +2485,7 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214513/Lily-Allen-looks-trim-striped-jeans-bright-T-shirt-debuts-candy-floss-tinted-locks-coffee-run.html">
+      <a href="/tvshowbiz/article-3214513/Lily-Allen-looks-trim-striped-jeans-bright-T-shirt-debuts-candy-floss-tinted-locks-coffee-run.html" class="bottom">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/18/2BBF5F0C00000578-0-image-m-11_1440784266845.jpg" height="115" width="154" alt="28 Aug 2015  - LONDON  - UK\n*** EXCLUSIVE ALL ROUND PICTURES ***\nBRITISH SINGER LILY ALLEN GRABS A COFFEE IN CENTRAL LONDON. THE SINGER LOOKED SLIGHTLY STRESSED AS SHE GRIPPED HER HAIR AND THIS MAY BE DOWN TO THE RUMOURED SPLIT WITH HER HUSBAND SAM COOPER.\nBYLINE MUST READ : XPOSUREPHOTOS.COM\n***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION ***\n**UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE  442083442007" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
@@ -2426,100 +2493,6 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Off-duty Lily Allen looks trim in striped jeans and a bright T-shirt as she debuts her candy floss tinted locks on coffee run
           </strong>
           She kept things casual
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3213948/Karrueche-Tran-shows-peachy-posterior-barely-black-bikini.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBFB45B00000578-0-image-m-45_1440791512182.jpg" height="115" width="154" alt="karreuche butt.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'I'm tired of this!' Karrueche Tran hits back at Chris Brown after a member of his crew threatened R&amp;B singer Marques Houston for commenting on one of her Instagram snaps
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214181/Cristiano-Ronaldo-s-rumoured-love-Alessia-Tedeschi-shows-toned-bikini-body-holiday-Formentera.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/13/2BBC744000000578-0-image-m-13_1440765136936.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Cristiano Ronaldo's rumoured love interest Alessia Tedeschi shows off toned bikini body on holiday in Formentera
-          </strong>
-          The Italian actress has been linked to footballer
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214599/Maci-Bookout-dons-racy-mini-skirt-just-three-months-giving-birth-attending-Teen-Mom-star-Catelynn-s-wedding.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/19/2BBF6A5400000578-0-image-m-7_1440784910238.jpg" height="115" width="154" alt="Marci Bookout" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Trying to upstage the bride? Maci Bookout dons racy mini skirt just three months after giving birth while attending Teen Mom co-star Catelynn's wedding
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214558/Helena-Bonham-Carter-looks-characteristically-kooky-multi-layer-skirt-chunky-heeled-shoes.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/18/2BBF723E00000578-0-image-m-84_1440784693220.jpg" height="115" width="154" alt="Helena Bonham Carter is seen in primrose hill shopping, dressed in stormtrooper boots and and big flowing skirt, helena smiled for the cameras.
-
-Pictured: Helena Bonham-Carter
-Ref: SPL1110185  280815  
-Picture by: Neil Warner / Splash News
-
-Splash News and Pictures
-Los Angeles: 310-821-2666
-New York: 212-619-2666
-London: 870-934-2666
-photodesk@splashnews.com" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Helena Bonham Carter looks characteristically kooky in a multi-layer skirt and chunky-heeled shoes on shopping trip
-          </strong>
-          Ever-eccentric actress out and about in London
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3214616/Everything-s-fine-says-Rosie-O-Donnell-s-adopted-daughter-starts-new-life-18th-birthday-birth-mom-says-NOT-mentally-ill.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBFC9DE00000578-0-image-a-92_1440789863306.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          EXCLUSIVE: 'Everything's fine,' says Rosie O'Donnell's adopted daughter as she starts new life after 18th birthday with her birth mum, who says: 'She is NOT mentally ill'
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214492/Caitlyn-Jenner-sued-18-5-million-victims-car-crash-criminal-charges-not-likely.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/18/2BBF572B00000578-0-image-m-40_1440782225177.jpg" height="115" width="154" alt="Mandatory Credit: Photo by ACE Pictures/REX Shutterstock (4891322a)\n Caitlyn Jenner\n Caitlyn Jenner out and about, New York, America - 30 Jun 2015\n \n" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Caitlyn Jenner 'to be sued for $18.5 million by victims of car crash'... as criminal charges 'are not likely'
-          </strong>
-          Passengers in the collision will make claim
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214388/Charlie-Sheen-wants-Donald-Trump-s-running-mate.html" class="bottom">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/17/2BBF1CAF00000578-0-image-m-33_1440779188354.jpg" height="115" width="154" alt="UNIVERSAL CITY, CA - MAY 12:  Charlie Sheen visits &quot;Extra&quot; at Universal Studios Hollywood on May 12, 2015 in Universal City, California.  (Photo by Noel Vasquez/Getty Images)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'I'd be his Vice President in a heartbeat!' Charlie Sheen wants to be Donald Trump's running mate
-          </strong>
-          Gruesome twosome!
         </span>
       </a>
     </li>

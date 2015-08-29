@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "f19709f41d879c2c2dc87a8d71af252e";
+var comscoreHash = "0ffc81b79979f9ff62f881e9f80d4935";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=f19709f41d879c2c2dc87a8d71af252e&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=0ffc81b79979f9ff62f881e9f80d4935&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -383,7 +383,7 @@ Moms
 </a>
 <div class="submenu">
 <a href="http://www.popsugar.com/Parenting" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag1">Parenting</a>
-<a href="http://www.popsugar.com/Pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
+<a href="http://www.popsugar.com/pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
 <a href="http://www.popsugar.com/Food-and-Fun" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag3">Food & Fun</a>
 <a href="http://www.popsugar.com/Kid-Shopping" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag4">Kid Shopping</a>
 <a href="http://www.popsugar.com/Family-Life" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag5">Family Life</a>
@@ -841,22 +841,22 @@ data-attr-name="Young Hollywood" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="modal-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-TV"
 value="TV"
 data-attr-name="TV" />
 <label for="modal-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="modal-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1159,22 +1159,22 @@ data-attr-name="Young Hollywood" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="ad-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-TV"
 value="TV"
 data-attr-name="TV" />
 <label for="ad-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="ad-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1254,22 +1254,22 @@ data-attr-name="Young Hollywood" />
 </div>
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="fb-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-TV"
 value="TV"
 data-attr-name="TV" />
 <label for="fb-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="fb-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1362,6 +1362,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Sat, 29 Aug 2015 09:45:59 -0700 in 64.1ms : web11 : none -->
+<!-- Hamsters typed up this page on Sat, 29 Aug 2015 10:55:17 -0700 in 80.4ms : web11 : none -->
 </body>
 </html>

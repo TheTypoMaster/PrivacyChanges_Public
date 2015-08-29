@@ -46,7 +46,7 @@
 
 			
 				BUI.globals.experiments.push({dim : 17, expName : 'Taboola'});
-				BUI.globals.experiments.push({dim : 14, expName : '4'});
+				BUI.globals.experiments.push({dim : 14, expName : '2'});
 				BUI.globals.experiments.push({dim : 18, expName : 'NewNav'});
 
 		    
@@ -617,6 +617,70 @@
 
 <div class="VideosNav-flyout">
 
+	<header class="VideosNav-flyout-header">
+		<h2>Featured</h2>
+	</header>
+
+
+	<article class="ui-HoverTrigger clearfix scaling ct-block VideosNav-flyout-featured">
+    <div class="ui-ContentThumbNail ui-ContentThumbNail--thirdParty" data-content-id="2878367" data-content-uri="http://www.Break.com/video/7-feet-of-grouper-caught-from-a-paddle-board-2878367" data-title-sequence="0">
+
+        
+                    <img src="http://i.ytimg.com/vi/1U_2Abi2N88/maxresdefault.jpg" alt="Check Out The Massive Fish This Paddle Boarder Pulled In" onerror="SwapImage(this,'http://s.brkmd.com/content/break/img/404/_550x309.jpg?1778')" class="ui-ContentThumbNail-img" />
+
+        <span class="ui-ContentThumbNailDesc"><span class="ui-ContentThumbNailDesc-icon ui-Icon ui-Icon--play" aria-hidden="true"></span><span class="ui-ContentThumbNailDesc-callAction">Play Video</span></span>
+    </div>
+
+		<div class="ui-ContentBottom">
+			<h1>
+				<a data-ga="Navigation:Featured_1" href="http://www.Break.com/video/7-feet-of-grouper-caught-from-a-paddle-board-2878367">Check Out The Massive Fish This Paddle Boarder Pulled In</a>
+				<span class="ui-Icon ui-Icon--clock "></span><span class="date">21 days ago</span>
+							<span class="ui-Icon ui-Icon--eyeball"></span><span class="share">72,053</span>
+				<span class="ui-Icon ui-Icon--thumbsUp"></span><span class="share">846</span>
+			</h1>
+		</div>
+	</article>
+<!-- article:end -->
+
+	<article class="ui-HoverTrigger clearfix scaling ct-block VideosNav-flyout-featured">
+    <div class="ui-ContentThumbNail " data-content-id="2878585" data-content-uri="http://www.Break.com/video/newfoundland-iceberg-breaks-causes-big-waves-2878585" data-title-sequence="0">
+
+        
+                    <img src="http://media11.break.com/dnet/media/585/878/2878585/badass-footage-of-an-iceberg-breaking-and-causing-ginormous-waves1_550x309.jpg" alt="Badass Footage Of An Iceberg Breaking And Causing Ginormous Waves" onerror="SwapImage(this,'http://s.brkmd.com/content/break/img/404/_550x309.jpg?1778')" class="ui-ContentThumbNail-img" />
+
+        <span class="ui-ContentThumbNailDesc"><span class="ui-ContentThumbNailDesc-icon ui-Icon ui-Icon--play" aria-hidden="true"></span><span class="ui-ContentThumbNailDesc-callAction">Play Video</span></span>
+    </div>
+
+		<div class="ui-ContentBottom">
+			<h1>
+				<a data-ga="Navigation:Featured_2" href="http://www.Break.com/video/newfoundland-iceberg-breaks-causes-big-waves-2878585">Badass Footage Of An Iceberg Breaking And Causing Ginormous Waves</a>
+				<span class="ui-Icon ui-Icon--clock "></span><span class="date">22 days ago</span>
+							<span class="ui-Icon ui-Icon--eyeball"></span><span class="share">122,901</span>
+				<span class="ui-Icon ui-Icon--thumbsUp"></span><span class="share">2,263</span>
+			</h1>
+		</div>
+	</article>
+<!-- article:end -->
+
+	<article class="ui-HoverTrigger clearfix scaling ct-block VideosNav-flyout-featured">
+    <div class="ui-ContentThumbNail ui-ContentThumbNail--thirdParty" data-content-id="2877854" data-content-uri="http://www.Break.com/video/ronda-rousey-back-in-the-day-2877854" data-title-sequence="0">
+
+        
+                    <img src="http://i.ytimg.com/vi/3TtcSBu4Lgc/maxresdefault.jpg" alt="Ronda Rousey: Back In The Day" onerror="SwapImage(this,'http://s.brkmd.com/content/break/img/404/_550x309.jpg?1778')" class="ui-ContentThumbNail-img" />
+
+        <span class="ui-ContentThumbNailDesc"><span class="ui-ContentThumbNailDesc-icon ui-Icon ui-Icon--play" aria-hidden="true"></span><span class="ui-ContentThumbNailDesc-callAction">Play Video</span></span>
+    </div>
+
+		<div class="ui-ContentBottom">
+			<h1>
+				<a data-ga="Navigation:Featured_3" href="http://www.Break.com/video/ronda-rousey-back-in-the-day-2877854">Ronda Rousey: Back In The Day</a>
+				<span class="ui-Icon ui-Icon--clock "></span><span class="date">21 days ago</span>
+							<span class="ui-Icon ui-Icon--eyeball"></span><span class="share">99,416</span>
+				<span class="ui-Icon ui-Icon--thumbsUp"></span><span class="share">3,611</span>
+			</h1>
+		</div>
+	</article>
+<!-- article:end -->	<hr>
 
 	<h3>Most Popular Categories</h3>
 	<ul class="VideosNav-flyout-categories clearfix">
@@ -631,7 +695,7 @@
 	</ul>
 	<hr>
 
-	<div class="VideosNav-flyout-count"><span>641,788</span> viral videos (and counting)</div>
+	<div class="VideosNav-flyout-count"><span>641,792</span> viral videos (and counting)</div>
 	<a href="/content/surpriseme/" data-ga="Navigation:SurpriseMe" class="VideosNav-flyout-surprise">Surprise Me</a>
 </div>
 		</li>
@@ -646,6 +710,27 @@
 
 
 	<article class="ui-HoverTrigger clearfix scaling ct-block SeriesNav-flyout-featured">
+    <div class="ui-ContentThumbNail " data-content-id="2884004" data-content-uri="http://www.Break.com/video/break-compilations-2591623/summer-fails-breaking-videos-2884004" data-title-sequence="0">
+
+        
+                    <img src="http://media11.break.com/dnet/media/004/884/2884004/summer-fails-breaking-videos1_550x309.png?102" alt="Summer Fails! - Breaking Videos" onerror="SwapImage(this,'http://s.brkmd.com/content/break/img/404/_550x309.jpg?1778')" class="ui-ContentThumbNail-img" />
+
+        <span class="ui-ContentThumbNailDesc"><span class="ui-ContentThumbNailDesc-icon ui-Icon ui-Icon--play" aria-hidden="true"></span><span class="ui-ContentThumbNailDesc-callAction">Play Video</span></span>
+    </div>
+
+		<div class="ui-ContentBottom">
+			<h1>
+				<a data-ga="Navigation:Latest_1:Break Compilations" href="http://www.Break.com/video/break-compilations-2591623/summer-fails-breaking-videos-2884004">Summer Fails! - Breaking Videos</a>
+						</h1>
+			<p>
+
+			Break has the best fails of summer: A$$holes failing back flips, failing Cr...
+			</p>
+		</div>
+	</article>
+<!-- article:end -->
+
+	<article class="ui-HoverTrigger clearfix scaling ct-block SeriesNav-flyout-featured">
     <div class="ui-ContentThumbNail " data-content-id="2884635" data-content-uri="http://www.Break.com/video/screenjunkies-show/they-were-in-that-2884635" data-title-sequence="0">
 
         
@@ -656,7 +741,7 @@
 
 		<div class="ui-ContentBottom">
 			<h1>
-				<a data-ga="Navigation:Latest_1:ScreenJunkies Show" href="http://www.Break.com/video/screenjunkies-show/they-were-in-that-2884635">They Were in THAT?!</a>
+				<a data-ga="Navigation:Latest_2:ScreenJunkies Show" href="http://www.Break.com/video/screenjunkies-show/they-were-in-that-2884635">They Were in THAT?!</a>
 						</h1>
 			<p>
 
@@ -677,32 +762,11 @@
 
 		<div class="ui-ContentBottom">
 			<h1>
-				<a data-ga="Navigation:Latest_2:Prank Bank" href="http://www.Break.com/video/prank-bank/epic-movie-voice-prank-in-beverly-hills-prank-bank-2884210">Epic Movie Voice Prank in Beverly Hills! - Prank Bank</a>
+				<a data-ga="Navigation:Latest_3:Prank Bank" href="http://www.Break.com/video/prank-bank/epic-movie-voice-prank-in-beverly-hills-prank-bank-2884210">Epic Movie Voice Prank in Beverly Hills! - Prank Bank</a>
 						</h1>
 			<p>
 
 			Beverly Hills, that's where I want to be -  - especially if you want your d...
-			</p>
-		</div>
-	</article>
-<!-- article:end -->
-
-	<article class="ui-HoverTrigger clearfix scaling ct-block SeriesNav-flyout-featured">
-    <div class="ui-ContentThumbNail " data-content-id="2883904" data-content-uri="http://www.Break.com/video/honest-movie-trailers/honest-trailers-mad-max-fury-road-2883904" data-title-sequence="0">
-
-        
-                    <img src="http://media11.break.com/dnet/media/904/883/2883904/honest-trailers-mad-max-fury-road1_550x309.jpg?287" alt="Honest Trailers - Mad Max: Fury Road" onerror="SwapImage(this,'http://s.brkmd.com/content/break/img/404/_550x309.jpg?1778')" class="ui-ContentThumbNail-img" />
-
-        <span class="ui-ContentThumbNailDesc"><span class="ui-ContentThumbNailDesc-icon ui-Icon ui-Icon--play" aria-hidden="true"></span><span class="ui-ContentThumbNailDesc-callAction">Play Video</span></span>
-    </div>
-
-		<div class="ui-ContentBottom">
-			<h1>
-				<a data-ga="Navigation:Latest_3:Honest Movie Trailers" href="http://www.Break.com/video/honest-movie-trailers/honest-trailers-mad-max-fury-road-2883904">Honest Trailers - Mad Max: Fury Road</a>
-						</h1>
-			<p>
-
-			Strap in for the summer's only high-octane hit directed by a senior citizen...
 			</p>
 		</div>
 	</article>
@@ -1275,7 +1339,7 @@
 			</div>
 		</script>
 
-		<!-- 2015-08-29 09:52 APP09 -->
+		<!-- 2015-08-29 11:06 APP07 -->
 		
 		<script type='text/javascript'>
 			var _sf_async_config={};
