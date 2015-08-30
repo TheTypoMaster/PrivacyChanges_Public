@@ -254,7 +254,7 @@ market:"",
 theme:"null".replace(/[^a-zA-Z0-9_-]/g,'_').replace(' _ ', '_').replace('___', '_').toLowerCase(),
 baseHost:"citysearch.com".split(':')[0],
 subdomain:"",
-webRequestId:"1440965303564635",
+webRequestId:"1440969790070293",
 historyIframe:"/assets/reinvent/html/citysearch/blank.html",
 googleTrackingId:"UA-4768729-2",
 googleUniversalTrackingId:"UA-4768729-5",
@@ -272,7 +272,7 @@ slideshowEnabled:true,
 slideshowAnimation:true,
 modalPrintCssPath:"//aws1-images4.citysearch.net/jawr/reinvent/css/2125782073/assets/reinvent/css/citysearch/page/modalPrint.css",
 mapMarker:"//aws1-images1.citysearch.net/jawr/reinvent/img/cb3060023354/assets/reinvent/img/citysearch/map_pin_generic_centered.png",
-uiTrack:true,
+uiTrack:false,
 marketId:"",
 geographyId:"",
 hasExternalAdvertorial:false,
@@ -352,10 +352,10 @@ if(Citysearch.jsLoaded){Citysearch.Initializer.execute();}
 else{window.onload=function(){if(!Citysearch.windowLoaded){Citysearch.windowLoaded=true;Citysearch.Timer.push('onload:'+(new Date().getTime()-Citysearch.Timer.start));}};}</script>
 <!--
 Server:        aws1prdweb6.csprod.ctgrd.com
-Request ID:    1440965303564635
+Request ID:    1440969790070293
 Tag:           1.1.17
 Build ID:      2015-08-26_11-02-48
-Elapsed:       66
+Elapsed:       14
 abTest:        a
 -->
 </body>

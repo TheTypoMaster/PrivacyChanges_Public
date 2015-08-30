@@ -425,7 +425,7 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">4:10 <span>PM EDT</span></div>
+	<div class="currenttime">5:24 <span>PM EDT</span></div>
 	<div class="currentdate">August 30, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
@@ -484,6 +484,10 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724669"><span class="timestamp"><span>5:23p</span></span><p><a href="/story/heres-why-elon-musk-fears-the-robocalypse-2015-08-30?link=MW_latest_news" target="_blank">Here’s why Elon Musk fears the ‘robocalypse’</a></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724668"><span class="timestamp"><span>5:00p</span></span><p><a href="/story/jobs-report-could-prevent-rate-hike-but-unlikely-to-ensure-one-2015-08-30-17103011?link=MW_latest_news" target="_blank">Jobs report could prevent rate hike — but unlikely to ensure one</a></p></li>
+
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724667"><span class="timestamp"><span>4:05p</span></span><p><a href="/story/a-surefire-strategy-to-keep-calm-and-make-money-in-this-crazy-market-2015-08-27?link=MW_latest_news" target="_blank">A surefire strategy to keep calm and make money in this crazy market</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724666"><span class="timestamp"><span>4:03p</span></span><p><a href="/story/10-money-stories-you-might-have-missed-but-shouldnt-have-2015-08-28?link=MW_latest_news" target="_blank">10 money stories you might have missed but shouldn’t have</a></p></li>
@@ -519,10 +523,6 @@
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724650"><span class="timestamp"><span>9:43a</span></span><p><a href="/story/apple-watch-debut-was-better-than-earnings-suggested-idc-says-2015-08-27?link=MW_latest_news" target="_blank">Apple Watch debut was better than earnings suggested, IDC says</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724649"><span class="timestamp"><span>9:42a</span></span><p><a href="/story/how-harry-styles-may-have-hurt-seaworld-2015-08-28?link=MW_latest_news" target="_blank">How Harry Styles may have hurt SeaWorld</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724648"><span class="timestamp"><span>9:33a</span></span><p><a href="/story/hurricane-katrina-new-orleans-10-years-later-2015-08-17?link=MW_latest_news" target="_blank">Hurricane Katrina: New Orleans 10 years later</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724647"><span class="timestamp"><span>9:30a</span></span><p><a href="/story/this-33-year-old-may-be-wall-streets-brightest-rising-star-2015-08-20?link=MW_latest_news" target="_blank">Meet the author of one of Wall Street’s best-read blogs</a></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -640,7 +640,7 @@ Biggest Political Disrupters
 
 
 			</li>
-			<li class="">
+			<li class=" invisible">
 				<div class="invisible startdate">1352872800000</div>
 				<div class="invisible enddate">1352872800000</div>
 				
@@ -689,7 +689,7 @@ Biggest Political Disrupters
 
 
 			</li>
-			<li class=" invisible">
+			<li class="">
 				<div class="invisible startdate">1368511200000</div>
 				<div class="invisible enddate">1368511200000</div>
 				
@@ -932,7 +932,7 @@ Winning a credit-agency dispute
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Sunday";
-			            s.eVar32 = "15:00";
+			            s.eVar32 = "16:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1152,7 +1152,7 @@ Winning a credit-agency dispute
 	ScrillaZilla.Escort.addClient(
 		ScrillaZilla.Client('#ad_DaypartBannerNewYorkBeforeTheBell', 
 			{
-				ord : 726643700,
+				ord : 1531063701,
 				src : 'http://ad.doubleclick.net/adi/marketwatch.com/sponsor_beforethebell_us;u=NULL**140x31****;sz=140x31;pos=5;tile=5;ord=',
 				width : '140',
 				height : '31',
@@ -1176,7 +1176,7 @@ Winning a credit-agency dispute
         
 		MarketWatch.Kiosk.setup("#kiosk",
 		{
-			startIndex: 1,
+			startIndex: 2,
 			autostart: true,
 			refresh: true,
 			adInRotation: false
@@ -1207,7 +1207,7 @@ Winning a credit-agency dispute
                  links: ' <a href="/column/market-snapshot">US Market Snapshot</a>  <a href="/investing/currencies/tools">Currencies</a>  <a href="/tools/marketsummary/futures/contracts.asp">Commodities</a> '
                  },
              
-            time: new Date("Sun, 30 Aug 2015 20:10:05 GMT"),
+            time: new Date("Sun, 30 Aug 2015 21:24:44 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });

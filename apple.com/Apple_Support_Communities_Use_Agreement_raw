@@ -115,7 +115,7 @@
         var _jive_auth_token ="no-user";
         var _jive_locale = "en_US";
         var _jive_translation_language = "en"
-        var _jive_browser_event = {"providers":["activityStream.poll","appAlert.create"],"since":1440902195459};
+        var _jive_browser_event = {"providers":["activityStream.poll","appAlert.create"],"since":1440902170535};
         var _jive_browser_event_polling_delay = 300000;
         var _jive_timezoneoffset = -7;
 
@@ -270,7 +270,7 @@ if (dwr == null) var dwr = {};
 if (dwr.engine == null) dwr.engine = {};
 if (DWREngine == null) var DWREngine = dwr.engine;
 
-DWREngine._origScriptSessionId = "60C839E9ABD85957FD8B9BB234F01E25";
+DWREngine._origScriptSessionId = "36812D0D774ABBD6CCCF65B11A4C9AF0";
 DWREngine._sessionCookieName = "JSESSIONID"; // JSESSIONID
 DWREngine._allowGetForSafariButMakeForgeryEasier = "true";
 DWREngine._scriptTagProtection = "throw 'allowScriptTagRemoting is false.';";
@@ -1199,7 +1199,7 @@ By <a href="/people/Matt%20K."
 data-externalId=""
 data-username="Matt%20K."
 data-avatarId="1259"
-id="jive-250010429187382486418574"
+id="jive-250010429191322281921187"
 data-userId="2500104"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1214,7 +1214,7 @@ created by <a href="/people/Matt%20K."
 data-externalId=""
 data-username="Matt%20K."
 data-avatarId="1259"
-id="jive-250010429187383223478472"
+id="jive-250010429191322284836263"
 data-userId="2500104"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1222,7 +1222,7 @@ class="jiveTT-hover-user jive-username-link"
 data-externalId=""
 data-username="Mandy_S."
 data-avatarId="1225"
-id="jive-28883829187383224163470"
+id="jive-28883829191322285269539"
 data-userId="288838"
 data-presence="null"
 class="jiveTT-hover-user jive-username-link"
@@ -1291,7 +1291,7 @@ Categories:
 
 <!-- END document -->
 
-        <div class="jive-content-rating j-rc4 clearfix" data-guid="FFKH9FP3T4QKIFB5YG1GQDDE9BXKC83F">
+        <div class="jive-content-rating j-rc4 clearfix" data-guid="NN8CMH6C2JMKCA204Y5SL8W6GWBH8JWD">
 
 <script type='text/javascript'>
     $j(document).ready(function() {
@@ -1320,7 +1320,7 @@ Categories:
         };
 
 
-        new jive.Rate(14, 2997, 102, 5952, 'doc', i18n, true, 'FFKH9FP3T4QKIFB5YG1GQDDE9BXKC83F', rteOptions);
+        new jive.Rate(14, 2997, 102, 5952, 'doc', i18n, true, 'NN8CMH6C2JMKCA204Y5SL8W6GWBH8JWD', rteOptions);
     });
 
 </script>
