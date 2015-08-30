@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440951992;
+  PageCriteria.timestamp = 1440956462;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440951569499),
+            serverDate: new Date(1440955158565),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"16":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"17":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
+adverts.botIPs={"17":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"],"18":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"]};
 
-adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083016',
+            weatherDate: '2015083017',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -941,6 +941,18 @@ DM.later('bundle', function () {
   <h3 class="wocc">DON'T MISS</h3>
   <ul class="link-bogr2 linkro-wocc">
     <li>
+      <a href="/tvshowbiz/article-3216124/Just-two-Brad-Pitt-inch-doting-father-spends-quality-time-son-Knox-racing-event-UK.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/17/2BCF65C800000578-0-image-a-80_1440953286310.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Just the two of us! Brad Pitt is every inch the doting father as he spends quality time with son Knox at MotoGP motorcycle race at Silverstone
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215963/No-girls-allowed-Cheryl-s-husband-Jean-Bernard-Fernandez-Versini-bleary-eyed-skips-X-Factor-wild-birthday-bash-Marvin-Humes-Justin-Scott.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/12/2BCD630A00000578-0-image-a-120_1440934620496.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -965,12 +977,64 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216172/See-friends-Taylor-Swift-Avril-Lavigne-perform-duet-1989-Tour-fans-sparked-online-feud.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/17/2BCFB35100000578-0-image-m-40_1440952784263.jpg" height="115" width="154" alt="SAN DIEGO, CA - AUGUST 29:  Singer-songwriters Taylor Swift (L) and Avril Lavigne performs onstage during Taylor Swift The 1989 World Tour Live In San Diego at PETCO Park on August 29, 2015 in San Diego, California.  (Photo by Charley Gallay/LP5/Getty Images for TAS)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          See, we are friends! Taylor Swift and Avril Lavigne perform duet on 1989 Tour after fans sparked online 'feud'
+          </strong>
+          Sang Avril's signature tune Complicated
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216201/Stevi-Ritchie-Chloe-Jasmine-Whichello-share-bath-Celebrity-Big-Brother.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/17/2BCB8D0400000578-0-image-m-2_1440953227187.jpg" height="115" width="154" alt="****Ruckas Videograbs****  (01322) 861777
+*IMPORTANT* Please credit Channel 5 for this picture.
+30/08/15
+Celebrity Big Brother 
+Day 4
+SEEN HERE: Chloe-Jasmine nearly chokes Stevi as they bath together 
+Grabs from the house overnight
+Mobile (UK)  : 07742 164 106
+**IMPORTANT - PLEASE READ** The video grabs supplied by Ruckas Pictures always remain the copyright of the programme makers, we provide a service to purely capture and supply the images to the client, securing the copyright of the images will always remain the responsibility of the publisher at all times.
+Standard terms, conditions &amp; minimum fees apply to our videograbs unless varied by agreement prior to publication." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rub-a-dub-dub! Stevi Ritchie and Chloe Jasmine Whichello share a bath in Celebrity Big Brother as they struggle to abstain from intimacy
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="native-ad">
+      <div id="native_puff" class="adHolder" data-track-module="ap-nativead_puff_article^nativead">
+        <script type="text/javascript">
+          adverts.addToArray({id: 'native_puff', type: '308x120,308x150,300x120', pos: 'native_puff'});
+        </script>
+      </div>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215948/Stunning-Michelle-Keegan-shows-bronzed-skin-fitted-monochrome-dress-joins-leggy-sister-law-Jessica-Wright-party-Ibiza.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/10/2BCC45EE00000578-0-image-a-64_1440928749534.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           Stunning Michelle Keegan shows off her bronzed skin in fitted monochrome dress as she joins leggy sister-in-law Jessica Wright at party in Ibiza
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216210/Chloe-Goodman-strips-smalls-intimate-shoot-shirtless-boyfriend-Jordan-Clarke.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/18/2BCFE99900000578-0-image-a-18_1440955168401.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Naked ambition! Chloe Goodman strips down to her smalls in VERY intimate shoot with shirtless boyfriend Jordan Clarke...as she declares him 'the one'
           </strong>
           
         </span>
@@ -1000,13 +1064,6 @@ DM.later('bundle', function () {
         </span>
       </a>
     </li>
-    <li class="native-ad">
-      <div id="native_puff" class="adHolder" data-track-module="ap-nativead_puff_article^nativead">
-        <script type="text/javascript">
-          adverts.addToArray({id: 'native_puff', type: '308x120,308x150,300x120', pos: 'native_puff'});
-        </script>
-      </div>
-    </li>
     <li>
       <a href="/tvshowbiz/article-3216132/Joker-Matt-Smith-entertains-friend-s-daughter-enjoys-wine-lunch-girlfriend-Lily-James-pals.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/16/2BCF681A00000578-0-image-a-32_1440949544544.jpg" height="115" width="154" alt="" />
@@ -1016,6 +1073,21 @@ DM.later('bundle', function () {
           Joker Matt Smith entertains friend's daughter as he enjoys wine and lunch with girlfriend Lily James and pals
           </strong>
           Spotted enjoying a sunny day in Primrose Hill
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216092/X-Factor-suffers-lowest-ratings-launch-ten-years-Simon-Cowell-s-shakeup-fails-impress-viewers.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/16/2BCF66EE00000578-0-image-a-14_1440948563952.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          X Factor suffers its lowest ratings for a launch show IN TEN YEARS as Simon Cowell's shakeup fails to impress viewers
+          </strong>
+          Disappointing show
         </span>
       </a>
     </li>
@@ -1032,14 +1104,26 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216092/X-Factor-suffers-lowest-ratings-launch-ten-years-Simon-Cowell-s-shakeup-fails-impress-viewers.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/16/2BCF66EE00000578-0-image-a-14_1440948563952.jpg" height="115" width="154" alt="" />
+      <a href="/femail/article-3216136/Better-not-fall-Countess-Couture-Sophie-Wessex-wears-935-Peter-Pilotto-dress-play-HOCKEY-daughter.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/17/2BCF9B3C00000578-0-image-a-81_1440950929494.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          X Factor suffers its lowest ratings for a launch show IN TEN YEARS as Simon Cowell's shakeup fails to impress viewers
+          Jolly hockey sticks! Countess of Couture Sophie Wessex wears a &pound;935 Peter Pilotto dress... to play HOCKEY with her daughter Lady Louise Windsor
           </strong>
-          Disappointing show
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216154/Flawless-Anne-Hathaway-showcases-slim-figure-black-ensemble.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/14/2BCDDE3B00000578-0-image-a-73_1440941255942.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Flawless Anne Hathaway showcases slim figure in all-black ensemble as she gets back to work after romantic summer break with Adam Shulman
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1056,6 +1140,18 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/news/article-3216241/The-controversial-VMAs-MTV-air-awards-DELAY-host-Miley-Cyrus-free-rein-deliver-dramatic-moments.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/18/2BCFE1AC00000578-0-image-a-53_1440954791176.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The most controversial VMAs ever? MTV will air awards on a DELAY to give host Miley Cyrus 'free rein' - but will it deliver anything as dramatic as THESE moments?
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216130/Lily-Allen-looks-camera-shy-outing-DJ-Danny-Weed.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/16/2BCE46A600000578-0-image-m-78_1440947636542.jpg" height="115" width="154" alt="EXCLUSIVE ALL ROUNDER ***MINIMUM FEE APPLIES OF &pound;500 PER PAPER*** Lily Allen is seen with a new mystery man in Primrose Hill, north London. The couple were seen together laughing and joking, Lily then got into her new &pound;100,000 CL convertible Mercedes which she has just recently purchased. Things didn't go well for Lily though as she was seen driving off with a parking ticket on her windscreen.\n21 August 2015.\nPlease byline: Vantagenews.co.uk" />
         <span class="pufftext">
@@ -1066,9 +1162,6 @@ DM.later('bundle', function () {
           Kept a low profile
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/femail/article-3215909/Chrissie-Hynde-slammed-charity-saying-victims-sexual-assault-responsibility-happened.html">
@@ -1105,6 +1198,9 @@ DM.later('bundle', function () {
           
         </span>
       </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215940/Lucy-Mecklenburgh-glamorous-date-Louis-Smith.html">
@@ -1189,9 +1285,6 @@ DM.later('bundle', function () {
           
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215870/Looking-great-Kate-Supermodel-Moss-channels-rock-chick-vibe-black-ensemble-enjoys-day-food-festival.html">
@@ -1394,6 +1487,18 @@ DM.later('bundle', function () {
           My best friend's wedding! Rihanna attends her stylist Sonya Benson's NY nuptials where she treats bride to a live performance
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216133/Alli-Simpson-reveals-single-sending-rumour-overdrive-kissing-Justin-Bieber.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/17/2BCF8BFD00000578-0-image-a-33_1440950589155.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          On the market! Alli Simpson, 17, reveals she is single after sending the rumour mill into overdrive about 'kissing' Justin Bieber
+          </strong>
+          Still on the market
         </span>
       </a>
     </li>

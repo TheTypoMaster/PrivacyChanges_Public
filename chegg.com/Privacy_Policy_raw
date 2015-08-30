@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html class="wf-active">
-<!--  live-web36.prod2.cloud.cheggnet.com| twig:1.16.0 -->
+<!--  live-web42.prod2.cloud.cheggnet.com| twig:1.16.0 -->
 <head>
     <meta name="format-detection" content="telephone=no">
     <title>Chegg.com</title>
@@ -1359,7 +1359,7 @@ properly, or do not have complete information.</p>
     C.global.cachedJS["http://c.cheggcdn.com/_r/495baae59ba1bc697831e925eb00f54f.js"] = true
 C.global.cachedJS["//s.btstatic.com/tag.js#site=ce4UWiM"] = true
 
-    C.global.csrfToken = '242c68630472355221be5f3ebc9750ad';
+    C.global.csrfToken = 'a5124b9d1cd7c5d9cbaeb9b67596fa84';
 C.global.staticBaseUrl = 'http://c.cheggcdn.com/';
 C.global.assetUrl = 'https://a248.e.akamai.net/static.chegg.com/assets/';
 C.global.coversBaseUrl = 'http://c.cheggcdn.com/';
@@ -1382,8 +1382,8 @@ C.global.beacon = false;
 C.global.disableErrorhandling = false;
 C.global.version = '3.0';
 C('logger');
-C.logger.loadTime=1440951581.6573;
-C.logger.pageTrackId='995cc727d93a635db7f29a16a0bf027c';
+C.logger.loadTime=1440956035.4972;
+C.logger.pageTrackId='72835340434f567377f664c272997c6d';
 C.global.showViewMobileSiteButton = false;
 C.global.hasHiddenSearchBox = false;
 C.global.search = 'use_non_federated';
@@ -1427,5 +1427,5 @@ C.global.cs.heapData = JSON.parse('null');
 <noscript>
     <img src="http://www.chegg.com/_ajax/cheggpixel?ns=1" />
 </noscript>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0788ceb48b","applicationID":"677809","transactionName":"blRWMEYCWBJUAUALDVcedxFHF1kMGgFcBU9pQ10SVQBPMVoOXQEbZnJbCkARWQ1ZB0Y=","queueTime":0,"applicationTime":74,"ttGuid":"","agentToken":"","atts":"QhNVRg4YSxw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0788ceb48b","applicationID":"677809","transactionName":"blRWMEYCWBJUAUALDVcedxFHF1kMGgFcBU9pQ10SVQBPMVoOXQEbZnJbCkARWQ1ZB0Y=","queueTime":0,"applicationTime":75,"ttGuid":"","agentToken":"","atts":"QhNVRg4YSxw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
 </html><!--   -->
