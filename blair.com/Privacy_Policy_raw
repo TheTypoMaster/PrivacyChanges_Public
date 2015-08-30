@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<!-- server: Web-01-->
+<!-- server: Web-02-->
 
 <html  >
 	<head id="header"><!-- INSERT BY TRANSFORMER. SELECTOR=#header,LOCATION=prepend --><script>
@@ -57,43 +57,8 @@ function yo_loader(url){
 			});
 		</script>
 
-	<script type="text/javascript" src="//cdn-us-ec.yottaa.net/54dac433ea2e0c5b18000282/www.blair.com/v~c.25/js/ocpsdk/aggregator/script_source.jsp?gkey=sG_5501348773298860515&amp;hash=6451627872241168366&amp;yocs=_&amp;yoloc=us"></script>
+	<script type="text/javascript" src="//cdn-us-ec.yottaa.net/54dac433ea2e0c5b18000282/www.blair.com/v~c.25/js/ocpsdk/aggregator/script_source.jsp?gkey=sG_-383443064591002002&amp;hash=-6035955429822660937&amp;yocs=_&amp;yoloc=us"></script>
 
-<script type='text/javascript'>
-
-
-    /* Add to wish list and keep track variant value */
-    function addToWishList(theForm, addToType, prefix) {
-    if (variantValidate(prefix)) {
-    /* Add to wish list */
-    setAddTo(theForm, addToType);
-    } else {
-    // error msg displayed from variantValidate function
-    }
-    }
-
-    $(document).ready(function() {
-    /* To limit max chars and allow only numeric chars for html5:number inputs consistently in all browsers
-    and prevent conflict, should apply inputlimiter() before numeric() */
-    //$("input[name=quantity]").inputlimiter({limit: 2, limitTextShow: false, boxId: 'ignore', boxAttach: false});
-    //$("input[name=quantity]").numeric();
-    $(".js_tabs").tabs();
-
-    /* Handle tab selecting */
-    $(".js_tabs").bind("tabsselect", function(event, ui) {
-    if (ui.index == 3) {
-    //ensure sizeguide is showing for current scope
-    setSizeChartTabContent(90904);
-    }
-    window.setTimeout(function() {
-    /* Recalculate page height to fully cover the tab content */
-    initPageHeight();
-    }, 1000);
-    });
-    });
-
-
-</script>
 <meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10"/>
 
 	<meta name="keywords" content="Privacy and Security"/>
@@ -103,7 +68,7 @@ function yo_loader(url){
 <!-- END OF YOTTAA PREFETCH LOCATION=<body> -->
 <!--PREFETCH COOKIES START-->
 
-<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=Slq2xRxc-ljsySxZUZS89AkbWVSowTqZIFSW8bR3ApCD5lx1mBMxZ1rRfIswmL9bBbQ7Wwb0ak6jCrKZQHuftQ==,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,cj_xCNXKgeYjr_JV2mrD_3WfusO-1b_WzHlb2M45u1YyNivTST-McmqN1araavd44k6IAqi82-MIJ_cBrMyQx7hBF_6i1mt8HGwrqXT_5giFUNGUZqKPrm0OzjxxL7UJ1HNVI6KgQhKMNNaCr3wXyPJNtht2-p10GSHMugVXpng=,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,BevpC4JQZDjR2WlnujnFTrpUvdR2LRZ6oV8nTWku5P6_9WMpR_7TX6NsyGV_aweDq8_rW1h6Mls0m7HPgar3JkpJtOqBIA5reBbCt_VXBRHfkDm4v_wWofL8GsEf7O6m&t=clBgltSo5XAuzhoW6ZI2_A==&s=d314b918dc0f84a5690d226eb06043cb");
+<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=cesdIwgnM9sSBlcRh-Q00qzkqpR-x--62YHK4BTa2mE_-FYuMD3qdXOBFPSh0wIwBbQ7Wwb0ak6jCrKZQHuftQ==,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,cj_xCNXKgeYjr_JV2mrD_wGWi_iMc54cpAyx1RIdOIYkM8xYE_ABcCtMS7nv_1I4iMV9EEu9A2t-hSr3HcsogrhBF_6i1mt8HGwrqXT_5giFUNGUZqKPrm0OzjxxL7UJlMDngX1DjuUrU6ZWnZYMl_JNtht2-p10GSHMugVXpng=,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,BevpC4JQZDjR2WlnujnFTq5BGugU9HhIMKjROELhHbm_9WMpR_7TX6NsyGV_aweDq8_rW1h6Mls0m7HPgar3JrhGYyS-wqDB5R6w5yjIvgrfkDm4v_wWofL8GsEf7O6m&t=aXBsC5JMLi7h1fpgALGOMw==&s=64c320e58330ce78dce2cf1672dbdd02");
 
 </script>
 <!--PREFETCH COOKIES END-->

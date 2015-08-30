@@ -253,7 +253,7 @@ function callLivePerson(){
 					<!-- Start Masthead incMasthead.shtml --><!-- start CommonScriptVariables.jsp -->
 	
 <script type="text/javascript">
-	var ServerDateTime = new Date('August 29, 2015 20:18:56');    
+	var ServerDateTime = new Date('August 29, 2015 21:33:39');    
 </script>  
 <!-- end CommonScriptVariables.jsp -->
 		<style>
@@ -2188,20 +2188,22 @@ function trimMapper(index,item){
 		<h5>Contact Us. Your Way. Anytime.</h5>
 		<ul>
 			<li><a href="tel:+1-888-345-5788" manual_cm_re="FOOTER-_-CONTACTUS-_-PHONE" manual_cm_sp="FOOTER-_-CONTACTUS-_-PHONE" ><img src="https://images.qvc.com/is/image/pic/qvc/phone_icon.png?fmt=png-alpha">888-345-5788</a></li>
-			<li><a href="/webapp/wcs/stores/servlet/MyAccountView?langId=-1&amp;storeId=10251&amp;catalogId=10151" manual_cm_re="FOOTER-_-CONTACTUS-_-MYACCOUNT" manual_cm_sp="FOOTER-_-CONTACTUS-_-MYACCOUNT"><img src="https://images.qvc.com/is/image/pic/qvc/my-account.png?fmt=png-alpha">My Account</a></li>
+			<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/MyAccountView?langId=-1&amp;storeId=10251&amp;catalogId=10151" manual_cm_re="FOOTER-_-CONTACTUS-_-MYACCOUNT" manual_cm_sp="FOOTER-_-CONTACTUS-_-MYACCOUNT"><img src="https://images.qvc.com/is/image/pic/qvc/my-account.png?fmt=png-alpha">My Account</a></li>
 
 
 
 
 		</ul>
 		<ul class="footerTopIconList">
-		<li><a href="http://www.qvc.com/CustomerServiceEmailView?storeId=10251&catalogId=10151&langId=-1" title="Send an Email" manual_cm_re="FOOTER-_-CONTACTUS-_-Email" manual_cm_sp="FOOTER-_-CONTACTUS-_-Email"><img src="https://images.qvc.com/is/image/pic/qvc/email.png?fmt=png-alpha">Email Us</a> </li>
-		<li><a href="http://www.qvc.com/OrderStatus?langId=-1&storeId=10251&catalogId=10151" title="Order Status" manual_cm_re="FOOTER-_-CONTACTUS-_-ORDERSTATUS" manual_cm_sp="FOOTER-_-CONTACTUS-_-ORDERSTATUS"><img src="https://images.qvc.com/is/image/pic/qvc/order_icon.png?fmt=png-alpha">Order Status</a></li>
+			<li><a href="http://www.qvc.com/CustomerServiceEmailView?storeId=10251&catalogId=10151&langId=-1" title="Send an Email" manual_cm_re="FOOTER-_-CONTACTUS-_-Email" manual_cm_sp="FOOTER-_-CONTACTUS-_-Email"><img src="https://images.qvc.com/is/image/pic/qvc/email.png?fmt=png-alpha">Email Us</a> </li>
+			<li><a href="http://www.qvc.com/OrderStatus?langId=-1&storeId=10251&catalogId=10151" title="Order Status" manual_cm_re="FOOTER-_-CONTACTUS-_-ORDERSTATUS" manual_cm_sp="FOOTER-_-CONTACTUS-_-ORDERSTATUS"><img src="https://images.qvc.com/is/image/pic/qvc/order_icon.png?fmt=png-alpha">Order Status</a></li>
 
 
 
 		</ul>
 		<ul class="footerTopIconList footerIconsMid">
+			<li id="liFeedback"><a href="javascript:void(0);" onclick="oo_inline.show()" manual_cm_sp="WSC-_-FEEDBACK-_-CLICK"><img src="https://images.qvc.com/is/image/pic/qvc/feedback_icon.png?fmt=png-alpha">Feedback</a> </li>
+
 			<li><a  id="liveChatFooter" href="#" manual_cm_re="FOOTER-_-CONTACTUS-_-LIVECHAT" manual_cm_sp="FOOTER-_-CONTACTUS-_-LIVECHAT" onclick="openHelp();"><img src="https://images.qvc.com/is/image/pic/qvc/chat.png?fmt=png-alpha">Live Chat</a></li>
 
 
@@ -2211,10 +2213,16 @@ function trimMapper(index,item){
 	
 		<div style="clear:both;"></div>
 	</div>
+	<div id="footerFeedback">
+		<a manual_cm_sp="FOOTER-_-WSC-_-FEEDBACK" onclick="oo_inline.show();return false;" href="#"><img src="https://images.qvc.com/is/image/pic/qvc/feedback_icon.png?fmt=png-alpha">Feedback</a>
+	</div>
+
+
+
 
 
 	<div class="footerTpRight">
-	<a href="/Returns.Content.html" manual_cm_re="FOOTER-_-HELP-_-RETURNPOLICY" manual_cm_sp="FOOTER-_-HELP-_-RETURNPOLICY"> 
+	<a href="http://www.qvc.com/Returns.Content.html" manual_cm_re="FOOTER-_-HELP-_-RETURNPOLICY" manual_cm_sp="FOOTER-_-HELP-_-RETURNPOLICY"> 
 	<span> Our Promise:</span>
 	<p>Love it or Return it</p>
 	<p class="footerLMore">Learn More</p>
@@ -2225,11 +2233,27 @@ function trimMapper(index,item){
 </div>
 
 <div class="footerMenuBox">
+	<ul class="footerMenuQCard">
+		<h5>Get <em>more</em> with your QCard&reg;</h5>
+		<li id="liQcardLearn"><a href="http://www.qvc.com/QCard" title="Learn More" manual_cm_re="FOOTER-_-QCARD-_-LEARNMORE" manual_cm_sp="FOOTER-_-QCARD-_-LEARNMORE">Enjoy 3 Easy Payments! LEARN MORE</a></li>
+		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/LogonForm?storeId=10251&langId=-1&catalogId=10151&krypto=7Ly5yv3w%2BN%2BswXo4yimoMwSx6xh5W0z9wj57IOm%2BZ1EVVD8ZShk0DFoABoNshdp7pI8bULXYqZIi%0A3QzLFXHUJzJWqg8Rz92%2BXXxQrH7DwPrZRGmOUFcenqHmld8dIMVE&ddkey=http:ApplyForQCardView" title="Apply for a QCard" target="_blank" manual_cm_re="FOOTER-_-QCARD-_-APPLYFORAQCARD" manual_cm_sp="FOOTER-_-QCARD-_-APPLYFORAQCARD">Apply for a QCard</a></li>
+		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/ManageYourQCard?storeId=10251&catalogId=10151&langId=-1" title="Pay Your Bill" manual_cm_re="FOOTER-_-QCARD-_-PAYYOURBILL" manual_cm_sp="FOOTER-_-QCARD-_-PAYYOURBILL">Pay Your Bill</a></li>
+		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/ManageYourQCard?storeId=10251&catalogId=10151&langId=-1" title="Manage Your Account" manual_cm_re="FOOTER-_-QCARD-_-MANAGEYOURACCOUNT" manual_cm_sp="FOOTER-_-QCARD-_-MANAGEYOURACCOUNT">Manage Your Account</a></li>
+	</ul>
+
+
+
+
+
+
+
 	<ul>
 		<h5>QVC Everywhere</h5>
-		<li><a href="http://community.qvc.com" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-BLOGSANDFORUMS" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-BLOGSANDFORUMS" title="Blogs & Forums">Blogs & Forums</a></li>	
+		<li><a href="http://community.qvc.com" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-BLOGSANDFORUMS" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-BLOGSANDFORUMS" title="Blogs & Forums">Blogs & Forums</a></li>
 		<li><a href="http://gather.qvc.com/meet/" title="Follow our Community" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-FOLLOWOURCOMMUNITY" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-FOLLOWOURCOMMUNITY">Follow our Community</a></li>
 		<li><a href="http://www.qvc.com/QVCEverywhere.content.html" title="QVC Everywhere" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-QVCEVERYWHERE" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-QVCEVERYWHERE">Mobile Apps &amp; More </a></li>
+		<li class="liGiftCard"><a href="http://www.qvc.com/GiftCards.content.html" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-GIFTCARDS" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-GIFTCARDS"><img src="https://images.qvc.com/is/image/pic/qvc/gift_card_desktop.png">QVC Gift Cards</a></li>
+
 	</ul>
 	<ul>
 		<h5>About QVC</h5>
@@ -2253,13 +2277,21 @@ function trimMapper(index,item){
 		<li><a href="http://www.qvc.com/CreditCardDisplay?storeId=10251&catalogId=10151&langId=-1&mode=display" title="Credit Cards" manual_cm_re="FOOTER-_-ACCOUNTSTATUS-_-CREDITCARDS" manual_cm_sp="FOOTER-_-ACCOUNTSTATUS-_-CREDITCARDS">Credit Cards</a></li>
 		<li><a href="http://www.qvc.com/EmailMobileServicesForm?storeId=10251&catalogId=10151&langId=-1" title="Email Reminders" manual_cm_re="FOOTER-_-ACCOUNTSTATUS-_-EMAILREMINDERS" manual_cm_sp="FOOTER-_-ACCOUNTSTATUS-_-EMAILREMINDERS">Email Reminders</a></li>
 	</ul>
-	<ul class="footerMenuQCard">
-		<h5>QCard</h5>
-		<li><a href="http://www.qvc.com/QCard" title="Learn More" manual_cm_re="FOOTER-_-QCARD-_-LEARNMORE" manual_cm_sp="FOOTER-_-QCARD-_-LEARNMORE">Learn More</a></li>
-		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/LogonForm?storeId=10251&langId=-1&catalogId=10151&krypto=7Ly5yv3w%2BN%2BswXo4yimoMwSx6xh5W0z9wj57IOm%2BZ1EVVD8ZShk0DFoABoNshdp7pI8bULXYqZIi%0A3QzLFXHUJzJWqg8Rz92%2BXXxQrH7DwPrZRGmOUFcenqHmld8dIMVE&ddkey=http:ApplyForQCardView" title="Apply for a QCard" target="_blank" manual_cm_re="FOOTER-_-QCARD-_-APPLYFORAQCARD" manual_cm_sp="FOOTER-_-QCARD-_-APPLYFORAQCARD">Apply for a QCard</a></li>
-		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/ManageYourQCard?storeId=10251&catalogId=10151&langId=-1" title="Pay Your Bill" manual_cm_re="FOOTER-_-QCARD-_-PAYYOURBILL" manual_cm_sp="FOOTER-_-QCARD-_-PAYYOURBILL">Pay Your Bill</a></li>
-		<li><a href="http://www.qvc.com/webapp/wcs/stores/servlet/ManageYourQCard?storeId=10251&catalogId=10151&langId=-1" title="Manage Your Account" manual_cm_re="FOOTER-_-QCARD-_-MANAGEYOURACCOUNT" manual_cm_sp="FOOTER-_-QCARD-_-MANAGEYOURACCOUNT">Manage Your Account</a></li>
-	</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<ul class="footerGiftCards">
 	<h5>QVC Gift Cards</h5>
 		<li><a href="http://www.qvc.com/GiftCards.content.html" manual_cm_re="FOOTER-_-CONNECTWITHQVC-_-GIFTCARDS" manual_cm_sp="FOOTER-_-CONNECTWITHQVC-_-GIFTCARDS" ><img src="https://images.qvc.com/is/image/pic/qvc/gift_card_desktop.png"/></a><li>
@@ -2285,9 +2317,17 @@ function trimMapper(index,item){
 		<div class="footerLinksInteractive">
 			<h5>Other Liberty Interactive Companies:</h5>
 			<ul>
+
+
+
+
 				<li><a href="http://www.evite.com" target="_blank" title="eVite.com" manual_cm_re="FOOTER-_-LIBERTY-_-EVITE" manual_cm_sp="FOOTER-_-LIBERTY-_-EVITE">eVite</a></li>
+
+
+
 				<li><a href="http://www.expedia.com" target="_blank" title="Expedia.com" manual_cm_re="FOOTER-_-LIBERTY-_-EXPEDIA" manual_cm_sp="FOOTER-_-LIBERTY-_-EXPEDIA">Expedia</a></li>
 				<li><a href="http://www.ftd.com" target="_blank" title="FTD.com" manual_cm_re="FOOTER-_-LIBERTY-_-FTD" manual_cm_sp="FOOTER-_-LIBERTY-_-FTD">FTD</a></li>
+
 			</ul>
 		</div>
 		<br style="clear:both;" />
@@ -2334,17 +2374,17 @@ function trimMapper(index,item){
 </div>
 
 <div class="footerLegal">
-	
-	<div id="footerFeedback">
-		<a manual_cm_sp="FOOTER-_-WSC-_-FEEDBACK" onclick="oo_inline.show();return false;" href="#">Feedback</a>
-	</div>
+
+
+
+
 
 	<p class="footerDisclaimer">QVC is not responsible for the availability, content, security, policies, or practices of the above referenced third-party linked sites, nor liable for statements, claims, opinions, or representations contained therein. QVC's Privacy Statement does not apply to these third-party web sites.</p>
 	<p class="footerTrademark">&#169; 1995&#8211;2015 QVC, Inc. All rights reserved. <a class="underline" title="Trademark Notice" href="http://www.qvc.com/wcsstore/US/content/html/popups/popupTrademark.html" onclick="javascript:TB_show('', '/html/popups/popupTrademark.html?height=200&amp;width=450', false); cmCreateManualLinkClickTag('?cm_re=FOOTER-_-TRADEMARK-_-TRADEMARK&cm_sp=FOOTER-_-TRADEMARK-_-TRADEMARK'); return false;">Trademark Notice</a></p>
-	<div id="divFeedback">
-    	<a href="javascript:void(0);" onClick="oo_inline.show()" manual_cm_sp="WSC-_-FEEDBACK-_-CLICK">Feedback</a>
-    </div>
+
+
 </div>
+
 <a class="responsiveViewDesktop" href="#" onclick="toggleResponsiveView('desktop');return false;" title="Desktop View" manual_cm_re="FOOTER-_-RESPONSIVE-_-DESKTOP" manual_cm_sp="FOOTER-_-RESPONSIVE-_-DESKTOP">Desktop View</a>
 <a class="responsiveViewMobile" href="#" onclick="toggleResponsiveView('mobile');return false;" title="Mobile View" manual_cm_re="FOOTER-_-RESPONSIVE-_-MOBILE" manual_cm_sp="FOOTER-_-RESPONSIVE-_-MOBILE">Mobile View</a>
 <!-- Delete Old Cookies -->
@@ -2538,6 +2578,11 @@ setTimeout(function(){if(!(($('#chat-available').css('display')||$('#chat-offhou
      	eglvchathandle = window.open( eGainChatUrl,'',params)
     }
     }},3000);
+
+
+
+
+
 });
 
 </script>
@@ -2572,7 +2617,7 @@ The following code is Copyright 1998-2014 Opinionlab, Inc.  All rights reserved.
 <script language="javascript" type="text/javascript" charset="windows-1252" src="//www.qvc.com/wcsstore/US/content/html/onlineopinionV5/oo_engine.min.js"></script>
 <script language="javascript" type="text/javascript" charset="windows-1252" src="//www.qvc.com/wcsstore/US/content/html/onlineopinionV5/oo_conf.js"></script>
 <noscript>This JavaScript enables OnlineOpinion, a method for collecting secure feedback data.</noscript>
-<!-- END: OnlineOpinion--><!-- (*wchupa7001Node01.WCHUPA7001_7*) -->
+<!-- END: OnlineOpinion--><!-- (*Spkupa2090Node01.SPKUPA2090_10*) -->
 
 				</div> <!-- End divContentWrapperParent -->
 			</div>

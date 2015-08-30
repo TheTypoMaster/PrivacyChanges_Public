@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "05e97094b459215e185dfbec0a188ce0";
+var comscoreHash = "82dd44f1fb1b9f3e4e3cbb0987004bb5";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=05e97094b459215e185dfbec0a188ce0&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=82dd44f1fb1b9f3e4e3cbb0987004bb5&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -281,7 +281,7 @@ Celebrity
 <div class="submenu">
 <a href="http://www.popsugar.com/celebrities" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="celebrity:subnav-uber-tag1">Celebrities</a>
 <a href="http://www.popsugar.com/News" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="celebrity:subnav-uber-tag2">News</a>
-<a href="http://www.popsugar.com/celebrity-couples" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="celebrity:subnav-uber-tag3">Celebrity Couples</a>
+<a href="http://www.popsugar.com/Celebrity-Couples" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="celebrity:subnav-uber-tag3">Celebrity Couples</a>
 <a href="http://www.popsugar.com/Viral-Videos" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="celebrity:subnav-uber-tag4">Viral Videos</a>
 </div>
 </li>
@@ -383,7 +383,7 @@ Moms
 </a>
 <div class="submenu">
 <a href="http://www.popsugar.com/Parenting" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag1">Parenting</a>
-<a href="http://www.popsugar.com/pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
+<a href="http://www.popsugar.com/Pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
 <a href="http://www.popsugar.com/Food-and-Fun" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag3">Food & Fun</a>
 <a href="http://www.popsugar.com/Kid-Shopping" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag4">Kid Shopping</a>
 <a href="http://www.popsugar.com/Family-Life" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag5">Family Life</a>
@@ -831,6 +831,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-A-Listers"
+value="A-Listers"
+data-attr-name="A-Listers" />
+<label for="modal-list-A-Listers">
+<span class="checkbox"></span>
+<span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -857,16 +867,6 @@ data-attr-name="TV" />
 <label for="modal-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-A-Listers"
-value="A-Listers"
-data-attr-name="A-Listers" />
-<label for="modal-list-A-Listers">
-<span class="checkbox"></span>
-<span class="attr-name">A-Listers</span>
 </label>
 </div>
 </div>
@@ -1149,6 +1149,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-A-Listers"
+value="A-Listers"
+data-attr-name="A-Listers" />
+<label for="ad-list-A-Listers">
+<span class="checkbox"></span>
+<span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -1175,16 +1185,6 @@ data-attr-name="TV" />
 <label for="ad-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-A-Listers"
-value="A-Listers"
-data-attr-name="A-Listers" />
-<label for="ad-list-A-Listers">
-<span class="checkbox"></span>
-<span class="attr-name">A-Listers</span>
 </label>
 </div>
 </div>
@@ -1244,6 +1244,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-A-Listers"
+value="A-Listers"
+data-attr-name="A-Listers" />
+<label for="fb-list-A-Listers">
+<span class="checkbox"></span>
+<span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -1270,16 +1280,6 @@ data-attr-name="TV" />
 <label for="fb-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-A-Listers"
-value="A-Listers"
-data-attr-name="A-Listers" />
-<label for="fb-list-A-Listers">
-<span class="checkbox"></span>
-<span class="attr-name">A-Listers</span>
 </label>
 </div>
 </div>
@@ -1362,6 +1362,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Sat, 29 Aug 2015 17:13:56 -0700 in 64.65ms : web32 : none -->
+<!-- Hamsters typed up this page on Sat, 29 Aug 2015 18:16:09 -0700 in 88.6ms : web22 : none -->
 </body>
 </html>

@@ -124,7 +124,7 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 
   if (safety < 4) {
     /* <![CDATA[ */
-        jQuery.post('http://pjmedia.com/wp-admin/admin-ajax.php', {action: 'wpp_update', token: 'bc08e89468', id: 29384}, function(data){/*alert(data);*/});
+        jQuery.post('http://pjmedia.com/wp-admin/admin-ajax.php', {action: 'wpp_update', token: '00a90af17e', id: 29384}, function(data){/*alert(data);*/});
     /* ]]> */
   }
 
@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=598710004'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=409976508'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1640596783'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1636575184&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=2123150421'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1875473177'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=16331067'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1630626780&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -218,7 +218,7 @@ window.fbAsyncInit = function() {
 
 </script>    <script>
     jQuery(document).ready(function() {
-      PJMedia.SharingButtons.initialize(null, null, 'e0a49555f6');
+      PJMedia.SharingButtons.initialize(null, null, '4644d62ef6');
     });        
     </script>
     <style>
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1405993297');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=574040805');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1808330698');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=52493652');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=340033897');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1652983531');"></a>
   </span>
 </span>
 
@@ -608,11 +608,11 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 
 
 							
+											<li><a href="http://pjmedia.com/tatler/2015/02/10/gasps-of-disbelief-as-live-with-kelly-and-michael-top-teacher-winner-resigns-over-common-core-testing/">Gasps of Disbelief as 'Live with Kelly and Michael' Top Teacher Winner Resigns Over Common Core Testing</a></li>
+											
 											<li><a href="http://pjmedia.com/tatler/2015/08/29/gunman-still-at-large-after-execution-style-killing-of-tx-sheriffs-deputy-video/">Suspect In Custody After Execution Style Killing Of TX Sheriff's Deputy </a></li>
 											
 											<li><a href="http://pjmedia.com/tatler/2015/08/27/yes-really-141-counties-have-more-registered-voters-than-people-alive/">Yes, Really: <b>141</b> Counties Have More Registered Voters Than People Alive</a></li>
-											
-											<li><a href="http://pjmedia.com/tatler/2015/08/28/when-will-abc-release-full-vester-flanagan-manifesto/">When Will ABC News Release the Full Vester Flanagan Manifesto?</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213383/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON, <a target="_blank" href="http://www.amazon.com/b/?ref_=assoc_tag_ph_1404320826187&#038;_encoding=UTF8&#038;camp=1789&#038;creative=9325&#038;linkCode=pf4&#038;node=1065840&#038;tag=wwwviolentkicom&#038;linkId=FVOKRL2DDFUM3Y27">Back To School Deals Galore!</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213387/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">WELL, TO BE FAIR, THEY&#8217;RE READING JOSEPH NOCERA.  IN <em>THE NEW YORK TIMES.</em>  <a target="_blank" href="http://conservativewahoo.blogspot.com/2015/08/joseph-nocera-thinks-his-readers-are.html">TigerHawk:  Joseph Nocera thinks his readers are idiots.</a> ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213380/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">THIS IS COOL:  <a target="_blank" href="http://www.okayafrica.com/news/jules-david-bartkowski-pastor-paul-american-nollywood-film/">Is ‘Pastor Paul’ The World’s First ‘American Nollywood’ Film?</A></a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213385/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">HEH:  <a target="_blank" href="http://www.tickld.com/x/20-most-profound-things-people-thought-of-in-the-shower-9-is-epic">Last night my friend asked to use a USB port to charge his cigarette, but I was using it to charge my book. The future is stupid.</A></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213383/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON, <a target="_blank" href="http://www.amazon.com/b/?ref_=assoc_tag_ph_1404320826187&#038;_encoding=UTF8&#038;camp=1789&#038;creative=9325&#038;linkCode=pf4&#038;node=1065840&#038;tag=wwwviolentkicom&#038;linkId=FVOKRL2DDFUM3Y27">Back To School Deals Galore!</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213387/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">WELL, TO BE FAIR, THEY&#8217;RE READING JOSEPH NOCERA.  IN <em>THE NEW YORK TIMES.</em>  <a target="_blank" href="http://conservativewahoo.blogspot.com/2015/08/joseph-nocera-thinks-his-readers-are.html">TigerHawk:  Joseph Nocera thinks his readers are idiots.</a> ...</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -779,7 +779,7 @@ jQuery(document).ready(function($){
     ga('create', 'UA-3218147-1', 'auto');
     ga('require', 'displayfeatures');
         ga('send', 'pageview', {
-      'dimension5': '|b=1|t=p|i=29384|d=1440857160|a=1|'
+      'dimension5': '|b=1|t=p|i=29384|d=1440943560|a=1|'
     });
         </script>    <script type='text/javascript'>
     PJInterop.CookieCache.bind();
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":360,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":354,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
