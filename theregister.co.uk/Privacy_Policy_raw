@@ -574,7 +574,7 @@
                             <img src="https://regmedia.co.uk/2012/11/08/precog_minority_report.jpg?x=648&amp;y=429&amp;crop=1" alt="" width=648 height=429 class="article_img">
 
                 
-                <div id=social_btns class="alt_colour dcl ab_b">
+                <div id=social_btns class="alt_colour dcl">
                     <a href="http://twitter.com/share?text=Your%20Privacy%20and%20The%20Register&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;via=theregister" class=twit>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/twitter.png" srcset="/Design/graphics/icon/twitter.svg" alt="Twitter">
@@ -590,12 +590,6 @@
                     <a href="https://plus.google.com/share?url=http://www.theregister.co.uk/about/company/privacy/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class=gplus>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/google_plus.png" srcset="/Design/graphics/icon/google_plus.svg" alt="G+">
-                            <div class=count></div>
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;title=Your%20Privacy%20and%20The%20Register&amp;summary=What%20we%20do%20with%20your%20data" class=linkedin_social>
-                        <div class=circ>
-                            <img width="18" height="18" src="/Design/graphics/icon/linkedin_alt.png" srcset="/Design/graphics/icon/linkedin_alt.svg" alt="linkedin">
                             <div class=count></div>
                         </div>
                     </a>
@@ -754,27 +748,27 @@ Southport PR8 1LJ</p>
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4015/pure-storage-and-vmturbo-assuring-workload-performance.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Assuring workload performance through Pure Storage and VMTurbo</h4>
+                <h4>Empowering E-commerce against unpredictable demand</h4>
                 <div class=standfirst>
-                    Three primary use cases for the VMTurbo Pure Storage Control Module are discussed, including assuring performance in both homogeneous and heterogeneous storage environments.
+                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4019/ibm-security-combat-securty-threats.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3823/wgl03026usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Combat the latest security attacks with global threat intelligence</h4>
+                <h4>Putting advanced network security to work</h4>
                 <div class=standfirst>
-                    With the IBM Security portfolio users can leverage in-depth knowledge and understanding of threats to bring business value to their organisations.
+                    Highlighting specific examples of the ways in which these converged security systems put today’s more advanced capabilities to work in practical application.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4062/ga-wp-keeping-your-data-safe-wsj-symantec.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Securing the cloud</h4>
+                <h4>Keeping your data safe</h4>
                 <div class=standfirst>
-                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
+                    Understanding worldwide cloud adoption across leading organizations and the challenges associated with its use.
                 </div>
             </a>
         </div>
@@ -972,28 +966,6 @@ Southport PR8 1LJ</p>
 
 
 
-    <script>
-        $(function() {
-            if ($('#social_btns').length) {
-                var ab_set = {
-                    view_tracking:  'true',
-                    click_tracking: 'true',
-                    click_target:   '#social_btns a:not(.reg_comments), #social_btns .faceb',
-                    group:          'B (without count)',
-                    name:           'AB: Social btns 2015'
-                };
-                track_bucket_user(ab_set);
-
-                var ab_set = {
-                    click_tracking: 'true',
-                    click_target:   '.article_head .reg_comments',
-                    group:          'B (without count)',
-                    name:           'AB: Social btns 2015 comments'
-                };
-                track_bucket_user(ab_set);
-            }
-        });
-    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1045,7 +1017,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(334) });
+        $(function() { set_bucket_group(799) });
     </script>
         <div id="fb-root"></div>
     </div>

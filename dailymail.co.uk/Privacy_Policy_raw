@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440898519;
+  PageCriteria.timestamp = 1440902995;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440896533382),
+            serverDate: new Date(1440902246944),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"1":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"2":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
+adverts.botIPs={"2":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"3":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
 
-adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083001',
+            weatherDate: '2015083002',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -1079,6 +1079,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215715/Jade-Thirlwall-goes-make-free-slouchy-joggers-charity-T-shirt-enjoys-little-time-family-home.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/02/2BC9B00000000578-0-image-m-197_1440897027950.jpg" height="115" width="154" alt="28 Aug 2015  - SOUTH SHIELDS  - UK\n*** EXCLUSIVE ALL ROUND PICTURES ***\nMAKE UP FREE LITTLE MIX STAR JADE THIRLWALL ENJOYS DOWN TIME WITH HER FAMILY IN HER HOMETOWN OF NEWCASTLE AFTER A PACKED TOUR IN THE USA \nBYLINE MUST READ : XPOSUREPHOTOS.COM\n***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION ***\n**UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE  442083442007" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Little Mix's Jade Thirlwall goes make-up free in slouchy joggers and a charity T-shirt as she enjoys a little time off at family home
+          </strong>
+          Out in Newcastle
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215540/Truth-X-Factor-s-thrillers-Manila-Philippines-sisters-wowed-judges-four-talent-shows-won-THREE.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/20/2BC36ED500000578-0-image-a-32_1440877011393.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1103,6 +1115,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215724/TOWIE-s-Danielle-Armstrong-bares-cleavage-bottom-plunging-sheer-panelled-dress.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/00/2BC97C6200000578-0-image-m-29_1440892663375.jpg" height="115" width="154" alt="29 August 2015.\nDanielle armstrong, Chloe Sims, Cali Beach, Vicky Pattinson and Stephen Bear head to Nu Bar in Loughton, Essex.\nCredit: GoffPhotos.com   Ref: KGC-159\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          TOWIE's Danielle Armstrong dares to bare both her cleavage and bottom as she steps out in a plunging sheer-panelled dress
+          </strong>
+          Peek-a-boob!
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215534/Farrah-Abraham-starts-blazing-row-CBB-house-launching-ugly-tirade-against-James-Hill.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/21/2BC3E4BD00000578-0-image-a-77_1440881339482.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1111,6 +1135,30 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Here we go again! Farrah Abraham starts ANOTHER blazing row in the CBB house... by launching ugly tirade against James Hill
           </strong>
           She's only been in the house for 48 hours
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215679/Kelly-Osbourne-shows-curves-saucy-underwear-selfie-opts-granny-panties-thong.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/01/2BC9962300000578-0-image-a-32_1440894151552.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Comfort over dental floss!' Kelly Osbourne strips off for a saucy underwear selfie... but opts for 'granny panties' instead of a thong
+          </strong>
+          Looked out of place
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215739/Holly-Hagan-shows-slimline-figure-cleavage-enhancing-vest-top.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/02/2BC9C41900000578-0-image-a-71_1440896524107.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Geordie Shore's Holly Hagan shows off her slimline figure in cleavage-enhancing vest top as she steps out for lunch date&nbsp;
+          </strong>
+          Out in Liverpool
         </span>
       </a>
     </li>
@@ -1150,6 +1198,9 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
         </span>
       </a>
     </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
     <li>
       <a href="/tvshowbiz/article-3215418/Helen-Flanagan-cradles-angelic-baby-Matilda-football-match.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/17/2BC6893D00000578-0-image-m-6_1440865899550.jpg" height="115" width="154" alt="Helen Flanagan Baby PREVIEW.jpg" />
@@ -1171,6 +1222,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Another dog day afternoon! Amanda Seyfried shows off long legs in frayed Daisy Dukes as she walks beloved canine Finn
           </strong>
           A leisurely stroll in New York City
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215727/Demi-Lovato-commands-stage-crop-hot-pants-benefit-concert-kick-VMAs-weekend.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/02/2BC9C80D00000578-0-image-m-14_1440897063967.jpg" height="115" width="154" alt="HOLLYWOOD, CA - AUGUST 28:  Singer Demi Lovato performs onstage during the Time Warner Cable 2015 MTV VMA concert to benefit Lifebeat at Avalon on August 28, 2015 in Hollywood, California.  (Photo by Joshua Blanchard/Getty Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Ready for this? Demi Lovato commands the stage in crop top and hot pants at benefit concert to kick off VMAs weekend
+          </strong>
+          Titled album Confident
         </span>
       </a>
     </li>
@@ -1197,9 +1260,6 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           He was barely recognisable under heavy beard and hair
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215298/Madonna-s-daughter-Lourdes-Leon-dons-plunging-yellow-dress-sells-clothes-second-hand-store.html">
@@ -1310,6 +1370,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215744/Halle-Berry-Olivier-Martinez-share-loved-breakfast-marital-trouble-rumours.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/01/2BC9960B00000578-0-image-a-70_1440895905775.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Date morning! Halle Berry and Olivier Martinez share a loved-up breakfast after marital-trouble rumours
+          </strong>
+          Cosying up in West Hollywood, California
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215690/Emmy-Rossum-looks-beautiful-visiting-hair-salon-West-Hollywood.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/00/2BC9716600000578-0-image-a-50_1440892507616.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1342,18 +1414,6 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           'I'm trusting in God': Pregnant Jessa Duggar puts on a brave face at event with husband Ben as her brother's scandalous secret life overshadows 19 Kids And Counting family
           </strong>
           
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215724/TOWIE-s-Danielle-Armstrong-bares-cleavage-bottom-plunging-sheer-panelled-dress.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/00/2BC97C6200000578-0-image-m-29_1440892663375.jpg" height="115" width="154" alt="29 August 2015.\nDanielle armstrong, Chloe Sims, Cali Beach, Vicky Pattinson and Stephen Bear head to Nu Bar in Loughton, Essex.\nCredit: GoffPhotos.com   Ref: KGC-159\n" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Peek-a-boob! TOWIE's Danielle Armstrong dares to bare both her cleavage and bottom as she steps out in a plunging sheer-panelled dress
-          </strong>
-          Ripped up the rule book
         </span>
       </a>
     </li>
@@ -2018,6 +2078,18 @@ Tom Jones
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215741/Ex-Bachelor-star-Laurina-Fleure-denies-dating-Carlos-Sala.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/02/2BC9CDB500000578-0-image-m-59_1440897328992.jpg" height="115" width="154" alt="Laurina Fleure puff.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'He's the biggest s*** talker ever': Ex-Bachelor star Laurina Fleure hits back at Carlos Sala's claims they dated saying they were just friends
+          </strong>
+          Harsh words
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3214269/FIRST-LOOK-X-Factor-2015-kicks-twerking-grandmother-Olly-Murs-former-bandmate-s-Essex-receptionist-steals-judges-hearts.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/00/2BBEFE3E00000578-0-image-m-29_1440803358873.jpg" height="115" width="154" alt="**STRICTLY EMBARGOED UNTIL 00:01 GMT SATURDAY AUGUST 29TH 2015** X Factor contestants are seen on stage for the first show of the 2015 series.\nPictured is Techno Susan." />
         <span class="pufftext">
@@ -2402,18 +2474,6 @@ Tom Jones
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214763/Nice-milk-bottles-Pregnant-Kim-Kardashian-shares-close-chest-suggestive-emojis.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC05D1A00000578-0-image-m-94_1440798489834.jpg" height="115" width="154" alt="kims milkers.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Nice milk bottles! Pregnant Kim Kardashian shares close-up of her chest with suggestive emojis
-          </strong>
-          Kim posts a witty tweet for her many followers
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/tvshowbiz/article-3215134/Kirk-Norcross-ex-fianc-Cami-Li-enjoys-night-Ex-Beach-stars-Holly-Rickwood-Jemma-Lucy-SEX-Kirk-TV.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/10/2BC3292400000578-0-image-m-31_1440842015797.jpg" height="115" width="154" alt="CAMBRIDGE, UNITED KINGDOM - AUGUST 28: Jemma Luicy seen at Lolalo night club for a Ex On The Beach Night Out on August 28, 2015 in Cambridge, England.
 PHOTOGRAPH BY Eagle Lee / Barcroft Media
@@ -2436,12 +2496,60 @@ W www.barcroftindia.com" />
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214781/Stevi-Ritchie-Chloe-Jasmine-Whichello-rule-nookie-pick-double-bed-beneath-picture-themselves.html" class="bottom">
+      <a href="/tvshowbiz/article-3214763/Nice-milk-bottles-Pregnant-Kim-Kardashian-shares-close-chest-suggestive-emojis.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC05D1A00000578-0-image-m-94_1440798489834.jpg" height="115" width="154" alt="kims milkers.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Nice milk bottles! Pregnant Kim Kardashian shares close-up of her chest with suggestive emojis
+          </strong>
+          Kim posts a witty tweet for her many followers
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3213954/The-Queen-friends-know-never-seen-look-private-life-Britain-s-beloved-monarch-told-closest-companions.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/16/2BBBD47A00000578-0-image-a-1_1440774598379.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The Queen only her friends know: A never-before-seen look into the private life of Britain's beloved monarch as told by her closest companions&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3214781/Stevi-Ritchie-Chloe-Jasmine-Whichello-rule-nookie-pick-double-bed-beneath-picture-themselves.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC05ADF00000578-0-image-m-2_1440798644690.jpg" height="115" width="154" alt="****Ruckas Videograbs****  (01322) 861777\n*IMPORTANT* Please credit Channel 5 for this picture.\n28/08/15\nCelebrity Big Brother" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           'No sex tape for us!' CBB's clean couple Stevi Ritchie and Chloe-Jasmine Whichello rule out 'nookie' as they pick a double bed beneath a picture of themselves
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3214658/Kirsty-Gallacher-Peter-Andre-lead-Strictly-Come-Dancing-celebrities-look-teaser.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBFAADC00000578-0-image-m-111_1440789278765.jpg" height="115" width="154" alt="peter andre" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Jazz hands at the ready! Kirsty Gallacher and Peter Andre slip into sequins in first look at the glittering Strictly Come Dancing celebrity line-up
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3214473/Jodie-Marsh-reveals-SECOND-wedding-dress-explains-kept-wedding-secret-stayed-celibate-nuptials.html" class="bottom">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/17/2BBF2B8C00000578-0-image-a-22_1440780239997.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Jodie Marsh reveals she had a SECOND wedding dress as she explains why she kept her wedding secret and stayed celibate until after the nuptials
           </strong>
           
         </span>

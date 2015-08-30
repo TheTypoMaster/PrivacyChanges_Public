@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
 	<meta http-equiv="content-language" content="en-gx" />
-	<meta http-equiv="Last-Modified" content="Sat Aug 29 16:35:32 EDT 2015" />
+	<meta http-equiv="Last-Modified" content="Fri Aug 28 22:54:44 EDT 2015" />
 	
     <meta property="og:title" content="PwC's privacy commitment"/>
 
@@ -31,7 +31,7 @@
 		
 			
 		
-	<meta name="clientvm" content="Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)" />
+	<meta name="clientvm" content="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9" />
 	<!-- ESI Mobile:  -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/en_US/gx/assets/image/apple-touch-icon-144x144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/en_US/gx/assets/image/apple-touch-icon-114x114-precomposed.png">
@@ -130,7 +130,7 @@ $('#countrycontactsddl option').filter(function() { return $(this).attr('value')
 
                   <script type="text/javascript">
                     var AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(c,a){AKSB.q.push(["mark",c,a||(new Date).getTime()])};AKSB.measure=function(c,a,b){AKSB.q.push(["measure",c,a,b||(new Date).getTime()])};AKSB.done=function(c){AKSB.q.push(["done",c])};AKSB.mark("firstbyte",(new Date).getTime());
-                    AKSB.prof={custid:"94107",ustr:"",originlat:0,clientrtt:1,ghostip:"209.8.212.103",ipv6:false,pct:10,xhrtest:false,clientip:"52.2.142.173",requestid:"191809a2",protocol:"",akM:"b",akN:"ae"};
+                    AKSB.prof={custid:"94107",ustr:"",originlat:0,clientrtt:1,ghostip:"184.51.101.63",ipv6:false,pct:10,xhrtest:false,clientip:"52.2.142.173",requestid:"31abc95e",protocol:"",akM:"b",akN:"ae"};
                     (function(c){var a=document.createElement("iframe");a.src="javascript:false";(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; display: none";var b=document.getElementsByTagName("script"),b=b[b.length-1];b.parentNode.insertBefore(a,b);a=a.contentWindow.document;b=String.fromCharCode;c=b(60)+"body onload=\"var js = document.createElement('script');js.id = 'aksb-ifr';js.src = '"+c+"';document.body.appendChild(js);\""+b(62);a.open().write(c);a.close()})(("https:"===document.location.protocol?
                     "https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js");
                   </script>
@@ -548,7 +548,7 @@ $('#countrycontactsddl option').filter(function() { return $(this).attr('value')
 var sharetitle = "PwC's privacy commitment";
 
 function emailpage(){
-var urlToOpen = "/en_GX/webadmin/forms/email_a_colleague.jhtml?localeOverride=en_GX&color_stylesheet=tangerine&urlref=kSsz3QiWSPBLO/km3PpJuVuYiZFTFT9QahypeeZvcRIbpt3DD6RLmA1/qGcuQmtpQ+UpwqUoCKE=";
+var urlToOpen = "/en_GX/webadmin/forms/email_a_colleague.jhtml?localeOverride=en_GX&color_stylesheet=tangerine&urlref=qZTmuIpL0TiM3lWOTpTVeaminwEZtqPjEQfGbu+hKit8C2dvUjOn18herdvdpCI/jBdxEWjG5+4=";
 PopUp = window.open( urlToOpen, 'Popup', 'width=450,height=500,menubar=no,scrollbars=yes,resizable=yes' );
 }
 

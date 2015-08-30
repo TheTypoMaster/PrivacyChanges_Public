@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"652BCD53BA7315DEEA9D849506E3F5DE646174653D323031352D30382D3239267573657269643D6166306565343230623532303462326538396364333766636335383661366631","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"af0ee420b5204b2e89cd37fcc586a6f1","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"77495613-48e1-4ed5-abde-88510cd959ca","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4F268536389310390C1E0DF0E880510C646174653D323031352D30382D3239267573657269643D3530326238303436303632303435613262386133343133653862346535383766","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"502b8046062045a2b8a3413e8b4e587f","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"8cf1b63e-104c-4be4-882e-7e294579f977","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Nice to see you.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			Pop-In@Nordstrom x Warby Parker.
+			A new shop for emerging and advanced designers.
 				
-					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -1752,11 +1752,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Want a Personal Stylist?</h2>
+		<h2>Emails with style.</h2>
 		<p>
-			It&#39;s fast, fun, free ... and zero pressure.
+			Events and expert advice that matter to you.
 				
-					<a href="personal-stylists?origin=footer-promo" manual_cm_sp="merch-_-corp_0218personalstylist-_-swpfooter_info" title="Get started">Get started</a>.
+					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
 				
 		</p>
 	</section>
