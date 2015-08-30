@@ -103,12 +103,12 @@
       TWC.pco=TWC.initpco(
         jQuery,
         {page:{
-          'ampm':       'am',
+          'ampm':       'pm',
           'timezone':   'EDT',
           'serverdate': '08/30/2015',
-          'servertime': '10:53:12',
+          'servertime': '12:12:45',
           'locale':     'en',
-          'serverhrs':  '10',
+          'serverhrs':  '12',
           'lang':       'en',
           'serverday':  'Sun'
         },ad:{}},

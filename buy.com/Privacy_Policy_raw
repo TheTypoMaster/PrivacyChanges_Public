@@ -69,17 +69,17 @@
 </script>
 
 <meta name="robots" content="index,follow" />
-<meta name="buy:user_agent" content="Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4" />
+<meta name="buy:user_agent" content="Python-urllib/2.7" />
 <meta name="description" content="" />
 
 <meta name="language" content="English" />
 
-<meta name="buy:web" content="20" />
+<meta name="buy:web" content="149" />
 
 
-<meta name="buy:banana" content="10520" />
+<meta name="buy:banana" content="306149" />
 
-<meta name="buy:time" content="8/30/2015 7:38:53 AM" />
+<meta name="buy:time" content="8/30/2015 9:18:53 AM" />
 
 
 <meta property="og:url" content="" />
@@ -1483,9 +1483,9 @@ BUY.Tracking.Load = function(url) {
 	url += gsaParam;
 
 	if (isHTTPS) {
-		$body.append("<img src=\"https://traffic.buyservices.com/traffic.asmx/InsertEvent4?EventType=CL&EID=10000&ShopperId=" + sid + "&IP=20&referrer=" + pid + "&Url=" + encodeURIComponent(url) + "\" width=\"1\" height=\"1\" border=\"0\" />");
+		$body.append("<img src=\"https://traffic.buyservices.com/traffic.asmx/InsertEvent4?EventType=CL&EID=10000&ShopperId=" + sid + "&IP=149&referrer=" + pid + "&Url=" + encodeURIComponent(url) + "\" width=\"1\" height=\"1\" border=\"0\" />");
 	} else {
-		$body.append("<img src=\"http://traffic.buyservices.com/traffic.asmx/InsertEvent4?EventType=CL&EID=10000&ShopperId=" + sid + "&IP=20&referrer=" + pid + "&Url=" + encodeURIComponent(url) + "\" width=\"1\" height=\"1\" border=\"0\" />");
+		$body.append("<img src=\"http://traffic.buyservices.com/traffic.asmx/InsertEvent4?EventType=CL&EID=10000&ShopperId=" + sid + "&IP=149&referrer=" + pid + "&Url=" + encodeURIComponent(url) + "\" width=\"1\" height=\"1\" border=\"0\" />");
 		//$body.append("<iframe src=\"http://www.rakuten.com/corp/basket/wsCookie.asp\" width=\"1\" height=\"1\" marginheight=\"0\" marginwidth=\"0\" frameborder=\"0\" scrolling=\"no\"><\/iframe>");
 	}
 };

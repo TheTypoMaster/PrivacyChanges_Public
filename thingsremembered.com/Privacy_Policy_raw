@@ -210,7 +210,7 @@
   </a>
 
 </div><div class="email-signup-contianer">
-	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='2qEb5i5LMtI41CDhfNMlXqcxw2S7yGK9uljaOrG4hLU=CPbcGZS8oXw='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
+	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='x4dWw1y5i4+73bonulf2hoEI6W9wCGv+crHBjTt3g9c=rdC5z9ojt0o='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
 		<div class="signup-button-cheetah button">
 			<span class="signup-text-cheetah">Sign Up Now</span>
 		</div>

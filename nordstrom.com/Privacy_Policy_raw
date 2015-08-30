@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"87F7CD6318D45FD8D74A3BD3A805324C646174653D323031352D30382D3330267573657269643D3834336336343365346361353465306162653764373035326333356332643737","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"843c643e4ca54e0abe7d7052c35c2d77","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6fb027dd-9853-4576-8e70-10ff36754bcf","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"125EA5E80B96F69159942843BD8654E9646174653D323031352D30382D3330267573657269643D3337336635623333643666633438383638383735616462373230356430616239","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"373f5b33d6fc48868875adb7205d0ab9","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"c831948e-6e7e-4c5d-8f7e-47e767f205a0","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>SPACE:</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			A new shop for emerging and advanced designers.
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -2289,11 +2289,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Earn up to a $200 Note!</h2>
+		<h2>Emails with style.</h2>
 		<p>
-			
+			Events and expert advice that matter to you.
 				
-					<a href="spend-more-get-more?origin=footer-promo" manual_cm_sp="corp-_-corp_0817smgm_2716-_-swpfooter_details" title="Restrictions apply">Restrictions apply</a>.
+					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
 				
 		</p>
 	</section>
