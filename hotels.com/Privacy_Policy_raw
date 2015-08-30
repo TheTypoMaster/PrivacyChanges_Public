@@ -166,7 +166,7 @@
     window.hcom = window.hcom || {};
 
     window.hcom.configuration =
-      {"DEFAULT_DATE_FORMAT":"MM/dd/yy","LOCALIZED_DATE_FORMAT":"mm/dd/yy","FIRST_DAY_OF_WEEK":0,"HOTEL_REVIEW_SCALE_SIZE":"5","HCOM_POS":"HCOM_US","DAYNAME_MONTHNAME_DATE_YEAR_FORMAT":"EEEE, MMMM d, yyyy","DROP_DOWN_CALENDAR_YEAR_MONTH_LABEL_TEMPLATE":"","DROP_DOWN_CALENDAR_DAY_LABEL_TEMPLATE":"","CURRENCY_CODE":"DKK","MAX_ADVANCE_DAYS":"500","SELECTORS_URL":"/selectors/HWA.116.2.1536.11/en_US/","MOBILE_CURRENCIES_URL":"/mobile/ajax_currencies/HWA.116.2.1536.11/en_US/","DISPLAY_DAY_TEXT_ON_SEARCH_DD":"true","FB_APP_ID":"105208249622845","FB_API_VERSION":"v2.2"};
+      {"DEFAULT_DATE_FORMAT":"MM/dd/yy","LOCALIZED_DATE_FORMAT":"mm/dd/yy","FIRST_DAY_OF_WEEK":0,"HOTEL_REVIEW_SCALE_SIZE":"5","HCOM_POS":"HCOM_US","DAYNAME_MONTHNAME_DATE_YEAR_FORMAT":"EEEE, MMMM d, yyyy","DROP_DOWN_CALENDAR_YEAR_MONTH_LABEL_TEMPLATE":"","DROP_DOWN_CALENDAR_DAY_LABEL_TEMPLATE":"","CURRENCY_CODE":"USD","MAX_ADVANCE_DAYS":"500","SELECTORS_URL":"/selectors/HWA.116.2.1536.11/en_US/","MOBILE_CURRENCIES_URL":"/mobile/ajax_currencies/HWA.116.2.1536.11/en_US/","DISPLAY_DAY_TEXT_ON_SEARCH_DD":"true","FB_APP_ID":"105208249622845","FB_API_VERSION":"v2.2"};
 
     window.hcom.locale =
       {"url":"www.hotels.com","secureUrl":"ssl.hotels.com","direction":"LTR","rules":{"GOOGLE_MAPS_API_VERSION":"3","GOOGLE_MAPS_LANGUAGE_CODE":"en","COUNTRIES_WITHOUT_POSTAL_CODE":"HK,IE","REQUEST_CHANNEL_TYPE":"WEB_DESKTOP","OMNITURE_S_ACCOUNT":"hotelsallprod","OMNITURE_S_LNK_INT_FLTR":"javascript:,hotels.com,hoteis.com,hoteles.com,hotels.cn","JAVASCRIPT_DEVELOPMENT":false,"OMNITURE_S_SURVEY_ACCOUNT":"hotelsallprod"},"firstDayOfWeek":0,"showMonthAfterYear":false,"showNumericMonth":false,"monthUnit":"","yearUnit":"","dateFormatSymbols":{"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekDays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shortWeekdays":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"dayWeekdayFormat":"d E","language":"en_US","facebookLocale":"en_US","autosuggest":{"asURL":"/suggest","srsURL":"http://lookup.hotels.com/2/suggest/v1/json","countryURL":"/co{0}/","regionURL":"/re{0}/","stateURL":"/sa{0}/","continentURL":"/cn{0}/","destinationLandingPageUrl":"/de{0}/","isAutoSuggestActive":true,"isHotelSearchActive":true,"activationCharLength":"3","i18nMessages":{"categories":{"cities":"Cities/Areas","hotels":"Hotels","landmarks":"Landmarks","airports":"Airports","airports_stations":"Airports/Stations"},"error":"Please type the name of a destination or hotel","noSuggestionMatch":"No suggestions match","close":"close","moreSuggestion":"...and more, keep typing to refine search","noSuggestion":"no suggestions"}},"common":{"expandBlockButtonLabel":"view more","tooLongStay":"Your stay cannot be longer than {0} nights.","numberOfNightsSingle":"one night","numberOfNightsPlural":"{0} nights"},"search":{"i18nMessages":{"resetToolTip":"Reset this filter"},"resolution":{"countryURL":"/co{0}/","regionURL":"/re{0}/","stateURL":"/sa{0}/","continentURL":"/cn{0}/","destinationLandingPageUrl":"/de{0}/"}},"clipboard_path":"/static/common/81.0/images/flash/clipper.swf"};
@@ -174,7 +174,7 @@
 //--><!]]></script>
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 
-    var commonDataBlock = {"user":{"sessionId":"atGR_B9CWSz7HkrJrT8QIdnJnP.prod2-hwa-06","guid":"1c2ac923-a7f3-4d07-8694-a97e5d91db78","wrStatus":"New Visitor","pos":"HCOM_US","locale":"en_US","geolocation":{"latitude":"39.0438","longitude":"-77.4879"},"platformId":"Desktop"},"page":{"pageName":"Customer Service :: Privacy Statement","siteSection":"Customer Service","random10Alpha":"it39b21ccq","random10Numeric":"2139065657","currency":"USD","additionalPageInformation2":"Customer Service :: Privacy Statement"},"search":{},"booking":{"bookingError":{}},"marketing":{"restrictedLastTouch":{"marketingCode":"Brand","fullMarketingCode":"Brand"},"currentUnrestricted":{"marketingCode":"Brand","fullMarketingCode":"Brand"},"currentRestricted":{"marketingCode":"Brand","fullMarketingCode":"Brand"}},"property":{},"event":{"eventType":"hwa"},"mvtHistory":{"mvts":"92.0.1.i3:98.6.0:260.1.0.i4:336.1.0.i2:402.0.0:494.2.0.i15:531.1.1:555.2.0.i1:927.1.0.i6:945.0.0:1156.1.0.i9:1281.0.0:1619.0.0:1715.0.0:1825.0.0:1871.0.0:1946.0.0:1955.0.0:1977.1.0.i4:2089.2.0.i2:2333.0.0:2338.0.0.i3:2383.2.0.i1:2532.0.0.i1:2563.0.0:2569.0.0:2594.0.0:2596.0.0:2598.0.0|HCOM_US"}};
+    var commonDataBlock = {"user":{"sessionId":"jR0oVai9pYxEziKvQZbUlTxrGn.prod2-hwa-04","guid":"695be867-249e-4575-b504-f2bff36fb9d2","wrStatus":"New Visitor","pos":"HCOM_US","locale":"en_US","geolocation":{"latitude":"39.0438","longitude":"-77.4879"},"platformId":"Desktop"},"page":{"pageName":"Customer Service :: Privacy Statement","siteSection":"Customer Service","random10Alpha":"n9b5xw9d22","random10Numeric":"3800221041","currency":"USD","additionalPageInformation2":"Customer Service :: Privacy Statement"},"search":{},"booking":{"bookingError":{}},"marketing":{"restrictedLastTouch":{"marketingCode":"Brand","fullMarketingCode":"Brand"},"currentUnrestricted":{"marketingCode":"Brand","fullMarketingCode":"Brand"},"currentRestricted":{"marketingCode":"Brand","fullMarketingCode":"Brand"}},"property":{},"event":{"eventType":"hwa"},"mvtHistory":{"mvts":"92.0.1.i3:98.6.0:260.1.0.i4:336.1.0.i2:402.0.0:494.2.0.i15:531.1.1:555.2.0.i1:927.1.0.i6:945.0.0:1156.1.0.i9:1281.0.0:1619.0.0:1715.0.0:1825.0.0:1871.0.0:1946.0.0:1955.0.0:1977.1.0.i4:2089.2.0.i2:2333.0.0:2338.0.0.i3:2383.2.0.i1:2532.0.0.i1:2563.0.0:2569.0.0:2594.0.0:2596.0.0:2598.0.0|HCOM_US"}};
   
 //--><!]]></script>
 <script type="text/javascript"><!--//--><![CDATA[//><!--
@@ -189,7 +189,7 @@
 //--><!]]></script>
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 
-    window.hcom.userTime = '1440907583818' * 1;
+    window.hcom.userTime = '1440912034248' * 1;
     window.hcom.serverTime = '' * 1;
     window.hcom.locale.priceFormatSeparators = ",.";
     window.hcom.locale.isPlusNextToPrice = false;
@@ -237,7 +237,7 @@ s.channel = "Customer\x20Service";
     s.eVar69 = "Brand";
     s.pageName = "Customer\x20Service\x20\x3A\x3A\x20Privacy\x20Statement";
     s.prop5 = "251463";
-    s.prop27 = "1c2ac923\x2Da7f3\x2D4d07\x2D8694\x2Da97e5d91db78";
+    s.prop27 = "695be867\x2D249e\x2D4575\x2Db504\x2Df2bff36fb9d2";
     s.prop28 = "0";
     s.prop32 = "en_US\x7CHCOM_US\x7Cwww.hotels.com";
     s.prop33 = "Customer\x20Service\x20\x3A\x3A\x20Privacy\x20Statement";
