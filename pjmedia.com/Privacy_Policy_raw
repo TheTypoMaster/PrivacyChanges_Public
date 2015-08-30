@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=695610896'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=475637453'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=340079439'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1423787000&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=532460415'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=863612318'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1367742652'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=629520455&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1183039156');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=774086782');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=132402367');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1055006828');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1002661826');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=92740276');"></a>
   </span>
 </span>
 
@@ -610,9 +610,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 							
 											<li><a href="http://pjmedia.com/diaryofamadvoter/2015/08/30/who-shot-the-sheriff/">Who Shot the Sheriff?</a></li>
 											
-											<li><a href="http://pjmedia.com/richardfernandez/2015/08/30/no-ordinary-time/">No Ordinary Time</a></li>
+											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
 											
-											<li><a href="http://pjmedia.com/eddriscoll/2014/01/19/the-l-word/">How the L-Word Was Won</a></li>
+											<li><a href="http://pjmedia.com/richardfernandez/2015/08/30/no-ordinary-time/">No Ordinary Time</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -640,7 +640,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/lifestyle/2015/08/29/trigger-warning-parody-imagine-a-world-where-that-mean-white-cisgendered-syllabus-cant-hurt-you/">Trigger Warning Parody: Imagine a World Where That Mean, White, Cisgendered Syllabus Can&#8217;t Hurt You</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/29/jerky-illusions-uncle-andys-unfortunate-url/">Jerky Illusions: Uncle Andy&#8217;s Unfortunate URL</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/28/explore-the-wonders-of-flight-at-the-experimental-aviation-museum-in-oshkosh/">Explore the Wonders of Flight at the Experimental Aviation Museum in Oshkosh</a></li>
+				<li><a href="http://pjmedia.com/lifestyle/2015/08/30/comparing-trump-to-reagan-should-be-a-slappable-offense/">Comparing Trump to Reagan Should be a Slappable Offense</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/29/trigger-warning-parody-imagine-a-world-where-that-mean-white-cisgendered-syllabus-cant-hurt-you/">Trigger Warning Parody: Imagine a World Where That Mean, White, Cisgendered Syllabus Can&#8217;t Hurt You</a></li><li><a href="http://pjmedia.com/lifestyle/2015/08/29/jerky-illusions-uncle-andys-unfortunate-url/">Jerky Illusions: Uncle Andy&#8217;s Unfortunate URL</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213430/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">LEGAL ACADEMIA&#8217;S DIVERSITY PROBLEM:  <a target="_blank" href="http://taxprof.typepad.com/taxprof_blog/2015/08/the-most-liberal-entertainment-civil-rights-personal-injury-and-conservative-oil-gas-ma-energy-lawye.html">Lawyers By Practice Area; Law Professors Are The Most Liberal Among 61 Groups.</A></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213420/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON:  <a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&#038;bbn=11415558011&#038;camp=1789&#038;creative=9325&#038;linkCode=ur2&#038;lo=fashion&#038;qid=1440938275&#038;rh=n%3A7141123011%2Cn%3A11415558011%2Cn%3A7147441011&#038;tag=wwwviolentkicom&#038;linkId=5OBHCZULBWD6NH4U">Designer Sunglasses for Men.</a> </a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213432/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">THIS WILL WIN FRIENDS, OR AT LEAST INFLUENCE PEOPLE:  <a target="_blank" href="http://www.powerlineblog.com/archives/2015/08/black-lives-matter-comes-to-the-state-fair.php">Black Lives Matter Comes to the State Fair.</a>  &#8220;The main entrance to the fair on Snelling Avenue was closed down, which must have been a terrible inconvenience to fairgoers. . . .  There was no violence, but a number of passers-by stopped to argue with the demonstrators. In each case, as reported by the Minneapolis Star Tribune, those who argued with the marchers said that all lives matter.&#8221; ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213431/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">TRUMP&#8217;S SECRET:  <a target="_blank" href="http://www.rasmussenreports.com/public_content/politics/general_politics/august_2015/is_america_too_pc">Rasmussen: Nearly 3 in 4 Americans Think Political Correctness Is a Problem.</a>  &#8220;Republican presidential frontrunner Donald Trump during the first pre-primary debate reiterated a point he’s made throughout his campaign that &#8216;the big problem this country has is being politically correct.&#8217; Most Americans strongly agree with that sentiment.  A new Rasmussen Reports national telephone survey finds that 71% of American Adults think political correctness is a problem in America today, while only 18% disagree. Ten percent (10%) are undecided.&#8221; Almost a 4-1 margin.  That&#8217;s pretty huge. ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213430/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">LEGAL ACADEMIA&#8217;S DIVERSITY PROBLEM:  <a target="_blank" href="http://taxprof.typepad.com/taxprof_blog/2015/08/the-most-liberal-entertainment-civil-rights-personal-injury-and-conservative-oil-gas-ma-energy-lawye.html">Lawyers By Practice Area; Law Professors Are The Most Liberal Among 61 Groups.</A></a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":352,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":373,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
