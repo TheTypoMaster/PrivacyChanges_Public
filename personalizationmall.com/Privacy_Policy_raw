@@ -35,7 +35,7 @@
 				</table>
 				</div></div>
 					<script>
-					var serverDate = new Date('08/30/15 13:49:00'); 
+					var serverDate = new Date('08/30/15 15:04:05'); 
 					var endDate = new Date('08/30/15 23:59:59');
 					var clientDate = new Date();
 					var clientOffset = serverDate.getTime() - clientDate.getTime();
@@ -379,7 +379,7 @@ Email: <a href="ContactUs.aspx">Service@PersonalizationMall.com</a><br />
 				    {
 				        var img = $get("imgBInfo");
 
-				        var csid = 286905699;	
+				        var csid = 286910663;	
 					var w = screen.width;
 					var h = screen.height;
 			
@@ -452,6 +452,6 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
         
 
-		 <!-- PMSID: 286905699 SID:Web11: 31 (400) (1)-->
+		 <!-- PMSID: 286910663 SID:Web13: 15 (400) (1)-->
 	 </body>
 </html>
