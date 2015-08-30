@@ -75,7 +75,45 @@
 <!-- mp_trans_disable_end -->
 
 <input name="hdnNoOfItemsInCart" type="hidden" id="hdnNoOfItemsInCart" />
-</head><body><form method="post" action="privacypolicy.aspx" id="Form1"><script src="http://s.tmocache.com/WebEnhancer.js?token=635761989128686552&files=xxNp2z8wmOL3YN3wxxcaZOEKGek79kQhx04fXkcdlhrGNnsdOrP6h%2bK7oyaWQiMB" type="text/javascript" language="javascript"></script>
+</head><body><div style='display:none' id='dvDowntimeSplashMsg'><div class="roundtop">
+      <img class="corner" height="45" alt="" src="http://s.tmocache.com/images/tl.png" width="15" align="left" /> <a class="close_btn" title="" style="DISPLAY: block; FLOAT: right; MARGIN: 1px 1px 0px 0px" onclick="javascript:$.unblockUI();" href="javascript:;"></a>
+    </div>
+
+    <div class="popcontentDT" style="PADDING-RIGHT: 19px; PADDING-LEFT: 19px; PADDING-BOTTOM: 30px; PADDING-TOP: 27px">
+      <h1 class="ftxt14 txtbld fcolrbl7f">OOPS. We&#146;re sorry&#151;we&#146;re working on our site right now.</h1>
+
+      <div class="ftxt13 ftxtclr2c2c2c" style="MARGIN: 4px 0px 24px">
+        That means you can&#146;t make a purchase right now. The site will be available again soon.
+      </div>
+
+      <div class="ftxt13 ftxtclr2c2c2c">
+        <span class="txtbld">In the meantime you can still...</span> 
+
+        <ul class="splashlist">
+          <li>Shop and add items to your cart, then save your cart for later</li>
+
+          <li>Get support for your phone or device, and get help with billing, plans, and services by visiting T-Mobile Support</li>
+        </ul>
+        We appreciate your patience. Please come back and see us again soon!
+      </div>
+
+      <div style="PADDING-TOP: 30px">
+        <div style="FLOAT: left">
+          <a class="button-launch launch-gray-button-23" href="/shop/phones/default.aspx?tab=cell-phones"><span class="ftxt12">Browse phones</span></a>
+        </div>
+
+        <div style="PADDING-LEFT: 10px; FLOAT: left; LINE-HEIGHT: 23px">
+          <a title="" style="FONT-SIZE: 12px; COLOR: #088da8" href="http://support.t-mobile.com/index.jspa">Go to Support</a>
+        </div>
+
+        <div class="fclear">
+        </div>
+      </div>
+    </div>
+
+    <div class="roundbottom">
+      <img class="corner" style="TEXT-ALIGN: left" height="31" alt="" src="http://s.tmocache.com/images/bl.png" width="15" />
+    </div></div><form method="post" action="privacypolicy.aspx" id="Form1"><script src="http://s.tmocache.com/WebEnhancer.js?token=635761989128686552&files=xxNp2z8wmOL3YN3wxxcaZOEKGek79kQhx04fXkcdlhrGNnsdOrP6h%2bK7oyaWQiMB" type="text/javascript" language="javascript"></script>
 <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNzA5Nzk2NzBkZA+F99qjyoQGWDQfVs+ob2N3uMRDrFEjB6z+ZInqvsTo" />
 
 
@@ -89,7 +127,7 @@
 				<script type="text/javascript">document.domain = "t-mobile.com";</script>
 <script type='text/javascript'>
     var serverDate = '8/29/2015';
-    var serverTime = '19:51:33';
+    var serverTime = '21:6:1';
 </script>
 <script type="text/javascript">
   //<![CDATA[
@@ -1613,5 +1651,14 @@ function toggle11() {
 				&copy; 2002-2015 T-Mobile USA, Inc.
 			</div>
 		
-<script type="text/javascript">var divChatButton = $('<div id="inqC2C2ImgContainer" class="touch-commerce-chat-button"></div>');$('#head #Page, #head #wrapper').prepend(divChatButton);</script>
+<!-- Start : Ensighten Tag Management PDL -->
+<SCRIPT type="text/javascript">
+var _PDL=_PDL||{};
+_PDL={"errors":[{"errorCode":"Xd","errorDescription":"Online Shopping Error"}]};
+</SCRIPT>
+<!-- End : Ensighten Tag Management PDL -->
+
+<script language=javascript>
+ShowDowntimeMessage();
+</script><script type="text/javascript">var divChatButton = $('<div id="inqC2C2ImgContainer" class="touch-commerce-chat-button"></div>');$('#head #Page, #head #wrapper').prepend(divChatButton);</script>
  <script type='text/javascript' src='https://tmobile-us.inq.com/chatskins/launch/inqChatLaunch343.js'></script> </form></body></html>

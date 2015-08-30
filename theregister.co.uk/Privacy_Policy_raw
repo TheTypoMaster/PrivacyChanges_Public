@@ -740,27 +740,27 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3631/open-itoa-white-paper-140809.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3630/10-ways-wire-data-can-help-you-conquer-it-complexity-complete-11.15.13.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Designing and building an open ITOA architecture</h4>
+                <h4>10 ways wire data helps conquer IT complexity</h4>
                 <div class=standfirst>
-                    Learn about a new IT data taxonomy defined by the four data sources of IT visibility: wire, machine, agent, and synthetic data sets.
+                    IT teams can automatically detect problems across the IT environment, spot data theft, select unique pieces of transaction payloads to send to a data source, and more.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4016/openstack-for-enterprise-ebook-vmturbo.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Empowering E-commerce against unpredictable demand</h4>
+                <h4>OpenStack for enterprise: The tipping point cometh</h4>
                 <div class=standfirst>
-                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
+                    A brief history of the OpenStack cloud operating system, its releases and projects, and significant enterprise adoptions.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3823/wgl03026usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4046/sel03033usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Putting advanced network security to work</h4>
+                <h4>The perils of phishing</h4>
                 <div class=standfirst>
-                    Highlighting specific examples of the ways in which these converged security systems put today’s more advanced capabilities to work in practical application.
+                    How criminals use emails specifically designed to gain access to your personal information as well as your company's network and details how they entice employees to fall victim to phishing.
                 </div>
             </a>
 
@@ -966,6 +966,36 @@ Southport PR8 1LJ</p>
 
 
 
+    <script>
+        $(function() {
+            if ($('#top_tease').length) {
+                var ab_set = {
+                    view_tracking:  'true',
+                    click_tracking: 'true',
+                    click_target:   '#top_tease a.large_story',
+                    group:          'A (control)',
+                    name:           'AB: Toptease 2015'
+                };
+                track_bucket_user(ab_set);
+
+                var ab_set = {
+                    click_tracking: 'true',
+                    click_target:   '#top_tease .story_list a',
+                    group:          'A (control)',
+                    name:           'AB: Toptease 2015 (side stories)'
+                };
+                track_bucket_user(ab_set);
+
+                var ab_set = {
+                    click_tracking: 'true',
+                    click_target:   '#main-col #index_page .headline_row a',
+                    group:          'A (control)',
+                    name:           'AB: Toptease 2015 (main stories)'
+                };
+                track_bucket_user(ab_set);
+            }
+        });
+    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1017,7 +1047,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(799) });
+        $(function() { set_bucket_group(288) });
     </script>
         <div id="fb-root"></div>
     </div>
