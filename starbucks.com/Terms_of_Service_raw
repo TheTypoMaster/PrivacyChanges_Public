@@ -46,7 +46,8 @@
 		<!--[if IE 7]><link rel="stylesheet" href="/static/css/fix/ie7.css" media="screen, print" /><![endif]-->
 		<!--[if IE 8]><link rel="stylesheet" href="/static/css/fix/ie8.css" media="screen, print" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/static/css/fix/ie9-or-lt.css" media="screen, print" /><![endif]-->
-			<script src="//cdn.optimizely.com/js/6558036.js"></script>
+			
+	<script src="//cdn.optimizely.com/js/6558036.js"></script>
 
 
 <script src="/static/js/library/modernizr.custom.js"></script>
@@ -104,7 +105,7 @@
 
         //Following:user and session details, when applicable (afterlogin)
         'userLoyalty': 'NotMember',
-        'sessionId': 'z1xwgz1',
+        'sessionId': '20f5evc',
         'visitorId': 'anonymous',
 
         //Following:required
@@ -124,7 +125,8 @@
 
         
 
-		<noscript>
+		
+	<noscript>
 		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-NQ2H5B" height="0" width="0" style="display: none; visibility: hidden"></iframe>
 	</noscript>
 	<script>
@@ -192,7 +194,9 @@
 	<a id="logo" href="/" rel="home"><span class="hidden_visually">Starbucks Coffee Company</span></a>
 
 
-									        <div id="utilities">
+									        
+    
+    <div id="utilities">
         <ul class="utility_list has_shopping_cart">
             <li class="utility_link search">
                 <a href="#searchbox"><span aria-hidden="true" data-icon="&#x1F50D"></span><span class="hidden_visually">Search this site</span></a>
@@ -640,7 +644,9 @@ Fax: 1-206-318-3432</p>
     
 	<div id="footer" tabindex="0"  class="footer">
 
-		<div class="footer-top">
+		
+
+    <div class="footer-top">
     <div class="container">
         <div class="grid">
             
@@ -712,9 +718,9 @@ Fax: 1-206-318-3432</p>
 
                         <h4>
                                 <a href="/about-us">About Us</a>
-                                <label for="599" data-icon="&#x2304" tabindex="0"></label>
+                                <label for="600" data-icon="&#x2304" tabindex="0"></label>
                         </h4>
-<input id="599" name="footer" type="radio" aria-hidden="true" />                        <ol>
+<input id="600" name="footer" type="radio" aria-hidden="true" />                        <ol>
                                 <li>
 <a href="/about-us/company-information">Our Company</a>                            </li>
                                 <li>
@@ -727,9 +733,9 @@ Fax: 1-206-318-3432</p>
 
                         <h4>
                                 <a href="/careers">Career Center</a>
-                                <label for="649" data-icon="&#x2304" tabindex="0"></label>
+                                <label for="650" data-icon="&#x2304" tabindex="0"></label>
                         </h4>
-<input id="649" name="footer" type="radio" aria-hidden="true" />                        <ol>
+<input id="650" name="footer" type="radio" aria-hidden="true" />                        <ol>
                                 <li>
 <a href="/careers/working-at-starbucks">Working at Starbucks</a>                            </li>
                                 <li>
@@ -750,9 +756,9 @@ Fax: 1-206-318-3432</p>
 
                         <h4>
                                 <a href="/business">For Business</a>
-                                <label for="671" data-icon="&#x2304" tabindex="0"></label>
+                                <label for="672" data-icon="&#x2304" tabindex="0"></label>
                         </h4>
-<input id="671" name="footer" type="radio" aria-hidden="true" />                        <ol>
+<input id="672" name="footer" type="radio" aria-hidden="true" />                        <ol>
                                 <li>
 <a href="/business/office-coffee">Office Coffee</a>                            </li>
                                 <li>
@@ -773,9 +779,9 @@ Fax: 1-206-318-3432</p>
 
                         <h4>
                                 <a href="/coffeehouse/community">Online Community</a>
-                                <label for="684" data-icon="&#x2304" tabindex="0"></label>
+                                <label for="685" data-icon="&#x2304" tabindex="0"></label>
                         </h4>
-<input id="684" name="footer" type="radio" aria-hidden="true" />                        <ol>
+<input id="685" name="footer" type="radio" aria-hidden="true" />                        <ol>
                                 <li>
 <a href="http://www.twitter.com/starbucks/">Twitter</a>                            </li>
                                 <li>

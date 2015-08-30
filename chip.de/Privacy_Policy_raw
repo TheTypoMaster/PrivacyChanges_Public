@@ -307,12 +307,12 @@ var r2sz=screen.width+'x'+screen.height+'x'+screen.colorDepth;
 var con=0;
 if (navigator.cookieEnabled) con=1;
 var random=Math.random();
-var img_tag = "<img id='rholive_1758411826' src='http://r.chip.de/images/pic.gif?m=c1&amp;nc=0&amp;sep=%2C&amp;tce=1&amp;c=45829526&amp;b=9872922&amp;l=3093&amp;tid=60370&amp;tp=9223&amp;tn=Sonstige&amp;tpn=Home&amp;tc=9223%2C60370&amp;con="+con+"&amp;tit=Index_statisches_Special%3A+Neuer+Datenschutz&amp;url=http%3A%2F%2Fwww.chip.de%2Fs_specials%2FDatenschutz-CHIP-Online_45829526.html&amp;json=0&amp;random="+Math.random()+"&amp;r="+escape(document.referrer)+"&amp;sz="+r2sz+"&amp;cs=1' width='1' height='1' alt='' />";
+var img_tag = "<img id='rholive_1205606228' src='http://r.chip.de/images/pic.gif?m=c1&amp;nc=0&amp;sep=%2C&amp;tce=1&amp;c=45829526&amp;b=9872922&amp;l=3093&amp;tid=60370&amp;tp=9223&amp;tn=Sonstige&amp;tpn=Home&amp;tc=9223%2C60370&amp;con="+con+"&amp;tit=Index_statisches_Special%3A+Neuer+Datenschutz&amp;url=http%3A%2F%2Fwww.chip.de%2Fs_specials%2FDatenschutz-CHIP-Online_45829526.html&amp;json=0&amp;random="+Math.random()+"&amp;r="+escape(document.referrer)+"&amp;sz="+r2sz+"&amp;cs=1' width='1' height='1' alt='' />";
 document.write( img_tag );
 // ]]>
 </script>
 <noscript>
-<img id='rholive_1758411826_noscript' src='http://r.chip.de/images/pic.gif?m=c1&amp;c=45829526&amp;sep=%2C&amp;tce=1&amp;b=9872922&amp;l=3093&amp;tid=60370&amp;tp=9223&amp;tn=Sonstige&amp;tpn=Home&amp;tc=9223%2C60370&amp;con="+con+"&amp;tit=Index_statisches_Special%3A+Neuer+Datenschutz&amp;url=http%3A%2F%2Fwww.chip.de%2Fs_specials%2FDatenschutz-CHIP-Online_45829526.html&amp;json=0&amp;random=1758411826&amp;r=http%3A%2F%2Fm.chip.de%2Fhandy%2F&amp;cs=1' width='1' height='1' alt='' />
+<img id='rholive_1205606228_noscript' src='http://r.chip.de/images/pic.gif?m=c1&amp;c=45829526&amp;sep=%2C&amp;tce=1&amp;b=9872922&amp;l=3093&amp;tid=60370&amp;tp=9223&amp;tn=Sonstige&amp;tpn=Home&amp;tc=9223%2C60370&amp;con="+con+"&amp;tit=Index_statisches_Special%3A+Neuer+Datenschutz&amp;url=http%3A%2F%2Fwww.chip.de%2Fs_specials%2FDatenschutz-CHIP-Online_45829526.html&amp;json=0&amp;random=1205606228&amp;r=&amp;cs=1' width='1' height='1' alt='' />
 </noscript>
 <script type="text/javascript">
 
@@ -2099,6 +2099,17 @@ Sie k&ouml;nnen sich zudem mit Ihrem jeweiligen Social-Network-Login (von Facebo
         <li class="chipTeaser mouseout">
             <div class="galerie-rank rank2">
                 <span>2</span>
+                <div class="galerie-pic" style="background:url(http://www.chip.de/ii/8/3/5/7/5/1/7/liste_tv_to_pc-626791e9bb7bb3ed.png) #fff no-repeat center top;"></div>
+            </div>
+            <div class="title">
+                <a href="http://www.chip.de/artikel/Top-TV-Tools-Fernsehen-am-PC-Tablet-Smartphone_42437485.html" title="Top TV-Tools: Fernsehen am PC, Tablet, Smartphone  " class="b">Top TV-Tools: Fernsehen am PC, Tablet, Smartphone  </a>
+                <div class="softwareart"></div>
+            </div>
+        </li>
+    
+        <li class="chipTeaser mouseout">
+            <div class="galerie-rank rank3">
+                <span>3</span>
                 <div class="galerie-pic" style="background:url(http://www.chip.de/ii/1/0/1/4/2/8/0/7/liste-514709df639be525.jpg) #fff no-repeat center top;"></div>
             </div>
             <div class="title">
@@ -2108,8 +2119,8 @@ Sie k&ouml;nnen sich zudem mit Ihrem jeweiligen Social-Network-Login (von Facebo
         </li>
     
         <li class="chipTeaser mouseout">
-            <div class="galerie-rank rank3">
-                <span>3</span>
+            <div class="galerie-rank rank4">
+                <span>4</span>
                 <div class="galerie-pic" style="background:url(http://www.chip.de/ii/3/5/6/2/5/2/1/1/c7bbbf019eded014.png) #fff no-repeat center top;"></div>
             </div>
             <div class="title">
@@ -2119,23 +2130,12 @@ Sie k&ouml;nnen sich zudem mit Ihrem jeweiligen Social-Network-Login (von Facebo
         </li>
     
         <li class="chipTeaser mouseout">
-            <div class="galerie-rank rank4">
-                <span>4</span>
+            <div class="galerie-rank rank5">
+                <span>5</span>
                 <div class="galerie-pic" style="background:url(http://www.chip.de/ii/3/9/7/4/3/7/liste-f0df54bf4b4b709b.gif) #fff no-repeat center top;"></div>
             </div>
             <div class="title">
                 <a href="http://www.chip.de/artikel/USB-Stick-bootfaehig-machen-So-geht-s_12823773.html" title="USB Stick bootfähig machen: So geht's  " class="b">USB Stick bootfähig machen: So geht's  </a>
-                <div class="softwareart"></div>
-            </div>
-        </li>
-    
-        <li class="chipTeaser mouseout">
-            <div class="galerie-rank rank5">
-                <span>5</span>
-                <div class="galerie-pic" style="background:url(http://www.chip.de/ii/1/0/1/8/3/4/5/1/883515144_10c8fd3588-20a8f20cbde82315.jpg) #fff no-repeat center top;"></div>
-            </div>
-            <div class="title">
-                <a href="http://www.chip.de/artikel/Spiele-kostenlos-Vollversionen-zum-Download_46424428.html" title="Spiele kostenlos: Vollversionen zum Download  " class="b">Spiele kostenlos: Vollversionen zum Download  </a>
                 <div class="softwareart"></div>
             </div>
         </li>
