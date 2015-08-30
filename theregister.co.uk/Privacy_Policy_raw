@@ -748,27 +748,27 @@ Southport PR8 1LJ</p>
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4016/openstack-for-enterprise-ebook-vmturbo.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>OpenStack for enterprise: The tipping point cometh</h4>
+                <h4>Empowering E-commerce against unpredictable demand</h4>
                 <div class=standfirst>
-                    A brief history of the OpenStack cloud operating system, its releases and projects, and significant enterprise adoptions.
+                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4046/sel03033usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4051/wgw03016usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>The perils of phishing</h4>
+                <h4>Avoiding insider threats to enterprise security</h4>
                 <div class=standfirst>
-                    How criminals use emails specifically designed to gain access to your personal information as well as your company's network and details how they entice employees to fall victim to phishing.
+                    Protect and monitor privileged user identities and activities across the extended enterprise.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4062/ga-wp-keeping-your-data-safe-wsj-symantec.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4060/the-evolution-of-ransomware.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Keeping your data safe</h4>
+                <h4>The evolution of ransomware</h4>
                 <div class=standfirst>
-                    Understanding worldwide cloud adoption across leading organizations and the challenges associated with its use.
+                    How different types of ransomware work, not just from a technological point of view but also from a psychological viewpoint.
                 </div>
             </a>
         </div>
@@ -966,36 +966,6 @@ Southport PR8 1LJ</p>
 
 
 
-    <script>
-        $(function() {
-            if ($('#top_tease').length) {
-                var ab_set = {
-                    view_tracking:  'true',
-                    click_tracking: 'true',
-                    click_target:   '#top_tease a.large_story',
-                    group:          'A (control)',
-                    name:           'AB: Toptease 2015'
-                };
-                track_bucket_user(ab_set);
-
-                var ab_set = {
-                    click_tracking: 'true',
-                    click_target:   '#top_tease .story_list a',
-                    group:          'A (control)',
-                    name:           'AB: Toptease 2015 (side stories)'
-                };
-                track_bucket_user(ab_set);
-
-                var ab_set = {
-                    click_tracking: 'true',
-                    click_target:   '#main-col #index_page .headline_row a',
-                    group:          'A (control)',
-                    name:           'AB: Toptease 2015 (main stories)'
-                };
-                track_bucket_user(ab_set);
-            }
-        });
-    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1047,7 +1017,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(288) });
+        $(function() { set_bucket_group(498) });
     </script>
         <div id="fb-root"></div>
     </div>

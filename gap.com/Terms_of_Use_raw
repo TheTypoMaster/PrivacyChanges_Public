@@ -1369,7 +1369,7 @@
             DIVISION_2_ACTION: "division.do",
             SUBDIVISION_2_ACTION: "subdivision.do",
             HOME_2_ACTION: "home.do",
-            DATE_IN_USE: "08/29/2015 11:57 PM",
+            DATE_IN_USE: "08/30/2015 01:11 AM",
             PREVIOUS_LOCALE : "en_US",
             
             IS_NAV2_ENABLED: 'false',
@@ -7703,6 +7703,167 @@ if( window['siteNavigation'] ) {
 <!-- END - WCD Sitewide Container 11 -->
 
 <!-- BEGIN - WCD Sitewide Container 12 -->
+<!-- BEGIN Content Item File: /content/0010/056/632/cn10056632.html -->
+
+<!-- 7/26 BRONG AB TEST - Shipping Options Display - Athleta overrides -->
+<style type="text/css">
+.freeRedBold {
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+}
+</style>
+
+<script type="text/javascript">
+
+if (location.pathname == '/buy/shopping_bag.do') {
+
+  var wcdABTest_ship2DayVs3DayBagManipulator = {
+    model: {
+      shipOption2Day: '2109',
+      shipOption2DaySelected: false,
+      shipOption3Day: '5003',
+      shipOptionCurrent: '',
+      freeShipPromoApplied: true,
+      testSegmentCurrent: 'D',
+      timesDecoratorRuns: 0,
+      timesLoopRuns: 0,
+      debugMode: false
+    },
+
+    init: function() {
+
+      var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
+      var forceCookieValue = gidLib.getCookieVar('mktUniversalPersist', 'brongModeCookie');
+      var forcedSegment = forceCookieValue.toUpperCase();
+      if (forceCookieValue && forcedSegment) {
+        model.testSegmentCurrent = forcedSegment;
+      }
+
+      var cookieValue = gidLib.getCookieVar("mktUniversalPersist","0830brongPromoCookie");
+      if (cookieValue == '08302015_BRONG_SEGA' || location.hostname.indexOf("brongmode=a") > 1) {
+        model.testSegmentCurrent = 'A';
+      }
+      else if (cookieValue == '08302015_BRONG_SEGB' || location.hostname.indexOf("brongmode=b") > 1) {
+        model.testSegmentCurrent = 'B';
+      }
+      else if (cookieValue == '08302015_BRONG_SEGC' || location.hostname.indexOf("brongmode=c") > 1) {
+        model.testSegmentCurrent = 'C';
+      }
+      else if (cookieValue == '08302015_BRONG_SEGD' || location.hostname.indexOf("brongmode=d") > 1) {
+        model.testSegmentCurrent = 'D';
+      }
+	  else {
+        model.testSegmentCurrent = 'D';
+	  }
+	  
+      // Loop thru ship options; this decorator will run on load, whenever new option selected or shopping bag item updated/removed
+      var shoppingBagTransformerModule = angular.module('gid.transformer.shoppingBagTransformer');
+      shoppingBagTransformerModule.config(function($provide) {
+        $provide.decorator('shoppingBagTransformer', function($delegate) {
+          var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
+
+          model.timesDecoratorRuns++;
+          if (model.debugMode == true) {
+            console.log('Shopping bag decorator running in test segment ' + model.testSegmentCurrent);
+          }
+
+          var oldTransformResponse    = $delegate.transformResponse;
+          var oldTransformBagResponse = $delegate.transformBagResponse;
+
+          var overrideShippingData = function(jsonData) {
+            if (jsonData.shoppingBag && jsonData.shoppingBag.shippingInfo && jsonData.shoppingBag.shippingInfo.shippingOptions) {
+
+              // Loop through shipping options
+              var shipOptions = jsonData.shoppingBag.shippingInfo.shippingOptions;
+              shipOptions.each(function(elt, idx) {
+                var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
+
+                // Seg A, C, D - suppress 3-day option
+                if (model.testSegmentCurrent == "A" || model.testSegmentCurrent == "C" || model.testSegmentCurrent == "D") {
+                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
+                    shipOptions = shipOptions.filter( function (el) {
+                      return el.shippingId !== model.shipOption3Day;
+                    });
+                  }
+                }
+
+				// Seg B - Free 3-day shipping promo
+                if (model.testSegmentCurrent == "B") {
+                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
+                    if (elt.shippingId == model.shipOption3Day) {
+                      elt.description = '3 business days - FREE 3-Day Shipping on orders of $75 or more with code 3DAY';
+                      elt.messageDisplayIndicator = 'Y';
+                      elt.message = 'Complete your order Monday through Friday (excluding holidays) before 3:00 PM ET / 12:00 PM PT to receive your packages within 3 business days. Orders placed on weekends, holidays, or weekdays after 3:00 PM ET / 12:00 PM PT will arrive within 4 business days.';
+                    }
+                    /*if (location.hostname.indexOf("athleta") > 1 || location.hostname.indexOf("atol.wip") > 1) {
+                      shipOptions = shipOptions.filter( function (el) {
+                        return el.shippingId !== model.shipOption3Day;
+                      });
+                    }*/
+                  }
+                }
+				
+				// Seg C, D - Free 2-day shipping promo
+                if (model.testSegmentCurrent == "C" || model.testSegmentCurrent == "D") {
+                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
+                    if (elt.shippingId == model.shipOption2Day) {
+                      elt.description = '2 business days - FREE 2-Day Shipping on orders of $75 or more with code 2DAY';
+                      elt.messageDisplayIndicator = 'Y';
+                      elt.message = 'Complete your order Monday through Friday (excluding holidays) before 3:00 PM ET / 12:00 PM PT to receive your packages within 2 business days. Orders placed on weekends, holidays, or weekdays after 3:00 PM ET / 12:00 PM PT will arrive within 3 business days.';
+                    }
+
+                    /*if (elt.shippingId == model.shipOption2Day) {
+                      elt.description = '2 business days - FREE!';
+                      if (model.shipOption2DaySelected == false) {
+                        jQuery(document).ready(function(){
+                          setTimeout(function() {
+                            //jQuery("#shippingOptions2109").click();
+                          }, 1000);
+                        });
+                        //elt.selected = true;
+                        model.shipOption2DaySelected = true;
+                      }
+                    }
+                    shipOptions = shipOptions.filter( function (el) {
+                      return el.shippingId !== model.shipOption3Day;
+                    });*/
+                  }
+                }
+
+
+              });
+
+              jsonData.shoppingBag.shippingInfo.shippingOptions = shipOptions;
+            }
+
+            return jsonData;
+          };
+
+          $delegate.transformResponse = function(data, headers) {
+            var jsonData = oldTransformResponse(data, headers);
+            return overrideShippingData(jsonData);
+          };
+
+          $delegate.transformBagResponse = function(data) {
+            var jsonData = oldTransformBagResponse(data);
+            return overrideShippingData(jsonData);
+          }
+
+          return $delegate;
+        });
+      });
+    }
+  }
+
+  wcdABTest_ship2DayVs3DayBagManipulator.init();
+}
+
+
+
+</script>
+
+<!-- END Content Item File: /content/0010/056/632/cn10056632.html -->
 
 <!-- END - WCD Sitewide Container 12 -->
 
@@ -10511,7 +10672,7 @@ function validateFormGFOL()
 	
 	<script type="text/javascript" src="/gid/js/common/layouts/en/reporting/sCode.js"></script>
 	 <script type="text/javascript">
-	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "10131175,10131175,9712387,9712387,9058692,9712385,9894771,9894937,9938486,10114225,10064395,10131156,9765554,10113691,10030539,9409544,9815677,9992930";
+	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "10131175,10131175,9712387,10056633,9712387,9058692,9712385,9894771,9894937,9938486,10064395,10131156,9765554,10113691,10030539,9409544,9815677,9992930";
 	 </script>
 	
 	<noscript>

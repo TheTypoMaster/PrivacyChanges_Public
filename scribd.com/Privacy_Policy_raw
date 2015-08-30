@@ -23,7 +23,7 @@ Scribd values the privacy of the users, subscribers, publishers, members, and ot
   
 
   <meta content="authenticity_token" name="csrf-param" />
-<meta content="qlE1DXR7IEJ0MNHk3O1tv4KnQSD767YNWYzy9zPx7uE=" name="csrf-token" />
+<meta content="llXy09+5yBSypTWIHBzj6flaUiQArfYKwesIOA/UV9c=" name="csrf-token" />
 
   <!--[if lt IE 9]>
   <script src="http://p4.zdassets.com/assets/vendor/html5_shiv-5a1a7623bcbeef0bfccb2117866abc8a.js"></script>
@@ -497,7 +497,7 @@ zd.jsInitializers.push(["entries/_forums2_show",[{"is_moderator?":false}]]);
             <td>
               <div class="" id="voting_control"></div>
               <script type="text/javascript" charset="utf-8">
-                new Ajax.Updater('voting_control', '/entries/25580-Privacy-policy/voting_control', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('qlE1DXR7IEJ0MNHk3O1tv4KnQSD767YNWYzy9zPx7uE=')})
+                new Ajax.Updater('voting_control', '/entries/25580-Privacy-policy/voting_control', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('llXy09+5yBSypTWIHBzj6flaUiQArfYKwesIOA/UV9c=')})
               </script>
             </td>
           </tr>

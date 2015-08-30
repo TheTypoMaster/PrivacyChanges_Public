@@ -360,7 +360,7 @@
             contentPath: "//sstatic.net/stackexchange"
         };
         $(function() {
-            StackExchange.init({"serverTime":1440907392});
+            StackExchange.init({"serverTime":1440911867});
             StackExchange.topbar.init();
         });
     </script>

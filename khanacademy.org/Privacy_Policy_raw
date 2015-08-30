@@ -38,7 +38,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
         // TODO(eater): Remove after clues are fully launched
         allowEditingClues: false,
         staticHost: "www.kastatic.org",
-        bingoId: "_gae_bingo_random:mGtaq3FCLevAqPB2-Fj4L9tJ6ZGb_mgp_yK_hYH5",
+        bingoId: "_gae_bingo_random:-xn0DH-M1fZIJ7BMnmoxAw0uqgftPRPtQ2GoqIU-",
 
         "FB_APP_NAMESPACE": "khanacademy",
         
@@ -53,7 +53,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
             
         },
         currentServerTime: function() {
-            return 1440907349.74439;
+            return 1440911830.0585999;
         },
 
         // return a path to this static content given a path url - example:
@@ -87,7 +87,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 
         stripePublicKey: "pk_live_bOMeT1j35MoCY5NMcddnG0ke",
 
-        requestLogId: "55e2805500ff0b37a8b0bca0160001737e6b68616e2d61636164656d7900013135303832382d313030362d36373331373464323638313700010137",
+        requestLogId: "55e291d600ff00ffc33f097ea6a40001737e6b68616e2d61636164656d7900013135303832382d313030362d363733313734643236383137000101af",
         gaeStatsKeyPrefix: null,
 
         SHOW_SAT_DEV: false,
@@ -1947,7 +1947,7 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
                 var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
                 s.async = true; s.src = '//s3.amazonaws.com/ki.js/53782/bH0.js'; f.parentNode.insertBefore(s, f);
                 }, 1);
-                _kiq.push(['identify', '_gae_bingo_random:mGtaq3FCLevAqPB2-Fj4L9tJ6ZGb_mgp_yK_hYH5']);
+                _kiq.push(['identify', '_gae_bingo_random:-xn0DH-M1fZIJ7BMnmoxAw0uqgftPRPtQ2GoqIU-']);
                 _kiq.push(['set', {"eligible_for_nps_survey": false, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
             })();
         </script>
@@ -2067,7 +2067,7 @@ olark.identify('8268-583-10-4648');
             
             window.olark('api.visitor.updateCustomFields', {
                 loggedIn: false,
-                bingoId: "_gae_bingo_random:mGtaq3FCLevAqPB2-Fj4L9tJ6ZGb_mgp_yK_hYH5"
+                bingoId: "_gae_bingo_random:-xn0DH-M1fZIJ7BMnmoxAw0uqgftPRPtQ2GoqIU-"
             });
         }, 0);
     </script>

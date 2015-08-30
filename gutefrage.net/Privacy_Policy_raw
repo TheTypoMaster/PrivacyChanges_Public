@@ -552,7 +552,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
 
             window.gf.ext.gutefrage.settings.platform = 'gf';
       window.gf.ext.gutefrage.settings.platforms = ['gutefrage', 'motorradfrage', 'sportlerfrage', 'finanzfrage', 'reisefrage', 'gesundheitsfrage', 'computerfrage', 'autofrage'];
-      window.gf.ext.gutefrage.settings.featureManager.rate = 98;
+      window.gf.ext.gutefrage.settings.featureManager.rate = 97;
       window.gf.ext.gutefrage.settings.isInternal = false;
       
       if (window.gf.app.version === 'desktop') {
@@ -1405,7 +1405,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
   <a href="https://www.gutefrage.net/password_anfrage">Nutzernamen oder Passwort vergessen?</a>
 
   <div class="Form-item Form-item__checkbox">
-    <input id="fLogin_remember_55e27fb1de7ca" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e27fb1de7ca" class="Form-label Form-label__checkbox">
+    <input id="fLogin_remember_55e2912ed4eb6" name="remember" value="yes" type="checkbox" class="Form-input Form-input__checkbox" />    <label for="fLogin_remember_55e2912ed4eb6" class="Form-label Form-label__checkbox">
       Angemeldet bleiben    </label>
   </div>
 
@@ -1440,7 +1440,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     data-ng-init="regToggle.init()"
     data-tabset-default-tab="registrierung-privat">
 
-  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm494358694" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
+  <form class="Form" data-ng-cloak="1" data-ng-controller="RegistrationFormCtrl as form" id="regForm538646587" method="post" name="regForm" novalidate="1" action="https://www.gutefrage.net/nutzer_hinzufuegen">
     <input type="hidden" name="fRegister[checksum]" data-ng-value="form.f.checksum">
     
     
@@ -1710,7 +1710,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46%;" href="/tag/abnehmen/1" title="abnehmen" rel="tag">
               abnehmen            </a>
-                          <span class="TagList-tagCount">102891</span>
+                          <span class="TagList-tagCount">102895</span>
                       </span>
         </li>
 
@@ -1722,7 +1722,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 44.8%;" href="/tag/angst/1" title="Angst" rel="tag">
               Angst            </a>
-                          <span class="TagList-tagCount">80886</span>
+                          <span class="TagList-tagCount">80892</span>
                       </span>
         </li>
 
@@ -1734,7 +1734,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 49.6%;" href="/tag/apple/1" title="Apple" rel="tag">
               Apple            </a>
-                          <span class="TagList-tagCount">155303</span>
+                          <span class="TagList-tagCount">155310</span>
                       </span>
         </li>
 
@@ -1746,7 +1746,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 48.4%;" href="/tag/arbeit/1" title="Arbeit" rel="tag">
               Arbeit            </a>
-                          <span class="TagList-tagCount">134486</span>
+                          <span class="TagList-tagCount">134491</span>
                       </span>
         </li>
 
@@ -1758,7 +1758,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 44.8%;" href="/tag/arzt/1" title="Arzt" rel="tag">
               Arzt            </a>
-                          <span class="TagList-tagCount">82525</span>
+                          <span class="TagList-tagCount">82529</span>
                       </span>
         </li>
 
@@ -1770,7 +1770,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46.6%;" href="/tag/ausbildung/1" title="Ausbildung" rel="tag">
               Ausbildung            </a>
-                          <span class="TagList-tagCount">112701</span>
+                          <span class="TagList-tagCount">112704</span>
                       </span>
         </li>
 
@@ -1782,7 +1782,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 51.4%;" href="/tag/auto/1" title="Auto" rel="tag">
               Auto            </a>
-                          <span class="TagList-tagCount">181086</span>
+                          <span class="TagList-tagCount">181096</span>
                       </span>
         </li>
 
@@ -1794,7 +1794,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.2%;" href="/tag/beauty/1" title="Beauty" rel="tag">
               Beauty            </a>
-                          <span class="TagList-tagCount">121933</span>
+                          <span class="TagList-tagCount">121935</span>
                       </span>
         </li>
 
@@ -1806,7 +1806,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 49%;" href="/tag/beruf/1" title="Beruf" rel="tag">
               Beruf            </a>
-                          <span class="TagList-tagCount">145405</span>
+                          <span class="TagList-tagCount">145407</span>
                       </span>
         </li>
 
@@ -1818,7 +1818,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 50.8%;" href="/tag/beziehung/1" title="Beziehung" rel="tag">
               Beziehung            </a>
-                          <span class="TagList-tagCount">173080</span>
+                          <span class="TagList-tagCount">173101</span>
                       </span>
         </li>
 
@@ -1834,7 +1834,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 100%;" href="/tag/computer/1" title="Computer" rel="tag">
               Computer            </a>
-                          <span class="TagList-tagCount">952262</span>
+                          <span class="TagList-tagCount">952282</span>
                       </span>
         </li>
 
@@ -1846,7 +1846,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 48.4%;" href="/tag/computerspiele/1" title="Computerspiele" rel="tag">
               Computerspiele            </a>
-                          <span class="TagList-tagCount">134546</span>
+                          <span class="TagList-tagCount">134550</span>
                       </span>
         </li>
 
@@ -1858,7 +1858,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.2%;" href="/tag/deutsch/1" title="deutsch" rel="tag">
               deutsch            </a>
-                          <span class="TagList-tagCount">118428</span>
+                          <span class="TagList-tagCount">118432</span>
                       </span>
         </li>
 
@@ -1870,7 +1870,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 45.4%;" href="/tag/ernaehrung/1" title="Ernährung" rel="tag">
               Ernährung            </a>
-                          <span class="TagList-tagCount">92652</span>
+                          <span class="TagList-tagCount">92656</span>
                       </span>
         </li>
 
@@ -1882,7 +1882,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.2%;" href="/tag/essen/1" title="essen" rel="tag">
               essen            </a>
-                          <span class="TagList-tagCount">121006</span>
+                          <span class="TagList-tagCount">121010</span>
                       </span>
         </li>
 
@@ -1894,7 +1894,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.8%;" href="/tag/facebook/1" title="Facebook" rel="tag">
               Facebook            </a>
-                          <span class="TagList-tagCount">130400</span>
+                          <span class="TagList-tagCount">130402</span>
                       </span>
         </li>
 
@@ -1906,7 +1906,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 57.4%;" href="/tag/film/1" title="Film" rel="tag">
               Film            </a>
-                          <span class="TagList-tagCount">280410</span>
+                          <span class="TagList-tagCount">280422</span>
                       </span>
         </li>
 
@@ -1918,7 +1918,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 45.4%;" href="/tag/finanzen/1" title="Finanzen" rel="tag">
               Finanzen            </a>
-                          <span class="TagList-tagCount">87964</span>
+                          <span class="TagList-tagCount">87967</span>
                       </span>
         </li>
 
@@ -1930,7 +1930,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 68.2%;" href="/tag/freizeit/1" title="Freizeit" rel="tag">
               Freizeit            </a>
-                          <span class="TagList-tagCount">451444</span>
+                          <span class="TagList-tagCount">451448</span>
                       </span>
         </li>
 
@@ -1942,7 +1942,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 58%;" href="/tag/games/1" title="Games" rel="tag">
               Games            </a>
-                          <span class="TagList-tagCount">286077</span>
+                          <span class="TagList-tagCount">286085</span>
                       </span>
         </li>
 
@@ -1958,7 +1958,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 50.2%;" href="/tag/geld/1" title="Geld" rel="tag">
               Geld            </a>
-                          <span class="TagList-tagCount">170328</span>
+                          <span class="TagList-tagCount">170337</span>
                       </span>
         </li>
 
@@ -1970,7 +1970,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 62.8%;" href="/tag/gesundheit/1" title="Gesundheit" rel="tag">
               Gesundheit            </a>
-                          <span class="TagList-tagCount">362648</span>
+                          <span class="TagList-tagCount">362658</span>
                       </span>
         </li>
 
@@ -1982,7 +1982,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 49.6%;" href="/tag/haare/1" title="Haare" rel="tag">
               Haare            </a>
-                          <span class="TagList-tagCount">161678</span>
+                          <span class="TagList-tagCount">161684</span>
                       </span>
         </li>
 
@@ -1994,7 +1994,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 67.6%;" href="/tag/handy/1" title="Handy" rel="tag">
               Handy            </a>
-                          <span class="TagList-tagCount">440677</span>
+                          <span class="TagList-tagCount">440697</span>
                       </span>
         </li>
 
@@ -2006,7 +2006,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 62.2%;" href="/tag/hilfe/1" title="Hilfe" rel="tag">
               Hilfe            </a>
-                          <span class="TagList-tagCount">355176</span>
+                          <span class="TagList-tagCount">355206</span>
                       </span>
         </li>
 
@@ -2018,7 +2018,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 71.8%;" href="/tag/internet/1" title="Internet" rel="tag">
               Internet            </a>
-                          <span class="TagList-tagCount">510417</span>
+                          <span class="TagList-tagCount">510436</span>
                       </span>
         </li>
 
@@ -2030,7 +2030,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 49.6%;" href="/tag/iphone/1" title="iPhone" rel="tag">
               iPhone            </a>
-                          <span class="TagList-tagCount">157973</span>
+                          <span class="TagList-tagCount">157983</span>
                       </span>
         </li>
 
@@ -2042,7 +2042,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46%;" href="/tag/koerper/1" title="Körper" rel="tag">
               Körper            </a>
-                          <span class="TagList-tagCount">97399</span>
+                          <span class="TagList-tagCount">97412</span>
                       </span>
         </li>
 
@@ -2054,7 +2054,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 45.4%;" href="/tag/krankheit/1" title="Krankheit" rel="tag">
               Krankheit            </a>
-                          <span class="TagList-tagCount">91202</span>
+                          <span class="TagList-tagCount">91206</span>
                       </span>
         </li>
 
@@ -2066,7 +2066,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 40%;" href="/tag/laptop/1" title="Laptop" rel="tag">
               Laptop            </a>
-                          <span class="TagList-tagCount">1348</span>
+                          <span class="TagList-tagCount">1356</span>
                       </span>
         </li>
 
@@ -2082,7 +2082,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 62.2%;" href="/tag/liebe/1" title="Liebe" rel="tag">
               Liebe            </a>
-                          <span class="TagList-tagCount">359272</span>
+                          <span class="TagList-tagCount">359295</span>
                       </span>
         </li>
 
@@ -2094,7 +2094,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.8%;" href="/tag/maedchen/1" title="Mädchen" rel="tag">
               Mädchen            </a>
-                          <span class="TagList-tagCount">132627</span>
+                          <span class="TagList-tagCount">132646</span>
                       </span>
         </li>
 
@@ -2106,7 +2106,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 45.4%;" href="/tag/mathe/1" title="Mathe" rel="tag">
               Mathe            </a>
-                          <span class="TagList-tagCount">86751</span>
+                          <span class="TagList-tagCount">86753</span>
                       </span>
         </li>
 
@@ -2118,7 +2118,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46.6%;" href="/tag/medizin/1" title="Medizin" rel="tag">
               Medizin            </a>
-                          <span class="TagList-tagCount">112195</span>
+                          <span class="TagList-tagCount">112200</span>
                       </span>
         </li>
 
@@ -2130,7 +2130,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 50.2%;" href="/tag/minecraft/1" title="Minecraft" rel="tag">
               Minecraft            </a>
-                          <span class="TagList-tagCount">164708</span>
+                          <span class="TagList-tagCount">164722</span>
                       </span>
         </li>
 
@@ -2142,7 +2142,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 68.8%;" href="/tag/musik/1" title="Musik" rel="tag">
               Musik            </a>
-                          <span class="TagList-tagCount">461515</span>
+                          <span class="TagList-tagCount">461534</span>
                       </span>
         </li>
 
@@ -2154,7 +2154,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 75.4%;" href="/tag/pc/1" title="PC" rel="tag">
               PC            </a>
-                          <span class="TagList-tagCount">563056</span>
+                          <span class="TagList-tagCount">563083</span>
                       </span>
         </li>
 
@@ -2166,7 +2166,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46.6%;" href="/tag/ps3/1" title="PS3" rel="tag">
               PS3            </a>
-                          <span class="TagList-tagCount">112153</span>
+                          <span class="TagList-tagCount">112155</span>
                       </span>
         </li>
 
@@ -2178,7 +2178,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 50.2%;" href="/tag/recht/1" title="Recht" rel="tag">
               Recht            </a>
-                          <span class="TagList-tagCount">162645</span>
+                          <span class="TagList-tagCount">162648</span>
                       </span>
         </li>
 
@@ -2190,7 +2190,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46.6%;" href="/tag/samsung/1" title="Samsung" rel="tag">
               Samsung            </a>
-                          <span class="TagList-tagCount">106508</span>
+                          <span class="TagList-tagCount">106514</span>
                       </span>
         </li>
 
@@ -2206,7 +2206,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 45.4%;" href="/tag/schmerzen/1" title="Schmerzen" rel="tag">
               Schmerzen            </a>
-                          <span class="TagList-tagCount">92551</span>
+                          <span class="TagList-tagCount">92561</span>
                       </span>
         </li>
 
@@ -2218,7 +2218,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 69.4%;" href="/tag/schule/1" title="Schule" rel="tag">
               Schule            </a>
-                          <span class="TagList-tagCount">466720</span>
+                          <span class="TagList-tagCount">466737</span>
                       </span>
         </li>
 
@@ -2230,7 +2230,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 44.8%;" href="/tag/sex/1" title="Sex" rel="tag">
               Sex            </a>
-                          <span class="TagList-tagCount">78079</span>
+                          <span class="TagList-tagCount">78104</span>
                       </span>
         </li>
 
@@ -2242,7 +2242,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 60.4%;" href="/tag/spiele/1" title="Spiele" rel="tag">
               Spiele            </a>
-                          <span class="TagList-tagCount">324177</span>
+                          <span class="TagList-tagCount">324187</span>
                       </span>
         </li>
 
@@ -2254,7 +2254,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 53.2%;" href="/tag/sport/1" title="Sport" rel="tag">
               Sport            </a>
-                          <span class="TagList-tagCount">209846</span>
+                          <span class="TagList-tagCount">209854</span>
                       </span>
         </li>
 
@@ -2266,7 +2266,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 44.8%;" href="/tag/studium/1" title="Studium" rel="tag">
               Studium            </a>
-                          <span class="TagList-tagCount">78124</span>
+                          <span class="TagList-tagCount">78130</span>
                       </span>
         </li>
 
@@ -2278,7 +2278,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 55%;" href="/tag/technik/1" title="Technik" rel="tag">
               Technik            </a>
-                          <span class="TagList-tagCount">242524</span>
+                          <span class="TagList-tagCount">242533</span>
                       </span>
         </li>
 
@@ -2290,7 +2290,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 47.2%;" href="/tag/tiere/1" title="Tiere" rel="tag">
               Tiere            </a>
-                          <span class="TagList-tagCount">119606</span>
+                          <span class="TagList-tagCount">119611</span>
                       </span>
         </li>
 
@@ -2302,7 +2302,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 46%;" href="/tag/windows/1" title="Windows" rel="tag">
               Windows            </a>
-                          <span class="TagList-tagCount">99519</span>
+                          <span class="TagList-tagCount">99526</span>
                       </span>
         </li>
 
@@ -2314,7 +2314,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
           <span class="TagList-button">
             <a style="min-width: 50.2%;" href="/tag/youtube/1" title="Youtube" rel="tag">
               Youtube            </a>
-                          <span class="TagList-tagCount">168581</span>
+                          <span class="TagList-tagCount">168592</span>
                       </span>
         </li>
 
@@ -2410,7 +2410,7 @@ i.googleParams.google_ad_slot=4829487606}}else if(e>=11&&e<=15){r=g(r,"v2",d);i.
     <div class="Block-badge Block-badge__highlight">&#xe621;</div>
     <div class="Block-body Block-body__small">
       <h3 class="Block-headline Block-headline__highlight">
-        Gute Fragen von heute        <small>Aktuell 15.046.955 gute Fragen</small>
+        Gute Fragen von heute        <small>Aktuell 15.047.007 gute Fragen</small>
       </h3>
 
       <ul class="QuestionTeaser-list">
