@@ -16,7 +16,7 @@ setTimeout(function(){if(!gats_scrolled){ gats_scrolled=1; ga('send','event','No
 setTimeout(function(){window.addEventListener ? window.addEventListener('scroll', ga_scroll, false) : window.attachEvent('onScroll', ga_scroll)}, 5000);
 function ga_scroll(){ if(!gats_scrolled) { gats_scrolled=1; ga('send','event','No-Bounce','Scrolled'); }}
 </script>
-<script type="text/javascript">var hp_dwlcounter = 3109571929;</script><script src="http://s1.softpedia-static.com/_min/?g=jsbase&amp;jv=421"></script>
+<script type="text/javascript">var hp_dwlcounter = 3109578619;</script><script src="http://s1.softpedia-static.com/_min/?g=jsbase&amp;jv=421"></script>
 </head>
 
 <body>
@@ -74,9 +74,9 @@ function ga_scroll(){ if(!gats_scrolled) { gats_scrolled=1; ga('send','event','N
 						<div class="statusbar-hp">
 				<div class="container_48">
 					<div class="nosel grid_37 prefix_11">
-						<div class="uicon uicon-download fl"></div><div class="data data-long"><span id="hp_dwlcounter">3,109,571,929</span> served downloads</div>
-						<div class="uicon uicon-upload fl"></div><div class="data">145 new items today</div>
-						<div class="uicon uicon-cloud fl"></div><div class="data">803,837 items total</div>
+						<div class="uicon uicon-download fl"></div><div class="data data-long"><span id="hp_dwlcounter">3,109,578,619</span> served downloads</div>
+						<div class="uicon uicon-upload fl"></div><div class="data">192 new items today</div>
+						<div class="uicon uicon-cloud fl"></div><div class="data">803,860 items total</div>
 					</div>
 				</div>
 			</div>
