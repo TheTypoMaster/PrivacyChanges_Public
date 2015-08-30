@@ -2313,7 +2313,7 @@ We are committed to providing you with meaningful choices about the information 
                     $.fn.renderspanids = function(){
                         var s = document.createElement("img"),
                                 el = document.getElementsByTagName("script")[0];
-                        s.src = "//spanids.dictionary.com?bid=VeI4rzQCjq0h_5sA&asid=VeI4rzQCjq18mnGk&bidnew=1&asidnew=1&source=r";
+                        s.src = "//spanids.dictionary.com?bid=VeJKGjQCjq1_rwCb&asid=VeJKGjQCjq0rJMHf&bidnew=1&asidnew=1&source=r";
                         el.parentNode.insertBefore(s, el);
 
                     }
