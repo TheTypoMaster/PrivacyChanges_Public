@@ -736,7 +736,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 </script>
 
 
-<!-- navp-vUEy3Pkp3JkeB43iQoWyz94JT+Bu/yNm9lKUtd6IvGNQDhus4o0AlyBORdA1AZeiRB1uuHe6SpQ= rid-1R6BM6AXMPZVYMFR8KG6 (Sun Aug 30 04:25:27 2015) -->
+<!-- navp-QzqyBd7kfsd5auhskbwyLx0uPmUhPhuFwTmzH0CV6JUta4baUttgbi5eMlZAMf0BZOmD2sAdhiI= rid-0PQQZ0ZACCVSCJEBKGZQ (Sun Aug 30 05:39:36 2015) -->
 
 
 
@@ -968,7 +968,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
 <map name="nav_imgmap_nav-sa-credit" id="nav_imgmap_nav-sa-credit">
-<area shape="rect" coords="0,0,499,456" href="/iss/credit/storecardmember/ref=nav_sap_plcc_6M_fly_beacon?_encoding=UTF8&plattr=PLFLYGRAPH" alt="nav_sap_plcc_6M_fly_beacon"/>
+<area shape="rect" coords="0,0,499,456" href="/shopwithpoints" alt="nav_sap_SWP_6M_fly_beacon"/>
 </map>
 
 
@@ -993,7 +993,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
 <map name="nav_imgmap_nav-sa-grocery-health-beauty" id="nav_imgmap_nav-sa-grocery-health-beauty">
-<area shape="poly" coords="266,28,265,120,267,449,215,456,212,472,243,482,487,500,503,493,511,469,464,439,466,304,488,126,485,40,478,32" href="/b?ie=UTF8&node=12551027011" alt="Off to College Essentials"/>
+<area shape="rect" coords="241,83,504,504" href="/b?_encoding=UTF8&node=11609448011" alt="Grocery"/>
 </map>
 
 
@@ -1043,7 +1043,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 
 
 <map name="nav_imgmap_nav-sa-sports-outdoors-t1" id="nav_imgmap_nav-sa-sports-outdoors-t1">
-<area shape="rect" coords="1,251,499,502" href="/Hunting-Fishing-Gear-Equipment/b?ie=UTF8&node=706813011" alt="Big Savings in the Amazon Fall Sportsman Event"/>
+<area shape="rect" coords="2,256,499,502" href="/b?ie=UTF8&node=7298572011" alt="Gear Up for Football"/>
 </map>
 
 
@@ -1097,7 +1097,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', false);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"1R6BM6AXMPZVYMFR8KG6","isPrime":0,"weblabs":"53154:T1","primeMenuWidth":310});
+  {"rid":"0PQQZ0ZACCVSCJEBKGZQ","isPrime":0,"weblabs":"53154:T1","primeMenuWidth":310});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -1111,7 +1111,7 @@ window.$Nav && $Nav.declare('config.yourAccountPrimeHover',
 window.$Nav && $Nav.declare('config.primeEventLoggingEnabled', true);
 
 window.$Nav && $Nav.declare('config.primeFlyoutProfilingUrl',
-    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=1R6BM6AXMPZVYMFR8KG6');
+    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=0PQQZ0ZACCVSCJEBKGZQ');
 
 window.$Nav && $Nav.declare('config.searchBackState',
   {});
@@ -1151,7 +1151,7 @@ if (window.amznJQ && amznJQ.available) {
     , searchAliases: ["aps", "amazon-custom-products", "amazonfresh", "stripbooks", "popular", "apparel", "electronics", "sporting", "sports-and-fitness", "outdoor-recreation", "fan-shop", "garden", "videogames", "toys-and-games", "jewelry", "digital-text", "digital-music", "prime-digital-music", "watches", "grocery", "hpc", "instant-video", "handmade", "handmade-jewelry", "handmade-home-and-kitchen", "prime-instant-video", "shop-instant-video", "baby-products", "office-products", "software", "magazines", "tools", "automotive", "misc", "industrial", "mi", "pet-supplies", "digital-music-track", "digital-music-album", "mobile", "mobile-apps", "movies-tv", "music-artist", "music-album", "music-song", "stripbooks-spanish", "electronics-accessories", "pantry", "photo", "audio-video", "computers", "furniture", "kitchen", "audible", "audiobooks", "beauty", "shoes", "arts-crafts", "appliances", "gift-cards", "pets", "outdoor", "lawngarden", "collectibles", "replacement-parts", "financial", "wine", "fine-art", "fashion", "fashion-womens", "fashion-womens-clothing", "fashion-womens-jewelry", "fashion-womens-shoes", "fashion-womens-watches", "fashion-womens-handbags", "fashion-mens", "fashion-mens-clothing", "fashion-mens-jewelry", "fashion-mens-shoes", "fashion-mens-watches", "fashion-girls", "fashion-girls-clothing", "fashion-girls-jewelry", "fashion-girls-shoes", "fashion-girls-watches", "fashion-boys", "fashion-boys-clothing", "fashion-boys-jewelry", "fashion-boys-shoes", "fashion-boys-watches", "fashion-baby", "fashion-baby-boys", "fashion-baby-girls", "fashion-luggage", "3d-printing", "tradein-aps", "local-services", "vehicles", "video-shorts", "warehouse-deals", "luxury-beauty", "banjo-apps"]
     , isDoCtw: 1
     , pageType: "GPHelp"
-    , requestId: "1R6BM6AXMPZVYMFR8KG6"
+    , requestId: "0PQQZ0ZACCVSCJEBKGZQ"
     , keydownTriggeredWeblabs: []
     , displayTriggeredWeblabs: [      function(data) {
         return data && data.fastlabs ? data.fastlabs : undefined;
@@ -1400,11 +1400,11 @@ window.$Nav && $Nav.declare('config.searchapiEndpoint',false);
  _navbar.browsepromos['nav-sa-books'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/books/flyout/22665_us_books_june26_textbooks_flyout_us._V315468202_.png"}; 
  _navbar.browsepromos['nav-sa-clothing-shoes-jewelry'] = {"width":519,"promoType":"wide","destination":"/b/ref=?_encoding=UTF8&node=11651036011","vertOffset":"0","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/AMAZON_FASHION/2015/EDITORIAL/BTS_2/GATEWAY/FLYOUTS/TABLET/FO_GNO2_TAB_handbags._V314528581_.png"}; 
  _navbar.browsepromos['nav-sa-cloud-drive'] = {"width":519,"promoType":"wide","destination":"/clouddrive/home","vertOffset":"-11","horizOffset":"-21","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/digital/adrive/images/gno/cd_gno_SSPS-1._V314327058_.png"}; 
- _navbar.browsepromos['nav-sa-credit'] = {"width":499,"promoType":"wide","destination":"/iss/credit/storecardmember/ref=nav_sap_plcc_6M_fly_beacon?_encoding=UTF8&plattr=PLFLYGRAPH","vertOffset":"0","horizOffset":"0","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/gift-card/other/21999_storecard_6mo_flyout_US._V303850468_.jpg"}; 
+ _navbar.browsepromos['nav-sa-credit'] = {"width":519,"promoType":"wide","destination":"/shopwithpoints","vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/gift-card/other/SWP_flyout._V315476058_.png"}; 
  _navbar.browsepromos['nav-sa-digital-music'] = {"width":520,"promoType":"wide","destination":null,"vertOffset":"-36","horizOffset":"-21","height":538,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/digital/music/merch/2015/ArtistSpotlight/082815/BeachHouse_Spotlight_082815_Blackbelt._V313115298_.png"}; 
  _navbar.browsepromos['nav-sa-electronics-computers'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/wearable-tech/flyout/24545_MobileElectronics_Vivofit_GNO-flyout_v2._V314013423_.png"}; 
  _navbar.browsepromos['nav-sa-fire-tv'] = {"width":519,"promoType":"wide","destination":"https://www.amazon.com:443/gp/redirect.html?location=https://www.amazon.com/dp/B00GDQ0RMG&token=661ABEA050EC7ED103349320C53489637F654274&source=standards","vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/FTVS/GNO/Montoya_GNO_03_US_519x522._V312956578_.png"}; 
- _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/beauty/flyout/24008_us_beauty_coupon_red-carson_flyout._V314468900_.png"}; 
+ _navbar.browsepromos['nav-sa-grocery-health-beauty'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/grocery/flyout/23128_us_grocery_bts-event_flyout._V317701312_.png"}; 
  _navbar.browsepromos['nav-sa-home-garden-tools'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"-10","horizOffset":"-20","height":522,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/kitchen/flyout/21897_kitchen_bts_flyout2_us._V302856188_.png"}; 
  _navbar.browsepromos['nav-sa-home-services'] = {"width":499,"promoType":"wide","destination":null,"vertOffset":"-0","horizOffset":"-0","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/vas/gno/housecleaning_GNO._V311617191_.png"}; 
  _navbar.browsepromos['nav-sa-instant-video'] = {"width":519,"promoType":"wide","destination":"/dp/B00MILGKPI","vertOffset":"-10","horizOffset":"-20","height":476,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/digital/video/merch/GNOflyout/TMNT_GNO_456px-height._V314105463_.png"}; 
@@ -1412,7 +1412,7 @@ window.$Nav && $Nav.declare('config.searchapiEndpoint',false);
  _navbar.browsepromos['nav-sa-kindle-fire-tablet'] = {"width":500,"promoType":"wide","destination":null,"vertOffset":"0","horizOffset":"0","height":472,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2014/campaign/G7/gno/GNO_Aston_Ariel_500x472._V332793721_.png"}; 
  _navbar.browsepromos['nav-sa-kindle-reader'] = {"width":519,"promoType":"wide","destination":"https://www.amazon.com:443/gp/redirect.html?location=https://www.amazon.com/dp/B00IOY8XWQ&token=661ABEA050EC7ED103349320C53489637F654274&source=standards","vertOffset":"-10","horizOffset":"-20","height":499,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/kindle/merch/2015/campaign/KV/GNO/KV-evergreen-GNO-519x499._V327919596_.png"}; 
  _navbar.browsepromos['nav-sa-movies-music-games'] = {"width":499,"promoType":"wide","destination":null,"vertOffset":"0","horizOffset":"0","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/music/flyout/20445_music_evergreen_flyout_us_B._V314843157_.png"}; 
- _navbar.browsepromos['nav-sa-sports-outdoors-t1'] = {"width":519,"promoType":"wide","destination":null,"vertOffset":"0","horizOffset":"-20","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/sports/flyout/24476_us_sg_aug-6_hunting_flyout._V312521419_.png"}; 
+ _navbar.browsepromos['nav-sa-sports-outdoors-t1'] = {"width":499,"promoType":"wide","destination":null,"vertOffset":"0","horizOffset":"0","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/sports/flyout/24474_us_fanshop-football-kickoff_flyout_v2._V314175552_.png"}; 
  _navbar.browsepromos['nav-sa-toys-kids-baby'] = {"width":499,"promoType":"wide","destination":null,"vertOffset":"0","horizOffset":"0","height":502,"altText":null,"image":"http://g-ecx.images-amazon.com/images/G/01/img15/toys/flyout/24895_us_toys_aug-17_prime_flyout._V312872248_.png"}; 
 
 
@@ -2310,8 +2310,8 @@ window.$Nav && $Nav.declare('configComplete');
 <div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class='nav_first'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=508088' class='nav_a'>Conditions of Use</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=468496' class='nav_a'>Privacy Notice</a></li><li><a href='/interestbasedads' class='nav_a'>Interest-Based Ads</a></li><li class='nav_last'>© 1996-2015, Amazon.com, Inc. or its affiliates</li></ul></div>
 </div>
 
-<!-- whfh-Z4p66jjd+tSIHunGCeFJHUs1GWSexHg+T57UCa7lyKu5LAJi/LYw+uKSdfgzJkVN rid-1R6BM6AXMPZVYMFR8KG6 -->
-<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440933927207" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
+<!-- whfh-MKj8SbuawzRa8QYizVLynNg0pT6u7qfEO79gpl/dZs6HRbPjuul9PuIL3rUKSdps rid-0PQQZ0ZACCVSCJEBKGZQ -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440938376522" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
 
 
 

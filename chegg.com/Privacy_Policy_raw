@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html class="wf-active">
-<!--  live-web45.prod2.cloud.cheggnet.com| twig:1.16.0 -->
+<!--  live-web27.prod2.cloud.cheggnet.com| twig:1.16.0 -->
 <head>
     <meta name="format-detection" content="telephone=no">
     <title>Chegg.com</title>
@@ -1359,7 +1359,7 @@ properly, or do not have complete information.</p>
     C.global.cachedJS["http://c.cheggcdn.com/_r/495baae59ba1bc697831e925eb00f54f.js"] = true
 C.global.cachedJS["//s.btstatic.com/tag.js#site=ce4UWiM"] = true
 
-    C.global.csrfToken = 'b25a5757a4a2df0b05e90c8fee27a813';
+    C.global.csrfToken = 'c062ca94244a3400ad278bd932c4ff54';
 C.global.staticBaseUrl = 'http://c.cheggcdn.com/';
 C.global.assetUrl = 'https://a248.e.akamai.net/static.chegg.com/assets/';
 C.global.coversBaseUrl = 'http://c.cheggcdn.com/';
@@ -1382,8 +1382,8 @@ C.global.beacon = false;
 C.global.disableErrorhandling = false;
 C.global.version = '3.0';
 C('logger');
-C.logger.loadTime=1440933747.2156;
-C.logger.pageTrackId='a6d1ebc9ca4f9a2ac572e86b0ebd27f2';
+C.logger.loadTime=1440938218.6934;
+C.logger.pageTrackId='6409848b8b66d1716a64b3b344aefcc7';
 C.global.showViewMobileSiteButton = false;
 C.global.hasHiddenSearchBox = false;
 C.global.search = 'use_non_federated';

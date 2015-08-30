@@ -27,14 +27,14 @@ ga("create","UA-322734-1",".deviantart.com");
 ga("set","dimension1","visitor");
 ga("set","dimension6","menu_dropdown-messages_n\/a");
 ga("send","pageview",{"dimension4":0});            </script>
-            <script type='text/javascript' id='dwaitdatex-55e2e8ab7904b'>
+            <script type='text/javascript' id='dwaitdatex-55e2fa09dcd81'>
 (function(){
-    function dwaitdatex_55e2e8ab7904b(DWait) {
+    function dwaitdatex_55e2fa09dcd81(DWait) {
         var DWaitReady = false
         ,context = this
         ,cb = function() {
             DWaitReady = true;
-            var elem = document.getElementById('dwaitdatex-55e2e8ab7904b');
+            var elem = document.getElementById('dwaitdatex-55e2fa09dcd81');
             context = elem ? elem.parentNode : context;
             (function(){ ga(function () { PubSub.publish('DaGa.init', {});  }); }).apply(context);
         };
@@ -43,7 +43,7 @@ ga("send","pageview",{"dimension4":0});            </script>
 
     function load() {
         if (window.DWait) {
-            dwaitdatex_55e2e8ab7904b(DWait);
+            dwaitdatex_55e2fa09dcd81(DWait);
         } else {
             setTimeout(load, 100);
         }
@@ -88,7 +88,7 @@ ga("send","pageview",{"dimension4":0});            </script>
 <link href="http://i.deviantart.net/icons/da_favicon.ico" rel="shortcut icon"/>
 <script type="text/javascript">
 if (!window.deviantART) deviantART = {};deviantART.deviant =[];
-deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_hit":{"dimension4":0},"pageviewID":"555m672b0b1e6a0d9184fd78bb31c7d121bc","dwait_total":2};
+deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_hit":{"dimension4":0},"pageviewID":"555md2628cbcb0d3c49d42caf52c47457702","dwait_total":2};
 
 </script>
 <script type="text/javascript">(function(t){var r=function(r){if(!r||"object"!=typeof r||r.nodeType||r==t)return!1;var n=Object.prototype.hasOwnProperty;try{if(r.constructor&&!n.call(r,"constructor")&&!n.call(r.constructor.prototype,"isPrototypeOf"))return!1}catch(o){return!1}var e;for(e in r);return void 0===e||n.call(r,e)},n=function(t){var o,e={};for(o in t)e[o]=r(t[o])?n(t[o]):t[o];return e},o=Array.isArray||function(t){return"[object Array]"===Object.prototype.toString.call(t)},e={},l=/^.*\..*$/,i=function(t){if(t){if("function"==typeof t)throw"Glbl isn't meant to store functions, yo";if(o(t))for(var n=0,e=t.length;e>n;n++)i(t[n]);else if(r(t))for(var n in t)i(t[n])}};t.Glbl=function(t,o){if(1==arguments.length)return o=e[t],r(o)&&(o=n(o)),o;if("string"!=typeof t||!l.test(t))throw console.trace(),"Glbl keys need to be namespaced (dot-separated)";return i(o),r(o)&&(o=n(o)),e[t]=o,o},t.Glbl.dflt=function(t,n){if(r(t)){if(void 0!==n)throw"Misuse of Glbl, you cannot pass a dictionary AND a default value";for(var o in t)Glbl.dflt(o,t[o])}else void 0===Glbl(t)&&Glbl(t,n)},t.Glbl.plus=function(t,r){return 1===arguments.length&&(r=1),i(r),Glbl(t,(0|Glbl(t))+r)},t.Glbl.minus=function(t,r){return 1===arguments.length&&(r=1),i(r),Glbl(t,(0|Glbl(t))-r)},t.Glbl.match=function(t){var r={};for(var n in e)t.test(n)&&(r[n]=e[n]);return r},t.Glbl.del=function(t){void 0!==e[t]&&delete e[t]}})(window);</script>
@@ -226,8 +226,8 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
                 <span class="scripted"><a href="http://l.deviantart.com/" class="smbutton smbutton-blue" onclick="$('#loginbar-ref').val($('#loginbar-ref').val()||document.location.href);document.getElementById('form-login').submit();(window.event||{}).cancelBubble=true;return false"><span>Login</span></a></span>
                 <span class="unscripted"><input name="action" type="submit" value="Login" class="ibutton" style="width:12ex"></span>
                 <br>
-                        <input type="hidden" name="validate_token" value="d3813686ad343cf50255" autocomplete="off"/>
-            <input type="hidden" name="validate_key" value="1440934059" autocomplete="off"/>
+                        <input type="hidden" name="validate_token" value="4d130004ee757e85ed92" autocomplete="off"/>
+            <input type="hidden" name="validate_key" value="1440938505" autocomplete="off"/>
         </form>
         <hr>
         <a class="mi iconset-gruser join-link" href="https://www.deviantart.com/join?joinpoint=standard&amp;no_js=1" data-ga_click_event="{&quot;category&quot;:&quot;Join&quot;,&quot;action&quot;:&quot;LoginBar&quot;,&quot;nofollow&quot;:0}"><i class="i44"></i> Join DeviantArt for FREE</a>
@@ -511,9 +511,9 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
                     n.async = 1;
                     n.src = "http://st.deviantart.net/css/dapx_jc.js?1023756257";
                     t.parentNode.insertBefore(n, t);
-                })(window, document, "script", 1440934059);
+                })(window, document, "script", 1440938505);
                 
-            </script><script type="text/javascript">DWait.ready(["jms\/lib\/pubsub.js"], function(){ PubSub.publish("DaPx.initialize", {"client":"dw","daid":"a3e81065089fde2a3849124da0ed9ef3","requestid":"555m66f6d8689edcd9ff296629f79471763a","log_data":[]}); });</script>
+            </script><script type="text/javascript">DWait.ready(["jms\/lib\/pubsub.js"], function(){ PubSub.publish("DaPx.initialize", {"client":"dw","daid":"cd8062fafc7f7a4e745c63519b63df2f","requestid":"555m4fc117800ac1e7787b8620e5bc571279","log_data":[]}); });</script>
 <script type="text/javascript">
         document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b")
         + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
