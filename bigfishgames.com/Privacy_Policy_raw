@@ -73,7 +73,7 @@ xml:lang="en">
             </div>        <div class="bfg-user-nav">
             <ul class="nav-list">
                 <li id="bfg-user-Login">
-                    <a id='login_link_login' href='https://susi.bigfishgames.com/login/?l=SX35iQQ2gZ1P4smWJIo9MEASSdkKUzn3vSuChT0JC3jEj-TulORpMowkmwhe_sALskqhc7h83nslvcPVWhFI8w&amp;ol=eLycKj9M9D58WM6AiQI0ZA&amp;sid=tu5cmP1fDTaIar6fqikHNQ&amp;lid=X0h0wN-gyopyo6fEIP8tVg' data-locale='en_US' target='_top'>Sign In</a>
+                    <a id='login_link_login' href='https://susi.bigfishgames.com/login/?l=vEr2TWtaL56L3Ryw_ydy61E00zBgD0Qb-6r7vjU72oE-IKF_l13TukdBfdAaUFpO19iCYmjb0ltAPJY7KW6HCQ&amp;ol=-UQO0Tt8oH1yaBaAccc9rw&amp;sid=b7x9z10sYmPTgEpBKmfcdg&amp;lid=WLd6uZXUV3IrG8s4d3dSTw' data-locale='en_US' target='_top'>Sign In</a>
                 </li>
                 <li id="bfg-user-Cart">
                     <a id='login_link_cart' href='https://store.bigfishgames.com/cart.php' data-locale='en_US' target='_top'><span class="fa fa-lg fa-shopping-cart"></span><span class="no-icon">Cart</span></a>
@@ -489,7 +489,7 @@ xml:lang="en">
                             </li>
                             <li>
                                 <span> | </span>
-                                <a href='http://forums.bigfishgames.com/forums/list.page' title='Your place to ask questions, share tips, and connect with players like you.' target='_top' data-lang='en'>Game Forums Home</a>
+                                <a href='http://forums.bigfishgames.com/games/list.page' title='Your place to ask questions, share tips, and connect with players like you.' target='_top' data-lang='en'>Game Forums Home</a>
                             </li>
                         </ul>
                     </div>
@@ -951,11 +951,11 @@ xml:lang="en">
             game_has_tried: false
         },
         server_time: {
-            now:    1440924737,
+            now:    1440929185,
             today:  1440918000
         },
         trk: {
-            bucket: {"lang":"en","brand":"bfg","os":"other","os_flavor":"original","os_version":null,"crawler":false,"browser":"unknown","browser_version":null,"is_new_user":true,"is_tourist":true,"is_auth":false,"has_mid":false,"code_mkt":"bfgdefault","code_afsrc":"afxxxxxxxxxx","time":1440924737,"tid":"e048b57d-0692-3084-b18a-834f1e12e89b","page_game_type":"pc","has_purchased":false,"geoip_country":"us","connection_type":"corporate","gc_status":"NOT_SIGNED_IN","location_page":"company_privacy","location_section":"company","location_subsection":"company"},
+            bucket: {"lang":"en","brand":"bfg","os":"other","os_flavor":"original","os_version":null,"crawler":false,"browser":"unknown","browser_version":null,"is_new_user":true,"is_tourist":true,"is_auth":false,"has_mid":false,"code_mkt":"bfgdefault","code_afsrc":"afxxxxxxxxxx","time":1440929185,"tid":"41351525-4d1a-fbd4-11ea-efd6c6fd7aa7","page_game_type":"pc","has_purchased":false,"geoip_country":"us","connection_type":"corporate","gc_status":"NOT_SIGNED_IN","location_page":"company_privacy","location_section":"company","location_subsection":"company"},
             gat: {
                 enabled:    true,
                 code:       'UA-93377-1'

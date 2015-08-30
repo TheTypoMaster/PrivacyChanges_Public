@@ -209,8 +209,8 @@ adSetMOAT("1");
 </script>
 
 <script type="text/javascript">
-	HPConfig.fb_recom_version = 2;
-	HPConfig.most_popular_version = 3;
+	HPConfig.fb_recom_version = 1;
+	HPConfig.most_popular_version = 1;
 </script>
 
     <div id="fb-root"></div>
@@ -337,7 +337,7 @@ d.getElementsByTagName('head')[0].appendChild(s);
 	{
 		ad_spec = {
 			"zone_info": "huffpost.general",
-			"ord": 1440925243,
+			"ord": 1440929441,
 			"tile": 3,
 			"width": 300,
 			"height": 250,
@@ -400,7 +400,7 @@ d.getElementsByTagName('head')[0].appendChild(s);
 <ul class="big_news_ontop">
 <li><a href="/news/immigration/" class="big_news_item bn_v_world" onclick="HPTrack.trackPageview('/t/a/topnav_bignews/v2');">Immigration</a></li></ul>
 </div>
-  
+       
 <div class="more_in_bignews">
 <script type='text/javascript'>ads_top_bar_sponsor_links = ["<a href='\/news\/life-lessons\/\/' class='margin_right_10' onclick='HPTrack.trackPageview(\"\/t\/a\/topnav_bignews\/v2\");'>Life Lessons<\/a>"];ads_top_bar_sponsor_links.sort( function() { return 0.5 - Math.random() } );for(var i = 0; i < 2 && i < ads_top_bar_sponsor_links.length; i++){document.write(ads_top_bar_sponsor_links[i]);}</script>
   <a href="http://itunes.apple.com/us/app/the-huffington-post/id306621789?mt=8" class="margin_right_10" data-beacon='{"p":{"lnid":"bgNewsMore"}}' onclick="HPTrack.trackPageview('/t/a/topnav_bignews/v2');">iOS app</a>
@@ -686,7 +686,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/politics/'>Politics</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045504 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_060519 -->
       <ul>
         <li id='id_trending_8047266' data-beacon='{"p":{"plid":8047266}}'>
           <a href='http://www.huffingtonpost.com/h-a-goodman/bernie-sanders-is-not-a-socialist_b_8047266.html?ir=Politics'>George W. Bush -- Not Bernie Sanders -- Is The Real 'Socialist'<span class="comments" data-anchor="#comments"><span class="talkbubble"><span></span></span><span class="comments-count">194</span></span></a>
@@ -739,7 +739,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/business/'>Business</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045502 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_061002 -->
       <ul>
         <li id='id_trending_8046036' data-beacon='{"p":{"plid":8046036}}'>
           <a href='http://www.huffingtonpost.com/mo-seetubtim/10-reasons-why-you-should-start-your-own-business_b_8046036.html?ir=Business'>10 Reasons Why You Should Start Your Own Business</a>
@@ -820,7 +820,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/technology/'>Tech</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045506 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_060524 -->
       <ul>
         <li id='id_trending_8044800' data-beacon='{"p":{"plid":8044800}}'>
           <a href='http://www.huffingtonpost.com/samantha-parent/why-our-daughters-should-play-more-video-games_b_8044800.html?ir=Technology'>Why Our Daughters Should Play More Video Games</a>
@@ -861,7 +861,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/media/'>Media</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045503 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_060515 -->
       <ul>
         <li id='id_trending_8049548' data-beacon='{"p":{"plid":8049548}}'>
           <a href='http://www.huffingtonpost.com/amy-mueller/amir-hekmati-american-imprisoned-in-iran_b_8049548.html?ir=Media'>How Social Media Has Helped Amir Hekmati, an American Imprisoned in Iran</a>
@@ -901,7 +901,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/theworldpost/'>WorldPost</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045511 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_061008 -->
       <ul>
         <li id='id_trending_8045742' data-beacon='{"p":{"plid":8045742}}'>
           <a href='http://www.huffingtonpost.com/brad-delong/china-stock-market_1_b_8045742.html?ir=WorldPost'>China's Market Crash Means Chinese Supergrowth Could Have Only 5 More Years to Run<span class="comments" data-anchor="#comments"><span class="talkbubble"><span></span></span><span class="comments-count">27</span></span></a>
@@ -954,7 +954,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/healthy-living/'>Healthy Living</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045503 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_060510 -->
       <ul>
         <li id='id_trending_8023078' data-beacon='{"p":{"plid":8023078}}'>
           <a href='http://www.huffingtonpost.com/kate-bartolotta/5-ways-to-get-your-email-under-control-and-change-your-relationships_b_8023078.html?ir=Healthy+Living'>5 Ways To Get Your Email Under Control</a>
@@ -995,7 +995,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
    <a class='topnav_tab_link' href='http://www.huffingtonpost.com/comedy/'>Comedy</a>
    <div class='menu absolute'>
     <div class='menu_h clearfix'>
-     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_045502 -->
+     <div class='trending' data-beacon='{"p":{"lnid":"trending"}}'>  <!-- last update is 20150830_061002 -->
       <ul>
         <li id='id_trending_8050264' data-beacon='{"p":{"plid":8050264}}'>
           <a href='http://www.huffingtonpost.com/-lily-karlin/date-historys-powerful-men-today_b_8050264.html?ir=Comedy'>What It Would Be Like To Date History's Most Powerful Men Today</a>
@@ -1585,7 +1585,7 @@ jQuery('#fb_like_vertical').mouseenter(function() {
 
 
 
-<!-- Served from: production-mt-wfe-54-47.use1 -->
+<!-- Served from: production-mt-wfe-56-7.use1 -->
 <!-- Wrapped End -->
 		<div id="hp_vertical_common_lightbox" style="visibility: hidden;" >
 		<center>
@@ -1624,7 +1624,7 @@ window.UNB={config:{referrer:document.referrer,theme:"light",minimumBrowserWidth
     var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;bUrl="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";wlUrl=(wlPrefix="","");
     includeJs=function(a){var b;b=document.createElement("script");b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];return a.parentNode.insertBefore(b,a)};bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
   //]]>
-</script></div><script type="text/javascript">huff.use('conf', function(c){ c.set({"mtime":1440925243,"entry":0,"vertical":"homepage","vertical-id":-1,"vertical-name":"","ads\/zone":"","topnav\/version":"2","cookie\/domain":"huffingtonpost.com","websocket\/enabled":false,"websocket\/url":"fiji-production-ws.use1.huffpo.net","websocket\/init":false,"site_blog_id":2,"auth_secure_domain":"secure.huffingtonpost.com","auth_secure_protocol":"https","auth_method":"frame","static_secure_domain":"s-s.huffpost.com","images_secure_domain":"s-i.huffpost.com","images_secure_www_domain":"s-i.huffpost.com","social_tracking":true,"primary_vertical_id":-1,"primary_vertical_name":false,"primary_vertical_facebook_name":"HuffingtonPost","primary_vertical_twitter_name":"HuffingtonPost","current_vertical_facebook_name":"HuffingtonPost","current_vertical_twitter_name":"HuffingtonPost","vertical\/bignews":"homepage","threeup":{"version":1}}); });</script><!-- BEGIN Nielsen Tracking -->
+</script></div><script type="text/javascript">huff.use('conf', function(c){ c.set({"mtime":1440929441,"entry":0,"vertical":"homepage","vertical-id":-1,"vertical-name":"","ads\/zone":"","topnav\/version":"2","cookie\/domain":"huffingtonpost.com","websocket\/enabled":false,"websocket\/url":"fiji-production-ws.use1.huffpo.net","websocket\/init":false,"site_blog_id":2,"auth_secure_domain":"secure.huffingtonpost.com","auth_secure_protocol":"https","auth_method":"frame","static_secure_domain":"s-s.huffpost.com","images_secure_domain":"s-i.huffpost.com","images_secure_www_domain":"s-i.huffpost.com","social_tracking":true,"primary_vertical_id":-1,"primary_vertical_name":false,"primary_vertical_facebook_name":"HuffingtonPost","primary_vertical_twitter_name":"HuffingtonPost","current_vertical_facebook_name":"HuffingtonPost","current_vertical_twitter_name":"HuffingtonPost","vertical\/bignews":"homepage","threeup":{"version":1}}); });</script><!-- BEGIN Nielsen Tracking -->
 <script type="text/javascript">
   HPTrack.Services.trackTo(['Nielsen']);
 </script>

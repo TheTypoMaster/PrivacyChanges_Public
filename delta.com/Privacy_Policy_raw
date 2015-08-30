@@ -40,7 +40,19 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css"/>
         
-                <!-- End of HttpUtil Call, no data returned, please check error logs! -->
+                <link rel="stylesheet" type="text/css" href="//content.delta.com/content/dam/delta-applications/css/sitewide/v2.8.0/swr.css"/>
+
+<!--[if IE ]>
+<link rel="stylesheet" type="text/css" media="all" href="//content.delta.com/content/dam/delta-applications/css/sitewide/v2.8.0/swr-ie.css" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="//content.delta.com/content/dam/delta-applications/css/sitewide/v2.8.0/swr-ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="//content.delta.com/content/dam/delta-applications/css/sitewide/v2.8.0/swr-ie8.css" />
+<![endif]-->
     	
 
 
@@ -4472,7 +4484,7 @@ $(document).ready(function(){
 <!--
 More detailed timing info is available by uncommenting some code in the timing.jsp component
 Timing chart URL:
-http://chart.apis.google.com/chart?chtt=privacy-and-security.html+%282159ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,2159,0,2159&chxr=0,0,2159&chd=t:3,5,5,2016,2018,2018,2019,2019,2019,2019,2032,2033,2033,2033,2034,2035,2035,2035,2035,2036,2036,2036,2037,2037,2037,2038,2038,2039,2039,2040,2040,2041,2041,2041,2042,2042,2043,2043,2044,2044,2044,2045,2045,2046,2046,2046,2047,2047,2047,2048,2048,2049,2049,2049,2050,2051,2052,2053,2053,2054,2055,2056,2056,2057,2057,2058,2059,2059,2060,2060,2061,2061,2062,2063,2063,2063,2064,2065,2065,2066,2066,2067,2068,2068,2069,2069,2070,2070,2071,2072,2073,2073,2074,2147,2148,2151,2151|2015,0,2011,2,0,1,0,0,13,13,1,0,39,40,2,1,1,1,1,11,11,11,0,1,9,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,1,0,1,0,0,0,1,1,4,0,0,0,0,1,0,5,1,0,1,0,1,0,2,1,1,0,2,2,1,1,2,2,1,0,2,2,1,0,2,1,1,0,1,1,0,0,2,2,1,0,0,74,73,4,3,0,8&chly=head.jsp|init.jsp|libIncludes.jsp|servicelibs.jsp|headlibs.jsp|personalization.jsp|clientcontext.jsp|redirect.jsp|header.jsp|header.jsp|interactivebreadcrumb.jsp|title.jsp|parsys.jsp|content.jsp|contentarea.jsp|textJavascript.jsp|text.jsp|parsys.jsp|grid-9.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|text.jsp|parsys.jsp|accordiontype.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|accordiontype.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|accordiontype.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|contentarea.jsp|parsys.jsp|grid-9.jsp|text.jsp|grid-9.jsp|contentarea.jsp|text.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|contentarea.jsp|parsys.jsp|grid-9.jsp|text.jsp|grid-9.jsp|contentarea.jsp|text.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|parsys.jsp|widgetnavigation.jsp|widgetnavigation.jsp|footer.jsp|footer.jsp|disclaimer.jsp|footerJS.jsp&chs=600x500
+http://chart.apis.google.com/chart?chtt=privacy-and-security.html+%28191ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,191,0,191&chxr=0,0,191&chd=t:3,5,5,21,24,25,26,27,27,27,51,52,52,52,53,54,54,54,55,55,55,55,56,56,57,57,57,58,58,58,59,59,60,60,61,61,62,62,62,63,63,64,64,64,65,66,66,66,67,67,67,68,69,70,70,71,72,73,73,74,75,75,76,76,77,78,78,79,79,80,81,81,82,82,83,83,84,85,85,85,86,87,87,88,88,89,90,90,90,91,92,92,92,174,174,181,182|22,0,16,4,1,2,1,0,24,24,1,0,39,40,2,1,1,1,0,11,11,11,0,10,0,0,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,1,5,0,1,1,1,0,1,1,5,1,0,1,0,1,1,2,2,1,0,2,1,1,0,2,2,1,1,2,2,1,0,2,2,1,0,2,1,1,0,1,1,1,0,0,82,82,7,7,1,9&chly=head.jsp|init.jsp|libIncludes.jsp|servicelibs.jsp|headlibs.jsp|personalization.jsp|clientcontext.jsp|redirect.jsp|header.jsp|header.jsp|interactivebreadcrumb.jsp|title.jsp|parsys.jsp|content.jsp|contentarea.jsp|text.jsp|parsys.jsp|grid-9.jsp|textJavascript.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|text.jsp|accordiontype.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|parsys.jsp|accordiontype.jsp|text.jsp|text.jsp|parsys.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|accordiontype.jsp|parsys.jsp|text.jsp|parsys.jsp|text.jsp|text.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|contentarea.jsp|parsys.jsp|grid-9.jsp|text.jsp|grid-9.jsp|contentarea.jsp|text.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|grid-9.jsp|contentarea.jsp|parsys.jsp|text.jsp|contentarea.jsp|parsys.jsp|grid-9.jsp|text.jsp|parsys.jsp|grid-9.jsp|contentarea.jsp|text.jsp|parsys.jsp|widgetnavigation.jsp|widgetnavigation.jsp|footer.jsp|footer.jsp|disclaimer.jsp|footerJS.jsp&chs=600x500
 -->
 
 
@@ -4531,7 +4543,7 @@ CQ_Analytics.CCM.addListener("storesinitialize", function(e) {
 if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
 //-->
 </script>
-<noscript><img src="http://delta.112.2o7.net/b/ss/deltacom2/1/H.25--NS/1440793266060?cdp=2&amp;gn=content%3Awww%3Aen_US%3Aprivacy-and-security" height="1" width="1" border="0" alt=""/></noscript>
+<noscript><img src="https://delta.112.2o7.net/b/ss/deltacom2/1/H.25--NS/1440793236914?cdp=2&amp;gn=content%3Awww%3Aen_US%3Aprivacy-and-security" height="1" width="1" border="0" alt=""/></noscript>
 <span data-tracking="{event:'pageView', values:{}, componentPath:'foundation/components/page'}"></span>
 </div>
 

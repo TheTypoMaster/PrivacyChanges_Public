@@ -915,16 +915,16 @@ var context = '';
 
 
 if(servlet != 'sp'){
-	//logPageView(servlet,pname,'C0004B08E873127527F64D09BAA220E3.VGS-AS07','http://track.netzero.net',context);
+	//logPageView(servlet,pname,'06B127B0265A27D8C66C1E475ADEEE29.DCA-AS02','http://track.netzero.net',context);
 	try{
-		logPageView(servlet,pname,'C0004B08E873127527F64D09BAA220E3.VGS-AS07','http://track.netzero.net',context);
+		logPageView(servlet,pname,'06B127B0265A27D8C66C1E475ADEEE29.DCA-AS02','http://track.netzero.net',context);
 	 }
 	catch(e){		
 	} 
 }
 
 function debug_pv_values(){
-	alert('servlet='+servlet+'\npname='+pname+'\nsID=C0004B08E873127527F64D09BAA220E3.VGS-AS07\ntrackServer=http://track.netzero.net\ncontext='+context)
+	alert('servlet='+servlet+'\npname='+pname+'\nsID=06B127B0265A27D8C66C1E475ADEEE29.DCA-AS02\ntrackServer=http://track.netzero.net\ncontext='+context)
 }
 </script>	
 	

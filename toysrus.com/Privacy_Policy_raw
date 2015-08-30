@@ -540,7 +540,7 @@ function getSREDID(){
 
        currentDate.day = 30;
 
-       currentDate.hour = 5;
+       currentDate.hour = 6;
 
 </script>
 
@@ -688,7 +688,7 @@ function getSREDID(){
                                     <div class="clearfloat"></div>
                                     <input type="hidden" name="contest" value="TRUBRU_HEADER_POST" />
                                     <input type="hidden" name="emailPref" value="Y" />
-                                    <input type="hidden" name="datetime" value="August 30, 2015 5:03:22 AM EDT" />
+                                    <input type="hidden" name="datetime" value="August 30, 2015 6:17:43 AM EDT" />
                                 </form>
                                 <h2 class="confirm content" style="display: none;">You will start receiving emails with special offers and more within one to two days.</h2>
                                 <a class="confirm continueShopping" style="display: none;" href="javascript:void(0);">Continue Shopping</a></div></div>
@@ -2399,7 +2399,7 @@ function trugiftheader(trupress){
                 <a class="cartButton" href="/cart/index.jsp">
                     <span class="cartIcon">Cart</span>
 					
-					<!-- (random number = 573) -->
+					<!-- (random number = 941) -->
                      
 						<!-- DSA Akamai is disabled -->
                         <span class="cartItemCount">0</span>
@@ -2431,7 +2431,7 @@ function trugiftheader(trupress){
         }
 		
             jQuery(document).ready(function($) {
-                writeRegCookieWithParam('SHJD=94NPS06QO58RQ5S59O7QONP9ON4P485N','0','','0','');
+                writeRegCookieWithParam('SHJD=4N262R62RSNOPO56NR5943R9S0S43237','0','','0','');
             });
         
     </script>
@@ -2573,7 +2573,7 @@ var babyRusRegLoginUrl = 'https://babyregistry.babiesrus.com/sign-in'+'?itemAdde
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -2920,7 +2920,7 @@ var babyRusRegLoginUrl = 'https://babyregistry.babiesrus.com/sign-in'+'?itemAdde
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3373,7 +3373,7 @@ loadjscssfile("https://www.toysrus.com/graphics/media/trus/livecode/Global_Files
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3420,7 +3420,7 @@ loadjscssfile("https://www.toysrus.com/graphics/media/trus/livecode/Global_Files
     var rum = {
         pgId: 'TRUS Helpdesk Page',
         grpId: 'prd',
-        grpId1: 'lvs2'  // fix for CIQ 85303
+        grpId1: 'slc2'  // fix for CIQ 85303
     };
     //-->
 </SCRIPT>
@@ -3468,7 +3468,7 @@ loadjscssfile("https://www.toysrus.com/graphics/media/trus/livecode/Global_Files
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3487,7 +3487,7 @@ loadjscssfile("https://www.toysrus.com/graphics/media/trus/livecode/Global_Files
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3798,7 +3798,7 @@ else if(pageType == 'family')
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3855,7 +3855,7 @@ if(rewardsflagPage==1){
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3885,7 +3885,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3912,7 +3912,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3940,7 +3940,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -3950,7 +3950,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
     var siteId= '49';
     var catId = '';
     var pageType = 'helpdesksafetyprivacy';
-    var browserId = '248111195007';
+    var browserId = '253269759088';
     var prodId = '';
     var pQty = '';
     var orderId = '';
@@ -4031,7 +4031,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 	userBehavior.cartValue = '';
 	userBehavior.wishList = '';
 	userBehavior.currentURL = 'http://www.toysrus.com/gsi/trus/cmsTemplates/tru_helpdesk_1.jsp';
-	userBehavior.currentSessionID = '2003576812';
+	userBehavior.currentSessionID = '1797474887';
 	userBehavior.userBehaviorSearchWords = '';
 	userBehavior.marketingScore = '0';
 	userBehavior.storeCurrencyCode = 'USD';
@@ -4067,7 +4067,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 				'&wishList='+userBehavior.wishList +
 				'&sessionID='+userBehavior.currentSessionID+
 				'&pageOrprocessName='+'cmsTemplates'+ 
-				'&browserId='+'248111195007'+ 
+				'&browserId='+'253269759088'+ 
 				'&userId='+'uid=0'+ 
 				'&userBehaviorSearchWords='+userBehavior.userBehaviorSearchWords+
 				'&marketingScore='+userBehavior.marketingScore+
@@ -4128,7 +4128,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4149,7 +4149,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4170,7 +4170,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
  
 <script type="text/javascript">
 		var digitalData = {
-		  sessionID: "2003576812",
+		  sessionID: "1797474887",
 		  page : {
 			pageInfo : {
             pageName : "HelpDesk: Safety, Security, and Privacy",
@@ -4276,7 +4276,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4285,7 +4285,7 @@ storeSREDID();
 
 <!-- Below block is included under PMO 414 to capture visitorId and SMP US0367-->
 <script language="JavaScript">
-	var dataCenter = "lvs2";
+	var dataCenter = "slc2";
     var visitorId;
     
 </script>
@@ -4299,7 +4299,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4313,7 +4313,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4327,7 +4327,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4350,7 +4350,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4365,7 +4365,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
@@ -4379,7 +4379,7 @@ storeSREDID();
 
 
 
-<!--You are running on lvs2prd1_ws_11_4-->
+<!--You are running on slc2prd1_ws_50_7-->
 
 
 
