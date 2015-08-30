@@ -574,7 +574,7 @@
                             <img src="https://regmedia.co.uk/2012/11/08/precog_minority_report.jpg?x=648&amp;y=429&amp;crop=1" alt="" width=648 height=429 class="article_img">
 
                 
-                <div id=social_btns class="alt_colour dcl">
+                <div id=social_btns class="alt_colour dcl ab_b">
                     <a href="http://twitter.com/share?text=Your%20Privacy%20and%20The%20Register&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;via=theregister" class=twit>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/twitter.png" srcset="/Design/graphics/icon/twitter.svg" alt="Twitter">
@@ -590,6 +590,12 @@
                     <a href="https://plus.google.com/share?url=http://www.theregister.co.uk/about/company/privacy/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class=gplus>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/google_plus.png" srcset="/Design/graphics/icon/google_plus.svg" alt="G+">
+                            <div class=count></div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;title=Your%20Privacy%20and%20The%20Register&amp;summary=What%20we%20do%20with%20your%20data" class=linkedin_social>
+                        <div class=circ>
+                            <img width="18" height="18" src="/Design/graphics/icon/linkedin_alt.png" srcset="/Design/graphics/icon/linkedin_alt.svg" alt="linkedin">
                             <div class=count></div>
                         </div>
                     </a>
@@ -740,35 +746,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3631/open-itoa-white-paper-140809.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Designing and building an open ITOA architecture</h4>
+                <h4>Go beyond APM with real-time IT operations analytics</h4>
                 <div class=standfirst>
-                    Learn about a new IT data taxonomy defined by the four data sources of IT visibility: wire, machine, agent, and synthetic data sets.
+                    How IT operations teams can harness wire data already for real-time operational intelligence
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4013/vmturbo-wp-assuring-application-performance-feb-2015.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4015/pure-storage-and-vmturbo-assuring-workload-performance.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Demand-driven application control: assuring application performance</h4>
+                <h4>Assuring workload performance through Pure Storage and VMTurbo</h4>
                 <div class=standfirst>
-                    The evolution of enterprise applications, the data centers in which they reside and the increasing expectations of businesses and end-users on the Quality of Service delivered.
+                    Three primary use cases for the VMTurbo Pure Storage Control Module are discussed, including assuring performance in both homogeneous and heterogeneous storage environments.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4020/ibm-x-force-threat-intelligence-q2-2015.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4044/sew03053wwen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>IBM X-Force Threat Intelligence Quarterly 2Q 2015</h4>
+                <h4>2015 Cost of data breach study</h4>
                 <div class=standfirst>
-                    Learn how to combat insider threats in the wake of the changing threat landscape.
+                    Ponemon Institute’s latest study of 350 organizations around the globe details both the cost and impact of data breaches, with breakdowns by industry and country.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4059/sans-breaches-happen-be-prepared-1214.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4063/forrester-use-actionable-threat-intelligence-to-protect-your-digital-business.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Breaches happen: Be prepared</h4>
+                <h4>Use actionable threat intelligence to protect your digital business</h4>
                 <div class=standfirst>
-                    Discussing how a layered approach to security provides better protection of your organization's IT assets.
+                    Key characteristic of actionable threat intelligence and learn how to maximize threat intelligence to protect your digital business from targeted cyber-attacks.
                 </div>
             </a>
         </div>
@@ -781,16 +787,16 @@ Southport PR8 1LJ</p>
     <h3>Most read</h3>
     <ol>
         <li>
-            <a href="/2015/08/29/uber_security_researchers/">
-                            <img src="https://regmedia.co.uk/2015/05/19/uber_logo.jpg?x=88&amp;y=58&amp;crop=1" alt="Uber launch party by https://www.flickr.com/photos/5chw4r7z/ CC2.0 sharelalike attribution https://creativecommons.org/licenses/by-sa/2.0/" width=88 height=58>
-                <h4>Uber pulls up to the bumper, drops Jeep hackers into driving seat
+            <a href="/2015/08/29/two_black_holes_found_inside_galaxy/">
+                            <img src="https://regmedia.co.uk/2015/08/29/binary_black_hole.jpg?x=88&amp;y=58&amp;crop=1" alt="Artist's view of a binary black hole. Pic credit: NASA, ESA and G Bacon (STScI)" width=88 height=58>
+                <h4>Boffins clock MONSTER BLACK HOLES inside quasar-hosting galaxy near Earth
                 </h4>
             </a>
         </li>
         <li>
-            <a href="/2015/08/29/two_black_holes_found_inside_galaxy/">
-                            <img src="https://regmedia.co.uk/2015/08/29/binary_black_hole.jpg?x=88&amp;y=58&amp;crop=1" alt="Artist's view of a binary black hole. Pic credit: NASA, ESA and G Bacon (STScI)" width=88 height=58>
-                <h4>Boffins clock MONSTER BLACK HOLES inside quasar-hosting galaxy near Earth
+            <a href="/2015/08/29/uber_security_researchers/">
+                            <img src="https://regmedia.co.uk/2015/05/19/uber_logo.jpg?x=88&amp;y=58&amp;crop=1" alt="Uber launch party by https://www.flickr.com/photos/5chw4r7z/ CC2.0 sharelalike attribution https://creativecommons.org/licenses/by-sa/2.0/" width=88 height=58>
+                <h4>Uber pulls up to the bumper, plonks Jeep hackers into driving seat
                 </h4>
             </a>
         </li>
@@ -966,6 +972,28 @@ Southport PR8 1LJ</p>
 
 
 
+    <script>
+        $(function() {
+            if ($('#social_btns').length) {
+                var ab_set = {
+                    view_tracking:  'true',
+                    click_tracking: 'true',
+                    click_target:   '#social_btns a:not(.reg_comments), #social_btns .faceb',
+                    group:          'B (without count)',
+                    name:           'AB: Social btns 2015'
+                };
+                track_bucket_user(ab_set);
+
+                var ab_set = {
+                    click_tracking: 'true',
+                    click_target:   '.article_head .reg_comments',
+                    group:          'B (without count)',
+                    name:           'AB: Social btns 2015 comments'
+                };
+                track_bucket_user(ab_set);
+            }
+        });
+    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1017,7 +1045,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(816) });
+        $(function() { set_bucket_group(338) });
     </script>
         <div id="fb-root"></div>
     </div>

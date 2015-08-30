@@ -604,7 +604,7 @@
 <script type='text/javascript'>
 	Weebly.Storage.onReady = function() {
 		var wuid = '' || Weebly.Storage.get('wuid');
-		var wcid = Weebly.Storage.get('wcid') || '25vyb64sanz78zcd';
+		var wcid = Weebly.Storage.get('wcid') || 'cjcbw9z0y4if8og1';
 		if (!wcid) {
 			var possible = 'abcdefghijklmnopqrstuvwxyz0123456789';
 			for( var i=0; i < 16; i++ ) { wcid += possible.charAt(Math.floor(Math.random() * possible.length)); }

@@ -425,7 +425,7 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">1:40 <span>PM EDT</span></div>
+	<div class="currenttime">2:55 <span>PM EDT</span></div>
 	<div class="currentdate">August 30, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
@@ -484,6 +484,14 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724664"><span class="timestamp"><span>2:21p</span></span><p><a href="/story/apple-will-double-the-cost-of-next-apple-tv-2015-08-30?link=MW_latest_news" target="_blank">Apple will double the cost of next Apple TV</a></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724663"><span class="timestamp"><span>1:48p</span></span><p><a href="/story/facebook-users-flood-mark-zuckerberg-with-thank-yous-2015-08-29?link=MW_latest_news" target="_blank">Facebook users flood Mark Zuckerberg with thank you’s</a></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724662"><span class="timestamp"><span>1:47p</span></span><p><a href="/story/this-wild-market-is-no-threat-to-your-income-and-spending-2015-08-28?link=MW_latest_news" target="_blank">This wild market is no threat to your income and spending</a></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724661"><span class="timestamp"><span>1:44p</span></span><p><a href="/story/is-this-all-the-investing-advice-youll-ever-need-2015-07-31?link=MW_latest_news" target="_blank">Is this all the investing advice you’ll ever need?</a></p></li>
+
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724660"><span class="timestamp"><span>1:03p</span></span><p><a href="/story/from-6000-to-67-billion-warren-buffetts-wealth-through-the-ages-2015-08-17?link=MW_latest_news" target="_blank">From $6,000 to $67 billion: Warren Buffett’s wealth through the ages</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724658"><span class="timestamp"><span>12:55p</span></span><p><a href="/story/war-room-is-resounding-success-at-weekend-box-office-2015-08-30?link=MW_latest_news" target="_blank">‘War Room’ is ‘resounding success’ at weekend box office</a></p></li>
@@ -515,14 +523,6 @@
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724645"><span class="timestamp"><span>9:00a</span></span><p><a href="/story/jackson-hole-roundup-no-clear-path-for-fed-in-september-2015-08-30?link=MW_latest_news" target="_blank">Jackson Hole roundup: No clear path for Fed in September</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724644"><span class="timestamp"><span>8:47a</span></span><p><a href="/story/tesla-model-s-scores-another-best-in-class-from-consumer-reports-2015-08-27?link=MW_latest_news" target="_blank">Tesla Model S scores 103 from Consumer Reports on 100-point scale</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724643"><span class="timestamp"><span>8:46a</span></span><p><a href="/story/moodys-dislikes-adps-debt-funded-share-buyback-plan-2015-08-28?link=MW_latest_news" target="_blank">Moody’s dislikes ADP’s debt-funded share buyback plan</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724642"><span class="timestamp"><span>8:25a</span></span><p><a href="/story/10-money-stories-you-might-have-missed-but-shouldnt-have-2015-08-28?link=MW_latest_news" target="_blank">10 money stories you might have missed but shouldn’t have</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724640"><span class="timestamp"><span>8:24a</span></span><p><a href="/story/marijuana-tourism-is-a-budding-industry-2015-08-25?link=MW_latest_news" target="_blank">Marijuana tourism is a budding industry</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724639"><span class="timestamp"><span>8:23a</span></span><p><a href="/story/volvo-forges-an-suv-worthy-of-thors-hammer-2015-08-30?link=MW_latest_news" target="_blank">Volvo forges an SUV worthy of Thor’s hammer</a></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -585,7 +585,7 @@
 		</div>
 		<h3>Kiosk</h3>
 		<ul>
-			<li class="">
+			<li class=" invisible">
 				<div class="invisible startdate">1418430600000</div>
 				<div class="invisible enddate">1418725800000</div>
 				
@@ -640,7 +640,7 @@ Biggest Political Disrupters
 
 
 			</li>
-			<li class=" invisible">
+			<li class="">
 				<div class="invisible startdate">1352872800000</div>
 				<div class="invisible enddate">1352872800000</div>
 				
@@ -932,7 +932,7 @@ Winning a credit-agency dispute
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Sunday";
-			            s.eVar32 = "12:00";
+			            s.eVar32 = "13:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1152,7 +1152,7 @@ Winning a credit-agency dispute
 	ScrillaZilla.Escort.addClient(
 		ScrillaZilla.Client('#ad_DaypartBannerNewYorkBeforeTheBell', 
 			{
-				ord : 505479873,
+				ord : 953167755,
 				src : 'http://ad.doubleclick.net/adi/marketwatch.com/sponsor_beforethebell_us;u=NULL**140x31****;sz=140x31;pos=5;tile=5;ord=',
 				width : '140',
 				height : '31',
@@ -1176,7 +1176,7 @@ Winning a credit-agency dispute
         
 		MarketWatch.Kiosk.setup("#kiosk",
 		{
-			startIndex: 0,
+			startIndex: 1,
 			autostart: true,
 			refresh: true,
 			adInRotation: false
@@ -1207,7 +1207,7 @@ Winning a credit-agency dispute
                  links: ' <a href="/column/market-snapshot">US Market Snapshot</a>  <a href="/investing/currencies/tools">Currencies</a>  <a href="/tools/marketsummary/futures/contracts.asp">Commodities</a> '
                  },
              
-            time: new Date("Sun, 30 Aug 2015 17:40:45 GMT"),
+            time: new Date("Sun, 30 Aug 2015 18:55:32 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });
