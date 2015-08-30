@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440911937;
+  PageCriteria.timestamp = 1440916379;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440911936971),
+            serverDate: new Date(1440915176496),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"5":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"],"6":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"]};
+adverts.botIPs={"6":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"],"7":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"]};
 
-adverts.initSlots({"interstitial":{"state":"off","enabled":false,"inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083005',
+            weatherDate: '2015083006',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -965,14 +965,14 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/news/article-3215536/Youngest-actor-play-Les-Miserables-s-Jean-Valjean-Broadway-dies-age-21.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/21/2BC8B2E300000578-0-image-m-17_1440880122516.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215778/Single-mom-duty-Kourtney-Kardashian-treats-young-children-Mason-Penelope-playground-time-park-Malibu.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/02/2BC9D66900000578-0-image-m-73_1440899932389.jpg" height="115" width="154" alt="Single mom Kourtney Kardashian lonely at the park in Malibu on saturday with Mason and baby August 29, 2015 /X17online.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Youngest actor to play Les Miserables' Jean Valjean on Broadway dies, age 21
+          Single mum duty: Kourtney Kardashian treats young children Mason and Penelope to playground time at park in Malibu
           </strong>
-          Kyle Jean-Baptiste died on Friday after falling off his mother's fire escape
+          Playtime!
         </span>
       </a>
     </li>
@@ -989,14 +989,14 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3215435/Heavily-pregnant-WAG-Carly-Cole-shows-baby-bump-leggings-T-shirt-family-day-Aston-Villa-match.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/19/2BC7359E00000578-0-image-a-56_1440871948688.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3215755/Rihanna-attends-stylist-Sonya-Benson-s-NY-nuptials-treats-bride-live-performance.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/03/2BC9E6D800000578-0-image-a-66_1440900852125.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Heavily-pregnant WAG Carly Cole shows off her baby bump in leggings and T-shirt for family day out at Aston Villa match
+          My best friend's wedding! Rihanna attends her stylist Sonya Benson's NY nuptials where she treats bride to a live performance
           </strong>
-          She made sure she could cheer on Joe
+          
         </span>
       </a>
     </li>
@@ -1016,6 +1016,81 @@ DM.later('bundle', function () {
           Are these the most delicious sticky ribs EVER? Celebrity chef Ed Baines puts M&amp;S's barbecue range to the ultimate taste test &nbsp;
           </strong>
           <b>SPONSORED</b>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215435/Heavily-pregnant-WAG-Carly-Cole-shows-baby-bump-leggings-T-shirt-family-day-Aston-Villa-match.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/19/2BC7359E00000578-0-image-a-56_1440871948688.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Heavily-pregnant WAG Carly Cole shows off her baby bump in leggings and T-shirt for family day out at Aston Villa match
+          </strong>
+          She made sure she could cheer on Joe
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3215536/Youngest-actor-play-Les-Miserables-s-Jean-Valjean-Broadway-dies-age-21.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/21/2BC8B2E300000578-0-image-m-17_1440880122516.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Youngest actor to play Les Miserables' Jean Valjean on Broadway dies, age 21
+          </strong>
+          Kyle Jean-Baptiste died on Friday after falling off his mother's fire escape
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215761/Rosie-Huntington-Whiteley-brightens-black-ensemble-sheer-blouse-jets-LAX.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/04/2BCA056000000578-0-image-m-46_1440905357199.jpg" height="115" width="154" alt="Super Model Rosie Huntington-Whiteley looking beautiful at LAX airport today catching a flight to Frankfurt \n\nPictured: Rosie Huntington-Whiteley\nRef: SPL1112147  290815  \nPicture by: Splash News\n\nSplash News and Pictures\nLos Angeles: 310-821-2666\nNew York: 212-619-2666\nLondon: 870-934-2666\nphotodesk@splashnews.com\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Fashionista in flight! Rosie Huntington-Whiteley brightens her black ensemble with a sheer blouse as she jets out of LAX
+          </strong>
+          In-demand
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215743/Lindsay-Lohan-writhes-deck-yacht-lace-panties-dances-erotically-Instagram-video.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/04/2BC9D94B00000578-0-image-m-43_1440904337388.jpg" height="115" width="154" alt="Lindsay Lohan.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Now she's into erotic dancing! Lindsay Lohan flashes the flesh in blouse and panties for Instagram video... but then deletes it from her account
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215769/Reese-Witherspoon-Jessica-Alba-cuddle-Instagram-photo-fun-evening-together.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/05/2BC73FB300000578-0-image-m-122_1440910165838.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          All-star girls' night! Reese Witherspoon and Jessica Alba cuddle in an Instagram photo from their fun evening together
+          </strong>
+          Famous friends
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215749/Red-alert-Katie-Holmes-sparks-attention-scarlet-taking-break-filming-dramatic-gun-toting-scenes-Had.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/01/2BC9B8C500000578-0-image-a-42_1440895549858.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Red alert! Katie Holmes sparks attention in scarlet top while taking a break from filming dramatic gun-toting scenes in All We Had
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1047,7 +1122,19 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           'I really like working with you three': Simon Cowell praises new panel as Nick Grimshaw and Rita Ora bring new lease of life to X Factor on show opener
           </strong>
-          His 'favourite' yet!
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215768/Pamela-Anderson-looks-happy-healthy-Mercy-Animals-Gala-stylish-sons-revealing-new-treatment-soon-mean-s-Hep-C-free.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/05/2BCA53FB00000578-0-image-m-42_1440910250315.jpg" height="115" width="154" alt="Pictured: Pamela Anderson and sons Dylan Jagger Lee and Brandon Thomas Lee\nMandatory Credit &copy; Gilbert Flores/Broadimage\n2015 Mercy For Animals' Hidden Heroes Gala\n\n8/29/15, Culver City, CA, United States of America\n\nBroadimage Newswire\nLos Angeles 1+  (310) 301-1027\nNew York      1+  (646) 827-9134\nsales@broadimage.com\nhttp://www.broadimage.com\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Pamela Anderson looks happy and healthy at Mercy For Animals' Gala with her stylish sons after revealing new treatment could soon mean she's Hep C free
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1064,6 +1151,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215793/Susan-Sarandon-pretty-hurt-younger-ex-boyfriend-Jonathan-Bricklin-starts-dating-Pablo-Picasso-s-granddaughter-Marina.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/05/2BCA414300000578-0-image-m-91_1440909067303.jpg" height="115" width="154" alt="GENEVA, SWITZERLAND - JANUARY 21:  Susan Sarandon and Jonathan Bricklin attend the IWC &quot;Inside The Wave&quot; Gala event during the Salon International de la Haute Horlogerie (SIHH) 2014 at Palexpo on January 21, 2014 in Geneva, Switzerland.  (Photo by David M. Benett/Getty Images for IWC Schaffhausen)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Susan Sarandon, 68, 'pretty hurt' after younger ex-boyfriend Jonathan Bricklin 'starts dating Pablo Picasso's granddaughter Marina'
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215373/GIRL-TOWN-s-Benedict-Cumberbatch-s-baby-boy-called-ll-CCC.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/17/2BC4A03A00000578-0-image-m-30_1440866880291.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1071,12 +1170,9 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           GIRL ABOUT TOWN: What's Benedict Cumberbatch's baby boy called? You'll CCC
           </strong>
-          There's been wild speculation over the name of his baby with Sophie Hunter
+          There's been wild speculation over the name of his baby
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215715/Jade-Thirlwall-goes-make-free-slouchy-joggers-charity-T-shirt-enjoys-little-time-family-home.html">
@@ -1098,9 +1194,12 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           Truth about X Factor's thrillers from Manila: Philippines sisters who wowed the judges have been on four talent shows - and won THREE&nbsp;
           </strong>
-          Fourth Power
+          
         </span>
       </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215686/Chloe-Jasmine-Stevi-Ritchie-make-toe-curling-monogamy-pact-Celebrity-Big-Brother.html">
@@ -1110,7 +1209,7 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           'I don't want anything to split us up': X Factor rejects Chloe Jasmine and Stevi Ritchie make toe-curling monogamy pact on Celebrity Big Brother
           </strong>
-          Cringe-worthy
+          
         </span>
       </a>
     </li>
@@ -1134,7 +1233,7 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           Here we go again! Farrah Abraham starts ANOTHER blazing row in the CBB house... by launching ugly tirade against James Hill
           </strong>
-          She's only been in the house for 48 hours
+          It's only been two days
         </span>
       </a>
     </li>
@@ -1147,6 +1246,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           'Comfort over dental floss!' Kelly Osbourne strips off for a saucy underwear selfie... but opts for 'granny panties' instead of a thong
           </strong>
           Looked out of place
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215712/Shirtless-Ryan-Phillippe-40-parades-chiseled-chest-abs-brisk-jog-son-Deacon.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/03/2BC9EE2700000578-0-image-m-25_1440901090283.jpg" height="115" width="154" alt="Picture Shows: Ryan Phillippe  August 29, 2015\n \n **Min Web / Online Fee &pound;400 for set **\n \n Actor Ryan Phillippe and his son Deacon spotted out for a jog in Beverly Hills, California. While Ryan jogged, Deacon rode a motorized scooter.\n \n Exclusive  All Rounder\n UK RIGHTS ONLY\n \n Pictures by : FameFlynet UK &copy; 2015\n Tel : +44 (0)20 3551 5049\n Email : info@fameflynet.uk.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Eye candy! Shirtless Ryan Phillippe, 40, parades his chiseled chest and abs during brisk jog with his son Deacon
+          </strong>
+          Looking good Ryan
         </span>
       </a>
     </li>
@@ -1182,7 +1293,31 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           <strong>
           Hilaria Baldwin shows off her yoga body during a family pool party... after sharing precious pose with daughter Carmen
           </strong>
-          Relishing the remaining days of summer
+          Last days of summer
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215770/Amber-Rose-goes-casual-leggings-tank-grocery-shopping-Los-Angeles.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/06/2BCB46E300000578-0-image-m-60_1440913392103.jpg" height="115" width="154" alt="141683, Amber Rose seen out and about in LA. Los Angeles, California - Saturday August 28, 2015. Photograph: &copy; Survivor, PacificCoastNews. Los Angeles Office: +1 310.822.0419 sales@pacificcoastnews.com FEE MUST BE AGREED PRIOR TO USAGE" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Dolled down! Amber Rose goes casual in leggings and a tank top to do some grocery shopping in Los Angeles
+          </strong>
+          Even Amber needs a casual day sometimes
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215805/Fergie-Josh-Duhamel-celebrate-son-Axl-s-second-birthday-aviation-themed-bash.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/06/2BCB459C00000578-0-image-m-124_1440913878185.jpg" height="115" width="154" alt="Fergie and Josh Duhamel celebrate son Axl's second birthday with a party at Chin Chin in Brentwood.  Saturday, August 29, 2015. X17online.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Ready for take off! Fergie and Josh Duhamel celebrate son Axl's second birthday with aviation-themed bash
+          </strong>
+          Up, up and away
         </span>
       </a>
     </li>
@@ -1192,14 +1327,47 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Something old, something nude! Gabi Grecko is almost naked in transparent sequin body stocking and turban for bizarre 'spiritual honeymoon ceremony'
+          Something old, something nude! Gabi Grecko is almost naked in transparent sequin body stocking and turban for 'spiritual honeymoon ceremony'
           </strong>
           
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    <li>
+      <a href="/tvshowbiz/article-3215810/LeAnn-Rimes-flashes-peace-sign-revealing-outfit-one-day-33rd-birthday.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/06/2BCB3D7A00000578-0-image-a-135_1440913360231.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Birthday booty! LeAnn Rimes flashes a peace sign and her svelte figure as she celebrates turning 33 years old
+          </strong>
+          Another year older but still just as good
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215792/Kelly-Osbourne-tells-going-battle-weight-fronts-Westfield-s-Today-campaign.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/06/2BCA951600000578-0-image-m-56_1440910979078.jpg" height="115" width="154" alt="Kelly Osbourne puff.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I had a six-pack but I was miserable and hungry': Kelly Osbourne tells of her battles with weight&nbsp;
+          </strong>
+          More positive outlook now
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215782/Jenelle-Evans-surgically-enhanced-form-make-splash-LA-just-week-released-jail.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/03/2BC9FED900000578-0-image-m-2_1440902922889.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 29: Jenelle Evans is seen on August 29, 2015 in Los Angeles, California.  (Photo by Keith Johnson/Bauer-Griffin/GC Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          From mugshot to Malibu! Jenelle Evans and her surgically enhanced form make a splash in LA just a week after being released from jail
+          </strong>
+          
+        </span>
+      </a>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215418/Helen-Flanagan-cradles-angelic-baby-Matilda-football-match.html">
@@ -1210,6 +1378,30 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Sleeping beauty: Helen Flanagan cradles angelic baby Matilda as she takes her to watch her footballing father Scott Sinclair in action
           </strong>
           Suits motherhood
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215780/Alexa-Rae-Joel-insists-nose-job-pledging-honest-voice-women.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/03/2BC9E62F00000578-0-image-a-87_1440900506556.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Embrace your flaws!': Alexa Rae Joel insists she only had a nose job while pledging to be an 'honest' voice for women
+          </strong>
+          Billy's daughter
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215734/Bindi-Irwin-wears-hair-braids-beams-joy-arrives-Dancing-Stars-rehearsal.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/03/2BC9D60D00000578-0-image-a-54_1440901675572.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Plait's a good look! Bindi Irwin wears her hair in a side braid and beams with joy as she arrives for Dancing With The Stars rehearsal&nbsp;
+          </strong>
+          She scrubs up well
         </span>
       </a>
     </li>
@@ -1270,6 +1462,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Material Girl! Madonna's daughter Lourdes Leon dons plunging yellow dress as she sells her clothes to second hand store
           </strong>
           Stood out from crowd
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215785/Amy-Purdy-ties-knot-boyfriend-Daniel-Gale-Boise-Idaho-three-month-engagement.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/05/2BCA581500000578-0-image-m-2_1440910162043.jpg" height="115" width="154" alt="AmyPurdyDanielGale29.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Just married! DWTS alum Amy Purdy ties the knot with boyfriend Daniel Gale in Boise, Idaho after three month engagement
+          </strong>
+          Together 14 years
         </span>
       </a>
     </li>
@@ -2354,202 +2558,12 @@ Tom Jones
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214929/Ireland-Baldwin-looks-childhood-sweet-photo-collage-mother-Kim-Basinger-father-Alec-Baldwin.html">
+      <a href="/tvshowbiz/article-3214929/Ireland-Baldwin-looks-childhood-sweet-photo-collage-mother-Kim-Basinger-father-Alec-Baldwin.html" class="bottom">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/04/2BC11F8E00000578-0-image-m-52_1440817398400.jpg" height="115" width="154" alt="NEW YORK, NY - JULY 27:  Alec Baldwin and Ireland Baldwin attend the New York premiere of &quot;Mission Impossible: Rogue Nation&quot; at Times Square on July 27, 2015 in New York City.  (Photo by Kevin Mazur/WireImage)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           Feeling nostalgic? Ireland Baldwin looks back at childhood in sweet photo collage of herself with mother Kim Basinger and father Alec Baldwin
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214257/Fun-sun-Little-Mermaid-North-West-giggles-glee-splashes-sea-Penelope-family-trip-St-Barts.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/14/2BBD5CC400000578-0-image-m-126_1440770295002.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Fun in the sun! Little Mermaid North West giggles with glee as she splashes in the sea with Penelope on family trip to St Barts
-          </strong>
-          Close cousins
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215023/Ann-Margret-74-looks-sexy-set-Going-Style-Amanda-Seyfried.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/07/2BC29F1800000578-0-image-m-63_1440830490289.jpg" height="115" width="154" alt="141656, Amanda Seyfried seen on the sets of Zach Braff's 'Going in Style' in downtown Brooklyn. New York, New York - Friday August 28, 2015. Photograph: LGjr-RG, &copy; PacificCoastNews. Los Angeles Office: +1 310.822.0419 sales@pacificcoastnews.com FEE MUST BE AGREED PRIOR TO USAGE" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Showing her how it's done! Screen legend Ann-Margret, 74, still looks sexy on set of Going In Style with Amanda Seyfried
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3214991/Kylie-Jenner-boyfriend-Tyga-Dr-Dre-latest-batch-celebrities-hit-fines-using-water.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/16/2BC5E13E00000578-0-image-a-56_1440861449007.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Kylie Jenner, boyfriend Tyga and Dr Dre. among batch of celebrities to be hit with fines for using too much water to keep their lawns lush during the California drought
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214849/Sophie-Simmons-reveals-new-attention-promotes-single.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/06/2BC0E25800000578-0-image-m-56_1440825547066.jpg" height="115" width="154" alt="Sophie Simmons 2.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          EXCLUSIVE: 'Now that I've lost all that weight, I'm being hit on... by old men': Sophie Simmons discusses new attention as she promotes single
-          </strong>
-          Gene's daughter
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3214883/Jodie-Kidd-s-brother-says-Gear-poisoned-chalice.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/01/2BC0D3EB00000578-0-image-m-27_1440806650461.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          SEBASTIAN SHAKESPEARE: Jodie Kidd's brother says Top Gear is 'poisoned chalice'
-          </strong>
-          Foot-in-mouth-prone Jack contradicted former supermodel's comments
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215045/Ryan-O-Neal-hobbles-brace-foot-plays-grandson-Los-Angeles.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/08/2BC2AC0800000578-0-image-m-56_1440832081017.jpg" height="115" width="154" alt="Please contact X17 before any use of these exclusive photos - x17@x17agency.com   Ryan O'Neal, boxer-turned-actor best known for his role in Love Story and now on the TV series Bones, wears a disturbingly large foot brace, while helping his grandson put together a Darth Vader mask, on a hot LA day. O'Neal, the long-term partner of late Farrah Fawcett, is said to have faced some health scares in recent years. Thursday 27th August, 2015. X17online.com PREMIUM EXCLUSIVE" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Hope there's no broken Bones! Ryan O'Neal hobbles around with brace on his foot as he plays with grandson in Los Angeles
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214980/Talk-yummy-mummy-Alessandra-Ambrosio-gorgeous-green-takes-daughter-ballet-class-Los-Angeles.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/05/2BC2499300000578-0-image-m-2_1440821517191.jpg" height="115" width="154" alt="alessandra ambrosio" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Talk about a yummy mummy! Alessandra Ambrosio is gorgeous in green as she takes daughter to ballet class in Los Angeles&nbsp;
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3214899/Django-Unchained-star-accused-LAPD-racism-sentenced-community-service-judge-rejects-TWO-apology-notes-insincere.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/04/2BC0ADD100000578-0-image-a-8_1440818480166.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Django Unchained star Daniele Watts, who accused LAPD of racism, is sentenced to community service after judge rejects TWO apology notes for being 'insincere'
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214638/EastEnders-shines-tragically-darkest-night-one-best-characters.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBF797600000578-0-image-m-18_1440789026952.jpg" height="115" width="154" alt="WARNING: Embargoed for publication until 18/08/2015 - Programme Name: EastEnders - TX: 28/08/2015 - Episode: 5128 (No. n/a) - Picture Shows: ***FORTNIGHTLIES PLEASE DO NOT USE (SOAP LIFE AND ALL ABOUT SOAP).. Kush and Shabnam return from the hospital and struggle to come to terms with what has happened.  Shabnam Masood (RAKHEE THAKRAR), Kush Kazemi (DAVOOD GHADAMI) - (C) BBC - Photographer: Kieron McCarron" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          EastEnders shines - but tragically on the darkest night for one of its best characters, by JIM SHELLEY
-          </strong>
-          It wasn't a good week for Shabnam
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215134/Kirk-Norcross-ex-fianc-Cami-Li-enjoys-night-Ex-Beach-stars-Holly-Rickwood-Jemma-Lucy-SEX-Kirk-TV.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/10/2BC3292400000578-0-image-m-31_1440842015797.jpg" height="115" width="154" alt="CAMBRIDGE, UNITED KINGDOM - AUGUST 28: Jemma Luicy seen at Lolalo night club for a Ex On The Beach Night Out on August 28, 2015 in Cambridge, England.
-PHOTOGRAPH BY Eagle Lee / Barcroft Media
-UK Office, London.
-T +44 845 370 2233
-W www.barcroftmedia.com
-USA Office, New York City.
-T +1 212 796 2458
-W www.barcroftusa.com
-Indian Office, Delhi.
-T +91 11 4053 2429
-W www.barcroftindia.com" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Busty Cami Li slips into leather dress for night out with&nbsp;Ex On The Beach co-star Jemma Lucy... who slept with her former fiance Kirk Norcross on TV
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214763/Nice-milk-bottles-Pregnant-Kim-Kardashian-shares-close-chest-suggestive-emojis.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC05D1A00000578-0-image-m-94_1440798489834.jpg" height="115" width="154" alt="kims milkers.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Nice milk bottles! Pregnant Kim Kardashian shares close-up of her chest with suggestive emojis
-          </strong>
-          Kim posts a witty tweet for her many followers
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/femail/article-3213954/The-Queen-friends-know-never-seen-look-private-life-Britain-s-beloved-monarch-told-closest-companions.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/16/2BBBD47A00000578-0-image-a-1_1440774598379.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          The Queen only her friends know: A never-before-seen look into the private life of Britain's beloved monarch as told by her closest companions&nbsp;
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214781/Stevi-Ritchie-Chloe-Jasmine-Whichello-rule-nookie-pick-double-bed-beneath-picture-themselves.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/22/2BC05ADF00000578-0-image-m-2_1440798644690.jpg" height="115" width="154" alt="****Ruckas Videograbs****  (01322) 861777\n*IMPORTANT* Please credit Channel 5 for this picture.\n28/08/15\nCelebrity Big Brother" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'No sex tape for us!' CBB's clean couple Stevi Ritchie and Chloe-Jasmine Whichello rule out 'nookie' as they pick a double bed beneath a picture of themselves
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214658/Kirsty-Gallacher-Peter-Andre-lead-Strictly-Come-Dancing-celebrities-look-teaser.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/20/2BBFAADC00000578-0-image-m-111_1440789278765.jpg" height="115" width="154" alt="peter andre" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Jazz hands at the ready! Kirsty Gallacher and Peter Andre slip into sequins in first look at the glittering Strictly Come Dancing celebrity line-up
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214473/Jodie-Marsh-reveals-SECOND-wedding-dress-explains-kept-wedding-secret-stayed-celibate-nuptials.html" class="bottom">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/17/2BBF2B8C00000578-0-image-a-22_1440780239997.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Jodie Marsh reveals she had a SECOND wedding dress as she explains why she kept her wedding secret and stayed celibate until after the nuptials
           </strong>
           
         </span>

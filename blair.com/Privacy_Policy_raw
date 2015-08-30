@@ -83,7 +83,7 @@ function yo_loader(url){
     $(".js_tabs").bind("tabsselect", function(event, ui) {
     if (ui.index == 3) {
     //ensure sizeguide is showing for current scope
-    setSizeChartTabContent(31033);
+    setSizeChartTabContent(71916);
     }
     window.setTimeout(function() {
     /* Recalculate page height to fully cover the tab content */
@@ -103,7 +103,7 @@ function yo_loader(url){
 <!-- END OF YOTTAA PREFETCH LOCATION=<body> -->
 <!--PREFETCH COOKIES START-->
 
-<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=TQuGDBckn5rpGbDpOAxqYiQ1uEOKZZ3SCgorO5JL7RdGrqj0yai90_A34tGai-V5BbQ7Wwb0ak6jCrKZQHuftQ==,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,cj_xCNXKgeYjr_JV2mrD_1teBR34adtggzNoWdbWn-Fe_27hBHw_JtK2mOvz9kk7UiRj6sV0PYZeeX7KLuAd-bhBF_6i1mt8HGwrqXT_5giFUNGUZqKPrm0OzjxxL7UJ_lrZEG_C6l9zkMml2yz9UfJNtht2-p10GSHMugVXpng=,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,BevpC4JQZDjR2WlnujnFTl8bjQ2zOKyROA4cnjD0hYa_9WMpR_7TX6NsyGV_aweDq8_rW1h6Mls0m7HPgar3JtHaYSjHW63iRG1xonbL0t7fkDm4v_wWofL8GsEf7O6m&t=U-jZ40fRO3gEc1NlT1-BQA==&s=a7fd6d66518a635838d78882b342d0c7");
+<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=NNtBQbZDGZlmXBUFVXHC_rfuoV4YNEmkHsSRmYBDPrhewhZmKPB_Za7AxuVf6erKBbQ7Wwb0ak6jCrKZQHuftQ==,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,cj_xCNXKgeYjr_JV2mrD_8iMwASj3rCcmNhXYlouQHhQlUYTwg0YJ4wVS3sshi5t_sZZkB09IIteNqcOCF2GOLhBF_6i1mt8HGwrqXT_5giFUNGUZqKPrm0OzjxxL7UJa0D1Pk1TBUlWd7Lk7QrtrPJNtht2-p10GSHMugVXpng=,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,BevpC4JQZDjR2WlnujnFTl8bjQ2zOKyROA4cnjD0hYa_9WMpR_7TX6NsyGV_aweDq8_rW1h6Mls0m7HPgar3JsMePXSugW1A0iYhhQYSpzbfkDm4v_wWofL8GsEf7O6m&t=obEzcH_OmHsoKLSBw-Urrg==&s=cc95f7cbb9d9c057150c9aad2a4aab3b");
 
 </script>
 <!--PREFETCH COOKIES END-->

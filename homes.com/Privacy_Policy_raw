@@ -269,7 +269,7 @@
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Financing/"    data-tracking="Mortgages">Financing Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Financing "   data-tracking="Mortgages">Financing Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
@@ -287,7 +287,7 @@
 															</li>
 					<li class="nav-item">
 					
-						<a  data-deob="yes" data-id=" directory "   data-tracking="LocalPros">Local Professionals</a>
+						<a href="/directory/"    data-tracking="LocalPros">Local Professionals</a>
 															</li>
 					<li class="nav-item">
 										
@@ -305,43 +305,43 @@
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/ask-questions/"    data-tracking="QA">Ask a Question</a>
+						<a  data-deob="yes" data-id=" answers ask-questions "   data-tracking="QA">Ask a Question</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Property-Inquiries/"    data-tracking="QA">Property Inquiries Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Property-Inquiries "   data-tracking="QA">Property Inquiries Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Buying-a-Home/"    data-tracking="QA">Buying a Home Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Buying-a-Home "   data-tracking="QA">Buying a Home Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Renting/"    data-tracking="QA">Renting Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Renting "   data-tracking="QA">Renting Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Foreclosures/"    data-tracking="QA">Foreclosures Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Foreclosures "   data-tracking="QA">Foreclosures Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Selling-a-Home/"    data-tracking="QA">Selling a Home Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Selling-a-Home "   data-tracking="QA">Selling a Home Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Rent-vs-Buy/"    data-tracking="QA">Rent vs Buy Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Rent-vs-Buy "   data-tracking="QA">Rent vs Buy Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Financing/"    data-tracking="QA">Financing Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Financing "   data-tracking="QA">Financing Q&amp;A</a>
 															</li>
 					<li class="nav-item">
 					
-						<a href="/answers/Home-Values/"    data-tracking="QA">Home Values Q&amp;A</a>
+						<a  data-deob="yes" data-id=" answers Home-Values "   data-tracking="QA">Home Values Q&amp;A</a>
 															</li>
 					<li class="nav-item item-break">
 					
-						<a href="/answers/Homes.com-Help/"    data-tracking="QA">Homes.com Help</a>
+						<a  data-deob="yes" data-id=" answers Homes.com-Help "   data-tracking="QA">Homes.com Help</a>
 															</li>
 					<li class="nav-item">
 					
@@ -750,7 +750,7 @@ http://www.omniture.com -->
 /* You may give each page an identifying name, server, and channel on
 the next lines. */
 s.pageName="Policies.cfm";
-s.server="webprod51";
+s.server="webprod20";
 s.channel="Main";
 s.pageType="";
 s.prop1="Policy Page";
