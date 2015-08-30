@@ -18,10 +18,10 @@
 <meta property="og:description" content="Vendor terms on the Bike Index"/>
 <meta property="twitter:description" content="Vendor terms on the Bike Index"/>
 <meta content="authenticity_token" name="csrf-param"/>
-<meta content="qpj2sBtUFpgf7xwwwyD52XRwUEGkQp2xuUnTxj0o1Wo=" name="csrf-token"/>
+<meta content="6zRj14yvvKC+U5npmJM+8o2PEvQloHVs4JonW9V9KvE=" name="csrf-token"/>
 <script type="text/javascript">
 //<![CDATA[
-try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1439933624,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"9a579f86ff44df4ab3927edac7eee669",petok:"d3f95371dbb5ec5620dbcfc7fc2092a1e3170442-1440943120-1800",betok:"1f9cc80ba2260345da1e39badb6ff20447af50de-1440943120-120",zone:"bikeindex.org",rocket:"0",apps:{"ga_key":{"ua":"UA-38316708-1","ga_bs":"1"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e9627cd26a/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1439933624,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"9a579f86ff44df4ab3927edac7eee669",petok:"65d64416b2f37a60d538572dc9e2dc94ccdbeb36-1440947566-1800",betok:"c48843fdc6279b251fe62a15357298c552e42efa-1440947566-120",zone:"bikeindex.org",rocket:"0",apps:{"ga_key":{"ua":"UA-38316708-1","ga_bs":"1"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e9627cd26a/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
 //]]>
 </script>
 <link rel="shortcut icon" href="/fav.ico"/>
@@ -152,7 +152,7 @@ Preferences
 </ul>
 </div>
 <div class='tab-pane login-header no_user hidden' id='signup'>
-<form accept-charset="UTF-8" action="https://bikeindex.org/session" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="qpj2sBtUFpgf7xwwwyD52XRwUEGkQp2xuUnTxj0o1Wo="/></div><div class='field'>
+<form accept-charset="UTF-8" action="https://bikeindex.org/session" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="6zRj14yvvKC+U5npmJM+8o2PEvQloHVs4JonW9V9KvE="/></div><div class='field'>
 <input id="session_email" name="session[email]" placeholder="Email address" size="30" type="email"/>
 </div>
 <div class='field'>
@@ -448,7 +448,7 @@ area thefts first
 <span data-license='https://github.com/bikeindex/bike_index/blob/master/LICENSE'>
 2015 &copy; Bike Index.
 </span>
-<a href="https://bikeindex.org/privacy">Privacy policy</a>
+<a href="https://bikeindex.org/privacy">Privacy policy</a>, <a href="https://bikeindex.org/vendor_terms">vendor terms</a>
 and <a href="https://bikeindex.org/terms">terms and conditions</a>.
 </p>
 </div>

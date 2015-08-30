@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "b973f70e6bb92e4c659494b17f4c3bc9";
+var comscoreHash = "c7ff365479c4d9bfb461ad02b4d07b1d";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=b973f70e6bb92e4c659494b17f4c3bc9&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=c7ff365479c4d9bfb461ad02b4d07b1d&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -918,22 +918,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-Young Hollywood"
-value="Young Hollywood"
-data-attr-name="Young Hollywood" />
-<label for="modal-list-Young Hollywood">
-<span class="checkbox"></span>
-<span class="attr-name">Young Hollywood</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="modal-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-Young Hollywood"
+value="Young Hollywood"
+data-attr-name="Young Hollywood" />
+<label for="modal-list-Young Hollywood">
+<span class="checkbox"></span>
+<span class="attr-name">Young Hollywood</span>
 </label>
 </div>
 <div class="form-item">
@@ -1236,22 +1236,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-Young Hollywood"
-value="Young Hollywood"
-data-attr-name="Young Hollywood" />
-<label for="ad-list-Young Hollywood">
-<span class="checkbox"></span>
-<span class="attr-name">Young Hollywood</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="ad-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-Young Hollywood"
+value="Young Hollywood"
+data-attr-name="Young Hollywood" />
+<label for="ad-list-Young Hollywood">
+<span class="checkbox"></span>
+<span class="attr-name">Young Hollywood</span>
 </label>
 </div>
 <div class="form-item">
@@ -1331,22 +1331,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-Young Hollywood"
-value="Young Hollywood"
-data-attr-name="Young Hollywood" />
-<label for="fb-list-Young Hollywood">
-<span class="checkbox"></span>
-<span class="attr-name">Young Hollywood</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-A-Listers"
 value="A-Listers"
 data-attr-name="A-Listers" />
 <label for="fb-list-A-Listers">
 <span class="checkbox"></span>
 <span class="attr-name">A-Listers</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-Young Hollywood"
+value="Young Hollywood"
+data-attr-name="Young Hollywood" />
+<label for="fb-list-Young Hollywood">
+<span class="checkbox"></span>
+<span class="attr-name">Young Hollywood</span>
 </label>
 </div>
 <div class="form-item">
@@ -1449,6 +1449,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Sun, 30 Aug 2015 06:43:34 -0700 in 84.07ms : web32 : none -->
+<!-- Hamsters typed up this page on Sun, 30 Aug 2015 07:56:12 -0700 in 79.76ms : web31 : none -->
 </body>
 </html>
