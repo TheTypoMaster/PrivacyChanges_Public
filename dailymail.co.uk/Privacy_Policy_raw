@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1440916379;
+  PageCriteria.timestamp = 1440920816;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440915176496),
+            serverDate: new Date(1440920816554),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,7 +428,7 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"6":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"],"7":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"]};
+adverts.botIPs={"7":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"],"8":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"]};
 
 adverts.initSlots({"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083006',
+            weatherDate: '2015083007',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -1020,6 +1020,19 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215835/Jay-Z-joins-Instagram-nostalgic-tribute-Michael-Jackson-late-singer-s-birthday.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/07/2BCB600900000578-0-image-m-128_1440917915705.jpg" height="115" width="154" alt="Happy Birthday to the King!
+This may be my first and last post." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'May be my first and last post': Jay Z joins Instagram with nostalgic tribute to Michael Jackson on late singer's birthday
+          </strong>
+          MJ would have been 57
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215435/Heavily-pregnant-WAG-Carly-Cole-shows-baby-bump-leggings-T-shirt-family-day-Aston-Villa-match.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/19/2BC7359E00000578-0-image-a-56_1440871948688.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1042,6 +1055,21 @@ DM.later('bundle', function () {
           Kyle Jean-Baptiste died on Friday after falling off his mother's fire escape
         </span>
       </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215817/So-cute-date-night-Khloe-Kardashian-thanks-glam-squad-Instagram-snaps-showing-sexy-black-cut-dress.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/07/2BCB374800000578-0-image-m-107_1440914996912.jpg" height="115" width="154" alt="KhloeKardashian29.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'So cute for date night': Khloe Kardashian brings out the inner vamp in sexy black cut-out dress courtesy of her glam squad
+          </strong>
+          Ready for the night
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215761/Rosie-Huntington-Whiteley-brightens-black-ensemble-sheer-blouse-jets-LAX.html">
@@ -1067,9 +1095,6 @@ DM.later('bundle', function () {
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
-    </li>
     <li>
       <a href="/tvshowbiz/article-3215769/Reese-Witherspoon-Jessica-Alba-cuddle-Instagram-photo-fun-evening-together.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/05/2BC73FB300000578-0-image-m-122_1440910165838.jpg" height="115" width="154" alt="" />
@@ -1079,6 +1104,18 @@ DM.later('bundle', function () {
           All-star girls' night! Reese Witherspoon and Jessica Alba cuddle in an Instagram photo from their fun evening together
           </strong>
           Famous friends
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215828/Kris-Jenner-savours-single-life-bold-rose-patterned-dress-sign-copies-new-cookbook.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/07/2BCB54C100000578-0-image-a-122_1440915564500.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Flower power! Kris Jenner savours the single life in a bold rose-patterned dress to sign copies of her new cookbook
+          </strong>
+          No thorny issue
         </span>
       </a>
     </li>
@@ -1139,6 +1176,33 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3215838/Besties-Arnold-Schwarzenegger-Sylvester-Stallone-head-favourite-lunch-spot-extended-entourage.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/07/2BCB54E500000578-0-image-m-67_1440915896683.jpg" height="115" width="154" alt="Sylvester Stallone grabbed lunch with Arnold Schwarzenegger at their favorite spot, Cafe Roma in Beverly Hills.  Saturday, August 29, 2015. X17online.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The Brunch-ables! Besties Arnold Schwarzenegger and Sylvester Stallone head to their favourite lunch spot with their extended entourage&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215830/Giuliana-Rancic-shares-sweet-photos-Bill-s-growing-boy-Duke-birthday.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/07/2BCB6AE100000578-0-image-a-156_1440916563965.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'You will always be my baby!' Giuliana Rancic shares sweet photos of her and Bill's growing boy Duke on his third birthday
+          </strong>
+          They grow so fast
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3215688/From-Downton-time-Rupert-Grint-cuts-sharp-figure-set-new-period-drama-hitting-pub-friends.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/00/2BC9760400000578-0-image-m-178_1440892372657.jpg" height="115" width="154" alt="*** Fee of &pound;100 applies for subscription clients to use images before 22.00 on 290815 ***\nEXCLUSIVE ALLROUNDERRupert Grint and Iwan Rheon filming in Poland. Rupert smoking\nFeaturing: Rupert Grint\nWhere: Krakow, Poland\nWhen: 28 Aug 2015\nCredit: Newspix.pl /WENN.com\n**Not available for publication in Poland**" />
         <span class="pufftext">
@@ -1159,6 +1223,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Susan Sarandon, 68, 'pretty hurt' after younger ex-boyfriend Jonathan Bricklin 'starts dating Pablo Picasso's granddaughter Marina'
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215847/Ready-rock-Colin-Farrell-marches-beat-drum-jets-Los-Angeles-looking-musician-actor.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/08/2BCB85C700000578-0-image-m-83_1440918247420.jpg" height="115" width="154" alt="Colin Farrell seen at LAX airport in Los Angeles, California.\n\nPictured: Colin Farrell\nRef: SPL1112158  290815  \nPicture by: Diabolik / Splash News\n\nSplash News and Pictures\nLos Angeles: 310-821-2666\nNew York: 212-619-2666\nLondon: 870-934-2666\nphotodesk@splashnews.com\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Ready to rock! Colin Farrell marches to the beat of his own drum as he jets into Los Angeles looking more musician than actor
+          </strong>
+          Turned up the volume
         </span>
       </a>
     </li>
@@ -1197,9 +1273,6 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3215686/Chloe-Jasmine-Stevi-Ritchie-make-toe-curling-monogamy-pact-Celebrity-Big-Brother.html">
@@ -1294,6 +1367,18 @@ Standard terms, conditions &amp; minimum fees apply to our videograbs unless var
           Hilaria Baldwin shows off her yoga body during a family pool party... after sharing precious pose with daughter Carmen
           </strong>
           Last days of summer
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3215797/Benji-Madden-display-nerves-day-ahead-Voice-Australia-grand-finale.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/30/06/2BCA859000000578-0-image-a-4_1440911161213.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Last minute Madden-ess: Rocker twin Benji enjoys a coffee fix to calm the nerves ahead of filming The Voice Australia grand finale
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -2378,192 +2463,12 @@ Tom Jones
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3214998/Emma-Stone-gets-double-work-gym-session-heavy-lifting-set.html">
+      <a href="/tvshowbiz/article-3214998/Emma-Stone-gets-double-work-gym-session-heavy-lifting-set.html" class="bottom">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/08/2BC2B7D700000578-0-image-m-137_1440832947622.jpg" height="115" width="154" alt="Los Angeles, CA - Emma Stone and Ryan Gosling shoot an emotional scene for 'La La Land' in Los Angeles. The actors can be seen having a serious talk before Emma walks to her car appearing upset with Ryan's character.\\n \\n AKM-GSI    August  28, 2015\\nTo License These Photos, Please Contact :\\nSteve Ginsburg\\n(310) 505-8447\\n(323) 423-9397\\nsteve@akmgsi.com\\nsales@akmgsi.com\\nor\\nMaria Buda\\n(917) 242-1505\\nmbuda@akmgsi.com\\nginsburgspalyinc@gmail.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           Come back! Ryan Gosling works up a sweat chasing down Emma Stone in an emotional scene for their new movie La La Land
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215170/Model-Erin-Wasson-bares-plunging-lace-bodysuit-Sydney-hosting-event.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/13/2BC3B41D00000578-0-image-a-58_1440850540281.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Sheer excitement! Former Victoria's Secret model Erin Wasson bares all as she goes braless in plunging lace bodysuit while hosting fashion event in Sydney
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214935/Cara-Delevingne-wears-comfortable-Chanel-kicks-getting-Suicide-Squad-tattoo-star-Margot-Robbie-wrap-filming.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/02/2BC1112C00000578-0-image-m-29_1440813469847.jpg" height="115" width="154" alt="cara delevingne foot" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          How's the foot? Cara Delevingne wears some comfortable Chanel kicks after getting a Suicide Squad tattoo from co-star Margot Robbie as they wrap
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215184/Hollyoaks-actress-Jorgie-Porter-shows-slim-figure-patterned-blouse-pencil-skirt-enjoys-girlie-meal-star-Jazz-Franks.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/12/2BC3973C00000578-0-image-m-2_1440849478135.jpg" height="115" width="154" alt="HOLLYOAKS GIRLS JORGIE PORTER AND JAZZ FRANKS SEEN LEAVING ROSSO RESTAURANT IN MANCHESTER\n\n*****NON EXC ALL ROUND PICS*****\n\nPICTURES BY STEPHEN FARRELL\n07870 606209\n\n\n\n" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Crazy for paisley! Jorgie Porter shows off her slim figure in blouse and pencil skirt as she enjoys dinner date with Hollyoaks co-star Jazz Franks
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215038/Jaime-King-turns-promotional-event-family-fun-day-oldest-son-James.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/07/2BC2A87B00000578-0-image-m-111_1440829825771.jpg" height="115" width="154" alt="jaime king" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Working mum! Jaime King turns a promotional event into a family fun day with oldest son James
-          </strong>
-          Just over a month since she gave birth
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215068/Nicky-Hilton-puts-leggy-display-skintight-dress-whilst-NYC.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/09/2BC2E45100000578-0-image-a-15_1440836544938.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Newlywed Nicky Hilton puts on a leggy display in skintight dress whilst out for a stroll in NYC
-          </strong>
-          Still sporting the glow of a newly-married woman
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215147/Ex-Beach-s-Jess-Impiazzi-exhibits-pert-bust-toned-abs-tiny-two-piece-soaks-rays-Cape-Verde.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/13/2BC35FA400000578-0-image-a-117_1440851424910.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Ex on the Beach's Jess Impiazzi exhibits her pert bust and toned abs in tiny two-piece as she soaks up the rays in Cape Verde
-          </strong>
-          Reality star turned heads
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214976/Emmy-Rossum-vision-flowing-halterneck-dress-hitting-shops-Beverly-Hills.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/05/2BC271A700000578-0-image-m-36_1440821980194.jpg" height="115" width="154" alt="Picture Shows: Emmy Rossum  August 28, 2015\n \n 'Shameless' actress Emmy Rossum is spotted shopping in Beverly Hills, Calfiornia. Emmy has been busy as of late filming the newest season of her hit Showtime series. \n \n Non-Exclusive\n UK RIGHTS ONLY\n \n Pictures by : FameFlynet UK &copy; 2015\n Tel : +44 (0)20 3551 5049\n Email : info@fameflynet.uk.com" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Pretty in peach! Emmy Rossum is a vision in flowing halterneck dress while hitting the shops of Beverly Hills&nbsp;
-          </strong>
-          Gets to show her tough side on Shameless
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/news/article-3215107/He-not-punch-producers-prospect-unpredictable-Chris-Evans-Gear-host-terrifies-BBC-says-channel-chief.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/13/2BC3740200000578-0-image-a-56_1440852263441.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          He might not punch producers... but prospect of 'unpredictable' Chris Evans as Top Gear host terrifies the BBC, says channel chief
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215028/Scott-Eastwood-posts-retro-style-photo-Taylor-Swift-s-Wildest-Dreams-video.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/07/2BC2A1B900000578-0-image-a-76_1440828612439.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Blast from the past! Scott Eastwood posts a retro-style photo from Taylor Swift's Wildest Dreams video
-          </strong>
-          One of Hollywood's fastest rising stars
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215200/Bindi-Irwin-dresses-pair-denim-mini-shorts-heads-mum-Terri.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/12/2BC36B9B00000578-0-image-a-87_1440848172079.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Mother daughter time! Bindi Irwin dresses down in denim short shorts as she goes shopping with mum Terri after kicking off Dancing With The Stars rehearsals
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215095/He-s-high-flyer-Orlando-Bloom-cuts-casual-figure-bomber-jacket-T-shirt-s-guided-LAX-airport-staff.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/09/2BC2D06000000578-0-image-a-11_1440837940344.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          He's a high flyer: Orlando Bloom cuts a casual figure in bomber jacket and T-shirt as he's guided through LAX airport by staff
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214892/Charlize-Theron-40-shows-slender-figure-black-jeans-graphic-T-shirt-lands-LAX.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/02/2BC0F7DE00000578-0-image-m-36_1440810987242.jpg" height="115" width="154" alt="August 28, 2015: Charlize Theron casually dressed sporting a tee with an abstract symmetrical pattern arrives at LAX Airpot, Los Angles, CA.\nMandatory Credit: INFphoto.com Ref.: infusla-305" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Jet-setting Charlize Theron, 40, shows off her slender figure in black jeans and graphic T-shirt as she lands at LAX
-          </strong>
-          Looked a bit downcast
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214888/Chloe-Sims-Danielle-Armstrong-brave-going-braless-girls-night-out.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/01/2BC0BF1E00000578-0-image-m-61_1440808334021.jpg" height="115" width="154" alt="29 August 2015.\nChloe Sims and Danielle Armstrong seen arriving for dinner at Roka in Canary Wharf. \nCredit: GoffPhotos.com   Ref: KGC-102\n" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          TOWIE's Chloe Sims and Danielle Armstrong brave going braless as they slip into backless tops for girls' night out
-          </strong>
-          Went out for dinner in Canary Wharf, London
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3215109/Maria-Menounos-flashes-hint-cleavage-puts-summery-display-white-tank-breezy-navy-blue-trousers.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/10/2BC3186000000578-0-image-a-14_1440842155788.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Maria Menounos flashes a hint of cleavage as she puts on a summery display in white tank top and breezy navy blue trousers
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3214929/Ireland-Baldwin-looks-childhood-sweet-photo-collage-mother-Kim-Basinger-father-Alec-Baldwin.html" class="bottom">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/29/04/2BC11F8E00000578-0-image-m-52_1440817398400.jpg" height="115" width="154" alt="NEW YORK, NY - JULY 27:  Alec Baldwin and Ireland Baldwin attend the New York premiere of &quot;Mission Impossible: Rogue Nation&quot; at Times Square on July 27, 2015 in New York City.  (Photo by Kevin Mazur/WireImage)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Feeling nostalgic? Ireland Baldwin looks back at childhood in sweet photo collage of herself with mother Kim Basinger and father Alec Baldwin
           </strong>
           
         </span>
