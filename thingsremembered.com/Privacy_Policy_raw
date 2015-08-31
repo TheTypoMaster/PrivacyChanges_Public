@@ -93,7 +93,7 @@
    .common-nav-main ul table.old, .common-nav-main .cat-CatGroups div.navWrap{top:29px!important;}
 
    /* GLOBAL NAV BANNER */ 
-   div#globalBanner{margin-top:4px;height:56px;}
+   div#globalBanner{margin-top:4px;height:0px;}
 
    div.email-signup-contianer{bottom:auto!important;margin-top:13px;}
 
@@ -213,7 +213,7 @@
   </a>
 
 </div><div class="email-signup-contianer">
-	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='D1VmuEheoTICxU0gZbixkvlaaW1nPzw3l9rAioNCqi0=AMvT/H4Uvqg='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
+	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='q7eIbWt2/Yazs/rGrkRGRYK8MUVtLGOuDckbdE0f42g=zCs6Ee+wNbo='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
 		<div class="signup-button-cheetah button">
 			<span class="signup-text-cheetah">Sign Up Now</span>
 		</div>

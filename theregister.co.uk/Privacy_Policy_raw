@@ -740,35 +740,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3630/10-ways-wire-data-can-help-you-conquer-it-complexity-complete-11.15.13.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Go beyond APM with real-time IT operations analytics</h4>
+                <h4>10 ways wire data helps conquer IT complexity</h4>
                 <div class=standfirst>
-                    How IT operations teams can harness wire data already for real-time operational intelligence
+                    IT teams can automatically detect problems across the IT environment, spot data theft, select unique pieces of transaction payloads to send to a data source, and more.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4012/vmturbo-and-arista-networks-assuring-application-qos.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Empowering E-commerce against unpredictable demand</h4>
+                <h4>Assuring application performance at scale</h4>
                 <div class=standfirst>
-                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
+                    Empowering data center operators with an open and programmable network that easily scales to thousands of compute and storage nodes.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4042/?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4043/sew03033usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Magic Quadrant on managed security services</h4>
+                <h4>Strategy considerations for building a security operations center</h4>
                 <div class=standfirst>
-                    This Magic Quadrant presents enterprise buyers with advice on selecting MSS providers to support global service requirements.
+                    This paper describes the persistent and evolving IT threat landscape, along with the need for and benefits of building an enterprise security operations center (SOC).
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4059/sans-breaches-happen-be-prepared-1214.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Securing the cloud</h4>
+                <h4>Breaches happen: Be prepared</h4>
                 <div class=standfirst>
-                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
+                    Discussing how a layered approach to security provides better protection of your organization's IT assets.
                 </div>
             </a>
         </div>
@@ -784,13 +784,6 @@ Southport PR8 1LJ</p>
             <a href="/2015/08/29/two_black_holes_found_inside_galaxy/">
                             <img src="https://regmedia.co.uk/2015/08/29/binary_black_hole.jpg?x=88&amp;y=58&amp;crop=1" alt="Artist's view of a binary black hole. Pic credit: NASA, ESA and G Bacon (STScI)" width=88 height=58>
                 <h4>Boffins clock MONSTER BLACK HOLES inside quasar-hosting galaxy near Earth
-                </h4>
-            </a>
-        </li>
-        <li>
-            <a href="/2015/08/29/uber_security_researchers/">
-                            <img src="https://regmedia.co.uk/2015/05/19/uber_logo.jpg?x=88&amp;y=58&amp;crop=1" alt="Uber launch party by https://www.flickr.com/photos/5chw4r7z/ CC2.0 sharelalike attribution https://creativecommons.org/licenses/by-sa/2.0/" width=88 height=58>
-                <h4>Uber pulls up to the bumper, plonks Jeep hackers into driving seat
                 </h4>
             </a>
         </li>
@@ -812,6 +805,13 @@ Southport PR8 1LJ</p>
             <a href="/2015/08/30/inequality_collapse_and_growth_spurt/">
                             <img src="https://regmedia.co.uk/2015/02/12/human_cannonball.jpg?x=88&amp;y=58&amp;crop=1" alt="Human cannonball" width=88 height=58>
                 <h4>So, was it <i>really</i> the Commies that caused the early 20th Century inequality collapse?
+                </h4>
+            </a>
+        </li>
+        <li>
+            <a href="/2015/08/30/internet_outages_are_the_american_way/">
+                            <img src="https://regmedia.co.uk/2015/08/28/the_american_way.jpg?x=88&amp;y=58&amp;crop=1" alt="Roadside Advice in South Dakota by https://www.flickr.com/photos/plannerjohn365/ cc 2.0 attribution noderivs generic https://creativecommons.org/licenses/by-nd/2.0/" width=88 height=58>
+                <h4>In redneck heaven, internet outages are the American Way
                 </h4>
             </a>
         </li>
@@ -966,6 +966,20 @@ Southport PR8 1LJ</p>
 
 
 
+    <script>
+        $(function() {
+            if ($('#spotlight').length) {
+                var ab_set = {
+                    view_tracking:  'true',
+                    click_tracking: 'true',
+                    click_target:   '#spotlight a',
+                    group:          'E (large image, large text below & grey)',
+                    name:           'AB: Spotlight 2015'
+                };
+                track_bucket_user(ab_set);
+            }
+        });
+    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1017,7 +1031,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(893) });
+        $(function() { set_bucket_group(118) });
     </script>
         <div id="fb-root"></div>
     </div>
