@@ -43,7 +43,7 @@
       p.parentNode.insertBefore(s, p);
     }}};</script>
     <script>
-      Groupon.division = {"id":"washington-dc","name":"Washington DC","country":"USA","areas":[{"id":"montgomery-county","name":"Montgomery County","lat":39.0722,"lng":-77.1262},{"id":"dc-metro","name":"The District","lat":38.9066,"lng":-77.0166},{"id":"northern-virginia","name":"Northern Virginia","lat":38.8209,"lng":-77.291}],"timezone":"Eastern Daylight Time","timezoneIdentifier":"America/New_York","lat":38.8921,"lng":-77.0241,"defaultLocale":"en_US","selectCurrentDivision":"selected"};
+      Groupon.division = {"id":"washington-dc","name":"Washington DC","country":"USA","areas":[{"id":"dc-metro","name":"The District","lat":38.9066,"lng":-77.0166},{"id":"northern-virginia","name":"Northern Virginia","lat":38.8209,"lng":-77.291},{"id":"montgomery-county","name":"Montgomery County","lat":39.0722,"lng":-77.1262}],"timezone":"Eastern Daylight Time","timezoneIdentifier":"America/New_York","lat":38.8921,"lng":-77.0241,"defaultLocale":"en_US","selectCurrentDivision":"selected"};
       Groupon.Performance = {};
       Groupon.Performance.boomerangUrl = "//www.groupon.com/layout/assets/boomerang-0.9.3-basic-custom.js";
       Groupon.CartTranslations = {"cart":{"cart":"Cart","desc":"Your Cart","quantity":"Qty","price":"Price","subtotal":"Subtotal","view_cart":"View Cart","proceed_to_checkout":"Proceed to Checkout","empty_cart":"Your Shopping Cart is Empty!","empty_text":"Time to fill this bad boy with great products like gadgets, electronics, housewares, gifts and other great offerings from","groupon_goods":"Groupon Goods"}};
@@ -55,7 +55,7 @@
       };
     </script>
     <script> window.Optimize = (function (arg) { var appConfig, appName, channel, config, cookieDomain, deepmerge, isObject, layoutConfig, page, pageType, suiteData; appConfig = arg.appConfig, appName = arg.appName, channel = arg.channel, cookieDomain = arg.cookieDomain, pageType = arg.pageType, layoutConfig = arg.layoutConfig; isObject = function(x) { return Object.prototype.toString.call(x) === '[object Object]'; }; deepmerge = function(a, b) { var key, results, value; results = []; for (key in b) { value = b[key]; if (b.hasOwnProperty(key)) { if (a[key] && value && isObject(a[key]) && isObject(value)) { results.push(deepmerge(a[key], value)); } else { results.push(a[key] = value); } } else { results.push(void 0); } } return results; }; suiteData = layoutConfig.suiteData; config = suiteData.config; deepmerge(config, appConfig); page = config.page; suiteData.pageType = page.type = pageType || page.type; suiteData.channel = page.channel = channel || page.channel; suiteData.cookieDomain = config.cookieDomain != null ? config.cookieDomain : config.cookieDomain = cookieDomain; suiteData.app = page.app != null ? page.app : page.app = appName; return layoutConfig; })({
-      appConfig: {"cookieDomain":".groupon.com","seed":"b4fdf92c-3ba4-49a7-9bba-d36c8e46a8c6","page":{"id":"b4fdf92c-3ba4-49a7-9bba-d36c8e46a8c6-1440987227430-TH0","app":"content-pages","channel":"content_pages","country":"US","division":null,"parentEventId":null,"parentPageId":null,"url":"http%3A%2F%2Fwww.groupon.com%2Fprivacy","type":"content_page"},"user":{"browser":"Other","browserId":"f57b68da-7b17-1d6d-29a6-300591d0b79b","browserVersion":"Other","consumerId":null,"consumerIdSource":null,"device":"Other","deviceType":"Other","loggedIn":false,"os":"Other","permalink":null,"scid":null,"userAgent":"Python-urllib\/2.7","visit":null,"platform":"desktop"},"session":{"id":"b4fdf92c-3ba4-49a7-9bba-d36c8e46a8c6","referral":{"source":"direct"}},"tracking":{"secureStorageEnabled":false}},
+      appConfig: {"cookieDomain":".groupon.com","seed":"9386754e-bc40-4905-8ff5-a1bf2ae06da6","page":{"id":"9386754e-bc40-4905-8ff5-a1bf2ae06da6-1440991699067-TH0","app":"content-pages","channel":"content_pages","country":"US","division":null,"parentEventId":null,"parentPageId":null,"url":"http%3A%2F%2Fwww.groupon.com%2Fprivacy","type":"content_page"},"user":{"browser":"Other","browserId":"9735f036-a9c0-9c9c-0d7e-1fa9877ce38b","browserVersion":"Other","consumerId":null,"consumerIdSource":null,"device":"Other","deviceType":"Other","loggedIn":false,"os":"Other","permalink":null,"scid":null,"userAgent":"Python-urllib\/2.7","visit":null,"platform":"desktop"},"session":{"id":"9386754e-bc40-4905-8ff5-a1bf2ae06da6","referral":{"source":"direct"}},"tracking":{"secureStorageEnabled":false}},
       appName: "content-pages",
       channel: "",
       cookieDomain: ".groupon.com",
@@ -107,7 +107,7 @@
     <style>html{background: #222;}</style>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 
-        <meta name="request-id" content="c35c256e-35fc-4d64-9390-820406eedd3e">
+        <meta name="request-id" content="6f148834-f461-4e2d-85c1-f43be7e72616">
 
 <script>
   if (!(navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)) {
@@ -349,13 +349,13 @@
                   </a>
             </div>
 
-              <a id="ls-widget-local-1" class="column subnav-megamind-widget" href="https://groupon.com/occasion/wellness" data-bhw="WidgetLocal1">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/9V29ZpQfaNwgRWt2zCfP/rR-440x420" data-original-2x="https://img.grouponcdn.com/deal/9V29ZpQfaNwgRWt2zCfP/rR-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindHBW_NavBar_GOTR" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;80033160&quot;,&quot;mm_position&quot;:1}"/>
+              <a id="ls-widget-local-1" class="column subnav-megamind-widget" href="https://groupon.com/articles/reflexology-cupping-and-the-benefits-of-wellness-treatments" data-bhw="WidgetLocal1">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/gAnsgNrFGDUnkzYn1NX4/Gx-440x420" data-original-2x="https://img.grouponcdn.com/sparta/gAnsgNrFGDUnkzYn1NX4/Gx-440x420#@2x" alt=""
+                   data-bhc="banner:MegamindHBW_NavBar_ways-to-wellness" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;ce49e348&quot;,&quot;mm_position&quot;:1}"/>
               </a>
-            <a id="ls-widget-local-2" class="column subnav-megamind-widget" href="https://groupon.com/articles/fitness-motivation-from-pro-instructors" data-bhw="WidgetLocal2">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/cvpuo8Cx7YodsML6G9Gd/Te-440x420" data-original-2x="https://img.grouponcdn.com/sparta/cvpuo8Cx7YodsML6G9Gd/Te-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindHBW_NavBar_fitness-motivation" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;136b956&quot;,&quot;mm_position&quot;:2}"/>
+            <a id="ls-widget-local-2" class="column subnav-megamind-widget" href="https://groupon.com/occasion/heat-wave" data-bhw="WidgetLocal2">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/iQAihVFQmB6doak4xdWn/wY-440x420" data-original-2x="https://img.grouponcdn.com/sparta/iQAihVFQmB6doak4xdWn/wY-440x420#@2x" alt=""
+                   data-bhc="banner:Megamindlocal_subnav_heatwave" data-bhd="{&quot;campaign&quot;:&quot;heat-wave&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;48e6f43f&quot;,&quot;mm_position&quot;:2}"/>
               </a>
       </nav>
 
@@ -365,13 +365,13 @@
                      data-bhc="category:goods-tab-all-goods" id="all-goods"
                      >
                       All Goods
-                        <span class="count">29836</span>
+                        <span class="count">29830</span>
                   </a>
                   <a class="subnav-link subnav-link-count" href="/goods/all?discount=gg-clearance"
                      data-bhc="category:goods-tab-all" id="all"
                      >
                       Clearance
-                        <span class="count">327</span>
+                        <span class="count">333</span>
                   </a>
                   <a class="subnav-link subnav-link-count" href="/goods/auto-and-home-improvement"
                      data-bhc="category:goods-tab-auto-and-home-improvement" id="auto-and-home-improvement"
@@ -383,7 +383,7 @@
                      data-bhc="category:goods-tab-baby-kids-and-toys" id="baby-kids-and-toys"
                      >
                       Baby, Kids &amp; Toys
-                        <span class="count">3130</span>
+                        <span class="count">3129</span>
                   </a>
                   <a class="subnav-link subnav-link-count" href="/goods/collectibles"
                      data-bhc="category:goods-tab-collectibles" id="collectibles"
@@ -395,7 +395,7 @@
                      data-bhc="category:goods-tab-electronics" id="electronics"
                      >
                       Electronics
-                        <span class="count">2974</span>
+                        <span class="count">2973</span>
                   </a>
             </div>
             <div class="column subnav-categories">
@@ -415,13 +415,13 @@
                      data-bhc="category:goods-tab-health-and-beauty" id="health-and-beauty"
                      >
                       Health &amp; Beauty
-                        <span class="count">4056</span>
+                        <span class="count">4054</span>
                   </a>
                   <a class="subnav-link subnav-link-count" href="/goods/home-and-garden"
                      data-bhc="category:goods-tab-home-and-garden" id="home-and-garden"
                      >
                       Home &amp; Garden
-                        <span class="count">4727</span>
+                        <span class="count">4724</span>
                   </a>
                   <a class="subnav-link subnav-link-count" href="/goods/household-essentials"
                      data-bhc="category:goods-tab-household-essentials" id="household-essentials"
@@ -433,7 +433,7 @@
                      data-bhc="category:goods-tab-jewelry-and-watches" id="jewelry-and-watches"
                      >
                       Jewelry &amp; Watches
-                        <span class="count">5610</span>
+                        <span class="count">5611</span>
                   </a>
             </div>
             <div class="column subnav-categories">
@@ -457,9 +457,9 @@
                   </a>
             </div>
 
-              <a id="ls-widget-goods-1" class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/ideel" data-bhw="WidgetGoods1">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/2u2bxSY1QtLcojV37hJn/Nc-440x420" data-original-2x="https://img.grouponcdn.com/sparta/2u2bxSY1QtLcojV37hJn/Nc-440x420#@2x" alt=""
-                   data-bhc="banner:bmHYaCDZKjyGdvDNvTFs" data-bhd="{&quot;campaign&quot;:&quot;unknown&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;19facd18&quot;,&quot;mm_position&quot;:1}"/>
+              <a id="ls-widget-goods-1" class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/gg-floor-care" data-bhw="WidgetGoods1">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/67eSwsvY9Uoi8ZBAsNG8/tT-440x420" data-original-2x="https://img.grouponcdn.com/sparta/67eSwsvY9Uoi8ZBAsNG8/tT-440x420#@2x" alt=""
+                   data-bhc="banner:MegamindGoods_SubNav_FloorCare" data-bhd="{&quot;campaign&quot;:&quot;gg-floor-care&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;eaf779b2&quot;,&quot;mm_position&quot;:1}"/>
               </a>
       </nav>
 
@@ -487,17 +487,17 @@
                     </a>
             </div>
 
-              <a id="ls-widget-getaways-1" class="column subnav-megamind-widget" href="https://groupon.com/occasion/travel" data-bhw="WidgetGetaways1">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/6vnQtrMjs3dsN71pKEga/4a-440x420.jpg" data-original-2x="https://img.grouponcdn.com/sparta/6vnQtrMjs3dsN71pKEga/4a-440x420.jpg#@2x" alt=""
-                   data-bhc="banner:MegamindGA_travel" data-bhd="{&quot;campaign&quot;:&quot;us-getaways-shop_travel&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;9d58c08&quot;,&quot;mm_position&quot;:1}"/>
+              <a id="ls-widget-getaways-1" class="column subnav-megamind-widget" href="https://groupon.com/occasion/ga-beach-getaways" data-bhw="WidgetGetaways1">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/mXQUUU1zk6yd4CpgSUsK/Ey-440x420" data-original-2x="https://img.grouponcdn.com/sparta/mXQUUU1zk6yd4CpgSUsK/Ey-440x420#@2x" alt=""
+                   data-bhc="banner:MegamindGA_NavBar_BeachGetaways" data-bhd="{&quot;campaign&quot;:&quot;unknown&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;b6d9ce91&quot;,&quot;mm_position&quot;:1}"/>
               </a>
             <a id="ls-widget-getaways-2" class="column subnav-megamind-widget" href="https://groupon.com/occasion/hot-travel-deals" data-bhw="WidgetGetaways2">
                 <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/kfDM7Qox31RcMyobJQQv/T3-440x420" data-original-2x="https://img.grouponcdn.com/sparta/kfDM7Qox31RcMyobJQQv/T3-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindGA_NewDeals" data-bhd="{&quot;campaign&quot;:&quot;us-getaways-shop_hot-travel-deals&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;fee7ded6&quot;,&quot;mm_position&quot;:2}"/>
+                   data-bhc="banner:MegamindGA_NewDeals" data-bhd="{&quot;campaign&quot;:&quot;us-getaways-shop_hot-travel-deals&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;fee7ded6&quot;,&quot;mm_position&quot;:2}"/>
               </a>
-            <a id="ls-widget-getaways-3" class="column subnav-megamind-widget" href="https://groupon.com/occasion/ga-beach-getaways" data-bhw="WidgetGetaways3">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/mXQUUU1zk6yd4CpgSUsK/Ey-440x420" data-original-2x="https://img.grouponcdn.com/sparta/mXQUUU1zk6yd4CpgSUsK/Ey-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindGA_NavBar_BeachGetaways" data-bhd="{&quot;campaign&quot;:&quot;unknown&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;b2894693&quot;,&quot;mm_position&quot;:3}"/>
+            <a id="ls-widget-getaways-3" class="column subnav-megamind-widget" href="https://groupon.com/occasion/travel" data-bhw="WidgetGetaways3">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/6vnQtrMjs3dsN71pKEga/4a-440x420.jpg" data-original-2x="https://img.grouponcdn.com/sparta/6vnQtrMjs3dsN71pKEga/4a-440x420.jpg#@2x" alt=""
+                   data-bhc="banner:MegamindGA_travel" data-bhd="{&quot;campaign&quot;:&quot;us-getaways-shop_travel&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;a52a4f8a&quot;,&quot;mm_position&quot;:3}"/>
               </a>
       </nav>
 
@@ -670,11 +670,6 @@
                      data-bhc="category:occasion-tab-Health Care + Dental">
                       Health Care + Dental
                     </a>
-                  <a class="subnav-link" href="/occasion/wellness-sale"
-                     
-                     data-bhc="category:occasion-tab-Wellness Sale">
-                      Wellness Sale
-                    </a>
                   <a class="subnav-link" href="/occasion/fitness"
                      
                      data-bhc="category:occasion-tab-Fitness + Yoga">
@@ -685,19 +680,24 @@
                      data-bhc="category:occasion-tab-Wellness Getaways">
                       Wellness Getaways
                     </a>
+                  <a class="subnav-link" href="/occasion/wellness-sale"
+                     
+                     data-bhc="category:occasion-tab-Wellness Sale">
+                      Wellness Sale
+                    </a>
             </div>
 
-              <a id="ls-widget-occasion-1" class="column subnav-megamind-widget" href="https://groupon.com/articles/10-wellness-services-you-probably-didnt-know-were-on-groupon" data-bhw="WidgetOccasion1">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/9GcK1wwhfNPmGW7xfLVC/TR-440x420" data-original-2x="https://img.grouponcdn.com/sparta/9GcK1wwhfNPmGW7xfLVC/TR-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindOccasions_NavBar_10-services" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;dd95c2af&quot;,&quot;mm_position&quot;:1}"/>
-              </a>
-            <a id="ls-widget-occasion-2" class="column subnav-megamind-widget" href="https://groupon.com/articles/defining-well-being-in-a-chaotic-world" data-bhw="WidgetOccasion2">
+              <a id="ls-widget-occasion-1" class="column subnav-megamind-widget" href="https://groupon.com/articles/defining-well-being-in-a-chaotic-world" data-bhw="WidgetOccasion1">
                 <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/c5UBNuKyK5vfNLiEnDdJ/rq-440x420" data-original-2x="https://img.grouponcdn.com/sparta/c5UBNuKyK5vfNLiEnDdJ/rq-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindOccasions_NavBar_DebraK" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;c0c3dc39&quot;,&quot;mm_position&quot;:2}"/>
+                   data-bhc="banner:MegamindOccasions_NavBar_DebraK" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;42ec2038&quot;,&quot;mm_position&quot;:1}"/>
               </a>
-            <a id="ls-widget-occasion-3" class="column subnav-megamind-widget" href="https://groupon.com/articles/fitness-motivation-from-pro-instructors" data-bhw="WidgetOccasion3">
-                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/cvpuo8Cx7YodsML6G9Gd/Te-440x420" data-original-2x="https://img.grouponcdn.com/sparta/cvpuo8Cx7YodsML6G9Gd/Te-440x420#@2x" alt=""
-                   data-bhc="banner:MegamindOccasions_NavBar_fitness-motivation" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;013170796890441113629&quot;,&quot;mm_treatment&quot;:&quot;23c464da&quot;,&quot;mm_position&quot;:3}"/>
+            <a id="ls-widget-occasion-2" class="column subnav-megamind-widget" href="https://groupon.com/occasion/wellness-sale" data-bhw="WidgetOccasion2">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/4iBP6gFTqRzei8knrgzA/87-440x420" data-original-2x="https://img.grouponcdn.com/sparta/4iBP6gFTqRzei8knrgzA/87-440x420#@2x" alt=""
+                   data-bhc="banner:MegamindOccasions_NavBar_wellness-sale" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness-sale&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;4b924371&quot;,&quot;mm_position&quot;:2}"/>
+              </a>
+            <a id="ls-widget-occasion-3" class="column subnav-megamind-widget" href="https://groupon.com/articles/10-wellness-services-you-probably-didnt-know-were-on-groupon" data-bhw="WidgetOccasion3">
+                <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/9GcK1wwhfNPmGW7xfLVC/TR-440x420" data-original-2x="https://img.grouponcdn.com/sparta/9GcK1wwhfNPmGW7xfLVC/TR-440x420#@2x" alt=""
+                   data-bhc="banner:MegamindOccasions_NavBar_10-services" data-bhd="{&quot;campaign&quot;:&quot;us-health-wellness-week-2015_wellness&quot;,&quot;mm_request_id&quot;:&quot;010286741990441113067&quot;,&quot;mm_treatment&quot;:&quot;a03afbed&quot;,&quot;mm_position&quot;:3}"/>
               </a>
       </nav>
 </nav>
@@ -1072,7 +1072,7 @@ and <a id="ls-footer-style-link" data-bhw="FooterGrouponGuideLinkStyle" href="/l
 
     </div>
       <script>
-      Groupon.Modules.SearchBar.init({"division":{"id":"washington-dc","name":"Washington DC","country":"USA","areas":[{"id":"montgomery-county","name":"Montgomery County","lat":39.0722,"lng":-77.1262},{"id":"dc-metro","name":"The District","lat":38.9066,"lng":-77.0166},{"id":"northern-virginia","name":"Northern Virginia","lat":38.8209,"lng":-77.291}],"timezone":"Eastern Daylight Time","timezoneIdentifier":"America/New_York","lat":38.8921,"lng":-77.0241,"defaultLocale":"en_US","selectCurrentDivision":"selected"},"google_geo_url":"//mapproxy.groupon.com/maps/api/js"});
+      Groupon.Modules.SearchBar.init({"division":{"id":"washington-dc","name":"Washington DC","country":"USA","areas":[{"id":"dc-metro","name":"The District","lat":38.9066,"lng":-77.0166},{"id":"northern-virginia","name":"Northern Virginia","lat":38.8209,"lng":-77.291},{"id":"montgomery-county","name":"Montgomery County","lat":39.0722,"lng":-77.1262}],"timezone":"Eastern Daylight Time","timezoneIdentifier":"America/New_York","lat":38.8921,"lng":-77.0241,"defaultLocale":"en_US","selectCurrentDivision":"selected"},"google_geo_url":"//mapproxy.groupon.com/maps/api/js"});
         Groupon.Modules.SearchBar.SearchOverrides = [{"link":"/occasion/bestofgroupon","terms":["best","best of","best of groupon","best groupons","top","top rated"]},{"link":"http://www.grouponworks.com/get-featured","terms":["advertise on groupon","get featured","run a groupon deal","sell on groupon"]},{"link":"/groupon-promise","terms":["claim refund","refund","request refund","return policy","returns","return","return item","return items","return goods","cancel","cancel order"]},{"link":"/customer_support","terms":["customer service","customer support","help"]},{"link":"https://merchants.groupon.com","terms":["merchant center"]},{"link":"https://breadcrumb.groupon.com/","terms":["breadcrumb","point of sale","pos"]},{"link":"https://breadcrumb.groupon.com/payments","terms":["payments"]},{"link":"https://grassroots.groupon.com/","terms":["charity","grassroots"]},{"link":"/giftcards","terms":["gift card","gift cards"]},{"link":"/subscription_center","terms":["unsubscribe","how to unsubscribe","unsubscribe from groupon","manage subscriptions","my email subscriptions"]},{"link":"/mygroupons","terms":["my groupons","my groupon","my coupons","mygroupons","mygroupon","my grouping","my groupings","my","purchase item","purchased items"]},{"link":"/myaccount","terms":["my account","account","my stuff","my profile","profile"]},{"link":"/goods/all?discount=gg-clearance","terms":["clearance"]},{"link":"http://www.ideel.com","terms":["ideel","ideeli","ideel.com"]},{"link":"/mobile","terms":["groupon app","groupon mobile app"]},{"link":"/faq","terms":["faq"]},{"link":"http://jobs.groupon.com","terms":["jobs","jobs at groupon"]},{"link":"/travel","terms":["b&b","bath spa hotel","bed and breakfast","getaways","hotel","hotel deal","hotel deals","hotel room","hotel rooms","hotels","motel","resort","rooms","spa hotel","spa hotell","spa hotels","travel deals","vacation"]},{"link":"/travel/anaheim/hotels","terms":["disneyland","hotels near disneyland"],"locations":["anaheim","anaheim, ca"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/orlando/hotels","terms":["disneyworld"],"locations":["orlando","orlando, fl"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/las-vegas/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["las vegas","las vegas, nv","vegas"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/atlantic-city-nj/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["atlantic city","atlantic city, nj"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/orlando/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["orlando","orlando, fl"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/chicago/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["chicago","chicago, il"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/new-york-city/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["nyc","new york city"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/new-york/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["new york","new york, ny"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/niagara-falls-ny/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["niagara falls","niagara falls, ny"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/miami-beach-fl/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["miami beach","miami beach, fl"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/seattle/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["seattle","seattle, wa"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/new-orleans/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["new orleans","new orleans, la"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/boston/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["boston","boston, ma"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/san-diego/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["san diego","san diego, ca"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/san-francisco/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["san francisco","san francisco, ca"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/washington/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["washington"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/miami/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["miami","miami, fl"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/san-antonio/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["san antonio","san antonio, tx"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/toronto/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["toronto","toronto, on"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/palm-springs-ca/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["palm springs","palm springs, ca"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/los-angeles/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["los angeles","los angeles, ca"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/philadelphia/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["philadelphia","philadelphia, pa"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/dallas/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["dallas","dallas, tx"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/key-west-fl/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["key west","key west, fl"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/atlanta/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["atlanta","atlanta, ga"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/nashville/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["nashville","nashville, tn"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/travel/washington-dc/hotels","terms":["hotel","hotels","hotel in","hotels in"],"locations":["washington dc","washington, dc"],"disabledInExperiment":{"pull-getaways-market-rate:PullGetawaysMarketRate":"ShowMarketRate"}},{"link":"/occasion/black-friday-deals","terms":["black friday","blackfriday","black friday deals"]},{"link":"/occasion/cyber-monday-deals","terms":["cyber monday","cybermonday","cyber monday deals"]}];
 
       window.Groupon.charMapping = {"A":"ÀÁÂÃÄÅ","AE":"Æ","C":"Ç","D":"Ð","E":"ÈÉÊË","I":"ÌÍÎÏ","N":"Ñ","O":"ÒÓÔÕÖŐØ","TH":"Þ","U":"ÙÚÛÜŰ","Y":"Ý","a":"àáâãäå","ae":"æ","c":"ç","d":"ð","e":"èéêë","i":"ìíîï","n":"ñ","o":"òóôõöőø","ss":"ß","th":"þ","u":"ùúûüű","y":"ýÿ","-":" "};

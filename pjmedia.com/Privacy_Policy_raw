@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1444333100'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1149703385'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=560476186'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=862574578&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=283379675'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1147290539'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=140991764'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1135265510&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=986428695');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1051215025');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1720363774');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1969220638');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1093202605');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=549213071');"></a>
   </span>
 </span>
 
@@ -610,7 +610,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 							
 											<li><a href="http://pjmedia.com/tatler/2015/08/30/israel-confirms-iran-stockpiling-ballistic-missiles/">Israel Confirms Iran Stockpiling Ballistic Missiles</a></li>
 											
-											<li><a href="http://pjmedia.com/diaryofamadvoter/2015/08/30/who-shot-the-sheriff/">Who Shot the Sheriff?</a></li>
+											<li><a href="http://pjmedia.com/victordavishanson/illegal-immigration-finally-turned-off-public/">How Illegal Immigration Finally Turned Off the Public</a></li>
 											
 											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
 																		</ul>
@@ -627,7 +627,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/tatler/2015/08/30/obama-renames-alaskas-mount-mckinley-to-denali-2/">Obama Renames Alaska’s Mount McKinley to Denali</a></li><li><a href="http://pjmedia.com/tatler/2015/08/30/jindal-hillary-literally-one-email-away-from-going-to-jail/">Jindal: Hillary &#8216;Literally One Email Away From Going to Jail&#8217;</a></li><li><a href="http://pjmedia.com/tatler/2015/08/30/glenn-becks-all-lives-matter-march-draws-20000/">Glenn Beck&#8217;s &#8216;All Lives Matter&#8217; March Draws 20,000</a></li>
+				<li><a href="http://pjmedia.com/tatler/2015/08/30/obama-renames-alaskas-mount-mckinley-to-denali-2/">Obama Renames Alaska’s Mount McKinley to &#8216;Denali&#8217;</a></li><li><a href="http://pjmedia.com/tatler/2015/08/30/jindal-hillary-literally-one-email-away-from-going-to-jail/">Jindal: Hillary &#8216;Literally One Email Away From Going to Jail&#8217;</a></li><li><a href="http://pjmedia.com/tatler/2015/08/30/glenn-becks-all-lives-matter-march-draws-20000/">Glenn Beck&#8217;s &#8216;All Lives Matter&#8217; March Draws 20,000</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213435/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">I PREFER ONSITE CONSTRUCTION BY NANOBOTS, OR AT LEAST 3D PRINTING, BUT THIS IS A <a target="_blank" href="http://www.wired.com/2015/08/reaction-housing-exo-shelter/">HIGH-TECH EMERGENCY SHELTER.</A>  &#8220;The pods are 10 feet tall and 8.5 feet wide. They come configured with a double bed, a double bunk, or an office and can sleep as many as four people. The shape evolved from McDaniel’s teepee inspiration as he began pondering how to transport them most efficiently. The shells were designed to nestle nine deep on an 18-wheeler. &#8216;Essentially you’re moving 36 people per truck,&#8217; he says. Contrast that with shelters fashioned from shipping containers, each of which requires one truck to move and houses six people. The Exo shelters fit together like stacked coffee cups and are relatively easily pulled from a truck and carried by integrated handles. The exterior shell weighs 375 pounds, the floorboard 350. McDaniel claims it takes two minutes to erect an Exo.&#8221; ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213461/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AMERICA&#8217;S TROLL IN CHIEF ARBITRARILY RENAMES TALLEST MOUNTAIN IN NORTH AMERICA: Mount McKinley, 20,237-feet tall, &#8220;was officially renamed by Congress in 1917 in honor of President William McKinley, stirring criticism of the U.S. Board of Geographic Names among native Alaskans,&#8221; the <em>Washington Examiner</em> reports, adding that &#8220;Ahead of his 3-day swing through Alaska, President Obama announced Sunday that <a target="_blank" href="http://www.washingtonexaminer.com/president-obama-to-rename-tallest-mountain-in-north-america/article/2571093">Mount McKinley will return to its native Alaskan name, Denali</a> — meaning &#8216;the great one.&#8217;&#8221; ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213434/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">CHARLES BARKLEY:  <a target="_blank" href="http://thehill.com/blogs/blog-briefing-room/news/252181-barkley-voting-for-dems-hasnt-helped-blacks">Voting For Democrats Hasn&#8217;t Helped Blacks.</a>  True.</a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213479/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">VENEZUELA IN THE MIDWEST:  <a target="_blank" href="http://www.powerlineblog.com/archives/2015/08/venezuela-in-the-midwest.php">Illinois Can&#8217;t Pay Lottery Winners.</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213444/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">SARAH HOYT:  <a target="_blank" href="http://accordingtohoyt.com/2015/08/29/ive-been-to-the-desert-on-a-horse-with-no-name/">What I&#8217;ve Learned From Dealing With SF SJW Types.</a>  &#8220;I was horrified and disgusted by their actions, but not in the least surprised.&#8221;</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":348,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":357,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
