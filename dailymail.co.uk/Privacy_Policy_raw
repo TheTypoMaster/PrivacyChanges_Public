@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441005546;
+  PageCriteria.timestamp = 1441009984;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441005196159),
+            serverDate: new Date(1441008504857),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,7 +428,7 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"7":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"],"8":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"]};
+adverts.botIPs={"8":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"],"9":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"]};
 
 adverts.initSlots({"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083106',
+            weatherDate: '2015083108',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -953,18 +953,6 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3205263/Vanessa-Hudgens-dazzles-plunging-pink-gown-leads-glamour-star-studded-MTV-Video-Music-Awards-red-carpet.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3EE9200000578-0-image-m-548_1440998087279.jpg" height="115" width="154" alt="Martha Hunt, from left, Hailee Steinfeld, Cara Delevingne, Selena Gomez, Taylor Swift, Serayah, Lily Aldridge, Gigi Hadid, and Karlie Kloss arrive at the MTV Video Music Awards at the Microsoft Theater on Sunday, Aug. 30, 2015, in Los Angeles. (Photo by Matt Sayles/Invision/AP)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Best dressed Taylor Swift hits a high note in a sequined crop top and trousers as she brings her Bad Blood glam squad to the MTV Video Music Awards
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/tvshowbiz/article-3216612/VMA-2015-host-Miley-Cyrus-slips-nipple-past-live-TV-censors.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD398DD00000578-0-image-m-139_1440993972358.jpg" height="115" width="154" alt="Show host Miley Cyrus shields herself on stage at the 2015 MTV Video Music Awards in Los Angeles, California August 30, 2015.  REUTERS/Mario Anzuoni" />
         <span class="pufftext">
@@ -977,14 +965,26 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216562/Kylie-Jenner-ultimate-Kim-klone-Teen-steals-big-sister-s-Balmain-look-MTV-VMAs.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/02/2BD2D16100000578-0-image-m-95_1440984789136.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  TV personality Kylie Jenner attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by John Shearer/Getty Images)" />
+      <a href="/tvshowbiz/article-3205263/Vanessa-Hudgens-dazzles-plunging-pink-gown-leads-glamour-star-studded-MTV-Video-Music-Awards-red-carpet.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3EE9200000578-0-image-m-548_1440998087279.jpg" height="115" width="154" alt="Martha Hunt, from left, Hailee Steinfeld, Cara Delevingne, Selena Gomez, Taylor Swift, Serayah, Lily Aldridge, Gigi Hadid, and Karlie Kloss arrive at the MTV Video Music Awards at the Microsoft Theater on Sunday, Aug. 30, 2015, in Los Angeles. (Photo by Matt Sayles/Invision/AP)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kylie Jenner the ultimate Kim klone: Teen steals her big sister's Balmain look for MTV VMAs
+          Best dressed Taylor Swift hits a high note in a sequined crop top and trousers as she brings her Bad Blood glam squad to the MTV Video Music Awards
           </strong>
-          Reminiscent of Kim's pre-pregnancy look
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216765/Kylie-Jenner-wows-daring-look-changes-racy-bondage-style-dress-continue-party-post-MTV-VMAs-family-dinner.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD5A04C00000578-0-image-a-51_1441006222290.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kylie Jenner wows in another daring look as she changes into racy bondage-style dress to continue the party at post MTV VMAs family dinner
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1016,6 +1016,117 @@ DM.later('bundle', function () {
           The TRUTH behind health food fads: The popular healthy eating myths debunked and what you SHOULD be doing to lose weight
           </strong>
           SPONSORED
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216562/Kylie-Jenner-ultimate-Kim-klone-Teen-steals-big-sister-s-Balmain-look-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/02/2BD2D16100000578-0-image-m-95_1440984789136.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  TV personality Kylie Jenner attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by John Shearer/Getty Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kylie Jenner the ultimate Kim klone: Teen steals her big sister's Balmain look for MTV VMAs
+          </strong>
+          Reminiscent of Kim's pre-pregnancy look
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216656/Oh-goodness-moment-Kris-Jenner-meets-Caitlyn-time-Cait-preview.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD376FA00000578-0-image-m-85_1440992945409.jpg" height="115" width="154" alt="DM_Cait_Jenner_121.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Oh my goodness': The moment Kris Jenner meets Caitlyn for the first time in I Am Cait preview
+          </strong>
+          Transgender star comes face to face with ex-wife
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216756/Kourtney-Kardashian-gives-sisters-run-money-plunging-jumpsuit-enjoys-intimate-dinner-family-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD585ED00000578-0-image-a-24_1441007351998.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Red hot Kourtney Kardashian sports a scarlet plunging jumpsuit as she enjoys dinner with her family after MTV VMAs
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216453/Kristina-Rihanoff-wows-apricot-coloured-vintage-dress-joins-Janette-Manrara-Brendan-Cole-Natalie-Lowe-retro-Strictly-segment-Essex-railway-station.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/02/2BD2E32200000578-0-image-a-1_1440984633608.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          All aboard the Strictly express! Kristina Rihanoff leads Ola, Craig and the gang to film colourful retro segment for show at Essex railway station
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216644/Chrissy-Teigen-leaves-underwear-home-revealing-arrival-John-Legend-MTV-Video-Music-Awards.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD332E000000578-0-image-a-124_1440989361273.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Chrissy Teigen leaves her underwear at home for a revealing arrival with John Legend at the MTV Video Music Awards
+          </strong>
+          Stole the show&nbsp;
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216563/Rita-Ora-flashes-assets-extreme-plunging-gown-MTV-VMAs-represents-Brits-alongside-supermodel-Cara-Delevingne.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD57CBE00000578-0-image-m-20_1441004914328.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Singer FKA twigs attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rita Ora showcases extreme cleavage in a deeply plunging feathered gown as she flies the flag for the Brits with FKA twigs and Cara Delevingne at MTV VMAs
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216620/Justin-Bieber-breaks-tears-sobs-triuphant-comeback-performance-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD39D5E00000578-0-image-m-2_1440994934867.jpg" height="115" width="154" alt="Justin Bieber reacts after performing at the MTV Video Music Awards at the Microsoft Theater on Sunday, Aug. 30, 2015, in Los Angeles. (Photo by Matt Sayles/Invision/AP)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Justin Bieber breaks down in tears and sobs after triumphant comeback performance at MTV VMAs
+          </strong>
+          Incredible performance at the MTV VMAs
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216603/Britney-Spears-revisits-glittering-Toxic-look-decade-sexy-music-video-looks-amazing-attends-MTV-Video-Music-Awards.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD32AB700000578-0-image-m-25_1440988022570.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Britney Spears attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Kevin Mazur/WireImage)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Britney Spears revisits her glittering Toxic look over a decade after sexy music video... and STILL looks amazing as she attends MTV Video Music Awards
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3216668/Jessa-Jill-Duggar-speak-molested-brother-Josh-saying-child-sexual-abuse-not-taboo-awareness.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD43E5400000578-0-image-a-16_1440999788544.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Jessa and Jill Duggar speak out about being molested by their brother Josh saying child sexual abuse should not be 'taboo'&nbsp;
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1056,57 +1167,6 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216603/Britney-Spears-revisits-glittering-Toxic-look-decade-sexy-music-video-looks-amazing-attends-MTV-Video-Music-Awards.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD32AB700000578-0-image-m-25_1440988022570.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Britney Spears attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Kevin Mazur/WireImage)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Britney Spears revisits her glittering Toxic look over a decade after sexy music video... and STILL looks amazing as she attends MTV Video Music Awards
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3216656/Oh-goodness-moment-Kris-Jenner-meets-Caitlyn-time-Cait-preview.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD376FA00000578-0-image-m-85_1440992945409.jpg" height="115" width="154" alt="DM_Cait_Jenner_121.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'Oh my goodness': The moment Kris Jenner meets Caitlyn for the first time in I Am Cait preview
-          </strong>
-          Transgender star comes face to face with ex-wife
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3216620/Justin-Bieber-breaks-tears-sobs-triuphant-comeback-performance-MTV-VMAs.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD39D5E00000578-0-image-m-2_1440994934867.jpg" height="115" width="154" alt="Justin Bieber reacts after performing at the MTV Video Music Awards at the Microsoft Theater on Sunday, Aug. 30, 2015, in Los Angeles. (Photo by Matt Sayles/Invision/AP)" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Justin Bieber breaks down in tears and sobs after triumphant comeback performance at MTV VMAs
-          </strong>
-          Incredible performance at the MTV VMAs
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3216644/Chrissy-Teigen-leaves-underwear-home-revealing-arrival-John-Legend-MTV-Video-Music-Awards.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD332E000000578-0-image-a-124_1440989361273.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Chrissy Teigen leaves her underwear at home for a revealing arrival with John Legend at the MTV Video Music Awards
-          </strong>
-          Stole the show with her see-through dress&nbsp;
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/tvshowbiz/article-3216533/Gigi-Hadid-legs-plunging-bodysuit-gown-shows-bronzed-holiday-tan-MTV-VMAs.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/01/2BD2578A00000578-0-image-m-17_1440980930890.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Model Gigi Hadid attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)" />
         <span class="pufftext">
@@ -1115,6 +1175,33 @@ DM.later('bundle', function () {
           Gigi Hadid is all legs in plunging bodysuit gown as she shows off bronzed holiday tan at MTV VMAs
           </strong>
           Just been on holiday with boyfriend Joe Jonas
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216761/Justin-Bieber-rumoured-girlfriend-Xenia-Deli-romp-semi-naked-bed-getting-kidnapped-hyped-new-video-Mean.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD5541700000578-0-image-a-129_1441004106018.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Justin Bieber and rumoured girlfriend Xenia Deli romp semi-naked in bed before getting kidnapped in new video for What Do You Mean?
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216774/Alessandra-Ambrosio-tucks-ice-lolly-sports-plunging-tie-dye-maxi-day-boys.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD5973000000578-0-image-m-4_1441006838636.jpg" height="115" width="154" alt="Alessandra Ambrosio takes a bite out of a popsicle while out with her husband and son in malibu\n\nPictured: Alessandra Ambrosio\nRef: SPL1112653  300815  \nPicture by: Fern / Splash News\n\nSplash News and Pictures\nLos Angeles: 310-821-2666\nNew York: 212-619-2666\nLondon: 870-934-2666\nphotodesk@splashnews.com\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Isn't life sweet? Alessandra Ambrosio tucks into an ice lolly as she sports plunging tie-dye maxi for a day out with her boys
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1131,8 +1218,32 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216751/Jessie-J-jumps-spotted-leaving-Sydney-shiny-trench-ripped-jeans-set-dino-braids-Voice-Australia-wraps-up.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD5567300000578-0-image-a-23_1441003807082.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Braids on board: Jessie J jumps spotted leaving Sydney in a shiny trench, ripped jeans and a set of 'dino braids' after The Voice Australia wraps up&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3214380/I-m-proud-empire-ve-built-Paris-Hilton-toasts-success-unveils-EIGHTEENTH-fragrance-1bn-perfume-portfolio.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/28/15/2BBEB0D500000578-0-image-m-90_1440773852952.jpg" height="115" width="154" alt="PH LIMITED ANNIVERSARY EDITION GROUP SHOT - LOW RES.png" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I'm so proud of the empire I've built': Paris Hilton toasts her own success as she unveils her EIGHTEENTH fragrance from her &pound;1bn perfume portfolio
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216563/Rita-Ora-flashes-assets-extreme-plunging-gown-MTV-VMAs-represents-Brits-alongside-supermodel-Cara-Delevingne.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD30C5F00000578-0-image-m-168_1440986935168.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Singer Rita Ora attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD57CBE00000578-0-image-m-20_1441004914328.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Singer FKA twigs attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Jason Merritt/Getty Images)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
@@ -1155,6 +1266,18 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216759/Alana-Stewart-voices-frustration-strained-relationship-daughter-Kimberly-Stewarts-Hamiltons.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD5258200000578-0-image-m-131_1441003369531.jpg" height="115" width="154" alt="DM_Stew_&amp;_Ham_121.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'She resents me': Alana Stewart voices frustration over strained relationship with daughter Kimberly on Stewarts &amp; Hamiltons
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216506/And-worst-dressed-award-goes-Stars-roll-MTV-VMA-red-carpet-kitch-garish-revealing-outfits.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/01/2BD2867200000578-0-image-m-57_1440981477535.jpg" height="115" width="154" alt="Singer Z LaLa arrives at the 2015 MTV Video Music Awards in Los Angeles, California, August 30, 2015.  REUTERS/Danny Moloshok" />
         <span class="pufftext">
@@ -1167,12 +1290,24 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/news/article-3216668/Jessa-Jill-Duggar-speak-molested-brother-Josh-saying-child-sexual-abuse-not-taboo-awareness.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD43E5400000578-0-image-a-16_1440999788544.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3216746/Gigi-Hadid-shows-toned-tummy-crop-lunch-boyfriend-Joe-Jonas-mother-Yolanda-Foster.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD5526400000578-0-image-a-22_1441003328951.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Jessa and Jill Duggar speak out about being molested by their brother Josh saying child sexual abuse should not be 'taboo'&nbsp;
+          Gigi Hadid shows off her toned tummy in a crop top as she has lunch with boyfriend Joe Jonas and her mother Yolanda Foster
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216706/Kim-Zolciak-bans-Brielle-s-boyfriend-sleeping-room-family-holiday-teen-reveals-hopes-young-mum.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD59DE800000578-0-image-m-256_1441006156330.jpg" height="115" width="154" alt="ATLANTA, GA:  August 30, 2015 &ntilde; Don't Be Tardy...\nThe family goes to Destin, FL for its annual spring-break vacation. Instead of leaving her troubles at home, Kim finds herself dealing with crying babies, angry alligators, a stressed out Shun, and a surprising revelation from Brielle at dinner.\nThe last year with the Biermanns has been out of control, to say the least. In the midst of dealing with Kroy&iacute;s season-ending football injury and moving into their dream home, they welcomed a set of twins into the world. Caring for six children in a lavish new 17,000 square-foot home, complete with a movie theater, man cave, basketball court, pool, spa and gym, the Biermanns need help &ntilde; and birth control. Bringing on new staff adds to the already crowded household with the return of Kim&iacute;s longtime friend and assistant, Sweetie, and their nanny, Lana. Amidst the dozens of diapers and baby bottles, Kim insists the family get away to her favorite spring break location, Destin, Florida, for some" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kim Zolciak bans Brielle's boyfriend from sleeping in the same room as her on family holiday... after teen reveals hopes to be a young mum&nbsp;
           </strong>
           
         </span>
@@ -1190,8 +1325,17 @@ DM.later('bundle', function () {
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    <li>
+      <a href="/tvshowbiz/article-3216778/Jared-Leto-shows-new-pink-hair-Suicide-Squad-star-Smith-s-daughter-Willow-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/08/2BD5478D00000578-0-image-m-99_1441005448955.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Host Miley Cyrus (L) and Jared Leto attend the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Christopher Polk/MTV1415/Getty Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          He's in the pink! Thrilled Jared Leto shows off new hair colour to Suicide Squad co-star Will Smith's daughter Willow at MTV VMAs
+          </strong>
+          
+        </span>
+      </a>
     </li>
     <li>
       <a href="/tvshowbiz/article-3216634/Iggy-Azalea-opts-breezy-neutral-ensemble-takes-stage-raunchy-Demi-Lovato-MTV-Video-Music-Awards.html">
