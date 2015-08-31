@@ -18,7 +18,7 @@ window['optimizely'] = window['optimizely'] || [];
 <link rel="shortcut icon" href="/favicon.gif" />
 <link href="https://plus.google.com/108660400379322656127" rel="publisher" />
 <link rel="home" title="Spiceworks" href="http://www.spiceworks.com" />
-<link href="//wwwstatic.spiceworks.com/css/all-styles_20150304.css?version=20150624" rel="stylesheet">
+<link href="//wwwstatic.spiceworks.com/css/all-styles_20150304.css?version=20150831" rel="stylesheet">
 <script>//document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>   
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -1153,5 +1153,5 @@ $('#join-login').on('shown', function () {
 		});
     </script>
     
-  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"16b4f0abc5","applicationID":"2721470","transactionName":"ZwMGZ0BQVkFWB0QNWV5JMUFbHkhAXhJRB08fDwpXV0kWQl8U","queueTime":0,"applicationTime":47,"atts":"S0QFEQhKRU8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"16b4f0abc5","applicationID":"2721470","transactionName":"ZwMGZ0BQVkFWB0QNWV5JMUFbHkhAXhJRB08fDwpXV0kWQl8U","queueTime":0,"applicationTime":89,"atts":"S0QFEQhKRU8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

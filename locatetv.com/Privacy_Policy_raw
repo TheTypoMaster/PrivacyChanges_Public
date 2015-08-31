@@ -197,30 +197,30 @@ var googletag = googletag || {};
         <div class="adBlock">
 <script type='text/javascript'>
         googletag.cmd.push(function() {
-                googletag.defineSlot('/1008253/ATF_728x90', [[728,90], [970,90], [970,250]], 'site_atf_728x90_1_simple_533020308').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_b');
+                googletag.defineSlot('/1008253/ATF_728x90', [[728,90], [970,90], [970,250]], 'site_atf_728x90_1_simple_1184464029').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_a');
                 googletag.enableServices();
         });
 </script>
-<div id='site_atf_728x90_1_simple_533020308' class="ad_atf_728x90 adCentered">
+<div id='site_atf_728x90_1_simple_1184464029' class="ad_atf_728x90 adCentered">
     <script type='text/javascript'>
     setTimeout(function(){
         googletag.cmd.push(function() {
-            googletag.display('site_atf_728x90_1_simple_533020308');
+            googletag.display('site_atf_728x90_1_simple_1184464029');
         });}, 25);
     </script>
 </div>
 </div>
                   <script type='text/javascript'>
         googletag.cmd.push(function() {
-                googletag.defineSlot('/1008253/left_160x600_slider', [[160,600], [1,1]], 'site_left_160x600_slider_2_simple_1564679721').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_b');
+                googletag.defineSlot('/1008253/left_160x600_slider', [[160,600], [1,1]], 'site_left_160x600_slider_2_simple_1372531316').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_a');
                 googletag.enableServices();
         });
 </script>
-<div id='site_left_160x600_slider_2_simple_1564679721' class="ad_left_160x600_slider">
+<div id='site_left_160x600_slider_2_simple_1372531316' class="ad_left_160x600_slider">
     <script type='text/javascript'>
     setTimeout(function(){
         googletag.cmd.push(function() {
-            googletag.display('site_left_160x600_slider_2_simple_1564679721');
+            googletag.display('site_left_160x600_slider_2_simple_1372531316');
         });}, 25);
     </script>
 </div>
@@ -229,21 +229,21 @@ if(!($.browser.msie && parseInt($.browser.version)<9)) {
     $(window).scroll(function() {
         var offset = $(document).scrollTop();
         if (offset>140 || window.innerHeight>=880) offset = offset + (window.innerHeight-600)/2 - 140;
-        $('#site_left_160x600_slider_2_simple_1564679721').stop().animate({marginTop: offset+'px'}, 1000);
+        $('#site_left_160x600_slider_2_simple_1372531316').stop().animate({marginTop: offset+'px'}, 1000);
     });
 }
 </script>
           <script type='text/javascript'>
         googletag.cmd.push(function() {
-                googletag.defineSlot('/1008253/right_160x600_slider', [[160,600], [1,1]], 'site_right_160x600_slider_3_simple_1604772645').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_b');
+                googletag.defineSlot('/1008253/right_160x600_slider', [[160,600], [1,1]], 'site_right_160x600_slider_3_simple_1439664128').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_a');
                 googletag.enableServices();
         });
 </script>
-<div id='site_right_160x600_slider_3_simple_1604772645' class="ad_right_160x600_slider">
+<div id='site_right_160x600_slider_3_simple_1439664128' class="ad_right_160x600_slider">
     <script type='text/javascript'>
     setTimeout(function(){
         googletag.cmd.push(function() {
-            googletag.display('site_right_160x600_slider_3_simple_1604772645');
+            googletag.display('site_right_160x600_slider_3_simple_1439664128');
         });}, 25);
     </script>
 </div>
@@ -252,21 +252,21 @@ if(!($.browser.msie && parseInt($.browser.version)<9)) {
     $(window).scroll(function() {
         var offset = $(document).scrollTop();
         if (offset>140 || window.innerHeight>=880) offset = offset + (window.innerHeight-600)/2 - 140;
-        $('#site_right_160x600_slider_3_simple_1604772645').stop().animate({marginTop: offset+'px'}, 1000);
+        $('#site_right_160x600_slider_3_simple_1439664128').stop().animate({marginTop: offset+'px'}, 1000);
     });
 }
 </script>
                           <script type='text/javascript'>
         googletag.cmd.push(function() {
-                googletag.defineSlot('/1008253/FullPage', [[1,1]], 'site_fullpage_4_simple_229801738').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_b');
+                googletag.defineSlot('/1008253/FullPage', [[1,1]], 'site_fullpage_4_simple_619170657').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_a');
                 googletag.enableServices();
         });
 </script>
-<div id='site_fullpage_4_simple_229801738' class="ad_fullpage">
+<div id='site_fullpage_4_simple_619170657' class="ad_fullpage">
     <script type='text/javascript'>
     setTimeout(function(){
         googletag.cmd.push(function() {
-            googletag.display('site_fullpage_4_simple_229801738');
+            googletag.display('site_fullpage_4_simple_619170657');
         });}, 25);
     </script>
 </div>
@@ -438,15 +438,15 @@ if(!($.browser.msie && parseInt($.browser.version)<9)) {
             <div class="adBlock">
 <script type='text/javascript'>
         googletag.cmd.push(function() {
-                googletag.defineSlot('/1008253/BTF_728x90', [[728,90], [970,90], [970,250]], 'site_btf_728x90_5_simple_213669465').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_b');
+                googletag.defineSlot('/1008253/BTF_728x90', [[728,90], [970,90], [970,250]], 'site_btf_728x90_5_simple_1177477080').addService(googletag.pubads()).setTargeting('ad_source', 'locatetv').setTargeting('site_area', 'site_simple').setTargeting('ab_group', 'group_a');
                 googletag.enableServices();
         });
 </script>
-<div id='site_btf_728x90_5_simple_213669465' class="ad_btf_728x90 adCentered">
+<div id='site_btf_728x90_5_simple_1177477080' class="ad_btf_728x90 adCentered">
     <script type='text/javascript'>
     setTimeout(function(){
         googletag.cmd.push(function() {
-            googletag.display('site_btf_728x90_5_simple_213669465');
+            googletag.display('site_btf_728x90_5_simple_1177477080');
         });}, 25);
     </script>
 </div>
