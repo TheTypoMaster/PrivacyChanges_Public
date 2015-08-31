@@ -524,10 +524,10 @@ P.when('cs-retail-help-omniture','jQuery', 'ready').execute('cs-retail-help-omni
   background-repeat: no-repeat;
 }
 --></style>
-<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::auiDebug=0::isSecure=0 navc-iGI/4TeG6iJM15kSL6JDVJQ8zE64X4D3Ed2HNwZAKb0cWuFtYNNQxqNGaDpqKCR7cpLUZ9G++aI= rid-3EPBS8MSK7V691CRGJZR seq-225 (Mon Aug 31 01:04:05 2015) **CACHED-BY-NCCC** -->
+<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::auiDebug=0::isSecure=0 navc-GEQM4i0LbEyyPoWphwWZvsXaAAWy/wj+w4p3rs1qHOy83ikifu3pij4Atr9E5rnUQj8aWP/wSLo= rid-0T4V7JQ2F0M5ST1SPS6J seq-225 (Mon Aug 31 02:19:26 2015) **CACHED-BY-NCCC** -->
 <link rel="stylesheet" href="http://z-ecx.images-amazon.com/images/G/01/AUIClients/NavAuiBeaconbeltAssets-4dbb696ea68ca0913a670ea3d36043e783f5120b._V2_.css#AUIClients/NavAuiBeaconbeltAssets.min" />
 <link rel="stylesheet" href="https://images-eu.ssl-images-amazon.com/images/I/01h78L-cgLL._RC|215ezqStD+L.css_.css#AUIClients/NavMetaAsset" />
-<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::auiDebug=0::isSecure=0 navc-iGI/4TeG6iJM15kSL6JDVJQ8zE64X4D3Ed2HNwZAKb0cWuFtYNNQxqNGaDpqKCR7cpLUZ9G++aI= rid-3EPBS8MSK7V691CRGJZR seq-225 (Mon Aug 31 01:04:05 2015) **CACHED-BY-NCCC** -->
+<!-- nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::auiDebug=0::isSecure=0 navc-GEQM4i0LbEyyPoWphwWZvsXaAAWy/wj+w4p3rs1qHOy83ikifu3pij4Atr9E5rnUQj8aWP/wSLo= rid-0T4V7JQ2F0M5ST1SPS6J seq-225 (Mon Aug 31 02:19:26 2015) **CACHED-BY-NCCC** -->
 <script>
 (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('navCF').execute(function() {
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/G/01/AUIClients/NavAuiBeaconbeltAssets-9a43a9eaaec7351fc93371c95adc2e456802f740._V2_.js#AUIClients/NavAuiBeaconbeltAssets.min');
@@ -580,8 +580,6 @@ $Nav.declare('img.pixel', 'http://g-ecx.images-amazon.com/images/G/08/x-locale/c
 
 
 
-
-
 <!--Pilu -->
 <a id="nav-top"></a>
 
@@ -615,7 +613,7 @@ window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
 </script>
 
 
-<!-- navp-rDMUFg3s0urnwZXdjdXmYZ3KFuHUWjMebyPMLg3Wecf4Wvt14XpLMvHG623QbE6HTOoILyJazEs= rid-1JGX0X48SFE36AHCN4QV (Mon Aug 31 01:52:17 2015) -->
+<!-- navp-Oe6G1YMcS2CWT4ct8gjQDg9MvmLuNGjBY7SG/FPpTui3d5RL172ahPdMu6JAIUd/nZoe3W+qIzg= rid-08AM5Q50VKK4069P03KT (Mon Aug 31 03:06:51 2015) -->
 
 
 
@@ -950,7 +948,7 @@ window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
 window.$Nav && $Nav.declare('config.readyOnATF', false);
 
 window.$Nav && $Nav.declare('config.dynamicMenuArgs',
-  {"rid":"1JGX0X48SFE36AHCN4QV","isPrime":0,"weblabs":"","primeMenuWidth":310});
+  {"rid":"08AM5Q50VKK4069P03KT","isPrime":0,"weblabs":"","primeMenuWidth":310});
 
 window.$Nav && $Nav.declare('config.signOutText',
   null);
@@ -964,7 +962,7 @@ window.$Nav && $Nav.declare('config.yourAccountPrimeHover',
 window.$Nav && $Nav.declare('config.primeEventLoggingEnabled', false);
 
 window.$Nav && $Nav.declare('config.primeFlyoutProfilingUrl',
-    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=1JGX0X48SFE36AHCN4QV');
+    '/gp/prime/navigation/record-prime-menu-event.html?ie=UTF8&rid=08AM5Q50VKK4069P03KT');
 
 window.$Nav && $Nav.declare('config.searchBackState',
   {});
@@ -1004,7 +1002,7 @@ if (window.amznJQ && amznJQ.available) {
     , searchAliases: ["aps", "stripbooks", "popular", "dvd", "electronics", "videogames", "toys", "english-books", "kitchen", "luggage", "classical", "vhs", "software", "jewelry", "watches", "music-song", "music-title", "music-artist", "mp3-downloads", "digital-music", "digital-music-track", "digital-music-album", "digital-text", "lighting", "baby", "beauty", "hpc", "office-products", "shoes", "sports", "mi", "computers", "clothing", "appliances", "diy", "mobile-apps", "pets", "gift-cards", "automotive", "garden", "tradein-aps", "warehouse-deals", "grocery", "luxury-beauty", "banjo-apps", "industrial"]
     , isDoCtw: 1
     , pageType: "GPHelp"
-    , requestId: "1JGX0X48SFE36AHCN4QV"
+    , requestId: "08AM5Q50VKK4069P03KT"
     , keydownTriggeredWeblabs: []
     , displayTriggeredWeblabs: [      function(data) {
         return data && data.fastlabs ? data.fastlabs : undefined;
@@ -2031,8 +2029,8 @@ vos livres au format papier</span></a></td>
 <div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class='nav_first'><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=548524' class='nav_a'>Conditions générales de vente</a></li><li><a href='/gp/help/customer/display.html?ie=UTF8&amp;nodeId=3329781' class='nav_a'>Vos informations personnelles</a></li><li class='nav_last'><a href='/cookiesetpublicitesurinternet' class='nav_a'>Cookies et Publicité sur Internet</a></li></ul><span>© 1996-2015, Amazon.com, Inc. ou ses filiales.</span><ul></ul></div>
 </div>
 
-<!-- whfh-tKz/KeHfJuW3gw1rPZtSm601XEVAfjr+tb78W/cIUnZH9y+zWTGHhfGKhANKSfBr rid-1JGX0X48SFE36AHCN4QV -->
-<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//aax-eu.amazon-adsystem.com/s/iu3?d=amazon.fr&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440978737688" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
+<!-- whfh-9D68buwcLHCnnwQndFX3Ha+RUoJnq8nPH40oJRY3vSC5obg+2Vd7Rv/J2t1tq6mJ rid-08AM5Q50VKK4069P03KT -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//aax-eu.amazon-adsystem.com/s/iu3?d=amazon.fr&slot=navFooter&a2=0101a1823ca3d5d46ce03d4502edf28f095b20f780c29eddcddebefb2933fa9c1e98&old_oo=0&cb=1440983211339" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
 
 
 
@@ -2096,6 +2094,7 @@ vos livres au format papier</span></a></td>
 </div>
 
 
+
   
 
 <script type="text/javascript">
@@ -2109,7 +2108,7 @@ window.$Nav && $Nav.declare('config.prefetch',function() {
     (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute(function (A) { A.preload(pUrls); });
 });
 
-  /* nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::isSecure=0::preload navc-qDkXA1IWymjMAtGBopFlbA0t0AqXm3p6owzeL2agEnzjgMfuEMFPB46e/cINxyh6qAvuU/I3tj0= rid-1423XD19657V7XBQ0VQR seq-487 (Mon Aug 31 01:16:03 2015) **CACHED-BY-NCCC** */
+  /* nav-config-asset-injection FR::desktop::standard::53154:C&53341:T1&56182:C::isSecure=0::preload navc-9MgaGBXeHgL1CzWn+rZmIdDLd8150ZsOi0OGBuZ6JyU6dTESRMITsKjf3eGmW5GS+f5ShFVe/mg= rid-0R0HAR9436JZ0XYPGFFP seq-487 (Mon Aug 31 02:11:35 2015) **CACHED-BY-NCCC** */
   
   __auiPreloadIndex = window.__auiPreloadIndex || 0;
   (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute("auiPreloadJS_"+(++__auiPreloadIndex), function(A){
