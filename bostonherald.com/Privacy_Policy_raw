@@ -293,7 +293,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-last-updated view-id-last_updated view-display-id-block view-dom-id-2e733ecadbeea0dea441289d4570df04">
+      <div class="view view-last-updated view-id-last_updated view-display-id-block view-dom-id-861f17dc87e3cff795d40a91517eeed6">
         
   
   
@@ -322,14 +322,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-weather-current-conditions view-id-weather_current_conditions view-display-id-block view-dom-id-b10e1bfa041160c7b326976ba6eb4ad7">
+      <div class="view view-weather-current-conditions view-id-weather_current_conditions view-display-id-block view-dom-id-c757ddb68853ec5b307ea4585775eac0">
         
   
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
     <div id="weather-teaser">
-  <a href="/extras/weather"><strong>Weather</strong><img src="http://www.bostonherald.com/sites/default/files/partlycloudy_794.gif" width="30" height="30" /> 86° F</a>
+  <a href="/extras/weather"><strong>Weather</strong><img src="http://www.bostonherald.com/sites/default/files/partlycloudy_793.gif" width="30" height="30" /> 88° F</a>
 </div>  </div>
     </div>
   
@@ -377,7 +377,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-herald-radio-now-playing view-id-herald_radio_now_playing view-display-id-block_5 view-dom-id-71eaad4d37c38af189156933392fedc0">
+      <div class="view view-herald-radio-now-playing view-id-herald_radio_now_playing view-display-id-block_5 view-dom-id-04c1c4d9caac7474412fed96772bf3ee">
         
   
   
@@ -400,7 +400,35 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div id="zone-alert" class="zone zone-alert clearfix container-24">
     <div class="grid-24 region region-alert" id="region-alert">
   <div class="region-inner region-alert-inner">
-    <!-- ESI: esi/block/ike_omega:alert:views:breaking_news-breaking_news_bar--><div class="block block-oas block-x80 block-oas-x80 odd block-without-title" id="block-oas-x80">
+    <!-- ESI: esi/block/ike_omega:alert:views:breaking_news-breaking_news_bar--><div class="block block-views block-breaking-news-breaking-news-bar block-views-breaking-news-breaking-news-bar odd block-without-title" id="block-views-breaking-news-breaking-news-bar">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-breaking-news view-id-breaking_news view-display-id-breaking_news_bar view-dom-id-266919cdf62a6a10f16cefb782598e4b">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last bnt--field-breaking-news-type">
+    <div class="node-tease breaking-bar Just In" title="Just In: Irish nanny lawyers: State finds baby&#039;s death not homicide">
+	    <h1 class="node-title">
+        <a href="/news_opinion/local_coverage/herald_bulldog/2015/08/irish_nanny_lawyers_state_finds_babys_death_not"
+         title="Just In:
+         Irish nanny lawyers: State finds baby&#039;s death not homicide">
+            <strong>Just In:</strong>
+            Irish nanny lawyers: State finds baby&#039;s death not homicide        </a>
+      </h1>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-oas block-x80 block-oas-x80 odd block-without-title" id="block-oas-x80">
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">

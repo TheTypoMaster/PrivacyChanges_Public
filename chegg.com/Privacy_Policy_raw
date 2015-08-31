@@ -1359,7 +1359,7 @@ properly, or do not have complete information.</p>
     C.global.cachedJS["http://c.cheggcdn.com/_r/495baae59ba1bc697831e925eb00f54f.js"] = true
 C.global.cachedJS["//s.btstatic.com/tag.js#site=ce4UWiM"] = true
 
-    C.global.csrfToken = 'c5430351b0db855623d679c25dba44c9';
+    C.global.csrfToken = '5eacfde9920462a51ce816b2077da872';
 C.global.staticBaseUrl = 'http://c.cheggcdn.com/';
 C.global.assetUrl = 'https://a248.e.akamai.net/static.chegg.com/assets/';
 C.global.coversBaseUrl = 'http://c.cheggcdn.com/';
@@ -1382,8 +1382,8 @@ C.global.beacon = false;
 C.global.disableErrorhandling = false;
 C.global.version = '3.0';
 C('logger');
-C.logger.loadTime=1441040861.1314;
-C.logger.pageTrackId='a32bc954f8673e6ab377b14c84163217';
+C.logger.loadTime=1441045261.1916;
+C.logger.pageTrackId='7dfae930c3d48528476dc00216be52dc';
 C.global.showViewMobileSiteButton = false;
 C.global.hasHiddenSearchBox = false;
 C.global.search = 'use_non_federated';
@@ -1427,5 +1427,5 @@ C.global.cs.heapData = JSON.parse('null');
 <noscript>
     <img src="http://www.chegg.com/_ajax/cheggpixel?ns=1" />
 </noscript>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0788ceb48b","applicationID":"677809","transactionName":"blRWMEYCWBJUAUALDVcedxFHF1kMGgFcBU9pQ10SVQBPMVoOXQEbZnJbCkARWQ1ZB0Y=","queueTime":0,"applicationTime":69,"ttGuid":"","agentToken":"","atts":"QhNVRg4YSxw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0788ceb48b","applicationID":"677809","transactionName":"blRWMEYCWBJUAUALDVcedxFHF1kMGgFcBU9pQ10SVQBPMVoOXQEbZnJbCkARWQ1ZB0Y=","queueTime":0,"applicationTime":86,"ttGuid":"","agentToken":"","atts":"QhNVRg4YSxw=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
 </html><!--   -->

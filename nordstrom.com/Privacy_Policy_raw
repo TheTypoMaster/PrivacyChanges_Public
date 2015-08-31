@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"25AC666A234B6071FC2252AAA3AD09E2646174653D323031352D30382D3331267573657269643D3236383263636539373535353465656639376530666265656434306134316137","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"2682cce975554eef97e0fbeed40a41a7","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"79b01507-6aa5-4eb1-a381-ec13cc73edb1","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"D8A2B5C796D6DD0FE12ED2238443F710646174653D323031352D30382D3331267573657269643D6231636330346463353466343438376461653036343837666531623864626636","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"b1cc04dc54f4487dae06487fe1b8dbf6","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"4eb3e915-17e2-4e79-84f1-219fed8f3d5d","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -1058,7 +1058,7 @@ window.nord.config.settings.environment = "Production";
 			</ul>
 					<h3 class="stylewatch nav-entry-style-watch">Style Watch</h3>
 			<ul>
-				<li class="nav-entry-70s-trend"><a href="http://shop.nordstrom.com/c/70s-trend?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Trend-_-Style Watch_&#39;70s Trend">&#39;70s Trend</a></li>
+				<li class="nav-entry-fall-trends"><a href="http://shop.nordstrom.com/c/fall-trend?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Trend-_-Style Watch_Fall Trends">Fall Trends</a></li>
 				<li class="nav-entry-style-deals"><a href="http://shop.nordstrom.com/c/trend-style-deals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Trend-_-Style Watch_Style Deals">Style Deals</a></li>
 				<li class="nav-entry-brand-crush"><a href="http://shop.nordstrom.com/c/trend-brand-crush?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Trend-_-Style Watch_Brand Crush">Brand Crush</a></li>
 				<li class="nav-entry-outfits-matching-sets"><a href="http://shop.nordstrom.com/c/trend-outfits?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Trend-_-Style Watch_Outfits &amp; Matching Sets">Outfits &amp; Matching Sets</a></li>

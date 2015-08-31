@@ -52,7 +52,7 @@
 		<link href="https://plus.google.com/101792368055128831913/" rel="publisher" />
 
 		<!-- css -->
-	<link href="http://gaia.adage.com/assets/css/core.css?1440429413" media="all" rel="stylesheet" type="text/css" />
+	<link href="http://gaia.adage.com/assets/css/core.css?1441044444" media="all" rel="stylesheet" type="text/css" />
 	<link href="http://gaia.adage.com/assets/css/modal.css?1421357751" media="all" rel="stylesheet" type="text/css" />
 
 		<!-- ad age global js -->
@@ -237,8 +237,10 @@ function OAS_AD(pos) {
 		    if (typeof adageUser != "undefined" && adageUser.userID != null) {
 			    $("#adage-register").text(adageUser.user.Profile.firstName);
 			    $("#membership-level").text(adageUser.user.Membership.tier_name);
-			    if (typeof adageUser.user.memberFileCount != "undefined") {
-		            $("#member-file-count").text(adageUser.user.memberFileCount);
+			    if ((typeof adageUser.user.memberFileCount != "undefined") && (adageUser.user.memberFileCount > 0)) {
+			      $("#member-file-count").text(adageUser.user.memberFileCount);
+			    } else {
+			    	$('.filecount').hide();
 			    }
 	            $("#member-welcome-logged-in").removeClass('hidden');
 	        } else {
@@ -503,7 +505,7 @@ menu item
 
 
 <!-- floating nav -->	<div class="shortcut-bar" data-100="top: -80px;" data-150="top:0;" data-behavior="shortcut_bar">
-	<div class="container" data-section-id="654">
+	<div class="container" data-section-id="285">
 		<p class="logo">
 			<a href="/" onclick="trackOutboundLink(this, 'Logo-shortcutbar-Link', 'Homepage', '/'); return false;">Advertising Age</a>
 		</p>
@@ -587,6 +589,42 @@ menu item
 
 			                <li class="news-img-left">
                     <div>
+						<a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More', 'http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/ZAN_GOODMAN.jpg?1440750323" width="100" height="67" alt="Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More" title="Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More', 'http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/']);">Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More</a></h4>
+						<p>By <a href="http://adage.com/author/alexandra-jardine/518">Alexandra Jardine</a> - 49 minutes ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More', 'http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/cleanclear_acceptancespeeches_3x2.jpg?1441039690" width="100" height="67" alt="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" title="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">Clean & Clear's Acceptance Speeches Steal the Show at the VMAs</a></h4>
+						<p>1 hour ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
 						<a href="http://adage.com/article/cmo-strategy/smartphone-woes-punish-samsung-market-share-profit/300153/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Smartphone Woes Punish Samsung Market Share, Profit and Stock Price', 'http://adage.com/article/cmo-strategy/smartphone-woes-punish-samsung-market-share-profit/300153/']);">
                             
                             <div class="trim">
@@ -595,7 +633,7 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/cmo-strategy/smartphone-woes-punish-samsung-market-share-profit/300153/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Smartphone Woes Punish Samsung Market Share, Profit and Stock Price', 'http://adage.com/article/cmo-strategy/smartphone-woes-punish-samsung-market-share-profit/300153/']);">Smartphone Woes Punish Samsung Market Share, Profit and Stock Price</a></h4>
-						<p>44 minutes ago</p>
+						<p>2 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/cmo-strategy/smartphone-woes-punish-samsung-market-share-profit/300153/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
@@ -613,7 +651,7 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Google\'s Android Watch Software to Work With Apple\'s IPhones', 'http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/']);">Google's Android Watch Software to Work With Apple's IPhones</a></h4>
-						<p>1 hour ago</p>
+						<p>2 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
@@ -631,47 +669,11 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Now You Can Get Some Colbert With Your Stumptown Cold Brew', 'http://adage.com/article/media/colbert-cold-brew-stumptown/300149/']);">Now You Can Get Some Colbert With Your Stumptown Cold Brew</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 2 hours ago</p>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 3 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Now You Can Get Some Colbert With Your Stumptown Cold Brew', 'http://adage.com/article/media/colbert-cold-brew-stumptown/300149/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/Keep_Calm_Biscuit_Shirt.jpeg?1441031357" width="100" height="106" alt="Let the $5 Chicken Meal War Begin" title="Let the $5 Chicken Meal War Begin" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">Let the $5 Chicken Meal War Begin</a></h4>
-						<p>By <a href="http://adage.com/author/jessica-wohl/6777">Jessica Wohl</a> - 2 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/applemaps2.jpg?1440789410" width="100" height="67" alt="Apple and Facebook Put Lesser-Known Factual on the Map" title="Apple and Facebook Put Lesser-Known Factual on the Map" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">Apple and Facebook Put Lesser-Known Factual on the Map</a></h4>
-						<p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 2 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -687,6 +689,42 @@ menu item
 				
 			                <li class="news-img-left">
                     <div>
+						<a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/Keep_Calm_Biscuit_Shirt.jpeg?1441031357" width="100" height="106" alt="Let the $5 Chicken Meal War Begin" title="Let the $5 Chicken Meal War Begin" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">Let the $5 Chicken Meal War Begin</a></h4>
+						<p>By <a href="http://adage.com/author/jessica-wohl/6777">Jessica Wohl</a> - 3 hours ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" class="share-count">44<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/cleanclear_acceptancespeeches_3x2.jpg?1441039690" width="100" height="67" alt="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" title="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">Clean & Clear's Acceptance Speeches Steal the Show at the VMAs</a></h4>
+						<p>1 hour ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" class="share-count">19<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
 						<a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">
                             
                             <div class="trim">
@@ -695,10 +733,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Confronts Ad Blockers Erasing Commercials Online</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 6 hours ago</p>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 7 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">259<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">314<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -713,29 +751,11 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);">Coke Zero Wants College Football Fans to 'Drink' Its Ads</a></h4>
-						<p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 6 hours ago</p>
+						<p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 7 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" class="share-count">86<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" class="share-count">93<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Google\'s Android Watch Software to Work With Apple\'s IPhones', 'http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/android_wear_3x2_1441037205.jpg?1441037205" width="100" height="67" alt="Google's Android Watch Software to Work With Apple's IPhones" title="Google's Android Watch Software to Work With Apple's IPhones" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Google\'s Android Watch Software to Work With Apple\'s IPhones', 'http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/']);">Google's Android Watch Software to Work With Apple's IPhones</a></h4>
-						<p>1 hour ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" class="share-count">63<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Google\'s Android Watch Software to Work With Apple\'s IPhones', 'http://adage.com/article/digital/google-s-android-watch-software-work-apple-s-iphones/300152/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -749,29 +769,11 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?</a></h4>
-						<p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 6 hours ago</p>
+						<p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 7 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">72<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/Huawei3X2.jpg?1440568628" width="100" height="67" alt="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" title="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);">Chinese Brands Want to Go Global; Here's Why It's Still So Tough</a></h4>
-						<p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 6 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">90<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><i class="icon icon-comment"></i> 0</a></li>
+                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">89<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 1</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -802,10 +804,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Networks Confront Ad Blockers Erasing Their Commercials Online" title="TV Networks Confront Ad Blockers Erasing Their Commercials Online" /></a>
                         <h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Networks Confront Ad Blockers Erasing Their Commercials Online</a></h4>
-                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 5 hours ago</p>
+                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 6 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">223<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">259<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -814,10 +816,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Huawei3X2.jpg?1440568628" width="100" height="67" alt="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" title="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" /></a>
                         <h4><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);">Chinese Brands Want to Go Global; Here's Why It's Still So Tough</a></h4>
-                        <p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 5 hours ago</p>
+                        <p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 6 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">86<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">90<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -826,11 +828,11 @@ menu item
                     <div>
                         <a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Yelp_Image2.jpg?1440596880" width="100" height="67" alt="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" title="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" /></a>
                         <h4><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?</a></h4>
-                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 5 hours ago</p>
+                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 6 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">55<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 0</a></li>
+							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">72<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 1</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -1019,7 +1021,7 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
 	</div>
 </aside><!-- / #sub-footer -->
 
-<!-- Total time: 0.25843000412 -->
+<!-- Total time: 0.020427942276 -->
 
 	<script type='text/javascript'>
 		OAS_AD('x90');
@@ -1115,5 +1117,5 @@ _sf_async_config.useCanonical = true;
 
 
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":81,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":95,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

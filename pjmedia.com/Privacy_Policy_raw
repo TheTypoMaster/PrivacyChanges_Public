@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1755899559'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=272341827'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1166549823'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1900801284&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=791215580'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=296586122'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=2010147735'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=227000551&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=572944509');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=415324738');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=2008663546');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=987914582');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1867311751');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1518305588');"></a>
   </span>
 </span>
 
@@ -610,9 +610,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 							
 											<li><a href="http://pjmedia.com/victordavishanson/illegal-immigration-finally-turned-off-public/">How Illegal Immigration Finally Turned Off the Public</a></li>
 											
-											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
+											<li><a href="http://pjmedia.com/drhelen/2015/08/31/orthorexia-nervosa-the-disease-disguised-as-a-virtue/">Orthorexia Nervosa: The 'Disease Disguised as a Virtue'</a></li>
 											
-											<li><a href="http://pjmedia.com/tatler/2015/08/30/israel-confirms-iran-stockpiling-ballistic-missiles/">Israel Confirms Iran Stockpiling Ballistic Missiles</a></li>
+											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -627,7 +627,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/tatler/2015/08/31/study-blind-people-can-be-racist/">Study: Blind People Can Be Racist</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/alaskas-gop-members-of-congress-back-obama-on-mount-mckinley-name-change/">Alaska&#8217;s GOP Members of Congress Back Obama on Mount McKinley Name Change</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/bernie-heading-back-to-iowa-as-he-closes-in-on-hillary/">Bernie Heading Back to Iowa as He Closes in on Hillary</a></li>
+				<li><a href="http://pjmedia.com/tatler/2015/08/31/ben-carson-now-tied-with-trump-in-iowa-poll-carly-fiorina-in-2nd/">Ben Carson Now Tied with Trump in Iowa Poll; Carly Fiorina in 2nd</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/study-blind-people-can-be-racist/">Study: Blind People Can Be Racist</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/alaskas-gop-members-of-congress-back-obama-on-mount-mckinley-name-change/">Alaska&#8217;s GOP Members of Congress Back Obama on Mount McKinley Name Change</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213504/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">STUDY: BLIND PEOPLE CAN BE RACIST: “Twenty-five people? This is more like a large focus group than any sort of quantitative endeavor. <a target="_blank" href="http://pjmedia.com/tatler/2015/08/31/study-blind-people-can-be-racist/">It makes a good headline but this is hardly scientific.”</a> ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213454/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">VLAD, GET OFF THOSE GIRLY-MAN WEIGHT MACHINES AND TRY <a target="_blank" href="http://www.amazon.com/gp/product/0982522738/ref=as_li_qf_sp_asin_tl?ie=UTF8&#038;tag=insta0c-20&#038;linkCode=as2&#038;camp=217145&#038;creative=399373&#038;creativeASIN=0982522738">READING MARK RIPPETOE</a> INSTEAD.  THEN YOU&#8217;LL LOOK LIKE A <em>REAL</em> MAN.  <a target="_blank" href="http://www.dailymail.co.uk/news/article-3215995/Hilarious-pictures-Vladimir-Putin-revealing-workout-secrets-hits-gym-alongside-Prime-Minister-time-keeps-shirt-on.html">Putin launches a new arms race: Action man Vlad&#8217;s latest photo stunt shows him and Russian PM Medvedev pumping iron in the gym.</a> ...</a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213458/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">ALSO, A MILITARY BUILDUP:  <a target="_blank" href="http://spectrum.ieee.org/energy/policy/fear-of-russia-drives-highvoltage-power-projects-in-the-baltics">Fear of Russia Drives High-Voltage Power Projects in the Baltics.</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213508/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">THERE IS AN INDIVIDUAL WHO IS RESPONSIBLE.  THAT INDIVIDUAL IS KNOWN.  THAT INDIVIDUAL WILL EVENTUALLY TALK.  <a target="_blank" href="http://www.foxnews.com/politics/2015/08/31/did-clinton-emails-jump-from-classified-to-unclassified-system/?intcmp=hpbt1">Mystery deepens into how classified emails got onto Clinton&#8217;s unclassified server.</A>  &#8220;It is hard to move classified documents into the non-classified system. You couldn&#8217;t move a document by mistake.&#8221; ...</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":362,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":352,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

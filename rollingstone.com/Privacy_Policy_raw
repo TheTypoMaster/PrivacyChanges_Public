@@ -122,13 +122,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <header id="site-header" data-track-action="top-nav">
-			<div class="header-top page-container no-feature">
+			<div class="header-top page-container has-featured">
+					<figure id="header-promo">
+				<a href="/music/news/the-passion-of-kanye-west-20060209" data-track data-track-category="Global Nav" data-track-action="Feature" data-track-label="Click">
+					<img src="http://assets.rollingstone.com/images/2015/1441041224/global-kanye-iso-244x240.png">
+					<figcaption>
+						From the Archives: The Passion of Kanye West
+						<strong>Read More</strong>
+					</figcaption>
+				</a>
+			</figure>
 				<div class="rs-logo-big">
     		<a href="/" data-track data-track-label="RS Logo">
     			<img src="/assets/img/global-logo-rs.svg" alt="Rolling Stone">
     		</a>
 		</div>
-		<ul id="social-links" class="social-links " data-track-action="Social" data-track-category="Global Nav">
+		<ul id="social-links" class="social-links has-featured" data-track-action="Social" data-track-category="Global Nav">
 			<li><div class="fb-like" data-href="https://www.facebook.com/RollingStone" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>
 			<li><a href="https://twitter.com/RollingStone" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @RollingStone</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
 			<li><div class="g-plusone" data-height="20" data-annotation="none" data-href="https://plus.google.com/+rollingstone/posts"></div></li>
@@ -141,7 +150,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<li class="subscribe-top"><a href="/coverwall" data-track data-track-label="Coverwall">Coverwall</a></li>
 		</ul>
 	</div>
-	<div class="header-bottom header-top-border no-feature">
+	<div class="header-bottom header-top-border has-featured">
 		<div class="header-bottom-content page-container">
 					<div class="rs-logo">
 				<a href="							/
@@ -168,30 +177,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<span class="type-31">Latest </span>
 							<span class="type-47">Music</span>
 						</h2>
-						<a href="/music/pictures/mtv-vmas-2015-photos-from-the-red-carpet-20150830" data-track data-track-action="Music" data-track-label="Latest Featured">
+						<a href="/music/news/how-halsey-went-from-viral-sensation-to-americas-buzziest-new-pop-star-20150831" data-track data-track-action="Music" data-track-label="Latest Featured">
 							<div class="img-container">
-								<img alt="miley cyrus" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/gallery/mtv-vmas-2015-photos-from-the-red-carpet-20150830/207683/small_rect/1440979987/231x130-GettyImages-485978648.jpg" />
+								<img alt="halsey" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/article/how-halsey-went-from-viral-sensation-to-americas-buzziest-new-pop-star-20150831/207494/small_rect/1440714387/231x130-GettyImages-482912446.jpg" />
 							</div>
-							<h3 class="type-29">MTV VMAs 2015: Photos From the Red Carpet</h3>
+							<h3 class="type-29">How Halsey Went From Viral Sensation to America&#039;s Buzziest New Pop Star</h3>
 							
-															<p class="author type-05">By Rolling Stone</p>
+															<p class="author type-05">By Paula Mejia</p>
 							 
 						</a>
 					</li>
 
 					<li class="subnav-col col-two">
 						<div class="col-content">
-															<a href="/music/pictures/miley-cyrus-best-outfits-at-the-2015-mtv-vmas-20150831" data-track data-track-action="Music" data-track-label="Latest Featured 1">
-									<h3 class="type-10">Miley Cyrus&#039; Craziest Outfits at the 2015 MTV VMAs</h3>
-									<time class="type-05">8 hours ago</time>
+															<a href="/music/pictures/mtv-vmas-2015-photos-from-the-red-carpet-20150830" data-track data-track-action="Music" data-track-label="Latest Featured 1">
+									<h3 class="type-10">MTV VMAs 2015: Photos From the Red Carpet</h3>
+									<time class="type-05">13 hours ago</time>
 								</a>
-															<a href="/music/lists/motorheads-lemmy-my-life-in-15-snarls-20150828" data-track data-track-action="Music" data-track-label="Latest Featured 2">
+															<a href="/music/pictures/miley-cyrus-best-outfits-at-the-2015-mtv-vmas-20150831" data-track data-track-action="Music" data-track-label="Latest Featured 2">
+									<h3 class="type-10">Miley Cyrus&#039; Craziest Outfits at the 2015 MTV VMAs</h3>
+									<time class="type-05">10 hours ago</time>
+								</a>
+															<a href="/music/lists/motorheads-lemmy-my-life-in-15-snarls-20150828" data-track data-track-action="Music" data-track-label="Latest Featured 3">
 									<h3 class="type-10">Motorhead&#039;s Lemmy: My Life in 15 Snarls</h3>
 									<time class="type-05">2 days ago</time>
-								</a>
-															<a href="/music/news/happy-birthday-highway-61-dylans-weirdest-funniest-album-turns-50-20150827" data-track data-track-action="Music" data-track-label="Latest Featured 3">
-									<h3 class="type-10">Happy Birthday, &#039;Highway 61&#039;: Dylan&#039;s Weirdest, Funniest Album Turns 50</h3>
-									<time class="type-05">3 days ago</time>
 								</a>
 							
 															<a class="type-15 more-link" href="/music/news" data-track data-track-action="Music" data-track-label="More Music News">More Music News »</a>
@@ -321,25 +330,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<span class="type-31">Latest </span>
 							<span class="type-47">Politics</span>
 						</h2>
-						<a href="/politics/news/how-to-respond-to-the-latest-mass-shooting-20150826" data-track data-track-action="Politics" data-track-label="Latest Featured">
+						<a href="/politics/news/watch-sarah-palins-admiration-filled-interview-with-donald-trump-20150829" data-track data-track-action="Politics" data-track-label="Latest Featured">
 							<div class="img-container">
-								<img alt="Alison Parker and Adam Ward" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/article/how-to-respond-to-the-latest-mass-shooting-20150826/207269/small_rect/1440615586/231x130-Ward-Parker.jpg" />
+								<img alt="Trump" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/article/watch-sarah-palins-admiration-filled-interview-with-donald-trump-20150829/207639/small_rect/1440853578/231x130-trump.jpg" />
 							</div>
-							<h3 class="type-29">How to Respond to the Latest Mass Shooting</h3>
+							<h3 class="type-29">Watch Sarah Palin&#039;s Gushing Interview With Donald Trump</h3>
 							
-															<p class="author type-05">By Jeb Lund</p>
+															<p class="author type-05">By Daniel Kreps</p>
 							 
 						</a>
 					</li>
 
 					<li class="subnav-col col-two">
 						<div class="col-content">
-															<a href="/politics/news/how-the-gop-field-is-blowing-it-on-race-20150826" data-track data-track-action="Politics" data-track-label="Latest Featured 1">
-									<h3 class="type-10">How the GOP Field Is Blowing It on Race</h3>
+															<a href="/politics/news/how-to-respond-to-the-latest-mass-shooting-20150826" data-track data-track-action="Politics" data-track-label="Latest Featured 1">
+									<h3 class="type-10">How to Respond to the Latest Mass Shooting</h3>
 									<time class="type-05">4 days ago</time>
 								</a>
-															<a href="/politics/news/poll-fighting-marijuana-legalization-is-bad-politics-20150826" data-track data-track-action="Politics" data-track-label="Latest Featured 2">
-									<h3 class="type-10">Poll: Fighting Marijuana Legalization Is Bad Politics</h3>
+															<a href="/culture/news/walmart-halts-sale-of-assault-weapons-20150826" data-track data-track-action="Politics" data-track-label="Latest Featured 2">
+									<h3 class="type-10">Walmart Halts Sale of Assault Weapons</h3>
 									<time class="type-05">4 days ago</time>
 								</a>
 															<a href="/politics/videos/the-lasting-effects-of-hurricane-katrina-20150824" data-track data-track-action="Politics" data-track-label="Latest Featured 3">
@@ -809,17 +818,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 					<li class="subnav-col col-two">
 						<div class="col-content">
-															<a href="/sports/lists/the-bad-news-bills-buffalos-unapologetic-new-era-20150831" data-track data-track-action="Sports" data-track-label="Latest Featured 1">
+															<a href="/sports/videos/watch-hulk-hogans-emotional-interview-about-racist-remarks-wwe-firing-20150831" data-track data-track-action="Sports" data-track-label="Latest Featured 1">
+									<h3 class="type-10">Watch Hulk Hogan&#039;s Emotional Interview About Racist Remarks, WWE Firing</h3>
+									<time class="type-05"></time>
+								</a>
+															<a href="/sports/lists/the-bad-news-bills-buffalos-unapologetic-new-era-20150831" data-track data-track-action="Sports" data-track-label="Latest Featured 2">
 									<h3 class="type-10">The Bad News Bills: Buffalo&#039;s Unapologetic New Era</h3>
 									<time class="type-05"></time>
 								</a>
-															<a href="/sports/news/watch-kanye-west-get-booed-by-60-000-people-at-a-dodgers-game-20150831" data-track data-track-action="Sports" data-track-label="Latest Featured 2">
+															<a href="/sports/news/watch-kanye-west-get-booed-by-60-000-people-at-a-dodgers-game-20150831" data-track data-track-action="Sports" data-track-label="Latest Featured 3">
 									<h3 class="type-10">Watch Kanye West Get Booed by &#039;60,000 People&#039; at a Dodgers Game</h3>
-									<time class="type-05"></time>
-								</a>
-															<a href="/sports/features/dez-bryant-the-survivor-20150827" data-track data-track-action="Sports" data-track-label="Latest Featured 3">
-									<h3 class="type-10">Dez Bryant: The Survivor</h3>
-									<time class="type-05">3 days ago</time>
+									<time class="type-05">28 minutes ago</time>
 								</a>
 							
 															<a class="type-15 more-link" href="/sports/news" data-track data-track-action="Sports" data-track-label="More Sports News">More Sports News »</a>
@@ -830,12 +839,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 													<h2 class="type-31">Feature</h2>
 						
 							<div class="col-content">
-								<a href="/sports/features/russell-wilson-the-chosen-one-20150826" data-track data-track-action="Sports" data-track-label="Feature">
+								<a href="/sports/features/dez-bryant-the-survivor-20150827" data-track data-track-action="Sports" data-track-label="Feature">
 									<div class="colThree-pic">
-										<img alt="Russell Wilson" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/article/russell-wilson-the-chosen-one-20150826/206829/small_rect/1440180578/231x130-R1243_NFL_Wilson_D.jpg" />
+										<img alt="dez bryant" class="js-img-lazy " data-src="http://assets.rollingstone.com/assets/2015/article/dez-bryant-the-survivor-20150827/207072/small_rect/1440527725/231x130-R1243_NFL_DEZ_F.jpg" />
 									</div>
-									<h3 class="type-28 upper-case">Russell Wilson: The Chosen One</h3>
-									<p class="type-09">Seattle&#039;s field general has been groomed...</p>
+									<h3 class="type-28 upper-case">Dez Bryant: The Survivor</h3>
+									<p class="type-09">Deep poverty, family drama, mudslinging and...</p>
 								</a>
 							</div>
 						
@@ -1218,7 +1227,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="col-content">
 															<a href="/music/news/hear-a-rare-1990-glen-campbell-recording-in-england-20150831" data-track data-track-action="Country" data-track-label="Latest Featured 1">
 									<h3 class="type-10">Hear a Rare 1990 Glen Campbell Recording in England</h3>
-									<time class="type-05"></time>
+									<time class="type-05">1 hour ago</time>
 								</a>
 															<a href="/music/news/charles-kelley-on-lady-antebellums-future-we-need-to-step-away-20150831" data-track data-track-action="Country" data-track-label="Latest Featured 2">
 									<h3 class="type-10">Charles Kelley on Lady Antebellum&#039;s Future: &#039;We Need to Step Away&#039;</h3>
@@ -1781,5 +1790,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5ee52db725","applicationID":"4957501","transactionName":"YAFVYhZSXBcDWk0KV1lLdlUQWl0KTV9cPEhFDUFXB0o=","queueTime":0,"applicationTime":137,"atts":"TEZWFF5ITxk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5ee52db725","applicationID":"4957501","transactionName":"YAFVYhZSXBcDWk0KV1lLdlUQWl0KTV9cPEhFDUFXB0o=","queueTime":0,"applicationTime":132,"atts":"TEZWFF5ITxk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
 </html>
