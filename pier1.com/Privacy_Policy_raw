@@ -1072,7 +1072,7 @@ $(document).ready(function(){
 							Create Your Account
 						</button>
 					</div>
-					<input type="hidden" name="dwfrm_login_securekey" value="924320196"/>
+					<input type="hidden" name="dwfrm_login_securekey" value="485071739"/>
 				</fieldset>
 			</form>
 			
@@ -8329,7 +8329,7 @@ and (max-device-width : 480px) {
 	(function(){
 		var links = document.getElementsByTagName('link'),
 			exists = false,
-			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1440922445081/css/global-text-banner-150830.css");
+			url = encodeURI("http://demandware.edgesuite.net/aaid_prd/on/demandware.static/-/Sites-pier1_us-Library/default/v1441009158239/css/global-text-banner-150830.css");
 
 		for(var i = links.length-1; i >= 0; i--){
 		    if(links[i].href.indexOf(url) !== -1){
@@ -10227,7 +10227,7 @@ omnRemoteIP = "52.2.142.173";
 omnServer = omnRemoteIP;
 omnDay = "Monday";
 omnWeekday = "WeekDay";
-omnHour=  "1";
+omnHour=  "2";
 omnReferrerURL= "";
 omnDeviceType= "desktop";
 </script>

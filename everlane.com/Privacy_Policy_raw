@@ -31,8 +31,8 @@
     Everlane
   </title>
 
-  <link rel="icon" href="//everlane-2.imgix.net/static/favicon4.ico?dpr=1&amp;q=65" type="image/x-icon">
-<link rel="shortcut icon" href="//everlane-2.imgix.net/static/favicon4.ico?dpr=1&amp;q=65" type="image/x-icon">
+  <link rel="icon" href="//everlane.imgix.net/static/favicon4.ico?dpr=1&amp;q=65" type="image/x-icon">
+<link rel="shortcut icon" href="//everlane.imgix.net/static/favicon4.ico?dpr=1&amp;q=65" type="image/x-icon">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="//everlane.imgix.net/static/apple_touch_icon_152.png?dpr=1&amp;q=65">
 <link rel="apple-touch-icon" href="//everlane.imgix.net/static/apple_touch_icon_152.png?dpr=1&amp;q=65">
 
@@ -40,8 +40,8 @@
   <meta name="fragment" content="!">
 
   <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="Nv8dFQixomv4VFisnaRy80QQt0bdKF0Y2ZSPX24PRdtdZ3JQpd5Cd/KCWf6MgoU3EOdomWpjAj8OzhYiOu+0Tg==" />
-  <meta name="omniauth_csrf_token" content="e6295555217fd55778206f688cb1666ae542dc46a670f270"></meta>
+<meta name="csrf-token" content="BhtqgufI4ytd/RTIM+QEOO6DoUc1hzjImKXibKymN+Jc3Ciyi/bPQ7nB9eX+qAftOBFg2gQ+5+R3klzHJriBsA==" />
+  <meta name="omniauth_csrf_token" content="ecdf0dcf94f3333a44e698c79ac74a7dbacf642ba434f1e8"></meta>
 
   
 
@@ -87,7 +87,7 @@ E.config.isLoggedIn           = false;
 E.config.country              = "US";
 E.config.country_code         = "US";
 E.config.isMobile             = false;
-E.config.collectionsCacheKey  = "collections/146-20150831032303000000000";
+E.config.collectionsCacheKey  = "collections/296-20150831091903000000000";
 E.config.referredClick        = "" || void 0;
 
 E.data.geocode         = {"request":"52.2.142.173","ip":"52.2.142.173","country_code2":"US","country_code3":"USA","country_name":"United States","continent_code":"NA","region_name":"WA","city_name":"Seattle","postal_code":"98109","latitude":47.6344,"longitude":-122.3422,"dma_code":819,"area_code":206,"timezone":"America/Los_Angeles","real_region_name":"Washington"}
@@ -103,7 +103,7 @@ E.constants = {"days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Frida
 
 
 E.data.session = {
-  visitor: {"session_id":"a6d72f9f95c0ce7270865747f0cd4962","shoe_size":null,"email":null,"phone_number":null,"analytics_data":{"engagement_number":0,"last_sequence":0},"rsvps":[]},
+  visitor: {"session_id":"1ae191245176ee2a94ed4e7d7bf9bf09","shoe_size":null,"email":null,"phone_number":null,"analytics_data":{"engagement_number":0,"last_sequence":0},"rsvps":[]},
 
 };
 

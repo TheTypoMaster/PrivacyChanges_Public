@@ -740,35 +740,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3629/going-beyond-apm-with-real-time-it-operations-analytics.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Go beyond APM with real-time IT operations analytics</h4>
+                <h4>Accelerate Citrix login times with cross-tier insight</h4>
                 <div class=standfirst>
-                    How IT operations teams can harness wire data already for real-time operational intelligence
+                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4016/openstack-for-enterprise-ebook-vmturbo.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4012/vmturbo-and-arista-networks-assuring-application-qos.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>OpenStack for enterprise: The tipping point cometh</h4>
+                <h4>Assuring application performance at scale</h4>
                 <div class=standfirst>
-                    A brief history of the OpenStack cloud operating system, its releases and projects, and significant enterprise adoptions.
+                    Empowering data center operators with an open and programmable network that easily scales to thousands of compute and storage nodes.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4046/sel03033usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4045/sew03073usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>The perils of phishing</h4>
+                <h4>2015 Cyber security intelligence index</h4>
                 <div class=standfirst>
-                    How criminals use emails specifically designed to gain access to your personal information as well as your company's network and details how they entice employees to fall victim to phishing.
+                    The Cyber Security Intelligence Index offers a high-level overview of the major threats to businesses worldwide over the past year.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4060/the-evolution-of-ransomware.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4062/ga-wp-keeping-your-data-safe-wsj-symantec.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>The evolution of ransomware</h4>
+                <h4>Keeping your data safe</h4>
                 <div class=standfirst>
-                    How different types of ransomware work, not just from a technological point of view but also from a psychological viewpoint.
+                    Understanding worldwide cloud adoption across leading organizations and the challenges associated with its use.
                 </div>
             </a>
         </div>
@@ -802,16 +802,16 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/29/forking_bitcoinxt/">
-                            <img src="https://regmedia.co.uk/2015/08/14/money_run.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
-                <h4>FORKING BitcoinXT: Is it really a coup or just more crypto-FUD?
+            <a href="/2015/08/29/itc_rejects_patent_infringement_claim_against_microsoft/">
+                            <img src="https://regmedia.co.uk/2015/07/30/microsoft_monopoly.jpg?x=88&amp;y=58&amp;crop=1" alt="Microsoft monopoly" width=88 height=58>
+                <h4>US trade watchdog deep-sixes patent infringement claim against Microsoft
                 </h4>
             </a>
         </li>
         <li>
-            <a href="/2015/08/29/itc_rejects_patent_infringement_claim_against_microsoft/">
-                            <img src="https://regmedia.co.uk/2015/07/30/microsoft_monopoly.jpg?x=88&amp;y=58&amp;crop=1" alt="Microsoft monopoly" width=88 height=58>
-                <h4>US trade watchdog deep-sixes patent infringement claim against Microsoft
+            <a href="/2015/08/30/dropbox_outage/">
+                            <img src="https://regmedia.co.uk/2015/02/05/dumb_and_dumber.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
+                <h4>Dropbox DROPS BOX as service GOES TITSUP worldwide
                 </h4>
             </a>
         </li>
@@ -968,31 +968,28 @@ Southport PR8 1LJ</p>
 
     <script>
         $(function() {
-            if ($('#top_tease').length) {
+            if ($('#tags.article_unit').length) {
                 var ab_set = {
                     view_tracking:  'true',
                     click_tracking: 'true',
-                    click_target:   '#top_tease a.large_story',
-                    group:          'B (650 image)',
-                    name:           'AB: Toptease 2015'
+                    click_target:   '#tags.article_unit a',
+                    group:          'E (full boxed individual coloured)',
+                    name:           'AB: Tags 2015'
                 };
                 track_bucket_user(ab_set);
+            }
+        });
 
-                var ab_set = {
+        $(function() {
+            if ($('#tags.article_unit').length) {
+                var ab_set_2 = {
+                    view_tracking:  'true',
                     click_tracking: 'true',
-                    click_target:   '#top_tease .story_list a',
-                    group:          'B (650 image)',
-                    name:           'AB: Toptease 2015 (side stories)'
+                    click_target:   '#crumb_trail a',
+                    group:          'E (full boxed individual coloured)',
+                    name:           'AB: Crumbtrail 2015'
                 };
-                track_bucket_user(ab_set);
-
-                var ab_set = {
-                    click_tracking: 'true',
-                    click_target:   '#main-col #index_page .headline_row a',
-                    group:          'B (650 image)',
-                    name:           'AB: Toptease 2015 (main stories)'
-                };
-                track_bucket_user(ab_set);
+                track_bucket_user(ab_set_2);
             }
         });
     </script>
@@ -1047,7 +1044,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(294) });
+        $(function() { set_bucket_group(189) });
     </script>
         <div id="fb-root"></div>
     </div>

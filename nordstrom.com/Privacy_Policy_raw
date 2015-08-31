@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"80CDF72A4C30FEA4B02B889047626B95646174653D323031352D30382D3331267573657269643D3633333732396166383365623434633261393038393866326438363437353630","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"633729af83eb44c2a90898f2d8647560","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"f3ed6605-fba4-4c3f-8159-6ebe9187b846","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"49A4EC944A0C4E4877637969A2068B06646174653D323031352D30382D3331267573657269643D3931623066613633613932353436366538346431326431653632346232383965","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"91b0fa63a925466e84d12d1e624b289e","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"d604eb61-b47e-44af-8c34-c119b40976e5","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -2289,11 +2289,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Earn up to a $200 Note!</h2>
+		<h2>Let&#39;s get personal.</h2>
 		<p>
-			
+			See items selected especially for you.
 				
-					<a href="spend-more-get-more?origin=footer-promo" manual_cm_sp="corp-_-corp_0817smgm_2716-_-swpfooter_details" title="Restrictions apply">Restrictions apply</a>.
+					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
 				
 		</p>
 	</section>
