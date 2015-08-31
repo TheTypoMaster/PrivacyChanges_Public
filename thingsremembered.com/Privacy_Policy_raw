@@ -213,7 +213,7 @@
   </a>
 
 </div><div class="email-signup-contianer">
-	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='LmkZDT4yR1uJhLfvkPM8CDlkI9kjhgHOAnONvyP3TLA=bnfnE9u8TA0='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
+	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='64FmuqvD7lWNZFiWg1t6CPh5C5IzDmDe0p2rPxol4Mc=o7rbenSuRkI='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
 		<div class="signup-button-cheetah button">
 			<span class="signup-text-cheetah">Sign Up Now</span>
 		</div>

@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"E488AEC61DC79C1E90C75D105D0EACEC646174653D323031352D30382D3331267573657269643D3263623563336262623335323435613238643238663763613364623838393538","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"2cb5c3bbb35245a28d28f7ca3db88958","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"34385d65-65cf-4a5b-a419-1ae34610e411","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"F2636E4302EF5374C4FAF39DF5864FF6646174653D323031352D30382D3331267573657269643D3239323935623465323162633436363262323633663235653331653837393039","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"29295b4e21bc4662b263f25e31e87909","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"ae7ffe21-bbef-4d20-ad51-e58c3762d0d5","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -650,9 +650,9 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-designer-clothing"><a href="http://shop.nordstrom.com/c/designer-clothing?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_Designer Clothing">Designer Clothing</a></li>
 				<li class="nav-entry-designer-handbags"><a href="http://shop.nordstrom.com/c/designer-handbags?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_Designer Handbags">Designer Handbags</a></li>
 				<li class="nav-entry-designer-shoes"><a href="http://shop.nordstrom.com/c/designer-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_Designer Shoes">Designer Shoes</a></li>
-				<li class="nav-entry-space:-advanced-emerging-designer"><a href="http://shop.nordstrom.com/c/space?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_SPACE: Advanced &amp; Emerging Designer">SPACE: Advanced &amp; Emerging Designer</a></li>
 				<li class="nav-entry-jewelry-accessories"><a href="http://shop.nordstrom.com/c/designer-collections-jewelry-and-accessories?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_Jewelry &amp; Accessories">Jewelry &amp; Accessories</a></li>
 				<li class="nav-entry-designer-eveningwear-boutique"><a href="http://shop.nordstrom.com/c/designer-eveningwear?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_Designer Eveningwear Boutique">Designer Eveningwear Boutique</a></li>
+				<li class="nav-entry-space:-advanced-emerging-designer"><a href="http://shop.nordstrom.com/c/space?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Designer Collections_SPACE: Advanced &amp; Emerging Designer">SPACE: Advanced &amp; Emerging Designer</a></li>
 					<li class="spacer-hack"></li>
 					<li class="spacer-hack"></li>
 					</ul>
@@ -671,7 +671,7 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-our-blog"><a href="http://blogs.nordstrom.com/fashion?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_Our Blog">Our Blog</a></li>
 				<li class="nav-entry-beauty-gifts-with-purchase"><a href="http://shop.nordstrom.com/c/gwp-details-page?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_Beauty Gifts with Purchase">Beauty Gifts with Purchase</a></li>
 				<li class="nav-entry-cupcakes-and-cashmere"><a href="http://shop.nordstrom.com/c/tbd-cupcakes-and-cashmere?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_cupcakes and cashmere">cupcakes and cashmere</a></li>
-				<li class="nav-entry-dress-spotlight:-guest-of-wedding"><a href="http://shop.nordstrom.com/c/dress-spotlight-guest-of-wedding-dresses?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_Dress Spotlight: Guest of Wedding">Dress Spotlight: Guest of Wedding</a></li>
+				<li class="nav-entry-dress-spotlight:-the-dresses-you-need-now"><a href="http://shop.nordstrom.com/c/dress-spotlight?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_Dress Spotlight: The Dresses You Need Now">Dress Spotlight: The Dresses You Need Now</a></li>
 				<li class="nav-entry-jumpsuits-rompers"><a href="http://shop.nordstrom.com/c/womens-jumpsuits-rompers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Style Watch_Jumpsuits &amp; Rompers">Jumpsuits &amp; Rompers</a></li>
 					<li class="spacer-hack"></li>
 		</ul>
@@ -1752,11 +1752,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Get our iPad app.</h2>
+		<h2>Let&#39;s get personal.</h2>
 		<p>
-			Fashion&#39;s always a tap away with our free app.
+			See items selected especially for you.
 				
-					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
+					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
 				
 		</p>
 	</section>

@@ -46,6 +46,7 @@
 document.write('<script type="text/javascript" src="/_layouts/1033/init.js?rev=7rurhilS20pNrVcviE3PbA%3D%3D"></' + 'script>');
 document.write('<script type="text/javascript" src="/ScriptResource.axd?d=-ikBxGOoUmOWT8uPW2JAXzBirakK_tzbvtyYN64kEYFqYBwJwzoaxJrZ25wbA48sjzELOD6-r51ellC2w1g6l8SLP6Y3Wo7Qo3qJizA9wWkhNCwwumXifTMd_2lDh6EOg2cnRpfP2sq3JUuXx4nx6RUYMb01&amp;t=ffffffffb868b5f4"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/blank.js?rev=QGOYAJlouiWgFRlhHVlMKA%3D%3D"></' + 'script>');
+document.write('<script type="text/javascript" src="/ScriptResource.axd?d=V3EAU9uYQmD-n1pdrCQnssel0ktApaOSFal53rRAzjb170ffcrUisrvPtBPHJjA_tOHa40DFnrBTMklAvgLS4k3y37mnM_axiA5gXlWKgJuocYxOWlFlMO2q0vbArPSDG7P74w2jQ-OYUEuF-MVOqiTsNO2kWVP_SaRmouxvebYz1r5L0&amp;t=ffffffffb868b5f4"></' + 'script>');
 // ]]>
 </script>
 
@@ -123,7 +124,7 @@ document.write('<script type="text/javascript" src="/_layouts/blank.js?rev=QGOYA
 <input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x663A2E47AAEAD85F58C5EDFA29BC75DB69AC08F55E1AC60250EC66FE1A0DBCB57DDED912EB211B98582630FAA1A91158A463FEE754086F36899804F8723CEB7A,30 Aug 2015 03:26:00 -0000" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0xA2E055C6F0402BAFC8E2A3FECC6859D3596C35315FB3733E45A1EFF3BF4BE5FF7F43B67F934EB564DD905B0722E74BC2B3A49AA23B96577AB818316A38529798,25 Aug 2015 15:34:19 -0000" />
 <input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
 <input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
 <input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
@@ -213,7 +214,13 @@ return true;
 </div>
 	
 		<!-- SharePoint Scripts Handler -->
-		
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$panelZone'], [], [], 90);
+//]]>
+</script>
+
 		<!-- end SharePoint Scripts Handler -->
 		
 		<!-- Web Parts and Zones Controller -->
@@ -337,7 +344,7 @@ return true;
 	<div class="menu horizontal menu-horizontal">
 		<ul class="root static">
 			<li class="static selected"><a class="static selected menu-item" title="Home" href="/" accesskey="1"><span class="additional-background"><span class="menu-item-text">SNI</span><span class="ms-hidden">Currently selected</span></span></a><ul class="static">
-				<li class="static"><a class="static menu-item" href="/our-company/"><span class="additional-background"><span class="menu-item-text">Our Company</span></span></a></li><li class="static"><a class="static menu-item" href="/our-brands/"><span class="additional-background"><span class="menu-item-text">Our Brands</span></span></a></li><li class="static"><a class="static menu-item" href="http://ir.scrippsnetworksinteractive.com/phoenix.zhtml?c=222475&amp;p=irol-irhome"><span class="additional-background"><span class="menu-item-text">Investors</span></span></a></li><li class="static"><a class="static menu-item" href="/careers/"><span class="additional-background"><span class="menu-item-text">Careers</span></span></a></li><li class="static"><a class="static menu-item" href="/outreach/"><span class="additional-background"><span class="menu-item-text">Outreach</span></span></a></li>
+				<li class="static"><a class="static menu-item" href="/OUR-COMPANY/"><span class="additional-background"><span class="menu-item-text">Our Company</span></span></a></li><li class="static"><a class="static menu-item" href="/our-brands/"><span class="additional-background"><span class="menu-item-text">Our Brands</span></span></a></li><li class="static"><a class="static menu-item" href="http://ir.scrippsnetworksinteractive.com/phoenix.zhtml?c=222475&amp;p=irol-irhome"><span class="additional-background"><span class="menu-item-text">Investors</span></span></a></li><li class="static"><a class="static menu-item" href="/careers/"><span class="additional-background"><span class="menu-item-text">Careers</span></span></a></li><li class="static"><a class="static menu-item" href="/outreach/"><span class="additional-background"><span class="menu-item-text">Outreach</span></span></a></li>
 			</ul></li>
 		</ul>
 	</div>
@@ -683,7 +690,8 @@ return true;
 
 <script type="text/javascript">
 //<![CDATA[
-var _spFormDigestRefreshInterval = 1440000;function loadMDN2() { EnsureScript('MDN.js', typeof(loadFilterFn), null); }
+var _spFormDigestRefreshInterval = 1440000;
+WebForm_InitCallback();function loadMDN2() { EnsureScript('MDN.js', typeof(loadFilterFn), null); }
 function loadMDN1() { ExecuteOrDelayUntilScriptLoaded(loadMDN2, 'sp.ribbon.js'); }
 _spBodyOnLoadFunctionNames.push('loadMDN1');
 function _spNavigateHierarchyEx(nodeDiv, dataSourceId, dataPath, url, listInContext, type, additionalQString) {

@@ -51,8 +51,8 @@
 
                 
     <script type="text/javascript">
-        DM_Context={"server_name":"web-130","global_request":{"requestURI":"\/legal\/privacy","objectFactory":{}},"is_ajax":false,"request":{"requestURI":"\/legal\/privacy","objectFactory":{}},"reader":null,"real_user":null,"uri":"\/legal\/privacy","route_name":"legal","is_logged":false,"is_web_crawler":false,"version":"us","content_version":"us","language":"us","locale":"en_us","content_language":"en","rfc1766_language":"en-US","direction":"ltr","country_name":"united states","country":"us","geoip_country":"us","geoip_as":"AS14618","device":"desktop","page_type":"legal","page_channel":"","traffic_segment":24,"time_and_day":"20:18-Monday","browser_language":null,"env":"prod","domain":"dailymotion.com","v1st":null,"reader_is_admin":false,"reader_has_history":false,"reader_has_family_filter":true,"reader_reqid":"9a84431a4917176b1a0ddf45f5472fab403068ec","is_search":false};
-        Stringified_DM_Context={"server_name":"web-130","is_ajax":"false","reader":null,"real_user":null,"uri":"\/legal\/privacy","is_logged":"false","is_web_crawler":"false","version":"us","content_version":"us","language":"us","locale":"en_us","content_language":"en","rfc1766_language":"en-US","direction":"ltr","country_name":"united states","country":"us","geoip_country":"us","geoip_as":"AS14618","device":"desktop","page_type":"legal","page_channel":"","traffic_segment":"24","time_and_day":"20:18-Monday","browser_language":null,"env":"prod","domain":"dailymotion.com","v1st":null,"reader_is_admin":"false","reader_has_history":"false","reader_has_family_filter":"true","reader_reqid":"9a84431a4917176b1a0ddf45f5472fab403068ec","is_search":"false"};
+        DM_Context={"server_name":"web-003","global_request":{"requestURI":"\/legal\/privacy","objectFactory":{}},"is_ajax":false,"request":{"requestURI":"\/legal\/privacy","objectFactory":{}},"reader":null,"real_user":null,"uri":"\/legal\/privacy","route_name":"legal","is_logged":false,"is_web_crawler":false,"version":"us","content_version":"us","language":"us","locale":"en_us","content_language":"en","rfc1766_language":"en-US","direction":"ltr","country_name":"united states","country":"us","geoip_country":"us","geoip_as":"AS14618","device":"desktop","page_type":"legal","page_channel":"","traffic_segment":74,"time_and_day":"21:34-Monday","browser_language":null,"env":"prod","domain":"dailymotion.com","v1st":null,"reader_is_admin":false,"reader_has_history":false,"reader_has_family_filter":true,"reader_reqid":"4a7625160c03c04764d5c48b4cb769c70ef59ad5","is_search":false};
+        Stringified_DM_Context={"server_name":"web-003","is_ajax":"false","reader":null,"real_user":null,"uri":"\/legal\/privacy","is_logged":"false","is_web_crawler":"false","version":"us","content_version":"us","language":"us","locale":"en_us","content_language":"en","rfc1766_language":"en-US","direction":"ltr","country_name":"united states","country":"us","geoip_country":"us","geoip_as":"AS14618","device":"desktop","page_type":"legal","page_channel":"","traffic_segment":"74","time_and_day":"21:34-Monday","browser_language":null,"env":"prod","domain":"dailymotion.com","v1st":null,"reader_is_admin":"false","reader_has_history":"false","reader_has_family_filter":"true","reader_reqid":"4a7625160c03c04764d5c48b4cb769c70ef59ad5","is_search":"false"};
         STATIC_BASE_URL = "http://static1.dmcdn.net";
         __webpack_manifest__ = {"1":"video_responsive.986678391787ab624915.js","2":"video.a5c2c1230a501c93b3ef.js","3":"browse.06fb41963e49f5642f5e.js","4":"about.0e09eb84713628934591.js","6":"videos.28562883a37857e1939d.js","7":"what-to-watch.435f41ca3eb8b77e9e09.js","8":"privacy-settings.aebfed86ac7fe3e1be54.js"};
         EB_WEB_ENDPOINT = "webed.dm.gg";
@@ -689,15 +689,15 @@ if ('SiteCatalyst' in window)
         s.prop23 = (DM_Flash.VERSION.major == 0) ? 'HTML5' : 'Flash';
                     s.pageName= "/legal/privacy";
                     s.channel= "legal";
-                    s.server= "web-130";
+                    s.server= "web-003";
                     s.prop3= "US";
                     s.prop4= "US";
                     s.prop5= "web";
                     s.prop6= "A";
                     s.prop9= "legal";
                     s.prop10= "dailymotion.com";
-                    s.eVar7= "20:18-Monday";
-                    s.eVar48= 24;
+                    s.eVar7= "21:34-Monday";
+                    s.eVar48= 74;
                     s.eVar45= "unlogged";
         
         if (DM_Context.route_name === 'home' && window.PixelleAllowed)

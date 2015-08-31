@@ -128,7 +128,7 @@
 	
 	
 
-	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='1046AC4CE08AD8ACC3B76DCEB628C823';JAWR.app_context_path='';</script>
+	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='49927A673ED691E23EF8D81C7E0A89DE';JAWR.app_context_path='';</script>
 <link rel="stylesheet" type="text/css" media="all" href="/miCSSPath/N2038945338/bundles/foundation_all.css" />
 
 
@@ -201,7 +201,7 @@
 <!--<![endif]-->
 
 
-<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='D9D32589EF4F7B6987B2308712F58D43';JAWR.app_context_path='';</script>
+<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='11F314D6CD9D1E66EA088F6AF3616969';JAWR.app_context_path='';</script>
 <script type="text/javascript" src="/miJSPath/1742414831/common/js/libs/modernzr/modernzr.js" ></script>
 
 
@@ -232,14 +232,27 @@ var dataLayer = {
 	
 		"srchBrands": "all|",
 	
-		"ctrlgrp": "97",
+		"ctrlgrp": "48",
 	
 		"isProd": "true",
 	
 		"domainName": "Marriott.com",
 	
+	    "TestName": "dcr_monetate_poc",
+	    "TestArea": "dcr",
+	    "SwimLane": "Dcr1",
+	    "FriendlyName": "Monetate POC",
+	    "TestAllocation": "249999",
+	    "GenRecNumb": "870299",
+	    "GenTestNumb": "40231",       
+	    "TestEndDate": "9/11/2015",
+	    "NumberOfrecipes": "3",
+	    "RecipeList": "control*m1*m2",
+	    "RecipeToDisplay": "2",
+	    "RecipeFriendlyName": "",
+	
 		"buildVers": "WEM10.5.13",       
-	"testControl1":"false","testControl2":"false","PersControl":"false","AdControl":"true","ExControl":"false",
+	"testControl1":"false","testControl2":"false","PersControl":"false","AdControl":"false","ExControl":"true",
 	    "brwsrLang": "en_US"
     
 	}; 
@@ -311,6 +324,8 @@ var dataLayer = {
 	
 	
 		
+			
+		
 		
 		
 	
@@ -331,7 +346,7 @@ var dataLayer = {
 		
 		
 		
-			 l-responsive" data-responsive="true" >
+			 l-responsive ie9 lt-ie10" data-responsive="true" >
 
 		
 
@@ -493,7 +508,7 @@ var webfontloads = true;
 
 
 
-<!-- TIMESTAMP="Mon Aug 31 14:19:30 EDT 2015" JVMID="pEbizMdcom8D170_prd3" -->
+<!-- TIMESTAMP="Mon Aug 31 15:30:39 EDT 2015" JVMID="pEbizMdcom8A152_prd2" -->
 
 
 
@@ -2746,7 +2761,7 @@ var webfontloads = true;
 <div class="l-equal-height-child-column m-lookup-reservation l-split-50">
     <p class="m-panel-title l-padding-left l-padding-top">View and Manage Reservations</p>
     <p class="t-desc l-padding-left">Find specific reservations, including those made by phone or when not signed in.</p>
-   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=FzWRGQb2ASVV5U3LC78Oke5">
+   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=fwqwgjrzlVCCnikXgFLIH2R">
         <input type="hidden" name="bc" value="MC" />
         <input type="hidden" name="returnURL" value="/reservation/lookupReservation.mi" />
         
@@ -2817,7 +2832,7 @@ var webfontloads = true;
     
 	    
 	         
-	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=FzWRGQb2ASVV5U3LC78Oke5">
+	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=fwqwgjrzlVCCnikXgFLIH2R">
 
 	                
 	                
@@ -2948,7 +2963,7 @@ var webfontloads = true;
 
 		<div class="m-header-myaccount-container is-default-state">
 			<div class="m-header-myaccount">
-				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=FzWRGQb2ASVV5U3LC78Oke5">
+				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=fwqwgjrzlVCCnikXgFLIH2R">
 					
 					
 
@@ -10267,7 +10282,7 @@ var hdVars = {
 
 
 	
-		<script type="text/javascript" src="/miJSPath/N2146884619/bundles/micorelib.js" ></script>
+		<script type="text/javascript" src="/miJSPath/1223814884/bundles/micorelib.js" ></script>
 
 	
 	
