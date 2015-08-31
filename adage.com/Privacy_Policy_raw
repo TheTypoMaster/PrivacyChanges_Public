@@ -505,7 +505,7 @@ menu item
 
 
 <!-- floating nav -->	<div class="shortcut-bar" data-100="top: -80px;" data-150="top:0;" data-behavior="shortcut_bar">
-	<div class="container" data-section-id="47">
+	<div class="container" data-section-id="24">
 		<p class="logo">
 			<a href="/" onclick="trackOutboundLink(this, 'Logo-shortcutbar-Link', 'Homepage', '/'); return false;">Advertising Age</a>
 		</p>
@@ -589,6 +589,24 @@ menu item
 
 			                <li class="news-img-left">
                     <div>
+						<a href="http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'UBS Refreshes Brand for the Digital Era, Asks Life\'s Tough Questions', 'http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/UBS_Logo.jpg?1441050029" width="100" height="67" alt="UBS Refreshes Brand for the Digital Era, Asks Life's Tough Questions" title="UBS Refreshes Brand for the Digital Era, Asks Life's Tough Questions" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'UBS Refreshes Brand for the Digital Era, Asks Life\'s Tough Questions', 'http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/']);">UBS Refreshes Brand for the Digital Era, Asks Life's Tough Questions</a></h4>
+						<p>By <a href="http://adage.com/author/ashley-rodriguez/6410">Ashley Rodriguez</a> - 52 minutes ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'UBS Refreshes Brand for the Digital Era, Asks Life\'s Tough Questions', 'http://adage.com/article/cmo-strategy/ubs-asks-life-s-tough-questions/300156/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
 						<a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'The Football Gods Punish Puny Mortals in New Fox Sports Campaign', 'http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/']);">
                             
                             <div class="trim">
@@ -597,7 +615,7 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'The Football Gods Punish Puny Mortals in New Fox Sports Campaign', 'http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/']);">The Football Gods Punish Puny Mortals in New Fox Sports Campaign</a></h4>
-						<p>By <a href="http://adage.com/author/anthony-crupi/6509">Anthony Crupi</a> - 2 hours ago</p>
+						<p>By <a href="http://adage.com/author/anthony-crupi/6509">Anthony Crupi</a> - 3 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
@@ -615,7 +633,7 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'No D.C. Bubble: Obama\'s \'Running Wild\' Episode Only His Latest Unusual Media Appearance', 'http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/']);">No D.C. Bubble: Obama's 'Running Wild' Episode Only His Latest Unusual Media Appearance</a></h4>
-						<p>2 hours ago</p>
+						<p>4 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
@@ -633,7 +651,7 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Watch Will Smith Take on the NFL in Trailer for \'Concussion\'', 'http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/']);">Watch Will Smith Take on the NFL in Trailer for 'Concussion'</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 2 hours ago</p>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 4 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
@@ -651,29 +669,11 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More', 'http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/']);">Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More</a></h4>
-						<p>By <a href="http://adage.com/author/alexandra-jardine/518">Alexandra Jardine</a> - 4 hours ago</p>
+						<p>By <a href="http://adage.com/author/alexandra-jardine/518">Alexandra Jardine</a> - 5 hours ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Goodman Joins Chandelier, Campbell Ewald Hires Shoesmith and More', 'http://adage.com/article/creative-movers/goodman-joins-chandelier-campbell-ewald-hires-shoesmith/300133/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/cleanclear_acceptancespeeches_3x2.jpg?1441039690" width="100" height="67" alt="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" title="Clean &amp; Clear's Acceptance Speeches Steal the Show at the VMAs" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);">Clean & Clear's Acceptance Speeches Steal the Show at the VMAs</a></h4>
-						<p>4 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Clean & Clear\'s Acceptance Speeches Steal the Show at the VMAs', 'http://adage.com/article/media/clean-clear-acceptance-speeches-mtv-vmas-newest-ads-tv/300154/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -697,10 +697,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'The Football Gods Punish Puny Mortals in New Fox Sports Campaign', 'http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/']);">The Football Gods Punish Puny Mortals in New Fox Sports Campaign</a></h4>
-						<p>By <a href="http://adage.com/author/anthony-crupi/6509">Anthony Crupi</a> - 2 hours ago</p>
+						<p>By <a href="http://adage.com/author/anthony-crupi/6509">Anthony Crupi</a> - 3 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" class="share-count">83<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" class="share-count">104<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'The Football Gods Punish Puny Mortals in New Fox Sports Campaign', 'http://adage.com/article/media/puny-mortals-fox-college-football-campaign/300159/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -715,10 +715,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Watch Will Smith Take on the NFL in Trailer for \'Concussion\'', 'http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/']);">Watch Will Smith Take on the NFL in Trailer for 'Concussion'</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 2 hours ago</p>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 4 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" class="share-count">72<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" class="share-count">79<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Watch Will Smith Take on the NFL in Trailer for \'Concussion\'', 'http://adage.com/article/media/watch-smith-nfl-trailer-concussion/300158/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -733,10 +733,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'No D.C. Bubble: Obama\'s \'Running Wild\' Episode Only His Latest Unusual Media Appearance', 'http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/']);">No D.C. Bubble: Obama's 'Running Wild' Episode Only His Latest Unusual Media Appearance</a></h4>
-						<p>2 hours ago</p>
+						<p>4 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" class="share-count">13<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" class="share-count">30<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'No D.C. Bubble: Obama\'s \'Running Wild\' Episode Only His Latest Unusual Media Appearance', 'http://adage.com/article/media/obama-wild-alaska-hike-survivalist-bear-grylls/300157/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -751,10 +751,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Confronts Ad Blockers Erasing Commercials Online</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 11 hours ago</p>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 12 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">439<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">451<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -769,10 +769,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">Apple and Facebook Put Lesser-Known Factual on the Map</a></h4>
-						<p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 7 hours ago</p>
+						<p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 8 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">662<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">709<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -792,10 +792,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Networks Confront Ad Blockers Erasing Their Commercials Online" title="TV Networks Confront Ad Blockers Erasing Their Commercials Online" /></a>
                         <h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Networks Confront Ad Blockers Erasing Their Commercials Online</a></h4>
-                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 10 hours ago</p>
+                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 11 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">406<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">439<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -804,10 +804,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Yelp_Image2.jpg?1440596880" width="100" height="67" alt="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" title="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" /></a>
                         <h4><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?</a></h4>
-                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 10 hours ago</p>
+                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 11 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">122<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">134<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 1</a></li>
                         </ul>
                     </div>
@@ -828,10 +828,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/applemaps2.jpg?1440789410" width="100" height="67" alt="Apple and Facebook Put Lesser-Known Factual on the Map" title="Apple and Facebook Put Lesser-Known Factual on the Map" /></a>
                         <h4><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">Apple and Facebook Put Lesser-Known Factual on the Map</a></h4>
-                        <p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 7 hours ago</p>
+                        <p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 8 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">596<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">662<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -840,10 +840,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Coke_Zero__FF_Marching_Band_3x2_1.jpg?1440771399" width="100" height="67" alt="Coke Zero Wants College Football Fans to 'Drink' Its Ads" title="Coke Zero Wants College Football Fans to 'Drink' Its Ads" /></a>
                         <h4><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);">Coke Zero Wants College Football Fans to 'Drink' Its Ads</a></h4>
-                        <p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 10 hours ago</p>
+                        <p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 11 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" class="share-count">116<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" class="share-count">132<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -1021,7 +1021,7 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
 	</div>
 </aside><!-- / #sub-footer -->
 
-<!-- Total time: 0.0226609706879 -->
+<!-- Total time: 3.32736897469 -->
 
 	<script type='text/javascript'>
 		OAS_AD('x90');
@@ -1117,5 +1117,5 @@ _sf_async_config.useCanonical = true;
 
 
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":78,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":4260,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

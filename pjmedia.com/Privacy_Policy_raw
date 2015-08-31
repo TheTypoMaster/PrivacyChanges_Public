@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=220637498'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=17215598'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=439437083'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1775909527&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=2012170925'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=223382154'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1979937790'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1083997126&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=695720688');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1563381726');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1574432969');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=423316903');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1415270296');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=136761201');"></a>
   </span>
 </span>
 
@@ -610,9 +610,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 							
 											<li><a href="http://pjmedia.com/victordavishanson/illegal-immigration-finally-turned-off-public/">How Illegal Immigration Finally Turned Off the Public</a></li>
 											
-											<li><a href="http://pjmedia.com/drhelen/2015/08/31/orthorexia-nervosa-the-disease-disguised-as-a-virtue/">Orthorexia Nervosa: The 'Disease Disguised as a Virtue'</a></li>
-											
 											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
+											
+											<li><a href="http://pjmedia.com/ronradosh/2015/08/31/my-end-of-august-election-predictions/">My End of August Election Predictions</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -627,7 +627,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/tatler/2015/08/31/watch-putin-releases-new-manly-stuff-video-with-pumping-iron-and-tea/">WATCH: Putin Releases New Manly-Stuff Video with Pumping Iron and Tea</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/whats-the-big-deal-about-restoring-the-correct-name-of-mount-mckinley/">What&#8217;s the Big Deal About Restoring the Correct Name of Mount McKinley?</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/blacklivesmatter-protesters-taunt-police-with-disgusting-chant-while-being-protected-by-them-video/">#BlackLivesMatter Protesters Taunt Police with &#8216;Disgusting Chant&#8217; While Being Protected by Them (Video)</a></li>
+				<li><a href="http://pjmedia.com/tatler/2015/08/31/kerry-compares-climate-change-to-wwii-different-in-character-but-not-in-potential-to-do-harm/">Kerry Compares Climate Change to WWII: &#8216;Different in Character,&#8217; But Same &#8216;Potential to Do Harm&#8217;</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/watch-putin-releases-new-manly-stuff-video-with-pumping-iron-and-tea/">WATCH: Putin Releases New Manly-Stuff Video with Pumping Iron and Tea</a></li><li><a href="http://pjmedia.com/tatler/2015/08/31/whats-the-big-deal-about-restoring-the-correct-name-of-mount-mckinley/">What&#8217;s the Big Deal About Restoring the Correct Name of Mount McKinley?</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213471/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">HOPE THE VACCINE IS BETTER TARGETED THIS YEAR:  <a target="_blank" href="http://www.nbcdfw.com/news/local/Flu-Season-Just-Around-Corner-323381381.html">Flu Season Just Around the Corner.</A></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213467/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON, <a target="_blank" href="http://www.amazon.com/b/?ref_=assoc_tag_ph_1440459867488&#038;_encoding=UTF8&#038;camp=1789&#038;creative=9325&#038;linkCode=pf4&#038;node=12516326011&#038;tag=wwwviolentkicom&#038;linkId=7J3AHU2YHI53R7E3">save up to 25% on Select Dyson Machines.</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213495/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">MISSING FROM THIS STORY IS ANY FOCUS ON THE FACT THAT THE KILLER WAS HIMSELF A NEWSMAN:  <a target="_blank" href="http://money.cnn.com/2015/08/28/media/tv-stations-live-shots-shooting/index.html?sr=twmoney082815newscrews640story">Virginia TV Shooting Leaves News Crews Rattled.</a>  But it&#8217;s true that changes in technology &#8212; and budget cuts &#8212; make situational awareness tough.  Used to be you&#8217;d have at least 3 people on a shoot.  Now you&#8217;ve got the on air talent &#8212; who has to look at the camera &#8212; and maybe a cameraman &#8212; who has to look through the camera &#8212; and no producer or production assistant or anyone who can keep an eye on surroundings. ...</a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213469/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON, <a target="_blank" href="http://www.amazon.com/gp/most-wished-for/movies-tv/?ie=UTF8&#038;camp=1789&#038;creative=9325&#038;linkCode=ur2&#038;pf_rd_i=desktop&#038;pf_rd_m=ATVPDKIKX0DER&#038;pf_rd_p=2090151482&#038;pf_rd_r=0D7VB7X1VB722239N72N&#038;pf_rd_s=desktop-3&#038;pf_rd_t=36701&#038;tag=wwwviolentkicom&#038;linkId=3EX2A42LZ5BK6MSW">most wished-for items in Movies &#038; TV.</a>  </a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213517/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AN EARTH-SHATTERING KABOOM:  <a target="_blank" href="http://www.bloomberg.com/news/articles/2015-08-31/blast-seen-in-chem-ind-zone-in-shandong-china-peoples-daily">Blast Seen in Chemical Industry Zone in Shandong, Daily Reports.</A></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213492/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">Since the Great Recession ended in 2009, the recovery has been slow and painful. Wages have been so stagnant that the average American family earns $1,000 a year less in income than it did in 2008. That’s why some two-thirds of people believe that their children won’t be better off than they were — a reversal of the American Dream. A growing number of people believe the Federal Reserve has hurt rather than helped the recovery. It has pursued zero-interest-rate policies that have perversely made it impossible for many businesses to get credit to expand. The Fed and other central banks have injected trillions of dollars into the global economy; according to the New York Sun, the result is that “the world is now afflicted by a public-sector debt bubble that could rupture in any of a number of countries.” The Fed’s blatant attempt to prop up asset prices has fueled inequality. The Fed’s low-interest-rate policies have “exacerbated the wealth gap between the poor and the rich, because the rich have assets,” former NYC mayor Michael Bloomberg recently said. “And that is what is being hiked here because of low interest rates, whether they own stocks or whatever the case may be.” ...</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":353,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":387,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

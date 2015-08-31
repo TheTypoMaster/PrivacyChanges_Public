@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "872f1d6daa2cda717edc68acafb76b84";
+var comscoreHash = "333ee69ec0d636bc53289c5874b6a963";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=872f1d6daa2cda717edc68acafb76b84&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Ftos&c5=&c6=&c15=333ee69ec0d636bc53289c5874b6a963&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -918,22 +918,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="modal-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
 <label for="modal-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="modal-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 <div class="form-item">
@@ -1236,22 +1236,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="ad-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
 <label for="ad-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="ad-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 <div class="form-item">
@@ -1331,22 +1331,22 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-TV"
-value="TV"
-data-attr-name="TV" />
-<label for="fb-list-TV">
-<span class="checkbox"></span>
-<span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
 <label for="fb-list-Young Hollywood">
 <span class="checkbox"></span>
 <span class="attr-name">Young Hollywood</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-TV"
+value="TV"
+data-attr-name="TV" />
+<label for="fb-list-TV">
+<span class="checkbox"></span>
+<span class="attr-name">TV</span>
 </label>
 </div>
 <div class="form-item">
@@ -1449,6 +1449,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Mon, 31 Aug 2015 15:08:42 -0700 in 67.28ms : web11 : none -->
+<!-- Hamsters typed up this page on Mon, 31 Aug 2015 16:12:39 -0700 in 77.53ms : web22 : none -->
 </body>
 </html>

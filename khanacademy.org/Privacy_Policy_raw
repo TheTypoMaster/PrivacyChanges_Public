@@ -30,7 +30,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 <script type="text/javascript">
 (function() {
     window.KA = {                   
-        version: "150831-1402-dc5baefc1b72.386830640081258950",
+        version: "150831-1305-4d80e64cf899.386831962972443695",
         isMobileCapable: false,
         isIPad: false,
         useKatex: true,
@@ -38,7 +38,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
         // TODO(eater): Remove after clues are fully launched
         allowEditingClues: false,
         staticHost: "www.kastatic.org",
-        bingoId: "_gae_bingo_random:SEKH937Q334Ytn6mmLteMWV7cJywIyJIxPVq_Mo5",
+        bingoId: "_gae_bingo_random:Zz6-R7fhVbACTSTGI5xpwUB1PcugZIG-xDQNbu-J",
 
         "FB_APP_NAMESPACE": "khanacademy",
         
@@ -53,7 +53,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
             
         },
         currentServerTime: function() {
-            return 1441059113.92489;
+            return 1441063571.4500101;
         },
 
         // return a path to this static content given a path url - example:
@@ -64,7 +64,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 
         // Keep this in sync with the url in khan-exercises.js:loadMathJax()
         mathjaxUrl: "https://www.kastatic.org/khan-exercises/third_party/MathJax/2.1/MathJax.js?config=KAthJax-eaf1d9cafdc2fc68897cf72d30d67d5a",
-        commitSHA: "5e5d441892163d44c265e96cf2c9ba14544f8ac9",
+        commitSHA: "59d40c98e7bb3149937f10ee4fc63aba505bd857",
         loginUrl: "/login?continue=%2Fabout%2Fprivacy-policy",
         language: "en",
         kaLocale: "en",
@@ -87,7 +87,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 
         stripePublicKey: "pk_live_bOMeT1j35MoCY5NMcddnG0ke",
 
-        requestLogId: "55e4d12900ff0df85e7db2f6d90001737e6b68616e2d61636164656d7900013135303833312d313430322d64633562616566633162373200010106",
+        requestLogId: "55e4e29300ff06aec2b994858d0001737e6b68616e2d61636164656d7900013135303833312d313330352d34643830653634636638393900010148",
         gaeStatsKeyPrefix: null,
 
         SHOW_SAT_DEV: false,
@@ -1837,7 +1837,7 @@ Please contact Khan Academy with any questions or comments about this Privacy No
                 <span><a href="/about/privacy-policy">Privacy Notice</a></span>
             </div>
             
-            <div class="copyright" title="Version: 150831-1402-dc5baefc1b72.386830640081258950">
+            <div class="copyright" title="Version: 150831-1305-4d80e64cf899.386831962972443695">
                 &copy; 2015
                 
                 
@@ -1866,7 +1866,7 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
 <script crossorigin='anonymous' src='https://www.kastatic.org/genfiles/javascript/en/corelibs-package-eec115.js'></script>
 <script>PackageManager.markExecuted("corelibs.js")</script>
 
-<script crossorigin='anonymous' src='https://www.kastatic.org/genfiles/javascript/en/shared-package-de5e68.js'></script>
+<script crossorigin='anonymous' src='https://www.kastatic.org/genfiles/javascript/en/shared-package-d95214.js'></script>
 <script>PackageManager.markExecuted("shared.js")</script>
 
     <script>KAdefine.require("./javascript/shared-package/site-infra.js").init();</script>
@@ -1883,7 +1883,7 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
     
 
     
-    <script crossorigin='anonymous' src='/genfiles/package-manifest-en.1b5faf.js'></script>
+    <script crossorigin='anonymous' src='/genfiles/package-manifest-en.828f37.js'></script>
 
     
     <script type="text/javascript">
@@ -1928,6 +1928,13 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
     
 
         
+        
+        <script type="text/javascript">
+        (function(){
+            KAdefine.require("./javascript/shared-package/session-survey.jsx")();
+        })();
+        </script>
+        
         <script type="text/javascript">
             (function(){
                 window._kiq = window._kiq || [];
@@ -1935,7 +1942,7 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
                 var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
                 s.async = true; s.src = '//s3.amazonaws.com/ki.js/53782/bH0.js'; f.parentNode.insertBefore(s, f);
                 }, 1);
-                _kiq.push(['identify', '_gae_bingo_random:SEKH937Q334Ytn6mmLteMWV7cJywIyJIxPVq_Mo5']);
+                _kiq.push(['identify', '_gae_bingo_random:Zz6-R7fhVbACTSTGI5xpwUB1PcugZIG-xDQNbu-J']);
                 _kiq.push(['set', {"eligible_for_nps_survey": false, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
             })();
         </script>
@@ -2055,7 +2062,7 @@ olark.identify('8268-583-10-4648');
             
             window.olark('api.visitor.updateCustomFields', {
                 loggedIn: false,
-                bingoId: "_gae_bingo_random:SEKH937Q334Ytn6mmLteMWV7cJywIyJIxPVq_Mo5"
+                bingoId: "_gae_bingo_random:Zz6-R7fhVbACTSTGI5xpwUB1PcugZIG-xDQNbu-J"
             });
         }, 0);
     </script>

@@ -15,7 +15,7 @@
  <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="Vimeo search">
 <link rel="logo" type="image/svg" href="https://f.vimeocdn.com/logo.svg">
  <title>Terms of Service on Vimeo</title>
-     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?0930a55b7b">
+     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?780cf8f3a1">
   <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?10e30c8e">
  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/legal.min.css?5e6473a0">
      <style>
@@ -448,8 +448,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active"><a href="/help/faq/managing-your-videos/video-settings#can-i-customize-my-video-link">Customize your video URL</a> and send people to vimeo.com/mysweetvidname instead of vimeo.com/123456.</p>
- <p>An eye-catching video preview image, or thumbnail, is vital for getting folks interested in your video. Pick the perfect one with our <a href="/help/faq/managing-your-videos/video-settings#how-do-i-change-the-thumbnail-of-my-video">thumbnail chooser</a>.</p>
+ <p class="active"><a href="https://vimeo.com/s/tbj">Add multiple email addresses</a> to your Vimeo account (to maintain those multiple personalities).</p>
+ <p>You’ve gotta cover your nakedness somehow. Might we recommend a <a href="http://www.bustedtees.com/vimeo" target="_blank">Vimeo t-shirt</a>?</p>
 </aside>
  </div>
 </footer>
@@ -591,7 +591,7 @@
   var CSS_DIR = 'https://f.vimeocdn.com/styles/css_opt/',
  JS_DIR = 'https://f.vimeocdn.com/js_opt/',
  IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
-  BUILD_HASH = '396a2';
+  BUILD_HASH = 'aca55';
   var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"is_mobile":false});
  vimeo.config = _extend((vimeo.config || {}), []);
   var localeConfig = {

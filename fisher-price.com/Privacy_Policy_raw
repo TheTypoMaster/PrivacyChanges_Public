@@ -908,7 +908,7 @@ $(window).resize(function () {
 <input type="hidden" id="hdnsiteSection" value="/privacystatement" />
 <!-- <input type="hidden" id="hdnsubType" value="" /> -->
 <input type="hidden" id="hdnsubType" value="" />
-<input type="hidden" id="hdnuserIPAddres" value="24.111.60.22, 10.79.255.67, 23.79.255.55, 10.14.2.68" />
+<input type="hidden" id="hdnuserIPAddres" value="70.215.133.131, 23.77.207.44" />
 <input type="hidden" id="thdnCustomerId" value ="" />
 <input type="hidden" id="thdnpageTitle" value=""/>
 
@@ -1037,9 +1037,9 @@ $(window).resize(function () {
         page_type_attr10: "Corporate Page",
         //page_subtype_attr11: "",                   //  Dynamically Retrieved
         page_subtype_attr11:PageSubTypeValue,
-        referring_url_attr12: "",                    //  Dynamically Retrieved
+        referring_url_attr12: "http://www.fisher-price.com/en_US/brands/powerwheels/Products/allproducts/index.html",                    //  Dynamically Retrieved
         requested_url_attr13: "http://www.fisher-price.com/en_US/privacystatement.html",                    //  Dynamically Retrieved
-        ip_address_attr14: "24.111.60.22, 10.79.255.67, 23.79.255.55, 10.14.2.68",        //  Dynamically Retrieved       
+        ip_address_attr14: "70.215.133.131, 23.77.207.44",        //  Dynamically Retrieved       
         number_reviews_attr27: szProductReviews,
         average_review_rating_attr28: szProductRating,   
         search_type_attr29: "",                   
@@ -1074,7 +1074,7 @@ $(window).resize(function () {
 
 
     <script src="/resources/scripts/mobile_hiding.js?52497317"></script>
-<!-- PHXWS29 -->
+<!-- PHXWS97 -->
 
 
 

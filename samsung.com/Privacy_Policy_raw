@@ -386,12 +386,12 @@ var omn_ss_loggedin = "not logged in";
         </ul>
         <div class="product-spotlight">
             <div class="img-container">
-                <img src="/us/images/header/GearS_GlobalNav.png">
+                <img src="/us/images/header/flyout/gears2.png">
             </div>
             <div class="info">
-                <div class="title">Connect Like Never Before</div>
-                <div class="description">Introducing Samsung's first network-connected wearable.</div>
-                <a href="/us/explore/gear-s-features-and-specs/#buy-now" class="product-link">Buy Now</a>
+                <div class="title">Samsung Gear S2</div>
+                <div class="description">The Next Big Thing is Almost Here</div>
+                <a href="/us/explore/gears2-features-and-specs" class="product-link">Sign Up For More Info</a>
             </div>
         </div>
     </div>
@@ -905,6 +905,7 @@ var omn_ss_loggedin = "not logged in";
             <li><a href="/us/business" data-link_id="topnav_business" data-link_cat="business" data-link_position="topnav" data-link_meta="link_name:business" data-glb_nav_type="m">For Business</a></li>
             <li><a href="/us/aboutsamsung" data-link_id="topnav_about" data-link_cat="about us" data-link_position="topnav" data-link_meta="link_name:about us" data-glb_nav_type="m">About Us</a></li>
             <li><a href="http://samsung.apptend.com/" class="grey-gradient blue omniture live-chat"  data-link_meta="link_name:live chat" data-link_position="topnav" data-link_cat="live chat" data-link_id="topnav_livechat"></i>Live Chat</a></li>
+            <li><a href="#" id="oo-feedback">Feedback</a></li>
         </ul>
     </div>
 </nav>

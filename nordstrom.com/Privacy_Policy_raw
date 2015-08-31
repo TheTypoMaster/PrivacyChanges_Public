@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"15AF19E931057737531F9F7D6FE1F172646174653D323031352D30382D3331267573657269643D3531656539386265353762353432326438346535373432313532313735323963","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"51ee98be57b5422d84e574215217529c","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"1c5adb41-72a6-45a1-882d-edfdc5a34a88","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"3874949BC4105782AFF45613B7279739646174653D323031352D30382D3331267573657269643D6166643632353630303439383463323838386236396238393739306535623731","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"afd6256004984c2888b69b89790e5b71","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"cdb0cca3-a185-4bf4-b7fe-bf0ab6c82336","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Nice to see you.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			Pop-In@Nordstrom x Warby Parker.
+			A new shop for emerging and advanced designers.
 				
-					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -729,12 +729,12 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-dress-shoes"><a href="http://shop.nordstrom.com/c/mens-dress-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Dress Shoes">Dress Shoes</a></li>
 				<li class="nav-entry-loafers-slip-ons"><a href="http://shop.nordstrom.com/c/mens-loafers-slip-ons?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Loafers &amp; Slip-Ons">Loafers &amp; Slip-Ons</a></li>
 				<li class="nav-entry-sneakers-athletic"><a href="http://shop.nordstrom.com/c/mens-sneakers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Sneakers &amp; Athletic">Sneakers &amp; Athletic</a></li>
-				<li class="nav-entry-comfort"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Comfort">Comfort</a></li>
-				<li class="nav-entry-sandals-flip-flops"><a href="http://shop.nordstrom.com/c/mens-sandals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Sandals &amp; Flip-Flops">Sandals &amp; Flip-Flops</a></li>
 				<li class="nav-entry-boots"><a href="http://shop.nordstrom.com/c/men-boots?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Boots">Boots</a></li>
 				<li class="nav-entry-oxfords"><a href="http://shop.nordstrom.com/c/mens-oxfords?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Oxfords">Oxfords</a></li>
+				<li class="nav-entry-comfort-shoes"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Comfort Shoes">Comfort Shoes</a></li>
 				<li class="nav-entry-boat-shoes"><a href="http://shop.nordstrom.com/c/mens-boat-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Boat Shoes">Boat Shoes</a></li>
 				<li class="nav-entry-driver-moccasin"><a href="http://shop.nordstrom.com/c/mens-driver-moccasin?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Driver &amp; Moccasin">Driver &amp; Moccasin</a></li>
+				<li class="nav-entry-sandals-flip-flops"><a href="http://shop.nordstrom.com/c/mens-sandals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Sandals &amp; Flip-Flops">Sandals &amp; Flip-Flops</a></li>
 				<li class="nav-entry-slippers"><a href="http://shop.nordstrom.com/c/mens-slippers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Slippers">Slippers</a></li>
 				<li class="nav-entry-extended-sizes"><a href="http://shop.nordstrom.com/c/mens-special-size-shoes-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Men-_-Shoes_Extended Sizes">Extended Sizes</a></li>
 					<li class="spacer-hack"></li>
@@ -819,12 +819,12 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-dress-shoes"><a href="http://shop.nordstrom.com/c/mens-dress-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Dress Shoes">Dress Shoes</a></li>
 				<li class="nav-entry-loafers-slip-ons"><a href="http://shop.nordstrom.com/c/mens-loafers-slip-ons?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Loafers &amp; Slip-Ons">Loafers &amp; Slip-Ons</a></li>
 				<li class="nav-entry-sneakers-athletic"><a href="http://shop.nordstrom.com/c/mens-sneakers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Sneakers &amp; Athletic">Sneakers &amp; Athletic</a></li>
-				<li class="nav-entry-comfort"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Comfort">Comfort</a></li>
-				<li class="nav-entry-sandals-flip-flops"><a href="http://shop.nordstrom.com/c/mens-sandals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Sandals &amp; Flip-Flops">Sandals &amp; Flip-Flops</a></li>
 				<li class="nav-entry-boots"><a href="http://shop.nordstrom.com/c/men-boots?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Boots">Boots</a></li>
+				<li class="nav-entry-comfort-shoes"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Comfort Shoes">Comfort Shoes</a></li>
 				<li class="nav-entry-oxfords"><a href="http://shop.nordstrom.com/c/mens-oxfords?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Oxfords">Oxfords</a></li>
 				<li class="nav-entry-boat-shoes"><a href="http://shop.nordstrom.com/c/mens-boat-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Boat Shoes">Boat Shoes</a></li>
 				<li class="nav-entry-driver-moccasin"><a href="http://shop.nordstrom.com/c/mens-driver-moccasin?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Driver &amp; Moccasin">Driver &amp; Moccasin</a></li>
+				<li class="nav-entry-sandals-flip-flops"><a href="http://shop.nordstrom.com/c/mens-sandals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Sandals &amp; Flip-Flops">Sandals &amp; Flip-Flops</a></li>
 				<li class="nav-entry-slippers"><a href="http://shop.nordstrom.com/c/mens-slippers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Slippers">Slippers</a></li>
 					<li class="spacer-hack"></li>
 				<li class="nav-entry-new-arrivals"><a href="http://shop.nordstrom.com/c/mens-shoe-new-arrivals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_New Arrivals">New Arrivals</a></li>
@@ -981,7 +981,7 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-hair-care"><a href="http://shop.nordstrom.com/c/beauty-hair-care?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Women_Hair Care">Hair Care</a></li>
 				<li class="nav-entry-bath-body"><a href="http://shop.nordstrom.com/c/beauty-skincare-bath-body?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Women_Bath &amp; Body">Bath &amp; Body</a></li>
 				<li class="nav-entry-nails"><a href="http://shop.nordstrom.com/c/beauty-makeup-nails?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Women_Nails">Nails</a></li>
-				<li class="nav-entry-gifts-value-sets"><a href="http://shop.nordstrom.com/c/beauty-gifts-value-sets-all?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Women_Gifts &amp; Value Sets">Gifts &amp; Value Sets</a></li>
+				<li class="nav-entry-gifts-sets"><a href="http://shop.nordstrom.com/c/beauty-gifts-value-sets-all?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Women_Gifts &amp; Sets">Gifts &amp; Sets</a></li>
 					<li class="spacer-hack"></li>
 		</ul>
 				<h3 class="nav-entry-mens-grooming-cologne"><a href="http://shop.nordstrom.com/c/mens-grooming-cologne?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Men&#39;s Grooming &amp; Cologne">Men&#39;s Grooming &amp; Cologne</a></h3>
@@ -2289,11 +2289,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Emails with style.</h2>
 		<p>
-			
+			Events and expert advice that matter to you.
 				
-					<a href="back-to-school-shopping?origin=footer-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpfooter_guide" title="Shop our guide">Shop our guide</a>.
+					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
 				
 		</p>
 	</section>
