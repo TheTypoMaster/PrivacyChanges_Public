@@ -72,13 +72,24 @@
 
 
 <div id="notificationwrap" class="">
-    <div id="notificationbanner" class=" showing0">
+    <div id="notificationbanner" class="bull  showing1">
     
         <div id="bulletinwrap">
                 <div id="bulletinbanner">
+            <div id="bulletinclose" class="bulletinclose">X</div>
+            <div id="bulletintwit">
+
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-show-count="false" data-show-screen-name="false" data-counturl="http://www.marketwatch.com/story/ruling-over-deflategate-expected-by-end-of-this-week-2015-08-31" data-url="http://on.mktw.net/1Ize2Ls" data-text="No settlement reached in NFL-Tom Brady case" data-count="none" data-via="MarketWatch">Tweet</a>
+<script async type="text/javascript" src="//platform.twitter.com/widgets.js"></script>            </div>
+            <div id="bulletinshare">
+                <span>Share this bulletin</span><br />
+                <!-- check is user logged in here -->
+                    <a id="bulletinEmailSignup" href="/user/account/logon?returnURL=/tools/alerts/newsBulletin.asp?selectedType=6" style="color: #FC0; font-weight: bold;">Get news bulletins by email</a>
+            </div>
         <span class="xlabel">Bulletin</span>
         <span class="meat ">
-            
+            <a href="/story/ruling-over-deflategate-expected-by-end-of-this-week-2015-08-31">No settlement reached in NFL-Tom Brady case</a>&nbsp;&raquo;
         </span>
     </div>
 
@@ -424,7 +435,7 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">10:45 <span>AM EDT</span></div>
+	<div class="currenttime">11:59 <span>AM EDT</span></div>
 	<div class="currentdate">August 31, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
@@ -483,45 +494,45 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724769"><span class="timestamp"><span>10:40a</span></span><p><a href="/story/facebook-users-flood-mark-zuckerberg-with-thank-yous-2015-08-29?link=MW_latest_news" target="_blank">Facebook users flood Mark Zuckerberg with thank you’s</a></p></li>
+	<li class="breaking fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724798"><span class="timestamp"><span>11:59a</span></span><p>BREAKING</p><span class="timestamp"></span><p><a href="/story/oil-futures-spike-sharply-higher-after-eia-reports-monthly-output-declines-2015-08-31?link=MW_latest_news" target="_blank">Oil futures spike sharply higher after EIA reports monthly output declines</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724768"><span class="timestamp"><span>10:36a</span></span><p><a href="/story/dish-brings-internet-tv-service-to-amazon-appstore-2015-08-31?link=MW_latest_news" target="_blank">DISH brings Internet TV service to Amazon Appstore</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724797"><span class="timestamp"><span>11:54a</span></span><p><a href="/story/ruling-over-deflategate-expected-by-end-of-this-week-2015-08-31?link=MW_latest_news" target="_blank">Ruling over &#39;Deflategate&#39; expected by end of this week</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724767"><span class="timestamp"><span>10:28a</span></span><p><a href="/story/wall-street-braces-for-losses-as-dow-futures-fall-1-2015-08-31?link=MW_latest_news" target="_blank">Stocks set to end August with biggest monthly decline since 2008</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724796"><span class="timestamp"><span>11:51a</span></span><p><a href="/story/google-to-work-with-sanofi-to-fight-diabetes-2015-08-31?link=MW_latest_news" target="_blank">Google to work with Sanofi to fight diabetes</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724766"><span class="timestamp"><span>10:24a</span></span><p><a href="/story/how-to-turn-your-home-into-a-cash-machine-during-the-popes-visit-2015-07-27?link=MW_latest_news" target="_blank">How to turn your home into a cash machine during the pope’s visit </a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724795"><span class="timestamp"><span>11:51a</span></span><p><a href="/story/dont-overcomplicate-a-simple-401k-roth-rollover-2015-08-31?link=MW_latest_news" target="_blank">Don’t overcomplicate a simple 401(k) Roth rollover</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724765"><span class="timestamp"><span>10:20a</span></span><p><a href="/story/jetblue-to-begin-seasonal-service-to-palm-springs-from-nyc-2015-08-31?link=MW_latest_news" target="_blank">JetBlue to begin seasonal service to Palm Springs from NYC</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724793"><span class="timestamp"><span>11:48a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">Nymex oil turns higher after EIA oil-production data</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724764"><span class="timestamp"><span>10:18a</span></span><p><a href="/story/brazilian-real-falls-to-another-record-low-vs-the-dollar-2015-08-31?link=MW_latest_news" target="_blank">Brazilian real falls to another record low vs. the dollar</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724794"><span class="timestamp"><span>11:48a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">Oct. oil gains $1.98, or 4.4%, at $47.20/bbl on Nymex</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724763"><span class="timestamp"><span>10:12a</span></span><p><a href="/story/beijings-incompetence-is-now-chinas-biggest-problem-2015-08-31?link=MW_latest_news" target="_blank">Beijing’s incompetence is now China’s biggest problem</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724790"><span class="timestamp"><span>11:44a</span></span><p><span target="_blank"><a href="/investing/index/comp?link=MW_latest_news" target="_blank">S&amp;P 500 off 0.2% at 1,985</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724762"><span class="timestamp"><span>9:55a</span></span><p><span target="_blank">Hurricane Fred becomes second of the 2015 Atlantic season</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724789"><span class="timestamp"><span>11:44a</span></span><p><span target="_blank"><a href="/investing/index/comp?link=MW_latest_news" target="_blank">U.S. stocks trim losses as oil futures spikes</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724761"><span class="timestamp"><span>9:55a</span></span><p><span target="_blank"><a href="/investing/currency/eurusd?link=MW_latest_news" target="_blank">Dollar little-changed after Chicago PMI</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724792"><span class="timestamp"><span>11:44a</span></span><p><span target="_blank"><a href="/investing/index/comp?link=MW_latest_news" target="_blank">Nasdaq Composite down 0.1% at 4,822</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724758"><span class="timestamp"><span>9:54a</span></span><p><span target="_blank"><a href="/investing/bond/tmubmusd10y?countrycode=bx&amp;link=MW_latest_news" target="_blank">Treasury yields edge lower after Chicago PMI</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724791"><span class="timestamp"><span>11:44a</span></span><p><span target="_blank"><a href="/investing/index/comp?link=MW_latest_news" target="_blank">Dow industrials off 0.1% at 16,620</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724759"><span class="timestamp"><span>9:54a</span></span><p><span target="_blank"><a href="/investing/bond/tmubmusd10y?countrycode=bx&amp;link=MW_latest_news" target="_blank">10-year yield now down 4 basis points on the day to 2.144% after data</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724788"><span class="timestamp"><span>11:40a</span></span><p><a href="/story/the-market-in-a-minute-more-volatility-ahead-2015-08-31?link=MW_latest_news" target="_blank">The market in a minute: More volatility ahead</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724760"><span class="timestamp"><span>9:54a</span></span><p><span target="_blank"><a href="/investing/bond/tmubmusd10y?countrycode=bx&amp;link=MW_latest_news" target="_blank">2-year yield down 1.9 basis points to 0.712%</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724787"><span class="timestamp"><span>11:39a</span></span><p><a href="/story/recent-action-provides-a-risk-management-litmust-test-2015-08-31?link=MW_latest_news" target="_blank">Recent action provides a risk-management litmust test</a></p></li>
 
-	<li class="breaking fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724757"><span class="timestamp"><span>9:49a</span></span><p>BREAKING</p><span class="timestamp"></span><p><a href="/story/chicago-pmi-business-index-falls-slightly-to-544-in-august-2015-08-31?link=MW_latest_news" target="_blank">Chicago PMI business index falls slightly to 54.4 in August</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724786"><span class="timestamp"><span>11:27a</span></span><p><a href="/story/my-brother-wants-me-to-repay-a-loan-to-my-late-fathers-estate-2015-08-31?link=MW_latest_news" target="_blank">My brother wants me to repay a loan to my late father’s estate </a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724756"><span class="timestamp"><span>9:46a</span></span><p><span target="_blank">Chicago PMI business index dips to 54.4 in August from 54.7</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724785"><span class="timestamp"><span>11:27a</span></span><p><a href="/story/breakfast-made-this-teacher-late-111-times-2015-08-31?link=MW_latest_news" target="_blank">Breakfast made this teacher late 111 times</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724755"><span class="timestamp"><span>9:45a</span></span><p><a href="/story/cal-maine-shares-up-6-as-bbt-upgrades-to-buy-from-hold-2015-08-31?link=MW_latest_news" target="_blank">Cal-Maine shares up 6% as BB&amp;T upgrades to buy from hold</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724783"><span class="timestamp"><span>11:22a</span></span><p><a href="/story/goldman-morgan-stanley-shares-rally-after-evercore-isi-upgrades-to-buy-2015-08-31?link=MW_latest_news" target="_blank">Goldman, Morgan Stanley shares rally after Evercore ISI upgrades to buy</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724754"><span class="timestamp"><span>9:40a</span></span><p><span target="_blank"><a href="/investing/index/spx?link=MW_latest_news" target="_blank">Energy, off 1.8%, is the worst performer among S&amp;P 500&#39;s 10 sectors</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724782"><span class="timestamp"><span>11:21a</span></span><p><a href="/story/sunrun-stock-gets-buy-rating-from-credit-suisse-2015-08-31?link=MW_latest_news" target="_blank">Sunrun stock gets buy rating from Credit Suisse</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724753"><span class="timestamp"><span>9:39a</span></span><p><a href="/story/treasurys-buoyed-as-investors-look-ahead-to-payrolls-2015-08-31?link=MW_latest_news" target="_blank">Treasurys buoyed as investors look ahead to payrolls</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724781"><span class="timestamp"><span>11:06a</span></span><p><span target="_blank"><a href="/investing/stock/ms?link=MW_latest_news" target="_blank">Morgan Stanley&#39;s stock climbs 1.5% after analyst upgrade</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724752"><span class="timestamp"><span>9:37a</span></span><p><span target="_blank"><a href="/investing/index/spx?link=MW_latest_news" target="_blank">Energy companies: Noble Energy, Diamond Offshore, Chesapeake drag S&amp;P 500 lower</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724780"><span class="timestamp"><span>11:05a</span></span><p><span target="_blank"><a href="/investing/stock/gs?link=MW_latest_news" target="_blank">Goldman Sachs&#39; stock gains 0.5% after analyst upgrade</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724751"><span class="timestamp"><span>9:35a</span></span><p><span target="_blank"><a href="/investing/index/spx?link=MW_latest_news" target="_blank">Noble Energy sinks 5.4% to lead S&amp;P 500 decliners</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724779"><span class="timestamp"><span>11:04a</span></span><p><a href="/story/oil-prices-down-as-markets-off-to-a-shaky-start-for-the-week-2015-08-31?link=MW_latest_news" target="_blank">Oil falls under $45, set for a monthly loss</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724750"><span class="timestamp"><span>9:35a</span></span><p><span target="_blank"><a href="/investing/index/spx?link=MW_latest_news" target="_blank">Noble Energy sinks 5.4% to lead S&amp;P 500 decliners</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:724778"><span class="timestamp"><span>11:03a</span></span><p><a href="/story/southern-co-buys-california-solar-plant-from-canadian-solar-2015-08-31?link=MW_latest_news" target="_blank">Southern Co. buys California solar plant from Canadian Solar</a></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -533,10 +544,10 @@
 		<h4><a href="/investing/index/DJIA" title="Dow Jones Industrial Average">dow</a></h4>
 		<div class="marketdata bgQuote down">
 			<span class="bgChannel">/quotes/zigman/627449/realtime</span>
-			<div class="bgLast marketprice">16,544.46</div>
+			<div class="bgLast marketprice">16,587.15</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-98.55</div>
-				<div class="bgPercentChange marketpercent">-0.59%</div>
+				<div class="bgChange marketchange">-55.86</div>
+				<div class="bgPercentChange marketpercent">-0.34%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -545,10 +556,10 @@
 		<h4><a href="/investing/index/COMP" title="NASDAQ Composite Index">nasdaq</a></h4>
 		<div class="marketdata bgQuote down">
 			<span class="bgChannel">/quotes/zigman/12633936/realtime</span>
-			<div class="bgLast marketprice">4,810.03</div>
+			<div class="bgLast marketprice">4,809.44</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-18.30</div>
-				<div class="bgPercentChange marketpercent">-0.38%</div>
+				<div class="bgChange marketchange">-18.88</div>
+				<div class="bgPercentChange marketpercent">-0.39%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -557,10 +568,10 @@
 		<h4><a href="/investing/index/SPX" title="S&amp;P 500 Index">s&amp;p 500</a></h4>
 		<div class="marketdata bgQuote down">
 			<span class="bgChannel">/quotes/zigman/3870025/realtime</span>
-			<div class="bgLast marketprice">1,977.77</div>
+			<div class="bgLast marketprice">1,979.96</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-11.10</div>
-				<div class="bgPercentChange marketpercent">-0.56%</div>
+				<div class="bgChange marketchange">-8.91</div>
+				<div class="bgPercentChange marketpercent">-0.45%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -584,7 +595,7 @@
 		</div>
 		<h3>Kiosk</h3>
 		<ul>
-			<li class=" invisible">
+			<li class="">
 				<div class="invisible startdate">1418430600000</div>
 				<div class="invisible enddate">1418725800000</div>
 				
@@ -602,7 +613,7 @@
 			<div class="onewide addgutter" >
 				
 			
-          <a href="/story/trump-pope-francis-sanders-who-is-the-biggest-political-disrupter-of-2016-2015-08-19?link=kiosk" class="">
+          <a href="/story/cheeseburgers-and-happiness-always-on-the-menu-for-warren-buffett-and-jimmy-buffett-too-2015-08-29?link=kiosk" class="">
 				<img alt=""  height="86"  src="http://i.marketwatch.com/_newsimages/columnists/farrell_paul.jpg"  width="86"  />
 </a>
 			
@@ -613,14 +624,14 @@
 				<br />
 				
 			
-          <a href="/story/trump-pope-francis-sanders-who-is-the-biggest-political-disrupter-of-2016-2015-08-19?link=kiosk" class="Headline2">
-Biggest Political Disrupters
+          <a href="/story/cheeseburgers-and-happiness-always-on-the-menu-for-warren-buffett-and-jimmy-buffett-too-2015-08-29?link=kiosk" class="Headline2">
+11 secrets to happiness
 </a>
 			
       
 				<br />
-				Is it Donald Trump? Pope Francis? Bernie Sanders? cast your 
-				vote.<br />
+				For Warren Buffett and Jimmy Buffett, inspiration comes from 
+				cheeseburgers.<br />
 				
 			
           <a href="/story/stephen-hawkings-catastrophic-end-for-planet-earth-2015-07-09?link=kiosk" class="Headline1">
@@ -633,7 +644,7 @@ Biggest Political Disrupters
 	</div>
 
   <span class="bgChannel">/conga/kiosk/commentaryfarrell.html</span>
-	<span class="bgRevision">352694</span>
+	<span class="bgRevision">353686</span>
 	<div class="clear"></div>
 </div>
 
@@ -689,8 +700,8 @@ Biggest Political Disrupters
 
 			</li>
 			<li class=" invisible">
-				<div class="invisible startdate">1368511200000</div>
-				<div class="invisible enddate">1368511200000</div>
+				<div class="invisible startdate">1362376800000</div>
+				<div class="invisible enddate">1362376800000</div>
 				
 
 
@@ -701,49 +712,50 @@ Biggest Political Disrupters
 <div class="bgConga">
       
 <div class="fourwide" >
-		<p class="kiosktitle" >Buyer Beware</p>
+		<p class="kiosktitle" >This Week in China</p>
 		<div class="Kiosk"  style="padding-top: 5px" >
 			<div class="onewide addgutter" >
 				
 			
-          <a href="/story/how-to-win-a-dispute-with-the-credit-rating-agencies-2015-08-17?link=kiosk" class="">
-<img alt="Beware crowdfunding fraud"  height="86"  src="http://i.marketwatch.com/_newsimages/columnists/kiosk/pavini-jeanette.png"  width="86"  />
+          <a href="/story/beijings-incompetence-is-now-chinas-biggest-problem-2015-08-31?link=kiosk" class="">
+<img alt=""  height="86"  src="http://i.marketwatch.com/_newsimages/columnists/stephen_craig.jpg"  width="86"  />
 </a>
 			
       
 </div>
 			<div class="threewide" >
-				<span class="Label" >Jeanette Pavini</span><br />
+				<span class="Label" >Craig Stephen</span><br />
 				
 			
-          <a href="/story/how-to-win-a-dispute-with-the-credit-rating-agencies-2015-08-17?link=kiosk" class="Headline2">
-Winning a credit-agency dispute
+          <a href="/story/beijings-incompetence-is-now-chinas-biggest-problem-2015-08-31?link=kiosk" class="Headline2">
+Beijing's incompetence
 </a>
 			
       
 				<br />
-				There are actions consumers can take to remove information that's inaccurate or unconfirmed.<br />
- 
+				Global markets once had faith in China's policy makers to manage 
+				its economy. No more.<br />
+				
 			
-          <a href="/story/what-your-credit-card-actually-covers-when-you-rent-a-car-2015-07-22?link=kiosk" class="Headline1">
-			• Your card’s rental-car coverage
+          <a href="/story/the-next-shoe-to-drop-in-china-the-banks-2015-08-24?link=kiosk" class="Headline1">
+• The next shoe to drop in China? The banks
 </a>
 			
-      <br />
+      
 			</div>
 		</div>
 	</div>
 
-  <span class="bgChannel">/conga/kiosk/commentarypavini.html</span>
-	<span class="bgRevision">352483</span>
+  <span class="bgChannel">/conga/kiosk/commentarystephen.html</span>
+	<span class="bgRevision">353685</span>
 	<div class="clear"></div>
 </div>
 
 
 			</li>
-			<li class="">
-				<div class="invisible startdate">1367820000000</div>
-				<div class="invisible enddate">1367820000000</div>
+			<li class=" invisible">
+				<div class="invisible startdate">1363586400000</div>
+				<div class="invisible enddate">1363586400000</div>
 				
 
 
@@ -754,43 +766,43 @@ Winning a credit-agency dispute
 <div class="bgConga">
       
 <div class="fourwide" >
-		<p class="kiosktitle" >Mutual Funds</p>
+		<p class="kiosktitle" >Strength in Numbers</p>
 		<div class="Kiosk"  style="padding-top: 5px" >
 			<div class="onewide addgutter" >
 				
 			
-          <a href="/story/how-to-find-one-mutual-fund-to-last-the-next-50-years-2015-08-17?link=kiosk" class="">
-				<img alt=""  height="86"  src="http://i.marketwatch.com/_newsimages/columnists/jaffe_chuck.jpg"  width="86"  />
+          <a href="/story/why-blackberry-is-a-more-attractive-buyout-target-than-twitter-2015-08-31?link=kiosk" class="">
+				<img alt="The stupidest investment ideas of 2013"  height="86"  src="http://i.marketwatch.com/_newsimages/columnists/kiosk/reeves-jeff.png"  width="86"  />
 </a>
 			
       
-</div>
+ </div>
 			<div class="threewide" >
-				<span class="Label" >Chuck Jaffe</span><br />
+				<span class="Label" >Jeff Reeves</span><br />
 				
 			
-          <a href="/story/how-to-find-one-mutual-fund-to-last-the-next-50-years-2015-08-17?link=kiosk" class="Headline2">
-1 fund to last 50 years
+          <a href="/story/why-blackberry-is-a-more-attractive-buyout-target-than-twitter-2015-08-31?link=kiosk" class="Headline2">
+BlackBerry the takeover target
 </a>
 			
       
 				<br />
-				Advice to a college-age daughter on picking one mutual fund to 
-				own until retirement.<br />
+				Lots of folks think Twitter has the big buyout pop but they are 
+				missing a more attractive chance.<br />
 				
 			
-          <a href="/story/your-children-will-thank-you-for-these-smart-money-tips-2015-08-14?link=kiosk" class="Headline1">
-• Your children will thank you for these tips 
+          <a href="/story/5-dividend-stocks-that-are-forever-investments-2015-06-25?link=kiosk" class="Headline1">
+				• 5 'forever' dividend stocks
 </a>
 			
       
 				<br />
-			</div>
+</div>
 		</div>
 	</div>
 
-  <span class="bgChannel">/conga/kiosk/commentaryjaffe.html</span>
-	<span class="bgRevision">352480</span>
+  <span class="bgChannel">/conga/kiosk/commentaryreeves.html</span>
+	<span class="bgRevision">353687</span>
 	<div class="clear"></div>
 </div>
 
@@ -931,7 +943,7 @@ Winning a credit-agency dispute
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Monday";
-			            s.eVar32 = "09:00";
+			            s.eVar32 = "10:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1151,7 +1163,7 @@ Winning a credit-agency dispute
 	ScrillaZilla.Escort.addClient(
 		ScrillaZilla.Client('#ad_DaypartBannerNewYorkBeforeTheBell', 
 			{
-				ord : 2137491492,
+				ord : 23899918,
 				src : 'http://ad.doubleclick.net/adi/marketwatch.com/sponsor_beforethebell_us;u=NULL**140x31****;sz=140x31;pos=5;tile=5;ord=',
 				width : '140',
 				height : '31',
@@ -1175,7 +1187,7 @@ Winning a credit-agency dispute
         
 		MarketWatch.Kiosk.setup("#kiosk",
 		{
-			startIndex: 3,
+			startIndex: 0,
 			autostart: true,
 			refresh: true,
 			adInRotation: false
@@ -1206,7 +1218,7 @@ Winning a credit-agency dispute
                  links: ' <a href="/column/movers-and-shakers?dist=countdown">After Hours Preview</a>  <a href="/tools/marketsummary/screener.asp?exchange=15&amp;view=8&amp;lookup=Look+Up">Winners and Losers</a> '
                  },
              
-            time: new Date("Mon, 31 Aug 2015 14:45:12 GMT"),
+            time: new Date("Mon, 31 Aug 2015 15:59:35 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });

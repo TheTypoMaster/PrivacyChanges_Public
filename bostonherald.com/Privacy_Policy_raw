@@ -293,7 +293,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-last-updated view-id-last_updated view-display-id-block view-dom-id-73c84b1258b157be6b20c217ac922236">
+      <div class="view view-last-updated view-id-last_updated view-display-id-block view-dom-id-c2e9a04c7202bd0d2565db8f578e29e3">
         
   
   
@@ -322,14 +322,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-weather-current-conditions view-id-weather_current_conditions view-display-id-block view-dom-id-b3c1c65bd7068c746790c9434aded674">
+      <div class="view view-weather-current-conditions view-id-weather_current_conditions view-display-id-block view-dom-id-9f21c1d6c11fc961fbf89a6adfb61fde">
         
   
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
     <div id="weather-teaser">
-  <a href="/extras/weather"><strong>Weather</strong><img src="http://www.bostonherald.com/sites/default/files/partlycloudy_788.gif" width="30" height="30" /> 78° F</a>
+  <a href="/extras/weather"><strong>Weather</strong><img src="http://www.bostonherald.com/sites/default/files/partlycloudy_761.gif" width="30" height="30" /> 84° F</a>
 </div>  </div>
     </div>
   
@@ -377,7 +377,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-herald-radio-now-playing view-id-herald_radio_now_playing view-display-id-block_5 view-dom-id-252218c0922d39f6973a7ee624c5b9f6">
+      <div class="view view-herald-radio-now-playing view-id-herald_radio_now_playing view-display-id-block_5 view-dom-id-61c505aa9c782d2742b529255e0c9e48">
         
   
   
@@ -400,7 +400,35 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div id="zone-alert" class="zone zone-alert clearfix container-24">
     <div class="grid-24 region region-alert" id="region-alert">
   <div class="region-inner region-alert-inner">
-    <!-- ESI: esi/block/ike_omega:alert:views:breaking_news-breaking_news_bar--><div class="block block-oas block-x80 block-oas-x80 odd block-without-title" id="block-oas-x80">
+    <!-- ESI: esi/block/ike_omega:alert:views:breaking_news-breaking_news_bar--><div class="block block-views block-breaking-news-breaking-news-bar block-views-breaking-news-breaking-news-bar odd block-without-title" id="block-views-breaking-news-breaking-news-bar">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-breaking-news view-id-breaking_news view-display-id-breaking_news_bar view-dom-id-01611438e731866c42c70e9e038c63a6">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last bnt--field-breaking-news-type">
+    <div class="node-tease breaking-bar Just In" title="Just In: Judge: No settlement on &#039;Deflategate&#039;; ruling coming soon">
+	    <h1 class="node-title">
+        <a href="/sports/patriots_nfl/the_blitz/2015/08/judge_no_settlement_on_deflategate_ruling_coming_soon"
+         title="Just In:
+         Judge: No settlement on &#039;Deflategate&#039;; ruling coming soon">
+            <strong>Just In:</strong>
+            Judge: No settlement on &#039;Deflategate&#039;; ruling coming soon        </a>
+      </h1>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-oas block-x80 block-oas-x80 odd block-without-title" id="block-oas-x80">
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">

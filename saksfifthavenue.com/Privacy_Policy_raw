@@ -728,7 +728,7 @@ ABTest_nav_refinement_20150317 = "A";
 <![endif]-->
     <noscript>
     <div class="browser-warning" id="noscript">
-        <p>In order to use all of the site functionality on the Saks Fifth Avenue website, you must have JavaScript enabled on your browser. <a href="http://www.saksfifthavenue.com/NoJavaScript.jsp?bmUID=k_2Dugh">See instructions</a> to enable JavaScript.</p>
+        <p>In order to use all of the site functionality on the Saks Fifth Avenue website, you must have JavaScript enabled on your browser. <a href="http://www.saksfifthavenue.com/NoJavaScript.jsp?bmUID=k_2wR94">See instructions</a> to enable JavaScript.</p>
     </div>
 </noscript>
 
@@ -986,7 +986,7 @@ USE CODE <strong>SAKS74</strong><br>
 	
 <p>NOT VALID ON PRE-ORDER ITEMS, OR ON INTERNATIONAL ORDERS. LIMIT OF FIVE PROMO CODES PER ORDER. Valid on saks.com purchases from 8/31/15 at 12:01 AM (ET) through 9/01/15 at 11:59 PM (ET). Enter promotional code SAKS74 at checkout for saks.com and catalog purchases. Offer and code valid once per customer. Not valid at Saks Fifth Avenue stores, Saks Fifth Avenue OFF 5TH stores or saksoff5th.com. Full value of coupon must be used at time of purchase. Receive $50 off your $250 order, $100 off your $450 order, or $175 off your $700 order is for promotional purposes only, without money or other value given in exchange, and is non-transferable. This offer cannot be applied as credit to previous purchases. Coupon may not be redeemed for cash or used as payment or credit toward Saks Fifth Avenue credit card accounts. Cannot be combined with any other offers. Discount is applied to all items purchased and is not adjustable for returns. Excludes Beauty & Fragrance. Excludes some designer collections, leased collections, pre-order items, international orders, charitable items, gift card and Saks employee purchases.</p>
 
- <p>Designer Exclusions (Certain categories of merchandise are excluded): Akris, Azzedine Alaia, Balmain, Bottega Veneta, Brunello Cucinelli, Cartier, Celine, Centerplate Foods, Chanel, Charvet, Christian Dior, Christian Louboutin, Christopher Kane, Comme des Garcons, David Yurman, Dee Ocleppo, DeLeo Jewelry & Watch Repair, Donna Karan, Fendi, Givenchy, Gucci, Graff, Herv&eacute; Leger, Jil Sander, Kiton, Lanvin, Loro Piana, Louis Vuitton, Maison Martin Margiela, Marc Jacobs, Mary Katrantzou, Miu Miu, Monique L'hullier Bridal, Nina Ricci, Oscar de la Renta, Prada, Ralph Lauren, Rochas, Saint Laurent, The Row, The Fur Salon, Tod's, UGG Australia, Valentino, Vera Wang Bridal, Versace, Vionnet, Zegna. </p>
+ <p>Designer Exclusions (Certain categories of merchandise are excluded): Akris, Azzedine Alaia, Balmain, Bottega Veneta, Brunello Cucinelli, Cartier, Celine, Centerplate Foods, Chanel, Charvet, Christian Dior, Christian Louboutin, Christopher Kane, Comme des Garcons, David Yurman, Dee Ocleppo, DeLeo Jewelry & Watch Repair, Donna Karan, Fendi, Givenchy, Gucci, Graff, Herv&eacute; Leger, Jil Sander, Kiton, Lanvin, Loro Piana, Louis Vuitton, Maison Martin Margiela, Marc Jacobs, Mary Katrantzou, Miu Miu, Monique L'hullier Bridal, Nina Ricci, Oscar de la Renta, Prada, Ralph Lauren, Rochas, Saint Laurent, Stella McCartney, The Row, The Fur Salon, Tod's, UGG Australia, Valentino, Vera Wang Bridal, Versace, Vionnet, Zegna. </p>
 
 </section>
 	  </article>
@@ -1341,19 +1341,19 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 				var data = {
 
 					// pages
-					accountPage: Saks.config['LOGIN_REMEDIATION'] ? 'https://www.saksfifthavenue.com/account/account.jsp?goto=your_account&bmUID=k_2DufT' : 'https://www.saksfifthavenue.com/account/login.jsp?catID=0&prp8=t10&bmUID=k_2DufD',
-					accountSettingPage: 'https://www.saksfifthavenue.com/account/settings.jsp?goto=account_email_settings&bmUID=k_2DufN',
-					internationalShippingPage: 'http://www.saksfifthavenue.com/main/context_chooser.jsp?previous_page=http%3A%2F%2Fwww.saksfifthavenue.com%2Fhtml%2Fpopups%2Flegal.jsp%3FbmUID%3Dk_2DufU&bmForm=set_prev_page&bmFormID=k_2DufV&bmUID=k_2DufW',
-					liveChatPage: Saks.config['IS_BOLD_CHAT_ENABLED'] ? '//livechat.boldchat.com/aid/723862952593377009/bc.chat?cwdid=717048591619698663&rdid=2288093396274138960&wdid=4405020731204665754' : 'http://www.saksfifthavenue.com/html/live_help/live_help.jsp?bmUID=k_2Dugn&prp13=b9',
+					accountPage: Saks.config['LOGIN_REMEDIATION'] ? 'https://www.saksfifthavenue.com/account/account.jsp?goto=your_account&bmUID=k_2wR8_' : 'https://www.saksfifthavenue.com/account/login.jsp?catID=0&prp8=t10&bmUID=k_2wR8K',
+					accountSettingPage: 'https://www.saksfifthavenue.com/account/settings.jsp?goto=account_email_settings&bmUID=k_2wR8U',
+					internationalShippingPage: 'http://www.saksfifthavenue.com/main/context_chooser.jsp?previous_page=http%3A%2F%2Fwww.saksfifthavenue.com%2Fhtml%2Fpopups%2Flegal.jsp%3FbmUID%3Dk_2wR8.&bmForm=set_prev_page&bmFormID=k_2wR90&bmUID=k_2wR91',
+					liveChatPage: Saks.config['IS_BOLD_CHAT_ENABLED'] ? '//livechat.boldchat.com/aid/723862952593377009/bc.chat?cwdid=717048591619698663&rdid=2288093396274138960&wdid=4405020731204665754' : 'http://www.saksfifthavenue.com/html/live_help/live_help.jsp?bmUID=k_2wR95&prp13=b9',
                     liveChatTarget: Saks.config['IS_BOLD_CHAT_ENABLED'] ? 'popup|550|665|chat':'popup|533|574|chat',
-					loginPage: 'https://www.saksfifthavenue.com/account/login.jsp?bmUID=k_2DufS',
-					manageShippingAddressPage: 'https://www.saksfifthavenue.com/account/mng_shipAddress.jsp?goto=shipping_address&bmUID=k_2DufO',
-					manageBillingAddressPage: 'https://www.saksfifthavenue.com/account/mng_billAddress.jsp?goto=billing_address&bmUID=k_2DufP',
-					managePaymentMethodPage: 'https://www.saksfifthavenue.com/account/mng_CreditCard.jsp?goto=payment_method&bmUID=k_2DufQ',
-					manageSaksFirstPage: 'https://www.saksfifthavenue.com/SaksFirst/saksfirst.jsp?bmUID=k_2DufR',
-					orderHistoryPage: 'https://www.saksfifthavenue.com/account/order_history.jsp?goto=order_history&bmUID=k_2DufM',
+					loginPage: 'https://www.saksfifthavenue.com/account/login.jsp?bmUID=k_2wR8Z',
+					manageShippingAddressPage: 'https://www.saksfifthavenue.com/account/mng_shipAddress.jsp?goto=shipping_address&bmUID=k_2wR8V',
+					manageBillingAddressPage: 'https://www.saksfifthavenue.com/account/mng_billAddress.jsp?goto=billing_address&bmUID=k_2wR8W',
+					managePaymentMethodPage: 'https://www.saksfifthavenue.com/account/mng_CreditCard.jsp?goto=payment_method&bmUID=k_2wR8X',
+					manageSaksFirstPage: 'https://www.saksfifthavenue.com/SaksFirst/saksfirst.jsp?bmUID=k_2wR8Y',
+					orderHistoryPage: 'https://www.saksfifthavenue.com/account/order_history.jsp?goto=order_history&bmUID=k_2wR8T',
 					orderTrackingPage: 'https://services.fiftyone.com/tracking.srv',
-					saksBagPage: 'https://www.saksfifthavenue.com/checkout/SaksBag.jsp?catID=0&prp8=t11&bmUID=k_2DufF',
+					saksBagPage: 'https://www.saksfifthavenue.com/checkout/SaksBag.jsp?catID=0&prp8=t11&bmUID=k_2wR8M',
 					// flags
 					isInternationalEnabled: window.onOffSwitch,
 					isInternationalSession: window.onOffSwitch && window.intlNav,
@@ -1693,7 +1693,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306572235&bmUID=kZAoQ9_">3.1 Phillip Lim</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306572235&bmUID=kZAt6OZ">3.1 Phillip Lim</a>
 										
 									</li>
 									
@@ -1707,7 +1707,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306411563&bmUID=kZAoQ9.">Akris/Akris Punto</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306411563&bmUID=kZAt6O_">Akris/Akris Punto</a>
 										
 									</li>
 									
@@ -1721,7 +1721,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306433339&bmUID=kZAoQa0">Alexander McQueen</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306433339&bmUID=kZAt6O.">Alexander McQueen</a>
 										
 									</li>
 									
@@ -1735,7 +1735,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306433428&bmUID=kZAoQa1">Alice + Olivia</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306433428&bmUID=kZAt6P0">Alice + Olivia</a>
 										
 									</li>
 									
@@ -1749,7 +1749,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306622473&bmUID=kZAoQa2">Balmain</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306622473&bmUID=kZAt6P1">Balmain</a>
 										
 									</li>
 									
@@ -1763,7 +1763,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080265&bmUID=kZAoQa3">Bottega Veneta</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080265&bmUID=kZAt6P2">Bottega Veneta</a>
 										
 									</li>
 									
@@ -1777,7 +1777,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080275&bmUID=kZAoQa4">Burberry</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080275&bmUID=kZAt6P3">Burberry</a>
 										
 									</li>
 									
@@ -1791,7 +1791,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306425835&bmUID=kZAoQa5">Chloe</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306425835&bmUID=kZAt6P4">Chloe</a>
 										
 									</li>
 									
@@ -1805,7 +1805,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306412009&bmUID=kZAoQa6">Christian Louboutin</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306412009&bmUID=kZAt6P5">Christian Louboutin</a>
 										
 									</li>
 									
@@ -1819,7 +1819,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305092113&bmUID=kZAoQa7">Diane von Furstenberg</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305092113&bmUID=kZAt6P6">Diane von Furstenberg</a>
 										
 									</li>
 									
@@ -1833,7 +1833,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080327&bmUID=kZAoQa8">Dolce & Gabbana</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080327&bmUID=kZAt6P7">Dolce & Gabbana</a>
 										
 									</li>
 									
@@ -1847,7 +1847,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306407276&bmUID=kZAoQa9">Donna Karan</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306407276&bmUID=kZAt6P8">Donna Karan</a>
 										
 									</li>
 									
@@ -1861,7 +1861,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306403111&bmUID=kZAoQaa">Fendi</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306403111&bmUID=kZAt6P9">Fendi</a>
 										
 									</li>
 									
@@ -1875,7 +1875,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306390851&bmUID=kZAoQab">Giorgio Armani</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306390851&bmUID=kZAt6Pa">Giorgio Armani</a>
 										
 									</li>
 									
@@ -1889,7 +1889,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306600235&bmUID=kZAoQac">Givenchy</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306600235&bmUID=kZAt6Pb">Givenchy</a>
 										
 									</li>
 									
@@ -1903,7 +1903,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080469&bmUID=kZAoQad">Gucci</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080469&bmUID=kZAt6Pc">Gucci</a>
 										
 									</li>
 									
@@ -1917,7 +1917,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306620098&bmUID=kZAoQae">Helmut Lang</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306620098&bmUID=kZAt6Pd">Helmut Lang</a>
 										
 									</li>
 									
@@ -1931,7 +1931,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080503&bmUID=kZAoQaf">Jimmy Choo</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080503&bmUID=kZAt6Pe">Jimmy Choo</a>
 										
 									</li>
 									
@@ -1945,7 +1945,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306439958&bmUID=kZAoQag">Joie</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306439958&bmUID=kZAt6Pf">Joie</a>
 										
 									</li>
 									
@@ -1959,7 +1959,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306625278&bmUID=kZAoQah">Lanvin</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306625278&bmUID=kZAt6Pg">Lanvin</a>
 										
 									</li>
 									
@@ -1973,7 +1973,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306571595&bmUID=kZAoQai">Manolo Blahnik</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306571595&bmUID=kZAt6Ph">Manolo Blahnik</a>
 										
 									</li>
 									
@@ -1987,7 +1987,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306149529&bmUID=kZAoQaj">Michael Kors</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306149529&bmUID=kZAt6Pi">Michael Kors</a>
 										
 									</li>
 									
@@ -2001,7 +2001,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306420787&bmUID=kZAoQak">MILLY</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306420787&bmUID=kZAt6Pj">MILLY</a>
 										
 									</li>
 									
@@ -2015,7 +2015,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306436475&bmUID=kZAoQal">Moncler</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306436475&bmUID=kZAt6Pk">Moncler</a>
 										
 									</li>
 									
@@ -2029,7 +2029,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080599&bmUID=kZAoQam">Prada</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080599&bmUID=kZAt6Pl">Prada</a>
 										
 									</li>
 									
@@ -2043,7 +2043,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306439105&bmUID=kZAoQan">Rag & Bone</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306439105&bmUID=kZAt6Pm">Rag & Bone</a>
 										
 									</li>
 									
@@ -2057,7 +2057,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306404139&bmUID=kZAoQao">Ralph Lauren</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306404139&bmUID=kZAt6Pn">Ralph Lauren</a>
 										
 									</li>
 									
@@ -2071,7 +2071,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306606635&bmUID=kZAoQap">Saint Laurent</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306606635&bmUID=kZAt6Po">Saint Laurent</a>
 										
 									</li>
 									
@@ -2085,7 +2085,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080593&bmUID=kZAoQaq">Salvatore Ferragamo</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080593&bmUID=kZAt6Pp">Salvatore Ferragamo</a>
 										
 									</li>
 									
@@ -2099,7 +2099,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306559805&bmUID=kZAoQar">Stella McCartney</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306559805&bmUID=kZAt6Pq">Stella McCartney</a>
 										
 									</li>
 									
@@ -2113,7 +2113,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080525&bmUID=kZAoQas">St. John</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305080525&bmUID=kZAt6Pr">St. John</a>
 										
 									</li>
 									
@@ -2127,7 +2127,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305092177&bmUID=kZAoQat">Theory</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374305092177&bmUID=kZAt6Ps">Theory</a>
 										
 									</li>
 									
@@ -2141,7 +2141,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306602835&bmUID=kZAoQau">The Row</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306602835&bmUID=kZAt6Pt">The Row</a>
 										
 									</li>
 									
@@ -2155,7 +2155,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306428215&bmUID=kZAoQav">Tory Burch</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306428215&bmUID=kZAt6Pu">Tory Burch</a>
 										
 									</li>
 									
@@ -2169,7 +2169,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306406570&bmUID=kZAoQaw">Valentino</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306406570&bmUID=kZAt6Pv">Valentino</a>
 										
 									</li>
 									
@@ -2183,7 +2183,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 									<li>
 										
 										
-											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306400609&bmUID=kZAoQax">Vince</a>
+											<a href="http://www.saksfifthavenue.com/main/WorldOfDesigner.jsp?FOLDER%3C%3Efolder_id=2534374306400609&bmUID=kZAt6Pw">Vince</a>
 										
 									</li>
 									
@@ -10521,8 +10521,8 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 			<div id="site-search">
 				<form action="http://www.saksfifthavenue.com/search/EndecaSearch.jsp" method="get" name="endeca_search_form_one">
 <input type="hidden" name="bmForm" value="endeca_search_form_one">
-<input type="hidden" name="bmFormID" value="k_2Duh7">
-<input type="hidden" name="bmUID" value="k_2Duh8">
+<input type="hidden" name="bmFormID" value="k_2wR9o">
+<input type="hidden" name="bmUID" value="k_2wR9p">
 <input type="hidden" name="bmIsForm" value="true">
 <input type="hidden" name="bmPrevTemplate" value="/html/popups/legal.jsp">
 					<div class="search-box">
@@ -10618,7 +10618,7 @@ root.Saks.module('Mediator').publish("Global.Top.Banner:init");
 					<input type="hidden" name="bmHidden" value="Ntx"><input type="hidden" name="Ntx" value="mode+matchpartialmax"/>
 					<input type="hidden" name="bmHidden" value="prp8"><input type="hidden" name="prp8" value="t15"/>
 					<input type="hidden" name="bmHidden" value="prp13"><input type="hidden" name="prp13" value=""/>
-					<input type="hidden" name="bmHidden" value="sid"><input type="hidden" name="sid" value="14F843319F58"/>
+					<input type="hidden" name="bmHidden" value="sid"><input type="hidden" name="sid" value="14F84771629A"/>
 					<input type="hidden" name="bmHidden" value="FOLDER&lt;&gt;folder_id"><input type="hidden" name="FOLDER<>folder_id" value="">
 
 					
@@ -11764,10 +11764,10 @@ r3();
         </div>
 
 		<div class="email-signup s5a-sub-footer-module">
-            <form action="https://www.saksfifthavenue.com/html/email_popup/email_collect_popup_main.jsp?bmUID=k_2Dugu" method="get" name="email_updates_form_one1" class="s5a-sub-footer-body">
+            <form action="https://www.saksfifthavenue.com/html/email_popup/email_collect_popup_main.jsp?bmUID=k_2wR99" method="get" name="email_updates_form_one1" class="s5a-sub-footer-body">
 <input type="hidden" name="bmForm" value="email_updates_form_one1">
-<input type="hidden" name="bmFormID" value="k_2Duh9">
-<input type="hidden" name="bmUID" value="k_2Duha">
+<input type="hidden" name="bmFormID" value="k_2wR9q">
+<input type="hidden" name="bmUID" value="k_2wR9r">
 <input type="hidden" name="bmIsForm" value="true">
 <input type="hidden" name="bmPrevTemplate" value="/html/popups/legal.jsp">
                 <div class="form-item field">
@@ -11803,7 +11803,7 @@ r3();
             
             
                 <li>
-                    <a href="#" onClick="saksPopupWin('https://www.saksfifthavenue.com/email_popup/email_popup_main.jsp?bmUID=k_2Dugv&prp13=b11',475,630); return false;">Email</a>
+                    <a href="#" onClick="saksPopupWin('https://www.saksfifthavenue.com/email_popup/email_popup_main.jsp?bmUID=k_2wR9a&prp13=b11',475,630); return false;">Email</a>
                 </li>
                 <li>
                     <a href="javascript: saksPopupWin('//livechat.boldchat.com/aid/723862952593377009/bc.chat?cwdid=717048591619698663&rdid=2288093396274138960&wdid=4405020731204665754',550,665,'LiveChat'); Saks.module('Mediator').publish('liveChat:chatWindowOpened');" id="footer-chat-link">Chat</a>
@@ -11820,21 +11820,21 @@ r3();
 			<li class="menu-item first-child col1">
 				<h3>Shop Saks </h3>
 				<ul>
-					<li><a href="http://www.saksfifthavenue.com/editorial/edit.jsp?pageid=collage?bmUID=k_2Dugw" alt="Fashion's Who, What &amp; Why" title="Fashion's Who, What &amp; Why">EDITION</a></li>
-					<li><a href="http://www.saksfifthavenue.com/trendcaster?bmUID=k_2Dugx" title="Our Download of What's Hot">The Trendcaster</a></li>
-                    <li><a href="http://www.saksfifthavenue.com/editorial/events/fall-fashion-designers-081815.jsp?bmUID=k_2Dugy" title="A Designer Series">Fall Fashion: A Designer Series</a></li>
-                     <li><a href="http://www.saksfifthavenue.com/collection?bmUID=k_2Dugz" title="A Contemporary Series">Collection: A Contemporary Series</a></li>
-                    <li><a href="http://www.saksfifthavenue.com/saksstyle?bmUID=k_2DugA" title="Our Shoppable Social Hub"> #SaksStyle Hub </a></li>
-					<li><a href="http://www.saksfifthavenue.com/cqc/select_catalog.jsp?bmUID=k_2DugB" title="The New Issue Is Here">Catalogs</a></li>
+					<li><a href="http://www.saksfifthavenue.com/editorial/edit.jsp?pageid=collage?bmUID=k_2wR9b" alt="Fashion's Who, What &amp; Why" title="Fashion's Who, What &amp; Why">EDITION</a></li>
+					<li><a href="http://www.saksfifthavenue.com/trendcaster?bmUID=k_2wR9c" title="Our Download of What's Hot">The Trendcaster</a></li>
+                    <li><a href="http://www.saksfifthavenue.com/editorial/events/fall-fashion-designers-081815.jsp?bmUID=k_2wR9d" title="A Designer Series">Fall Fashion: A Designer Series</a></li>
+                     <li><a href="http://www.saksfifthavenue.com/collection?bmUID=k_2wR9e" title="A Contemporary Series">Collection: A Contemporary Series</a></li>
+                    <li><a href="http://www.saksfifthavenue.com/saksstyle?bmUID=k_2wR9f" title="Our Shoppable Social Hub"> #SaksStyle Hub </a></li>
+					<li><a href="http://www.saksfifthavenue.com/cqc/select_catalog.jsp?bmUID=k_2wR9g" title="The New Issue Is Here">Catalogs</a></li>
 					<li><a href="http://www.saksfifthavenue.com/Gift-Cards" title="Available By Mail Or As E-Card">Gift Cards</a></li>
 				</ul>
 			</li>
 			<li class="menu-item col2">
 				<h3>Stores &amp; Corporate</h3>
 				<ul>
-					<li><a href="http://www.saksfifthavenue.com/stores/stores.jsp?bmUID=k_2DugC">Store Locations &amp; Events</a></li>
+					<li><a href="http://www.saksfifthavenue.com/stores/stores.jsp?bmUID=k_2wR9h">Store Locations &amp; Events</a></li>
 					<li class="js-saks_ca is-hidden"><a href="/main/StoreLanding.jsp?store=canada_en">Saks Canada</a></li>
-					<li><a href="http://www.saksfifthavenue.com/main/bridal_landing.jsp?bmUID=k_2DugD">Bridal Trunk Shows</a></li>
+					<li><a href="http://www.saksfifthavenue.com/main/bridal_landing.jsp?bmUID=k_2wR9i">Bridal Trunk Shows</a></li>
 					<li><a href="http://www.saksfifthavenue.com/About-Us">About Us</a></li>
 					<li><a href="http://www.careersatsaks.com" data-target="tab">Careers</a></li>
 					<li><a href="http://www.saksfifthavenue.com/Policies">Policies</a></li>
@@ -11918,7 +11918,7 @@ function getXmlHttpRequestObject() {
 function loadBagNow(num_items_added){
 	document.getElementById('saksbagoverlay_insert').innerHTML = "<table width='417' height='120'  class='BackDropColor' cellpadding='0' cellspacing='5' border='0'><tr><td align='center' valign='center' bgcolor='#ffffff'><img src='/media/images/saks_bag/loadingsaksbag_v1_m56577569831411277.gif' border='0'></td></tr></table>";
 	var paramsOverlay = "";
-	var urlOverlay = 'http://www.saksfifthavenue.com/include/saksbaginsert.jsp?bmUID=k_2DugE';
+	var urlOverlay = 'http://www.saksfifthavenue.com/include/saksbaginsert.jsp?bmUID=k_2wR9j';
 	var currentUrlnow = window.location.toString();
 	var rehttp= new RegExp ("https://");
 	if(currentUrlnow.match(rehttp)){
@@ -11952,7 +11952,7 @@ function handleAddToBagOverlay() {
 			}
 		}else{
 			document.getElementById('saksbagoverlay_insert').innerHTML = "<table width='417' height='120'  class='BackDropColor' cellpadding='0' cellspacing='5' border='0'><tr><td align='center' valign='center' bgcolor='#ffffff'>Error: " + receiveReqOverlay.status +"<br>Could not load Saks Bag Overlay.<br>Page will Redirected to the Saks Bag Page</td></tr></table>";
-			window.location.href="https://www.saksfifthavenue.com/checkout/SaksBag.jsp?bmUID=k_2DugF"
+			window.location.href="https://www.saksfifthavenue.com/checkout/SaksBag.jsp?bmUID=k_2wR9k"
 		}
 	}
 } 

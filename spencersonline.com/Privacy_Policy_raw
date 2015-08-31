@@ -242,7 +242,7 @@
                <a class="parent" data-qaAutomationId="hdrSecNav-Music" href="/section/music/2536.uts">Music</a></li>
         <li>
                <a class="parent" data-qaAutomationId="hdrSecNav-Back To School" href="/section/back-to-school/603.uts">Back To School</a></li>
-        <input type="hidden" id="artGunURL" value='http://design-a-tee.spencersonline.com/apps/spencersonline/v32/index.php?s=e&k=spencersonline&b=h&g=123&c=8438f77c0a845a075919e61d0bdc9cc7' />
+        <input type="hidden" id="artGunURL" value='http://design-a-tee.spencersonline.com/apps/spencersonline/v32/index.php?s=e&k=spencersonline&b=h&g=123&c=847d1b7a0a845a075919e61de5376cb0' />
 <li>
 <div style="width:54px;"></div>
 </li></ul>
@@ -1028,24 +1028,7 @@
                         mybuys.initPage();
                 </script>
                 <!-- End MyBuys Page Initialization -->
-            <script src="/js/utility/utility.jsp" type="text/javascript"></script><script src="/js/plugins/plugins.jsp" type="text/javascript"></script><div id="certona-data">
-	<script type="text/javascript">
-    var resx = new Object();
-    resx.appid = 'spencergifts02';
-    resx.top1 = 100000;
-    resx.top2 = 100000;
-    resx.customerid = "";
-    resx.event="home";
-    resx.links="|spencer_accessories1_rr";
-    resx.itemid="";
-    resx.rrec = true;
-    resx.rrelem = 'spencer_accessories1_rr';    //scheme name.
-    resx.rrnum = "4";
-    resx.rrcall = "certonaRecs"; // this will have the JS return the JSON response to the certonaRecs function
-</script>
-
-<script src="/js/certona/resxclsa.js" type="text/javascript"></script></div>
-<script>
+            <script src="/js/utility/utility.jsp" type="text/javascript"></script><script src="/js/plugins/plugins.jsp" type="text/javascript"></script><script>
 				var s7ViewerReadyEvent = jQuery.Event("s7ViewerReady");
 				var s7ViewerLoaded = false;
 				var s7ViewerLibLoaded = true;

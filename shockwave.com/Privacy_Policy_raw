@@ -113,16 +113,16 @@
 </script>
 		
 		<script type="text/javaScript" >
-    var dartGenre = 'puzzle';
-    var dartCategory = 'puzzle';
-    var dartKeyword = 'dailydiff';
+    var dartGenre = 'racing';
+    var dartCategory = 'racing';
+    var dartKeyword = 'open-wheel-grand-prix';
 </script>
 <script type="text/javaScript" >
     sw.adSettings = {};
     sw.adSettings.DoubleClickDartSite = 'sw.nol';
     sw.adSettings.DoubleClickPositionThreshold = '1';
-    sw.adSettings.DoubleClickSections='puzzle/dailydiff';
-    sw.adSettings.DoubleClickKeyValues = '!category=puzzle;!category=pop;!category=float;!category=expand;';
+    sw.adSettings.DoubleClickSections='racing/open-wheel-grand-prix';
+    sw.adSettings.DoubleClickKeyValues = '!category=racing;!category=pop;!category=float;!category=expand;';
     sw.adSettings.DoubleClickAutoDcopt=true;
 </script>
  

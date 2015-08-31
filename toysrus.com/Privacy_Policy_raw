@@ -540,7 +540,7 @@ function getSREDID(){
 
        currentDate.day = 31;
 
-       currentDate.hour = 10;
+       currentDate.hour = 12;
 
 </script>
 
@@ -688,7 +688,7 @@ function getSREDID(){
                                     <div class="clearfloat"></div>
                                     <input type="hidden" name="contest" value="TRUBRU_HEADER_POST" />
                                     <input type="hidden" name="emailPref" value="Y" />
-                                    <input type="hidden" name="datetime" value="August 31, 2015 10:47:58 AM EDT" />
+                                    <input type="hidden" name="datetime" value="August 31, 2015 12:02:37 PM EDT" />
                                 </form>
                                 <h2 class="confirm content" style="display: none;">You will start receiving emails with special offers and more within one to two days.</h2>
                                 <a class="confirm continueShopping" style="display: none;" href="javascript:void(0);">Continue Shopping</a></div></div>
@@ -2399,7 +2399,7 @@ function trugiftheader(trupress){
                 <a class="cartButton" href="/cart/index.jsp">
                     <span class="cartIcon">Cart</span>
 					
-					<!-- (random number = 495) -->
+					<!-- (random number = 506) -->
                      
 						<!-- DSA Akamai is disabled -->
                         <span class="cartItemCount">0</span>
@@ -2431,7 +2431,7 @@ function trugiftheader(trupress){
         }
 		
             jQuery(document).ready(function($) {
-                writeRegCookieWithParam('SHJD=314R482200468S3N2S4O09R5RP1R1P34','0','','0','');
+                writeRegCookieWithParam('SHJD=O28595O0S616R9RO3Q78N907882P9S66','0','','0','');
             });
         
     </script>
@@ -3950,7 +3950,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
     var siteId= '49';
     var catId = '';
     var pageType = 'helpdesksafetyprivacy';
-    var browserId = '253645949788';
+    var browserId = '253663079998';
     var prodId = '';
     var pQty = '';
     var orderId = '';
@@ -4031,7 +4031,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 	userBehavior.cartValue = '';
 	userBehavior.wishList = '';
 	userBehavior.currentURL = 'http://www.toysrus.com/gsi/trus/cmsTemplates/tru_helpdesk_1.jsp';
-	userBehavior.currentSessionID = '224671725';
+	userBehavior.currentSessionID = '535174111';
 	userBehavior.userBehaviorSearchWords = '';
 	userBehavior.marketingScore = '0';
 	userBehavior.storeCurrencyCode = 'USD';
@@ -4067,7 +4067,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
 				'&wishList='+userBehavior.wishList +
 				'&sessionID='+userBehavior.currentSessionID+
 				'&pageOrprocessName='+'cmsTemplates'+ 
-				'&browserId='+'253645949788'+ 
+				'&browserId='+'253663079998'+ 
 				'&userId='+'uid=0'+ 
 				'&userBehaviorSearchWords='+userBehavior.userBehaviorSearchWords+
 				'&marketingScore='+userBehavior.marketingScore+
@@ -4170,7 +4170,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oi
  
 <script type="text/javascript">
 		var digitalData = {
-		  sessionID: "224671725",
+		  sessionID: "535174111",
 		  page : {
 			pageInfo : {
             pageName : "HelpDesk: Safety, Security, and Privacy",

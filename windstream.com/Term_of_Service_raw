@@ -1523,6 +1523,7 @@ document.write(new Date().getFullYear());
         </div>
         <iframe style="display: none;" frameborder="0"></iframe>
     </div>
+    <div id="lightbox" class="modal-container" style="display: none;"></div>
     <div class="mask" style="display: none;">
         <img id="loading" src="/uploadedimages/_Assets/structure/icons/loading.gif" alt="Loading"
              style="display: none;" />
@@ -1831,7 +1832,7 @@ help.</p>
         // 07-02-2013 [GNP] - Added the Embeded logic for Wendy
 		
     
-    VirtuOzVars = { customerType: "New" };
+    VirtuOzVars = { customerType: "Unknown" };
     		
 
 //$(function () {
@@ -1859,7 +1860,7 @@ help.</p>
     </script>
 
     <script type="text/javascript" src="/wendy-commerce/scripts/VirtuOzLoader.js"></script><script> 
-	NinaPostQualif = { customerType: "New", url: "https://agent2.nina-nuance.com/windstream-windstream_commerce_va_us-englishus-WebBotRouter", cookieName: "VirtuOz-VzWindstreamCommerce-postQualif" };
+	NinaPostQualif = { customerType: "Unknown", url: "https://agent2.nina-nuance.com/windstream-windstream_commerce_va_us-englishus-WebBotRouter", cookieName: "VirtuOz-VzWindstreamCommerce-postQualif" };
 	$("a[class*='agent']").click(function(evt) {
     evt.preventDefault();
     if (typeof VirtuOz != "undefined") {
@@ -1947,10 +1948,10 @@ help.</p>
     s.eVar5 = "";
     s.prop6 = "BASE";
     s.eVar6 = "BASE";
-    s.prop7 = "9,18,21,101,103,108,120,138,155,156,157,158,159,171";
-    s.eVar7 = "9,18,21,101,103,108,120,138,155,156,157,158,159,171";
+    s.prop7 = "9,18,21,101,103,108,120,138,155,156,157,158,159,171,191,194,199,203";
+    s.eVar7 = "9,18,21,101,103,108,120,138,155,156,157,158,159,171,191,194,199,203";
     s.prop8 = "99";
-    s.eVar8 = "99";
+    s.eVar8 = "25";
     s.prop9 = "False";
     s.eVar9 = "False";
 
@@ -2030,5 +2031,13 @@ help.</p>
         })();
     </script>
     <!-- ClickTale end of Bottom code -->
+    <script type="text/javascript">
+        var showGlobalPopup = false;
+        //console.log(showGlobalPopup);
+        if (showGlobalPopup) {
+            createLightbox('/Pages/Wireframes/ModalPage.aspx');
+        }
+
+    </script>
     </body> 
     </html> 

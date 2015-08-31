@@ -503,7 +503,7 @@ menu item
 
 
 <!-- floating nav -->	<div class="shortcut-bar" data-100="top: -80px;" data-150="top:0;" data-behavior="shortcut_bar">
-	<div class="container" data-section-id="916">
+	<div class="container" data-section-id="12">
 		<p class="logo">
 			<a href="/" onclick="trackOutboundLink(this, 'Logo-shortcutbar-Link', 'Homepage', '/'); return false;">Advertising Age</a>
 		</p>
@@ -513,32 +513,37 @@ menu item
 					<a href="#"><span>Sections</span> <i class="caret"></i></a>
 					<ul>
 						<li>
-	<a href="/datacenter" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Databases', this.getAttribute('href')); return false;"><span>Databases</span></a>
+	<a href="/channel/marketing/28" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Marketing', this.getAttribute('href')); return false;"><span>Marketing</span></a>
 </li>
 <!--
 menu item
 --><li>
-	<a href="/datacenter/#advertising_spending" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Spending', this.getAttribute('href')); return false;"><span>Spending</span></a>
+	<a href="/channel/advertising/47" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Advertising', this.getAttribute('href')); return false;"><span>Advertising</span></a>
 </li>
 <!--
 menu item
 --><li>
-	<a href="/datacenter/#agencies" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Agencies', this.getAttribute('href')); return false;"><span>Agencies</span></a>
+	<a href="/channel/digital/20" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Digital', this.getAttribute('href')); return false;"><span>Digital</span></a>
 </li>
 <!--
 menu item
 --><li>
-	<a href="/datacenter/#digital" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Digital', this.getAttribute('href')); return false;"><span>Digital</span></a>
+	<a href="/channel/media/1" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Media', this.getAttribute('href')); return false;"><span>Media</span></a>
 </li>
 <!--
 menu item
 --><li>
-	<a href="/datacenter/#media" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Media', this.getAttribute('href')); return false;"><span>Media</span></a>
+	<a href="/channel/agency-news/19" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Agency', this.getAttribute('href')); return false;"><span>Agency</span></a>
 </li>
 <!--
 menu item
 --><li>
-	<a href="/datacenter/#annuals_fact_packs_and_more" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Annuals & Fact Packs', this.getAttribute('href')); return false;"><span>Annuals & Fact Packs</span></a>
+	<a href="/channel/dataworks/42" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'Data', this.getAttribute('href')); return false;"><span>Data</span></a>
+</li>
+<!--
+menu item
+--><li>
+	<a href="/section/btob/976" class="bottom_menu" onclick="trackOutboundLink(this, 'Main-Menu', 'BtoB', this.getAttribute('href')); return false;"><span>BtoB</span></a>
 </li>
 					</ul>
 				</li>
@@ -582,6 +587,42 @@ menu item
 
 			                <li class="news-img-left">
                     <div>
+						<a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Now You Can Get Some Colbert With Your Stumptown Cold Brew', 'http://adage.com/article/media/colbert-cold-brew-stumptown/300149/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/colbert2.jpg?1441032198" width="100" height="67" alt="Now You Can Get Some Colbert With Your Stumptown Cold Brew" title="Now You Can Get Some Colbert With Your Stumptown Cold Brew" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Now You Can Get Some Colbert With Your Stumptown Cold Brew', 'http://adage.com/article/media/colbert-cold-brew-stumptown/300149/']);">Now You Can Get Some Colbert With Your Stumptown Cold Brew</a></h4>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 48 minutes ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/colbert-cold-brew-stumptown/300149/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Now You Can Get Some Colbert With Your Stumptown Cold Brew', 'http://adage.com/article/media/colbert-cold-brew-stumptown/300149/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/Keep_Calm_Biscuit_Shirt.jpeg?1441031357" width="100" height="106" alt="Let the $5 Chicken Meal War Begin" title="Let the $5 Chicken Meal War Begin" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);">Let the $5 Chicken Meal War Begin</a></h4>
+						<p>By <a href="http://adage.com/author/jessica-wohl/6777">Jessica Wohl</a> - 48 minutes ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Let the $5 Chicken Meal War Begin', 'http://adage.com/article/cmo-strategy/5-chicken-meal-war-begin/300148/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
 						<a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">
                             
                             <div class="trim">
@@ -590,11 +631,29 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);">Apple and Facebook Put Lesser-Known Factual on the Map</a></h4>
-						<p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 2 minutes ago</p>
+						<p>By <a href="http://adage.com/author/kate-kaye/974">Kate Kaye</a> - 1 hour ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Apple and Facebook Put Lesser-Known Factual on the Map', 'http://adage.com/article/dataworks/apple-facebook-put-lesser-factual-map/300144/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd,\' Drug Side Effects After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/kim_kardash_3x2.jpg?1441031995" width="100" height="67" alt="Kim Kardashian Posts '#CorrectiveAd,' Drug Side Effects After FDA Warning" title="Kim Kardashian Posts '#CorrectiveAd,' Drug Side Effects After FDA Warning" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd,\' Drug Side Effects After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);">Kim Kardashian Posts '#CorrectiveAd,' Drug Side Effects After FDA Warning</a></h4>
+						<p>1 hour ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd,\' Drug Side Effects After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -608,65 +667,11 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/digitalnext/mobile-messaging-engage-consumers/300137/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'How to Use Mobile Messaging to Engage with Consumers', 'http://adage.com/article/digitalnext/mobile-messaging-engage-consumers/300137/']);">How to Use Mobile Messaging to Engage with Consumers</a></h4>
-						<p>By <a href="http://adage.com/author/eyal-pfeifel/6796">Eyal Pfeifel</a> - 32 minutes ago</p>
+						<p>By <a href="http://adage.com/author/eyal-pfeifel/6796">Eyal Pfeifel</a> - 1 hour ago</p>
 
                         <ul class="actions">
                             <li><a href="http://adage.com/article/digitalnext/mobile-messaging-engage-consumers/300137/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/digitalnext/mobile-messaging-engage-consumers/300137/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'How to Use Mobile Messaging to Engage with Consumers', 'http://adage.com/article/digitalnext/mobile-messaging-engage-consumers/300137/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/Coke_Zero__FF_Marching_Band_3x2_1.jpg?1440771399" width="100" height="67" alt="Coke Zero Wants College Football Fans to 'Drink' Its Ads" title="Coke Zero Wants College Football Fans to 'Drink' Its Ads" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);">Coke Zero Wants College Football Fans to 'Drink' Its Ads</a></h4>
-						<p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 3 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Coke Zero Wants College Football Fans to \'Drink\' Its Ads', 'http://adage.com/article/cmo-strategy/coke-college-football-fans-drink-ads/300145/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Networks Confront Ad Blockers Erasing Their Commercials Online" title="TV Networks Confront Ad Blockers Erasing Their Commercials Online" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Networks Confront Ad Blockers Erasing Their Commercials Online</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 3 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/Uptown_Espresso_Kitchen_20150828_3X2.jpg?1440777744" width="100" height="67" alt="Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs" title="Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);">Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs</a></h4>
-						<p>By <a href="http://adage.com/author/beth-snyder-bulik/195">Beth Snyder Bulik</a> - 3 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" class="share-count">Array<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -682,19 +687,55 @@ menu item
 				
 			                <li class="news-img-left">
                     <div>
-						<a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">
+						<a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">
                             
                             <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Networks Confront Ad Blockers Erasing Their Commercials Online" title="TV Networks Confront Ad Blockers Erasing Their Commercials Online" />
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Confronts Ad Blockers Erasing Commercials Online" title="TV Confronts Ad Blockers Erasing Commercials Online" />
                             </div>
 
                         </a>
-						<h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Networks Confront Ad Blockers Erasing Their Commercials Online</a></h4>
-						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 3 hours ago</p>
+						<h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Confronts Ad Blockers Erasing Commercials Online</a></h4>
+						<p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 4 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">113<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
+                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">175<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'TV Confronts Ad Blockers Erasing Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd\' After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/kim_kardash_3x2.jpg?1441031995" width="100" height="67" alt="Kim Kardashian Posts '#CorrectiveAd' After FDA Warning" title="Kim Kardashian Posts '#CorrectiveAd' After FDA Warning" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd\' After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);">Kim Kardashian Posts '#CorrectiveAd' After FDA Warning</a></h4>
+						<p>1 hour ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" class="share-count">3<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Kim Kardashian Posts \'#CorrectiveAd\' After FDA Warning', 'http://adage.com/article/digital/kim-kardashian-posts-drug-side-effects-fda-warning/300147/']);"><i class="icon icon-comment"></i> 0</a></li>
+                        </ul>
+                    </div>
+                </li><!-- / .news-img-left -->
+                <li class="news-img-left">
+                    <div>
+						<a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">
+                            
+                            <div class="trim">
+                            <img src="http://gaia.adage.com/images/bin/image/x-small/Yelp_Image2.jpg?1440596880" width="100" height="67" alt="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" title="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" />
+                            </div>
+
+                        </a>
+						<h4><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?</a></h4>
+						<p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 4 hours ago</p>
+
+                        <ul class="actions">
+                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">50<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -708,10 +749,10 @@ menu item
 
                         </a>
 						<h4><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);">Chinese Brands Want to Go Global; Here's Why It's Still So Tough</a></h4>
-						<p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 3 hours ago</p>
+						<p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 4 hours ago</p>
 
                         <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">65<i class="icon icon-forward"></i></a></li>
+                            <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">80<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -731,42 +772,6 @@ menu item
                         <ul class="actions">
                             <li><a href="http://adage.com/article/cmo-strategy/love-rocks-survey-reveals-problems-opportunities-mcd/300146/" class="share-count">91<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/love-rocks-survey-reveals-problems-opportunities-mcd/300146/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Love on the Rocks: Survey Reveals Problems, Opportunities for McD\'s', 'http://adage.com/article/cmo-strategy/love-rocks-survey-reveals-problems-opportunities-mcd/300146/']);"><i class="icon icon-comment"></i> 1</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/Uptown_Espresso_Kitchen_20150828_3X2.jpg?1440777744" width="100" height="67" alt="Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs" title="Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);">Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs</a></h4>
-						<p>By <a href="http://adage.com/author/beth-snyder-bulik/195">Beth Snyder Bulik</a> - 3 hours ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" class="share-count">22<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Growing Up Foodie: Marketers Turn Kids Into Sophisticated Chefs', 'http://adage.com/article/cmo-strategy/marketers-turn-kids-sophisticated-chefs/300139/']);"><i class="icon icon-comment"></i> 0</a></li>
-                        </ul>
-                    </div>
-                </li><!-- / .news-img-left -->
-                <li class="news-img-left">
-                    <div>
-						<a href="http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Starcom Wins U.S. Media for New Kraft Heinz Company', 'http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/']);">
-                            
-                            <div class="trim">
-                            <img src="http://gaia.adage.com/images/bin/image/x-small/kraftheinzlogonew20150803.jpg?1438612038" width="100" height="67" alt="Starcom Wins U.S. Media for New Kraft Heinz Company" title="Starcom Wins U.S. Media for New Kraft Heinz Company" />
-                            </div>
-
-                        </a>
-						<h4><a href="http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Starcom Wins U.S. Media for New Kraft Heinz Company', 'http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/']);">Starcom Wins U.S. Media for New Kraft Heinz Company</a></h4>
-						<p>By <a href="http://adage.com/author/ej-schultz/3799">E.J. Schultz</a> - 2 days ago</p>
-
-                        <ul class="actions">
-                            <li><a href="http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/" class="share-count">2530<i class="icon icon-forward"></i></a></li>
-                            <li><a href="http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/" onClick="_gaq.push(['_trackEvent', 'Floater-Latest', 'Starcom Wins U.S. Media for New Kraft Heinz Company', 'http://adage.com/article/agency-news/starcom-wins-media-kraft-heinz-company/300142/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
                 </li><!-- / .news-img-left -->
@@ -797,10 +802,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/food_fighters_nbc.jpg?1440798539" width="100" height="67" alt="TV Networks Confront Ad Blockers Erasing Their Commercials Online" title="TV Networks Confront Ad Blockers Erasing Their Commercials Online" /></a>
                         <h4><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);">TV Networks Confront Ad Blockers Erasing Their Commercials Online</a></h4>
-                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 3 hours ago</p>
+                        <p>By <a href="http://adage.com/author/jeanine-poggi/4700">Jeanine Poggi</a> - 4 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">113<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" class="share-count">175<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'TV Networks Confront Ad Blockers Erasing Their Commercials Online', 'http://adage.com/article/media/tv-networks-confront-ad-blocking-erasing-commercials-online/300143/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -809,10 +814,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Huawei3X2.jpg?1440568628" width="100" height="67" alt="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" title="Chinese Brands Want to Go Global; Here's Why It's Still So Tough" /></a>
                         <h4><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);">Chinese Brands Want to Go Global; Here's Why It's Still So Tough</a></h4>
-                        <p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 3 hours ago</p>
+                        <p>By <a href="http://adage.com/author/angela-doland/4769">Angela Doland</a> - 4 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">65<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" class="share-count">80<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Chinese Brands Want to Go Global; Here\'s Why It\'s Still So Tough', 'http://adage.com/article/cmo-strategy/tough-chinese-brands-global/300101/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -821,10 +826,10 @@ menu item
                     <div>
                         <a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><img src="http://gaia.adage.com/images/bin/image/x-small/Yelp_Image2.jpg?1440596880" width="100" height="67" alt="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" title="Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?" /></a>
                         <h4><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);">Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?</a></h4>
-                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 3 hours ago</p>
+                        <p>By <a href="http://adage.com/author/george-slefo/6756">George Slefo</a> - 4 hours ago</p>
 
                         <ul class="actions">
-							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">40<i class="icon icon-forward"></i></a></li>
+							<li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" class="share-count">50<i class="icon icon-forward"></i></a></li>
                             <li><a href="http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/" onClick="_gaq.push(['_trackEvent', 'Modules-MostPopular', 'Will Anti-Yelp Documentary Lead to a 5-Star PR Battle?', 'http://adage.com/article/digital/working-yelp-pr-battle-royal/300062/']);"><i class="icon icon-comment"></i> 0</a></li>
                         </ul>
                     </div>
@@ -1014,7 +1019,7 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
 	</div>
 </aside><!-- / #sub-footer -->
 
-<!-- Total time: 0.0202159881592 -->
+<!-- Total time: 0.0397729873657 -->
 
 	<script type='text/javascript'>
 		OAS_AD('x90');
@@ -1110,5 +1115,5 @@ _sf_async_config.useCanonical = true;
 
 
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":77,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9ca448880a","applicationID":"5007852","transactionName":"YVRaYUEFWUVWAE0KDFgebUdaS0dEXhVYABoYQVBF","queueTime":0,"applicationTime":73,"ttGuid":"","agentToken":"","atts":"TRNZFwkfSks=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

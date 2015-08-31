@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441032333;
+  PageCriteria.timestamp = 1441036796;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441031151117),
+            serverDate: new Date(1441035708245),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"14":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"],"15":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"]};
+adverts.botIPs={"15":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"16":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
 
-adverts.initSlots({"interstitial":{"state":"off","enabled":false,"inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083114',
+            weatherDate: '2015083115',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -941,12 +941,24 @@ DM.later('bundle', function () {
   <h3 class="wocc">DON'T MISS</h3>
   <ul class="link-bogr2 linkro-wocc">
     <li>
-      <a href="/tvshowbiz/article-3216765/Kylie-Jenner-wows-daring-look-changes-racy-bondage-style-dress-continue-party-post-MTV-VMAs-family-dinner.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD7F52900000578-0-image-m-43_1441023033399.jpg" height="115" width="154" alt="West Hollywood, CA - 'KUWTK', Kylie Jenner, looked stunning arriving at Craig's Restaurant with her boyfriend, Tyga.  She was wearing a black wig, black bondage dress, and nude high heels, while Tyga, kept it casual in a white tee, black shorts, maroon cap, maroon sneakers, and forward backpack.  The controversial couple looked ready to party after dinner.\nAKM-GSI          August 30, 2015\nTo License These Photos, Please Contact :\nSteve Ginsburg\n(310) 505-8447\n(323) 423-9397\nsteve@akmgsi.com\nsales@akmgsi.com\nor\nMaria Buda\n(917) 242-1505\nmbuda@akmgsi.com\nginsburgspalyinc@gmail.com" />
+      <a href="/tvshowbiz/article-3216878/Selena-Gomez-gets-kiss-best-pal-Taylor-Swift-celebrate-Video-Year-win-Bad-Blood-squad-MTV-VMAs-afterparty.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD650E100000578-0-image-a-65_1441015982649.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kylie Jenner wows in another daring look as she changes into racy bondage-style dress to continue the party at post MTV VMAs family dinner
+          Selena Gomez gets a kiss from best pal Taylor Swift as they celebrate Video Of The Year win with Bad Blood squad at MTV VMAs afterparty
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3217018/Supermodel-Anne-V-continues-toned-post-baby-body-flaunting-ample-assets-barely-bikini-just-two-months-giving-birth.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/14/2BD86E0400000578-0-image-a-7_1441027810577.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Supermodel Anne V shows off her toned post-baby body while flaunting her ample assets in a barely-there bikini - just two months after giving birth&nbsp;
           </strong>
           
         </span>
@@ -965,18 +977,6 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216878/Selena-Gomez-gets-kiss-best-pal-Taylor-Swift-celebrate-Video-Year-win-Bad-Blood-squad-MTV-VMAs-afterparty.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD650E100000578-0-image-a-65_1441015982649.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Selena Gomez gets a kiss from best pal Taylor Swift as they celebrate Video Of The Year win with Bad Blood squad at MTV VMAs afterparty
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/tvshowbiz/article-3217076/Where-Cheryl-Jean-Bernard-Fernandez-Versini-celebrates-birthday-pals-s-no-sign-wife-fans-voice-fears-X-Factor-star-s-weight-loss.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/15/2BD8B6D200000578-0-image-a-44_1441029992676.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -989,12 +989,12 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216612/VMA-2015-host-Miley-Cyrus-slips-nipple-past-live-TV-censors.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD398DD00000578-0-image-m-139_1440993972358.jpg" height="115" width="154" alt="Show host Miley Cyrus shields herself on stage at the 2015 MTV Video Music Awards in Los Angeles, California August 30, 2015.  REUTERS/Mario Anzuoni" />
+      <a href="/tvshowbiz/article-3217028/Reclusive-Rob-Kardashian-posts-selfie-months.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD818C700000578-0-image-m-4_1441024907269.jpg" height="115" width="154" alt="Rob Kardashian" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          'Sorry my boob is out!' Miley Cyrus slips her nipple past live TV censors as she flashes her bare breast during the MTV VMAs... and lights a joint backstage&nbsp;
+          Reclusive Rob Kardashian posts his first selfie in months as momager Kris Jenner reveals he's on a 'good path right now'
           </strong>
           
         </span>
@@ -1020,24 +1020,24 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3217141/Holly-Willoughby-admits-t-wait-reunite-Phillip-Schofield-maternity-leave-duo-shoot-Morning-promo.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/16/2BD916EA00000578-0-image-a-31_1441033878799.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kanye West announces he's running for PRESIDENT in 2020: Rapper stuns MTV VMAs (then admits he did smoke a joint before acceptance speech)&nbsp;
+          'Our friendship goes beyond work': Holly Willoughby can't wait to reunite with Phillip Schofield after maternity leave&nbsp;as they shoot This Morning promo
           </strong>
           
         </span>
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3217028/Reclusive-Rob-Kardashian-posts-selfie-months.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD818C700000578-0-image-m-4_1441024907269.jpg" height="115" width="154" alt="Rob Kardashian" />
+      <a href="/tvshowbiz/article-3216765/Kylie-Jenner-wows-daring-look-changes-racy-bondage-style-dress-continue-party-post-MTV-VMAs-family-dinner.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD7F52900000578-0-image-m-43_1441023033399.jpg" height="115" width="154" alt="West Hollywood, CA - 'KUWTK', Kylie Jenner, looked stunning arriving at Craig's Restaurant with her boyfriend, Tyga.  She was wearing a black wig, black bondage dress, and nude high heels, while Tyga, kept it casual in a white tee, black shorts, maroon cap, maroon sneakers, and forward backpack.  The controversial couple looked ready to party after dinner.\nAKM-GSI          August 30, 2015\nTo License These Photos, Please Contact :\nSteve Ginsburg\n(310) 505-8447\n(323) 423-9397\nsteve@akmgsi.com\nsales@akmgsi.com\nor\nMaria Buda\n(917) 242-1505\nmbuda@akmgsi.com\nginsburgspalyinc@gmail.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Reclusive Rob Kardashian posts his first selfie in months as momager Kris Jenner reveals he's on a 'good path right now'
+          Kylie Jenner wows in another daring look as she changes into racy bondage-style dress to continue the party at post MTV VMAs family dinner
           </strong>
           
         </span>
@@ -1056,6 +1056,57 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3217127/Gemma-Collins-shows-results-weight-loss-bright-floral-swimsuit-embarks-new-juicing-regime.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/16/2BD8EB0400000578-0-image-m-87_1441033345564.jpg" height="115" width="154" alt="gemma.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Gemma Collins shows off the results of her weight-loss in a bright floral swimsuit as she embarks on new juicing regime &nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217090/Rita-Ora-flashes-toned-stomach-crop-MTV-VMAs-party.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/16/2BD8D14500000578-0-Rita_Ora_shows_a_lot_of_skin_in_a_funky_colorful_halter_top_and_-m-49_1441033747090.jpg" height="115" width="154" alt="Rita Ora shows a lot of skin in a funky colorful halter top and leggings as she leaves the One Republic VMAs after party with a fashionable friend in West Hollywood, CA. Ora's new love interest Wiz Khalifa was nowhere to be seen. August 30, 2015. X17online.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rita Ora flashes her toned stomach in a psychedelic crop top and matching trousers as she hits the MTV VMAs after-party
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216612/VMA-2015-host-Miley-Cyrus-slips-nipple-past-live-TV-censors.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD398DD00000578-0-image-m-139_1440993972358.jpg" height="115" width="154" alt="Show host Miley Cyrus shields herself on stage at the 2015 MTV Video Music Awards in Los Angeles, California August 30, 2015.  REUTERS/Mario Anzuoni" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Sorry my boob is out!' Miley Cyrus slips her nipple past live TV censors as she flashes her bare breast during the MTV VMAs... and lights a joint backstage&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kanye West announces he's running for PRESIDENT in 2020: Rapper stuns MTV VMAs (then admits he did smoke a joint before acceptance speech)&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216914/Taylor-Swift-introduces-Kanye-West-infamous-line-make-amends-MTV-VMAs.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD7B30B00000578-0-image-a-113_1441020572394.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1067,9 +1118,6 @@ DM.later('bundle', function () {
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
-    </li>
     <li>
       <a href="/tvshowbiz/article-3216843/MTV-VMAs-hostess-Miley-Cyrus-causes-stir-11-eyebrow-raising-outfits.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/10/2BD604CD00000578-0-image-m-170_1441012079492.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Host Miley Cyrus poses in the press room with an MTV Video Music award at the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Frazer Harrison/Getty Images)" />
@@ -1077,6 +1125,50 @@ DM.later('bundle', function () {
           <span class="arrow-small-r"></span>
           <strong>
           Miley's ELEVEN eye-watering outfits at MTV VMAs: From high-cut silver swimsuit to skintight pink latex, hostess left nothing to the imagination
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217111/Brian-Austin-Green-keeps-wedding-band-estranged-wife-Megan-Fox-removes-ring-files-divorce.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/15/2BD8E9ED00000578-0-image-m-8_1441032343300.jpg" height="115" width="154" alt="UK CLIENTS MUST CREDIT: AKM-GSI ONLY\nEXCLUSIVE: Brentwood, CA - Actor Brian Austin Green wears his wedding ring as he grabs iced coffee to-go in Brentwood this afternoon.\n\nPictured: Brian Austin Green\nRef: SPL1112680  300815   EXCLUSIVE\nPicture by: AKM-GSI / Splash News\n\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Brian Austin Green keeps wedding band on after estranged wife Megan Fox removes her ring and files for divorce
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217107/Khloe-Kardashian-Kris-Jenner-sued-emotional-distress-residents-woken-midnight-huge-fireworks-display-yacht-party.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/16/2BD91D3100000578-0-image-m-11_1441034276573.jpg" height="115" width="154" alt="eURN: AD*179180421
+
+Headline: EXC - KHLOE KARDASHIAN BOYFRIEND JAMES HARDEN BIRTHDAY PARTY
+Caption: 26 AUG 2015 - USA
+***EXCLUSIVE PICTURES - STRICTLY NOT AVAILABLE FOR ONLINE SALES***
+*** STRICTLY AVAILABLE FOR UK SALE ONLY ***
+KHLOE KARDASHIAN WENT ALL OUT FOR HER BOYRIEND JAMES HARDEN'S 26TH BIRTHDAY PARTY. THE EXTENDED KARDASHIAN CREW WAS TREATED TO A DAZZLING FIREWORK DISPLAY AT MIDNIGHT, KHLOE AND COMPANY SPARED NO EXPENCE AS THEY WATCHED THE SHOW FROM A LUXURY YACHT!!
+BYLINE MUST READ : XPOSUREPHOTOS.COM
+***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION ***
+*UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE 0208 344 2007*
+Photographer: XPOSUREPHOTOS.COM
+
+Loaded on 28/08/2015 at 11:56
+Copyright: 
+Provider: KSJ
+
+Properties: RGB JPEG Image (20967K 778K 27:1) 2200w x 3253h at 300 x 300 dpi
+
+Routing: DM News : GeneralFeed (Miscellaneous)
+
+Parking:" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Khloe Kardashian and Kris Jenner are sued for 'emotional distress' by residents woken at midnight by huge fireworks display on yacht party&nbsp;
           </strong>
           
         </span>
@@ -1128,6 +1220,9 @@ carnival" />
         </span>
       </a>
     </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
     <li>
       <a href="/tvshowbiz/article-3216946/Cara-Delevingne-enjoys-date-night-St-Vincent-MTV-VMAs.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD7AE0600000578-0-image-m-14_1441019970624.jpg" height="115" width="154" alt="West Hollywood, CA - Cara Delevingne and a female friend arrive at Chateau Marmont after the 2015 MTV Video Music Awards. The 'Paper Towns' actress looked cute in a sparkling silver and black star print dress with a black clutch and a pair of silver oxford shoes.\nAKM-GSI         August 30, 2015\nTo License These Photos, Please Contact :\nSteve Ginsburg\n(310) 505-8447\n(323) 423-9397\nsteve@akmgsi.com\nsales@akmgsi.com\nor\nMaria Buda\n(917) 242-1505\nmbuda@akmgsi.com\nginsburgspalyinc@gmail.com" />
@@ -1149,18 +1244,6 @@ carnival" />
           Liam Payne debuts TWO new tattoos as he enjoys wild night out with One Direction for friend's bachelor party in NYC
           </strong>
           Celebrating his 22nd
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3216955/Ben-Affleck-holds-hands-three-children-enjoy-low-key-day-out.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD8002B00000578-0-image-a-4_1441022299985.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          His biggest fans: A dressed down Ben Affleck holds hands with his three children as they enjoy low-key day out
-          </strong>
-          Difficult time for family
         </span>
       </a>
     </li>
@@ -1200,9 +1283,6 @@ carnival" />
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
-    </li>
     <li>
       <a href="/tvshowbiz/article-3216656/Oh-goodness-moment-Kris-Jenner-meets-Caitlyn-time-Cait-preview.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD376FA00000578-0-image-m-85_1440992945409.jpg" height="115" width="154" alt="DM_Cait_Jenner_121.jpg" />
@@ -1216,26 +1296,26 @@ carnival" />
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216768/Iggy-Azalea-changes-sexy-bra-outfit-MTV-VMA-party-celebrate-performance-pal-Demi-Lovato.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD810D400000578-0-image-m-33_1441024323421.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Singers Iggy Azalea and Demi Lovato attend the Jeremy Scott and adidas Originals VMA's After Party with Spirits Sponsored By Svedka Vodka at Union Station on August 30, 2015 in Los Angeles, California.  (Photo by Charley Gallay/Getty Images for adidas Originals)" />
+      <a href="/tvshowbiz/article-3216955/Ben-Affleck-holds-hands-three-children-enjoy-low-key-day-out.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD8002B00000578-0-image-a-4_1441022299985.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Bra-vo! Iggy Azalea dons sexy leather lingerie and thigh high boots and flashes her new cleavage as she parties with Demi Lovato after the MTV VMAs
+          His biggest fans: A dressed down Ben Affleck holds hands with his three children as they enjoy low-key day out
           </strong>
-          
+          Difficult time for family
         </span>
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216995/The-lady-vamp-Jessica-Simpson-shows-plenty-cleavage-plunging-Gothic-inspired-dress-heads-lunch.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD807C700000578-0-image-m-64_1441023090299.jpg" height="115" width="154" alt="UK CLIENTS MUST CREDIT: AKM-GSI ONLY\nEXCLUSIVE: *PREMIUM EXCLUSIVE* **MUST CALL FOR PRICING** **SHOT ON 8/28/15** Beverly Hills, CA - Blonde bombshell Jessica Simpson looks stunning as she makes her way into Via Alloro to meet with BFF CaCee Cobb for lunch.  Jessica put her ample curves on display in a black dress with a plunging neckline and carrying a swanky Givenchy Antigona Large Shopper Tote.  Rumors have been going around that Jessica maybe releasing new music in the near future.\n\nPictured: Jessica Simpson\nRef: SPL1112925  300815   EXCLUSIVE\nPicture by: AKM-GSI / Splash News\n\n" />
+      <a href="/tvshowbiz/article-3217101/Kate-Hudson-flashes-skin-sexy-backless-visiting-spa-riend.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/16/2BD9290D00000578-0-image-m-2_1441034865289.jpg" height="115" width="154" alt="Picture Shows: Kate Hudson  August 30, 2015\n \n Actress and busy mom Kate Hudson is seen leaving a spa in Pacific Palisades, California with a friend. Kate has been busy as of late promoting her latest film 'Rock The Kasbah'.\n \n Exclusive All Rounder\n UK RIGHTS ONLY\n \n Pictures by : FameFlynet UK &copy; 2015\n Tel : +44 (0)20 3551 5049\n Email : info@fameflynet.uk.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          The lady is a vamp! Jessica Simpson shows off plenty of cleavage in a plunging Gothic-inspired dress as she heads out to lunch &nbsp;
+          Girls' day! Kate Hudson flashes some skin in sexy backless top after visiting the spa with a friend
           </strong>
-          Out in Beverly Hills
+          Promoting comedy, Rock the Kasbah
         </span>
       </a>
     </li>
@@ -1252,12 +1332,72 @@ carnival" />
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216768/Iggy-Azalea-changes-sexy-bra-outfit-MTV-VMA-party-celebrate-performance-pal-Demi-Lovato.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD810D400000578-0-image-m-33_1441024323421.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Singers Iggy Azalea and Demi Lovato attend the Jeremy Scott and adidas Originals VMA's After Party with Spirits Sponsored By Svedka Vodka at Union Station on August 30, 2015 in Los Angeles, California.  (Photo by Charley Gallay/Getty Images for adidas Originals)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Bra-vo! Iggy Azalea dons sexy leather lingerie and thigh high boots and flashes her new cleavage as she parties with Demi Lovato after the MTV VMAs
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216880/Kiwi-singer-gives-glimpse-toned-stomach-sheer-rainbow-dress-attends-star-studded-VMAs-party.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD7A5EA00000578-0-image-a-31_1441019530842.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Showing her sartorial savvy: Singer Lorde brightens up look in sheer multi-coloured dress at star-studded VMAs party
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216906/Miley-Cyrus-family-lend-support-star-s-outrageous-VMAs-show.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD2556A00000578-0-image-m-87_1441017526237.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  (L-R) Producer Tish Cyrus, actors Braison Cyrus, Noah Cyrus, recording artist Billy Ray Cyrus, actress Brandi Glenn Cyrus and host Miley Cyrus attend the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Larry Busacca/Getty Images)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           They must be so proud: Miley Cyrus' family lend their support as the scantily-clad star hosts the most outrageous VMAs yet
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217058/Ed-Sheeran-spotted-leaving-New-York-hotel-mystery-lady.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/14/2BD882E400000578-0-image-m-16_1441027083547.jpg" height="115" width="154" alt="EXCLUSIVE: Ed Sheeran spotted all smiling while walking in Midtown, New York City on Aug 30, 2015\n\nPictured: Ed Sheeran\nRef: SPL1112674  300815   EXCLUSIVE\nPicture by: Felipe Ramales / Splash News\n\nSplash News and Pictures\nLos Angeles: 310-821-2666\nNew York: 212-619-2666\nLondon: 870-934-2666\nphotodesk@splashnews.com\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Who's that girl? Smiling Ed Sheeran spotted leaving New York hotel with a mystery lady as he misses out on winning a VMA
+          </strong>
+          <br>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216995/The-lady-vamp-Jessica-Simpson-shows-plenty-cleavage-plunging-Gothic-inspired-dress-heads-lunch.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD807C700000578-0-image-m-64_1441023090299.jpg" height="115" width="154" alt="UK CLIENTS MUST CREDIT: AKM-GSI ONLY\nEXCLUSIVE: *PREMIUM EXCLUSIVE* **MUST CALL FOR PRICING** **SHOT ON 8/28/15** Beverly Hills, CA - Blonde bombshell Jessica Simpson looks stunning as she makes her way into Via Alloro to meet with BFF CaCee Cobb for lunch.  Jessica put her ample curves on display in a black dress with a plunging neckline and carrying a swanky Givenchy Antigona Large Shopper Tote.  Rumors have been going around that Jessica maybe releasing new music in the near future.\n\nPictured: Jessica Simpson\nRef: SPL1112925  300815   EXCLUSIVE\nPicture by: AKM-GSI / Splash News\n\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The lady is a vamp! Jessica Simpson shows off plenty of cleavage in a plunging Gothic-inspired dress as she heads out to lunch &nbsp;
+          </strong>
+          Out in Beverly Hills
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217100/Lindsay-Lohan-hits-Saint-Tropez-beach-dazzling-gold-top.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/14/2BD87C2B00000578-0-image-m-36_1441028105618.jpg" height="115" width="154" alt="August 29th, 2015 - Saint Tropez\n******Excluisve Picture ******\nLindsay Lohan enjoys the day on the sun with friends in Saint Tropez.\n****** BYLINE MUST READ : &copy; Spread Pictures ******\n******Please hide the children's faces prior to the publication******\n****** No Web Usage before agreement ******\n****** Stricly No Mobile Phone Application or Apps use without our Prior Agreement ******\nEnquiries at photo@spreadpictures.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Lindsay Lohan hits the beach in a dazzling gold top as she chats to mystery male companion during endless summer break in Saint Tropez
           </strong>
           
         </span>
@@ -1294,6 +1434,18 @@ carnival" />
           <span class="arrow-small-r"></span>
           <strong>
           Newly single Gwen Stefani teases a glimpse of her lacy bra during night out with pals... as ex Gavin Rossdale shops for his bachelor pad across town
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3216842/Rosie-Huntington-Whiteley-reveals-refused-photo-taken-YEAR-home-hair-dye-kit-left-looking-like-badger-teenager.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD674C100000578-0-image-a-22_1441016339734.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rosie Huntington-Whiteley reveals she refused to have her photo taken for a YEAR after a home hair dye kit left her looking like a 'badger' as a teenager&nbsp;
           </strong>
           
         </span>
