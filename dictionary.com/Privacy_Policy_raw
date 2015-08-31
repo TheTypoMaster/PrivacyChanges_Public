@@ -1446,7 +1446,7 @@ if(typeof(UserController)!="undefined"){
 
 
 <script type="text/javascript">
-var _todaysDate= "August 30, 2015";
+var _todaysDate= "August 31, 2015";
 
 ask.dict.loggedIn=false;
 
@@ -2313,7 +2313,7 @@ We are committed to providing you with meaningful choices about the information 
                     $.fn.renderspanids = function(){
                         var s = document.createElement("img"),
                                 el = document.getElementsByTagName("script")[0];
-                        s.src = "//spanids.dictionary.com?bid=VePs-DQCjq02yZli&asid=VePs-DQCjq1ETSA_&bidnew=1&asidnew=1&source=r";
+                        s.src = "//spanids.dictionary.com?bid=VeP-WzQCjq0smcti&asid=VeP-WzQCjq0VF0lq&bidnew=1&asidnew=1&source=r";
                         el.parentNode.insertBefore(s, el);
 
                     }

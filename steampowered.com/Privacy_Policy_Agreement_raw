@@ -305,7 +305,7 @@ BindStoreTooltip( $('[data-store-tooltip]') );
 								</div>
 							</div>
 							<script language="JavaScript">
-								$J( function() { EnableSearchSuggestions( $J('#searchform')[0].elements['term'], '1_subscriberagreement_PrivacyAgreement_', 'US', 'english', '1253974' ); } );
+								$J( function() { EnableSearchSuggestions( $J('#searchform')[0].elements['term'], '1_subscriberagreement_PrivacyAgreement_', 'US', 'english', '1253997' ); } );
 							</script>
 
 						</div>
@@ -316,8 +316,8 @@ BindStoreTooltip( $('[data-store-tooltip]') );
 	</div>
 	<script type="text/javascript">
 	var g_AccountID = 0;
-	var g_sessionID = "e042b28c7438bd5cac2000dd";
-	var g_ServerTime = 1441001196;
+	var g_sessionID = "2476b574e1c90108e817091b";
+	var g_ServerTime = 1441005628;
 
 	$J( InitMiniprofileHovers );
 

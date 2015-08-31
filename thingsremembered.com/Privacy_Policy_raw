@@ -137,8 +137,11 @@
     }else{
       ////// make sure to check that the global banner image height matches the height of the #globalBanner div defined in CSS above
 
+      $('.common-header').append('<div id="globalBanner"></div>');
 
-      $('.common-header').append('<div id="globalBanner"><a href="/content.jsp?pageName=SaveMore&int=Global_BMSM"><img src="/assets/cms/images/homepage_headers_large/BMSM_GlobalBanner_LD_082715.jpg" width="970" height="56" ></a></div>');
+      //When NO Global banner is running, we still need the DIV tags present. The banner below is in a comment tag for future use when a banner is running.
+
+      //$('.common-header').append('<div id="globalBanner"><a href="/content.jsp?pageName=SaveMore&int=Global_BMSM"><img src="/assets/cms/images/homepage_headers_large/BMSM_GlobalBanner_082715.jpg" width="970" height="56" ></a></div>');
     }
 
    });
@@ -210,7 +213,7 @@
   </a>
 
 </div><div class="email-signup-contianer">
-	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='d+pPlKn3q8ApsofzdNYej4KulbaB2OiBnVk2moyOXNE=XQfMunzEGZ0='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
+	<form id="subscribeForm" action="/user/preferences.cmd" method="post" name="subscribeForm" target="_blank"><input type='hidden' name='form_state' value='subscribeForm'/><input type='hidden' name='CSRF_TOKEN' value='S4O3DKXqGMpTb76QULfsfSqynhucuHuAfpFPybARTwg=1QeYpmnZGkk='/><input id="userEmail" name="userEmail" type="hidden"/><input class="user-email forceStatic" id="userEmailFooter" name="userEmailFooter" type="text" value="" size="20" maxlength="60"/><div class="signup-button-container">
 		<div class="signup-button-cheetah button">
 			<span class="signup-text-cheetah">Sign Up Now</span>
 		</div>

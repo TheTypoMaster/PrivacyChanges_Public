@@ -1072,7 +1072,7 @@ $(document).ready(function(){
 							Create Your Account
 						</button>
 					</div>
-					<input type="hidden" name="dwfrm_login_securekey" value="1030158397"/>
+					<input type="hidden" name="dwfrm_login_securekey" value="732665823"/>
 				</fieldset>
 			</form>
 			
@@ -10221,9 +10221,9 @@ omnCustomer = "Guest";
 omnEVar10 = "";
 omnRemoteIP = "52.2.142.173";
 omnServer = omnRemoteIP;
-omnDay = "Sunday";
-omnWeekday = "WeekEnd";
-omnHour=  "23";
+omnDay = "Monday";
+omnWeekday = "WeekDay";
+omnHour=  "0";
 omnReferrerURL= "";
 omnDeviceType= "desktop";
 </script>

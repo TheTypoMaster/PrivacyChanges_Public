@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441001117;
+  PageCriteria.timestamp = 1441005546;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1440999191400),
+            serverDate: new Date(1441005196159),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"6":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"7":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
+adverts.botIPs={"7":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"],"8":["196.35.246.194|*","151.237.238.126|*","146.23.209.228|*","192.35.35.40|*","206.225.132.111|*","95.172.74.42|*","192.31.106.40|*","109.169.6.135|*","139.139.19.68|*","54.206.182.240|*","194.138.39.62|*","168.167.134.101|*","94.118.0.8|*","108.171.133.176|*","164.151.129.211|*","145.62.32.129|*","168.168.43.250|*","86.28.18.1|*"]};
 
-adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083105',
+            weatherDate: '2015083106',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -941,14 +941,26 @@ DM.later('bundle', function () {
   <h3 class="wocc">DON'T MISS</h3>
   <ul class="link-bogr2 linkro-wocc">
     <li>
+      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kanye West announces he's running for PRESIDENT in 2020: Rapper stuns MTV VMAs (then admits he did smoke a joint before acceptance speech)&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3205263/Vanessa-Hudgens-dazzles-plunging-pink-gown-leads-glamour-star-studded-MTV-Video-Music-Awards-red-carpet.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3EE9200000578-0-image-m-548_1440998087279.jpg" height="115" width="154" alt="Martha Hunt, from left, Hailee Steinfeld, Cara Delevingne, Selena Gomez, Taylor Swift, Serayah, Lily Aldridge, Gigi Hadid, and Karlie Kloss arrive at the MTV Video Music Awards at the Microsoft Theater on Sunday, Aug. 30, 2015, in Los Angeles. (Photo by Matt Sayles/Invision/AP)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Taylor Swift hits a high note in a sequined crop top and trousers as she brings her Bad Blood glam squad to the MTV Video Music Awards
+          Best dressed Taylor Swift hits a high note in a sequined crop top and trousers as she brings her Bad Blood glam squad to the MTV Video Music Awards
           </strong>
-          A-List gang
+          
         </span>
       </a>
     </li>
@@ -958,19 +970,7 @@ DM.later('bundle', function () {
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          'Everyone say marijuana!' Miley Cyrus kicks off the VMAs with drug references, a verbal fight with Nicki Minaj, and VERY racy fashion
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Kanye West announces he's running for president in 2020... after admitting he'd smoked a joint before his epic acceptance speech at MTV VMAs
+          'Sorry my boob is out!' Miley Cyrus slips her nipple past live TV censors as she flashes her bare breast during the MTV VMAs... and lights a joint backstage&nbsp;
           </strong>
           
         </span>
@@ -994,7 +994,7 @@ DM.later('bundle', function () {
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Nicki Minaj calls out host Miley Cyrus for being a 'b****' during acceptance speech... while Taylor Swift dominates the MTV Video Music Awards in Los Angeles
+          Nicki Minaj calls out host Miley Cyrus for being a 'b****' during acceptance speech... while Taylor Swift dominates the MTV VMAs in Los Angeles
           </strong>
           
         </span>
@@ -1044,6 +1044,18 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216693/His-Lady-Lingerie-clad-Kim-Kardashian-stars-video-montage-dedicated-husband-Kanye-West-MTV-VMAs-reveals-plans-run-President.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD4004E00000578-0-image-m-32_1440999364820.jpg" height="115" width="154" alt="Kanye West montage MTV video music awards\nKim Kardashian \n\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          His First Lady! Lingerie-clad Kim stars in video montage dedicated to husband Kanye West as he reveals plans to run for President
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216603/Britney-Spears-revisits-glittering-Toxic-look-decade-sexy-music-video-looks-amazing-attends-MTV-Video-Music-Awards.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/03/2BD32AB700000578-0-image-m-25_1440988022570.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Britney Spears attends the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Kevin Mazur/WireImage)" />
         <span class="pufftext">
@@ -1052,6 +1064,21 @@ DM.later('bundle', function () {
           Britney Spears revisits her glittering Toxic look over a decade after sexy music video... and STILL looks amazing as she attends MTV Video Music Awards
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216656/Oh-goodness-moment-Kris-Jenner-meets-Caitlyn-time-Cait-preview.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD376FA00000578-0-image-m-85_1440992945409.jpg" height="115" width="154" alt="DM_Cait_Jenner_121.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Oh my goodness': The moment Kris Jenner meets Caitlyn for the first time in I Am Cait preview
+          </strong>
+          Transgender star comes face to face with ex-wife
         </span>
       </a>
     </li>
@@ -1066,9 +1093,6 @@ DM.later('bundle', function () {
           Incredible performance at the MTV VMAs
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3216644/Chrissy-Teigen-leaves-underwear-home-revealing-arrival-John-Legend-MTV-Video-Music-Awards.html">
@@ -1143,12 +1167,63 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/news/article-3216668/Jessa-Jill-Duggar-speak-molested-brother-Josh-saying-child-sexual-abuse-not-taboo-awareness.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD43E5400000578-0-image-a-16_1440999788544.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Jessa and Jill Duggar speak out about being molested by their brother Josh saying child sexual abuse should not be 'taboo'&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216669/Sofia-Vergara-wears-classy-black-dress-filming-Brits-Coming-movie.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3D71F00000578-0-image-a-216_1440997228772.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Curves ahead! Sofia Vergara wears a classy black dress while filming her Brits Are Coming movie
+          </strong>
+          Also stars Uma Thurman and Tim Roth
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216634/Iggy-Azalea-opts-breezy-neutral-ensemble-takes-stage-raunchy-Demi-Lovato-MTV-Video-Music-Awards.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD54F1400000578-0-image-m-77_1441002930032.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Recording artists Demi Lovato (L) and Iggy Azalea perform on the Pepsi Stage, during the 2015 MTV Video Music Awards, at The Orpheum Theatre on August 30, 2015 in Los Angeles, California.  (Photo by Frederick M. Brown/Getty Images for MTV)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Iggy Azalea opts for breezy neutral ensemble as she poses for playful backstage snap with Demi Lovato at MTV Video Music Awards
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216557/Amber-Rose-bestie-Blac-Chyna-wear-insult-covered-outfits-VMAs-promote-Slut-Walk.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/02/2BD2AA9200000578-0-image-a-12_1440982801555.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           Shock and awe: Amber Rose and bestie Blac Chyna wear insult-covered outfits to the VMAs to promote her Slut Walk
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216707/Hugh-Jackman-proves-gruelling-Wolverine-gym-sessions-paying-reveals-muscular-physique-morning-swim.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/07/2BD5336500000578-0-image-m-29_1441003131249.jpg" height="115" width="154" alt="**EXCLUSIVE**..Hugh Jackman spotted having a morning dip in Bondi, Sydney." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          He's an absolute Marvel! Hugh Jackman proves gruelling Wolverine gym sessions are paying off during morning swim
           </strong>
           
         </span>
@@ -1167,6 +1242,18 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/news/article-3216725/Rebel-Wilson-comes-fire-Black-Lives-Matter-police-stripper-joke-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3064700000578-0-image-m-34_1441000703669.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rebel Wilson comes under fire from Black Lives Matter movement during MTV VMAs after joking about the 'injustice' of police strippers
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216539/Demi-Lovato-stuns-skin-tight-gown-2015-MTV-Video-Music-Awards.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/01/2BD252FD00000578-0-image-a-45_1440979403639.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1175,6 +1262,18 @@ DM.later('bundle', function () {
           Pretty FIERCE in pink! Demi Lovato takes the plunge in a skintight gown at the 2015 MTV Video Music Awards
           </strong>
           Performed single off her upcoming Confident album
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216651/Demi-Lovato-performs-Cool-Summer-sexy-bejewelled-bathing-suit-knee-high-boots-Iggy-Azalea-MTV-Video-Music-Awards.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD37AAA00000578-0-image-m-40_1440992792135.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Recording artist Demi Lovato performs on the Pepsi Stage, during the 2015 MTV Video Music Awards, at The Orpheum Theatre on August 30, 2015 in Los Angeles, California.  (Photo by Frederick M. Brown/Getty Images for MTV)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Demi Lovato performs Cool For The Summer in sexy bejewelled bathing suit and knee-high boots with Iggy Azalea at the MTV Video Music Awards&nbsp;
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1189,9 +1288,6 @@ DM.later('bundle', function () {
           Dynamic duo
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3216605/Taylor-Swift-Scott-Eastwood-steam-screen-premier-clip-Wildest-Dreams-MTV-Video-Music-Awards.html">
@@ -1248,6 +1344,18 @@ DM.later('bundle', function () {
           <span class="arrow-small-r"></span>
           <strong>
           Peachy! Kristina Rihanoff wows in apricot-coloured vintage dress as she joins Strictly cast to film retro segment at Essex train station
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3216680/Kim-Kardashian-caves-FDA-pressure-reposts-misleading-morning-sickness-drug-ad-warnings-potential-effects-timing-deliberate.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/06/2BD3BBBB00000578-0-image-m-5_1440999405934.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kim Kardashian caves in to FDA pressure and reposts 'misleading' morning sickness drug ad WITH warnings about potential side effects&nbsp;
           </strong>
           
         </span>

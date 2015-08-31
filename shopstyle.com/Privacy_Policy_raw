@@ -229,7 +229,7 @@ data-sugar-pubexchange-name="popsugar"        data-is-not-cache=""
 <!-- Begin comScore Tag -->
 <script>
 var comscoreClientID = 6035900;
-var comscoreHash = "f890a8c11d9cde456a9bb167233862cd";
+var comscoreHash = "e49791cfc6d230f638d849e6ced60f85";
 var _comscore = _comscore || [];
 var comscoreParams = {
 c1: 2,
@@ -249,7 +249,7 @@ el.parentNode.insertBefore(s, el);
 })();
 </script>
 <noscript>
-<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=f890a8c11d9cde456a9bb167233862cd&cv=2.0&cj=1" />
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035900&c3=&c4=www.popsugar.com%2Fprivacy&c5=&c6=&c15=e49791cfc6d230f638d849e6ced60f85&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 <div id="fixed-nav">
@@ -301,7 +301,7 @@ Fashion
 <a href="http://www.popsugar.com/Fashion-News" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag1">Fashion News</a>
 <a href="http://www.popsugar.com/latest/Shopping-and-Style" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag2">Shopping and Style</a>
 <a href="http://www.popsugar.com/Celebrity-Style" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag3">Celebrity Style</a>
-<a href="http://www.popsugar.com/Fashion-Video" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag4">Video</a>
+<a href="http://www.popsugar.com/latest/Fashion-Video" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag4">Video</a>
 <a href="http://www.popsugar.com/Summer-Style" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="fashion:subnav-uber-tag5">Summer Style</a>
 </div>
 </li>
@@ -384,7 +384,7 @@ Moms
 <div class="submenu">
 <a href="http://www.popsugar.com/Parenting" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag1">Parenting</a>
 <a href="http://www.popsugar.com/Pregnancy" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag2">Pregnancy</a>
-<a href="http://www.popsugar.com/Food-and-Fun" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag3">Food & Fun</a>
+<a href="http://www.popsugar.com/latest/Food-and-Fun" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag3">Food & Fun</a>
 <a href="http://www.popsugar.com/Kid-Shopping" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag4">Kid Shopping</a>
 <a href="http://www.popsugar.com/Family-Life" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag5">Family Life</a>
 <a href="http://www.circleofmoms.com/groups?trk=ps_menu_community" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="moms:subnav-uber-tag6">Communities</a>
@@ -429,7 +429,7 @@ Living
 <a href="http://www.popsugar.com/smart-living" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="living:subnav-uber-tag3">Smart Living</a>
 <a href="http://www.popsugar.com/pets" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="living:subnav-uber-tag4">Pets</a>
 <a href="http://www.popsugar.com/Wedding" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="living:subnav-uber-tag5">Wedding</a>
-<a href="http://www.savvysugar.com/Easy-Ways-Create-Your-Best-Life-36484049" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="living:subnav-uber-tag6">Find Your Happy</a>
+<a href="http://www.popsugar.com/smart-living/Easy-Ways-Create-Your-Best-Life-36484049" class="omniture-track" data-omniture-type="front-page-link" data-omniture-subtype="living:subnav-uber-tag6">Find Your Happy</a>
 </div>
 </li>
 <li>
@@ -831,6 +831,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="modal-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="modal-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="modal-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -847,16 +857,6 @@ data-attr-name="TV" />
 <label for="modal-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="modal-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="modal-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1002,7 +1002,7 @@ s.events = 'event1';
 s.channel = 'content';
 s.pageName = 'pop:us:legal';
 s.eVar1 = 'pop:us' + ':' + ONSUGAR.UserProfile.getUserDevice();
-s.eVar12 = '2015-08-30';
+s.eVar12 = '2015-08-31';
 s.prop56 = document.title;
 var channels = ["home-page","celebrity","fashion","fitness","beauty","love","moms","entertainment","living","food","tech","home","smart-living","pets","latina"];
 var parsedReferrer = ONSUGAR.Util.parseURL(document.referrer.toLowerCase());
@@ -1149,6 +1149,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="ad-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="ad-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="ad-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -1165,16 +1175,6 @@ data-attr-name="TV" />
 <label for="ad-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="ad-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="ad-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1244,6 +1244,16 @@ All the celebrity news, candids, and red carpet photos delivered daily.
 <div class="list step-two">
 <div class="form-item">
 <input type="checkbox" name="attributes[celebrity_preferences][]"
+id="fb-list-Movies"
+value="Movies"
+data-attr-name="Movies" />
+<label for="fb-list-Movies">
+<span class="checkbox"></span>
+<span class="attr-name">Movies</span>
+</label>
+</div>
+<div class="form-item">
+<input type="checkbox" name="attributes[celebrity_preferences][]"
 id="fb-list-Young Hollywood"
 value="Young Hollywood"
 data-attr-name="Young Hollywood" />
@@ -1260,16 +1270,6 @@ data-attr-name="TV" />
 <label for="fb-list-TV">
 <span class="checkbox"></span>
 <span class="attr-name">TV</span>
-</label>
-</div>
-<div class="form-item">
-<input type="checkbox" name="attributes[celebrity_preferences][]"
-id="fb-list-Movies"
-value="Movies"
-data-attr-name="Movies" />
-<label for="fb-list-Movies">
-<span class="checkbox"></span>
-<span class="attr-name">Movies</span>
 </label>
 </div>
 <div class="form-item">
@@ -1362,6 +1362,6 @@ js = d.createElement('script'); js.id = id; js.async = true;
 js.src = "//connect.facebook.com/en_US/sdk.js";
 d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>
-<!-- Hamsters typed up this page on Sun, 30 Aug 2015 22:53:05 -0700 in 75.79ms : web23 : none -->
+<!-- Hamsters typed up this page on Mon, 31 Aug 2015 00:00:28 -0700 in 74.01ms : web23 : none -->
 </body>
 </html>
