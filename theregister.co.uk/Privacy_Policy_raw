@@ -175,6 +175,10 @@
 
 
                 <div class=story_row>
+                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/honor_7_analysis_fix_the_shop/">
+                            <img src="https://regmedia.co.uk/2015/08/27/honor_7.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
+                        <h5>The Honor's a defo gamechanger, but good luck buying one</h5>
+                    </a>
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/keyraider_apple/">
                             <img src="https://regmedia.co.uk/2015/08/20/apple_987567856.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Jailbreaking pirates popped in world's largest iCloud raid</h5>
@@ -186,10 +190,6 @@
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/us_to_stage_f35versuswarthog_bakeoff_in_2018/">
                             <img src="https://regmedia.co.uk/2015/08/31/a_10_warthog.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>US to stage F-35-versus-Warthog bake-off in 2018</h5>
-                    </a>
-                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/ruskie_ics_hacker_drops_nine_holes_in_popular_siemens_power_plant_kit/">
-                            <img src="https://regmedia.co.uk/2015/07/14/baevb.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
-                        <h5>Ruskie ICS hacker drops nine holes in popular Siemens power plant kit</h5>
                     </a>
                 </div>
             </div>
@@ -470,6 +470,10 @@
 
 
                 <div class=story_row>
+                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/honor_7_analysis_fix_the_shop/">
+                            <img src="https://regmedia.co.uk/2015/08/27/honor_7.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
+                        <h5>The Honor's a defo gamechanger, but good luck buying one</h5>
+                    </a>
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/boffins_unveil_open_source_gpu/">
                             <img src="https://regmedia.co.uk/2015/08/31/miaow_overview_slide.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Boffins unveil open source GPU</h5>
@@ -481,10 +485,6 @@
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/28/review_honor7_android_smartphone/">
                             <img src="https://regmedia.co.uk/2015/08/26/honor_7_android_smartphone.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Honor 7 – heir apparent to the mid-range Android crown</h5>
-                    </a>
-                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/28/another_chance_to_win_a_6tb_western_digital_hard_dive/">
-                            <img src="https://regmedia.co.uk/2015/08/26/tarantula.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
-                        <h5>Another chance to win a 6TB Western Digital Black hard drive</h5>
                     </a>
                 </div>
             </div>
@@ -574,7 +574,7 @@
                             <img src="https://regmedia.co.uk/2012/11/08/precog_minority_report.jpg?x=648&amp;y=429&amp;crop=1" alt="" width=648 height=429 class="article_img">
 
                 
-                <div id=social_btns class="alt_colour dcl">
+                <div id=social_btns class="alt_colour dcl ab_b">
                     <a href="http://twitter.com/share?text=Your%20Privacy%20and%20The%20Register&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;via=theregister" class=twit>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/twitter.png" srcset="/Design/graphics/icon/twitter.svg" alt="Twitter">
@@ -590,6 +590,12 @@
                     <a href="https://plus.google.com/share?url=http://www.theregister.co.uk/about/company/privacy/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class=gplus>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/google_plus.png" srcset="/Design/graphics/icon/google_plus.svg" alt="G+">
+                            <div class=count></div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;title=Your%20Privacy%20and%20The%20Register&amp;summary=What%20we%20do%20with%20your%20data" class=linkedin_social>
+                        <div class=circ>
+                            <img width="18" height="18" src="/Design/graphics/icon/linkedin_alt.png" srcset="/Design/graphics/icon/linkedin_alt.svg" alt="linkedin">
                             <div class=count></div>
                         </div>
                     </a>
@@ -740,27 +746,27 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3633/seattle-childrens-hospital-case-study.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3632/ema-extrahop-continousoperationalintelligence-1014-wp.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Accelerate Citrix login times with cross-tier insight</h4>
+                <h4>Driving business with continuous operational intelligence</h4>
                 <div class=standfirst>
-                    Seattle Children’s is a leading research hospital with a large and growing Citrix XenDesktop deployment. See how they used ExtraHop to accelerate launch times.
+                    Introducing an innovative approach offered by ExtraHop for producing continuous operational intelligence.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4012/vmturbo-and-arista-networks-assuring-application-qos.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4013/vmturbo-wp-assuring-application-performance-feb-2015.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Assuring application performance at scale</h4>
+                <h4>Demand-driven application control: assuring application performance</h4>
                 <div class=standfirst>
-                    Empowering data center operators with an open and programmable network that easily scales to thousands of compute and storage nodes.
+                    The evolution of enterprise applications, the data centers in which they reside and the increasing expectations of businesses and end-users on the Quality of Service delivered.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4045/sew03073usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4041/wgw03017usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>2015 Cyber security intelligence index</h4>
+                <h4>Ensure a more secure future</h4>
                 <div class=standfirst>
-                    The Cyber Security Intelligence Index offers a high-level overview of the major threats to businesses worldwide over the past year.
+                    Insights for CIOs regarding transforming the security organization into five core functional areas. This paper concludes the series by looking at securing the greater future.
                 </div>
             </a>
 
@@ -968,28 +974,23 @@ Southport PR8 1LJ</p>
 
     <script>
         $(function() {
-            if ($('#tags.article_unit').length) {
+            if ($('#social_btns').length) {
                 var ab_set = {
                     view_tracking:  'true',
                     click_tracking: 'true',
-                    click_target:   '#tags.article_unit a',
-                    group:          'E (full boxed individual coloured)',
-                    name:           'AB: Tags 2015'
+                    click_target:   '#social_btns a:not(.reg_comments), #social_btns .faceb',
+                    group:          'B (without count)',
+                    name:           'AB: Social btns 2015'
                 };
                 track_bucket_user(ab_set);
-            }
-        });
 
-        $(function() {
-            if ($('#tags.article_unit').length) {
-                var ab_set_2 = {
-                    view_tracking:  'true',
+                var ab_set = {
                     click_tracking: 'true',
-                    click_target:   '#crumb_trail a',
-                    group:          'E (full boxed individual coloured)',
-                    name:           'AB: Crumbtrail 2015'
+                    click_target:   '.article_head .reg_comments',
+                    group:          'B (without count)',
+                    name:           'AB: Social btns 2015 comments'
                 };
-                track_bucket_user(ab_set_2);
+                track_bucket_user(ab_set);
             }
         });
     </script>
@@ -1044,7 +1045,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(189) });
+        $(function() { set_bucket_group(332) });
     </script>
         <div id="fb-root"></div>
     </div>

@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1506851342'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=85435313'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1573733416'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1388043562&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=304473370'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=510579811'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1745409423'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1529215740&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1087105865');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1511833757');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=439181138');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1315371115');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1398934302');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=994386405');"></a>
   </span>
 </span>
 
@@ -612,7 +612,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 											
 											<li><a href="http://pjmedia.com/tatler/2015/08/30/israel-confirms-iran-stockpiling-ballistic-missiles/">Israel Confirms Iran Stockpiling Ballistic Missiles</a></li>
 											
-											<li><a href="http://pjmedia.com/diaryofamadvoter/2015/08/30/who-shot-the-sheriff/">Who Shot the Sheriff?</a></li>
+											<li><a href="http://pjmedia.com/andrewklavan/2015/08/30/the-first-rule-of-news-coverage/">The First Rule of News Coverage</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":351,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":343,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>

@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"49A4EC944A0C4E4877637969A2068B06646174653D323031352D30382D3331267573657269643D3931623066613633613932353436366538346431326431653632346232383965","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"91b0fa63a925466e84d12d1e624b289e","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"d604eb61-b47e-44af-8c34-c119b40976e5","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"EB200B94833AFF9F606925480ED0D440646174653D323031352D30382D3331267573657269643D3634616231336537353961373461663861343763363637633563643834343966","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"64ab13e759a74af8a47c667c5cd8449f","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"89ac5823-cfcb-4815-87a2-8a9ac4d8995f","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			
+			A new shop for emerging and advanced designers.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -2289,11 +2289,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Let&#39;s get personal.</h2>
+		<h2>Earn up to a $200 Note!</h2>
 		<p>
-			See items selected especially for you.
+			
 				
-					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
+					<a href="spend-more-get-more?origin=footer-promo" manual_cm_sp="corp-_-corp_0817smgm_2716-_-swpfooter_details" title="Restrictions apply">Restrictions apply</a>.
 				
 		</p>
 	</section>

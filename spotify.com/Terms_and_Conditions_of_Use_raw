@@ -64,7 +64,7 @@ spweb.config = {
     ios: '1',
     android: '',
     desktop: '1',
-    remotetoken: 'NAowChgKB1Nwb3RpZnkSABoGmAEByAEBJZ6Q5FUSFF25Tdwc8mbVFAcI-bdxvhAIhCzK'
+    remotetoken: 'NAowChgKB1Nwb3RpZnkSABoGmAEByAEBJSyi5FUSFFf1UhMtx7bT1IRu8TxdCXHWr5OG'
   },
   facebook: {
     appId: 174829003346,
@@ -161,8 +161,8 @@ spweb.config = {
       </button>
                         <a
             class="user-link js-goto-auto-login"
-            data-signature-expiry="1441017390"
-            data-signature="jAdcmmTX0sxXG8JZPo4xztGKcW3ChQdICIQID51O3lzLJamwPIR1pQCgdiY5ItsyJCAkBi9RyFXgP7prZh%2FpXqjjqVOdMAj51KJiugQoLK03X3hGQDMXZlau22v5%2FUSEdiLRFD%2B1ly%2FNVc5wpoI5Ss3LiOdmGKyFJJ%2FuKeryt1QFJqXgRYj8cBXBVb9RR2gW6zErjXfBEANRqcVwKGEiFm3JlwjzFeY2NjBfvtz%2Bn569B16zTUT0baThBgbuzxLPqGQY6tzVGemaxVEWOCexwnaoYnqr5u4YaJovmZZKTbNkQ7AtVyqmzaSpQd3a1HP3u2wCrKDb4g8KSxkqnmkwYA%3D%3D"
+            data-signature-expiry="1441021884"
+            data-signature="igQ0Fz0vCUNyahzWPD4pNMQGiWqYY1UaQr4N5GbIyaD6PwfupFVSseH%2F1kOR%2BfYzyugcGLRkm5WDzUeCYQDClihw2t9hswFTaqhmlCSD5BbxmQwfB7mlg%2Fe3dZno5yQ1RgKayDrNDsfM9Ef7tep1GBgJTCkznF0rt3iXrs3%2B5PZgF6KC1hoiOWo7mp%2FyCoREvpLPsBIanCAIEhWfoTkAPy%2FhqTVFA%2BsBPT9p47LtU0MFJ%2BeWsOVnAmmaxSFUUP9%2BLVROgKECrLE%2B%2FZmnREBgsnqFi%2FNcFXsf3lbxZQRO%2Fijxfxe5vOHXbHuh%2FwAm3lItFCXOoiAc1rK0Jwf7ro70Kw%3D%3D"
             data-login-url="https://accounts.spotify.com/us/login/?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Foverview%2F"
             data-autologin-url="https://www.spotify.com/us/autologin/?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Foverview%2F"
             href="https://www.spotify.com/us/account/overview/">
@@ -218,8 +218,8 @@ spweb.config = {
   <li>
                       <a
               class="user-link js-goto-auto-login"
-              data-signature-expiry="1441017390"
-              data-signature="jAdcmmTX0sxXG8JZPo4xztGKcW3ChQdICIQID51O3lzLJamwPIR1pQCgdiY5ItsyJCAkBi9RyFXgP7prZh%2FpXqjjqVOdMAj51KJiugQoLK03X3hGQDMXZlau22v5%2FUSEdiLRFD%2B1ly%2FNVc5wpoI5Ss3LiOdmGKyFJJ%2FuKeryt1QFJqXgRYj8cBXBVb9RR2gW6zErjXfBEANRqcVwKGEiFm3JlwjzFeY2NjBfvtz%2Bn569B16zTUT0baThBgbuzxLPqGQY6tzVGemaxVEWOCexwnaoYnqr5u4YaJovmZZKTbNkQ7AtVyqmzaSpQd3a1HP3u2wCrKDb4g8KSxkqnmkwYA%3D%3D"
+              data-signature-expiry="1441021884"
+              data-signature="igQ0Fz0vCUNyahzWPD4pNMQGiWqYY1UaQr4N5GbIyaD6PwfupFVSseH%2F1kOR%2BfYzyugcGLRkm5WDzUeCYQDClihw2t9hswFTaqhmlCSD5BbxmQwfB7mlg%2Fe3dZno5yQ1RgKayDrNDsfM9Ef7tep1GBgJTCkznF0rt3iXrs3%2B5PZgF6KC1hoiOWo7mp%2FyCoREvpLPsBIanCAIEhWfoTkAPy%2FhqTVFA%2BsBPT9p47LtU0MFJ%2BeWsOVnAmmaxSFUUP9%2BLVROgKECrLE%2B%2FZmnREBgsnqFi%2FNcFXsf3lbxZQRO%2Fijxfxe5vOHXbHuh%2FwAm3lItFCXOoiAc1rK0Jwf7ro70Kw%3D%3D"
               data-login-url="https://accounts.spotify.com/us/login/?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Foverview%2F"
               data-autologin-url="https://www.spotify.com/us/autologin/?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Foverview%2F"
               href="https://www.spotify.com/us/account/overview/"
@@ -842,6 +842,6 @@ spweb.config = {
           </script>
           <!-- End SessionCam -->
           
-                  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"056bbe16c3","applicationID":"2971901","transactionName":"blwBY0pSDEQFU0BfWlcWIlRMWg1ZS1xRUVRVFwdYW0YPUgpE","queueTime":0,"applicationTime":35,"atts":"QhsCFQJIH0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+                  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"056bbe16c3","applicationID":"2971901","transactionName":"blwBY0pSDEQFU0BfWlcWIlRMWg1ZS1xRUVRVFwdYW0YPUgpE","queueTime":0,"applicationTime":36,"atts":"QhsCFQJIH0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
   <!-- This page was rendered using Twig -->
 </html>
