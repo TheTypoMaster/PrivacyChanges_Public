@@ -10,12 +10,12 @@
         <title>Conditions générales d'utilisation</title>
     <script type="text/javascript">$ccmprms={"weborama":{"WRP_SECTION_GRP":"Commentcamarche","WRP_ID":468315},"user":{"connected":false,"nick":"","fbid":null,"has_oas":true},"app":{"locale":"fr_FR","site_url":"www.commentcamarche.net","main_cat":"comment-ca-marche","is_portable":false},"facebook":{"enabled":true,"appid":"375175752544928","url":"http:\/\/www.facebook.com\/commentcamarche","autologin":true,"scope":"email,user_birthday,publish_actions,user_website"},"trans":{"IE9_PINIFY":{"pinText":"Glisser cette image dans la barre des t\u00e2ches pour \u00e9pingler le site."}}}</script><meta http-equiv="Content-Language" content="fr" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="Les pr&eacute;sentes Conditions G&eacute;n&eacute;rales ont pour objet de d&eacute;finir les modalit&eacute;s de mise &agrave; disposition des services du site CommentCaMarche.net, ci-apr&egrave;s nomm&eacute; &laquo; le Service &raquo; et les conditions d&apos;utilisation du Service par l&apos;Utilisateur. Tout acc&egrave;s..." />
+<meta property="og:description" content="Les présentes Conditions Générales ont pour objet de définir les modalités de mise à disposition des services du site CommentCaMarche.net, ci-après nommé « le Service » et les conditions d&apos;utilisation du Service par l&apos;Utilisateur. Tout accès..." />
 <meta property="og:title" content="Conditions générales d'utilisation" />
 <meta property="og:url" content="http://www.commentcamarche.net/contents/140-conditions-generales-d-utilisation" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Conditions générales d'utilisation" />
-<meta name="twitter:description" content="Les pr&eacute;sentes Conditions G&eacute;n&eacute;rales ont pour objet de d&eacute;finir les modalit&eacute;s de mise &agrave; disposition des services du site CommentCaMarche.net, ci-apr&egrave;s nomm&eacute; &laquo; le Service &raquo; et les conditions d&apos;utilisation du Service par l&apos;Utilisateur. Tout acc&egrave;s..." />
+<meta name="twitter:description" content="Les présentes Conditions Générales ont pour objet de définir les modalités de mise à disposition des services du site CommentCaMarche.net, ci-après nommé « le Service » et les conditions d&apos;utilisation du Service par l&apos;Utilisateur. Tout accès..." />
 <meta name="twitter:site" content="commentcamarche" />
 <meta property="og:site_name" content="CommentCaMarche" />
 <meta property="fb:admins" content="640264191" /><script>var Asl=function(i){this.conf=i,this.init()};Asl.prototype={conf:{},writers:{},isZen:!1,positionsToWrite:[],positionsLoaded:[],init:function(){var i=this.getScreenName();for(var t in this.conf.positions){var n=this.getParametersForPosition(t,i);n!==!1&&this.positionsToWrite.push(t)}return this.initZen()},initZen:function(){for(var i=document.cookie.split("; "),t=null,n=0;n<i.length;n++)if(t=i[n].split("="),"asl_zen"===t[0])return this.isZen=!0,this;if(window.location.search.search(/utm_medium=(e)?mail/gi)>0){var e=new Date;e.setTime(e.getTime()+5*6e4),document.cookie="asl_zen=1; expires="+e.toUTCString()+"; path=/",this.isZen=!0}return this},getScreenWidth:function(){var i=document.documentElement;return"undefined"!=typeof i&&"undefined"!=typeof i.clientWidth&&0!=i.clientWidth?i.clientWidth:window.screen.width},getScreenName:function(){var i,t=this.getScreenWidth();for(i in this.conf.screens){var n=this.conf.screens[i];if(!n.min&&!n.max)return i;if(n.min&&n.max){if(t>=n.min&&t<=n.max)return i}else{if(n.min&&t>n.min)return i;if(n.max&&t<n.max)return i}}},getClientByScreen:function(i){return this.conf.screens[i].client},isInsvePosition:function(i){return this.isZen&&this.conf.positions[i].insve===!0},getParametersForPosition:function(i,t){return this.isInsvePosition(i)?!1:this.conf.positions[i].mapping&&this.conf.positions[i].mapping[t]?this.conf.positions[i].mapping[t]:!1},setLoadedPosition:function(i){return this.positionsLoaded.indexOf(i)!==-1?this:(this.positionsLoaded.push(i),this)},isLoaded:function(){return this.positionsToWrite.length===this.positionsLoaded.length},initPositionsLoaded:function(){return this.positionsLoaded=[],this},write:function(i){if(this.conf.positions[i]){var t=this.getScreenName(),n=this.getParametersForPosition(i,t);if(n!==!1)return this.notice&&this.notice(i),this.writers[this.getClientByScreen(t)](i,n)}}};Asl.prototype.inject=function(from){var match=from.match(/<!--\[(([^ ]+)=(.*))\]-->/);null!==match&&("undefined"!=typeof JSON&&"undefined"!=typeof JSON.parse?window[match[2]]=JSON.parse(match[3]):eval(""+match[2]+"="+match[3]+";"))};Asl.prototype.fallback=function(t){if(t){var e=[],r=0,i=function(){return"undefined"==typeof jQuery?void setTimeout(i,50):void jQuery.ajax({type:"get",url:t,data:{p:e.join(",")},success:function(t){for(var e in t)switch(typeof t[e]){case"string":jQuery("#ba_"+e).html(t[e]);break;case"object":if(t[e].html&&jQuery("#ba_"+e).html(t[e].html),t[e].scripts)if("string"==typeof t[e].scripts)jQuery.ajax({url:t[e].scripts,dataType:"script",cache:!0});else if(jQuery.isArray(t[e].scripts))for(var r=0,i=t[e].scripts.length;i>r;++r)jQuery.ajax({url:t[e].scripts[r],dataType:"script",cache:!0})}}})};OAS_RICH=function(t){e.push(t),clearTimeout(r),r=setTimeout(i,250)}}};Asl.prototype.writers.sas = function (pos, params) {sasmobile(params['pageId'], params['formatId'], params['target']);};Asl.prototype.writers.oas = function (pos, params) {if(typeof OAS_RICH !== 'undefined') { OAS_RICH(params); }};asl = new Asl({screens: {"mobile":{"max":480,"client":"sas"},"tablet":{"min":480,"max":1024,"client":"oas"},"desktop":{"min":1024,"client":"oas"}},positions: {"Top":{"insve":false,"mapping":{"mobile":{"pageId":"76283\/564876","formatId":"13535","target":""},"tablet":"x19","desktop":"Top"}},"Top1":{"insve":false,"mapping":{"desktop":"Top1"}},"Right":{"insve":false,"mapping":{"tablet":"x29","desktop":"Right"}},"Position1":{"insve":false,"mapping":{"desktop":"Position1"}},"Position2":{"insve":false,"mapping":{"tablet":"x39","desktop":"Position2"}},"Position3":{"insve":false,"mapping":{"desktop":"Position3"}},"Position4":{"insve":false,"mapping":{"desktop":"Position4"}},"x01":{"insve":false,"mapping":{"tablet":"x01","desktop":"x01"}},"x02":{"insve":true,"mapping":{"mobile":{"pageId":"76283\/564877","formatId":"13534","target":""},"tablet":"x59","desktop":"x02"}},"TopLeft":{"insve":true,"mapping":{"tablet":"x49","desktop":"TopLeft"}},"Middle":{"insve":false,"mapping":{"desktop":"Middle"}},"Intext":{"insve":false,"mapping":[]}},clients: {"sas":{"url":"http:\/\/mobile.smartadserver.com","pageId":"","formatId":"","target":"","loaded":2},"oas":{"url":"http:\/\/ba.commentcamarche.net\/","query":["keyword=comment-ca-marche","keyword=guide-d-utilisation"],"sitepage":"fr_ccm_hightech\/contents","sameOriginHostname":"ba.commentcamarche.net","loaded":2}}});OAS_AD = function (pos) {asl.write(pos);};function sasmobile(s,a,t){1==sas_masterflag?(sas_masterflag=0,sas_master="M"):sas_master="S",asl.conf.clients.sas.loaded=0,document.write("<scr"+'ipt onload="javascript:asl.conf.clients.sas.loaded=1;" src="'+asl.conf.clients.sas.url+"/call2/pubmj"+"/"+s+"/"+a+"/"+sas_master+"/"+sas_tmstp+"/"+escape(t)+'?"></scr'+"ipt>")}function sascc(s,a){var t=new Image;t.src=asl.conf.clients.sas.url+"/h/mcp?imgid="+s+"&pgid="+a+"&uid=[uid]"+"&tmstp="+sas_tmstp+"&tgt=[targeting]"}sas_tmstp=Math.round(1e10*Math.random()),sas_masterflag=1;!function(e){var n,a=e.conf.clients.oas,i=[];"object"==typeof a.query&&(i=a.query);var t=[],r=e.conf.positions,o=e.getScreenName();if("oas"===e.getClientByScreen(o)){for(var s in r){var c=e.getParametersForPosition(s,o);c!==!1&&t.push(c)}if(0!==t.length){n=t.join(",");var g=a.url,f=navigator.userAgent.indexOf("Safari")>-1&&navigator.userAgent.indexOf("Chrome")==-1;f&&a.sameOriginHostname&&(g="//"+a.sameOriginHostname+"/"),e.isZen&&i.push("noinsve"),a.loaded=0,document.write("<scr"+'ipt type="text/javascript" onload="javascript:asl.conf.clients.oas.loaded=1;" src="'+g+"4/"+a.sitepage+"/1"+new String(Math.random()).substring(2,11)+"@"+n+"?"+i.join("&")+'"></scr'+"ipt>")}}}(asl);</script><script>if (typeof OAS_RICH != 'undefined') { asl.inject(OAS_RICH.toString()); } if (typeof OAS_RICH == 'undefined') { asl.fallback('/api/ads_block/'); }</script><link rel="canonical" href="http://www.commentcamarche.net/contents/140-conditions-generales-d-utilisation" />
@@ -569,118 +569,118 @@
 <div id='toc' class='toc'>
 
 <ul><li><a href='#objet'>Objet</a>
-</li><li><a href='#mentions-legales'>Mentions l&eacute;gales</a>
-</li><li><a href='#definitions'>D&eacute;finitions</a>
-</li><li><a href='#acces-au-service'>Acc&egrave;s au service</a>
-</li><li><a href='#propriete-intellectuelle'>Propri&eacute;t&eacute; intellectuelle</a>
-</li><li><a href='#donnees-personnelles'>Donn&eacute;es personnelles</a>
-</li><li><a href='#limites-de-responsabilite'>Limites de responsabilit&eacute;</a>
+</li><li><a href='#mentions-legales'>Mentions légales</a>
+</li><li><a href='#definitions'>Définitions</a>
+</li><li><a href='#acces-au-service'>Accès au service</a>
+</li><li><a href='#propriete-intellectuelle'>Propriété intellectuelle</a>
+</li><li><a href='#donnees-personnelles'>Données personnelles</a>
+</li><li><a href='#limites-de-responsabilite'>Limites de responsabilité</a>
 </li><li><a href='#liens-hypertextes'>Liens hypertextes</a>
 </li><li><a href='#force-majeure'>Force majeure</a>
-</li><li><a href='#evolution-du-present-contrat'>Evolution du pr&eacute;sent contrat</a>
-</li><li><a href='#duree-et-resiliation'>Dur&eacute;e et r&eacute;siliation</a>
-</li><li><a href='#droit-applicable-et-juridiction-competente'>Droit applicable et juridiction comp&eacute;tente</a></li></ul>
+</li><li><a href='#evolution-du-present-contrat'>Evolution du présent contrat</a>
+</li><li><a href='#duree-et-resiliation'>Durée et résiliation</a>
+</li><li><a href='#droit-applicable-et-juridiction-competente'>Droit applicable et juridiction compétente</a></li></ul>
 <br /></div>
-<br /><a name='objet'></a><h2>Objet</h2>
-<br />Les pr&eacute;sentes Conditions G&eacute;n&eacute;rales ont pour objet de d&eacute;finir les modalit&eacute;s de mise &agrave; disposition des services du site CommentCaMarche.net, ci-apr&egrave;s nomm&eacute; &laquo; le Service &raquo; et les conditions d'utilisation du Service par l'Utilisateur.              
+<br /><a name='objet'></a><h2>Objet</h2>
+Les présentes Conditions Générales ont pour objet de définir les modalités de mise à disposition des services du site CommentCaMarche.net, ci-après nommé « le Service » et les conditions d'utilisation du Service par l'Utilisateur.              
 <br />
-<br />Tout acc&egrave;s et/ou Utilisation du site www.commentcamarche.net suppose l'acceptation et le respect de l'ensemble des termes des pr&eacute;sentes Conditions et leur acceptation inconditionnelle. Elles constituent donc un contrat entre le Service et l'Utilisateur.              
+<br />Tout accès et/ou Utilisation du site www.commentcamarche.net suppose l'acceptation et le respect de l'ensemble des termes des présentes Conditions et leur acceptation inconditionnelle. Elles constituent donc un contrat entre le Service et l'Utilisateur.              
 <br />
-<br />Dans le cas o&ugrave; l'Utilisateur ne souhaite pas accepter tout ou partie des pr&eacute;sentes conditions g&eacute;n&eacute;rales, il lui est demand&eacute; de renoncer &agrave; tout usage du Service.              
-<br /><a name='mentions-legales'></a><h2>Mentions l&eacute;gales</h2>
-<br />Le site CommentCaMarche.net est &eacute;dit&eacute; par :              
+<br />Dans le cas où l'Utilisateur ne souhaite pas accepter tout ou partie des présentes conditions générales, il lui est demandé de renoncer à tout usage du Service.              
+<br /><a name='mentions-legales'></a><h2>Mentions légales</h2>
+Le site CommentCaMarche.net est édité par :              
 <br />
 <br /><b>Quidea</b>,        
-<br />69/71 Avenue Pierre Grenier - 92517 Boulogne-Billancourt      
-<br />T&eacute;l: +33 1 47 79 50 00   
+<br />94, rue de Provence 75009 Paris      
+<br />Tél: +33 1 47 79 50 00   
 <br />SAS au capital de 57 600,00 euros        
 <br />Nanterre B 453 986 960       
-<br />Pr&eacute;sident : Howto Media Group.               
-<br />Le directeur de la publication est <b>Jean-Fran&ccedil;ois Pillou</b>.        
+<br />Président : Howto Media Group.               
+<br />Le directeur de la publication est <b>Jean-François Pillou</b>.        
 <br />         
-<br />Quidea est une soci&eacute;t&eacute; du groupe<b> Howto Media Group</b>        
+<br />Quidea est une société du groupe<b> Howto Media Group</b>        
 <br />(nom commercial <b>CCM Benchmark Group</b>),               
-<br />Soci&eacute;t&eacute; Anonyme au capital de 1 893 212,05 euros,          
+<br />Société Anonyme au capital de 1 893 212,05 euros,          
 <br />69/71 Avenue Pierre Grenier - 92517 Boulogne-Billancourt      
 <br /><b>Nanterre B 512 085 630</b>        
 <br />
-<br />Le site CommentCaMarche.net est h&eacute;berg&eacute; par :     
+<br />Le site CommentCaMarche.net est hébergé par :     
 <br />
 <br />Equinix France 
 <br />114 rue Ambroise Croizat 
 <br />93200 SAINT DENIS 
-<br />SAS au capital de 23 510 900,40 &euro;    
+<br />SAS au capital de 23 510 900,40 €    
 <br />RCS : Bobigny B 429 840 853 
 <br />+33 (0) 155 87 22 00
-<br /><a name='definitions'></a><h2>D&eacute;finitions</h2>
+<br /><a name='definitions'></a><h2>Définitions</h2>
 
-<ul><li><b>Utilisateur</b> : L'Utilisateur est toute personne qui utilise le Site ou l'un des services propos&eacute;s sur le Site.              
-</li><li><b>Contenu Utilisateur</b> : Le terme &laquo; Contenu Utilisateur &raquo; d&eacute;signe les donn&eacute;es transmises par l'Utilisateur dans les diff&eacute;rentes rubriques du Site.              
-</li><li><b>Membre</b> : Le terme &laquo; Membre &raquo; d&eacute;signe un utilisateur identifi&eacute; sur le site.              
-</li><li><b>Identifiant</b> : Le terme &laquo; Identifiant &raquo; recouvre les informations n&eacute;cessaires &agrave; l'identification d'un utilisateur sur le site pour acc&eacute;der aux zones r&eacute;serv&eacute;es aux membres.              
-</li><li><b>Mot de passe</b> : Le &laquo; Mot de passe &raquo; est une information confidentielle, dont l'Utilisateur doit garder le secret, lui permettant, utilis&eacute; conjointement avec son Identifiant, de prouver l'identit&eacute;.</li></ul>
-<br /><a name='acces-au-service'></a><h2>Acc&egrave;s au service</h2>
-<br />Le Service est accessible gratuitement &agrave; tout Utilisateur disposant d'un acc&egrave;s &agrave; internet. Tous les co&ucirc;ts aff&eacute;rents &agrave; l'acc&egrave;s au Service, que ce soient les frais mat&eacute;riels, logiciels ou d'acc&egrave;s &agrave; internet sont exclusivement &agrave; la charge de l'utilisateur. Il est seul responsable du bon fonctionnement de son &eacute;quipement informatique ainsi que de son acc&egrave;s &agrave; internet.              
+<ul><li><b>Utilisateur</b> : L'Utilisateur est toute personne qui utilise le Site ou l'un des services proposés sur le Site.              
+</li><li><b>Contenu Utilisateur</b> : Le terme « Contenu Utilisateur » désigne les données transmises par l'Utilisateur dans les différentes rubriques du Site.              
+</li><li><b>Membre</b> : Le terme « Membre » désigne un utilisateur identifié sur le site.              
+</li><li><b>Identifiant</b> : Le terme « Identifiant » recouvre les informations nécessaires à l'identification d'un utilisateur sur le site pour accéder aux zones réservées aux membres.              
+</li><li><b>Mot de passe</b> : Le « Mot de passe » est une information confidentielle, dont l'Utilisateur doit garder le secret, lui permettant, utilisé conjointement avec son Identifiant, de prouver l'identité.</li></ul>
+<br /><a name='acces-au-service'></a><h2>Accès au service</h2>
+Le Service est accessible gratuitement à tout Utilisateur disposant d'un accès à internet. Tous les coûts afférents à l'accès au Service, que ce soient les frais matériels, logiciels ou d'accès à internet sont exclusivement à la charge de l'utilisateur. Il est seul responsable du bon fonctionnement de son équipement informatique ainsi que de son accès à internet.              
 <br />
-<br />Certaines sections du site sont r&eacute;serv&eacute;es aux Membres apr&egrave;s identification &agrave; l'aide de leur Identifiant et de leur Mot de passe.              
+<br />Certaines sections du site sont réservées aux Membres après identification à l'aide de leur Identifiant et de leur Mot de passe.              
 <br />
-<br />CommentCaMarche se r&eacute;serve le droit de refuser l'acc&egrave;s au Service, unilat&eacute;ralement et sans notification pr&eacute;alable, &agrave; tout Utilisateur ne respectant pas les pr&eacute;sentes conditions d'utilisation.              
+<br />CommentCaMarche se réserve le droit de refuser l'accès au Service, unilatéralement et sans notification préalable, à tout Utilisateur ne respectant pas les présentes conditions d'utilisation.              
 <br />
-<br />Quid&eacute;a met en oeuvre tous les moyens raisonnables &agrave; sa disposition pour assurer un acc&egrave;s de qualit&eacute; au Service,  mais n'est tenu &agrave; aucune obligation d'y parvenir.              
+<br />Quidéa met en oeuvre tous les moyens raisonnables à sa disposition pour assurer un accès de qualité au Service,  mais n'est tenu à aucune obligation d'y parvenir.              
 <br />
-<br />Quid&eacute;a ne peut, en outre, &ecirc;tre tenue responsable de tout dysfonctionnement du r&eacute;seau ou des serveurs ou de tout autre &eacute;v&eacute;nement &eacute;chappant au contr&ocirc;le raisonnable, qui emp&ecirc;cherait ou d&eacute;graderait l'acc&egrave;s au Service.              
+<br />Quidéa ne peut, en outre, être tenue responsable de tout dysfonctionnement du réseau ou des serveurs ou de tout autre événement échappant au contrôle raisonnable, qui empêcherait ou dégraderait l'accès au Service.              
 <br />
-<br />Quid&eacute;a se r&eacute;serve la possibilit&eacute; d'interrompre, de suspendre momentan&eacute;ment ou de modifier sans pr&eacute;avis              
-<br />l'acc&egrave;s &agrave; tout ou partie du Service, afin d'en assurer la maintenance, ou pour toute autre raison, sans que l'interruption n'ouvre droit &agrave; aucune obligation ni indemnisation.              
-<br /><a name='propriete-intellectuelle'></a><h2>Propri&eacute;t&eacute; intellectuelle</h2>
-<br />Les textes et illustrations dont la mention le pr&eacute;cise sont soumis &agrave; la <a href='/contents/136-informations-de-copyright'>licence Creative Commons</a> et peuvent sous certaines conditions &ecirc;tre reproduits, distribu&eacute;s ou modifi&eacute;s et ce, sans n&eacute;cessairement en demander l'autorisation.              
+<br />Quidéa se réserve la possibilité d'interrompre, de suspendre momentanément ou de modifier sans préavis              
+<br />l'accès à tout ou partie du Service, afin d'en assurer la maintenance, ou pour toute autre raison, sans que l'interruption n'ouvre droit à aucune obligation ni indemnisation.              
+<br /><a name='propriete-intellectuelle'></a><h2>Propriété intellectuelle</h2>
+Les textes et illustrations dont la mention le précise sont soumis à la <a href='/contents/136-informations-de-copyright'>licence Creative Commons</a> et peuvent sous certaines conditions être reproduits, distribués ou modifiés et ce, sans nécessairement en demander l'autorisation.              
 <br />
-<br />&laquo; <b>CommentCaMarche</b> &raquo; et &laquo; <b>Quid&eacute;a</b> &raquo; sont des marques d&eacute;pos&eacute;es de <b>Quid&eacute;a</b>. Toute reproduction non autoris&eacute;e de ces marques, logos et signes distinctifs constitue une  contrefa&ccedil;on passible de sanctions p&eacute;nales.   Le contrevenant s'expose &agrave; des sanctions civiles et p&eacute;nales et notamment aux peines pr&eacute;vues aux articles L. 335.2 et L. 343.1 du code de la Propri&eacute;t&eacute; Intellectuelle.              
+<br />« <b>CommentCaMarche</b> » et « <b>Quidéa</b> » sont des marques déposées de <b>Quidéa</b>. Toute reproduction non autorisée de ces marques, logos et signes distinctifs constitue une  contrefaçon passible de sanctions pénales.   Le contrevenant s'expose à des sanctions civiles et pénales et notamment aux peines prévues aux articles L. 335.2 et L. 343.1 du code de la Propriété Intellectuelle.              
 <br />
-<br />L'Utilisateur est seul responsable du Contenu Utilisateur qu'il met en ligne via le Service, ainsi que des textes et/ou opinions qu'il formule. Il s'engage notamment &agrave; ce que ces donn&eacute;es ne soient pas de nature &agrave; porter  atteinte aux int&eacute;r&ecirc;ts l&eacute;gitimes de tiers quels qu'ils soient. A ce titre, il garantit Quid&eacute;a contre tous recours,  fond&eacute;s directement ou indirectement sur ces propos et/ou donn&eacute;es, susceptibles d'&ecirc;tre intent&eacute;s par quiconque &agrave; l'encontre de Quid&eacute;a. Il s'engage en particulier &agrave; prendre en charge le paiement des sommes, quelles qu'elles soient, r&eacute;sultant du recours d'un tiers &agrave; l'encontre de Quid&eacute;a, y compris les honoraires d'avocat et frais de justice.              
+<br />L'Utilisateur est seul responsable du Contenu Utilisateur qu'il met en ligne via le Service, ainsi que des textes et/ou opinions qu'il formule. Il s'engage notamment à ce que ces données ne soient pas de nature à porter  atteinte aux intérêts légitimes de tiers quels qu'ils soient. A ce titre, il garantit Quidéa contre tous recours,  fondés directement ou indirectement sur ces propos et/ou données, susceptibles d'être intentés par quiconque à l'encontre de Quidéa. Il s'engage en particulier à prendre en charge le paiement des sommes, quelles qu'elles soient, résultant du recours d'un tiers à l'encontre de Quidéa, y compris les honoraires d'avocat et frais de justice.              
 <br />
-<br />Quid&eacute;a se r&eacute;serve le droit de supprimer tout ou partie du Contenu Utilisateur, &agrave; tout moment et pour quelque raison que ce soit, sans avertissement ou justification pr&eacute;alable. L'Utilisateur ne pourra faire valoir aucune r&eacute;clamation &agrave; ce titre.              
-<br /><a name='donnees-personnelles'></a><h2>Donn&eacute;es personnelles</h2>
-<br />Dans une logique de respect de la vie priv&eacute;e de ses Utilisateurs, Quid&eacute;a s'engage &agrave; ce que la collecte et le traitement d'informations personnelles, effectu&eacute;s au sein du pr&eacute;sent site, soient effectu&eacute;s conform&eacute;ment &agrave; la loi n&deg;78-17 du 6 janvier 1978 relative &agrave; l'informatique, aux fichiers et aux libert&eacute;s, dite Loi &laquo; <a href='/contents/277-loi-informatique-et-libertes'>Informatique et Libert&eacute;s</a> &raquo;. A ce titre, le site CommentCaMarche.net fait l'objet d'une d&eacute;claration &agrave; la CNIL sous le num&eacute;ro 729280.              
+<br />Quidéa se réserve le droit de supprimer tout ou partie du Contenu Utilisateur, à tout moment et pour quelque raison que ce soit, sans avertissement ou justification préalable. L'Utilisateur ne pourra faire valoir aucune réclamation à ce titre.              
+<br /><a name='donnees-personnelles'></a><h2>Données personnelles</h2>
+Dans une logique de respect de la vie privée de ses Utilisateurs, Quidéa s'engage à ce que la collecte et le traitement d'informations personnelles, effectués au sein du présent site, soient effectués conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, dite Loi « <a href='/contents/277-loi-informatique-et-libertes'>Informatique et Libertés</a> ». A ce titre, le site CommentCaMarche.net fait l'objet d'une déclaration à la CNIL sous le numéro 729280.              
 <br />
-<br />Conform&eacute;ment &agrave; l'article 34 de la loi &laquo; Informatique et Libert&eacute;s &raquo;, <b>Quid&eacute;a</b> garantit &agrave; l'Utilisateur un droit d'opposition, d'acc&egrave;s et de rectification sur les donn&eacute;es nominatives le concernant.               
-<br />L'Utilisateur a la possibilit&eacute; d'exercer ce droit :              
+<br />Conformément à l'article 34 de la loi « Informatique et Libertés », <b>Quidéa</b> garantit à l'Utilisateur un droit d'opposition, d'accès et de rectification sur les données nominatives le concernant.               
+<br />L'Utilisateur a la possibilité d'exercer ce droit :              
 
 <ul><li>sur le site, dans l'<a href='/communaute/'>Espace membres</a> ;              
-</li><li>en utilisant  le <a href='/contact/'>formulaire de contact</a> mis &agrave; sa disposition ;              
+</li><li>en utilisant  le <a href='/contact/'>formulaire de contact</a> mis à sa disposition ;              
 </li><li>en rentrant directement en contact par l'adresse suivante : contact@commentcamarche.net.</li></ul>
-<br /><a name='limites-de-responsabilite'></a><h2>Limites de responsabilit&eacute;</h2>
-<br />Le site CommentCaMarche.net est un site d'information sur les nouvelles technologies et en particulier sur les sujets touchant &agrave; l'informatique.              
+<br /><a name='limites-de-responsabilite'></a><h2>Limites de responsabilité</h2>
+Le site CommentCaMarche.net est un site d'information sur les nouvelles technologies et en particulier sur les sujets touchant à l'informatique.              
 <br />
-<br />Les informations diffus&eacute;es sur le site CommentCaMarche.net proviennent de sources r&eacute;put&eacute;es fiables. Toutefois, <b>Quid&eacute;a</b> ne peut garantir l'exactitude ou la pertinence de ces donn&eacute;es. En outre, les informations mises &agrave; disposition sur ce site le sont uniquement &agrave; titre purement informatif et ne sauraient constituer en aucun cas un conseil ou une recommandation de quelque nature que ce soit.              
+<br />Les informations diffusées sur le site CommentCaMarche.net proviennent de sources réputées fiables. Toutefois, <b>Quidéa</b> ne peut garantir l'exactitude ou la pertinence de ces données. En outre, les informations mises à disposition sur ce site le sont uniquement à titre purement informatif et ne sauraient constituer en aucun cas un conseil ou une recommandation de quelque nature que ce soit.              
 <br />
-<br />En cons&eacute;quence, l'Utilisation des informations et contenus disponibles sur l'ensemble du site, ne sauraient en aucun cas engager la responsabilit&eacute; de Quid&eacute;a, &agrave; quelque titre que ce soit. L'Utilisateur est seul ma&icirc;tre de la bonne utilisation, avec discernement et esprit, des informations mises &agrave; sa disposition sur le Site.              
+<br />En conséquence, l'Utilisation des informations et contenus disponibles sur l'ensemble du site, ne sauraient en aucun cas engager la responsabilité de Quidéa, à quelque titre que ce soit. L'Utilisateur est seul maître de la bonne utilisation, avec discernement et esprit, des informations mises à sa disposition sur le Site.              
 <br />
-<br />Par ailleurs, l'Utilisateur s'engage &agrave; indemniser Quid&eacute;a de toutes cons&eacute;quences dommageables li&eacute;es directement ou indirectement &agrave; l'usage qu'il fait du Service.              
+<br />Par ailleurs, l'Utilisateur s'engage à indemniser Quidéa de toutes conséquences dommageables liées directement ou indirectement à l'usage qu'il fait du Service.              
 <br />
-<br />L'acc&egrave;s &agrave; certaines sections du site CommentCaMarche.net n&eacute;cessite l'utilisation d'un Identifiant et d'un Mot de passe. Le Mot de passe, choisi par l'utilisateur, est personnel et confidentiel. L'utilisateur s'engage &agrave; conserver secret son mot de passe et &agrave; ne pas le divulguer sous quelque forme que ce soit.  L'utilisation de son Identifiant et de son Mot de passe &agrave; travers internet se fait aux risques et p&eacute;rils de l'Utilisateur. Il appartient &agrave; l'Utilisateur de prendre toutes les dispositions n&eacute;cessaires permettant de prot&eacute;ger ses propres donn&eacute;es contre toute atteinte.              
+<br />L'accès à certaines sections du site CommentCaMarche.net nécessite l'utilisation d'un Identifiant et d'un Mot de passe. Le Mot de passe, choisi par l'utilisateur, est personnel et confidentiel. L'utilisateur s'engage à conserver secret son mot de passe et à ne pas le divulguer sous quelque forme que ce soit.  L'utilisation de son Identifiant et de son Mot de passe à travers internet se fait aux risques et périls de l'Utilisateur. Il appartient à l'Utilisateur de prendre toutes les dispositions nécessaires permettant de protéger ses propres données contre toute atteinte.              
 <br />
-<br />Quid&eacute;a s'engage n&eacute;anmoins &agrave; mettre en place tous les moyens n&eacute;cessaires pour garantir la s&eacute;curit&eacute; et la confidentialit&eacute; des donn&eacute;es transmises. L'Utilisateur est inform&eacute; qu'un ou plusieurs cookies, ne contenant aucune information personnelle, pourront &ecirc;tre plac&eacute;s sur son disque dur afin d'assurer son identification.              
+<br />Quidéa s'engage néanmoins à mettre en place tous les moyens nécessaires pour garantir la sécurité et la confidentialité des données transmises. L'Utilisateur est informé qu'un ou plusieurs cookies, ne contenant aucune information personnelle, pourront être placés sur son disque dur afin d'assurer son identification.              
 <br />
-<br />L'Utilisateur admet conna&icirc;tre les limitations et contraintes propres au r&eacute;seau internet et, &agrave; ce titre, reconna&icirc;t notamment l'impossibilit&eacute; d'une garantie totale de la s&eacute;curisation des &eacute;changes de donn&eacute;es. Quid&eacute;a ne pourra pas &ecirc;tre tenue responsable des pr&eacute;judices d&eacute;coulant de la transmission de toute information, y compris de celle de son identifiant et/ou de son mot de passe, via le Service.              
+<br />L'Utilisateur admet connaître les limitations et contraintes propres au réseau internet et, à ce titre, reconnaît notamment l'impossibilité d'une garantie totale de la sécurisation des échanges de données. Quidéa ne pourra pas être tenue responsable des préjudices découlant de la transmission de toute information, y compris de celle de son identifiant et/ou de son mot de passe, via le Service.              
 <br />
-<br />Quid&eacute;a ne pourra en aucun cas, dans la limite du droit applicable, &ecirc;tre tenue responsable des dommages et/ou pr&eacute;judices, directs ou indirects, mat&eacute;riels ou immat&eacute;riels, ou de quelque nature que ce soit, r&eacute;sultant d'une indisponibilit&eacute; du Service ou de toute Utilisation du Service. Le terme &laquo; Utilisation &raquo; doit &ecirc;tre entendu au sens large, c'est-&agrave;-dire tout usage du site quel qu'il soit, licite ou non.              
+<br />Quidéa ne pourra en aucun cas, dans la limite du droit applicable, être tenue responsable des dommages et/ou préjudices, directs ou indirects, matériels ou immatériels, ou de quelque nature que ce soit, résultant d'une indisponibilité du Service ou de toute Utilisation du Service. Le terme « Utilisation » doit être entendu au sens large, c'est-à-dire tout usage du site quel qu'il soit, licite ou non.              
 <br />
-<br />L'Utilisateur s'engage, d'une mani&egrave;re g&eacute;n&eacute;rale, &agrave; respecter l'ensemble de la r&eacute;glementation en vigueur en France.              
-<br /><a name='liens-hypertextes'></a><h2>Liens hypertextes</h2>
-<br />CommentCaMarche.net propose des liens hypertextes vers des sites web &eacute;dit&eacute;s et/ou g&eacute;r&eacute;s par des tiers.              
+<br />L'Utilisateur s'engage, d'une manière générale, à respecter l'ensemble de la réglementation en vigueur en France.              
+<br /><a name='liens-hypertextes'></a><h2>Liens hypertextes</h2>
+CommentCaMarche.net propose des liens hypertextes vers des sites web édités et/ou gérés par des tiers.              
 <br />
-<br />Dans la mesure o&ugrave; aucun contr&ocirc;le n'est exerc&eacute; sur ces ressources externes, l'Utilisateur reconna&icirc;t que Quid&eacute;a n'assume aucune responsabilit&eacute; relative &agrave; la mise &agrave; disposition de ces ressources, et ne peut &ecirc;tre tenue responsable quant &agrave; leur contenu.              
-<br /><a name='force-majeure'></a><h2>Force majeure</h2>
-<br />La responsabilit&eacute; de <b>Quid&eacute;a</b> ne pourra &ecirc;tre engag&eacute;e en cas de force majeure ou de faits ind&eacute;pendants de sa volont&eacute;.              
-<br /><a name='evolution-du-present-contrat'></a><h2>Evolution du pr&eacute;sent contrat</h2>
-<br />Quid&eacute;a se r&eacute;serve le droit de modifier les termes, conditions et mentions du pr&eacute;sent contrat &agrave; tout moment.              
+<br />Dans la mesure où aucun contrôle n'est exercé sur ces ressources externes, l'Utilisateur reconnaît que Quidéa n'assume aucune responsabilité relative à la mise à disposition de ces ressources, et ne peut être tenue responsable quant à leur contenu.              
+<br /><a name='force-majeure'></a><h2>Force majeure</h2>
+La responsabilité de <b>Quidéa</b> ne pourra être engagée en cas de force majeure ou de faits indépendants de sa volonté.              
+<br /><a name='evolution-du-present-contrat'></a><h2>Evolution du présent contrat</h2>
+Quidéa se réserve le droit de modifier les termes, conditions et mentions du présent contrat à tout moment.              
 <br />
-<br />Il est ainsi conseill&eacute; &agrave; l'Utilisateur de consulter r&eacute;guli&egrave;rement la derni&egrave;re version des Conditions d'Utilisation disponible sur le site www.commentcamarche.net.              
-<br /><a name='duree-et-resiliation'></a><h2>Dur&eacute;e et r&eacute;siliation</h2>
-<br />Le pr&eacute;sent contrat est conclu pour une dur&eacute;e ind&eacute;termin&eacute;e &agrave; compter de l'Utilisation du Service par l'Utilisateur.              
-<br /><a name='droit-applicable-et-juridiction-competente'></a><h2>Droit applicable et juridiction comp&eacute;tente</h2>
-<br />Les r&egrave;gles en mati&egrave;re de droit, applicables aux contenus et aux transmissions de donn&eacute;es sur et autour du site, sont d&eacute;termin&eacute;es par la loi fran&ccedil;aise. En cas de litige, n'ayant pu faire l'objet d'un accord &agrave; l'amiable, seuls les tribunaux fran&ccedil;ais du ressort de la cour d'appel de Paris sont comp&eacute;tents.    <div
+<br />Il est ainsi conseillé à l'Utilisateur de consulter régulièrement la dernière version des Conditions d'Utilisation disponible sur le site www.commentcamarche.net.              
+<br /><a name='duree-et-resiliation'></a><h2>Durée et résiliation</h2>
+Le présent contrat est conclu pour une durée indéterminée à compter de l'Utilisation du Service par l'Utilisateur.              
+<br /><a name='droit-applicable-et-juridiction-competente'></a><h2>Droit applicable et juridiction compétente</h2>
+Les règles en matière de droit, applicables aux contenus et aux transmissions de données sur et autour du site, sont déterminées par la loi française. En cas de litige, n'ayant pu faire l'objet d'un accord à l'amiable, seuls les tribunaux français du ressort de la cour d'appel de Paris sont compétents.    <div
         class="dontPrint resp_hidden--s">Pour une lecture illimit&eacute;e hors ligne, vous avez la possibilit&eacute; de t&eacute;l&eacute;charger gratuitement cet article au format PDF :        <br/>
         <a href="/contents/guide-d-utilisation-969802469#140"
            onclick="window.open('/contents/pdf/140-conditions-generales-d-utilisation');"

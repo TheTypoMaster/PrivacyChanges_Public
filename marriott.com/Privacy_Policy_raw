@@ -128,7 +128,7 @@
 	
 	
 
-	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='8B52C9E950CD02DC4D11FEFB76D54971';JAWR.app_context_path='';</script>
+	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='52A2EB9F286EF44366AE1A6335623F3C';JAWR.app_context_path='';</script>
 <link rel="stylesheet" type="text/css" media="all" href="/miCSSPath/N2038945338/bundles/foundation_all.css" />
 
 
@@ -201,7 +201,7 @@
 <!--<![endif]-->
 
 
-<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='ADC92C047C12C87870C850E02B4D6F80';JAWR.app_context_path='';</script>
+<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='F13E30564CD6F3E59E3D90AC60405735';JAWR.app_context_path='';</script>
 <script type="text/javascript" src="/miJSPath/1742414831/common/js/libs/modernzr/modernzr.js" ></script>
 
 
@@ -232,11 +232,24 @@ var dataLayer = {
 	
 		"srchBrands": "all|",
 	
-		"ctrlgrp": "94",
+		"ctrlgrp": "15",
 	
 		"isProd": "true",
 	
 		"domainName": "Marriott.com",
+	
+	    "TestName": "dcr_monetate_poc",
+	    "TestArea": "dcr",
+	    "SwimLane": "Dcr1",
+	    "FriendlyName": "Monetate POC",
+	    "TestAllocation": "249999",
+	    "GenRecNumb": "548265",
+	    "GenTestNumb": "170455",       
+	    "TestEndDate": "9/11/2015",
+	    "NumberOfrecipes": "3",
+	    "RecipeList": "control*m1*m2",
+	    "RecipeToDisplay": "1",
+	    "RecipeFriendlyName": "",
 	
 		"buildVers": "WEM10.5.13",       
 	"testControl1":"false","testControl2":"false","PersControl":"true","AdControl":"false","ExControl":"false",
@@ -312,9 +325,6 @@ var dataLayer = {
 	
 		
 		
-			
-			
-		
 		
 	
 
@@ -334,7 +344,7 @@ var dataLayer = {
 		
 		
 		
-			 l-responsive ie8 lt-ie10 lt-ie9" data-responsive="true" >
+			 l-responsive" data-responsive="true" >
 
 		
 
@@ -496,7 +506,7 @@ var webfontloads = true;
 
 
 
-<!-- TIMESTAMP="Mon Aug 31 06:34:53 EDT 2015" JVMID="pEbizMdcom8D245_prd4" -->
+<!-- TIMESTAMP="Mon Aug 31 07:40:18 EDT 2015" JVMID="pEbizMdcom8R237_prd2" -->
 
 
 
@@ -2749,7 +2759,7 @@ var webfontloads = true;
 <div class="l-equal-height-child-column m-lookup-reservation l-split-50">
     <p class="m-panel-title l-padding-left l-padding-top">View and Manage Reservations</p>
     <p class="t-desc l-padding-left">Find specific reservations, including those made by phone or when not signed in.</p>
-   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=Wq9VOKbLlI6lylqodZYt0Sm">
+   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=4OlIJi315NZLV6DlACjEo1q">
         <input type="hidden" name="bc" value="MC" />
         <input type="hidden" name="returnURL" value="/reservation/lookupReservation.mi" />
         
@@ -2820,7 +2830,7 @@ var webfontloads = true;
     
 	    
 	         
-	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=Wq9VOKbLlI6lylqodZYt0Sm">
+	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=4OlIJi315NZLV6DlACjEo1q">
 
 	                
 	                
@@ -2951,7 +2961,7 @@ var webfontloads = true;
 
 		<div class="m-header-myaccount-container is-default-state">
 			<div class="m-header-myaccount">
-				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=Wq9VOKbLlI6lylqodZYt0Sm">
+				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=4OlIJi315NZLV6DlACjEo1q">
 					
 					
 
@@ -10270,7 +10280,7 @@ var hdVars = {
 
 
 	
-		<script type="text/javascript" src="/miJSPath/1515750971/bundles/micorelib.js" ></script>
+		<script type="text/javascript" src="/miJSPath/1810714182/bundles/micorelib.js" ></script>
 
 	
 	

@@ -37,7 +37,7 @@ var omn_newpagename = 'yes';
 <div id="responsiveWrapper_sub">
 <div id="CMU_EXCLUDE"></div>
 <!-- AMEX iNAV Header -->
-<!--Created by CMAX:iCM 08-05-2015 20:52:59 File: US_en_NGN_H_Generic.html DO NOT MODIFY-->
+<!--Created by CMAX:iCM 08-31-2015 01:37:02 File: US_en_NGN_H_Generic.html DO NOT MODIFY-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<script type="text/javascript" src="https://nexus.ensighten.com/amex/amexhead/Bootstrap.js"></script><link media="all" type="text/css" href="https://www.aexp-static.com/nav/ngn/css/inav_responsive.css" rel="stylesheet" /><!--[if lt IE 7]><div id="iNavNGI_Header" class="ie ie6 us-en"><![endif]--><!--[if IE 7]><div id="iNavNGI_Header" class="ie ie7 us-en"><![endif]--><!--[if IE 8]><div id="iNavNGI_Header" class="ie ie8 us-en"><![endif]--><!--[if IE 9]><div id="iNavNGI_Header" class="ie ie9 us-en"><![endif]--><!--[if IE 10]><div id="iNavNGI_Header" class="ie ie10 us-en"><![endif]--><!--[if !IE]>--><div id="iNavNGI_Header" class="us-en"><!--<![endif]--> <script type="text/javascript" id="iNavFontChecker">
 				// <![CDATA[  if ((document.domain.indexOf('americanexpress') + document.domain.indexOf('aexp')) < 0) { document.getElementById('iNavNGI_Header').className += ' iNavDisableFont'; }				
@@ -53,7 +53,7 @@ var omn_newpagename = 'yes';
   <div id="iNavHdWrap"><span id="iNMenuStart" class="iNAcsTxt" tabindex="-1">Start of menu</span><div id="ioaSearch"></div>
     <div id="iNCardSelector"></div>
     <div id="iNavHeaderCont">
-      <div id="iNavLogo"><a id="" href="https://www.americanexpress.com/?inav=NavLogo" title="" accesskey="0" class="iNDef"><img src="https://www.aexp-static.com/nav/ngn/img/logo_bluebox.gif" title="American Express US: homepage" alt="American Express Logo - link to home" class="amexLogo" /></a></div>
+      <div id="iNavLogo"><a id="" href="https://www.americanexpress.com/?inav=NavLogo" title="" accesskey="0" class="iNDef"><img src="https://www.aexp-static.com/nav/ngn/img/logo_bluebox_1x.gif" title="American Express US: homepage" alt="" class="amexLogo" /></a></div>
       <div id="iNavHeaderContFloat">
         <div id="iNavT1Nav">
           <ul id="iNavTier1Nav">
@@ -228,6 +228,7 @@ var omn_newpagename = 'yes';
                       <li class="iNDef"><a id="menu_business_corptravel" title="" href="https://www.amexglobalbusinesstravel.com?inav=menu_business_corptravel">Corporate Travel Solutions</a></li>
                       <li class="iNDef"><a id="menu_business_meetingsevents" title="" href="https://www.amexglobalbusinesstravel.com/meetings-and-events?inav=menu_business_meetingsevents">Meetings and Events</a></li>
                       <li class="iNDef"><a id="menu_business_corpfx" title="" href="https://www.americanexpress.com/us/content/foreign-exchange/transfer-money/business/?src=Online&extlink=US-fxip-Payments&digi=onl_lin_nav&inav=menu_business_corpfx">International Payments for Businesses</a></li>
+                      <li class="iNDef"><a id="menu_business_corppmtsoln" title="" href="https://business.americanexpress.com/us/globalcurrencysolutions?inav=menu_business_corppmtsoln">Corporate Payment Solutions in USD/EUR</a></li>
                     </ul>
                   </div>
                   <div class="iNavCols">
