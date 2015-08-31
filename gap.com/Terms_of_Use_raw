@@ -1369,7 +1369,7 @@
             DIVISION_2_ACTION: "division.do",
             SUBDIVISION_2_ACTION: "subdivision.do",
             HOME_2_ACTION: "home.do",
-            DATE_IN_USE: "08/30/2015 11:30 PM",
+            DATE_IN_USE: "08/31/2015 12:44 AM",
             PREVIOUS_LOCALE : "en_US",
             
             IS_NAV2_ENABLED: 'false',
@@ -9241,40 +9241,7 @@ html.breakpoint-large .responsiveShoppingBag .universalBarBrandTab .universalBar
     <!--Container 5 -->
 </div>
 <div class="topNavGFOLContainer" class="clearfix">
-    <!--Container 6 --><!-- BEGIN Content Item File: /content/0010/131/175/cn10131175.html -->
-<div id="contentItemContainer10000390" class="10131175" >
-
-
-<div id="gfol-banner" style="height:70px">
-    <a href="javascript:void(0);" rel="jbox" data-jbox-url="/buy/promo_legal_details.do?promoId=147001" data-jbox-width="500" data-jbox-height="450">
-       <img src="/Asset_Archive/GPWeb/content/0010/131/175/assets/090315_GTB_SMSPromo.gif" alt="Get 25% off your purchase" id="my_image">
-    </a>
-</div>
-
-
-<script type="text/javascript">
-
-jQuery(window).ready(function() {
-
-    if ((omni.strCurrentPageName && omni.strCurrentPageName.indexOf("Factory") > -1) || (window.location.href.indexOf("cid=48620") > -1)){ //show only on Factory pages
-
-        var bannerContainer = jQuery('.topNavGFOLContainer'),
-            banner = jQuery('#gfol-banner');
-            if(bannerContainer.length > 1){
-                bannerContainer.show();
-                bannerContainer[0].remove(); //remove double instance (onesite)
-            }; 
-    };
- 
-});
-                 
-  
-</script>
-
-
-</div>
-<!-- END Content Item File: /content/0010/131/175/cn10131175.html -->
-
+    <!--Container 6 -->
     <!--Container 7 -->
 </div>
 
@@ -10672,7 +10639,7 @@ function validateFormGFOL()
 	
 	<script type="text/javascript" src="/gid/js/common/layouts/en/reporting/sCode.js"></script>
 	 <script type="text/javascript">
-	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "10131175,10131175,9712387,10056633,9712387,9058692,9712385,9894771,9894937,9938486,10064395,10131156,9765554,10113691,10030539,9409544,9815677,9992930";
+	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "9712387,10056633,9712387,9058692,9712385,9894771,9894937,9938486,10064395,10131156,9765554,10113691,10030539,9409544,9815677,9992930";
 	 </script>
 	
 	<noscript>

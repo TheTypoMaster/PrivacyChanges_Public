@@ -175,6 +175,10 @@
 
 
                 <div class=story_row>
+                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/massvet_finding_unknown_malice_in_10_seconds_mass_vetting_for_new_threats_at_the_googleplay_scale/">
+                            <img src="https://regmedia.co.uk/2015/08/31/google_play_u8763456.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
+                        <h5>Boffins laugh at Play Store bonehead security with instant app checker</h5>
+                    </a>
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/business_email_campaigns_12_billion/">
                             <img src="https://regmedia.co.uk/2015/08/31/beer_987354.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Friday beers scam up 240 percent, inflicts $1.2 billion in damages</h5>
@@ -186,10 +190,6 @@
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/nasa_names_new_horizons_next_target/">
                             <img src="https://regmedia.co.uk/2015/01/14/new_horizons.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>NASA names New Horizons' next target</h5>
-                    </a>
-                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/30/nvidia_reveals_gpus_for_blade_servers_linux_desktop_support/">
-                            <img src="https://regmedia.co.uk/2015/08/30/nvidia_grid.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
-                        <h5>NVIDIA reveals GPUs for blade servers, Linux desktop support</h5>
                     </a>
                 </div>
             </div>
@@ -333,6 +333,10 @@
                 <div class=sub_nav></div>
 
                 <div class=story_row>
+                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/massvet_finding_unknown_malice_in_10_seconds_mass_vetting_for_new_threats_at_the_googleplay_scale/">
+                            <img src="https://regmedia.co.uk/2015/08/31/google_play_u8763456.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
+                        <h5>Boffins laugh at Play Store bonehead security with instant app checker</h5>
+                    </a>
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/31/business_email_campaigns_12_billion/">
                             <img src="https://regmedia.co.uk/2015/08/31/beer_987354.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Friday beers scam up 240 percent, inflicts $1.2 billion in damages</h5>
@@ -344,10 +348,6 @@
                     <a class="story_link" href="http://www.theregister.co.uk/2015/08/29/uber_security_researchers/">
                             <img src="https://regmedia.co.uk/2015/05/19/uber_logo.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
                         <h5>Uber pulls up to the bumper, plonks Jeep hackers into driving seat</h5>
-                    </a>
-                    <a class="story_link" href="http://www.theregister.co.uk/2015/08/28/associated_press_sues_fbi_for_impersonating_its_hacks/">
-                            <img src="https://regmedia.co.uk/2014/05/01/camera_hack_teaser.jpg?x=198&amp;y=131&amp;crop=1" alt="" width=198 height=131>
-                        <h5>Associated Press sues FBI for impersonating its site to install spyware</h5>
                     </a>
                 </div>
             </div>
@@ -574,7 +574,7 @@
                             <img src="https://regmedia.co.uk/2012/11/08/precog_minority_report.jpg?x=648&amp;y=429&amp;crop=1" alt="" width=648 height=429 class="article_img">
 
                 
-                <div id=social_btns class="alt_colour dcl">
+                <div id=social_btns class="alt_colour dcl ab_c">
                     <a href="http://twitter.com/share?text=Your%20Privacy%20and%20The%20Register&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;via=theregister" class=twit>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/twitter.png" srcset="/Design/graphics/icon/twitter.svg" alt="Twitter">
@@ -590,6 +590,12 @@
                     <a href="https://plus.google.com/share?url=http://www.theregister.co.uk/about/company/privacy/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class=gplus>
                         <div class=circ>
                             <img width="18" height="18" src="/Design/graphics/icon/google_plus.png" srcset="/Design/graphics/icon/google_plus.svg" alt="G+">
+                            <div class=count></div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.theregister.co.uk/about/company/privacy/&amp;title=Your%20Privacy%20and%20The%20Register&amp;summary=What%20we%20do%20with%20your%20data" class=linkedin_social>
+                        <div class=circ>
+                            <img width="18" height="18" src="/Design/graphics/icon/linkedin_alt.png" srcset="/Design/graphics/icon/linkedin_alt.svg" alt="linkedin">
                             <div class=count></div>
                         </div>
                     </a>
@@ -740,35 +746,35 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3632/ema-extrahop-continousoperationalintelligence-1014-wp.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3631/open-itoa-white-paper-140809.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Driving business with continuous operational intelligence</h4>
+                <h4>Designing and building an open ITOA architecture</h4>
                 <div class=standfirst>
-                    Introducing an innovative approach offered by ExtraHop for producing continuous operational intelligence.
+                    Learn about a new IT data taxonomy defined by the four data sources of IT visibility: wire, machine, agent, and synthetic data sets.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4014/vmturbo-empowering-ecommerce.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4015/pure-storage-and-vmturbo-assuring-workload-performance.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Empowering E-commerce against unpredictable demand</h4>
+                <h4>Assuring workload performance through Pure Storage and VMTurbo</h4>
                 <div class=standfirst>
-                    Exploring common challenges facing E-commerce platform and B2C website managers planning for the holiday shopping rush and bolstering services to meet customer demands.
+                    Three primary use cases for the VMTurbo Pure Storage Control Module are discussed, including assuring performance in both homogeneous and heterogeneous storage environments.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3823/wgl03026usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4041/wgw03017usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Putting advanced network security to work</h4>
+                <h4>Ensure a more secure future</h4>
                 <div class=standfirst>
-                    Highlighting specific examples of the ways in which these converged security systems put today’s more advanced capabilities to work in practical application.
+                    Insights for CIOs regarding transforming the security organization into five core functional areas. This paper concludes the series by looking at securing the greater future.
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4059/sans-breaches-happen-be-prepared-1214.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Breaches happen: Be prepared</h4>
+                <h4>Securing the cloud</h4>
                 <div class=standfirst>
-                    Discussing how a layered approach to security provides better protection of your organization's IT assets.
+                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
                 </div>
             </a>
         </div>
@@ -968,13 +974,21 @@ Southport PR8 1LJ</p>
 
     <script>
         $(function() {
-            if ($('#spotlight').length) {
+            if ($('#social_btns').length) {
                 var ab_set = {
                     view_tracking:  'true',
                     click_tracking: 'true',
-                    click_target:   '#spotlight a',
-                    group:          'E (large image, large text below & grey)',
-                    name:           'AB: Spotlight 2015'
+                    click_target:   '#social_btns a:not(.reg_comments), #social_btns .faceb',
+                    group:          'C (with count)',
+                    name:           'AB: Social btns 2015'
+                };
+                track_bucket_user(ab_set);
+
+                var ab_set = {
+                    click_tracking: 'true',
+                    click_target:   '.article_head .reg_comments',
+                    group:          'C (with count)',
+                    name:           'AB: Social btns 2015 comments'
                 };
                 track_bucket_user(ab_set);
             }
@@ -1031,7 +1045,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(114) });
+        $(function() { set_bucket_group(349) });
     </script>
         <div id="fb-root"></div>
     </div>
