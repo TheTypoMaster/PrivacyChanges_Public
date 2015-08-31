@@ -740,11 +740,11 @@ Southport PR8 1LJ</p>
                 <a href="http://whitepapers.theregister.co.uk/" class=dcl>Whitepapers</a>
             </h3>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3630/10-ways-wire-data-can-help-you-conquer-it-complexity-complete-11.15.13.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/3631/open-itoa-white-paper-140809.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>10 ways wire data helps conquer IT complexity</h4>
+                <h4>Designing and building an open ITOA architecture</h4>
                 <div class=standfirst>
-                    IT teams can automatically detect problems across the IT environment, spot data theft, select unique pieces of transaction payloads to send to a data source, and more.
+                    Learn about a new IT data taxonomy defined by the four data sources of IT visibility: wire, machine, agent, and synthetic data sets.
                 </div>
             </a>
 
@@ -756,19 +756,19 @@ Southport PR8 1LJ</p>
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4043/sew03033usen.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4021/wgw03076usen.pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Strategy considerations for building a security operations center</h4>
+                <h4>Strengthening networks and endpoints with behaviour-based protection</h4>
                 <div class=standfirst>
-                    This paper describes the persistent and evolving IT threat landscape, along with the need for and benefits of building an enterprise security operations center (SOC).
+                    How integrated, intelligent solutions from IBM can detect and help prevent threats from the network perimeter to remote endpoints
                 </div>
             </a>
 
-            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4059/sans-breaches-happen-be-prepared-1214.pdf?td=s-uu">
+            <a class=story href="http://whitepapers.theregister.co.uk/paper/view/4061/21354920-ga-ent-wp-safeguarding-corporate-information-in-the-cloud-en-us....pdf?td=s-uu">
                 <img src="/Design/graphics/icon/whitepaper_book.png" alt="PDF Icon" width=55 height=55>
-                <h4>Breaches happen: Be prepared</h4>
+                <h4>Securing the cloud</h4>
                 <div class=standfirst>
-                    Discussing how a layered approach to security provides better protection of your organization's IT assets.
+                    How to successfully secure your enterprise in the cloud and see why this is important for customer retention.
                 </div>
             </a>
         </div>
@@ -788,13 +788,6 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/29/itc_rejects_patent_infringement_claim_against_microsoft/">
-                            <img src="https://regmedia.co.uk/2015/07/30/microsoft_monopoly.jpg?x=88&amp;y=58&amp;crop=1" alt="Microsoft monopoly" width=88 height=58>
-                <h4>US trade watchdog deep-sixes patent infringement claim against Microsoft
-                </h4>
-            </a>
-        </li>
-        <li>
             <a href="/2015/08/30/dropbox_outage/">
                             <img src="https://regmedia.co.uk/2015/02/05/dumb_and_dumber.jpg?x=88&amp;y=58&amp;crop=1" alt="" width=88 height=58>
                 <h4>Dropbox DROPS BOX as service GOES TITSUP worldwide
@@ -802,9 +795,9 @@ Southport PR8 1LJ</p>
             </a>
         </li>
         <li>
-            <a href="/2015/08/30/inequality_collapse_and_growth_spurt/">
-                            <img src="https://regmedia.co.uk/2015/02/12/human_cannonball.jpg?x=88&amp;y=58&amp;crop=1" alt="Human cannonball" width=88 height=58>
-                <h4>So, was it <i>really</i> the Commies that caused the early 20th Century inequality collapse?
+            <a href="/2015/08/29/itc_rejects_patent_infringement_claim_against_microsoft/">
+                            <img src="https://regmedia.co.uk/2015/07/30/microsoft_monopoly.jpg?x=88&amp;y=58&amp;crop=1" alt="Microsoft monopoly" width=88 height=58>
+                <h4>US trade watchdog deep-sixes patent infringement claim against Microsoft
                 </h4>
             </a>
         </li>
@@ -812,6 +805,13 @@ Southport PR8 1LJ</p>
             <a href="/2015/08/30/internet_outages_are_the_american_way/">
                             <img src="https://regmedia.co.uk/2015/08/28/the_american_way.jpg?x=88&amp;y=58&amp;crop=1" alt="Roadside Advice in South Dakota by https://www.flickr.com/photos/plannerjohn365/ cc 2.0 attribution noderivs generic https://creativecommons.org/licenses/by-nd/2.0/" width=88 height=58>
                 <h4>In redneck heaven, internet outages are the American Way
+                </h4>
+            </a>
+        </li>
+        <li>
+            <a href="/2015/08/30/inequality_collapse_and_growth_spurt/">
+                            <img src="https://regmedia.co.uk/2015/02/12/human_cannonball.jpg?x=88&amp;y=58&amp;crop=1" alt="Human cannonball" width=88 height=58>
+                <h4>So, was it <i>really</i> the Commies that caused the early 20th Century inequality collapse?
                 </h4>
             </a>
         </li>
@@ -966,20 +966,6 @@ Southport PR8 1LJ</p>
 
 
 
-    <script>
-        $(function() {
-            if ($('#spotlight').length) {
-                var ab_set = {
-                    view_tracking:  'true',
-                    click_tracking: 'true',
-                    click_target:   '#spotlight a',
-                    group:          'E (large image, large text below & grey)',
-                    name:           'AB: Spotlight 2015'
-                };
-                track_bucket_user(ab_set);
-            }
-        });
-    </script>
         <script>
             $(function() {
                 var abt = 'http://go.theregister.com/k/abt_';
@@ -1031,7 +1017,7 @@ Southport PR8 1LJ</p>
 
 
     <script>
-        $(function() { set_bucket_group(118) });
+        $(function() { set_bucket_group(478) });
     </script>
         <div id="fb-root"></div>
     </div>

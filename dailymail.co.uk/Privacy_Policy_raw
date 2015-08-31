@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441027844;
+  PageCriteria.timestamp = 1441032333;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441026485345),
+            serverDate: new Date(1441031151117),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"13":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"],"14":["139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","164.151.129.211|*","54.206.182.240|*","168.167.134.101|*","192.35.35.40|*","206.225.132.111|*","94.118.0.8|*","109.169.6.135|*","108.171.133.176|*","194.138.39.62|*","95.172.74.42|*","145.62.32.129|*","146.23.209.228|*","168.168.43.250|*","86.28.18.1|*","192.31.106.40|*"]};
+adverts.botIPs={"14":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"],"15":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"]};
 
-adverts.initSlots({"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"interstitial":{"state":"off","enabled":false,"inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015083113',
+            weatherDate: '2015083114',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -977,24 +977,24 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216612/VMA-2015-host-Miley-Cyrus-slips-nipple-past-live-TV-censors.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD398DD00000578-0-image-m-139_1440993972358.jpg" height="115" width="154" alt="Show host Miley Cyrus shields herself on stage at the 2015 MTV Video Music Awards in Los Angeles, California August 30, 2015.  REUTERS/Mario Anzuoni" />
+      <a href="/tvshowbiz/article-3217076/Where-Cheryl-Jean-Bernard-Fernandez-Versini-celebrates-birthday-pals-s-no-sign-wife-fans-voice-fears-X-Factor-star-s-weight-loss.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/15/2BD8B6D200000578-0-image-a-44_1441029992676.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          'Sorry my boob is out!' Miley Cyrus slips her nipple past live TV censors as she flashes her bare breast during the MTV VMAs... and lights a joint backstage&nbsp;
+          Where was Cheryl? Jean-Bernard Fernandez-Versini celebrates his 35th birthday with pals... but there's no sign of his wife&nbsp;
           </strong>
           
         </span>
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3216612/VMA-2015-host-Miley-Cyrus-slips-nipple-past-live-TV-censors.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD398DD00000578-0-image-m-139_1440993972358.jpg" height="115" width="154" alt="Show host Miley Cyrus shields herself on stage at the 2015 MTV Video Music Awards in Los Angeles, California August 30, 2015.  REUTERS/Mario Anzuoni" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Kanye West announces he's running for PRESIDENT in 2020: Rapper stuns MTV VMAs (then admits he did smoke a joint before acceptance speech)&nbsp;
+          'Sorry my boob is out!' Miley Cyrus slips her nipple past live TV censors as she flashes her bare breast during the MTV VMAs... and lights a joint backstage&nbsp;
           </strong>
           
         </span>
@@ -1020,24 +1020,24 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3217028/Reclusive-Rob-Kardashian-posts-selfie-months.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD818C700000578-0-image-m-4_1441024907269.jpg" height="115" width="154" alt="Rob Kardashian" />
+      <a href="/tvshowbiz/article-3213276/Kanye-West-announces-s-running-president-2020-admitting-d-smoked-joint-epic-acceptance-speech-MTV-VMAs.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/05/2BD3C57100000578-0-image-a-172_1440995995997.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Reclusive Rob Kardashian posts his first selfie in months as momager Kris Jenner reveals he's on a 'good path right now'
+          Kanye West announces he's running for PRESIDENT in 2020: Rapper stuns MTV VMAs (then admits he did smoke a joint before acceptance speech)&nbsp;
           </strong>
           
         </span>
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216843/MTV-VMAs-hostess-Miley-Cyrus-causes-stir-11-eyebrow-raising-outfits.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/10/2BD604CD00000578-0-image-m-170_1441012079492.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Host Miley Cyrus poses in the press room with an MTV Video Music award at the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Frazer Harrison/Getty Images)" />
+      <a href="/tvshowbiz/article-3217028/Reclusive-Rob-Kardashian-posts-selfie-months.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/13/2BD818C700000578-0-image-m-4_1441024907269.jpg" height="115" width="154" alt="Rob Kardashian" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Miley's ELEVEN eye-watering outfits at MTV VMAs: From high-cut silver swimsuit to skintight pink latex, hostess left nothing to the imagination
+          Reclusive Rob Kardashian posts his first selfie in months as momager Kris Jenner reveals he's on a 'good path right now'
           </strong>
           
         </span>
@@ -1071,6 +1071,39 @@ DM.later('bundle', function () {
       <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3216843/MTV-VMAs-hostess-Miley-Cyrus-causes-stir-11-eyebrow-raising-outfits.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/10/2BD604CD00000578-0-image-m-170_1441012079492.jpg" height="115" width="154" alt="LOS ANGELES, CA - AUGUST 30:  Host Miley Cyrus poses in the press room with an MTV Video Music award at the 2015 MTV Video Music Awards at Microsoft Theater on August 30, 2015 in Los Angeles, California.  (Photo by Frazer Harrison/Getty Images)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Miley's ELEVEN eye-watering outfits at MTV VMAs: From high-cut silver swimsuit to skintight pink latex, hostess left nothing to the imagination
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3217099/James-Hill-Austin-Armacost-s-bromance-hots-up.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/14/2BD866D200000578-0-image-m-44_1441029412460.jpg" height="115" width="154" alt="****Ruckas Videograbs****  (01322) 861777
+*IMPORTANT* Please credit Channel 5 for this picture.
+31/08/15
+Celebrity Big Brother 
+Day 5
+Seen here: We can see a celebrity &euml;bromance&iacute; happening this afternoon in the pool area, as James and Austin share a sit down shower together, and share a range of tanning tips and haircut styles.
+Grabs from today in the house
+Mobile (UK)  : 07742 164 106
+**IMPORTANT - PLEASE READ** The video grabs supplied by Ruckas Pictures always remain the copyright of the programme makers, we provide a service to purely capture and supply the images to the client, securing the copyright of the images will always remain the responsibility of the publisher at all times.
+Standard terms, conditions &amp; minimum fees apply to our videograbs unless varied by agreement prior to publication." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          James Hill and&nbsp;Austin Armacost take their bromance to a new level as they enjoy a shirtless shower and massage in Celebrity Big Brother
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3216896/Tila-Tequila-planning-return-Celebrity-Big-Brother-house-axed-pro-Nazi-comments.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD6903C00000578-0-image-m-81_1441016524471.jpg" height="115" width="154" alt="1996drc9dxfshpng.png" />
         <span class="pufftext">
@@ -1083,14 +1116,15 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216955/Ben-Affleck-holds-hands-three-children-enjoy-low-key-day-out.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD8002B00000578-0-image-a-4_1441022299985.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3216905/Lily-Allen-jokes-drug-taking-Notting-Hill-Carnival.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD6800D00000578-0-image-m-23_1441016691011.jpg" height="115" width="154" alt="lily Allen
+carnival" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          His biggest fans: A dressed down Ben Affleck holds hands with his three children as they enjoy low-key day out
+          Lily Allen 'jokes about drug-taking as she posts video of a pal waving around a bag of white powder' at Notting Hill Carnival
           </strong>
-          Difficult time for family
+          
         </span>
       </a>
     </li>
@@ -1107,15 +1141,26 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3216905/Lily-Allen-jokes-drug-taking-Notting-Hill-Carnival.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/11/2BD6800D00000578-0-image-m-23_1441016691011.jpg" height="115" width="154" alt="lily Allen
-carnival" />
+      <a href="/tvshowbiz/article-3217012/Liam-Payne-debuts-TWO-new-tattoos-enjoys-wild-night-One-Direction-friend-s-Bachelor-Party-NYC.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/14/2BD86EC100000578-0-image-a-7_1441028828707.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Lily Allen 'jokes about drug-taking as she posts video of a pal waving around a bag of white powder' at Notting Hill Carnival
+          Liam Payne debuts TWO new tattoos as he enjoys wild night out with One Direction for friend's bachelor party in NYC
           </strong>
-          
+          Celebrating his 22nd
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3216955/Ben-Affleck-holds-hands-three-children-enjoy-low-key-day-out.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/12/2BD8002B00000578-0-image-a-4_1441022299985.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          His biggest fans: A dressed down Ben Affleck holds hands with his three children as they enjoy low-key day out
+          </strong>
+          Difficult time for family
         </span>
       </a>
     </li>
@@ -1155,6 +1200,9 @@ carnival" />
         </span>
       </a>
     </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
     <li>
       <a href="/tvshowbiz/article-3216656/Oh-goodness-moment-Kris-Jenner-meets-Caitlyn-time-Cait-preview.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/31/04/2BD376FA00000578-0-image-m-85_1440992945409.jpg" height="115" width="154" alt="DM_Cait_Jenner_121.jpg" />
@@ -1190,9 +1238,6 @@ carnival" />
           Out in Beverly Hills
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3205233/AS-HAPPENS-Miley-Cyrus-kicks-hosting-gig-plenty-colour-monologue-2015-MTV-Video-Music-Awards-Los-Angeles.html">
