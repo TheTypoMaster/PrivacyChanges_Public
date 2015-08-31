@@ -19,16 +19,16 @@
 
 
 
-  <link href="http://s.gr-assets.com/assets/goodreads-32956b32b1fff9c18f1c871b3d925d34.css" media="all" rel="stylesheet" />
+  <link href="http://s.gr-assets.com/assets/goodreads-cffb73095f89f3265c54ce51956cf03d.css" media="all" rel="stylesheet" />
 <!--[if lte IE 9]>
-<link href="http://s.gr-assets.com/assets/goodreads_split2-bfdd44c7d08a4575f4ddc9849775503f.css" media="all" rel="stylesheet" />
+<link href="http://s.gr-assets.com/assets/goodreads_split2-a3886518f267be4417b35f8aa3b7e483.css" media="all" rel="stylesheet" />
 <![endif]-->
-  <script src="http://s.gr-assets.com/assets/application-33734761eba2994d4ec108853a60d871.js"></script>
+  <script src="http://s.gr-assets.com/assets/application-947db8871df119441095f1352c1cd450.js"></script>
 
   <meta content="authenticity_token" name="csrf-param" />
-<meta content="zvBJmeCI4/6Efz2OTNht3YsdY48sBADwPFAbj9Cq/4pPN6+rFqnkAU7BSBeHejjc9mBQ0hyJGW5S9LW35h8isw==" name="csrf-token" />
+<meta content="Q2+5jo18mQZ4NFoBG9jyWqmEntXQRLMZhOMdUXRhU9XIi6s/6G0E1vnj4J/y9MfqaZW9XhZAgjAo0y6YML9DIQ==" name="csrf-token" />
 
-  <meta content="1JB5BW2P3GR9HZTR8MQX" name="request-id" />
+  <meta content="1Q5T6KXTKGREZN3MTF82" name="request-id" />
 
 
   <!--[if lt IE 9]>
@@ -59,7 +59,7 @@
     })();
     // page settings
     googletag.cmd.push(function() {
-      googletag.pubads().setTargeting("sid", "7e517a6a5d289a649fad61bda0cff7c4");
+      googletag.pubads().setTargeting("sid", "225f0962d1a46c35b7975feceefcd23e");
       googletag.pubads().enableSingleRequest();
       googletag.enableServices();
     });

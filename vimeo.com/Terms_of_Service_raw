@@ -15,7 +15,7 @@
  <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="Vimeo search">
 <link rel="logo" type="image/svg" href="https://f.vimeocdn.com/logo.svg">
  <title>Terms of Service on Vimeo</title>
-     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?ab40ad3ab1">
+     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?0930a55b7b">
   <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?10e30c8e">
  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/legal.min.css?5e6473a0">
      <style>
@@ -448,8 +448,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active">Beef up your special effects big time in our <a href="/videoschool/lesson/280/advanced-green-screen">Advanced Green Screen lesson</a>.</p>
- <p>Frame rate and shutter speed are commonly confused. It’s time to <a href="/videoschool/lesson/56/frame-rate-vs-shutter-speed-setting-the-record-straight">set the record straight</a>!</p>
+ <p class="active"><a href="/help/faq/managing-your-videos/video-settings#can-i-customize-my-video-link">Customize your video URL</a> and send people to vimeo.com/mysweetvidname instead of vimeo.com/123456.</p>
+ <p>An eye-catching video preview image, or thumbnail, is vital for getting folks interested in your video. Pick the perfect one with our <a href="/help/faq/managing-your-videos/video-settings#how-do-i-change-the-thumbnail-of-my-video">thumbnail chooser</a>.</p>
 </aside>
  </div>
 </footer>
@@ -591,7 +591,7 @@
   var CSS_DIR = 'https://f.vimeocdn.com/styles/css_opt/',
  JS_DIR = 'https://f.vimeocdn.com/js_opt/',
  IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
-  BUILD_HASH = 'a5605';
+  BUILD_HASH = '396a2';
   var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"is_mobile":false});
  vimeo.config = _extend((vimeo.config || {}), []);
   var localeConfig = {

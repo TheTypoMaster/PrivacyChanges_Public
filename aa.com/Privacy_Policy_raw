@@ -36,7 +36,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="Description" content="American Airlines will be responsible when gathering your personal information and to protect your privacy. This Privacy Notice should answer your questions about the sources and kinds of information we collect, how we use it, when it may be shared with others, and how we safeguard its confidentiality and security."/>
 		<title>Privacy policy – Protecting your privacy – American Airlines </title>
-		<script type="text/javascript" src="/dtagent61_jnpr23_8181.js" data-dtconfig="rid=RID_-840346848|rpid=656527123|tp=500,50,0|doNotDetect=clk|reportUrl=dynaTraceMonitor|domain=aa.com"></script><link rel="shortcut icon" href="/content/images/chrome/rebrand/favicon.png" type="image/x-icon"/>
+		<script type="text/javascript" src="/dtagent61_jnpr23_8181.js" data-dtconfig="rid=RID_-840346848|rpid=-611820329|tp=500,50,0|doNotDetect=clk|reportUrl=dynaTraceMonitor|domain=aa.com"></script><link rel="shortcut icon" href="/content/images/chrome/rebrand/favicon.png" type="image/x-icon"/>
 		
 <link media="all" href="/content/common/css/jquery-ui-1.10-aa.css" type="text/css" rel="stylesheet" />
 
@@ -87,14 +87,7 @@ font-style: normal;
 
 <script type="text/javascript" src="/js/aa/common/aacom-ui-1.0.0.js"></script><!-- Main Sandbox code -->
 
-	
-                  <script type="text/javascript">
-                    var AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(c,a){AKSB.q.push(["mark",c,a||(new Date).getTime()])};AKSB.measure=function(c,a,b){AKSB.q.push(["measure",c,a,b||(new Date).getTime()])};AKSB.done=function(c){AKSB.q.push(["done",c])};AKSB.mark("firstbyte",(new Date).getTime());
-                    AKSB.prof={custid:"123343",ustr:"",originlat:0,clientrtt:1,ghostip:"96.6.47.18",ipv6:false,pct:10,xhrtest:false,clientip:"52.2.142.173",requestid:"22f5c69",protocol:"",akM:"b",akN:"ae"};
-                    (function(c){var a=document.createElement("iframe");a.src="javascript:false";(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; display: none";var b=document.getElementsByTagName("script"),b=b[b.length-1];b.parentNode.insertBefore(a,b);a=a.contentWindow.document;b=String.fromCharCode;c=b(60)+"body onload=\"var js = document.createElement('script');js.id = 'aksb-ifr';js.src = '"+c+"';document.body.appendChild(js);\""+b(62);a.open().write(c);a.close()})(("https:"===document.location.protocol?
-                    "https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js");
-                  </script>
-                  </head>
+	</head>
 	
 
 
@@ -166,7 +159,7 @@ font-style: normal;
 	
 	<div id="aaJsWarning" class="alert alert-global alert-block">
 		<div class="container">
-			<a href="/closeJSEM.do;jsessionid=73ACFF73B1A2143EC35D31407324FB49?url=%2fi18n%2ffooter%2fprivacyPolicy.jsp%3fv_locale%3den_US%26v_mobileUAFlag%3dAA" class="close"><i
+			<a href="/closeJSEM.do;jsessionid=2F925CE878C9B2FE08883025FEE0C3EA?url=%2fi18n%2ffooter%2fprivacyPolicy.jsp%3fv_locale%3den_US%26v_mobileUAFlag%3dAA" class="close"><i
 				class="icon icon-18 icon-close"></i></a> <i
 				class="icon icon-18 icon-alert"></i>
 			<p>
@@ -282,7 +275,7 @@ var monetateT = new Date().getTime();
 <script type="text/javascript" src="/js/aa/common/aa-utility-menu.js"></script> 
 
 
-<input type="hidden" name="loginURL" id="loginURL" value="/login/loginAccess.do;jsessionid=73ACFF73B1A2143EC35D31407324FB49?uri=%2flogin%2floginAccess.do&amp;previousPage=%2fi18nForward.do%3fp%3d%2ffooter%2fprivacyPolicy.jsp&amp;bookingPathStateId=&amp;marketId="/>
+<input type="hidden" name="loginURL" id="loginURL" value="/login/loginAccess.do;jsessionid=2F925CE878C9B2FE08883025FEE0C3EA?uri=%2flogin%2floginAccess.do&amp;previousPage=%2fi18nForward.do%3fp%3d%2ffooter%2fprivacyPolicy.jsp&amp;bookingPathStateId=&amp;marketId="/>
 
  
 <!--googleoff: all-->
@@ -305,7 +298,7 @@ var monetateT = new Date().getTime();
     
     
         <li class="menu-item-utility">
-            <a href="/homePage.do;jsessionid=73ACFF73B1A2143EC35D31407324FB49" onclick="deleteVirtualPNR()">Home</a>
+            <a href="/homePage.do;jsessionid=2F925CE878C9B2FE08883025FEE0C3EA" onclick="deleteVirtualPNR()">Home</a>
         </li>
         
             <li class="menu-item-utility" id="aa-meta-login">
@@ -333,7 +326,7 @@ var monetateT = new Date().getTime();
     </a>
 </div>
 <div data-behavior="dropdown-panel" style="display:none;">	
-	<form id="splashForm" method="post" action="/international/mclaSplashSubmit.do;jsessionid=73ACFF73B1A2143EC35D31407324FB49">
+	<form id="splashForm" method="post" action="/international/mclaSplashSubmit.do;jsessionid=2F925CE878C9B2FE08883025FEE0C3EA">
         <label for="aa-country-selector">      
             Select Country
             
@@ -2203,7 +2196,7 @@ var monetateT = new Date().getTime();
                 <li>
                     
                      <a href="/AAdvantage/quickEnroll.do?from=Nav&amp;anchorEvent=false&amp;referer=/apps/&anchorLocation=Navigation+Menu&url=%2FAAdvantage%2FquickEnroll.do&_locale=en_US&reportedTitle=AAdvantage+Enroll+Now">Join AAdvantage Loyalty Program</a>
-                     <img src="/content/images/common/wa.gif;jsessionid=73ACFF73B1A2143EC35D31407324FB49?Log=1&impressloc=Navigation+Menu&impresstitle=AAdvantage+Enroll+Now&impresshref=%2fAAdvantage%2fquickEnroll.do%3ffrom%3dNav%26amp%3banchorEvent%3dfalse%26amp%3breferer%3d%2fapps%2f&impresslocale=en_US"  width="1" height="1" style="display: none" alt=""/> 
+                     <img src="/content/images/common/wa.gif;jsessionid=2F925CE878C9B2FE08883025FEE0C3EA?Log=1&impressloc=Navigation+Menu&impresstitle=AAdvantage+Enroll+Now&impresshref=%2fAAdvantage%2fquickEnroll.do%3ffrom%3dNav%26amp%3banchorEvent%3dfalse%26amp%3breferer%3d%2fapps%2f&impresslocale=en_US"  width="1" height="1" style="display: none" alt=""/> 
                 </li>
             </ul>
         </li>
@@ -3305,10 +3298,10 @@ TEST PAFE ID = 3632,  ADUNIT IS's = 31348, 31349, 31350
 </script>
 <noscript>
     <iframe id="50ddf42d7e6f4" name="50ddf42d7e6f4"
-            src="http://ox-d.aa.com/w/1.0/afr?auid=33973&cb=27529188&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=33973&cb=46484426&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
             scrolling="no" width="236"><a
-            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null"><img
-            src="http://ox-d.aa.com/w/1.0/ai?auid=33973&cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null" border="0"
+            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null"><img
+            src="http://ox-d.aa.com/w/1.0/ai?auid=33973&cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null" border="0"
             alt=""></a></iframe>
 </noscript>
 
@@ -3318,10 +3311,10 @@ TEST PAFE ID = 3632,  ADUNIT IS's = 31348, 31349, 31350
 </script>
 <noscript>
     <iframe id="50ddf42d7e6f4" name="50ddf42d7e6f4"
-            src="http://ox-d.aa.com/w/1.0/afr?auid=34369&cb=27529188&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=34369&cb=46484426&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
             scrolling="no" width="236"><a
-            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null"><img
-            src="http://ox-d.aa.com/w/1.0/ai?auid=34369&cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null" border="0"
+            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null"><img
+            src="http://ox-d.aa.com/w/1.0/ai?auid=34369&cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null" border="0"
             alt=""></a></iframe>
 </noscript>
 
@@ -3332,10 +3325,10 @@ TEST PAFE ID = 3632,  ADUNIT IS's = 31348, 31349, 31350
 </script>
 <noscript>
     <iframe id="50ddf42d7e6f4" name="50ddf42d7e6f4"
-            src="http://ox-d.aa.com/w/1.0/afr?auid=34367&cb=27529188&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=34367&cb=46484426&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
             scrolling="no" width="236"><a
-            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null"><img
-            src="http://ox-d.aa.com/w/1.0/ai?auid=34367&cs=50ddf42d7e6f4&cb=27529188&c.TreatmentCode=null" border="0"
+            href="http://ox-d.aa.com/w/1.0/rc?cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null"><img
+            src="http://ox-d.aa.com/w/1.0/ai?auid=34367&cs=50ddf42d7e6f4&cb=46484426&c.TreatmentCode=null" border="0"
             alt=""></a></iframe>
 </noscript>
 

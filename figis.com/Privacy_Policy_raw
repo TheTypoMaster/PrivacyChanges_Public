@@ -879,7 +879,7 @@ http://www.omniture.com -->
 	}
 
 	function getSerializationID() {
-	  return "4065962"
+	  return "2052281"
 	}
 
 	function getOmnitureID() {
@@ -887,12 +887,12 @@ http://www.omniture.com -->
     };
 
     function getSerializationID() {
-    	return "4065962";
+    	return "2052281";
     };
 </script>
 <!-- 58029 Code -->
 <input type="hidden" id="suiteID" value="figismlfigisprod" />
-<input type="hidden" id="serializationID" value="4065962" />
+<input type="hidden" id="serializationID" value="2052281" />
 <!-- PD:CHECK Below lines of code is 58029 customization commented as JQuery is in use, need to Check -->
 
 <script language="JavaScript" type="text/javascript" src="/includes/MarketLive/Reporting/s_code.js"></script>
@@ -1027,5 +1027,13 @@ MarketLive.GlobalCart.initialize(true, false,
 if ('' !='QVE') jQuery(document).ready(MarketLive.GlobalCart.adjustGlobalCartLayout);
 </script><script type='text/javascript'>MarketLive.Base.blockUIWhen('form[name=searchForm]', 'submit');</script><script type='text/javascript'>
 	MarketLive.Nav.Menu.menuReady(12, 27, 450, true);
+</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
 </script></body>
 </html>
