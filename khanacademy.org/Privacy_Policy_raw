@@ -30,7 +30,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 <script type="text/javascript">
 (function() {
     window.KA = {                   
-        version: "150831-1029-ac97cfdf0866.386826928281173862",
+        version: "150831-1305-4d80e64cf899.386829444822780611",
         isMobileCapable: false,
         isIPad: false,
         useKatex: true,
@@ -38,7 +38,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
         // TODO(eater): Remove after clues are fully launched
         allowEditingClues: false,
         staticHost: "www.kastatic.org",
-        bingoId: "_gae_bingo_random:HFIyfMTQka5H6oOSr7Frd1sg7Zwka9oxL9PKLhri",
+        bingoId: "_gae_bingo_random:xyLanGu0xJD3Lz8hpmSGCDvr6wBtYOs5qcU4EulT",
 
         "FB_APP_NAMESPACE": "khanacademy",
         
@@ -53,7 +53,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
             
         },
         currentServerTime: function() {
-            return 1441050140.7539201;
+            return 1441054626.59003;
         },
 
         // return a path to this static content given a path url - example:
@@ -87,7 +87,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 
         stripePublicKey: "pk_live_bOMeT1j35MoCY5NMcddnG0ke",
 
-        requestLogId: "55e4ae1c00ff0b5f8c6b5ba9800001737e6b68616e2d61636164656d7900013135303833312d313032392d616339376366646630383636000101b9",
+        requestLogId: "55e4bfa200ff08d9e51c3733ad0001737e6b68616e2d61636164656d7900013135303833312d313330352d34643830653634636638393900010150",
         gaeStatsKeyPrefix: null,
 
         SHOW_SAT_DEV: false,
@@ -102,12 +102,6 @@ KAdefine.require("./javascript/shared-package/ka.js");
             'WebkitAppearance' in document.documentElement.style,
 
         NEW_VIDEO_PLAYER_CODE_OLD_UI: false &&
-            'WebkitAppearance' in document.documentElement.style,
-
-        NEW_VIDEO_PLAYER_IFRAME_TAG: false &&
-            'WebkitAppearance' in document.documentElement.style,
-
-        NEW_VIDEO_PLAYER_PLAY_BUTTON_FIX: false &&
             'WebkitAppearance' in document.documentElement.style,
 
         VIDEO_AUTOPLAY: false &&
@@ -241,7 +235,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
         
         <div id="top-header-container" class="clearfix athena-big-menu profile-header-scroll">
             
-            <a href="#page-container" class="skip-to-main" tabindex="1">
+            <a href="#main-content" class="skip-to-main" tabindex="1">
                 Skip to main content
             </a>
 
@@ -1189,7 +1183,8 @@ KAdefine.require("./javascript/shared-package/ka.js");
     </nav>
     
     
-    <div id="page-container" role="main" tabindex="-1">
+    <span id="main-content" class="sr-only" tabindex="-1">Main content</span>
+    <div id="page-container" role="main">
     <div id="page-container-inner">
         
         <div id="fb-root"></div>
@@ -1842,7 +1837,7 @@ Please contact Khan Academy with any questions or comments about this Privacy No
                 <span><a href="/about/privacy-policy">Privacy Notice</a></span>
             </div>
             
-            <div class="copyright" title="Version: 150831-1029-ac97cfdf0866.386826928281173862">
+            <div class="copyright" title="Version: 150831-1305-4d80e64cf899.386829444822780611">
                 &copy; 2015
                 
                 
@@ -1888,7 +1883,7 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
     
 
     
-    <script crossorigin='anonymous' src='/genfiles/package-manifest-en.981dee.js'></script>
+    <script crossorigin='anonymous' src='/genfiles/package-manifest-en.828f37.js'></script>
 
     
     <script type="text/javascript">
@@ -1940,8 +1935,8 @@ PackageManager.markExecuted("shared.css","mobile.css","tos-privacy.css")</script
                 var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
                 s.async = true; s.src = '//s3.amazonaws.com/ki.js/53782/bH0.js'; f.parentNode.insertBefore(s, f);
                 }, 1);
-                _kiq.push(['identify', '_gae_bingo_random:HFIyfMTQka5H6oOSr7Frd1sg7Zwka9oxL9PKLhri']);
-                _kiq.push(['set', {"eligible_for_nps_survey": false, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
+                _kiq.push(['identify', '_gae_bingo_random:xyLanGu0xJD3Lz8hpmSGCDvr6wBtYOs5qcU4EulT']);
+                _kiq.push(['set', {"eligible_for_nps_survey": true, "eligible_for_sat_intent_survey_1": false, "eligible_for_sat_satisfaction_survey": false, "eligible_for_unregistered_user_goal_survey": false, "eligible_for_sat_intent_survey_2": false}]);
             })();
         </script>
 
@@ -2060,7 +2055,7 @@ olark.identify('8268-583-10-4648');
             
             window.olark('api.visitor.updateCustomFields', {
                 loggedIn: false,
-                bingoId: "_gae_bingo_random:HFIyfMTQka5H6oOSr7Frd1sg7Zwka9oxL9PKLhri"
+                bingoId: "_gae_bingo_random:xyLanGu0xJD3Lz8hpmSGCDvr6wBtYOs5qcU4EulT"
             });
         }, 0);
     </script>
