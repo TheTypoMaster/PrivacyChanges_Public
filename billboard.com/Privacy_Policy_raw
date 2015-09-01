@@ -46,11 +46,81 @@
 <link rel="canonical" href="http://www.billboard.com/privacy-policy" />
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
 <link rel="shortcut icon" href="http://www.billboard.com/files/favicon.ico" type="image/vnd.microsoft.icon" />
-  <link type="text/css" rel="stylesheet" href="http://www.billboard.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.billboard.com/files/css/css_iPJhuUp6U_pfo3OfsX7uzSXq84tr4Rg7wrkNWxYa9RQ.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.billboard.com/files/css/css_LeLPSFHwM5oc-q8EalDEDPWPGRiJlDqfJ3_sPvmRqjU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://www.billboard.com/files/css/css_mz00h27qVUxJrsJbwDpol09T_CA_kLkp2VUCWqMjZVw.css" media="screen" />
-<link type="text/css" rel="stylesheet" href="http://www.billboard.com/files/css/css_FRQpstQ8OED9VvjfiyKU8ZYdKVo5xcI-392bBfmcYdM.css" media="print" />
+  <style type="text/css" media="all">
+@import url("http://www.billboard.com/modules/system/system.base.css?nu00ox");
+@import url("http://www.billboard.com/modules/system/system.menus.css?nu00ox");
+@import url("http://www.billboard.com/modules/system/system.messages.css?nu00ox");
+@import url("http://www.billboard.com/modules/system/system.theme.css?nu00ox");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.billboard.com/modules/comment/comment.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/date/date_api/date.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nu00ox");
+@import url("http://www.billboard.com/modules/field/theme/field.css?nu00ox");
+@import url("http://www.billboard.com/modules/node/node.css?nu00ox");
+@import url("http://www.billboard.com/modules/user/user.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/user_alert/css/user-alert.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/views/css/views.css?nu00ox");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.billboard.com/sites/all/modules/apachesolr_autocomplete/apachesolr_autocomplete.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/apachesolr_autocomplete/jquery-autocomplete/jquery.autocomplete.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/colorbox/styles/default/colorbox_default_style.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/ctools/css/ctools.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/linkedin/linkedin_auth/linkedin_auth.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/linkedin/linkedin_status/linkedin_status.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/print/css/printlinks.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/modules/views_ticker/views.ticker.scroller.css?nu00ox");
+</style>
+<style type="text/css" media="screen">
+@import url("http://www.billboard.com/sites/all/themes/bb/css/common.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/application.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/header.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/headers.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/footer.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/social.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/genericons.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/teaser.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/gallery.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/most_popular.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/newsletter.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/pull_quote.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/rating.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/rating2.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/chart.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/charts.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/chart_summary.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/chart_legend.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/search.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/album.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/on_tour.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/forms.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/archive.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/linkedin.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/inline_promo.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/pushdown_promo.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/video.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/artist.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/article.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/tertiary.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/landing-page.css?nu00ox");
+</style>
+<style type="text/css" media="screen">
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/landing-page-biz.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/home-page.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/search_results.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/milestone.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/bbma.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/select2.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/select2_overrides.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/pages/event-page.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/modules/watch_embed.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/swiper.css?nu00ox");
+@import url("http://www.billboard.com/sites/all/themes/bb/css/magnific-popup.css?nu00ox");
+</style>
+<style type="text/css" media="print">
+@import url("http://www.billboard.com/sites/all/themes/bb/css/billboard-print.css?nu00ox");
+</style>
   <script type='text/javascript' src='//c.amazon-adsystem.com/aax2/amzn_ads.js'></script>
   <script type='text/javascript'>
     try {
@@ -174,10 +244,23 @@ var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1266747-9"]);_gaq.push(["_se
 //--><!]]>
 </script>
 <script type="text/javascript" src="http://www.billboard.com/files/js/js_tzEGTRyjbSNo4GS4Eh6_ZJb5BgaDvQF9UshkdxwThp0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/prometheus-billboard/loader.js');
+//--><!]]>
+</script>
 <script type="text/javascript" src="http://www.billboard.com/files/js/js_YGPGZ973mQItqQtIn_LiDUfJfQzVunZyGkGY5LBS2JI.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bb","theme_token":"Th8YpmWfhzSuLpx9N4U8hPjqARoQh2HStwrDvp6gOng","js":{"0":1,"\/\/ak.sail-horizon.com\/scout\/v1.js":1,"1":1,"2":1,"sites\/all\/modules\/billboard\/bb_social\/js\/bb_social.js":1,"3":1,"4":1,"5":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"6":1,"misc\/jquery.once.js":1,"7":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"8":1,"9":1,"10":1,"misc\/ajax.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contentanalysis\/contentanalysis.js":1,"sites\/all\/modules\/contentoptimizer\/contentoptimizer.js":1,"sites\/all\/modules\/user_alert\/js\/user-alert.js":1,"11":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"misc\/progress.js":1,"sites\/all\/modules\/jcarousel\/js\/jquery.jcarousel.min.js":1,"sites\/all\/modules\/jcarousel\/js\/jcarousel.js":1,"sites\/all\/modules\/billboard\/bb_chart_archived\/bb_chart_archived.js":1,"12":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/views_ticker\/js\/jquery.liscroller.js":1,"https:\/\/apis.google.com\/js\/plusone.js":1,"13":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"14":1,"sites\/all\/modules\/disqus\/disqus.js":1,"sites\/all\/themes\/bb\/js\/modernizr.js":1,"sites\/all\/themes\/bb\/js\/plugins\/functions.js":1,"sites\/all\/themes\/bb\/js\/plugins\/add_placeholder.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.client.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.masonry.min.js":1,"sites\/all\/themes\/bb\/js\/plugins\/swiper.jquery.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.magnific-popup.js":1,"sites\/all\/themes\/bb\/js\/application.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/bbbiz.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/billboard.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/milestone_lightbox.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/listing_clicks.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/open_drawer.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/fake_header.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/my_rating.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/gallery.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/infographic.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/jcarousel.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/pinteresterize.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/breaking_news_bar.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/more_copy.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/sticky_social_links.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/reveal_hidden.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/top.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/slide_switch.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/fbc_switch.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/do_masonry.js":1,"sites\/all\/themes\/bb\/js\/vendor\/select2.min.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/chart_name_search.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/chart_twitter_promo_row1.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/user_alert\/css\/user-alert.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/linkedin\/linkedin_auth\/linkedin_auth.css":1,"sites\/all\/modules\/linkedin\/linkedin_profile\/linkedin_profile.css":1,"sites\/all\/modules\/linkedin\/linkedin_status\/linkedin_status.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/modules\/views_ticker\/views.ticker.scroller.css":1,"sites\/all\/themes\/bb\/css\/common.css":1,"sites\/all\/themes\/bb\/css\/application.css":1,"sites\/all\/themes\/bb\/css\/header.css":1,"sites\/all\/themes\/bb\/css\/headers.css":1,"sites\/all\/themes\/bb\/css\/footer.css":1,"sites\/all\/themes\/bb\/css\/social.css":1,"sites\/all\/themes\/bb\/css\/genericons.css":1,"sites\/all\/themes\/bb\/css\/modules\/teaser.css":1,"sites\/all\/themes\/bb\/css\/modules\/gallery.css":1,"sites\/all\/themes\/bb\/css\/modules\/most_popular.css":1,"sites\/all\/themes\/bb\/css\/modules\/newsletter.css":1,"sites\/all\/themes\/bb\/css\/modules\/pull_quote.css":1,"sites\/all\/themes\/bb\/css\/modules\/rating.css":1,"sites\/all\/themes\/bb\/css\/modules\/rating2.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart.css":1,"sites\/all\/themes\/bb\/css\/modules\/charts.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart_summary.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart_legend.css":1,"sites\/all\/themes\/bb\/css\/modules\/search.css":1,"sites\/all\/themes\/bb\/css\/modules\/album.css":1,"sites\/all\/themes\/bb\/css\/modules\/on_tour.css":1,"sites\/all\/themes\/bb\/css\/modules\/forms.css":1,"sites\/all\/themes\/bb\/css\/modules\/archive.css":1,"sites\/all\/themes\/bb\/css\/modules\/linkedin.css":1,"sites\/all\/themes\/bb\/css\/modules\/inline_promo.css":1,"sites\/all\/themes\/bb\/css\/modules\/pushdown_promo.css":1,"sites\/all\/themes\/bb\/css\/modules\/video.css":1,"sites\/all\/themes\/bb\/css\/pages\/artist.css":1,"sites\/all\/themes\/bb\/css\/pages\/article.css":1,"sites\/all\/themes\/bb\/css\/pages\/tertiary.css":1,"sites\/all\/themes\/bb\/css\/pages\/landing-page.css":1,"sites\/all\/themes\/bb\/css\/pages\/landing-page-biz.css":1,"sites\/all\/themes\/bb\/css\/pages\/home-page.css":1,"sites\/all\/themes\/bb\/css\/pages\/search_results.css":1,"sites\/all\/themes\/bb\/css\/pages\/milestone.css":1,"sites\/all\/themes\/bb\/css\/pages\/bbma.css":1,"sites\/all\/themes\/bb\/css\/select2.css":1,"sites\/all\/themes\/bb\/css\/select2_overrides.css":1,"sites\/all\/themes\/bb\/css\/pages\/event-page.css":1,"sites\/all\/themes\/bb\/css\/modules\/watch_embed.css":1,"sites\/all\/themes\/bb\/css\/swiper.css":1,"sites\/all\/themes\/bb\/css\/magnific-popup.css":1,"sites\/all\/themes\/bb\/css\/billboard-print.css":1}},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"win_sonic_url":"\/milestone\/sonic","chartbeat":{"uid":3388,"domain":"billboard.com","useCanonical":true},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"user_alert":{"url_prefix":""},"disqusComments":"billboardcom","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bb","theme_token":"gmidRIylCc7AYHTqDzXKSbzQy7JwXs_pa25RW6GDRqs","js":{"0":1,"\/\/ak.sail-horizon.com\/scout\/v1.js":1,"1":1,"2":1,"sites\/all\/modules\/billboard\/bb_social\/js\/bb_social.js":1,"3":1,"4":1,"5":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"6":1,"misc\/jquery.once.js":1,"7":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"8":1,"9":1,"10":1,"misc\/ajax.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contentanalysis\/contentanalysis.js":1,"sites\/all\/modules\/contentoptimizer\/contentoptimizer.js":1,"sites\/all\/modules\/user_alert\/js\/user-alert.js":1,"11":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"misc\/progress.js":1,"sites\/all\/modules\/jcarousel\/js\/jquery.jcarousel.min.js":1,"sites\/all\/modules\/jcarousel\/js\/jcarousel.js":1,"sites\/all\/modules\/billboard\/bb_chart_archived\/bb_chart_archived.js":1,"12":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/views_ticker\/js\/jquery.liscroller.js":1,"https:\/\/apis.google.com\/js\/plusone.js":1,"13":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"14":1,"sites\/all\/modules\/disqus\/disqus.js":1,"15":1,"sites\/all\/themes\/bb\/js\/modernizr.js":1,"sites\/all\/themes\/bb\/js\/plugins\/functions.js":1,"sites\/all\/themes\/bb\/js\/plugins\/add_placeholder.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.client.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.masonry.min.js":1,"sites\/all\/themes\/bb\/js\/plugins\/swiper.jquery.js":1,"sites\/all\/themes\/bb\/js\/plugins\/jquery.magnific-popup.js":1,"sites\/all\/themes\/bb\/js\/application.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/bbbiz.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/billboard.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/milestone_lightbox.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/listing_clicks.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/open_drawer.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/fake_header.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/my_rating.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/gallery.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/infographic.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/jcarousel.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/pinteresterize.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/breaking_news_bar.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/more_copy.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/sticky_social_links.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/reveal_hidden.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/top.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/slide_switch.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/fbc_switch.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/do_masonry.js":1,"sites\/all\/themes\/bb\/js\/vendor\/select2.min.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/chart_name_search.js":1,"sites\/all\/themes\/bb\/js\/behaviors\/chart_twitter_promo_row1.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/user_alert\/css\/user-alert.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/linkedin\/linkedin_auth\/linkedin_auth.css":1,"sites\/all\/modules\/linkedin\/linkedin_profile\/linkedin_profile.css":1,"sites\/all\/modules\/linkedin\/linkedin_status\/linkedin_status.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/modules\/views_ticker\/views.ticker.scroller.css":1,"sites\/all\/themes\/bb\/css\/common.css":1,"sites\/all\/themes\/bb\/css\/application.css":1,"sites\/all\/themes\/bb\/css\/header.css":1,"sites\/all\/themes\/bb\/css\/headers.css":1,"sites\/all\/themes\/bb\/css\/footer.css":1,"sites\/all\/themes\/bb\/css\/social.css":1,"sites\/all\/themes\/bb\/css\/genericons.css":1,"sites\/all\/themes\/bb\/css\/modules\/teaser.css":1,"sites\/all\/themes\/bb\/css\/modules\/gallery.css":1,"sites\/all\/themes\/bb\/css\/modules\/most_popular.css":1,"sites\/all\/themes\/bb\/css\/modules\/newsletter.css":1,"sites\/all\/themes\/bb\/css\/modules\/pull_quote.css":1,"sites\/all\/themes\/bb\/css\/modules\/rating.css":1,"sites\/all\/themes\/bb\/css\/modules\/rating2.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart.css":1,"sites\/all\/themes\/bb\/css\/modules\/charts.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart_summary.css":1,"sites\/all\/themes\/bb\/css\/modules\/chart_legend.css":1,"sites\/all\/themes\/bb\/css\/modules\/search.css":1,"sites\/all\/themes\/bb\/css\/modules\/album.css":1,"sites\/all\/themes\/bb\/css\/modules\/on_tour.css":1,"sites\/all\/themes\/bb\/css\/modules\/forms.css":1,"sites\/all\/themes\/bb\/css\/modules\/archive.css":1,"sites\/all\/themes\/bb\/css\/modules\/linkedin.css":1,"sites\/all\/themes\/bb\/css\/modules\/inline_promo.css":1,"sites\/all\/themes\/bb\/css\/modules\/pushdown_promo.css":1,"sites\/all\/themes\/bb\/css\/modules\/video.css":1,"sites\/all\/themes\/bb\/css\/pages\/artist.css":1,"sites\/all\/themes\/bb\/css\/pages\/article.css":1,"sites\/all\/themes\/bb\/css\/pages\/tertiary.css":1,"sites\/all\/themes\/bb\/css\/pages\/landing-page.css":1,"sites\/all\/themes\/bb\/css\/pages\/landing-page-biz.css":1,"sites\/all\/themes\/bb\/css\/pages\/home-page.css":1,"sites\/all\/themes\/bb\/css\/pages\/search_results.css":1,"sites\/all\/themes\/bb\/css\/pages\/milestone.css":1,"sites\/all\/themes\/bb\/css\/pages\/bbma.css":1,"sites\/all\/themes\/bb\/css\/select2.css":1,"sites\/all\/themes\/bb\/css\/select2_overrides.css":1,"sites\/all\/themes\/bb\/css\/pages\/event-page.css":1,"sites\/all\/themes\/bb\/css\/modules\/watch_embed.css":1,"sites\/all\/themes\/bb\/css\/swiper.css":1,"sites\/all\/themes\/bb\/css\/magnific-popup.css":1,"sites\/all\/themes\/bb\/css\/billboard-print.css":1}},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"win_sonic_url":"\/milestone\/sonic","chartbeat":{"uid":3388,"domain":"billboard.com","useCanonical":true},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"user_alert":{"url_prefix":""},"disqusComments":"billboardcom","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
 //--><!]]>
 </script>
   
@@ -348,7 +431,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Search </label>
  <input placeholder="Search Billboard" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="0" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form--T48wmBUafr6nsCF-Ed_IFprEOW5_mxK9HBw9PDfBcw" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-p_TxCTQTcHgY2GJmUwto3e47fisTR-QQ07Jwq3tsMHg" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div> <!-- /.content -->
@@ -379,7 +462,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
       
   <div class="content">
-    <div class="view view-pushdown-promo view-id-pushdown_promo view-display-id-block view-dom-id-f5fe8ef20d43124d266a9d2abffb1ccd">
+    <div class="view view-pushdown-promo view-id-pushdown_promo view-display-id-block view-dom-id-bfcd561eaab80ae7932e95259c922457">
         
   
   
@@ -408,7 +491,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="content-wrapper">
         <div class="content-image">
               <a href="http://www.billboard.com/photos/6678682/2015-mtv-vmas-photos-red-carpet-performances-parties?utm_source=pushdown&utm_medium=www&utm_campaign=grammys" title="2015 MTV VMAs Photos">
-              <div class="field field-name-field-flashbox-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_247/public/media/nicki-minaj-award-mtv-vma-2015-show-billboard-650.jpg" width="247" height="162" alt="Nicki Minaj " /></div></div></div>              </a>
+              <div class="field field-name-field-flashbox-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_247/public/media/justin-bieber-mtv-vma-2015-performance-billboard-650-bb.jpg" width="247" height="162" alt="Justin Bieber  MTV VMAs 2015" /></div></div></div>              </a>
           </div>
         <div class="content">
       <header>
@@ -422,13 +505,13 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </article> <!-- /.node -->
 </li>
 <li>
-<article id="node-6678718" class="promo  promo_219 node-article">
+<article id="node-6678766" class="promo  promo_219 node-article">
   <div class="content-wrapper">
         <div class="content-image">
-              <div class="field field-name-field-flashbox-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/articles/events/vma/6678718/vmas-shutting-down-rumors-2015?utm_source=pushdown&utm_medium=www&utm_campaign=grammys"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_247/public/media/justin-bieber-2015-mtv-vmas-red-carpet-billboard-650.jpg" width="247" height="162" alt="Justin Bieber attends the 2015 MTV Video Music Awards" /></a></div></div></div>          </div>
+              <div class="field field-name-field-flashbox-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/articles/events/vma/6678766/2015-vmas-best-worst-moments-mtv-kanye-west-taylor-swift-miley-cyrus?utm_source=pushdown&utm_medium=www&utm_campaign=grammys"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_247/public/media/kanye-west-speech-mtv-vma-2015-show-billboard-650-a.jpg" width="247" height="162" alt="Kanye West MTV VMAs 2015" /></a></div></div></div>          </div>
         <div class="content">
       <header>
-                <h1><a href="/articles/events/vma/6678718/vmas-shutting-down-rumors-2015?utm_source=pushdown&utm_medium=www&utm_campaign=grammys"  title="Is This the Last Year of the MTV VMAs?">Is This the Last Year of the MTV VMAs?</a></h1>
+                <h1><a href="/articles/events/vma/6678766/2015-vmas-best-worst-moments-mtv-kanye-west-taylor-swift-miley-cyrus?utm_source=pushdown&utm_medium=www&utm_campaign=grammys"  title="2015 VMAs: The Night's Best & Worst Moments">2015 VMAs: The Night's Best & Worst Moments</a></h1>
       </header>
 
       
@@ -460,7 +543,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
   
       <div class="view-footer">
-      <div class="view view-pushdown-promo view-id-pushdown_promo view-display-id-block_news view-dom-id-08061ecc7796825c23af0b23891c6fec">
+      <div class="view view-pushdown-promo view-id-pushdown_promo view-display-id-block_news view-dom-id-af3ab831926665bfe4179f5d7ac668bd">
             <div class="view-header">
        <!--smart_paging_autop_filter--><!--smart_paging_filter-->Latest news     </div>
   
@@ -469,16 +552,16 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <div class="view-content">
       <!-- start scroll -->
 <div class='view view-pushdown_promo'><div class='view-content view-content-pushdown_promo'><div><ul id='views-ticker-liScroll-pushdown_promo'><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/laura-marano-mtv-vmas-red-carpet-2015-6678782">Laura Marano: MTV VMAs Red Carpet 2015</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678778/vmas-kanye-west-president-cabinet">Kanye West Wing: Who Makes Up the Cabinet for His 2020 Presidency?</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678777/vmas-justin-bieber-taylor-swift-rule-trending-140">Justin Bieber, Taylor Swift Rule Trending 140 During 2015 MTV Video Music Awards</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678775/vmas-miley-cyrus-flashes-audience-breasts">Miley Cyrus Flashes Audience at MTV Video Music Awards</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/miley-cyrus-and-snoop-get-baked-in-skit-on-2015-mtv-vmas-6678772">Miley Cyrus and Snoop Get Baked in Skit on 2015 MTV VMAs</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/vance-joy-mtv-vmas-red-carpet-2015-6678770">Vance Joy: MTV VMAs Red Carpet 2015</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/mtv-airs-miley-cyrus-nipple-during-2015-mtv-vmas-6678769">MTV Airs Miley Cyrus Nipple During 2015 MTV VMAs</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678768/justin-bieber-cries-after-first-vmas-performance-in-5-years">Justin Bieber Cries After First VMAs Performance in 5 Years</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/video/jojo-mtv-vmas-red-carpet-2015-6678767">JoJo: MTV VMAs Red Carpet 2015</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
-  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678764/vmas-justin-timberlake-kanye-west-call-out">Justin Timberlake Responds to Kanye West&#039;s VMAs Call-Out </a></span>  </div></span></li></ul></div></div></div>
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6685059/shawn-mendes-stitches-vmas-red-carpet-interview">Shawn Mendes: &#039;Stitches&#039; is &#039;A Very Good Bridge&#039; to New Music</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/columns/podcasts/6685037/demi-lovato-interview-confident-vmas-pop-shop-podcast">Pop Shop Podcast: Demi Lovato Previews &#039;Confident&#039; Album, VMAs Recap, Justin Bieber &amp; Macklemore Return</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/news/6685033/margaret-cho-giuliana-rancic-miley-cyrus-dreads-vmas">Margaret Cho Mocks Giuliana Rancic With Miley Cyrus Dreads Comment</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/news/6678932/jimmy-kimmel-emoji-explanation-nicki-minaj-miley-cyrus-vma-feud-video">Watch Jimmy Kimmel&#039;s Emoji Explanation of Nicki Minaj &amp; Miley Cyrus&#039; VMA Feud</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678930/miley-cyrus-actual-reaction-nicki-minaj-vmas-diss">See Miley Cyrus&#039;s Actual Reaction to Nicki Minaj&#039;s On-Stage Diss at the 2015 VMAs</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678928/lorde-taylor-swift-brother-vmas-afterparty-farm">Lorde Shares a Sweet Moment With Taylor Swift&#039;s Brother From VMAs Afterparty</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678896/parents-television-council-slams-vmas-for-blatant-sexualization-and">Parents Television Council Slams VMAs for &#039;Blatant Sexualization&#039; and Celebrating &#039;Illegal Drugs&#039;</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678881/miley-cyrus-vma-flashing-janet-jackson-wardrobe-malfunction-breats">Why Miley Cyrus&#039; VMA Flashing Was Nowhere Near Janet Jackson&#039;s &#039;Wardrobe Malfunction&#039;</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678868/vmas-halsey-fans-red-carpet-interview">Halsey Wanted Her Music to &#039;Create A Collective&#039;: Watch</a></span>  </div></span></li><li class='views-liScroll-item views-liScroll-item-pushdown_promo'><span class='views-liScroll-tick-field'>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/events/vma/6678862/kanye-west-2015-vmas-twitter-record">Kanye West Helps 2015 VMAs Break U.S. Twitter Record</a></span>  </div></span></li></ul></div></div></div>
 <!-- end scroll -->
     </div>
   
@@ -822,7 +905,7 @@ p.promotext{
 <article id="node-6649625" class="promo   node-photo_gallery">
   <div class="content-wrapper">
         <div class="content-image">
-              <a href="/photos/6649625/music-photos-of-2015-august"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_225/public/media/miley-cyrus-vma-rehearsal-2015-billboard-650.jpg" alt="Music Photos of 2015: August" /></a>          </div>
+              <a href="/photos/6649625/music-photos-of-2015-august"><img typeof="foaf:Image" src="http://www.billboard.com/files/styles/promo_225/public/media/janet-jackson-unbreakable-tour-2015-billboard-650.jpg" alt="Music Photos of 2015: August" /></a>          </div>
         <div class="content">
       <header>
                   <div class="category">Photos</div>
@@ -1073,16 +1156,8 @@ _sf_async_config.sections = "BBcom"
 </script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-(function(){
-    window.gravityInsightsParams = {
-      'type': 'content',
-      'action': '',
-      'site_guid': '339db668c63acf75d5bcc8be7728b693'
-    };
-    window.GravityUtils||(window.GravityUtils={});
-    window.GravityUtils.includeJs||(window.GravityUtils.includeJs=function(b,e,c){var d,f,a;null==e&&(e=function(){});null==c&&(c=function(){});a=document.createElement("script");a.async=!0;d=!1;f=function(){d=!0;a.onreadystatechange=a.onload=null;return e()};a.onreadystatechange=function(){if(!d&&(!this.readyState||"complete"===this.readyState||"loaded"===this.readyState))return f()};a.onload=function(){if(!d)return f()};a.addEventListener?a.addEventListener("error",c,!1):a.attachEvent&&a.attachEvent("onerror",
-    c);a.src=b;b=document.getElementsByTagName("script")[0];return b.parentNode.insertBefore(a,b)});
-    var adServerReq,bUrl,doUseGravityUserGuid,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;bUrl="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";wlUrl=(wlPrefix="","");bUrl&&window.GravityUtils.includeJs(bUrl);wlUrl&&window.GravityUtils.includeJs(wlUrl);})();
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
 //--><!]]>
 </script>
     <script type="text/javascript">
