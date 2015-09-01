@@ -115,7 +115,7 @@
 
 
             ['_setCustomVar', 44, 'BuyerReport_18270', 'original_18270', 1],
-        ['_setCustomVar', 50, 'Alerts pop-up 17060', 'var_a_17060', 1],
+        ['_setCustomVar', 50, 'Alerts pop-up 17060', 'original_17060', 1],
 
         ['_trackPageview']
 
@@ -200,7 +200,7 @@
                     googletag.pubads().setTargeting("area_name", "UK");
                     googletag.pubads().setTargeting("page", "/privacy/");
                     googletag.pubads().setTargeting("url", "/privacy/");
-                    googletag.pubads().setTargeting("zindex", "278244");
+                    googletag.pubads().setTargeting("zindex", "278383");
                     googletag.pubads().setTargeting("price_min", "250000");
                     googletag.pubads().setTargeting("price_max", "300000");
 
@@ -691,6 +691,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <ul class="dropdown-menu-content-list dropdown-menu-content-tools-list dropdown-menu-content-tools-news">
 
                                 <li class="dropdown-menu-content-item">
+                                    <a class="dropdown-menu-content-link dropdown-menu-content-item-news-link" href="/discover/property-news/mortgage-lending-reaches-highest-level-since-2008-01-09-15?search_source=top_nav">Mortgage lending reaches highest level since 2008</a>
+                                    <span class="dropdown-menu-content-item-news-date">
+September  1, 2015
+
+</span>
+                                </li>
+                                <li class="dropdown-menu-content-item">
                                     <a class="dropdown-menu-content-link dropdown-menu-content-item-news-link" href="/discover/property-news/house-prices-creep-up-0-3-in-august-27-08-15?search_source=top_nav">House prices creep up 0.3% in August</a>
                                     <span class="dropdown-menu-content-item-news-date">
 August 27, 2015
@@ -701,13 +708,6 @@ August 27, 2015
                                     <a class="dropdown-menu-content-link dropdown-menu-content-item-news-link" href="/discover/property-news/remortgaging-soars-to-four-year-high-in-july-26-08-15?search_source=top_nav">Remortgaging soars to four-year high in July</a>
                                     <span class="dropdown-menu-content-item-news-date">
 August 26, 2015
-
-</span>
-                                </li>
-                                <li class="dropdown-menu-content-item">
-                                    <a class="dropdown-menu-content-link dropdown-menu-content-item-news-link" href="/discover/property-news/first-time-buyers-save-700-each-year-by-owning-rather-than-renting-a-home-23-08-15?search_source=top_nav">First-time buyers save &pound;700 a year by owning rather than renting</a>
-                                    <span class="dropdown-menu-content-item-news-date">
-August 23, 2015
 
 </span>
                                 </li>
