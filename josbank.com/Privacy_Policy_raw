@@ -496,8 +496,6 @@ window.jQuery_1_10_2 = $.noConflict(true);
 
 
 
-
-
 <script src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/Analytics.js"></script>
 <script>
 dojo.addOnLoad(function() {
@@ -869,7 +867,7 @@ Jos. A. Bank has partnered with international shipping solution Borderfree to al
 <a class="header-international-link" data-modal-fn="languageCurrencyModal" href="#">
 <span class="header-international-label" id="header-international-label">Change Region</span><img class="header-international-img" id="header-international-img" data-url-pattern="/wcsstore/JABAuroraStorefrontAssetStore//images/global/flags/[COUNTRY].gif" alt="" style="display:none;"/>
 </a>
-<input type="hidden" id="miniShopingCartInvalidateURL" name="miniShopingCartInvalidateURL" value="http://www.josbank.com/TMWINMiniCartInvalidate?catalogId=14052&langId=-1&storeId=13452" />	
+<input type="hidden" id="miniShopingCartInvalidateURL" name="miniShopingCartInvalidateURL" value="https://www.josbank.com/TMWINMiniCartInvalidate?catalogId=14052&langId=-1&storeId=13452" />	
 <input type="hidden" id="shoppingCartURL" name="shoppingCartURL" value="OrderCalculate?langId=-1&storeId=13452&catalogId=14052&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&updatePrices=1&orderId=.&URL=AjaxOrderItemDisplayView&errorViewName=AjaxOrderItemDisplayView" />
 
 </div>
@@ -881,7 +879,7 @@ international.init('2440');
 </script>
 <script type="text/javascript">
 try {
-UserInfoJS.setURL('getUserInfoURL','http://www.josbank.com/FetchUserDetailsAjax?catalogId=14052&langId=-1&storeId=13452');
+UserInfoJS.setURL('getUserInfoURL','https://www.josbank.com/FetchUserDetailsAjax?catalogId=14052&langId=-1&storeId=13452');
 if (UserInfoJS.isAjaxCallNeeded()) {
 dojo.addOnLoad(function() {
 UserInfoJS.init();	
@@ -1181,6 +1179,12 @@ Tailored Fit Dress Shirts
 </a>
 </li>
 <li class="">
+<a id="categoryLink_900023104_900032103" href="http://www.josbank.com/1905-dress-shirts" class="menuLink"
+role="menuitem" tabindex="-1">
+1905 Dress Shirts
+</a>
+</li>
+<li class="">
 <a id="categoryLink_900023104_900025204" href="http://www.josbank.com/traveler-wrinkle-free" class="menuLink"
 role="menuitem" tabindex="-1">
 Traveler Wrinkle-Free Dress Shirts
@@ -1350,6 +1354,13 @@ Dress Pants
 href="http://www.josbank.com/all-dress-pants"
 class="menuLink" role="menuitem" tabindex="-1">
 All Dress Pants
+</a>
+</li>
+<li>
+<a id="subcategoryLink_900023106_900025127_900025181"
+href="http://www.josbank.com/tailored-fit-dress-pants"
+class="menuLink" role="menuitem" tabindex="-1">
+Tailored Fit Dress Pants
 </a>
 </li>
 <li>
@@ -2697,7 +2708,7 @@ CLOSE
 <p/>
 <br>
 <p><b>NO PURCHASE OR PAYMENT OF ANY KIND IS NECESSARY TO ENTER OR WIN IN THIS SWEEPSTAKES. Void in Puerto Rico, outside of the United States, and where prohibited by law. Subject to all federal, state and local laws, regulations, and ordinances. </b>
-</p><br><p> The <b>Jos. A. Bank® </b>Online Gift Card Sweepstakes (the “Sweepstakes”) begins at 12:00:00 AM Eastern Daylight Savings Time (“ET”) on August 16, 2015 and ends at 11:59:59 p.m. ET on August 31, 2015 (the “Sweepstakes Period”). 
+</p><br><p> The <b>Jos. A. Bank® </b>Online Gift Card Sweepstakes (the “Sweepstakes”) begins at 12:00:00 AM Eastern Daylight Savings Time (“ET”) on September 1, 2015 and ends at 11:59:59 p.m. ET on September 15, 2015 (the “Sweepstakes Period”). 
 </p><br><p><strong>1. ELIGIBILITY: </strong> The Sweepstakes is open only to legal residents of the 50 United States (including the District of Columbia) who are 21 years of age or older at time of entry and have a valid, working email address. Employees, officers, and directors of Jos. A. Bank Clothiers, Inc. and any of its parent companies, subsidiaries, affiliates, representatives, consultants, contractors, legal counsel, and advertising, public relations, promotional, fulfillment, and marketing agencies, website providers, web masters, and members of their immediate families (spouses, parents, children, siblings and their spouses, regardless of where they live) and those living in the same household are not eligible to enter or win. Participation constitutes entrant’s full and unconditional agreement to these Official Rules and to Sponsor’s decisions, which are final and binding in all matters related to the Sweepstakes. Winning a prize is contingent on fulfilling all requirements set forth herein. Sponsor reserves the right to verify the eligibility of winner. Only one entry per person permitted. Entrants only eligible to win one prize during the Sweepstakes Period. 
 </p><br><p><strong>2. SPONSOR: </strong> Jos. A. Bank Clothiers, Inc. 500 Hanover Pike, Hampstead, MD 21074 (“Sponsor”).
 </p><br><p><strong>3.HOW TO ENTER SWEEPSTAKES: </strong> To enter, visit <a href="/" title="" target="">www.josbank.com</a> and click the promotional graphic for the Sweepstakes to access the email address entry form. Upon submission of your email address through the entry form, you will be automatically entered with one (1) entry into the Sweepstakes. All entries become the property of Sponsor and will not be returned or acknowledged, and Sponsor will not verify receipt of entries. Sponsor and its agencies are not responsible for lost, late, incomplete, damaged, stolen, misdirected, or illegible entries, which will be disqualified. Sponsor is not responsible for transmission, typing, and/or computer error. Limit: one entry per person during the Sweepstakes Period. Bulk, automated, or third party entries are prohibited and will be disqualified. Multiple participants are not permitted to use the same email address. Any attempt by any participant to obtain more than the stated number of entries by using multiple or different identities, forms, or email addresses or any other methods will void all of that participant’s entries, and that participant may be disqualified at Sponsor’s discretion. In the event of a dispute as to any entry, the authorized account holder of the email address used to enter will be deemed to be the registered player. The “authorized account holder” is the natural person assigned an email address by an Internet access provider, online service provider, or other organization responsible for assigning email addresses for the domain associated with the submitted email address. Potential winners may be required to show proof of being the authorized account holder or forfeit the prize. Entries specifying an invalid, non-working, or inactive email address will be disqualified and ineligible to win. <b> Sponsor and Sponsor’s agents, affiliates, subsidiaries, representatives, or service providers may use entrants’ email address submitted with entry for purposes of prize notification, prize fulfillment, and/or future marketing by Sponsor. You may remove your email address from future email marketing promotions by following the instructions on any email marketing promotion. </b> Information collected from entrants is subject to the Sponsor’s Privacy Policy, which may be found at <a href="/privacy-policy" title="" target="">http://www.josbank.com/privacy-policy</a>. 
@@ -2786,7 +2797,7 @@ Amber Smithson - Knoxville, TN </p><br>
 <div class="row row-margin">
 <div class="col12" data-slot-id="1">
 
-<div id="contentRecommendationWidget_1_-1012_3074457345618262969" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_Espot-Global-ShopByShipSweeps" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <script type="text/javascript">
@@ -2890,11 +2901,11 @@ dojo.publish("CMPageRefreshEvent");
 </script>
 
 
-<div id="contentRecommendationWidget_1_-1012_3074457345618262974" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_Espot-TopNav-PromoBanner" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <a href="/current-promotions" title="" target="">
-<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_083115.gif" alt="" BORDER="0"/>
+<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_090115.gif" alt="" BORDER="0"/>
 </a>
 </div>
 
@@ -5621,7 +5632,7 @@ Japanese</td>
 <div class="row row-margin">
 <div class="col6 acol12" data-slot-id="21">
 
-<div id="contentRecommendationWidget_8_-1012_3074457345618262973" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_Espot-Global-BottomLeft" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <div class="win-gift dc_hide"> <div class="win-gift-bg"> <img src="//content.josbank.com/Global/GlobalFly-BttmLeftBkgrd_sweeps.jpg" alt="Gift Card Sweepstakes" border="0"> </div> <div class="win-gift-body"> <div class="win-gift-form"> <form name="JoinSweepstakesBottomForm" id="JoinSweepstakesBottomForm" action="JABSweepStakes" method="post"> <input type="hidden" name="storeId" value="13452" id="storeId2"> <input type="hidden" name="catalogId" value="14052" id="catalogId2"> <input type="hidden" name="URL" value="JABThankYouView" id="URL2"> <div class="row"> <div class="col12"> <input type="email" id="email1" name="email11" errpage="97" errors="15,1"> <button class="button"><span>Enter</span></button> </div> </div> </form> </div> <a class="win-gift-more" href="#" data-modal-fn="giftCardRulesModal">More Information</a> </div></div>
@@ -5686,7 +5697,7 @@ dojo.publish("CMPageRefreshEvent");
 </div>
 <div class="col6 acol12" data-slot-id="22">
 
-<div id="contentRecommendationWidget_9_-1012_3074457345618262972" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_Espot-Global-BottomRight" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <div class="free-ship-bottom">
