@@ -185,7 +185,7 @@ define("s", function() {
 
 
 </head>
-<body data-suuid="92e48b84-a878-4d14-af90-24588a02e310">
+<body data-suuid="83f5a4bf-d246-4d4e-a347-c85c80e9dfe2">
 
 
 
@@ -262,7 +262,7 @@ define("s", function() {
 				</li>
 			
 				<li role="presentation" class="singleItem mainMenuItem" >
-					<a data-sc="header_prices" href="https://go.skype.com/prices">Rates</a>
+					<a data-sc="header_calling_rates_" href="https://secure.skype.com/en/calling-rates">Rates</a>
 					
 				</li>
 			
@@ -327,7 +327,7 @@ define("s", function() {
 
 			
 			
-				s_el.header_prices = {click: {events: "event35", eVar19: "header: prices", prop18: "D=v19"}};
+				s_el.header_calling_rates_ = {click: {events: "event35", eVar19: "header: calling_rates_", prop18: "D=v19"}};
 
 				
 
@@ -601,7 +601,7 @@ var s_langChange = function (el) {
 <a class="mobileToggleContent noDesktop noTablet" href="#"></a>
 </div>
 <ul class="toggleableContent noMobile">
-										<li><a data-sc="footer_about" href="/en/about/" title="Skype">Skype</a></li>										<li><a data-sc="footer_jobs" href="http://www.skype.com/go/jobs" title="Jobs">Jobs</a></li>										<li><a data-sc="footer_legal" href="/en/legal/" title="Legal">Legal</a></li>										<li><a data-sc="footer_skype_en" href="http://advertising.microsoft.com/skype-en" title="Advertise">Advertise</a></li>										<li><a data-sc="footer_site_map" href="/en/site-map/" title="Sitemap">Sitemap</a></li>										<li><a data-sc="footer_developer" href="/en/developer/" title="Developer">Developer</a></li>										<li><a data-sc="footer_terms_update" href="https://go.skype.com/terms.update" title="Terms updated">Terms updated</a></li>										
+										<li><a data-sc="footer_about" href="/en/about/" title="Skype">Skype</a></li>										<li><a data-sc="footer_jobs" href="http://www.skype.com/go/jobs" title="Jobs">Jobs</a></li>										<li><a data-sc="footer_legal" href="/en/legal/" title="Legal">Legal</a></li>										<li><a data-sc="footer_skype_en" href="http://advertising.microsoft.com/skype-en" title="Advertise">Advertise</a></li>										<li><a data-sc="footer_site_map" href="/en/site-map/" title="Sitemap">Sitemap</a></li>										<li><a data-sc="footer_developer" href="/en/developer/" title="Developer">Developer</a></li>										
 </ul>
 </div>
 							
@@ -683,7 +683,6 @@ s_el.footer_legal = {click: {events: "event35", eVar19: "footer: legal", prop18:
 s_el.footer_skype_en = {click: {events: "event35", eVar19: "footer: skype_en", prop18: "D=v19"}};
 s_el.footer_site_map = {click: {events: "event35", eVar19: "footer: site_map", prop18: "D=v19"}};
 s_el.footer_developer = {click: {events: "event35", eVar19: "footer: developer", prop18: "D=v19"}};
-s_el.footer_terms_update = {click: {events: "event35", eVar19: "footer: terms_update", prop18: "D=v19"}};
 
 s_el.footer_skype_for_windows = {click: {events: "event35", eVar19: "footer: skype_for_windows", prop18: "D=v19"}};
 s_el.footer_skype_for_mac = {click: {events: "event35", eVar19: "footer: skype_for_mac", prop18: "D=v19"}};
