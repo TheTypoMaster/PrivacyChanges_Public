@@ -1369,7 +1369,7 @@
             DIVISION_2_ACTION: "division.do",
             SUBDIVISION_2_ACTION: "subdivision.do",
             HOME_2_ACTION: "home.do",
-            DATE_IN_USE: "08/31/2015 07:20 PM",
+            DATE_IN_USE: "09/01/2015 06:50 PM",
             PREVIOUS_LOCALE : "en_US",
             
             IS_NAV2_ENABLED: 'false',
@@ -7705,163 +7705,6 @@ if( window['siteNavigation'] ) {
 <!-- BEGIN - WCD Sitewide Container 12 -->
 <!-- BEGIN Content Item File: /content/0010/056/632/cn10056632.html -->
 
-<!-- 7/26 BRONG AB TEST - Shipping Options Display - Athleta overrides -->
-<style type="text/css">
-.freeRedBold {
-  font-weight: bold;
-  color: red;
-  text-transform: uppercase;
-}
-</style>
-
-<script type="text/javascript">
-
-if (location.pathname == '/buy/shopping_bag.do') {
-
-  var wcdABTest_ship2DayVs3DayBagManipulator = {
-    model: {
-      shipOption2Day: '2109',
-      shipOption2DaySelected: false,
-      shipOption3Day: '5003',
-      shipOptionCurrent: '',
-      freeShipPromoApplied: true,
-      testSegmentCurrent: 'D',
-      timesDecoratorRuns: 0,
-      timesLoopRuns: 0,
-      debugMode: false
-    },
-
-    init: function() {
-
-      var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
-      var forceCookieValue = gidLib.getCookieVar('mktUniversalPersist', 'brongModeCookie');
-      var forcedSegment = forceCookieValue.toUpperCase();
-      if (forceCookieValue && forcedSegment) {
-        model.testSegmentCurrent = forcedSegment;
-      }
-
-      var cookieValue = gidLib.getCookieVar("mktUniversalPersist","0830brongPromoCookie");
-      if (cookieValue == '08302015_BRONG_SEGA' || location.hostname.indexOf("brongmode=a") > 1) {
-        model.testSegmentCurrent = 'A';
-      }
-      else if (cookieValue == '08302015_BRONG_SEGB' || location.hostname.indexOf("brongmode=b") > 1) {
-        model.testSegmentCurrent = 'B';
-      }
-      else if (cookieValue == '08302015_BRONG_SEGC' || location.hostname.indexOf("brongmode=c") > 1) {
-        model.testSegmentCurrent = 'C';
-      }
-      else if (cookieValue == '08302015_BRONG_SEGD' || location.hostname.indexOf("brongmode=d") > 1) {
-        model.testSegmentCurrent = 'D';
-      }
-	  else {
-        model.testSegmentCurrent = 'D';
-	  }
-	  
-      // Loop thru ship options; this decorator will run on load, whenever new option selected or shopping bag item updated/removed
-      var shoppingBagTransformerModule = angular.module('gid.transformer.shoppingBagTransformer');
-      shoppingBagTransformerModule.config(function($provide) {
-        $provide.decorator('shoppingBagTransformer', function($delegate) {
-          var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
-
-          model.timesDecoratorRuns++;
-          if (model.debugMode == true) {
-            console.log('Shopping bag decorator running in test segment ' + model.testSegmentCurrent);
-          }
-
-          var oldTransformResponse    = $delegate.transformResponse;
-          var oldTransformBagResponse = $delegate.transformBagResponse;
-
-          var overrideShippingData = function(jsonData) {
-            if (jsonData.shoppingBag && jsonData.shoppingBag.shippingInfo && jsonData.shoppingBag.shippingInfo.shippingOptions) {
-
-              // Loop through shipping options
-              var shipOptions = jsonData.shoppingBag.shippingInfo.shippingOptions;
-              shipOptions.each(function(elt, idx) {
-                var model = wcdABTest_ship2DayVs3DayBagManipulator.model;
-
-                // Seg A, C, D - suppress 3-day option
-                if (model.testSegmentCurrent == "A" || model.testSegmentCurrent == "C" || model.testSegmentCurrent == "D") {
-                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
-                    shipOptions = shipOptions.filter( function (el) {
-                      return el.shippingId !== model.shipOption3Day;
-                    });
-                  }
-                }
-
-				// Seg B - Free 3-day shipping promo
-                if (model.testSegmentCurrent == "B") {
-                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
-                    if (elt.shippingId == model.shipOption3Day) {
-                      elt.description = '3 business days - FREE 3-Day Shipping on orders of $75 or more with code 3DAY';
-                      elt.messageDisplayIndicator = 'Y';
-                      elt.message = 'Complete your order Monday through Friday (excluding holidays) before 3:00 PM ET / 12:00 PM PT to receive your packages within 3 business days. Orders placed on weekends, holidays, or weekdays after 3:00 PM ET / 12:00 PM PT will arrive within 4 business days.';
-                    }
-                    /*if (location.hostname.indexOf("athleta") > 1 || location.hostname.indexOf("atol.wip") > 1) {
-                      shipOptions = shipOptions.filter( function (el) {
-                        return el.shippingId !== model.shipOption3Day;
-                      });
-                    }*/
-                  }
-                }
-				
-				// Seg C, D - Free 2-day shipping promo
-                if (model.testSegmentCurrent == "C" || model.testSegmentCurrent == "D") {
-                  if (model.freeShipPromoApplied && ( elt.shippingId == model.shipOption2Day || elt.shippingId == model.shipOption3Day ) ) {
-                    if (elt.shippingId == model.shipOption2Day) {
-                      elt.description = '2 business days - FREE 2-Day Shipping on orders of $75 or more with code 2DAY';
-                      elt.messageDisplayIndicator = 'Y';
-                      elt.message = 'Complete your order Monday through Friday (excluding holidays) before 3:00 PM ET / 12:00 PM PT to receive your packages within 2 business days. Orders placed on weekends, holidays, or weekdays after 3:00 PM ET / 12:00 PM PT will arrive within 3 business days.';
-                    }
-
-                    /*if (elt.shippingId == model.shipOption2Day) {
-                      elt.description = '2 business days - FREE!';
-                      if (model.shipOption2DaySelected == false) {
-                        jQuery(document).ready(function(){
-                          setTimeout(function() {
-                            //jQuery("#shippingOptions2109").click();
-                          }, 1000);
-                        });
-                        //elt.selected = true;
-                        model.shipOption2DaySelected = true;
-                      }
-                    }
-                    shipOptions = shipOptions.filter( function (el) {
-                      return el.shippingId !== model.shipOption3Day;
-                    });*/
-                  }
-                }
-
-
-              });
-
-              jsonData.shoppingBag.shippingInfo.shippingOptions = shipOptions;
-            }
-
-            return jsonData;
-          };
-
-          $delegate.transformResponse = function(data, headers) {
-            var jsonData = oldTransformResponse(data, headers);
-            return overrideShippingData(jsonData);
-          };
-
-          $delegate.transformBagResponse = function(data) {
-            var jsonData = oldTransformBagResponse(data);
-            return overrideShippingData(jsonData);
-          }
-
-          return $delegate;
-        });
-      });
-    }
-  }
-
-  wcdABTest_ship2DayVs3DayBagManipulator.init();
-}
-
-
-
-</script>
 
 <!-- END Content Item File: /content/0010/056/632/cn10056632.html -->
 
@@ -9678,352 +9521,50 @@ jQuery(function($) {
 	
 <div id="footer_BrandContainer">
 	<div id="footer_brand_region1"><!-- @TemplateContentLayout(templateRegionName:"gid.common.siteWide.brand.footers.region1") -->
-<link rel="stylesheet" type="text/css" href="/Asset_Archive/GPWeb/content/0009/208/347/footerRegionCSS.css" />
-<!--style type="text/css">
-#footer { position:relative; background-color:#ad132a; }
-#footer_brand_region2 { background-color:#ad132a; }
-#footer { color: #FFF; }
-#footer a:link, #footer a:visited, #footer a:active { color: #fff; }
-#copyRightFooter { color:#fff; width: 990px; margin-top: 10px; text-align: center; margin-bottom: 10px;}
-#copyRightFooter p { color:#fff; padding: 5px; color:#fff }
-.text2 { color:#fff }
-#footer-background-wrapper { background-color:#ad132a; height:100%; z-index:-1;position:absolute;}
+<link rel="stylesheet" type="text/css" href="/Asset_Archive/GPWeb/content/0010/130/936/assets/regionFooter.css" />
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-	/* Styles */
-	/* #footer-background-wrapper { margin-left: -10px; width: 1010px; } */
-}
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-	/* Styles */
-	/* #footer-background-wrapper { margin-left: -10px; width: 1010px; } */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (max-width : 1250px) {
-    /* Styles */
-}
-
-@media only screen 
-and (min-width : 1224px) {
-    /* Styles */
-    /*Expand footer background color */
-    /* #footer-background-wrapper { position:absolute; margin-left:-1000px; margin-right:0; width:5000px; z-index:-1; height: 100%; background-color:#000d42; } */
-}
-
-/* Responsive CSS */
-#footer_BrandContainer #brandFooter_mobile { display:none; padding-left:10px; color:#000 }
-#footer_BrandContainer #brandFooter_mobile a { color:#000; font-size:14px }
-
-/* Small Breakpoint */
-	html.breakpoint-small .responsiveShoppingBag #bodyContainer #footer { background:#fff }
-	html.breakpoint-small .responsiveShoppingBag #bodyContainer .gidFooterNav { display:block }
-	html.breakpoint-small .responsiveShoppingBag #footer_brand_region1 { display:none }
-	html.breakpoint-small .responsiveShoppingBag #footer-background-wrapper { display:none }
-	html.breakpoint-small .responsiveShoppingBag #brandFooter_mobile { display:block }
-
-/* Medium Breakpoint */
-	html.breakpoint-medium .responsiveShoppingBag #bodyContainer #footer { background:#fff }
-	html.breakpoint-medium .responsiveShoppingBag #bodyContainer .gidFooterNav { display:block }
-	html.breakpoint-medium .responsiveShoppingBag #footer_brand_region1 { display:none }
-	html.breakpoint-medium .responsiveShoppingBag #footer-background-wrapper { display:none }
-	html.breakpoint-medium .responsiveShoppingBag #brandFooter_mobile { display:block }
-	
-/* Large Breakpoint */
-	html.breakpoint-large .responsiveShoppingBag #bodyContainer #footer { margin:0 auto; padding:0; box-sizing:content-box; }
-	html.breakpoint-large .responsiveShoppingBag .marketing-brand-footer-wrapper { float:none; width:980px; height:200px; margin:10px auto }
-	html.breakpoint-large .responsiveShoppingBag #textFooterLinks1_10000515 { width:100%; clear:both }
-	html.breakpoint-large .responsiveShoppingBag .footer-container-wrapper { height:275px }
-	html.breakpoint-large .responsiveShoppingBag #copyRightFooter { width:100% }
-	
-	@media all and (max-width: 1015px) and (min-width: 768px) {
-		html.breakpoint-large .responsiveShoppingBag .marketing-brand-footer-wrapper { display:none }
-		html.breakpoint-large .responsiveShoppingBag .footer-container-wrapper { border-top:none }
-	}
-
-/* X-Large Breakpoint */
-	html.breakpoint-xlarge .responsiveShoppingBag #bodyContainer #footer { /*width:99%;*/ margin:0 auto; padding:0; box-sizing:content-box }
-	
-	html.breakpoint-xlarge .responsiveShoppingBag .marketing-brand-footer-wrapper { float:none; width:980px; height:200px; margin:10px auto }
-	html.breakpoint-xlarge .responsiveShoppingBag #textFooterLinks1_10000515 { width:100%; clear:both }
-	html.breakpoint-xlarge .responsiveShoppingBag .footer-container-wrapper { height:275px }
-	html.breakpoint-xlarge .responsiveShoppingBag #copyRightFooter { width:100% }
-
-</style-->
-<div id="footer-background-wrapper"></div>
 <div id="brandFooter_Region1">
 	<div id="brandftr1_10000512" class="clearfix"></div>
-	<div id="brandftr2_10000514" class="clearfix"><!-- BEGIN Content Item File: /content/0009/409/544/cn9409544.html -->
-<div id="contentItemContainer10000514" class="9409544" >
+	<div id="brandftr2_10000514" class="clearfix"><!-- BEGIN Content Item File: /content/0010/130/952/cn10130952.html -->
+<div id="contentItemContainer10000514" class="10130952" >
 
 
-<div id="freeShipBanner" style="width:990px;height:41px;display:block;margin-top:20px;" class="clearfix">
-	<!--<a href="#edfs" onclick="return gidLib.layeredPopup.openLayeredPopup({str:'/browse/info.do?cid=47471',id:'edfsPopup',width:490,height:450});">-->
+<div id="freeShipBanner" style="width:100%;margin-top:20px;background-color:#000d42;" class="clearfix">
+	<div style="max-width:1280px;min-width:990px;margin: 0 auto;">
 	<a class="needsclick toggle-universal-modal" data-title="&nbsp;" data-url="/Asset_Archive/GPWeb/content/0009/712/387/assets/edfsLegal.html" data-modal-size="standard" data-action-sheet="small" href="#edfs">
-		<img src="/Asset_Archive/GPWeb/content/0009/409/544/assets/102914_FSFR_HP_FTR_US_EC.gif" alt="Free shipping on all orders over $50.">
+		<img src="/Asset_Archive/GPWeb/content/0010/130/952/assets/090115_ALL_HP_US_FSFR.gif" style="width:100%" alt="Free shipping on all orders over $50.">
 	</a>
+	</div>
 </div>
 
 </div>
-<!-- END Content Item File: /content/0009/409/544/cn9409544.html -->
+<!-- END Content Item File: /content/0010/130/952/cn10130952.html -->
 </div>	
 	<div id="brandftr3_10000513" class="clearfix"></div>
-	<div id="textFooterLinks1_10000515" class="clearfix"><!-- BEGIN Content Item File: /content/0009/815/677/cn9815677.html -->
-<div id="contentItemContainer10000515" class="9815677" >
+	<div id="textFooterLinks1_10000515" class="clearfix"><!-- BEGIN Content Item File: /content/0010/130/955/cn10130955.html -->
+<div id="contentItemContainer10000515" class="10130955" >
 
-<link rel="stylesheet" type="text/css" href="/Asset_Archive/GPWeb/content/0009/815/677/assets/emailFooterCSS.css" />
-<!--style type="text/css">
-
-.footer-container-wrapper {
-	width:100%;
-	height:245px;
-	margin-top:10px;
-	font-size:10px;
-	line-height:14px;
-	font-family: Helvetica,Arial,Sans-serif;
-	letter-spacing:1px;
-	border-top: 1px solid #fff;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #FFF;
-}
-
-
-.footer-container {
-	padding-top:0px;
-	width:100%;
-	margin:5px;
-	border-top:1px solid #fff;
-	border-bottom:1px solid #fff;
-	height:254px;
-}
-
-.footerCol{
-	float:left;
-	border-right:1px solid #fff;
-	text-align:center;
-
-}
-
-.footerCol-last{
-	float:left;
-	text-align:center;
-
-}
-
-.footer-header {
-	font-size:24px;
-	font-weight: 100;
-	margin-top: 20px;
-}
-
-#footer-social {
-	height:100%;
-	width:22%;
-	float:left;
-
-}
-
-#footer-icons {
-	margin-top:20px;
-}
-
-#footer-email {
-	height:100%;
-	width:56%;
-
-}
-#footer-cs {
-	height:100%;
-	width:21%;
-	float: left;
-}
-
-#footer-cs ul.cslinks {
-
-	list-style: none outside none;
-	line-height: 16px;
-	margin-top: 20px;
-}
-
-#footer-cs li {
-
-	float: none;
-}
-
-li.footer-cs-header {
-
-	padding-top:10px;
-	font-weight: bold;
-}
-
-
-
-.hp-email-signup-container > .marketing-copy {
-    color: #000;
-    display: inline-block;
-    float: left;
-    margin-right: 30px;
-    text-align: center;
-    width: 300px;
-}
-.hp-email-signup-container > .marketing-copy > .jumbotext {
-    font-size: 32px;
-    font-weight: 200;
-    line-height: 32px;
-}
-.hp-email-signup-container > .marketing-copy > .subtext {
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 5px;
-}
-.hp-email-signup-form-container {
-    display: inline-block;
-    margin-top: 25px;
-}
-.hp-email-signup-input-container {
-    overflow: hidden;
-    width: 315px;
-    margin: 0 auto;
-
-}
-.hp-email-signup-input-container > input {
-    border: 1px solid #666666;
-    color: #666666;
-    display: inline-block;
-    font-size: 12px;
-    height: 19px;
-    margin-bottom: 10px;
-    padding: 3px 8px;
-    width: 300px;
-}
-.hp-email-signup-input-container > input.last {
-    margin-right: 0;
-}
-.hp-email-signup-input-container > .validationWarning {
-    color: #ff0000;
-    font-weight: bold;
-}
-.hp-email-signup-submit-button-container {
-    clear: both;
-    display: block;
-    margin-top: 10px;
-    width: 100%;
-}
-.hp-email-signup-submit-button-container > .offer-text {
-    color: #FFF;
-    font-size: 10px;
-    margin-right: 10px;
-    margin-top: 15px;
-    text-align: center;
-}
-
-.hp-email-signup-submit-button-container > button {
-    margin: 0 auto;
-}
-
-.email-caret {
-    border-color: transparent transparent transparent #fff;
-    border-left: 7px solid #fff;
-    border-right: 4px solid transparent;
-    border-style: solid;
-    border-width: 4px 4px 4px 7px;
-    content: "";
-    display: inline-block;
-    height: 0;
-    vertical-align: top;
-    width: 0;
-}
-.footer-email-signup-btn > .email-caret {
-    margin-left: 3px;
-    margin-top: 3px;
-}
-.email-btn-container {
-    text-align: center;
-}
-.email-btn {
-    background: none repeat scroll 0 0 #fff;
-    border: medium none;
-    color: #000d42;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 12px;
-    margin: 0;
-    padding: 5px 5px 5px 9px;
-    text-transform: uppercase;
-}
-a.email-btn, a.email-btn:link, a.email-btn:visited, a.email-btn:active {
-    color: #000d42 !important;
-    position: relative;
-    text-decoration: none !important;
-    z-index: 50;
-}
-.email-caret {
-    border-color: transparent transparent transparent #000d42;
-    border-left: 7px solid #000d42;
-    border-right: 4px solid transparent;
-    border-style: solid;
-    border-width: 4px 4px 4px 7px;
-    content: "";
-    display: inline-block;
-    height: 0;
-    vertical-align: top;
-    width: 0;
-}
-.email-btn > .email-caret {
-    margin-left: 4px;
-    margin-top: 2px;
-}
-
-</style-->
+<link rel="stylesheet" type="text/css" href="/Asset_Archive/GPWeb/content/0010/130/955/assets/emailFooterCSS.css" />
 
 <div class="footer-container-wrapper clearfix">
 
-	<div id="footer-social" class="footerCol">
-		<a href="/customerService/info.do?cid=2116" onclick="return wcdLib.contentItemLinkWithFacet(this,'','Footer_1_GC');"> 	
-			<img id="footer-icons" class="leftCol" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/020515_ALL_HP_US_footer_giftcards.png" alt="Gift Cards" border="0" >
-		</a>
-		<a href="/browse/info.do?cid=96483" onclick="return wcdLib.contentItemLinkWithFacet(this,'','Footer_2_RIS');">
-			<img id="footer-icons" class="leftCol" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/020515_ALL_HP_US_footer_RIS.png" alt="Reserve in Store" border="0" >
-		</a>
-		<a href="/browse/info.do?cid=1023051" onclick="return wcdLib.contentItemLinkWithFacet(this,'','Footer_3_WishList');">	
-			<img id="footer-icons" class="leftCol" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/020515_ALL_HP_US_footer_wishlist.png" alt="Wishlist" border="0" >
-		</a>
-		<a href="javascript:void(0);" alt="click for more details" rel="jbox" data-jbox-url="/browse/info.do?cid=47471" data-jbox-width="500" data-jbox-height="450">
-			<img id="footer-icons" class="leftCol" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/020515_ALL_HP_US_footer_fsfr.png" alt="Free Returns" border="0" >	
-		</a>		 
-	</div>
 	<!-- EMAIL REGISTRATION -->
 	<div id="footer-email" class="footerCol footerEmailMargin">
 
-			<p class="footer-header">sign up for email & <strong>get 25% off*</strong></p>
-
-			<div class="hp-email-signup-form-container">
+		<div class="hp-email-signup-form-container">
+			<p class="footer-header"><strong>sign up for email <br /> & get 25% off*</strong></p>
 			<form name="joinEmail_gap" id="joinEmail_gap" action="https://secure-www.gap.com/profile/updateEmailPreferences.do" onsubmit="return validateFormGapFooter(this)" method="post">
 				<input type="HIDDEN" value="GPUS" name="brand_country_code">
 				<input type="HIDDEN" value="US_EN" name="lang_pref">
 				<input type="HIDDEN" id="target_url" value="/profile/info.do?cid=53959&mlink=5058,8095009,HP_Email_Signup&clink=8095009" name="targetURL">
 				<input type="HIDDEN" id="src_genGapFooter" value="WEBSITE EMAIL SIGNUP" name="src_gnrc_cd">
 				<input type="HIDDEN" id="src_specGapFooter" value="GP=Site_Footer;BR=NA;ON=NA;PL=NA;AT=NA;BRFS=NA;GPO=NA" name="src_spfc_cd">
-				<div style="overflow: hidden;">
 					<div class="hp-email-signup-input-container">
 						<label for="email" style="display:none;">Email Signup</label>
-						<input id="email" name="email" size="39" maxlength="100" onfocus="setDefaultGapFooter(this);" onblur="clearDefaultGapFooter(this);" autocomplete="off" value="Email, please" type="text"/>
+						<input id="email" name="email" size="100" maxlength="100" onfocus="setDefaultGapFooter(this);" onblur="clearDefaultGapFooter(this);" autocomplete="off" value="Email, please" type="text"/>
 						<label for="confirm_email" style="display:none;">Confirm Email</label>
-						<input id="confirm_email" class="last" name="confirm_email" size="39" maxlength="100" onfocus="setDefaultGapFooter(this);" onblur="clearDefaultGapFooter(this);" autocomplete="off" value="Confirm your email" type="text"/>
+						<input id="confirm_email" class="last" name="confirm_email" size="100" maxlength="100" onfocus="setDefaultGapFooter(this);" onblur="clearDefaultGapFooter(this);" autocomplete="off" value="Confirm your email" type="text"/>
 					</div>
 					<div class="hp-email-signup-submit-button-container">
 						<button class="email-btn" title="Sign Up Now">SIGN UP NOW <span class="email-caret"></span><span style="display:none;">Sign Up Now</span></button>
@@ -10031,42 +9572,70 @@ a.email-btn, a.email-btn:link, a.email-btn:visited, a.email-btn:active {
 							*Offer valid for first-time registrants only & applies to regular price items only. <a onclick="return contentItemLink(this,'','emailreg');" href="/customerService/info.do?cid=2331" style="text-decoration: underline;">Privacy Policy</a>
 						</div>
 					</div>
-				</div>
 			</form>
 		</div>
 	</div>
 	<!--END EMAIL REGISTRATION -->
-	<div id="footer-cs" class="footerCol-last">
-			<p class="footer-header">connect</p>
-			<img id="footer-icons" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/073114_HP_connecticons_footer.gif" alt="Social Media" border="0" usemap="#socialicons_map" >
-			 <map name="socialicons_map" id="socialicons_map">
-              <area shape="rect" coords="0,3,28,26" href="https://www.facebook.com/pages/Gap/14856729724" alt="facebook" target="_blank" />
-              <area shape="rect" coords="44,2,76,27" href="http://www.twitter.com/gap" alt="twitter" target="_blank"  />
-              <area shape="rect" coords="97,1,132,29" href="http://www.pinterest.com/Gap"alt="pinterest" target="_blank" />
-              <area shape="rect" coords="0,39,28,67" href="http://instagram.com/gap" alt="instagram" target="_blank" />
-              <area shape="rect" coords="43,39,79,67" href="http://www.gap.com/browse/info.do?cid=51767" alt="mobile" target="_blank" />
-              <area shape="rect" coords="93,38,140,68" href="http://gap.tumblr.com/" alt="tumblr" target="_blank"  />
-            </map>
 
-    		<p class="footer-header">need help?</p>
-       		 	<ul class="cslinks">
-       		 		<li class="footer-cs-header"><a href="/customerService/info.do?cid=2136" onclick="return contentItemLink(this,'','CS_Footer_CustomerService');" >Customer Service</a></li>
-       		 		<li><a href="/customerService/info.do?cid=81264" onclick="return contentItemLink(this,'','CS_Footer_Returns');" >Returns</a></li>
-       		 		<li>1.800.GAPSTYLE (1.800.427.7895)</li>
-       		 		<li><a href="/customerService/storeLocator.do" onclick="return contentItemLink(this,'','CS_Footer_StoreLocator');">Store Locator</a></li>
-       		 		<li><a href="/profile/info.do?cid=1033021" onclick="return contentItemLink(this,'','CS_Footer_GapCard');" ><img id="gapcard-images" src="/Asset_Archive/GPWeb/content/0009/815/677/assets/060315_ValuePropCardUpdate_HP_US2.png" alt="Gap Card" border="0"></a></li>
-       		 		<li class="footer-cs-header"><a href="/profile/info.do?cid=1033021" onclick="return contentItemLink(this,'','CS_Footer_GapCard');" >GapCard</a></li>
-       		 		<li><a href="https://eapply.gap.com/?cmpid=FTR_APL" target="_blank" >Apply now and save today</a></li>
-       		 		<li><a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank" >Activate card</a></li>
-       		 		<li><a href="/customerService/info.do?cid=44651" onclick="return contentItemLink(this,'','CS_Footer_ReviewYourCardBenefits');">Review your card benefits</a></li>
-       		 		<li><a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank">Pay my bill</a></li>
-       		 		<!-- <li><a href="http://www.gap.com/products/index.jsp">Site map</a></li> -->
-       		 	</ul>
-       		</p>
-    	</div>
+	<div class="footer-cs footerCol">
+     		 <ul class="cslinks">
+       		 		<li class="footer-cs-header"><a href="/customerService/info.do?cid=2136" onclick="return contentItemLink(this,'','CS_Footer_CustomerService');" >CUSTOMER SUPPORT</a></li>
+       		 		<li><a href="/customerService/info.do?cid=2136" onclick="return contentItemLink(this,'','CS_Footer_CustomerService');" >customer service </a></li>
+       		 		<li><a href="/customerService/info.do?cid=81264" onclick="return contentItemLink(this,'','CS_Footer_Returns');" >returns </a></li>
+       		 		<li><a href="/customerService/info.do?cid=2116" onclick="return contentItemLink(this,'','Footer_1_GC');" >gift cards </a></li>
+       		 		<li><a href="/browse/info.do?cid=96483" onclick="return contentItemLink(this,'','Footer_2_RIS');" >reserve in store  </a></li>
+       		 		<li><a href="/browse/info.do?cid=1023051" onclick="return contentItemLink(this,'','Footer_3_WishList');" >wish list  </a></li>
+       		 </ul>
+	</div>
+	<div class="footer-cs footerCol">
+     		 <ul class="cslinks">
+       		 	<li class="footer-cs-header"><a href="/profile/info.do?cid=1033021" onclick="return contentItemLink(this,'','CS_Footer_GapCard');" >GAPCARD</a></li>
+       		 	<li><a href="/profile/info.do?cid=1033021" onclick="return contentItemLink(this,'','CS_Footer_GapCard');" ><img id="gapcard-images" src="/Asset_Archive/GPWeb/content/0010/130/955/assets/090115_ALL_HP_US_gapcard.png" alt="Gap Card" border="0"></a></li>
+       		 	<li><a href="https://eapply.gap.com/?cmpid=FTR_APL" target="_blank" >learn more</a></li>
+       		 	<li><a href="https://eapply.gap.com/?cmpid=FTR_APL" target="_blank" >apply now & save today</a></li>
+       		 	<li><a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank" >activate card</a></li>
+       		 	<li><a href="/customerService/info.do?cid=44651" onclick="return contentItemLink(this,'','CS_Footer_ReviewYourCardBenefits');">review card benefits</a></li>
+       		 	<li><a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank">pay bill</a></li>
+       		 </ul>
+	</div>
+	<div class="footer-cs footerCol">
+       		 <ul class="cslinks">
+       		 	<li class="footer-cs-header"><a href="/customerService/info.do?cid=2136" onclick="return contentItemLink(this,'','CS_Footer_CustomerService');" >FIND US</a></li>
+       		 	<li><a href="/customerService/storeLocator.do" onclick="return contentItemLink(this,'','CS_Footer_StoreLocator');">store locator</a></li>
+       		 	<li>1.800.GAPSTYLE<br />1.800.427.7895</li>
+       		 	<li class="footer-cs-header" style="margin-top:30px;">STAY CONNECTED</li>
+       		 	<li><img id="footer-icons" src="/Asset_Archive/GPWeb/content/0010/130/955/assets/090115_ALL_HP_US_socialicons.png" alt="Social Media" border="0" usemap="#socialicons_map" style="width:100%;"></li>
+       		 </ul>
+ 			<map name="socialicons_map" id="socialicons_map">
+              <area shape="rect" coords="0,2,28,25" href="https://www.facebook.com/pages/Gap/14856729724" alt="facebook" target="_blank" />
+              <area shape="rect" coords="44,2,76,27" href="http://www.twitter.com/gap" alt="twitter" target="_blank"  />
+              <area shape="rect" coords="97,1,132,29" href="http://www.pinterest.com/Gap" alt="pinterest" target="_blank" />
+              <area shape="rect" coords="144,2,179,30" href="http://instagram.com/gap" alt="instagram" target="_blank" />
+              <area shape="rect" coords="191,0,226,28" href="http://gap.tumblr.com/" alt="tumblr" target="_blank"  />
+            </map>
 	</div>
 </div>
-<!--img src="/Asset_Archive/GPWeb/content/0009/815/677/assets/footer2.gif" alt=""-->
+
+
+<div id="copyRightFooter" class="clearfix">
+<!--copyright bottom footer-->
+<p>&copy; 1997 - <span id="currentYearFooter"></span> Gap Inc. | <a href="/customerService/info.do?cid=2331" onClick="return contentItemLink(this,'','CS_Footer_PrivacyPolicy');">Privacy Policy</a> | <a href="http://www.gap.com/customerService/info.do?cid=2331&mlink=5058,8118674,CS_Footer_PrivacyPolicy&clink=8118674#interestAdvert">Interest Based Ads</a> | <a href="/customerService/info.do?cid=2331&mlink=5058,5217025,CS_Footer_Returns_CA_Policy&clink=5217025#caliRights">Your California Privacy Rights</a> | <a href="/customerService/info.do?cid=6754" onClick="return contentItemLink(this,'','CS_Footer_TermsOfUse');">Terms of Use</a> | <a href="http://www.gapinc.com/content/gapinc/html/careers.html" target="_blank">Careers</a> | <a href="http://gapinc.com/content/gapinc/html/social_responsibility.html" target="_blank">Social Responsibility</a> | <a href="http://www.gapinc.com/content/gapinc/html/aboutus.html" target="_blank">About Gap Inc.</a> </p>
+<p><a href="/customerService/info.do?cid=1005563">Americans with Disabilities Act</a></p>
+<p><a href="http://m.gap.com">gap.com mobile site</a></p>
+</div>
+
+<!-- Begin Pull Year from Personalization - DO NOT REMOVE est. 2014 -->
+<script type="text/javascript">
+document.observe('personalizationData:ready', function() {
+	if( personalizationService.model.personalizationData.personalizationInfoV1.userContext.viewDate ) {
+		var dateString = personalizationService.model.personalizationData.personalizationInfoV1.userContext.viewDate
+		var currentYear = dateString.split("-",1);
+		jQuery('#currentYearFooter').text(currentYear);
+	}
+});
+</script>
+<!-- End Pull Year from Personalization - DO NOT REMOVE est. 2014 -->
+
 
 <script type="text/javascript">
 /* NEW GOL EMAIL REG CODE */
@@ -10150,114 +9719,20 @@ function validateFormGapFooter()
 
 
 </div>
-<!-- END Content Item File: /content/0009/815/677/cn9815677.html -->
+<!-- END Content Item File: /content/0010/130/955/cn10130955.html -->
 </div>
-	<!--copyright-->
-	<div id="textFooterLink2_10000516" class="clearfix"><!-- BEGIN Content Item File: /content/0009/992/930/cn9992930.html -->
-<div id="contentItemContainer10000516" class="9992930" >
+	<div id="textFooterLink2_10000516" class="clearfix"><!-- BEGIN Content Item File: /content/0010/130/957/cn10130957.html -->
+<div id="contentItemContainer10000516" class="10130957" >
 
-<!-- Begin Pull Year from Personalization - DO NOT REMOVE est. 2014 -->
-<script type="text/javascript">
-document.observe('personalizationData:ready', function() {
-	if( personalizationService.model.personalizationData.personalizationInfoV1.userContext.viewDate ) {
-		var dateString = personalizationService.model.personalizationData.personalizationInfoV1.userContext.viewDate
-		var currentYear = dateString.split("-",1);
-		jQuery('#currentYearFooter').text(currentYear);
-	}
-});
-</script>
-<!-- End Pull Year from Personalization - DO NOT REMOVE est. 2014 -->
-
-<div id="copyRightFooter" class="clearfix">
-<!--copyright bottom footer-->
-<p>&copy; 1997 - <span id="currentYearFooter"></span> Gap Inc. | <a href="/customerService/info.do?cid=2331" onClick="return contentItemLink(this,'','CS_Footer_PrivacyPolicy');"><em>Privacy Policy</em></a> | <a href="http://www.gap.com/customerService/info.do?cid=2331&mlink=5058,8118674,CS_Footer_PrivacyPolicy&clink=8118674#interestAdvert">Interest Based Ads</a> | <a href="/customerService/info.do?cid=2331&mlink=5058,5217025,CS_Footer_Returns_CA_Policy&clink=5217025#caliRights">Your California Privacy Rights</a> | <a href="/customerService/info.do?cid=6754" onClick="return contentItemLink(this,'','CS_Footer_TermsOfUse');">Terms of Use</a> | <a href="http://www.gapinc.com/content/gapinc/html/careers.html" target="_blank">Careers</a> | <a href="http://gapinc.com/content/gapinc/html/social_responsibility.html" target="_blank">Social Responsibility</a> | <a href="http://www.gapinc.com/content/gapinc/html/aboutus.html" target="_blank">About Gap Inc.</a> </p>
-<p><a href="/customerService/info.do?cid=1005563">Americans with Disabilities Act</a></p>
-<p><a href="http://m.gap.com">gap.com mobile site</a></p>
-</div>
 
 
 </div>
-<!-- END Content Item File: /content/0009/992/930/cn9992930.html -->
+<!-- END Content Item File: /content/0010/130/957/cn10130957.html -->
 </div>
-
 </div>
 
 <div id="brandFooter_mobile"><a href="/customerService/info.do?cid=81264">Return Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/buy/info.do?cid=2020">Credit Card Safeguard</a></div>
 
-<script type="text/javascript">
-function adjustFooterWidth(elementsArray) {
-  // get the width of the browser window viewport
-  var viewport = document.viewport.getDimensions();
-  var width = viewport.width;
-  var elementsArrayLength = elementsArray.length;
-
-
-  if (width >=1000) {
-
-    // loop through the different elements
-    // and set their width to the viewport width
-    // then we offset the left position
-    for(var i=0; i < elementsArrayLength; i++) {
-      $(elementsArray[i]).setStyle({
-        width: width + "px",
-        //position: "relative",
-        marginLeft: - (((width - 988)/2) - 1) + "px",
-        overflow: "hidden"
-      });
-    }
-  }
-}
-//span the full width of the window
-var adjustFooterWidthArray = ["footer-background-wrapper"];
-
-Event.observe(window, 'resize', function() {
-	if( window["responsiveBagAbTestOn"] != null && ! responsiveBagAbTestOn ) {
-	  adjustFooterWidth(adjustFooterWidthArray);
-	}
-});
-
-jQuery(document).ready(function($) {
-	if( window["responsiveBagAbTestOn"] != null && ! responsiveBagAbTestOn ) {
-	  adjustFooterWidth(adjustFooterWidthArray);
-	}
-});
-</script>
-
-<script type="text/javascript">
-
-// Responsive bag JS overrides
-if( window["responsiveBagAbTestOn"] != null && responsiveBagAbTestOn ) {
-	
-	var wcdFooterResponsiveUpdate = function() {
-
-		jQuery(document).ready( function() {
-			//jQuery('#contentItemContainer10000512 > div, #contentItemContainer10000512 > div img, #contentItemContainer10000649 > div, #contentItemContainer10000515 > div, #emailSignUpFooter .for_ie7_div1, #emailSignUpFooter .for_ie7_div2').attr('style','');
-
-			// jbox popups
-			var edfsFooter = jQuery('#MapfooterNewEDFS area');
-			var edfsPopupWidth = '472';
-			var edfsPopupHeight = '450';
-			if( jQuery(window).width() < 569 ) {
-				//edfsPopupStr = '/Asset_Archive/GPWeb/content/0008/638/040/assets/edfs_popup.html';
-				edfsPopupWidth = '300';
-				edfsPopupHeight = '350';
-			}
-			
-			if( edfsFooter.length > 0 ) {
-				/*edfsFooter[0].onclick = function() {
-					return gidLib.layeredPopup.openLayeredPopup({str:'/buy/info.do?cid=47471',id:'edfsPopup',width:472,height:410,style:{name:'universalPopup'}});
-				}*/
-				edfsFooter.attr({ 'onclick':'', 'rel':'jbox', 'data-jbox-url':'/buy/info.do?cid=35295', 'data-jbox-width':edfsPopupWidth, 'data-jbox-height':edfsPopupHeight });
-				// rel="jbox" data-jbox-url="/buy/promo_legal_details.do?promoId=90166&locale=en_CA" data-jbox-width="500" data-jbox-height="450"
-			}		
-			jbox.checkDataAttributes();
-		});
-
-	}
-	wcdFooterResponsiveUpdate();
-	
-}
-</script>
 
 </div>
 </div>
@@ -10270,7 +9745,7 @@ if( window["responsiveBagAbTestOn"] != null && responsiveBagAbTestOn ) {
 <div id="footer_TextLinkNavigation">
 	<div id="footer_brand_region2"><!-- @TemplateContentLayout(templateRegionName:"gid.common.siteWide.brand.footers.region2") -->
 <div id="brandFooter_Region2">
-		<div id="brandftr4_10000510" class="clearfix"><!-- BEGIN Content Item File: /content/0009/938/486/cn9938486.html -->
+	<div id="brandftr4_10000510" class="clearfix"><!-- BEGIN Content Item File: /content/0009/938/486/cn9938486.html -->
 <div id="contentItemContainer10000510" class="9938486" >
 
 <style type="text/css">
@@ -10347,6 +9822,9 @@ if( window["responsiveBagAbTestOn"] != null && responsiveBagAbTestOn ) {
 #searchDexFooter .expFooter{
 	padding-left: 152px;
 }
+
+/*hide onesite search bar - added 9/1/15 */ 
+/*.brand-bar--top-links {display:none;}*/
 </style>
 
 <!-- Begin Pull Year from Personalization - DO NOT REMOVE est. 2014 -->
@@ -10413,8 +9891,9 @@ document.observe('personalizationData:ready', function() {
 	</div>
 
 	<div id="gfol-csFooter" class="clearfix">
-	<!--gfol cs footer-->
-		<a href="/customerService/info.do?cid=2136" onClick="return contentItemLink(this,'','GFOL_Footer_CustomerService');">Customer Service</a> | <a href="http://www.gap.com//customerService/info.do?cid=81264" onClick="return contentItemLink(this,'','GFOL_Footer_Returns');">Returns</a> | 1.844.GFS-ONLINE (1.844.437.6654) | <a href="/customerService/storeLocator.do" onClick="return contentItemLink(this,'','GFOL_Footer_StoreLocator');">Store Locator</a> | <a href="/browse/info.do?cid=46079" onClick="return contentItemLink(this,'','GFOL_Footer_GapCard');">GapCard</a> | <a href="https://eapply.gap.com/eapplygen2/load.do?cHash=711671167&subActionId=1000&cmpid=FTR_APL&siteCode=FTR_APL" target="_blank">Apply now and save today</a> | <a href="https://www.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1008&clientId=gap&langId=en&accountType=dualcard&cmpid=FTR_ACTIV" target="_blank">Activate card</a> | <a href="/customerService/info.do?cid=44651" onClick="return contentItemLink(this,'','GFOL_Footer_CardBenefits');">Review your card benefits</a> | <a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank">Pay my bill</a> | <a href="/customerService/info.do?cid=44651" onClick="return contentItemLink(this,'','GFOL_Footer_CardBenefits');">Review your card benefits</a> | <a href="http://www.gap.com/products/index.jsp">Site map</a></p>
+	
+		<p><a href="/customerService/info.do?cid=2136" onClick="return contentItemLink(this,'','GFOL_Footer_CustomerService');">Customer Service</a> | <a href="http://www.gap.com//customerService/info.do?cid=81264" onClick="return contentItemLink(this,'','GFOL_Footer_Returns');">Returns</a> | 1.844.GFS-ONLINE (1.844.437.6654) | <a href="/customerService/storeLocator.do" onClick="return contentItemLink(this,'','GFOL_Footer_StoreLocator');">Store Locator</a> | <a href="/browse/info.do?cid=46079" onClick="return contentItemLink(this,'','GFOL_Footer_GapCard');">GapCard</a> | <a href="https://eapply.gap.com/eapplygen2/load.do?cHash=711671167&subActionId=1000&cmpid=FTR_APL&siteCode=FTR_APL" target="_blank">Apply now and save today</a> | <a href="https://www.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1008&clientId=gap&langId=en&accountType=dualcard&cmpid=FTR_ACTIV" target="_blank">Activate card</a> | <a href="/customerService/info.do?cid=44651" onClick="return contentItemLink(this,'','GFOL_Footer_CardBenefits');">Review your card benefits</a> | <a href="https://www3.onlinecreditcenter6.com/consumergen2/login.do?subActionId=1000&clientId=gap&langId=en&accountType=plcc&cmpid=FTR_MNG_ACT" target="_blank">Pay my bill</a> | <a href="/customerService/info.do?cid=44651" onClick="return contentItemLink(this,'','GFOL_Footer_CardBenefits');">Review your card benefits</a> | <a href="http://www.gap.com/products/index.jsp">Site map</a></p>
+
 	</div>
 
 	<div id="gfol-copyRightFooter" class="clearfix">
@@ -10423,7 +9902,9 @@ document.observe('personalizationData:ready', function() {
 		<p><a href="/customerService/info.do?cid=1005563">Accessibility for Ontarians with Disabilities Act</a></p>
 		<p><a href="http://m.gap.com">gap.com mobile site</a></p>
 	</div>
+
 </div>
+
 <script type="text/javascript">
 function setDefaultGFOL(elem) {
 	if(elem.value==elem.defaultValue)elem.value='';
@@ -10508,9 +9989,8 @@ function validateFormGFOL()
 </div>
 <!-- END Content Item File: /content/0009/938/486/cn9938486.html -->
 </div>
-		<div id="brandftr5_10000511" class="clearfix"></div>
+	<div id="brandftr5_10000511" class="clearfix"></div>
 </div>
-
 </div>
 </div>
 <div id="footer_languageToggle">
@@ -10639,7 +10119,7 @@ function validateFormGFOL()
 	
 	<script type="text/javascript" src="/gid/js/common/layouts/en/reporting/sCode.js"></script>
 	 <script type="text/javascript">
-	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "9712387,10056633,9712387,9058692,9712385,9894771,9894937,9938486,10064395,10131156,9765554,10113691,10030539,9409544,9815677,9992930";
+	   reportingService.controller.viewManagers.commonViewManager.model.contentItemIdListReport = "9712387,10131063,9712387,9058692,9712385,9894771,9894937,9938486,10095841,10130952,10130955,10130957";
 	 </script>
 	
 	<noscript>
