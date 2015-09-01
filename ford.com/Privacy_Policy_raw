@@ -231,7 +231,7 @@ Starting <span id="pricingutils-6" >MSRP</span> $<span id="pricingutils-5" class
 <h4 class="name ">Mustang</h4>
 <ul class="quick-info">
 <li class="item">
-Starting <span id="pricingutils-8" >MSRP</span> $<span id="pricingutils-7" class="shop-pricing-price">23,800</span><sup class="disclaimer globalDisclaimerLink">1</sup>
+Starting <span id="pricingutils-8" >MSRP</span> $<span id="pricingutils-7" class="shop-pricing-price">23,895</span><sup class="disclaimer globalDisclaimerLink">1</sup>
 </li>
 </ul>
 </div>
@@ -303,7 +303,7 @@ Starting <span id="pricingutils-12" >MSRP</span> $<span id="pricingutils-11" cla
 <h4 class="name ">Escape</h4>
 <ul class="quick-info">
 <li class="item">
-Starting <span id="pricingutils-14" >MSRP</span> $<span id="pricingutils-13" class="shop-pricing-price">22,960</span><sup class="disclaimer globalDisclaimerLink">1</sup>
+Starting <span id="pricingutils-14" >MSRP</span> $<span id="pricingutils-13" class="shop-pricing-price">23,100</span><sup class="disclaimer globalDisclaimerLink">1</sup>
 </li>
 </ul>
 </div>
@@ -375,7 +375,7 @@ Starting <span id="pricingutils-20" >MSRP</span> $<span id="pricingutils-19" cla
 <h4 class="name ">Explorer</h4>
 <ul class="quick-info">
 <li class="item">
-Starting <span id="pricingutils-22" >MSRP</span> $<span id="pricingutils-21" class="shop-pricing-price">30,700</span><sup class="disclaimer globalDisclaimerLink">1</sup>
+Starting <span id="pricingutils-22" >MSRP</span> $<span id="pricingutils-21" class="shop-pricing-price">31,050</span><sup class="disclaimer globalDisclaimerLink">1</sup>
 </li>
 </ul>
 </div>
@@ -393,7 +393,7 @@ Starting <span id="pricingutils-22" >MSRP</span> $<span id="pricingutils-21" cla
 <h4 class="name ">Expedition</h4>
 <ul class="quick-info">
 <li class="item">
-Starting <span id="pricingutils-24" >MSRP</span> $<span id="pricingutils-23" class="shop-pricing-price">45,095</span><sup class="disclaimer globalDisclaimerLink">1</sup>
+Starting <span id="pricingutils-24" >MSRP</span> $<span id="pricingutils-23" class="shop-pricing-price">45,435</span><sup class="disclaimer globalDisclaimerLink">1</sup>
 </li>
 </ul>
 </div>
@@ -2131,7 +2131,7 @@ return s.pageName;
 }
 </script>
 <script type="text/javascript">
-td_site.pricing.registerAllPrices([{id:'pricingutils-1', msrp:'14,090' , az:'14,090', x:'14,090' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-3', msrp:'17,170' , az:'15,975', x:'16,679' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-5', msrp:'22,110' , az:'20,298', x:'21,205' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-7', msrp:'23,800' , az:'22,033', x:'23,010' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-9', msrp:'24,170' , az:'22,127', x:'23,120' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-11', msrp:'27,055' , az:'24,474', x:'25,587' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-13', msrp:'22,960' , az:'21,304', x:'22,246' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-15', msrp:'24,710' , az:'22,617', x:'23,631' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-17', msrp:'28,100' , az:'25,968', x:'27,121' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-19', msrp:'29,100' , az:'26,881', x:'28,075' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-21', msrp:'30,700' , az:'28,341', x:'29,601' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-23', msrp:'45,095' , az:'41,060', x:'42,914' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-25', msrp:'22,330' , az:'20,468', x:'21,384' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-27', msrp:'26,030' , az:'23,735', x:'24,802' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-29', msrp:'30,960' , az:'27,979', x:'29,252' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-31', msrp:'32,385' , az:'29,289', x:'30,621' , applicability:{az:true,fnx:true,prx:true,spx:true}}]);td_site.pricing.registerAllPlans([{id:'pricingutils-2', msrp:'14,090' , az:'14,090', x:'14,090' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-4', msrp:'17,170' , az:'15,975', x:'16,679' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-6', msrp:'22,110' , az:'20,298', x:'21,205' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-8', msrp:'23,800' , az:'22,033', x:'23,010' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-10', msrp:'24,170' , az:'22,127', x:'23,120' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-12', msrp:'27,055' , az:'24,474', x:'25,587' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-14', msrp:'22,960' , az:'21,304', x:'22,246' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-16', msrp:'24,710' , az:'22,617', x:'23,631' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-18', msrp:'28,100' , az:'25,968', x:'27,121' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-20', msrp:'29,100' , az:'26,881', x:'28,075' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-22', msrp:'30,700' , az:'28,341', x:'29,601' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-24', msrp:'45,095' , az:'41,060', x:'42,914' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-26', msrp:'22,330' , az:'20,468', x:'21,384' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-28', msrp:'26,030' , az:'23,735', x:'24,802' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-30', msrp:'30,960' , az:'27,979', x:'29,252' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-32', msrp:'32,385' , az:'29,289', x:'30,621' , applicability:{az:true,fnx:true,prx:true,spx:true}}]);
+td_site.pricing.registerAllPrices([{id:'pricingutils-1', msrp:'14,090' , az:'14,090', x:'14,090' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-3', msrp:'17,170' , az:'15,975', x:'16,679' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-5', msrp:'22,110' , az:'20,298', x:'21,205' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-7', msrp:'23,895' , az:'22,120', x:'23,101' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-9', msrp:'24,170' , az:'22,127', x:'23,120' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-11', msrp:'27,055' , az:'24,474', x:'25,587' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-13', msrp:'23,100' , az:'21,431', x:'22,379' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-15', msrp:'24,710' , az:'22,617', x:'23,631' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-17', msrp:'28,100' , az:'25,968', x:'27,121' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-19', msrp:'29,100' , az:'26,881', x:'28,075' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-21', msrp:'31,050' , az:'28,660', x:'29,936' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-23', msrp:'45,435' , az:'41,367', x:'43,234' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-25', msrp:'22,330' , az:'20,468', x:'21,384' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-27', msrp:'26,030' , az:'23,735', x:'24,802' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-29', msrp:'30,960' , az:'27,979', x:'29,252' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-31', msrp:'32,385' , az:'29,289', x:'30,621' , applicability:{az:true,fnx:true,prx:true,spx:true}}]);td_site.pricing.registerAllPlans([{id:'pricingutils-2', msrp:'14,090' , az:'14,090', x:'14,090' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-4', msrp:'17,170' , az:'15,975', x:'16,679' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-6', msrp:'22,110' , az:'20,298', x:'21,205' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-8', msrp:'23,895' , az:'22,120', x:'23,101' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-10', msrp:'24,170' , az:'22,127', x:'23,120' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-12', msrp:'27,055' , az:'24,474', x:'25,587' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-14', msrp:'23,100' , az:'21,431', x:'22,379' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-16', msrp:'24,710' , az:'22,617', x:'23,631' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-18', msrp:'28,100' , az:'25,968', x:'27,121' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-20', msrp:'29,100' , az:'26,881', x:'28,075' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-22', msrp:'31,050' , az:'28,660', x:'29,936' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-24', msrp:'45,435' , az:'41,367', x:'43,234' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-26', msrp:'22,330' , az:'20,468', x:'21,384' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-28', msrp:'26,030' , az:'23,735', x:'24,802' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-30', msrp:'30,960' , az:'27,979', x:'29,252' , applicability:{az:true,fnx:true,prx:true,spx:true}},{id:'pricingutils-32', msrp:'32,385' , az:'29,289', x:'30,621' , applicability:{az:true,fnx:true,prx:true,spx:true}}]);
 </script>
 <script type="text/javascript">
 jQuery(window).load(function() {
@@ -2157,9 +2157,9 @@ document.write(unescape("%3Cscript%20src='" +
 <!--
 Diagnostics
 wasadm01
-/proj/fordvehiclesusb
-fordvehiclesusb_1
-Mon Aug 31 15:22:38 EDT 2015
+/proj/fordvehiclesusa
+fordvehiclesusa_2
+Tue Sep 01 02:40:59 EDT 2015
 -->
 </body>
 </html>
