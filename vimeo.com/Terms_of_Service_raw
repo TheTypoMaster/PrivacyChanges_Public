@@ -15,8 +15,8 @@
  <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="Vimeo search">
 <link rel="logo" type="image/svg" href="https://f.vimeocdn.com/logo.svg">
  <title>Terms of Service on Vimeo</title>
-     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?780cf8f3a1">
-  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?10e30c8e">
+     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?b9b35a4f1d">
+  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?7585c93a">
  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/legal.min.css?5e6473a0">
      <style>
  #ribbon, .body_ribbon, .svg_ribbon, .default_lightbox header>.lightbox_heading, .default_lightbox .masthead, .default_lightbox.feather:before, .upload_progress .inner .bar, .vod_lightbox:before { background:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22500%22%3E%3Crect%20x%3D%220%22%20width%3D%2240%22%20height%3D%22100%25%22%20style%3D%22fill%3A%2328a1d8%22%2F%3E%3Crect%20x%3D%2240%22%20width%3D%2223%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23248bc7%22%2F%3E%3Crect%20x%3D%2263%22%20width%3D%2223%22%20height%3D%22100%25%22%20style%3D%22fill%3A%231e3955%22%2F%3E%3Crect%20x%3D%2286%22%20width%3D%223%22%20height%3D%22100%25%22%20style%3D%22fill%3A%232f5132%22%2F%3E%3Crect%20x%3D%2289%22%20width%3D%2215%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23416828%22%2F%3E%3Crect%20x%3D%22104%22%20width%3D%22151%22%20height%3D%22100%25%22%20style%3D%22fill%3A%237eaa29%22%2F%3E%3Crect%20x%3D%22255%22%20width%3D%223%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23dcbd42%22%2F%3E%3Crect%20x%3D%22258%22%20width%3D%2210%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23dcad27%22%2F%3E%3Crect%20x%3D%22268%22%20width%3D%228%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23e39a23%22%2F%3E%3Crect%20x%3D%22276%22%20width%3D%2232%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23cc554c%22%2F%3E%3Crect%20x%3D%22308%22%20width%3D%2226%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23ca473f%22%2F%3E%3Crect%20x%3D%22334%22%20width%3D%2270%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23a72834%22%2F%3E%3Crect%20x%3D%22404%22%20width%3D%2230%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23735675%22%2F%3E%3Crect%20x%3D%22434%22%20width%3D%2224%22%20height%3D%22100%25%22%20style%3D%22fill%3A%23653e66%22%2F%3E%3Crect%20x%3D%22458%22%20width%3D%2242%22%20height%3D%22100%25%22%20style%3D%22fill%3A%233b315b%22%2F%3E%3C%2Fsvg%3E%0A) repeat-x top left; }
@@ -24,7 +24,7 @@
    <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/js/player.js">
  <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/css/player.css">
   <script>
- var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.1\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css","player_url":"player.vimeo.com"};
+ var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.2\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css","player_url":"player.vimeo.com"};
  </script>
         <script>
  var googletag = googletag || {},
@@ -166,7 +166,7 @@
   </div><!-- /.topnav_desktop_wrapper -->
 </div>
   <script>
-!function(e,t){var o=t.getElementById("topnav_desktop"),n="ontouchstart"in e?"touchstart":e.PointerEvent?"pointerdown":e.MSPointerEvent?"MSPointerDown":"click";"click"!==n&&o.addEventListener(n,function(e){var t="img"===e.target.tagName.toLowerCase()?e.target.parentNode:e.target;t.classList.contains("topnav_has_dropdown")&&(e.preventDefault(),e.stopPropagation())},!1),e.vimeo=e.vimeo||{},vimeo.mobile=vimeo.mobile||{},Vimeo=vimeo.mobile||{},Vimeo.desktop_shared=Vimeo.desktop_shared||{},Vimeo.desktop_shared._s2ds=function(){t.cookie="opt_out_mobile=1;expires=Fri, 31 Dec 9999 23:59:59 GMT;domain="+vimeo.domain,e.location.reload()},Vimeo.desktop_shared._s2l=function(o){var n=o.value,a=new XMLHttpRequest;a.open("POST","/settings/locale"),a.setRequestHeader("X-Requested-With","XMLHttpRequest"),a.setRequestHeader("Content-type","application/x-www-form-urlencoded"),a.send("locale="+n+"&token="+vimeo.xsrft),a.onload=function(){200===a.status&&e.location.reload()}};var a="click",i="block",s="none",r=t.querySelector(".js-topnav_mobile_header_logo");r&&r.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault();var o=t.querySelector(".js-topnav_mobile_menu_main");o.style.display=i;var n=t.querySelector(".js-topnav_mobile_header_close");n.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),o.style.display=s});var r=t.querySelector(".js-topnav_mobile_menu_settings"),l=t.querySelector(".js-topnav_mobile_header_settings");l.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),r.style.display=i,o.style.display=s;var n=t.querySelector(".js-topnav_mobile_header_settins_close");n.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),r.style.display=s,o.style.display=i})})},!1)}(window,document);
+!function(e,t){e.vimeo=e.vimeo||{},vimeo.mobile=vimeo.mobile||{},Vimeo=vimeo.mobile||{},Vimeo.desktop_shared=Vimeo.desktop_shared||{};var o=t.getElementById("topnav_desktop"),n="ontouchstart"in e?"touchstart":e.PointerEvent?"pointerdown":e.MSPointerEvent?"MSPointerDown":"click";"click"!==n&&o.addEventListener(n,function(e){var t="img"===e.target.tagName.toLowerCase()?e.target.parentNode:e.target;t.classList.contains("topnav_has_dropdown")&&(e.preventDefault(),e.stopPropagation())},!1),Vimeo.desktop_shared._s2ds=function(){t.cookie="opt_out_mobile=1;expires=Fri, 31 Dec 9999 23:59:59 GMT;domain="+vimeo.domain,e.location.reload()},Vimeo.desktop_shared._s2l=function(t){var o=t.value,n=new XMLHttpRequest;n.open("POST","/settings/locale"),n.setRequestHeader("X-Requested-With","XMLHttpRequest"),n.setRequestHeader("Content-type","application/x-www-form-urlencoded"),n.send("locale="+o+"&token="+vimeo.xsrft),n.onload=function(){200===n.status&&e.location.reload()}};var a="click",s="block",i="none",r=t.querySelector(".js-topnav_mobile_header_logo");r&&r.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault();var o=t.querySelector(".js-topnav_mobile_menu_main");o.style.display=s;var n=t.querySelector(".js-topnav_mobile_header_close");n.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),o.style.display=i});var r=t.querySelector(".js-topnav_mobile_menu_settings"),l=t.querySelector(".js-topnav_mobile_header_settings");l.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),r.style.display=s,o.style.display=i;var n=t.querySelector(".js-topnav_mobile_header_settins_close");n.addEventListener(a,function(e){e.stopPropagation(),e.preventDefault(),r.style.display=i,o.style.display=s})})},!1),setTimeout(function(){function e(e){var t=new XMLHttpRequest;t.open("POST","/settings/nav"),t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.setRequestHeader("Content-type","application/x-www-form-urlencoded"),t.send("message_state="+e+"&token="+vimeo.xsrft),t.onload=function(){}}var o=t.getElementById("topnav_menu_avatar"),n=o.querySelector(".topnav_menu_avatar_bubble"),a=o.querySelector("#topnav_user_dropdown"),s=o.querySelector(".topnav_user_menu_message"),i=o.querySelector(".topnav_user_menu_message_close"),r=!1;s&&(n&&n.classList.add("on"),i.addEventListener("click",function(t){t.preventDefault(),t.stopPropagation(),s.classList.add("off"),setTimeout(function(){a.classList.remove("topnav_user_has_menu_message"),s.style.display="none"},1e3),e(2)},!1),o.addEventListener("mouseover",function(){r||(r=!0,n.classList.remove("on"),e(1))},!1))},1e3)}(window,document);
 </script>
  <div id="content">
    <div id="cols" >
@@ -448,8 +448,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active"><a href="https://vimeo.com/s/tbj">Add multiple email addresses</a> to your Vimeo account (to maintain those multiple personalities).</p>
- <p>You’ve gotta cover your nakedness somehow. Might we recommend a <a href="http://www.bustedtees.com/vimeo" target="_blank">Vimeo t-shirt</a>?</p>
+ <p class="active">You can upload videos to Vimeo <a href="/settings/apps">directly from Dropbox</a>! Drop it like there’s a box underneath it.</p>
+ <p><a href="/help/faq/managing-your-videos/video-settings#how-do-i-add-photos-to-my-video-page">Spruce up your video page</a> with production stills or random photos from your birthday party. Link straight from Instagram or Flickr.</p>
 </aside>
  </div>
 </footer>
@@ -591,7 +591,7 @@
   var CSS_DIR = 'https://f.vimeocdn.com/styles/css_opt/',
  JS_DIR = 'https://f.vimeocdn.com/js_opt/',
  IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
-  BUILD_HASH = 'aca55';
+  BUILD_HASH = 'bbf8b';
   var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"is_mobile":false});
  vimeo.config = _extend((vimeo.config || {}), []);
   var localeConfig = {
