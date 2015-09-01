@@ -3849,12 +3849,24 @@ header .nav__primary .main {
   font-size: 14px; 
   letter-spacing: .75px;
   }
-
+.banner-adults {
+	display: block;}  
+.banner-kids {
+	display: none;
+}
 </style> 
-<div class="header__gms-wrapper">
-	<p>LAST DAY: Up to 25% off your entire purchase + free shipping over $75. Use code: 10104 
+<div class="header__gms-wrapper banner-adults">
+	<p>Today, online only: up to 70% off outerwear, sweaters &amp; sweatshirts + free shipping over $75. 
 		<span>
-			<a class="legal promo-detail" href="/anf/media/legalText/viewDetailsText20150827_Tier_Ship.html">See Details</a>
+			<a class="legal promo-detail" href="/anf/media/legalText/viewDetailsText20150901_OuterwearUpTo70_Ship.html">See Details</a>
+		</span>
+	</p>
+
+</div>
+<div class="header__gms-wrapper banner-kids">
+	<p>All Kids Styles - Buy One Get One 50% Off. 
+		<span>
+			<a class="legal promo-detail" href="/anf/media/legalText/viewDetailsText20150901_BOGO_USCA.html">See Details</a>
 		</span>
 	</p>
 
