@@ -6,7 +6,7 @@
 <meta property='fb:admins' content='238929946895' /><meta property='og:site_name' content='AgWeb - The Home Page of Agriculture'/> 
 <meta property='og:locale' content='en_US' />  <title>
 	Terms & Conditions | Agweb.com
-</title><meta http-equiv="content-type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3299b8da75","applicationID":"4045309","transactionName":"ZlwAYBAECEAFUU1YXl8WI2cyShZSA1cXUEJBQQ==","queueTime":0,"applicationTime":258,"ttGuid":"7CEEC1223E45BB2E","agent":"js-agent.newrelic.com/nr-686.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><meta http-equiv="X-Frame-Options" content="allow" />
+</title><meta http-equiv="content-type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3299b8da75","applicationID":"4045309","transactionName":"ZlwAYBAECEAFUU1YXl8WI2cyShZSA1cXUEJBQQ==","queueTime":0,"applicationTime":224,"ttGuid":"1862D115BDE6EEE8","agent":"js-agent.newrelic.com/nr-686.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><meta http-equiv="X-Frame-Options" content="allow" />
 
 	<!-- Set viewport to device default -->
 	<meta name="HandheldFriendly" content="True" /><meta name="MobileOptimized" content="320" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="icon" href="/cms/images/favicon2.ico" type="image/x-icon" />
@@ -176,7 +176,7 @@ OAS_NORMAL(pos);}//-->
 		</div>
 		<div class="hdrBottom">
 			<div class="dateWrpr">
-				Monday, August 31, 2015
+				Tuesday, September 01, 2015
 			</div>
 			<div class="socialWrpr">
 				<ul class="socialList">
@@ -394,14 +394,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/254603_-_3.jpg?971066" id="CT_TopNavigation_0_rptNav_ctl00_imgPage" class="" alt="254603_-_3" />
+                                        <img src="/assets/1/19/drought-flood-weather.jpg?102697" id="CT_TopNavigation_0_rptNav_ctl00_imgPage" class="" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl00_lnkLatestNews" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl00_lnkLatestNews" class="more" href="/article/el-nino-in-pacific-seen-as-strongest-since-record-1997-98-event-blmg/">El Nino in Pacific Seen as Strongest Since Record 1997-98 Event</a>
                                         </h2>
                                         <span>By
-                                            Ben Potter</span>
+                                            Bloomberg</span>
                                     </div>
                                 </div>
                             </div>
@@ -411,26 +411,26 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl00_lnkHeadline" class="more" href="/article/abundant-grain-trains-available-for-north-dakota-harvest--NAA-associated-press/">Abundant Grain Trains Available for North Dakota Harvest </a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl00_lnkHeadline" class="more" href="/article/case-ih-unveils-2016-lineup-NAA-aimee-cope/">Case IH Unveils 2016 Lineup</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl01_lnkHeadline" class="more" href="/article/temporary-ban-on-hog-farms-in-river-watershed-approved-NAA-associated-press/">Temporary Ban on Hog Farms in River Watershed Approved</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl01_lnkHeadline" class="more" href="/article/small-grains-harvest-well-ahead-of-average-in-north-dakota-NAA-associated-press/">Small Grains Harvest Well Ahead of Average in North Dakota</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl02_lnkHeadline" class="more" href="/article/global-stocks-drop-in-worst-month-since-2012-blmg/">Global Stocks Drop in Worst Month Since 2012</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl00_rptNews_ctl02_lnkHeadline" class="more" href="/article/elkhart-ind-officials-want-tractor-displayed-in-yard-removed-NAA-associated-press/">Elkhart, Ind., Officials Want Tractor Displayed in Yard Removed</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
@@ -507,14 +507,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/254603_-_3.jpg?971066" id="CT_TopNavigation_0_rptNav_ctl01_imgPage" class="" alt="254603_-_3" />
+                                        <img src="/assets/1/19/drought-flood-weather.jpg?102697" id="CT_TopNavigation_0_rptNav_ctl01_imgPage" class="" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl01_lnkLatestNews" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl01_lnkLatestNews" class="more" href="/article/el-nino-in-pacific-seen-as-strongest-since-record-1997-98-event-blmg/">El Nino in Pacific Seen as Strongest Since Record 1997-98 Event</a>
                                         </h2>
                                         <span>By
-                                            Ben Potter</span>
+                                            Bloomberg</span>
                                     </div>
                                 </div>
                             </div>
@@ -524,26 +524,26 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl00_lnkHeadline" class="more" href="/article/abundant-grain-trains-available-for-north-dakota-harvest--NAA-associated-press/">Abundant Grain Trains Available for North Dakota Harvest </a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl00_lnkHeadline" class="more" href="/article/case-ih-unveils-2016-lineup-NAA-aimee-cope/">Case IH Unveils 2016 Lineup</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl01_lnkHeadline" class="more" href="/article/temporary-ban-on-hog-farms-in-river-watershed-approved-NAA-associated-press/">Temporary Ban on Hog Farms in River Watershed Approved</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl01_lnkHeadline" class="more" href="/article/small-grains-harvest-well-ahead-of-average-in-north-dakota-NAA-associated-press/">Small Grains Harvest Well Ahead of Average in North Dakota</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl02_lnkHeadline" class="more" href="/article/global-stocks-drop-in-worst-month-since-2012-blmg/">Global Stocks Drop in Worst Month Since 2012</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl01_rptNews_ctl02_lnkHeadline" class="more" href="/article/elkhart-ind-officials-want-tractor-displayed-in-yard-removed-NAA-associated-press/">Elkhart, Ind., Officials Want Tractor Displayed in Yard Removed</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
@@ -623,14 +623,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/global-world-money-finance.jpg?968728" id="CT_TopNavigation_0_rptNav_ctl02_imgPage" class="" alt="global-world-money-finance" />
+                                        <img src="/assets/1/19/ba040c32bf424e3db0b8aec8f0c600151.jpg?85032" id="CT_TopNavigation_0_rptNav_ctl02_imgPage" class="" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl02_lnkLatestNews" class="more" href="/article/global-stocks-drop-in-worst-month-since-2012-blmg/">Global Stocks Drop in Worst Month Since 2012</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl02_lnkLatestNews" class="more" href="/article/80-of-rented-ground-owned-by-non-farmers-NAA-ben-potter/">80% of Rented Ground Owned by Non-Farmers</a>
                                         </h2>
                                         <span>By
-                                            Bloomberg</span>
+                                            Ben Potter</span>
                                     </div>
                                 </div>
                             </div>
@@ -640,26 +640,26 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl00_lnkHeadline" class="more" href="/article/cattle-outlook-stock-market-impact-NAA-university-news-release/">Cattle Outlook: Stock Market Impact</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl00_lnkHeadline" class="more" href="/article/profit-tracker-feeding-margins-plummet-NAA-greg-henderson/">Profit Tracker: Feeding Margins Plummet</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl01_lnkHeadline" class="more" href="/article/if-the-options-market-is-right-chinas-stock-rescue-is-doomed-blmg/">If the Options Market Is Right, China’s Stock Rescue Is Doomed</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl01_lnkHeadline" class="more" href="/article/from-soaked-to-choked-midwest-corn-farms-showing-damage-signs-blmg/">From Soaked to Choked, Midwest Corn Farms Showing Damage Signs</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl02_lnkHeadline" class="more" href="/article/gulke-could-soybeans-slide-below-8-NAA-alison-rice/">Gulke: Could Soybeans Slide Below $8?</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl02_rptNews_ctl02_lnkHeadline" class="more" href="/article/china-seen-driving-commodities-lower-as-uncertainty-spreads-blmg/">China Seen Driving Commodities Lower as Uncertainty Spreads</a>
 
                                                     <span class="dateTime">
-                                                        Saturday, August 29, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
@@ -814,14 +814,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/254603_-_3.jpg?971066" id="CT_TopNavigation_0_rptNav_ctl03_imgPage" class="" alt="254603_-_3" />
+                                        <img src="/assets/1/19/drought-flood-weather.jpg?102697" id="CT_TopNavigation_0_rptNav_ctl03_imgPage" class="" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl03_lnkLatestNews" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl03_lnkLatestNews" class="more" href="/article/el-nino-in-pacific-seen-as-strongest-since-record-1997-98-event-blmg/">El Nino in Pacific Seen as Strongest Since Record 1997-98 Event</a>
                                         </h2>
                                         <span>By
-                                            Ben Potter</span>
+                                            Bloomberg</span>
                                     </div>
                                 </div>
                             </div>
@@ -831,7 +831,7 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl00_lnkHeadline" class="more" href="/article/warm-arctic-brews-severe-winters-from-us-to-asia-study-says-blmg/">Warm Arctic Brews Severe Winters From U.S. to Asia, Study Says</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl00_lnkHeadline" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
 
                                                     <span class="dateTime">
                                                         Monday, August 31, 2015
@@ -839,7 +839,7 @@ OAS_NORMAL(pos);}//-->
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl01_lnkHeadline" class="more" href="/article/when-the-wells-run-dry-california-neighbors-cope-in-drought-NAA-associated-press/">When the Wells Run Dry: California Neighbors Cope in Drought</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl01_lnkHeadline" class="more" href="/article/warm-arctic-brews-severe-winters-from-us-to-asia-study-says-blmg/">Warm Arctic Brews Severe Winters From U.S. to Asia, Study Says</a>
 
                                                     <span class="dateTime">
                                                         Monday, August 31, 2015
@@ -847,10 +847,10 @@ OAS_NORMAL(pos);}//-->
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl02_lnkHeadline" class="more" href="/article/the-latest-drought-headlines-from-california-europe-NAA-ben-potter/">The Latest Drought Headlines from California, Europe</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl03_rptNews_ctl02_lnkHeadline" class="more" href="/article/when-the-wells-run-dry-california-neighbors-cope-in-drought-NAA-associated-press/">When the Wells Run Dry: California Neighbors Cope in Drought</a>
 
                                                     <span class="dateTime">
-                                                        Wednesday, August 26, 2015
+                                                        Monday, August 31, 2015
                                                     </span>
                                                 </div>
                                             
@@ -990,11 +990,11 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/a9a219ae0d644e61853b4f111fc6ba261.jpg?99876" id="CT_TopNavigation_0_rptNav_ctl04_imgPage" class="" />
+                                        <img src="/assets/1/19/2015_Barley_Harvest.JPG?865527" id="CT_TopNavigation_0_rptNav_ctl04_imgPage" class="" alt="2015_Barley_Harvest" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl04_lnkLatestNews" class="more" href="/article/abundant-grain-trains-available-for-north-dakota-harvest--NAA-associated-press/">Abundant Grain Trains Available for North Dakota Harvest </a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl04_lnkLatestNews" class="more" href="/article/small-grains-harvest-well-ahead-of-average-in-north-dakota-NAA-associated-press/">Small Grains Harvest Well Ahead of Average in North Dakota</a>
                                         </h2>
                                         <span>By
                                             Associated Press</span>
@@ -1007,26 +1007,26 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl00_lnkHeadline" class="more" href="/article/tillage-play-the-hand-youre-dealt-NAA-ben-potter/">Tillage: "Play the Hand You're Dealt"</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl00_lnkHeadline" class="more" href="/article/heavy-rainfall-tarnishes-quality-of-illinois-wheat-crop-NAA-associated-press/">Heavy Rainfall Tarnishes Quality of Illinois Wheat Crop</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl01_lnkHeadline" class="more" href="/article/stink-bugs-other-pests-appearing-in-large-numbers-of-crops-in-arkansas-NAA-associated-press/">Stink Bugs, Other Pests Appearing in Large Numbers of Crops in Arkansas</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl01_lnkHeadline" class="more" href="/article/from-soaked-to-choked-midwest-corn-farms-showing-damage-signs-blmg/">From Soaked to Choked, Midwest Corn Farms Showing Damage Signs</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl02_lnkHeadline" class="more" href="/article/more-low-lignin-alfalfa-on-way-for-2016-NAA-dairy-today-editors/">More Low-Lignin Alfalfa on Way for 2016</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl04_rptNews_ctl02_lnkHeadline" class="more" href="/article/tremendous-potential-waiting-in-wheat-NAA-chris-bennett/">Tremendous Potential Waiting in Wheat</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
@@ -1108,14 +1108,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/6/eda402ad065b4d81bf225195b07542e71.JPG?62295" id="CT_TopNavigation_0_rptNav_ctl05_imgPage" class="" />
+                                        <img src="/assets/1/19/ba040c32bf424e3db0b8aec8f0c600151.jpg?85032" id="CT_TopNavigation_0_rptNav_ctl05_imgPage" class="" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl05_lnkLatestNews" class="more" href="/article/epa-seeks-177000-in-fines-from-tennessee-lawmaker-NAA-associated-press/">EPA Seeks $177,000 in Fines From Tennessee Lawmaker</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl05_lnkLatestNews" class="more" href="/article/80-of-rented-ground-owned-by-non-farmers-NAA-ben-potter/">80% of Rented Ground Owned by Non-Farmers</a>
                                         </h2>
                                         <span>By
-                                            Associated Press</span>
+                                            Ben Potter</span>
                                     </div>
                                 </div>
                             </div>
@@ -1125,7 +1125,15 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl00_lnkHeadline" class="more" href="/article/wotus-ruling-creates-confusion-NAA-alison-rice/">WOTUS Ruling Creates Confusion</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl00_lnkHeadline" class="more" href="/article/epa-seeks-177000-in-fines-from-tennessee-lawmaker-NAA-associated-press/">EPA Seeks $177,000 in Fines From Tennessee Lawmaker</a>
+
+                                                    <span class="dateTime">
+                                                        Saturday, August 29, 2015
+                                                    </span>
+                                                </div>
+                                            
+                                                <div class="currentNewsNav">
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl01_lnkHeadline" class="more" href="/article/wotus-ruling-creates-confusion-NAA-alison-rice/">WOTUS Ruling Creates Confusion</a>
 
                                                     <span class="dateTime">
                                                         Friday, August 28, 2015
@@ -1133,15 +1141,7 @@ OAS_NORMAL(pos);}//-->
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl01_lnkHeadline" class="more" href="/article/how-arc-plc-elections-shape-up-NAA-alison-rice/">How ARC, PLC Elections Shape Up</a>
-
-                                                    <span class="dateTime">
-                                                        Friday, August 28, 2015
-                                                    </span>
-                                                </div>
-                                            
-                                                <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl02_lnkHeadline" class="more" href="/article/new-agribusiness-nurtured-at-missouris-yield-lab-NAA-associated-press/">New Agribusiness Nurtured at Missouri's Yield Lab</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl05_rptNews_ctl02_lnkHeadline" class="more" href="/article/how-arc-plc-elections-shape-up-NAA-alison-rice/">How ARC, PLC Elections Shape Up</a>
 
                                                     <span class="dateTime">
                                                         Friday, August 28, 2015
@@ -1181,6 +1181,10 @@ OAS_NORMAL(pos);}//-->
             
             <li>
                 <a href="/machinery/machinery-pete-tv/" id="CT_TopNavigation_0_rptNav_ctl06_ccSubNav_rptSubNav_ctl01_rptSubSubNav_ctl02_lnkInner" style="">Machinery Pete TV</a>
+            </li>
+            
+            <li>
+                <a href="http://www.machinerypete.com/" id="CT_TopNavigation_0_rptNav_ctl06_ccSubNav_rptSubNav_ctl01_rptSubSubNav_ctl03_lnkInner" style="" target="_blank">MachineryPete.com</a>
             </li>
             
             </ul>
@@ -1250,14 +1254,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/19/254603_-_3.jpg?971066" id="CT_TopNavigation_0_rptNav_ctl06_imgPage" class="" alt="254603_-_3" />
+                                        <img src="/assets/1/19/140_Series_Combine_Family_0354_10-14_mr.jpg?973191" id="CT_TopNavigation_0_rptNav_ctl06_imgPage" class="" alt="140_Series_Combine_Family_0354_10-14_mr" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl06_lnkLatestNews" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl06_lnkLatestNews" class="more" href="/article/case-ih-unveils-2016-lineup-NAA-aimee-cope/">Case IH Unveils 2016 Lineup</a>
                                         </h2>
                                         <span>By
-                                            Ben Potter</span>
+                                            Aimee Cope</span>
                                     </div>
                                 </div>
                             </div>
@@ -1267,7 +1271,15 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl00_lnkHeadline" class="more" href="/article/tillage-play-the-hand-youre-dealt-NAA-ben-potter/">Tillage: "Play the Hand You're Dealt"</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl00_lnkHeadline" class="more" href="/article/elkhart-ind-officials-want-tractor-displayed-in-yard-removed-NAA-associated-press/">Elkhart, Ind., Officials Want Tractor Displayed in Yard Removed</a>
+
+                                                    <span class="dateTime">
+                                                        Tuesday, September 1, 2015
+                                                    </span>
+                                                </div>
+                                            
+                                                <div class="currentNewsNav">
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl01_lnkHeadline" class="more" href="/article/the-tornado-tore-down-but-claas-rebuilds-NAA-ben-potter/">The Tornado Tore Down, but CLAAS Rebuilds</a>
 
                                                     <span class="dateTime">
                                                         Monday, August 31, 2015
@@ -1275,18 +1287,10 @@ OAS_NORMAL(pos);}//-->
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl01_lnkHeadline" class="more" href="/article/interest-in-drones-soars-at-wisconsin-farm-technology-days-NAA-associated-press/">Interest in Drones Soars at Wisconsin Farm Technology Days</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl02_lnkHeadline" class="more" href="/article/tillage-play-the-hand-youre-dealt-NAA-ben-potter/">Tillage: "Play the Hand You're Dealt"</a>
 
                                                     <span class="dateTime">
                                                         Monday, August 31, 2015
-                                                    </span>
-                                                </div>
-                                            
-                                                <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl06_rptNews_ctl02_lnkHeadline" class="more" href="/article/meet-the-next-generation-of-low-flow-drippers-NAA-chris-bennett/">Meet the Next Generation of Low-Flow Drippers</a>
-
-                                                    <span class="dateTime">
-                                                        Sunday, August 30, 2015
                                                     </span>
                                                 </div>
                                             
@@ -1375,14 +1379,14 @@ OAS_NORMAL(pos);}//-->
                             <div class="grid_4">
                                 <div class="bucketImageWrpr">
                                     <div class="bucketImage">
-                                        <img src="/assets/1/6/6fa702d890d5460bb4fbbf342d42cc941.JPG?968050" id="CT_TopNavigation_0_rptNav_ctl07_imgPage" class="" alt="barn_hog_pig" />
+                                        <img src="/assets/1/19/BT_Feedlot_Cattle_Texas2.JPG?973165" id="CT_TopNavigation_0_rptNav_ctl07_imgPage" class="" alt="BT_Feedlot_Cattle_Texas" />
                                     </div>
                                     <div class="bucketOverlay">
                                         <h2>
-                                            <a id="CT_TopNavigation_0_rptNav_ctl07_lnkLatestNews" class="more" href="/article/temporary-ban-on-hog-farms-in-river-watershed-approved-NAA-associated-press/">Temporary Ban on Hog Farms in River Watershed Approved</a>
+                                            <a id="CT_TopNavigation_0_rptNav_ctl07_lnkLatestNews" class="more" href="/article/profit-tracker-feeding-margins-plummet-NAA-greg-henderson/">Profit Tracker: Feeding Margins Plummet</a>
                                         </h2>
                                         <span>By
-                                            Associated Press</span>
+                                            Greg Henderson</span>
                                     </div>
                                 </div>
                             </div>
@@ -1392,23 +1396,23 @@ OAS_NORMAL(pos);}//-->
                                         <h3>Current News</h3>
                                         
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl00_lnkHeadline" class="more" href="/article/south-dakota-turkey-farms-hit-by-bird-flu-restocked-recovering--NAA-associated-press/">South Dakota Turkey Farms Hit by Bird Flu Restocked, Recovering </a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl00_lnkHeadline" class="more" href="/article/lower-pork-costs-also-driven-by-lower-soybean-meal-costs-NAA-university-news-release/">Lower Pork Costs Also Driven by Lower Soybean Meal Costs</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl01_lnkHeadline" class="more" href="/article/cattle-outlook-stock-market-impact-NAA-university-news-release/">Cattle Outlook: Stock Market Impact</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl01_lnkHeadline" class="more" href="/article/tremendous-potential-waiting-in-wheat-NAA-chris-bennett/">Tremendous Potential Waiting in Wheat</a>
 
                                                     <span class="dateTime">
-                                                        Monday, August 31, 2015
+                                                        Tuesday, September 1, 2015
                                                     </span>
                                                 </div>
                                             
                                                 <div class="currentNewsNav">
-                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl02_lnkHeadline" class="more" href="/article/more-low-lignin-alfalfa-on-way-for-2016-NAA-dairy-today-editors/">More Low-Lignin Alfalfa on Way for 2016</a>
+                                                    <a id="CT_TopNavigation_0_rptNav_ctl07_rptNews_ctl02_lnkHeadline" class="more" href="/article/ag-professional-teaches-educators-students-about-farms-NAA-associated-press/">Ag Professional Teaches Educators, Students About Farms</a>
 
                                                     <span class="dateTime">
                                                         Monday, August 31, 2015
@@ -1728,11 +1732,11 @@ OAS_AD('Top1');
 		
 			<li><a href="/article/behind_farm_policy_income_of_farm_vs_nonfarm_population/">Behind Farm Policy: Income of Farm vs. Nonfarm Population</a></li>
 		
-			<li><a href="/article/have_farmers_lost_trust_in_usda/">Have Farmers Lost Trust In USDA?</a></li>
-		
 			<li><a href="/article/ethanol_mandate_battle_begins_but_ethanol_here_to_stay/">Ethanol Mandate Battle Begins, but Ethanol Here to Stay</a></li>
 		
 			<li><a href="/article/gulke-farmers-must-evaluate-their-cost-of-living-NAA-nate-birt/"></a></li>
+		
+			<li><a href="/article/have_farmers_lost_trust_in_usda/">Have Farmers Lost Trust In USDA?</a></li>
 		
 			<li><a href="/article/machinery-petes-top-10-classic-tractors-greg-peterson/"></a></li>
 		
@@ -1950,8 +1954,8 @@ OAS_AD('x03');
 <div class="aspNetHidden">
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3989C74E" />
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABaEAWGatG5fail16VBQ2PrZvOTpRsWy/YUFOCU39Xd7HJ8n5OzMP3y6+8jQ0kRlCTi4gPrwA8bfpx5+wld1TYj9nVPLl6jpQ/PdPNnJNz42kYs3iM26+p9KZddXEYZZA7HH+lPKQbDPelUNPuKbv/+d6vH8n9rE9cAFFBaZd+N+nMhL23QMWEKeEtSKdxvdFG7zrKcg4br7vJ6hZl8qXarZrSyPv2mcFzq/ZktIP/Cl/AL1ppqTNujWOhVfeTzgTPbjl0DcuM2i6kxcp6C6YQ5peoNBbUYHbPSnvF9cxJVkK5AptyG4AtDYhltoxq7GGiTGmA+1JP8HzIGd494BF4eFW5x7XhzzKbqUbgpMgfU09eQhiMDah+Vtk7ZPIUL9t4nCNYuS2cXm0OtRV0mdUWHbN0iyNaRNPMwE/ZUTy/+5ADSjl9WTV5D7x/1KEgz6HMv2UZmRJZf1+ngJIhF7gOaLotTbA282/wALxU6BC1TpZqXLtzg=" />
-</div><div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNzk4MzI1MzYPZBYCZg9kFgICBA9kFgICAQ9kFgYCBQ9kFgICAQ9kFgRmD2QWBGYPFgIeBGhyZWYFFGh0dHA6Ly93d3cuYWd3ZWIuY29tZAIBDxAPFgYeDURhdGFUZXh0RmllbGQFBE5hbWUeDkRhdGFWYWx1ZUZpZWxkBQNVcmweC18hRGF0YUJvdW5kZ2QQFREdVmlzaXQgYWxsIEZhcm0gSm91cm5hbCBicmFuZHMJQWcgRGF5IFRWCEFncmlUYWxrCUFnV2ViLmNvbQpCZWVmIFRvZGF5E0NhdHRsZS1FeGNoYW5nZS5jb20QQ29tbW9kaXR5IFVwZGF0ZQtEYWlyeSBUb2RheQxGYXJtIEpvdXJuYWwXRmFybSBKb3VybmFsIEZvdW5kYXRpb24OTGVnYWN5IFByb2plY3QOTWFjaGluZXJ5IFBldGUSTWFya2V0IFJhbGx5IFJhZGlvClBybyBGYXJtZXIMVG9wIFByb2R1Y2VyHlRvcCBQcm9kdWNlciBFeGVjdXRpdmUgTmV0d29yaw5VUyBGYXJtIFJlcG9ydBURAAcvYWdkYXkvCi9hZ3JpdGFsay8BLxAvbGl2ZXN0b2NrL2JlZWYvHmh0dHA6Ly93d3cuY2F0dGxlLWV4Y2hhbmdlLmNvbRpodHRwOi8vY29tbW9kaXR5dXBkYXRlLmNvbREvbGl2ZXN0b2NrL2RhaXJ5Lw0vZmFybWpvdXJuYWwvJWh0dHA6Ly93d3cuZmFybWVyc2ZlZWRpbmd0aGV3b3JsZC5jb20oaHR0cDovL3d3dy5mYXJtam91cm5hbGxlZ2FjeXByb2plY3QuY29tLxhodHRwOi8vbWFjaGluZXJ5cGV0ZS5jb20OL21hcmtldC1yYWxseS8YaHR0cDovL3d3dy5wcm9mYXJtZXIuY29tDi90b3AtcHJvZHVjZXIvImh0dHA6Ly93d3cudHBleGVjdXRpdmVuZXR3b3JrLmNvbS8GL3VzZnIvFCsDEWdnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAICDxYCHgdWaXNpYmxlaBYCZg9kFgQCAg8QDxYGHwEFBE5hbWUfAgUHQnJhbmRJZB8DZ2QQFRkJQWcgRGF5IFRWCEFncmlUYWxrCUFnV2ViLmNvbRJBZ1dlYkFwcEZpbmRlci5jb20KQmVlZiBUb2RheRNDYXR0bGUtRXhjaGFuZ2UuY29tEENvbW1vZGl0eSBVcGRhdGULRGFpcnkgVG9kYXkMRmFybSBKb3VybmFsF0Zhcm0gSm91cm5hbCBGb3VuZGF0aW9uEkZhcm0gSm91cm5hbCBNZWRpYRlGYXJtZXJzIEZlZWRpbmcgdGhlIFdvcmxkDkZhcm1pbmcgR3VpZGVzDkxlZ2FjeSBQcm9qZWN0Dk1hY2hpbmVyeSBQZXRlEk1hcmtldCBSYWxseSBSYWRpbw1NeSBGYXJtIFJhZGlvDU15IEZhcm0gUmFkaW8KUHJvIEZhcm1lchZUaGUgQWdyaWN1bHR1cmUgTGV0dGVyDFRvcCBQcm9kdWNlch5Ub3AgUHJvZHVjZXIgRXhlY3V0aXZlIE5ldHdvcmsNVFBFeE5ldCBHcm91cA5UUEV4TmV0IFBhcmVudA5VUyBGYXJtIFJlcG9ydBUZATgCNTUBMQM4MzUBNgIxMAI2MQE1ATIDODMxAjEyAjQxAjYwATMCNjICNDADODMyAzgzNAE3AzgzMwE0AjU0AjU5AjU4ATkUKwMZZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCBA9kFgJmD2QWAmYPZBYGAgEPEGRkFgBkAgMPEGRkFgBkAgkPEGRkFgBkAg8PZBYCAgEPZBYCZg8WAh4EVGV4dAU+PGRpdiBjbGFzcz0icGFnZWhlYWRpbmciPjxoMT5UZXJtcyAmYW1wOyBDb25kaXRpb25zPC9oMT48L2Rpdj5kAhMPZBYCZg9kFgJmDw9kFgIeBWNsYXNzBRdidWNrZXQgZ3JheSBub01heEhlaWdodBYEAgEPZBYCZg8PFgIfBGhkZAIDD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIKFhRmD2QWAgIBDxYCHwUFXjxhIGhyZWY9Ii9hcnRpY2xlL3doZXJlX2RpZF90aGVfY29ybl9hY3Jlc19jb21lX2Zyb20vIj5XaGVyZSBEaWQgdGhlIENvcm4gQWNyZXMgQ29tZSBGcm9tPzwvYT5kAgEPZBYCAgEPFgIfBQVEPGEgaHJlZj0iL2FydGljbGUvdGhlLTIwLWJlc3QtdW5pdmVyc2l0eS1mYXJtcy1OQUEtYmVuLXBvdHRlci8iPjwvYT5kAgIPZBYCAgEPFgIfBQVgPGEgaHJlZj0iL2FydGljbGUvZmFybWVycy1tdXN0LWVtYnJhY2UtdHJhbnNwYXJlbmN5LWluLWZvb2QtcHJvZHVjdGlvbi1OQUEtamVhbm5lLWJlcm5pY2svIj48L2E+ZAIDD2QWAgIBDxYCHwUFZTxhIGhyZWY9Ii9hcnRpY2xlL2Zhcm1sYW5kLXBhcnRuZXJzLWluYy10by1wdXJjaGFzZS0xNTA0Mi1hY3Jlcy1mb3ItNDk4LW1pbGxpb24tTkFBLWJlbi1wb3R0ZXIvIj48L2E+ZAIED2QWAgIBDxYCHwUFiQE8YSBocmVmPSIvYXJ0aWNsZS9iZWhpbmRfZmFybV9wb2xpY3lfaW5jb21lX29mX2Zhcm1fdnNfbm9uZmFybV9wb3B1bGF0aW9uLyI+QmVoaW5kIEZhcm0gUG9saWN5OiBJbmNvbWUgb2YgRmFybSB2cy4gTm9uZmFybSBQb3B1bGF0aW9uPC9hPmQCBQ9kFgICAQ8WAh8FBVg8YSBocmVmPSIvYXJ0aWNsZS9oYXZlX2Zhcm1lcnNfbG9zdF90cnVzdF9pbl91c2RhLyI+SGF2ZSBGYXJtZXJzIExvc3QgVHJ1c3QgSW4gVVNEQT88L2E+ZAIGD2QWAgIBDxYCHwUFhgE8YSBocmVmPSIvYXJ0aWNsZS9ldGhhbm9sX21hbmRhdGVfYmF0dGxlX2JlZ2luc19idXRfZXRoYW5vbF9oZXJlX3RvX3N0YXkvIj5FdGhhbm9sIE1hbmRhdGUgQmF0dGxlIEJlZ2lucywgYnV0IEV0aGFub2wgSGVyZSB0byBTdGF5PC9hPmQCBw9kFgICAQ8WAh8FBVc8YSBocmVmPSIvYXJ0aWNsZS9ndWxrZS1mYXJtZXJzLW11c3QtZXZhbHVhdGUtdGhlaXItY29zdC1vZi1saXZpbmctTkFBLW5hdGUtYmlydC8iPjwvYT5kAggPZBYCAgEPFgIfBQVOPGEgaHJlZj0iL2FydGljbGUvbWFjaGluZXJ5LXBldGVzLXRvcC0xMC1jbGFzc2ljLXRyYWN0b3JzLWdyZWctcGV0ZXJzb24vIj48L2E+ZAIJD2QWAgIBDxYCHwUFQjxhIGhyZWY9Ii9hcnRpY2xlL3RpbWUtdG8tcGVuY2lsLWluLTQyNS1jb3JuLU5BQS1iZW4tcG90dGVyLyI+PC9hPmQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFDUNUX01haW5fMCRmY2tqA7IG2qNxakfct+rfcUP45LZNlg==" /></div></form>
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABaNy21vJulezu3n1iod/4DovOTpRsWy/YUFOCU39Xd7HJ8n5OzMP3y6+8jQ0kRlCTi4gPrwA8bfpx5+wld1TYj9nVPLl6jpQ/PdPNnJNz42kYs3iM26+p9KZddXEYZZA7HH+lPKQbDPelUNPuKbv/+d6vH8n9rE9cAFFBaZd+N+nMhL23QMWEKeEtSKdxvdFG7zrKcg4br7vJ6hZl8qXarZrSyPv2mcFzq/ZktIP/Cl/AL1ppqTNujWOhVfeTzgTPbjl0DcuM2i6kxcp6C6YQ5peoNBbUYHbPSnvF9cxJVkK5AptyG4AtDYhltoxq7GGiTGmA+1JP8HzIGd494BF4eFW5x7XhzzKbqUbgpMgfU09eQhiMDah+Vtk7ZPIUL9t4nCNYuS2cXm0OtRV0mdUWHbN0iyNaRNPMwE/ZUTy/+5ADSjl9WTV5D7x/1KEgz6HMv2UZmRJZf1+ngJIhF7gOaL9Yck4R4l3W5iM+gDDlt7wzqYu8A=" />
+</div><div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNzk4MzI1MzYPZBYCZg9kFgICBA9kFgICAQ9kFgYCBQ9kFgICAQ9kFgRmD2QWBGYPFgIeBGhyZWYFFGh0dHA6Ly93d3cuYWd3ZWIuY29tZAIBDxAPFgYeDURhdGFUZXh0RmllbGQFBE5hbWUeDkRhdGFWYWx1ZUZpZWxkBQNVcmweC18hRGF0YUJvdW5kZ2QQFREdVmlzaXQgYWxsIEZhcm0gSm91cm5hbCBicmFuZHMJQWcgRGF5IFRWCEFncmlUYWxrCUFnV2ViLmNvbQpCZWVmIFRvZGF5E0NhdHRsZS1FeGNoYW5nZS5jb20QQ29tbW9kaXR5IFVwZGF0ZQtEYWlyeSBUb2RheQxGYXJtIEpvdXJuYWwXRmFybSBKb3VybmFsIEZvdW5kYXRpb24OTGVnYWN5IFByb2plY3QOTWFjaGluZXJ5IFBldGUSTWFya2V0IFJhbGx5IFJhZGlvClBybyBGYXJtZXIMVG9wIFByb2R1Y2VyHlRvcCBQcm9kdWNlciBFeGVjdXRpdmUgTmV0d29yaw5VUyBGYXJtIFJlcG9ydBURAAcvYWdkYXkvCi9hZ3JpdGFsay8BLxAvbGl2ZXN0b2NrL2JlZWYvHmh0dHA6Ly93d3cuY2F0dGxlLWV4Y2hhbmdlLmNvbRpodHRwOi8vY29tbW9kaXR5dXBkYXRlLmNvbREvbGl2ZXN0b2NrL2RhaXJ5Lw0vZmFybWpvdXJuYWwvJWh0dHA6Ly93d3cuZmFybWVyc2ZlZWRpbmd0aGV3b3JsZC5jb20oaHR0cDovL3d3dy5mYXJtam91cm5hbGxlZ2FjeXByb2plY3QuY29tLxhodHRwOi8vbWFjaGluZXJ5cGV0ZS5jb20OL21hcmtldC1yYWxseS8YaHR0cDovL3d3dy5wcm9mYXJtZXIuY29tDi90b3AtcHJvZHVjZXIvImh0dHA6Ly93d3cudHBleGVjdXRpdmVuZXR3b3JrLmNvbS8GL3VzZnIvFCsDEWdnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAICDxYCHgdWaXNpYmxlaBYCZg9kFgQCAg8QDxYGHwEFBE5hbWUfAgUHQnJhbmRJZB8DZ2QQFRoJQWcgRGF5IFRWCEFncmlUYWxrCUFnV2ViLmNvbRJBZ1dlYkFwcEZpbmRlci5jb20KQmVlZiBUb2RheRNDYXR0bGUtRXhjaGFuZ2UuY29tEENvbW1vZGl0eSBVcGRhdGULRGFpcnkgVG9kYXkMRmFybSBKb3VybmFsF0Zhcm0gSm91cm5hbCBGb3VuZGF0aW9uEkZhcm0gSm91cm5hbCBNZWRpYRlGYXJtZXJzIEZlZWRpbmcgdGhlIFdvcmxkDkZhcm1pbmcgR3VpZGVzDklucHV0cyBNb25pdG9yDkxlZ2FjeSBQcm9qZWN0Dk1hY2hpbmVyeSBQZXRlEk1hcmtldCBSYWxseSBSYWRpbw1NeSBGYXJtIFJhZGlvDU15IEZhcm0gUmFkaW8KUHJvIEZhcm1lchZUaGUgQWdyaWN1bHR1cmUgTGV0dGVyDFRvcCBQcm9kdWNlch5Ub3AgUHJvZHVjZXIgRXhlY3V0aXZlIE5ldHdvcmsNVFBFeE5ldCBHcm91cA5UUEV4TmV0IFBhcmVudA5VUyBGYXJtIFJlcG9ydBUaATgCNTUBMQM4MzUBNgIxMAI2MQE1ATIDODMxAjEyAjQxAjYwAzgzNgEzAjYyAjQwAzgzMgM4MzQBNwM4MzMBNAI1NAI1OQI1OAE5FCsDGmdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAIED2QWAmYPZBYCZg9kFgYCAQ8QZGQWAGQCAw8QZGQWAGQCCQ8QZGQWAGQCDw9kFgICAQ9kFgJmDxYCHgRUZXh0BT48ZGl2IGNsYXNzPSJwYWdlaGVhZGluZyI+PGgxPlRlcm1zICZhbXA7IENvbmRpdGlvbnM8L2gxPjwvZGl2PmQCEw9kFgJmD2QWAmYPD2QWAh4FY2xhc3MFF2J1Y2tldCBncmF5IG5vTWF4SGVpZ2h0FgQCAQ9kFgJmDw8WAh8EaGRkAgMPZBYCAgEPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCAgEPFgIfBQVePGEgaHJlZj0iL2FydGljbGUvd2hlcmVfZGlkX3RoZV9jb3JuX2FjcmVzX2NvbWVfZnJvbS8iPldoZXJlIERpZCB0aGUgQ29ybiBBY3JlcyBDb21lIEZyb20/PC9hPmQCAQ9kFgICAQ8WAh8FBUQ8YSBocmVmPSIvYXJ0aWNsZS90aGUtMjAtYmVzdC11bml2ZXJzaXR5LWZhcm1zLU5BQS1iZW4tcG90dGVyLyI+PC9hPmQCAg9kFgICAQ8WAh8FBWA8YSBocmVmPSIvYXJ0aWNsZS9mYXJtZXJzLW11c3QtZW1icmFjZS10cmFuc3BhcmVuY3ktaW4tZm9vZC1wcm9kdWN0aW9uLU5BQS1qZWFubmUtYmVybmljay8iPjwvYT5kAgMPZBYCAgEPFgIfBQVlPGEgaHJlZj0iL2FydGljbGUvZmFybWxhbmQtcGFydG5lcnMtaW5jLXRvLXB1cmNoYXNlLTE1MDQyLWFjcmVzLWZvci00OTgtbWlsbGlvbi1OQUEtYmVuLXBvdHRlci8iPjwvYT5kAgQPZBYCAgEPFgIfBQWJATxhIGhyZWY9Ii9hcnRpY2xlL2JlaGluZF9mYXJtX3BvbGljeV9pbmNvbWVfb2ZfZmFybV92c19ub25mYXJtX3BvcHVsYXRpb24vIj5CZWhpbmQgRmFybSBQb2xpY3k6IEluY29tZSBvZiBGYXJtIHZzLiBOb25mYXJtIFBvcHVsYXRpb248L2E+ZAIFD2QWAgIBDxYCHwUFhgE8YSBocmVmPSIvYXJ0aWNsZS9ldGhhbm9sX21hbmRhdGVfYmF0dGxlX2JlZ2luc19idXRfZXRoYW5vbF9oZXJlX3RvX3N0YXkvIj5FdGhhbm9sIE1hbmRhdGUgQmF0dGxlIEJlZ2lucywgYnV0IEV0aGFub2wgSGVyZSB0byBTdGF5PC9hPmQCBg9kFgICAQ8WAh8FBVc8YSBocmVmPSIvYXJ0aWNsZS9ndWxrZS1mYXJtZXJzLW11c3QtZXZhbHVhdGUtdGhlaXItY29zdC1vZi1saXZpbmctTkFBLW5hdGUtYmlydC8iPjwvYT5kAgcPZBYCAgEPFgIfBQVYPGEgaHJlZj0iL2FydGljbGUvaGF2ZV9mYXJtZXJzX2xvc3RfdHJ1c3RfaW5fdXNkYS8iPkhhdmUgRmFybWVycyBMb3N0IFRydXN0IEluIFVTREE/PC9hPmQCCA9kFgICAQ8WAh8FBU48YSBocmVmPSIvYXJ0aWNsZS9tYWNoaW5lcnktcGV0ZXMtdG9wLTEwLWNsYXNzaWMtdHJhY3RvcnMtZ3JlZy1wZXRlcnNvbi8iPjwvYT5kAgkPZBYCAgEPFgIfBQVCPGEgaHJlZj0iL2FydGljbGUvdGltZS10by1wZW5jaWwtaW4tNDI1LWNvcm4tTkFBLWJlbi1wb3R0ZXIvIj48L2E+ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUNQ1RfTWFpbl8wJGZja4mqP1KqywT4AL4NVzJoFyfmRwiE" /></div></form>
 
 <!-- Start Quantcast tag -->
 <script type="text/javascript"> 
