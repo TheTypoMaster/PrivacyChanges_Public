@@ -1281,7 +1281,7 @@ $(document).ready(function(){
 <div id="air-shopping-widget-mainContent">
 	<div id="air-shopping-widget">
 		<div class="widget-body">
-			<div class="hideDisplay" id="serverDate">2015-7-31</div>
+			<div class="hideDisplay" id="serverDate">2015-8-1</div>
 			<div class="hideDisplay" id="recentSavedFlag">
 				
 			</div>
@@ -1526,7 +1526,7 @@ $(document).ready(function(){
 	<form id="searchHotelWidgetForm" method="post" action="https://www.delta.com/merch/searchHotelAction.action" class="customFormUI">
 		
 		<div id="bookTrip" class="alpha">
-			<div class="hideElement" id="serverDateHotel">2015-08-31</div>
+			<div class="hideElement" id="serverDateHotel">2015-09-01</div>
 			<div id="dateText"
 
  class="hideElement"
@@ -1794,7 +1794,7 @@ $(document).ready(function(){
 
 <div id="CarWidgetContainer">
 	<form id="searchCarWidgetForm" method="post" action="https://www.delta.com/merch/searchCarAction.action" class="customFormUI">
-		<div class="hideElement" id="serverDateCar">2015-08-31</div>
+		<div class="hideElement" id="serverDateCar">2015-09-01</div>
 		<div id="dateText"
 
  class="hideElement"
@@ -3868,7 +3868,7 @@ $(document).ready(function(){
 <!--
 More detailed timing info is available by uncommenting some code in the timing.jsp component
 Timing chart URL:
-http://chart.apis.google.com/chart?chtt=terms-of-use.html+%28126ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,126,0,126&chxr=0,0,126&chd=t:2,3,3,17,18,19,20,20,20,20,41,44,44,45,45,45,46,46,47,112,113,116,116|17,0,13,2,1,1,0,0,20,20,3,0,2,0,0,0,0,66,65,4,3,0,10&chly=head.jsp|init.jsp|libIncludes.jsp|servicelibs.jsp|headlibs.jsp|personalization.jsp|clientcontext.jsp|redirect.jsp|header.jsp|header.jsp|interactivebreadcrumb.jsp|title.jsp|content.jsp|textJavascript.jsp|text.jsp|parsys.jsp|parsys.jsp|widgetnavigation.jsp|widgetnavigation.jsp|footer.jsp|footer.jsp|disclaimer.jsp|footerJS.jsp&chs=600x500
+http://chart.apis.google.com/chart?chtt=terms-of-use.html+%28145ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,145,0,145&chxr=0,0,145&chd=t:4,5,5,20,22,24,25,25,26,26,52,55,55,56,57,57,59,59,61,127,128,136,136|19,0,14,3,1,1,0,1,25,25,3,0,4,1,0,0,0,68,66,9,7,0,9&chly=head.jsp|init.jsp|libIncludes.jsp|servicelibs.jsp|headlibs.jsp|personalization.jsp|clientcontext.jsp|redirect.jsp|header.jsp|header.jsp|interactivebreadcrumb.jsp|title.jsp|content.jsp|parsys.jsp|textJavascript.jsp|text.jsp|parsys.jsp|widgetnavigation.jsp|widgetnavigation.jsp|footer.jsp|footer.jsp|disclaimer.jsp|footerJS.jsp&chs=600x500
 -->
 
 
@@ -3927,7 +3927,7 @@ CQ_Analytics.CCM.addListener("storesinitialize", function(e) {
 if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
 //-->
 </script>
-<noscript><img src="https://delta.112.2o7.net/b/ss/deltacom2/1/H.25--NS/1441056328363?cdp=2&amp;gn=content%3Awww%3Aen_US%3Alegal%3Aterms-of-use" height="1" width="1" border="0" alt=""/></noscript>
+<noscript><img src="http://delta.112.2o7.net/b/ss/deltacom2/1/H.25--NS/1441141185585?cdp=2&amp;gn=content%3Awww%3Aen_US%3Alegal%3Aterms-of-use" height="1" width="1" border="0" alt=""/></noscript>
 <span data-tracking="{event:'pageView', values:{}, componentPath:'foundation/components/page'}"></span>
 </div>
 
