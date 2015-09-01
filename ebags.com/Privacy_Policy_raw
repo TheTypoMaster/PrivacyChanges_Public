@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html xmlns:og="http://ogp.me/ns#" lang="en">
 <head>
-<meta name="X-Yottaa-Metrics" content="012136aea227/[16,-,-]" />
-<meta name="X-Yottaa-Optimizations" content="ob/1001000001100001100 si/542486181 tts/1440626389366 ti/54636bb786305e35ea00041e ai/5466313f86305e52200022bc" />
+<meta name="X-Yottaa-Metrics" content="012136ad511f/[14,-,-]" />
+<meta name="X-Yottaa-Optimizations" content="ob/1001000001100001100 si/544674405 tts/1441120806527 ti/54636bb786305e35ea00041e ai/5466313f86305e52200022bc" />
 <meta name="profile.id" content="54636bb786305e35ea00040e" />
 <meta name="tod.id" content="54636bb786305e35ea00041e" />
 <meta name="profile.name" content="Default Profile" />
@@ -251,7 +251,7 @@ yo_loader("http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f7750132
 <!-- END OF YOTTAA PREFETCH LOCATION=<body> -->
 <!--PREFETCH COOKIES START-->
 
-<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=P8uRAgicy_BinUFw-vhDz7_sqUNldnGwgC2i6FvUhp3qai3dP_AkeFvWU8tuCSYymXaCy2PXxSh5YLaRyCgYg_YuWlWN2GxO5mUJzpxdqpA=,BakKxBix8rA5syZ4TJJEJJJ6_95Gh5z5IUTcjQ7Vf5wLCGw7PknNiyExC1DoH-thKc-zHUtNW0yQNqp7Hah4JFafTJcLEHM8IPTMAQkadzEVjmS5qcQkl0EhCY4orrvYNZxyExxpgciF-F78-5OdMg==&t=X0hvAuJYEcMc59Qi_Hqhow==&s=0ea43511f99b342f397bb11cf5b9a1b6");
+<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=QlbTkaDDj0HqTzUepYh4Oy80ZiTXwN7pfNzUcgYXU0T7-0nu_4PlxJTK2-MNkU6BmXaCy2PXxSh5YLaRyCgYg_YuWlWN2GxO5mUJzpxdqpA=,7WsmS0tjQ-QRjtEcGmGY5xX1FZCrc88pbFOzWl3LPL87_ymiiEreUYhtNnN4sEOcKc-zHUtNW0yQNqp7Hah4JA_VBpUVSFOTt8vpCSB4O6iTb0HKLb7HhnLly2glJjUZNZxyExxpgciF-F78-5OdMg==&t=q6YoO4UnctBdzUUeV1ruGQ==&s=0d6f9c3424350b830e354d2f06ba4d5c");
 
 </script>
 <!--PREFETCH COOKIES END-->
@@ -410,7 +410,7 @@ yo_loader("http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f7750132
         <div class="accountCon">
             
             <a class="accountItem" data-toggle="modal" data-target="#pageModal" data-remote="/site/HeaderHelpPopup" href="/help/contactus">Contact Us</a>
-		<a title="Incredible Daily Bag Deals" class="accountItem sotdaccountitem" id="lnkStealOfTheDay" data-sotd='{&quot;IsActive&quot;:true,&quot;IsMobile&quot;:false,&quot;ScheduleId&quot;:&quot;8884&quot;,&quot;DomainName&quot;:&quot;www.ebags.com&quot;,&quot;DropBoxTime&quot;:&quot;8&quot;}' href="#"><span class="headerSOTDicon"></span>Steals of the Day</a><div id="headerStealOfTheDay" class="divDotd"></div>
+		<a title="Incredible Daily Bag Deals" class="accountItem sotdaccountitem" id="lnkStealOfTheDay" data-sotd='{&quot;IsActive&quot;:true,&quot;IsMobile&quot;:false,&quot;ScheduleId&quot;:&quot;8891&quot;,&quot;DomainName&quot;:&quot;www.ebags.com&quot;,&quot;DropBoxTime&quot;:&quot;8&quot;}' href="#"><span class="headerSOTDicon"></span>Steals of the Day</a><div id="headerStealOfTheDay" class="divDotd"></div>
 		<script type="text/javascript">require(['jquery', 'views-stealoftheday-stealofthedaypopuplink'], function ($, module) { module('#lnkStealOfTheDay', { container: '#headerStealOfTheDay' }); });</script>
 	<a class="accountItem" id="myAccountItem" href="http://www.ebags.com/help/manageyouraccount">My Account<div id="myAccountArrow" class="downArrow"></div></a><a class="accountItem" href=" https://www.ebags.com/orderhistory">Order Tracking</a><br/>
             <div id="divYourAccountHoverContent" class="yourAccountHoverContent myAcct">
@@ -1156,69 +1156,27 @@ yo_loader("http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f7750132
             
     <div class="row promobarBootstrap">
 
-<style>
-    #promoBarCon, .promobarBootstrap {text-align:right;position:relative;}
-    .promobarBootstrap .ndbLink {margin-left:0;margin-right:0;}
-    .promoCon {background-color:#fff; margin-bottom:0px;text-align:center;line-height:1;}
-    .promoCon p, .promobannercollapse p {margin-bottom:0;}
-    .promobarBootstrap {margin-left:-15px;margin-right:-15px;}
-    .promobarBootstrap img {margin: 0;}
-    .promoBanner {text-align:center; line-height:1.5; font-family:'Helvetica Neue LT Std'; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
-    .collapseButton {display:inline-block; background: #ce2721; z-index: 100;cursor: pointer;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;line-height:1;}
-    .collapseButton .promoCollapseBtn {color:#fff;padding:0 8px;font-size:12px;top:0;line-height:1;}
-    .cartPreviewPromoBar img.col-xs-12, .promobarBootstrap img.col-xs-12 {margin: 0;}
-    #promoBarCon .promobannercollapse img.col-xs-12 {float:left !important;}
-    #promoBarCon .ndbLink, .promobarBootstrap .ndbLink, .cartPreviewPromoBar .ndbLink {position:absolute;bottom:-2px;right:0;}
-    .cartPreviewPromoBar {position:relative;}
-    @media screen and (max-width: 767px) {
-        .promobarBootstrap img, img#cpPromoBar {
-        display: block;
-        }
-        .cartPreviewPromoBar img.col-xs-12 {
-        display: block;
-        }
-    }
-    @media screen and (max-width: 600px) {
-        .promobannercollapse, .promoCon, .promoBanner, #promoBarCon .ndbLink, .promobarBootstrap .ndbLink, .cartPreviewPromoBar .ndbLink {
-        display: none;
-        }
-    }
-</style>
-
-<div class="promobannercollapse collapse" id="promobannercollapse">
-        <div class="promoBanner">            
-            <a href="/search/h/sale"><img id="Img1" src="http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f77501321219123dfe2baf36.yottaa.net/v~c.74/is/image/img01/banner/15off-inventory-reduction-sale-20150821-pb-ac-lg-fd?qlt=90,1&amp;wid=1400&amp;align=0,1&amp;yocs=_&amp;yoloc=us" alt="Inventory Reduction Sale - Extra 15% Off - Use Code: 15OFF - Final Day - Shop Now" class="col-xs-12 img-responsive responsive-img"></a>
-        </div>
+<div class="row">
+    <div class="col-xs-12">
+        <img id="cpPromoBar" src="http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f77501321219123dfe2baf36.yottaa.net/v~c.74/is/image/img01/banner/20150901-promo-bar-medium?qlt=80,1&amp;wid=1400&amp;align=0,1&amp;yocs=_&amp;yoloc=us" alt="Labor Day Sale" class="col-xs-12 img-responsive responsive-img" usemap="#exdeals" />
+            <map name="exdeals" id="exdeals">
+              <area shape="rect" coords="402,3,668,93" href="/category/luggage/dept/luggage/h/sale" alt="Shop Luggage Sale" />
+              <area shape="rect" coords="670,3,902,92" href="/search/dept/handbags/h/sale" alt="Shop Handbag Sale" />
+              <area shape="rect" coords="902,3,1135,93" href="/search/dept/backpacks/h/sale" alt="Shop Backpack Sale" />
+              <area shape="rect" coords="1136,4,1391,91" href="/search/h/sale" alt="Shop Labor Day Sale" />
+              <area shape="rect" coords="2,1,400,94" href="/search/h/sale" alt="Shop Labor Day Sale" />
+            </map>
+        <div class="cpPromoBarText"><a href="/search/h/sale"><h2>Labor Day Sale - Save Up To 70%* - Shop All</h2></a></div>
     </div>
-
-<div class="promoCon clearfix" >
-        <div class="promoBanner promoCollapseBase">            
-            <a href="/search/h/sale" style="cursor:pointer;"><img id="cpPromoBar" src="http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f77501321219123dfe2baf36.yottaa.net/v~c.74/is/image/img01/banner/15off-inventory-reduction-sale-20150821-pb-ac-sm-fd?qlt=100,1&amp;wid=1400&amp;align=0,1&amp;yocs=_&amp;yoloc=us" alt="Inventory Reduction Sale - Extra 15% Off - Use Code: 15OFF - Final Day - See Details" class="col-xs-12 img-responsive responsive-img"></a>
-        </div>
-         <a class="collapseButton" data-toggle="collapse" data-target="#promobannercollapse" aria-expanded="false" aria-controls="promobannercollapse"><span class="promoCollapseBtn glyphicon glyphicon-chevron-down"></span></a>
-    </div>
-
-    <script type="text/javascript">
-        require(['jquery'], function ($) {
-            $(function () {
-                $('.promobannercollapse.collapse')
-                .on('show.bs.collapse', function (e) {
-                    $('.promoCollapseBase').slideUp();
-                    $('.promoCollapseBtn').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
-                })
-                .on('hide.bs.collapse', function (e) {
-                    $('.promoCollapseBase').show();
-                    $('.promoCollapseBtn').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
-                })
-            });
-        });
-    </script>
-
-
-<div class="clear"></div>
-<a class="ndbLink" data-toggle="modal" data-target="#pageModal" data-remote="/help/nondiscountablebrandspopup">*Excludes certain brands</a>
-<div class="pad-bottom-15"></div>
 </div>
+
+<script type="text/javascript">
+    require(['jquery'], function ($) {
+        $(document).ready(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    });
+</script></div>
     <a id="toTop" href="#">Top<img id="toTopArrow" src="http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f77501321219123dfe2baf36.yottaa.net/v~c.74/is/image/img01/icon/back-to-top?qlt=80,1&amp;align=0,1&amp;wid=22&amp;fmt=png-alpha&amp;yocs=2i_&amp;yoloc=us" border="0" /></a>
     <script type="text/javascript">
         require(['get!core/screenInit', 'get!responsive/stalker'], function (screenInit, stalker) {
@@ -1732,7 +1690,7 @@ yo_loader("http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f7750132
 <div class="container-fluid text-center gray">
     <div>
         <h5><strong>#1 Online Bag Retailer Since 1999</strong></h5>
-        <p>3,177,560 Reviews&nbsp;&nbsp;|&nbsp;&nbsp;23,869,554 Bags Shipped</p>
+        <p>3,178,097 Reviews&nbsp;&nbsp;|&nbsp;&nbsp;23,886,169 Bags Shipped</p>
     </div>
     <p>
         <a target="_blank" href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=www.ebags.com&lang=en" id="eb_verisign" data-popup="width=525,height=450,resizable=no,scrollbars=yes,status=no,left=111,top=111"><img alt="VeriSign Secured" src="http://cdn-us-ec.yottaa.net/54636bb786305e35ea00040e/ca3ea000f77501321219123dfe2baf36.yottaa.net/v~c.74/is/image/img01/icon/verisignseal?qlt=90,1&amp;wid=100&amp;align=0,1&amp;yocs=_&amp;yoloc=us" width="100" height="52" ></a>
