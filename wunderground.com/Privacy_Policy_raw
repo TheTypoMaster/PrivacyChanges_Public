@@ -1000,21 +1000,21 @@ e-mail and will be given the opportunity to opt-out.</p>
   "tz_offset_hours": null
 },
 		"usertime": {
-  "epoch": 1441063053,
-  "pretty": "11:17 PM GMT on August 31, 2015",
-  "rfc822": "Mon, 31 Aug 2015 23:17:33 +0000",
-  "iso8601": "2015-08-31T23:17:33+0000",
+  "epoch": 1441147412,
+  "pretty": "10:43 PM GMT on September 01, 2015",
+  "rfc822": "Tue, 01 Sep 2015 22:43:32 +0000",
+  "iso8601": "2015-09-01T22:43:32+0000",
   "year": 2015,
-  "month": 8,
-  "day": 31,
-  "yday": 242,
-  "hour": 23,
-  "min": "17",
-  "sec": 33,
-  "monthname": "August",
-  "monthname_short": "Aug",
-  "weekday": "Monday",
-  "weekday_short": "Mon",
+  "month": 9,
+  "day": 1,
+  "yday": 243,
+  "hour": 22,
+  "min": "43",
+  "sec": 32,
+  "monthname": "September",
+  "monthname_short": "Sep",
+  "weekday": "Tuesday",
+  "weekday_short": "Tue",
   "ampm": "PM",
   "tz_short": "GMT",
   "tz_long": "UTC",
@@ -1284,6 +1284,24 @@ wui.bootstrapped.ads = {
 		if("" == "on") {
 		wundermap_layers = "trop";
 		}
+	var isEdge = navigator.userAgent.indexOf('Edge') >=0;
+	var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+	var isChrome = !!window.chrome && !isOpera && !isEdge;
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+	var browser_type = null;
+	if (isFirefox) {
+		browser_type = 'wuff';
+	} else if (isSafari) {
+		browser_type = 'wusafari';
+	} else if (isChrome) {
+		browser_type = 'wuchrome'
+	} else if (isIE) {
+		browser_type = 'wuie';
+	} else if (isEdge) {
+		browser_type = 'wuedge';
+	}
 	var utag_data = {
 		ad_placements :[
 		],
@@ -1305,6 +1323,7 @@ wui.bootstrapped.ads = {
 		search_type : "other",
 		page : "Legal",
 		category : "About",
+		browser_type : browser_type,
 		sharing : "internal",
 		display_ads : "yes",
 		ssl_page : "no",
