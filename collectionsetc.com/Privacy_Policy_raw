@@ -19,7 +19,8 @@
 
 <!-- App Dynamics EUEM agent -->
 <script>window['adrum-start-time'] = new Date().getTime();</script>
-<script src="/js/adrum.js"></script>
+<script src="/scripts/app-dynamics?v=ymVgNxxR3qDTQa7dqBaQlBYt79WJSWYmcGF6VammDJo1"></script>
+
 <!-- End of App Dynamics EUEM Agent -->    
 
 
@@ -38,7 +39,7 @@
 
 <link href="/css/ecommerce-webforms?v=CtfZor4UfNw3SQ4gY_v1uAV9_5zzD_-oF_ie38brntg1" rel="stylesheet"/>
 
-<link href="/css/ecommerce?v=3kHWsIRrGHy9BHdCxRO8m3F8EajJ0wa3HcJh5HI-uIk1" rel="stylesheet"/>
+<link href="/css/ecommerce?v=-mSSrJhKdmf--XBLMQ8ac33OQ5GO12_wgl2vCdE2SQo1" rel="stylesheet"/>
 
 
 
@@ -56,12 +57,12 @@
         }
 
         (window.HawkSearch = window.HawkSearch || {}));
-        document.write(unescape("%3Clink rel='stylesheet' type='text/css' href='" + HawkSearch.BaseUrl + "/includes/hawksearch.css'%3E%3C/link%3E"));
+        document.write(unescape("%3Clink rel='stylesheet' type='text/css' href='" + HawkSearch.BaseUrl + "/includes/hawksuggest.css'%3E%3C/link%3E"));
         document.write(unescape("%3Cscript src='" + HawkSearch.BaseUrl + "/includes/hawksearch.min.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
 
 <!--[if lt IE 9]>
-    <script src="/js/respond?v=6VHd2jB-V3mqXjqCtgdXrfWdAZBVeUUflf9bSRcC2rM1"></script>
+    <script src="/scripts/respond?v=6VHd2jB-V3mqXjqCtgdXrfWdAZBVeUUflf9bSRcC2rM1"></script>
 
 <![endif]-->
 
@@ -99,6 +100,243 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
         <div>
             
 <!-- targeted_table -->
+<style>
+    .clearfix {
+        clear: both;
+    }
+
+    .containerSignup,
+    .containerThankYou {
+        font-size: 16px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        color: #fff;
+        line-height: 21px;
+    }
+
+    .closebutton {
+        position: absolute;
+        right: -20px;
+        top: -20px;
+        cursor: pointer;
+    }
+
+    #containerSignup {
+        /*use relative path for production release*/
+        background: url(/images/content/15-Off-Blue.jpg);
+        width: 600px;
+        height: 406px;
+        text-align: center;
+        position: relative;
+        box-shadow: 3px 3px 15px #333333;
+    }
+
+    .headline {
+        height: 60px;
+        width: 560px;
+        color: #2d2d2d;
+        background: url(images/content/emailPopSignup-2.png) repeat-x #fffb7e;
+        background: -webkit-linear-gradient(#ffd60a, #fffb7e); /* Safari */
+        background: -o-linear-gradient(#ffd60a, #fffb7e); /* Opera */
+        background: -moz-linear-gradient(#ffd60a, #fffb7e); /* Firefox */
+        background: linear-gradient(#ffd60a, #fffb7e); /* Standard syntax */
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 65px;
+    }
+
+    .subhead {
+        font-size: 28px;
+        line-height: 55px;
+        font-weight: bold;
+    }
+
+    .offer {
+        font-size: 95px;
+        font-weight: bold;
+        line-height: 90px;
+    }
+
+    .subhead-2 {
+        font-size: 43px;
+        line-height: 60px;
+        font-weight: bold;
+    }
+
+    .box {
+        width: 250px;
+        height: 30px;
+        margin: 0;
+        font-size: 12px;
+        font-weight: bold;
+        float: left;
+    }
+
+
+
+    .box-23 {
+        z-index: 10002;
+        position: fixed;
+        left: 55%;
+        margin-top: -250px;
+        margin-left: -360px;
+    }
+    /* ThankYou Message */
+    .containerThankYou {
+        background: #fff;
+        width: 600px;
+        border: solid 1px green;
+        color: #2d2d2d;
+        padding: 25px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -khtml-border-radius: 8px;
+        border-radius: 8px;
+        display: none;
+    }
+
+    .thankyou-header {
+        color: green;
+    }
+
+    .thankyou-text {
+        font-size: 14px;
+    }
+
+    .thankyou {
+        cursor: pointer;
+    }
+    /*Error Message */
+    .containerError {
+        background: #fff;
+        width: 540px;
+        border: solid 1px red;
+        color: #2d2d2d;
+        padding: 25px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -khtml-border-radius: 8px;
+        border-radius: 8px;
+        display: none;
+    }
+
+    .emailError {
+        clear:both;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 18px;
+        padding: 5px 0 5px 0;
+        margin-top: 30px;
+        color: #fdfd00 !important;
+    }
+
+    .error-header {
+        font-weight: bold;
+        color: red;
+        font-size: 18px;
+    }
+
+    .error-text {
+        font-size: 14px;
+    }
+
+    .error {
+        cursor: pointer;
+    }
+
+    .roundedButton {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 7px 0;
+    }
+
+
+
+    #goButton {
+        color: #fff !important;
+        width: 150px;
+        height: 34px;
+        background: #38b048;
+    }
+
+        #goButton:hover {
+            color: #ffffff !important;
+            background: green;
+        }
+
+    .submit {
+        float: right;
+        cursor: pointer;
+    }
+
+
+    .emailSubmission {
+        display: block;
+        width: 430px;
+        padding: 20px 0 0;
+        margin: 20px auto 0;
+    }
+
+    #txtEmailOverlay {
+        color: #000;
+        font-family: 'Arial';
+        padding: 0 2px 0 8px;
+    }
+</style>
+
+<div class="box-23">
+    <div class="containerSignup" id="containerSignup">
+        <img class="closebutton" src="/images/content/x-button_blk-wht.png" onclick="CloseOverlay(true);" />
+        <div class="emailSubmission" style="padding-top: 275px">
+            <!--email input box-->
+            <div class=" inputrow">
+                <input class="box" id="txtEmailOverlay" name="Enter Your Email." type="text" placeholder="enter your email address here." onfocus="if($(this).val() =='Enter Your Email Address Here and Receive Special Offers.'){$(this).val('');}">
+            </div>
+            <!--submit button-->
+            <div id="goButton" class="roundedButton submit"><p>GET MY COUPON</p></div>
+
+        </div>
+        <!--error message-->
+        <div class="emailError" id="emailError"></div>
+        <div class="clearfix"></div>
+        <a href="index.aspx" manual_cm_re="HP! 2011/19/09 Version A-_-Email Signup Overlay-_-Show!"></a>
+        <a href="index.aspx" manual_cm_sp="HP! 2011/19/09 Version A-_-Email Signup Overlay-_-Show!"></a>
+    </div>
+
+    <div class="containerThankYou" id="containerThankYou">
+        <div class="thankyou-header">
+            <b>Thank you! Check your inbox for more information.</b>
+        </div>
+        <br />
+        <div class="thankyou-text">New email subscribers qualify for a 15% discount on their next order. Stay tuned for more exciting news from Collections Etc., including exclusive promotions and savings just for you!</div>
+        <br />
+        <div class="thankyou">
+            <img src="/images/content/continue-shopping.png" onclick="CloseOverlay(false)" />
+        </div>
+    </div>
+
+    <div class="containerError" id="containerError">
+        <div class="error-header">
+            <b>Error! Something went wrong.</b>
+        </div>
+        <br />
+        <div id="txtTryAgain" class="error-text">Invalid email address. Please try again.</div>
+        <br />
+        <div class="error">
+            <img id="btnTryAgain" src="/images/content/try-again.png" onclick="GoToEmailPopup()" />
+        </div>
+    </div>
+</div>
+<!-- end .box-23 -->
+<script>
+    $('#goButton').click(function () {
+        SaveOverlay();
+    });
+
+</script>
+
+
 
 <!-- /targeted_table -->
         </div>
@@ -168,7 +406,7 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 
                 <div class="emailInputBox">
                     <div class="emailVIPformField" id="inputBox">
-                        <form name="frmEmailClubTop" id="frmEmailClubTop" method="post" action="/subscriptionlandingpage.aspx" onsubmit="if(CEI.Helpers.checkFormClick('top')) {ga('send', 'event', 'Page', 'Click', 'EmailSignup Header'); return true;} else {return false;}" >
+                        <form name="frmEmailClubTop" id="frmEmailClubTop" method="post" action="/subscriptionlandingpage.aspx" onsubmit="if(CEI.Helpers.checkFormClick('top')) {return true;} else {return false;}" >
 
                             <div class="emailVIPformField">
                                 <input name="txtemailtop" type="text" id="txtemailtop" class="emailVIPtextInput" onfocus="if(this.value=='Enter your email address...' )this.value='';" value="Enter your email address...">
@@ -1334,10 +1572,10 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
             </div>
             <div>
                 <form name="aspnetForm" method="post" action="helpprivacy.aspx?name=privacy" id="aspnetForm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTkzMDU2ODE3D2QWAmYPZBYIZg9kFgICAQ8WAh4EVGV4dAWrATxzY3JpcHQgdHlwZT0ndGV4dC9qYXZhc2NyaXB0Jz52YXIgbW9iaWxlUGFyYW1zID0gJyc7PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnIHNyYz0nLy9zMy5hbWF6b25hd3MuY29tL21hZG1vYmlsZS9jb2xsZWN0aW9uc2V0Yy9qcy9tb2JpbGVkaXJlY3QuanMnPjwvc2NyaXB0PmQCBA9kFgICAw9kFgICCQ8QZGQWAWZkAgYPDxYCHgdWaXNpYmxlaGRkAgcPDxYCHwFnZGRkTy45fhp6/II4pRTj9j5GpoUgXBk=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTkzMDU2ODE3D2QWAmYPZBYKZg9kFgICAQ8WAh4EVGV4dAWrATxzY3JpcHQgdHlwZT0ndGV4dC9qYXZhc2NyaXB0Jz52YXIgbW9iaWxlUGFyYW1zID0gJyc7PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnIHNyYz0nLy9zMy5hbWF6b25hd3MuY29tL21hZG1vYmlsZS9jb2xsZWN0aW9uc2V0Yy9qcy9tb2JpbGVkaXJlY3QuanMnPjwvc2NyaXB0PmQCBA9kFgICAw9kFgICCQ8QZGQWAWZkAgYPDxYCHgdWaXNpYmxlaGRkAgcPDxYCHwFnZGQCCA8WAh8BZ2RkE0kc2KsbDcUvDFavR83bYcg7bZw=" />
 
 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F20EDA95" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARAcJCJWsjKRDwi5zSuVbrKTk4MP8fXvhJzHH7+itkCUi8i4OMnOpdqJaHX37UtC1TAj7994yNoH7Gl2IFHZgFBSqkmvBLbcW56WFf+iDwtKi/nqH0=" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQEIg6PNsU3crtdtgz89Y1ATk4MP8fXvhJzHH7+itkCUi8i4OMnOpdqJaHX37UtC1TAj7994yNoH7Gl2IFHZgFBV7JqUXBn5nyPnLZ6sIAdhSCO4JU=" />
                 
 	<table cellpadding="0" cellspacing="0" width="100%">
 		<tr>
@@ -1647,207 +1885,117 @@ Privacy & Security
             </div>
             <div>
                 
-<div id="Footer">
-    <div id="FooterSearch">
-     
+
+<footer class="row">
+    <div class="col-lg-12">
+        <div class="social-media row no-gutter">
+            <div class="col-sm-offset-1 col-sm-push-1 col-sm-3">
+                <a href="http://facebook.com/collectionsetc" target="_blank"><span class="glyphicon glyphicon-social social facebook" aria-hidden="true"></span><span class="hidden-xs hidden-sm">LIKE us on Facebook</span></a>
+            </div>
+            <div class="col-sm-offset-1 col-sm-3">
+                <a href="http://twitter.com/collectionsetc" target="_blank"><span class="glyphicon glyphicon-social social twitter"></span><span class="hidden-xs hidden-sm">FOLLOW us on Twitter</span></a>
+            </div>
+            <div class="col-sm-3">
+                <a href="http://pinterest.com/collectionsetc" target="_blank"><span class="glyphicon glyphicon-social social pinterest"></span><span class="hidden-xs hidden-sm">PIN it on Pinterest</span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 col-md-offset-1 customer-service">
+                <ul>
+                    <li><a href="/service.aspx">Help/Customer Service</a></li>
+                    <li>
+                        <a id="ctl00_ucFooter_myAccount_hlGeneric" href="https://www.collectionsetc.com/shoplogin.aspx">My Account</a>
+
+                    </li>
+                    <li>
+                        <a id="ctl00_ucFooter_trackOrder_hlGeneric" href="https://www.collectionsetc.com/orderstatuscheck.aspx">Track Order</a>
+
+                    </li>
+                    <li><a href="/helpguarantee.aspx">Satisfaction Guarantee</a></li>
+                    <li><a href="/helpprivacy.aspx">Privacy &amp; Security</a></li>
+                    <li><a href="/helpshipping.aspx">Shipping</a></li>
+                    <li><a href="/helpreturns.aspx">Returns &amp; Refunds</a></li>
+                    <li><a href="/helpproductrecalls.aspx">Product Recalls</a></li>
+                    <li><a href="http://reviews.collectionsetc.com/">Customer Reviews</a></li>
+                    <li>
+                        <a id="ctl00_ucFooter_catalogRequest_hlGeneric" href="https://www.collectionsetc.com/catalogrequest.aspx">Catalog Request</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 customer-service">
+                <ul>
+                    <li><a href="/helpwelcome.aspx">About Us</a></li>
+                    <li><a href="/helpjobopportunity.aspx">Careers</a></li>
+                    <li><a href="/helpcommunity.aspx">Community Involvement</a></li>
+                    <li><a href="/helpaffiliate.aspx">Affiliate Program</a></li>
+                    <li><a href="/helpmembershipfaq.aspx">Savings Club Details</a></li>
+                    <li><a href="/service.aspx">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 customer-service">
+                <ul>
+                    <li><a href="/service.aspx">Connect With Us</a></li>
+                    <li><a href="http://www.facebook.com/collectionsetc" target="_blank">Etc. on Facebook</a></li>
+                    <li><a href="http://www.twitter.com/collectionsetc" target="_blank">Etc. on Twitter</a></li>
+                    <li><a href="http://pinterest.com/collectionsetc" target="_blank">Etc. on Pinterest</a></li>
+                    <li><a href="/sitemap.aspx">Site Map</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="email-signup-bottom-container">
+                    <span class="exclusive-offers">Subscribe to our VIP email list for exclusive offers and updates.
+                    </span>
+                    <br />
+                    <span class="first-timers">Plus, new subscribers get a <span class="bonus-coupon">Special Bonus Coupon!</span></span>
+                    <br />
+                    <form name="frmEmailClubBtm" id="frmEmailClubBtm" method="post" action="/subscriptionlandingpage.aspx" onsubmit="if(CEI.Helpers.checkFormClick('btm')) {return true;} else {return false;}">
+
+                        <input name="email" type="text" id="txtemailbtm" class="input-box" autocomplete="on" autocompletetype="Email" placeholder="Enter your email address...">
+                    <input type="hidden" id="signUpUseg" name="signUpUseg" value="">&nbsp;<br />
+                    <span class="email-signup-error" id="errorBtm"></span>
+                        <input id="footerEmailSignup" type="button" class="btn btn-gray pull-right email-signup" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row badges">
+            <div class="col-lg-1 col-lg-offset-1 col-lg-push-1 col-md-1 col-md-offset-1 col-md-push-1 col-sm-1 col-sm-offset-1 col-sm-push-1">
+                <div class="credit-cards">
+                </div>
+            </div>
+            <div class="col-lg-1 col-lg-push-1 col-md-1 col-md-push-1 col-sm-1 col-sm-push-1">
+                <div class="pay-pal">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a class="verisign" href="javascript:VerisignPopUp('https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.collectionsetc.com&lang=en')" title="Click to Verify - This site chose VeriSign Trust Seal to promote trust online with consumers.">
+                    <img src="/images/misc/verisign_seal.png" border="0" oncontextmenu="VerisignPopUp('https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.collectionsetc.com&amp;lang=en'); return false;"></a>
+                <a class="scan-alert" target="_blank" href="http://www.tigertools.net/WinstonBrands_Daily/WinstonBrands_Daily_CoC.htm">
+                    <img src="images/content/misc/ValComSecure_Daily.gif" width="86" height="32" border="0" alt=""></a>
+
+            </div>
+            <div class="col-lg-1 col-lg-pull-1 col-md-1 col-md-pull-1 col-sm-1 col-sm-pull-1">
+                <a href="/helpGuarantee.aspx#Safety_Approved" class="safety-approved">
+                    <img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
+            </div>
+            <div class="col-lg-1 col-lg-pull-1 col-md-1 col-md-pull-1 col-sm-1 col-sm-pull-1">
+                <a href="/helpCommunity.aspx#Recycle" class="recycle-please">
+                    <img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
+            </div>
+            <div class="col-lg-1 col-lg-pull-1 col-md-1 col-md-pull-1 col-sm-1 col-sm-pull-1">
+                <a target="_blank" id="bbblink" class="ruhzbus" href="http://www.bbb.org/chicago/business-reviews/mail-order-and-catalog-shopping/winston-brandscom-in-elk-grove-village-il-5024#bbblogo" title="Winston Brands.Com, Mail Order &amp; Catalog Shopping, Elk Grove Village, IL">
+                    <img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <span itemscope="" itemtype="http://schema.org/Organization" style="font-family: Arial, Helvetica, sans-serif; font-size: 9px;">© 2014 <span itemprop="name">Collections Etc., Inc.</span> All Rights Reserved. Reproduction in whole or in part strictly prohibited. Contact us by phone at: <span itemprop="telephone">1-620-584-8000</span>.</span>
+            </div>
+        </div>
     </div>
-    <div id="FooterContent">
-        <style>
-ul.footer li.first {
-font-size: 12px;
-font-weight: 700;
-list-style: none;
-list-style-position: outside;
-}
-.footerTable{
-margin-top:20px;
-}
-.secondaryLinksSub{
-margin-top: 20px;
-width: 1003px;
-height: 60px;
-background: #e1dabe;
-position: relative;
-left: -7px;
-overflow:hidden;
-border-top: 1px solid #DDD;
-border-bottom: 1px solid #DDD;
-}
-.footerLinks{
-float: left;
-}
-.helloChicken{
-position: absolute;
-top: -20px;
-left: 550px;
-background: url('/images/content/footer/emailSignupFooterBanner.png');
-width: 400px;
-height: 175px;
-}
-.PayPalFooter{
-float: left;
-display: block;        
-background: url('/images/sprites/icons.png') no-repeat -77px -201px;
-	width: 60px;
-	height: 38px;
-}
-.footerTable{
-position: relative;
-width: 990px;
-}
-.footerLogos{
-float: left;
-width: 990px;
-height: 180px;
-}
-.logoLinks{
-padding-left: 200px;
-}
-.emailInputBox_footer{
-position: absolute;
-top: 70px;
-left: 20px;
-}
-.emailformFieldFooter{
-background: none;
-width: 360px;
-height: 35px;
-padding-top: 10px;
-}
-.emailFooterformField{
-width:225px;
-}
-.emailVIPtextInput_footer{
-background: none;
-width: 340px;
-height: 28px;
-font-size: 1.2em;
-font-style: italic;
-font-family: 'Georgia', serif;
-border: none;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.emailFooterSubmit{
-padding-left:280px;
-}
-.socialLinks{
-padding: 20px;
-margin-left: 180px;
-}
-</style>
+</footer>
 
-<div class="secondaryLinksSub">
-
-<div class="socialLinks">
-<a href="http://facebook.com/collectionsetc" target="_blank" class="facebook"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
-<a href="http://twitter.com/collectionsetc" target="_blank" class="twitter"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
-<a href="http://pinterest.com/collectionsetc" target="_blank" class="pinterest"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
-</div>
-</div>
-
-<div class="footerTable">
-
-<div class="footerLinks">
-<table width="500" border="0" colspan="8" cellpadding="0" cellspacing="0" align="left">
-
-    <td width="100" align="left">
-   	  <ul class="footer" style="text-align:left;">
-            <li class="first"><a href="http://www.collectionsetc.com/service.aspx">Help/Customer Service</a></li>
-            <li class="item"><a href="https://www.collectionsetc.com/shoplogin.aspx">My Account</a></li>
-            <li class="item"><a href="https://www.collectionsetc.com/orderStatusCheck.aspx">Track Order</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpGuarantee.aspx">Satisfaction Guarantee</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpPrivacy.aspx">Privacy &amp; Security</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpShipping.aspx">Shipping</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpReturns.aspx">Returns &amp; Refunds</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpProductRecalls.aspx">Product Recalls</a></li>
-            <li class="item"><a href="http://reviews.collectionsetc.com/">Customer Reviews</a></li>
-        <li class="item"><a href="https://www.collectionsetc.com/catalogRequest.aspx">Catalog Request</a></li>
-        </ul>
-    </td>
-
-<td width="100" align="left">
-      <ul class="footer" style="text-align:left;">
-        	<li class="first"><a href="http://www.collectionsetc.com/helpwelcome.aspx">About Us</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpJobOpportunity.aspx">Careers</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpCommunity.aspx">Community Involvement</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpaffiliate.aspx">Affiliate Program</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/helpmembershipfaq.aspx">Savings Club Details</a></li>
-            <li class="item"><a href="http://www.collectionsetc.com/service.aspx">Contact Us</a></li>
-      </ul>
-</td>
-<td width="100" align="left">
-    	<ul class="footer" style="text-align:left;">
-            <li class="first"><a href="http://www.collectionsetc.com/service.aspx">Connect With Us</a></li>
-            <li class="item"><a href="http://www.facebook.com/collectionsetc" target="_blank">Etc. on Facebook</a></li>
-            <li class="item"><a href="http://www.twitter.com/collectionsetc" target="_blank">Etc. on Twitter</a></li>
-            <li class="item"><a href="http://pinterest.com/collectionsetc" target="_blank">Etc. on Pinterest</a></li>
-            <li class="item"><a href="/siteMap.aspx">Site Map</a></li>
-      </ul>
- </td>
-</tr>
-</table>
-</div>
-
-<div class="helloChicken">
-<div class="emailInputBox_footer">
-<!--<div><img src="/images/content/footer/emailSignup_headline.png">
-</div>-->
-
-<div class="emailformFieldFooter" id="inputBox">
- <form name="frmEmailClubBtm" id="frmEmailClubBtm" method="post" onSubmit="if(checkFormClick('btm')) {return true;} else {return false;}">
-<div class="emailFooterformField">
-<input name="txtemailbtm" type="text" id="txtemailbtm"  class="emailVIPtextInput_footer" onFocus="if(this.value=='Enter your email address...' &#10;)this.value='';" value="Enter your email address...">
-<input type="hidden" id="signUpUseg" name="signUpUseg" value="" />&nbsp;<br>
-<span style="color:#ff0000; line-height:18px; font-weight:bold;" id="errorBtm"></span>
-<div class="emailFooterSubmit">
-<input src="/images/content/footer/emailSignup_submit.png" alt="Sign Up!" border="0" type="image">
-</div>
-</div>
-</div>
-</div>
-</div>
-</form>
-
-<div class="footerLogos">
-<table class="logoLinks">
-<tr>
-<td  colspan="8" align="center" height="100">
-<div class="FooterLinks">
-	<div class="CreditCards">
-	</div>
-<div class="PayPalFooter">
-</div>
-
-    <a class="Verisign" href="javascript:VerisignPopUp('https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.collectionsetc.com&lang=en')" title="Click to Verify - This site chose VeriSign Trust Seal to promote trust online with consumers.">
-	<img src="/images/misc/verisign_seal.png" border="0" oncontextmenu="VerisignPopUp('https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.collectionsetc.com&amp;lang=en'); return false;"></a>
-
-<a class="ScanAlert" target="_blank" href="http://www.tigertools.net/WinstonBrands_Daily/WinstonBrands_Daily_CoC.htm"><img src="/images/content/misc/ValComSecure_Daily.gif" width="86" height="32" border="0" alt=""></a>
-    
-
-<!--<a class="ScanAlert" target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.collectionsetc.com"><img src="//images.scanalert.com/meter/www.collectionsetc.com/12.gif" width="115" height="32" border="0" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." oncontextmenu="alert('Copying Prohibited by Law - HACKER SAFE is a Trademark of ScanAlert'); return false;"></a>-->
-
-&nbsp;&nbsp;
-
-    <a href="http://www.collectionsetc.com/helpGuarantee.aspx#Safety_Approved" class="SafetyApproved"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>&nbsp;&nbsp;
-
-    <a href="http://www.collectionsetc.com/helpCommunity.aspx#Recycle" class="RecyclePlease"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>
-
-<a target="_blank" id="bbblink" class="ruhzbus" href="http://www.bbb.org/chicago/business-reviews/mail-order-and-catalog-shopping/winston-brandscom-in-elk-grove-village-il-5024#bbblogo" title="Winston Brands.Com, Mail Order &amp; Catalog Shopping, Elk Grove Village, IL"><img src="/images/sprites/icons.png" width="1" height="1" alt="Icons"></a>    
-</div>  
-</td>
- </tr>
-
-<tr>
-    <td align="center" colspan="8" itemscope itemtype="http://schema.org/Organization"><span style="font-family:Arial, Helvetica, sans-serif; font-size:9px;">© 2000-2015 Winston Brands, Inc. Collections Etc. ® is the registered trademark of Winston Brands, Inc. All Rights Reserved. Reproduction in whole or in part strictly prohibited. Contact us by phone at: <span itemprop="telephone">1-620-584-8000</span>.</span></td>
- </tr>
-
-</table>
-</div>
-<span class="hidden">Site Is Up</span> 
-
-    </div>
-</div>
 
             </div>
         </div>
@@ -1861,9 +2009,6 @@ margin-left: 180px;
     <script type="text/javascript"><!-- try{mr_merchantID="CollectionsEtc";mr_Track();}catch(err){}--></script>
     
     <!-- END MERCENT -->
-
-       <script src="/js/certona?v=5lGXBQk9zQ8l-VPjUyxN6pKOA-bUUF-zjLBLg0rzfT81"></script>
-
 
    
    
@@ -1888,6 +2033,14 @@ var s = d.getElementsByTagName(c)[0]; s.parentNode.insertBefore(sv, s);
        var backgroundId;
        var modalId;
    </script>
+    
+        <script language="javascript" type="text/javascript">
+            $(document).ready(function () {
+                backgroundId = setTimeout("$('#body').append('<div id=\"background\"></div>');", 5000);
+                modalId = setTimeout(function () {
+                  $('#overlay').fadeIn(250); }, 5000);
+            });
+        </script>
     
 
     <script language="javascript" type="text/javascript">
@@ -1918,7 +2071,7 @@ var s = d.getElementsByTagName(c)[0]; s.parentNode.insertBefore(sv, s);
     </script>
 </body>
     
-    <script src="/js/scripts?v=MkBome4bjR5Pc9cmbHneyxRZxGqnJQXrUCcQo_c2Nt41"></script>
+    <script src="/scripts/scripts?v=ZTWYeVqOt_tvnKymST2bIQbCP4kquiUZpY2kUbox2Lw1"></script>
 
   
    
