@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-<!-- ic_web version:  22.2 : rae81068 -->
+<!-- ic_web version:  22.3 : r7051f3e -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>
@@ -13,25 +13,25 @@
 		<meta content="Shop Lands' End for Women's Swimwear & quality clothing for the whole family. Women's Apparel, Men's Apparel & Kids' Clothing for all seasons. Outerwear & Footwear, too." name="description" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 				
-						<!-- START GlobalIncludes - Created on: Mon Aug 31 18:18:14 CDT 2015 -->
+				<!-- START GlobalIncludes - Created on: Tue Sep 01 17:44:42 CDT 2015 -->
  
-			<link href="/pps/rae81068/css/fe.min.css" rel="stylesheet" type="text/css" />
-	  	<link href="/pps/rae81068/css/prodview.min.css" rel="stylesheet" type="text/css" />
+			<link href="/pps/r7051f3e/css/fe.min.css" rel="stylesheet" type="text/css" />
+	  	<link href="/pps/r7051f3e/css/prodview.min.css" rel="stylesheet" type="text/css" />
 	
-<!-- Header start - Created on: Mon Aug 31 18:18:14 CDT 2015 -->
-<!-- Served By: px07 on Monday, 31-Aug-2015 18:18:14 CDT -->
-<script type="text/javascript" src="/pps/rae81068/js/_libs/scaffolding/modernizr/modernizr.js" ></script>
+<!-- Header start - Created on: Tue Sep 01 17:44:42 CDT 2015 -->
+<!-- Served By: px23 on Tuesday, 01-Sep-2015 17:44:42 CDT -->
+<script type="text/javascript" src="/pps/r7051f3e/js/_libs/scaffolding/modernizr/modernizr.js" ></script>
 
 <!-- Unable to load this conditionally -->
-<script type="text/javascript" src="/pps/rae81068/js/_libs/polyfills/matchMedia.js"></script>
+<script type="text/javascript" src="/pps/r7051f3e/js/_libs/polyfills/matchMedia.js"></script>
 
 <!-- 3rd party tagging -->
-<script type="text/javascript" src="/pps/rae81068/js/_config/configSwitches.js"></script>
+<script type="text/javascript" src="/pps/r7051f3e/js/_config/configSwitches.js"></script>
 
 <!-- jQuery library loaded from CDN on fail will load locally -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
-  if(!window.jQuery){ document.write('<scr' + 'ipt type="text/javascript" src="/pps/rae81068/js/global/jquery-1.8.3.min.js"></scr' + 'ipt>'); }
+  if(!window.jQuery){ document.write('<scr' + 'ipt type="text/javascript" src="/pps/r7051f3e/js/global/jquery-1.11.3.min.js"></scr' + 'ipt>'); }
 </script>
 
 <script type="text/javascript">
@@ -54,7 +54,7 @@
 
 
 <!-- combined js -->
-<script type="text/javascript" src="/pps/rae81068/js/primary.js"></script>
+<script type="text/javascript" src="/pps/r7051f3e/js/primary.js"></script>
 <!-- combined js -->
 
  
@@ -65,7 +65,7 @@
 	if(!com) com = {};
 	if(!com.landsend) com.landsend = {};
 	if(!com.landsend.global) com.landsend.global = {};
-	com.landsend.global.ppsSrc = "/pps/rae81068";
+	com.landsend.global.ppsSrc = "/pps/r7051f3e";
 	com.landsend.global.isModern = false
 
 	// Scene7 var initialization
@@ -136,16 +136,16 @@ com.landsend.global.PageConfigParms = Object1;
 	// omniture var initialization
 	metric.writeTagsHeader();
 </script><!-- END GlobalIncludes -->
-			<script type="text/javascript" src="/dtagent620_bnpr23_1239.js" data-dtconfig="rid=RID_449341713|rpid=1388680635|tp=500,50,3,0,5|bandwidth=3600|mdn=500|reportUrl=/dynaTraceMonitor|domain=landsend.com, localhost"></script><link rel="stylesheet" type="text/css" href="/customerservice/css/customer_service_02_15_2012.css" />
+			<link rel="stylesheet" type="text/css" href="/customerservice/css/customer_service_02_15_2012.css" />
 <link rel="stylesheet" type="text/css" href="/customerservice/css/sizecharts08.css" />
-<link rel="stylesheet" type="text/css" href="/pps/rae81068/css/secondary.min.css" />
+<link rel="stylesheet" type="text/css" href="/pps/r7051f3e/css/secondary.min.css" />
 		
 		
 
 		
-<!-- START GlobalIncludesFinal - Created on: Mon Aug 31 18:18:14 CDT 2015 -->
+<!-- START GlobalIncludesFinal - Created on: Tue Sep 01 17:44:42 CDT 2015 -->
 <!--[if lt IE 9]>
-  <script type="text/javascript" src="/pps/rae81068/js/_libs/scaffolding/respond/respond.min.js"></script>
+  <script type="text/javascript" src="/pps/r7051f3e/js/_libs/scaffolding/respond/respond.min.js"></script>
 <![endif]-->
 	
 <!-- END GlobalIncludesFinal -->
@@ -175,7 +175,7 @@ com.landsend.global.PageConfigParms = Object1;
 					<li class="sub-nav-column sub-nav-feature-col">
 						<ul>
 							<li class="mobile-nav-header">
-								<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+								<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 								<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/-/N-jl6?cm_re=nav-_-mobile-_-newarrivals-_-main" ceid="MobileTopNav-NewArrivals">New Arrivals</a></h4>
 							</li>
 						</ul>
@@ -188,7 +188,7 @@ com.landsend.global.PageConfigParms = Object1;
 									<li><a href="http://www.landsend.com/shop/mens/-/N-fz6Zjqh?cm_re=nav-_-mobile-_-newarrivals-_-men" ceid="TopNav-NewArrivals-">Men</a></li>
 									<li><a href="http://www.landsend.com/shop/kids/girls/-/N-jl6Zg0f?cm_re=nav-_-mobile-_-newarrivals-_-girls" ceid="TopNav-NewArrivals-">Girls</a></li>
 									<li><a href="http://www.landsend.com/shop/kids/boys/-/N-jl6Zg1w?cm_re=nav-_-mobile-_-newarrivals-_-boys" ceid="TopNav-NewArrivals-">Boys</a></li>
-									<li><a href="http://www.landsend.com/shop/for-the-home/-/N-g31Zjqh?cm_re=nav-_-mobile-_-newarrivals-_-home" ceid="TopNav-NewArrivals-">Home</a></li>
+									<li><a href="http://www.landsend.com/shop/home/-/N-g31Zjqh?cm_re=nav-_-mobile-_-newarrivals-_-home" ceid="TopNav-NewArrivals-">Home</a></li>
 
 								</ul>
 							</li>
@@ -202,26 +202,27 @@ com.landsend.global.PageConfigParms = Object1;
 					<li class="sub-nav-column sub-nav-feature-col">
 						<ul>
 							<li class="mobile-nav-header">
-								<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+								<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 								<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/womens/-/N-fxl?cm_re=nav-_-womens-_-back" ceid="MobileTopNav-Women">Women</a></h4>
 							</li>
 							<li class="mobile-nav-more">
 								<h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 								<ul class="sub-sub-nav sub-nav-featured sub-nav-divider">
 									<li class="mobile-nav-header">
-										<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Women</span>
+										<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Women</span>
 										<h4>Featured Shops</h4>
 									</li>
+									<li><a href="http://www.landsend.com/shop/womens-coats/-/N-fyc?cm_re=nav-_-women-_-featureshop-_-outerwear-shop" ceid="TopNav-Women-Featured-Outerwear-Shop" class="sub-nav-featured-link">Outerwear Shop</a></li>
+									<li><a href="http://www.landsend.com/shop/womens-sweaters-cardigans/-/N-fy3?cm_re=nav-_-women-_-featureshop-_-cardigan-shop" ceid="TopNav-Women-Featured-Cardigan-Shop" class="sub-nav-featured-link">Cardigan Shop</a></li>
 									
-									<li><a href="http://www.landsend.com/shop/womens-swimsuits/-/N-fxm?cm_re=nav-_-women-_-featureshop-_-swimshop" ceid="TopNav-Women-Featured-2015-Swim-Shop"  class="sub-nav-featured-link">2015 Swim Shop</a></li>
-									<li><a href="http://www.landsend.com/made-better/womensjeans/?cm_re=nav-_-women-_-featureshop-_-jeansguide" ceid="TopNav-Women-Featured-jeansguide" class="sub-nav-featured-link">Jeans Guide</a></li>
-									<li><a href="http://www.landsend.com/shop/womens-sweaters-cardigans-cardigans/-/N-fy3?cm_re=nav-_-women-_-featureshop-_-cardigan-shop" ceid="TopNav-Women-Featured-Cardigan-Shop" class="sub-nav-featured-link">Cardigan Shop</a></li>
-									<li><a href="http://www.landsend.com/shop/womens-outerwear/-/N-fyc?cm_re=nav-_-women-_-featureshop-_-outerwear-shop" ceid="TopNav-Women-Featured-Outerwear-Shop" class="sub-nav-featured-link">Outerwear Shop</a></li>
+									<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZk90?cm_re=nav-_-women-_-featureshop-_-tunic-shop" ceid="TopNav-Women-Featured-tunic-shop" >Tunic Shop</a></li>
+									<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZjv3?cm_re=nav-_-women-_-featureshop-_-waer2work" ceid="TopNav-Women-Featured-waer2work" >Wear to Work</a></li>
 
 									<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only --></li>
 									<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZjqh?cm_re=nav-_-women-_-featureshop-_-newarrivals" ceid="TopNav-Women-Featured-NewArrivals" >New Arrivals</a></li>
 									<li><a href="http://www.landsend.com/lookstolove/?cm_re=nav-_-women-_-featureshop-_-best-of-fall-2015" ceid="TopNav-Women-Featured-best-of-fall-2015" >Best of Fall 2015</a></li>
-									<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZk90?cm_re=nav-_-women-_-featureshop-_-tunic-shop" ceid="TopNav-Women-Featured-tunic-shop" >Tunic Shop</a></li>
+									<li><a href="http://www.landsend.com/made-better/womensjeans/?cm_re=nav-_-women-_-featureshop-_-jeansguide" ceid="TopNav-Women-Featured-jeansguide" class="sub-nav-featured-link">Jeans Guide</a></li>
+									
 									<li><a href="http://www.landsend.com/shop/womens-activewear/-/N-fz2?cm_re=nav-_-women-_-featureshop-_-activewear-collection" ceid="TopNav-Women-Featured-activewear-collection" >Activewear Collection</a></li>
 									<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZjl7?cm_re=nav-_-women-_-featureshop-_-sale" ceid="TopNav-Women-Featured-Sale" class="sale">Sale</a></li>
 								</ul>
@@ -229,7 +230,7 @@ com.landsend.global.PageConfigParms = Object1;
 							<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Shop By Size Range</h4>
 								<ul class="sub-sub-nav sub-nav-fit last">
 									<li class="mobile-nav-header">
-										<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Women</span>
+										<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Women</span>
 										<h4>Shop By Size Range</h4>
 									</li>
 									<li><a href="http://www.landsend.com/shop/womens-regular/-/N-fxlZfoc?cm_re=nav-_-women-_-shopbysize-_-reg" ceid="TopNav-Women-ShopBySize-Regular">Regular</a></li>
@@ -248,22 +249,22 @@ com.landsend.global.PageConfigParms = Object1;
 								<h4 class="desktop-nav-header">Categories</h4>
 								<ul>
 			  <li><a href="http://www.landsend.com/shop/womens-swimsuits/-/N-fxm?cm_re=nav-_-women-_-catagories-_-swimsuits" ceid="TopNav-Women-Categories-Swimsuits">Swimsuits</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-knit-tops-polos-turtlenecks/-/N-fxr?cm_re=nav-_-women-_-catagories-_-kknitstops-polos-turtlenecks" ceid="TopNav-Women-Categories-KnitTopsPolosTurtlenecks">Knit Tops, Polos &amp; Turtlenecks</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-knit-tops-tees/-/N-fxr?cm_re=nav-_-women-_-catagories-_-knitstops-tees" ceid="TopNav-Women-Categories-KnitTopsTees">Knit Tops &amp; Tees</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-shirts-blouses/-/N-hvb?cm_re=nav-_-women-_-catagories-_-shirts-blouses" ceid="TopNav-Women-Categories-ShirtsBlouses">Shirts &amp; Blouses</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-sweaters-cardigans/-/N-fy2?cm_re=nav-_-women-_-catagories-_-sweaters-cardigans" ceid="TopNav-Women-Categories-Sweaters">Sweaters &amp; Cardigans</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-pants-crops/-/N-fy5?cm_re=nav-_-women-_-catagories-_-pants-crops" ceid="TopNav-Women-Categories-PantsCrops">Pants &amp; Crops</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-sweaters/-/N-fy2?cm_re=nav-_-women-_-catagories-_-sweaters" ceid="TopNav-Women-Categories-Sweaters">Sweaters</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-pants/-/N-fy5?cm_re=nav-_-women-_-catagories-_-pants" ceid="TopNav-Women-Categories-Pants">Pants</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-jeans/-/N-h1b?cm_re=nav-_-women-_-catagories-_-jeans" ceid="TopNav-Women-Categories-Jeans">Jeans</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-shorts/-/N-fy6?cm_re=nav-_-women-_-catagories-_-shorts" ceid="TopNav-Women-Categories-Shorts">Shorts</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-dresses/-/N-fy7?cm_re=nav-_-women-_-catagories-_-dresses" ceid="TopNav-Women-Categories-Dresses">Dresses</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-skirts/-/N-fy8?cm_re=nav-_-women-_-catagories-_-skirts" ceid="TopNav-Women-Categories-Skirts">Skirts</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-blazers/-/N-fyb?cm_re=nav-_-women-_-catagories-_-blazers-jackets" ceid="TopNav-Women-Categories-BlazersJackets">Blazers &amp; Jackets</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-activewear/-/N-fz2?cm_re=nav-_-women-_-catagories-_-activewear" ceid="TopNav-Women-Categories-Activewear">Activewear</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-outerwear/-/N-fyc?cm_re=nav-_-women-_-catagories-_-outerwear" ceid="TopNav-Women-Categories-Outerwear">Outerwear</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-coats/-/N-fyc?cm_re=nav-_-women-_-catagories-_-coats" ceid="TopNav-Women-Categories-Coats">Coats</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-sleepwear/-/N-fyi?cm_re=nav-_-women-_-catagories-_-sleepwear" ceid="TopNav-Women-Categories-Sleepwear">Sleepwear</a></li>
 			  <li><a href="http://www.landsend.com/shop/womens-shoes/-/N-fyn?cm_re=nav-_-women-_-catagories-_-shoes" ceid="TopNav-Women-Categories-Shoes">Shoes</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-socks-tights-underwear/-/N-fyr?cm_re=nav-_-women-_-catagories-_-socks-tights-underwear" ceid="TopNav-Women-Categories-SocksTightsUnderwear">Socks, Tights &amp; Underwear</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-accessories/-/N-fys?cm_re=nav-_-women-_-catagories-_-accessories-handbags" ceid="TopNav-Women-Categories-AccessoriesHandbags">Accessories &amp; Handbags</a></li>
-			  <li><a href="http://www.landsend.com/shop/womens-hats-gloves-scarves/-/N-fyg?cm_re=nav-_-women-_-catagories-_-hats-gloves-scarves" ceid="TopNav-Women-Categories-Outerwear">Hats, Gloves &amp; Scarves</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-accessories/-/N-fys?cm_re=nav-_-women-_-catagories-_-accessories" ceid="TopNav-Women-Categories-Accessories">Accessories</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-bags/-/N-kg3?cm_re=nav-_-women-_-catagories-_-bags" ceid="TopNav-Women-Categories-Bags">Bags</a></li>
+			  <li><a href="http://www.landsend.com/shop/womens-long-underwear/-/N-fyh?cm_re=nav-_-women-_-catagories-_-long-underwear" ceid="TopNav-Women-Categories-LongUnderwear">Long Underwear</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -276,31 +277,31 @@ com.landsend.global.PageConfigParms = Object1;
 					<li class="sub-nav-column sub-nav-feature-col">
 						<ul>
 							<li class="mobile-nav-header">
-								<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+								<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 								<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/mens/-/N-fz6?cm_re=nav-_-mens-_-back" ceid="MobileTopNav-Men">Men</a></h4>
 							</li>
 							<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 								<ul class="sub-sub-nav sub-nav-featured sub-nav-divider">
 									<li class="mobile-nav-header">
-										<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Men</span>
+										<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Men</span>
 										<h4>Featured Shops</h4>
 									</li>
 									<li><a href="http://www.landsend.com/made-better/mensjeans/?cm_re=nav-_-men-_-featureshop-_-jeans-guide" ceid="TopNav-Men-Featured-jeans-guide" class="sub-nav-featured-link">Jeans Guide</a></li>
 									<li><a href="http://www.landsend.com/shop/mens/-/N-fz6Zjnr?cm_re=nav-_-men-_-featureshop-_-no-iron-shop" ceid="TopNav-Men-Featured-NoIronShop" class="sub-nav-featured-link">No Iron Shop</a></li>
-									<li><a href="http://www.landsend.com/shop/mens-polos-t-shirts-turtlenecks-polo-shirts/-/N-fzg?cm_re=nav-_-men-_-featureshop-_-2015-polo-shop" ceid="TopNav-Men-Featured-poloshop" class="sub-nav-featured-link">2015 Polo Shop</a></li>
-									<li><a href="http://www.landsend.com/shop/mens/-/N-k92Zfz6?cm_re=nav-_-men-_-featureshop-_-supima-shirts-polos" ceid="TopNav-Men-Featured-SupimaShirtsPolos" class="sub-nav-featured-link">Supima Shirts &amp; Polos</a></li>
+									<li><a href="http://www.landsend.com/shop/mens-polo-shirts/-/N-fzg?cm_re=nav-_-men-_-featureshop-_-2015-polo-shop" ceid="TopNav-Men-Featured-poloshop" class="sub-nav-featured-link">2015 Polo Shop</a></li>
+									<li><a href="http://www.landsend.com/shop/mens/-/N-k92Zfz6?cm_re=nav-_-men-_-featureshop-_-supima-shirts-sweaters" ceid="TopNav-Men-Featured-SupimaShirtsSweaters" class="sub-nav-featured-link">Supima Shirts &amp; Sweaters</a></li>
 									<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only -->
 									</li>
 									<li><a href="http://www.landsend.com/shop/mens/-/N-fz6Zjqh?cm_re=nav-_-men-_-featureshop-_-new-arrivals" ceid="TopNav-Men-Featured-NewArrivals">New Arrivals</a></li>
 									<li><a href="http://www.landsend.com/shop/-/N-gbbZk10?cm_re=nav-_-men-_-featureshop-_-Tailored-fit-shop" ceid="TopNav-Men-Featured-TailoredFitShop">Tailored Fit Shop</a>
-									<li><a href="http://www.landsend.com/shop/shop/-/N-gbbZk0z?cm_re=nav-_-men-_-featureshop-_-slim-fit-shop" ceid="TopNav-Men-Featured-SlimFitShop">Slim Fit Shop</a>
+									<li><a href="http://www.landsend.com/shop/-/N-gbbZk0z?cm_re=nav-_-men-_-featureshop-_-slim-fit-shop" ceid="TopNav-Men-Featured-SlimFitShop">Slim Fit Shop</a>
 									<li><a href="http://www.landsend.com/shop/mens/-/N-fz6Zjl7?cm_re=nav-_-men-_-featureshop-_-sale" ceid="TopNav-Men-Featured-Sale" class="sale">Sale</a></li>
 									</ul>
 								</li>
 								<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Shop By Size Range</h4>
 									<ul class="sub-sub-nav sub-nav-fit last">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Men</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Men</span>
 											<h4>Shop By Size Range</h4>
 										</li>
 										<li><a href="http://www.landsend.com/shop/mens-regular/-/N-fz6Zfoc?cm_re=nav-_-men-_-shopbysize-_-regular" ceid="TopNav-Men-ShopBySize-Regular">Regular</a></li>
@@ -316,24 +317,22 @@ com.landsend.global.PageConfigParms = Object1;
 								<li>
 									<h4 class="desktop-nav-header">Categories</h4>
 									<ul>
-				<li><a href="http://www.landsend.com/shop/mens-polos-t-shirts-turtlenecks/-/N-fze?cm_re=nav-_-men-_-catagories-_-polos-tshirt-turtlenecks" ceid="TopNav-Men-Categories-PolosTshirtsTurtlenecks">Polos, T-shirts &amp; Turtlenecks</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-polo-shirts/-/N-fzg?cm_re=nav-_-men-_-catagories-_-polo-shirts" ceid="TopNav-Men-Categories-PoloShirts">Polo Shirts</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-dress-shirts/-/N-fzl?cm_re=nav-_-men-_-catagories-_-dress-shirt" ceid="TopNav-Men-Categories-DressShirts">Dress Shirts</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-casual-button-down-shirts/-/N-fzh?cm_re=nav-_-men-_-catagories-_-casual-button-down-shirts" ceid="TopNav-Men-Categories-CasualButtonDownShirts">Casual Button-down Shirts</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-swimsuits/-/N-fzz?cm_re=nav-_-men-_-catagories-_-swimsuits" ceid="TopNav-Men-Categories-Swimsuits">Swimsuits</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-sweaters-cardigans/-/N-fzm?cm_re=nav-_-men-_-catagories-_-sweaters-cardigans" ceid="TopNav-Men-Categories-Sweaters">Sweaters &amp; Cardigans</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-sweatshirts-hoodies/-/N-fzk?cm_re=nav-_-men-_-catagories-_-sweatshirts-hoodies" ceid="TopNav-Men-Categories-Sweatshirts">Sweatshirts &amp; Hoodies</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-casual-shirts/-/N-fzh?cm_re=nav-_-men-_-catagories-_-casual-shirts" ceid="TopNav-Men-Categories-CasualShirts">Casual Shirts</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-knit-tops-tees/-/N-fze?cm_re=nav-_-men-_-catagories-_-knit-tops-tees" ceid="TopNav-Men-Categories-KnitTopsTees">Knit Tops &amp; Tees</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-activewear/-/N-g0b?cm_re=nav-_-men-_-catagories-_-activewear" ceid="TopNav-Men-Categories-Activewear">Activewear</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-sweaters/-/N-fzm?cm_re=nav-_-men-_-catagories-_-sweaters" ceid="TopNav-Men-Categories-Sweaters">Sweaters</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-sportcoats-blazers/-/N-fzp?cm_re=nav-_-men-_-catagories-_-sportcoats-blazers" ceid="TopNav-Men-Categories-SportcoatsBlazers">Sportcoats &amp; Blazers</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-pants/-/N-fzd?cm_re=nav-_-men-_-catagories-_-pants" ceid="TopNav-Men-Categories-Pants">Pants</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-jeans/-/N-jln?cm_re=nav-_-men-_-catagories-_-jeans" ceid="TopNav-Men-Categories-Jeans">Jeans</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-shorts/-/N-fzy?cm_re=nav-_-men-_-catagories-_-shorts" ceid="TopNav-Men-Categories-Shorts">Shorts</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-sportcoats-blazers/-/N-fzp?cm_re=nav-_-men-_-catagories-_-sportcoats-blazers" ceid="TopNav-Men-Categories-SportcoatsBlazers">Sportcoats &amp; Blazers</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-coats/-/N-fz7?cm_re=nav-_-men-_-catagories-_-coats" ceid="TopNav-Men-Categories-Coats">Coats</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-swimsuits/-/N-fzz?cm_re=nav-_-men-_-catagories-_-swimsuits" ceid="TopNav-Men-Categories-Swimsuits">Swimsuits</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-sleepwear/-/N-fzv?cm_re=nav-_-men-_-catagories-_-sleepwear" ceid="TopNav-Men-Categories-Sleepwear">Sleepwear</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-outerwear/-/N-fz7?cm_re=nav-_-men-_-catagories-_-outerwear" ceid="TopNav-Men-Categories-Outerwear">Outerwear</a></li>
 				<li><a href="http://www.landsend.com/shop/mens-shoes/-/N-fzr?cm_re=nav-_-men-_-catagories-_-shoes" ceid="TopNav-Men-Categories-Shoes">Shoes</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-ties/-/N-fzq?cm_re=nav-_-men-_-catagories-_-ties" ceid="TopNav-Men-Categories-Ties">Ties</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-belts-accessories/-/N-g06?cm_re=nav-_-men-_-catagories-_-belts-accessories" ceid="TopNav-Men-Categories-Belts">Belts &amp; Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-hats-gloves-scarves/-/N-fzb?cm_re=nav-_-men-_-catagories-_-hats-gloves-scarves" ceid="TopNav-Men-Categories-Outerwear">Hats, Gloves &amp; Scarves</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-socks-underwear/-/N-g02?cm_re=nav-_-men-_-catagories-_-socks-underwear" ceid="TopNav-Men-Categories-SocksUnderwear">Socks &amp; Underwear</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-accessories/-/N-g06?cm_re=nav-_-men-_-catagories-_-accessories" ceid="TopNav-Men-Categories-Accessories">Accessories</a></li>
+				<li><a href="http://www.landsend.com/shop/mens-underwear-long-underwear/-/N-g02?cm_re=nav-_-men-_-catagories-_-underwear-long-underwear" ceid="TopNav-Men-Categories-UnderwearLongUnderwear">Underwear &amp; Long Underwear</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -346,21 +345,21 @@ com.landsend.global.PageConfigParms = Object1;
 						<li class="sub-nav-column sub-nav-feature-col">
 							<ul>
 								<li class="mobile-nav-header">
-									<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+									<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/kids/?cm_re=nav-_-kids-_-back" ceid="MobileTopNav-Kids">Kids</a></h4>
 								</li>
 								<li class="mobile-nav-more">
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 									<ul class="sub-sub-nav sub-nav-featured sub-nav-divider">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Kids</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Kids</span>
 											<h4>Featured Shops</h4>
 										</li>
-										<li><a href="http://www.landsend.com/shop/-/N-jro?cm_re=nav-_-kids-_-featureshop-_-swim-shop" ceid="TopNav-Kids-Featured-SwimShop" class="sub-nav-featured-link">Swim Shop</a></li>
-										<li><a href="http://www.landsend.com/shop/-/N-k28?cm_re=nav-_-kids-_-featureshop-_-backpack-lunchboxes" ceid="TopNav-Kids-Featured-backpack-lunchboxes" class="sub-nav-featured-link">Backpacks &amp; Lunch Boxes</a></li>
+										<li><a href="http://www.landsend.com/shop/-/N-js4?cm_re=nav-_-kids-_-featureshop-_-outerwearshop" ceid="TopNav-Kids-Featured-backpack-OuterwearShop" class="sub-nav-featured-link">Outerwear Shop</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54?cm_re=nav-_-kids-_-featureshop-_-school-uniforms" ceid="TopNav-Kids-Featured-SchoolUniforms" class="sub-nav-featured-link">School Uniforms</a></li>
+										<li><a href="http://www.landsend.com/shop/-/N-js5?cm_re=nav-_-kids-_-featureshop-_-school-uniforms" ceid="TopNav-Kids-Featured-ShoesBoots" class="sub-nav-featured-link">Shoes &amp; Boots</a></li>
 									<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only --></li>
-										<li><a href="http://www.landsend.com/shop/kids/-/N-jl6?cm_re=nav-_-kids-_-featureshop-_-new-arrivals" ceid="TopNav-Kids-Featured-NewArrivals">New Arrivals</a></li>
+										<li><a href="http://www.landsend.com/shop/kids/-/N-jqh?cm_re=nav-_-kids-_-featureshop-_-new-arrivals" ceid="TopNav-Kids-Featured-NewArrivals">New Arrivals</a></li>
 										<li><a href="http://www.landsend.com/shop/-/N-jmiZg1w?cm_re=nav-_-kids-_-featureshop-_-boys-iron-knee" ceid="TopNav-Kids-Featured-BoysIronKnee">Boys Iron Knee</a></li>
 										<li><a href="http://www.landsend.com/shop/-/N-jrp?cm_re=nav-_-kids-_-featureshop-_-girls-knit-kit" ceid="TopNav-Kids-Featured-GirlsKnitKit">Girls Knit Kit</a></li>
 										<li><a href="http://www.landsend.com/shop/kids/-/N-jl7?cm_re=nav-_-kids-_-featureshop-_-sale" ceid="TopNav-Kids-Featured-Sale" class="sale">Sale</a></li>
@@ -369,7 +368,7 @@ com.landsend.global.PageConfigParms = Object1;
 								<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Shop By Age Range</h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Kids</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Kids</span>
 											<h4>Shop By Age Range</h4>
 										</li>
 										<li class="sub-sub-nav-fit">
@@ -394,28 +393,26 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/girls/-/N-g0f?cm_re=nav-_-girls-_-main" ceid="MobileTopNav-Kids-Girls" class="tab-nav-more-link">Girls</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Kids</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Kids</span>
 											<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/girls/-/N-g0f?cm_re=nav-_-girls-_-back" ceid="TopNav-Kids-Girls">Girls</a></h4>
 										</li>
-				<li><a href="http://www.landsend.com/shop/girls-swimsuits/-/N-g0g?cm_re=nav-_-girl-_-catagories-_-swimsuits" ceid="TopNav-Kids-Girls-Swim">Swimsuits</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-tops/-/N-g0l?cm_re=nav-_-girl-_-catagories-_-tops" ceid="TopNav-Kids-Girls-Tops">Tops</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-graphic-tees/-/N-g0n?cm_re=nav-_-girl-_-catagories-_-graphic-tees" ceid="TopNav-Kids-Girls-Graphic-Tees">Graphic Tees</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-sweaters-cardigans/-/N-g0v?cm_re=nav-_-girl-_-catagories-_-sweaters-cardigans" ceid="TopNav-Kids-Girls-Sweaters">Sweaters &amp; Cardigans</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-sweatshirts-hoodies/-/N-g0u?cm_re=nav-_-girl-_-catagories-_-sweatshirts-hoodies" ceid="TopNav-Kids-Girls-Sweatshirts">Sweatshirts &amp; Hoodies</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-dresses/-/N-g11?cm_re=nav-_-girl-_-catagories-_-dresses" ceid="TopNav-Kids-Girls-Dresses">Dresses</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-pants-leggings/-/N-g0w?cm_re=nav-_-girl-_-catagories-_-pants-leggings" ceid="TopNav-Kids-Girls-Pants">Pants &amp; Leggings</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-jeans/-/N-jl9?cm_re=nav-_-girl-_-catagories-_-jeans" ceid="TopNav-Kids-Girls-Jeans">Jeans</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-skirts-skorts/-/N-g12?cm_re=nav-_-girl-_-catagories-_-shirts-skorts" ceid="TopNav-Kids-Girls-SkirtsSkorts">Skirts &amp; Skorts</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-shorts/-/N-g10?cm_re=nav-_-girl-_-catagories-_-shorts" ceid="TopNav-Kids-Girls-Shorts">Shorts</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-blazers-jackets/-/N-g15?cm_re=nav-_-girl-_-catagories-_-blazers-jackets" ceid="TopNav-Kids-Girls-BlazersJackets">Blazers &amp; Jackets</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-activewear/-/N-k7k?cm_re=nav-_-girl-_-catagories-_-activewear" ceid="TopNav-Kids-Girls-Activewear">Activewear</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-sleepwear/-/N-g1o?cm_re=nav-_-girl-_-catagories-_-sleepwear" ceid="TopNav-Kids-Girls-Sleepwear">Sleepwear</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-outerwear/-/N-g16?cm_re=nav-_-girl-_-catagories-_-outerwear" ceid="TopNav-Kids-Girls-Outerwear">Outerwear</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-backpacks-lunch-boxes/-/N-k29?cm_re=nav-_-girl-_-catagories-_-backpacks-lunchboxes" ceid="TopNav-Kids-Girls-BackpacksLunchBoxes">Backpacks &amp; Lunch Boxes</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-tights-socks-underwear/-/N-g1c?cm_re=nav-_-girl-_-catagories-_-tights-socks-underwear" ceid="TopNav-Kids-Girls-TightsSocksUnderwear">Tights, Socks &amp; Underwear</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-accessories/-/N-g1g?cm_re=nav-_-girl-_-catagories-_-accessories" ceid="TopNav-Kids-Girls-Accessories">Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-hats-gloves-scarves/-/N-g19?cm_re=nav-_-girl-_-catagories-_-hats-gloves-scarfs" ceid="TopNav-Kids-Girls-HatsGlovesScarfs">Hats, Gloves &amp; Scarves</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-shoes/-/N-g1s?cm_re=nav-_-girl-_-catagories-_-shoes" ceid="TopNav-Kids-Girls-Shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-swimsuits/-/N-g0g?cm_re=nav-_-girl-_-catagories-_-swimsuits" ceid="TopNav-Kids-Girls-Swim">Swimsuits</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-tops/-/N-g0l?cm_re=nav-_-girl-_-catagories-_-tops" ceid="TopNav-Kids-Girls-Tops">Tops</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-sweaters/-/N-g0v?cm_re=nav-_-girl-_-catagories-_-sweaters" ceid="TopNav-Kids-Girls-Sweaters">Sweaters</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-dresses/-/N-g11?cm_re=nav-_-girl-_-catagories-_-dresses" ceid="TopNav-Kids-Girls-Dresses">Dresses</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-pants-leggings/-/N-g0w?cm_re=nav-_-girl-_-catagories-_-pants-leggings" ceid="TopNav-Kids-Girls-Pants">Pants &amp; Leggings</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-jeans/-/N-jl9?cm_re=nav-_-girl-_-catagories-_-jeans" ceid="TopNav-Kids-Girls-Jeans">Jeans</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-skirts-skorts/-/N-g12?cm_re=nav-_-girl-_-catagories-_-shirts-skorts" ceid="TopNav-Kids-Girls-SkirtsSkorts">Skirts &amp; Skorts</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-shorts/-/N-g10?cm_re=nav-_-girl-_-catagories-_-shorts" ceid="TopNav-Kids-Girls-Shorts">Shorts</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-blazers-jackets/-/N-g15?cm_re=nav-_-girl-_-catagories-_-blazers-jackets" ceid="TopNav-Kids-Girls-BlazersJackets">Blazers &amp; Jackets</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-sleepwear/-/N-g1o?cm_re=nav-_-girl-_-catagories-_-sleepwear" ceid="TopNav-Kids-Girls-Sleepwear">Sleepwear</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-outerwear/-/N-g16?cm_re=nav-_-girl-_-catagories-_-outerwear" ceid="TopNav-Kids-Girls-Outerwear">Outerwear</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-shoes/-/N-g1s?cm_re=nav-_-girl-_-catagories-_-shoes" ceid="TopNav-Kids-Girls-Shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-accessories/-/N-g1g?cm_re=nav-_-girl-_-catagories-_-accessories" ceid="TopNav-Kids-Girls-Accessories">Accessories</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-long-underwear/-/N-g1c?cm_re=nav-_-girl-_-catagories-_-long-underwear" ceid="TopNav-Kids-Girls-LongUnderwear">Long Underwear</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-backpacks-lunch-boxes/-/N-k29?cm_re=nav-_-girl-_-catagories-_-backpacks-lunchboxes" ceid="TopNav-Kids-Girls-BackpacksLunchBoxes">Backpacks &amp; Lunch Boxes</a></li>
+
+				
 									</ul>
 								</li>
 							</ul>
@@ -426,27 +423,24 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/boys/-/N-g1w?cm_re=nav-_-boys-_-main" ceid="MobileTopNav-Kids-Boys" class="tab-nav-more-link">Boys</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Kids</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Kids</span>
 											<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/boys/-/N-g1w?cm_re=nav-_-boys-_-back" ceid="TopNav-Kids-Boys">Boys</a></h4>
 										</li>
 										<!-- <li class="desktop-nav-header"><h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/boys/-/N-g1w" class="tab-nav-more-link">Boys</a></h4></li> -->
-				<li><a href="http://www.landsend.com/shop/boys-swimsuits/-/N-g2y?cm_re=nav-_-boy-_-catagories-_-swimsuits" ceid="TopNav-Kids-Boys-Swim">Swimsuits</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-tops/-/N-g23?cm_re=nav-_-boy-_-catagories-_-tops" ceid="TopNav-Kids-Boys-Tops">Tops</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-graphic-tees/-/N-g24?cm_re=nav-_-boy-_-catagories-_-graphic-tees" ceid="TopNav-Kids-Boys-Graphic-Tees">Graphic Tees</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-sweaters/-/N-g2c?cm_re=nav-_-boy-_-catagories-_-sweaters" ceid="TopNav-Kids-Boys-Sweaters">Sweaters</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-sweatshirts-hoodies/-/N-g29?cm_re=nav-_-boy-_-catagories-_-sweatshirts-hoodies" ceid="TopNav-Kids-Boys-Sweatshirts">Sweatshirts &amp; Hoodies</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-pants/-/N-g2d?cm_re=nav-_-boy-_-catagories-_-pants" ceid="TopNav-Kids-Boys-Pants">Pants</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-jeans/-/N-jm3?cm_re=nav-_-boy-_-catagories-_-jeans" ceid="TopNav-Kids-Boys-Jeans">Jeans</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-shorts/-/N-g2e?cm_re=nav-_-boy-_-catagories-_-shorts" ceid="TopNav-Kids-Boys-Shorts">Shorts</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-blazers-jackets/-/N-g2t?cm_re=nav-_-boy-_-catagories-_-balzers-jackets" ceid="TopNav-Kids-Boys-BlazersJackets">Blazers &amp; Jackets</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-activewear/-/N-k7o?cm_re=nav-_-boy-_-catagories-_-activewear" ceid="TopNav-Kids-Boys-Activewear">Activewear</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-sleepwear/-/N-g2q?cm_re=nav-_-boy-_-catagories-_-sleepwear" ceid="TopNav-Kids-Boys-Sleepwear">Sleepwear</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-outerwear/-/N-g1x?cm_re=nav-_-boy-_-catagories-_-outerwear" ceid="TopNav-Kids-Boys-Outerwear">Outerwear</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-backpacks-lunch-boxes/-/N-k2d?cm_re=nav-_-boy-_-catagories-_-backpack-lunchboxes" ceid="TopNav-Kids-Boys-BackpacksLunchBoxes">Backpacks &amp; Lunch Boxes</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-ties-accessories/-/N-g2f?cm_re=nav-_-boy-_-catagories-_-ties-accessories" ceid="TopNav-Kids-Boys-Accessories">Ties &amp; Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-socks-underwear/-/N-g2m?cm_re=nav-_-boy-_-catagories-_-socks-underwear" ceid="TopNav-Kids-Boys-SocksUnderwear">Socks &amp; Underwear</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-hats-gloves-scarves/-/N-g20?cm_re=nav-_-boy-_-catagories-_-hats-gloves-scarves" ceid="TopNav-Kids-Boys-Outerwear">Hats, Gloves &amp; Scarves</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-shoes/-/N-g2u?cm_re=nav-_-boy-_-catagories-_-shoes" ceid="TopNav-Kids-Boys-Shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-swimsuits/-/N-g2y?cm_re=nav-_-boy-_-catagories-_-swimsuits" ceid="TopNav-Kids-Boys-Swim">Swimsuits</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-tops/-/N-g23?cm_re=nav-_-boy-_-catagories-_-tops" ceid="TopNav-Kids-Boys-Tops">Tops</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-sweaters/-/N-g2c?cm_re=nav-_-boy-_-catagories-_-sweaters" ceid="TopNav-Kids-Boys-Sweaters">Sweaters</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-pants/-/N-g2d?cm_re=nav-_-boy-_-catagories-_-pants" ceid="TopNav-Kids-Boys-Pants">Pants</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-jeans/-/N-jm3?cm_re=nav-_-boy-_-catagories-_-jeans" ceid="TopNav-Kids-Boys-Jeans">Jeans</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-shorts/-/N-g2e?cm_re=nav-_-boy-_-catagories-_-shorts" ceid="TopNav-Kids-Boys-Shorts">Shorts</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-blazers-jackets/-/N-g2t?cm_re=nav-_-boy-_-catagories-_-balzers-jackets" ceid="TopNav-Kids-Boys-BlazersJackets">Blazers &amp; Jackets</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-activewear/-/N-k7o?cm_re=nav-_-boy-_-catagories-_-activewear" ceid="TopNav-Kids-Boys-Activewear">Activewear</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-sleepwear/-/N-g2q?cm_re=nav-_-boy-_-catagories-_-sleepwear" ceid="TopNav-Kids-Boys-Sleepwear">Sleepwear</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-outerwear/-/N-g1x?cm_re=nav-_-boy-_-catagories-_-outerwear" ceid="TopNav-Kids-Boys-Outerwear">Outerwear</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-shoes/-/N-g2u?cm_re=nav-_-boy-_-catagories-_-shoes" ceid="TopNav-Kids-Boys-Shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-accessories/-/N-g2f?cm_re=nav-_-boy-_-catagories-_-accessories" ceid="TopNav-Kids-Boys-Accessories">Accessories</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-long-underwear/-/N-g2m?cm_re=nav-_-boy-_-catagories-_-long-underwear" ceid="TopNav-Kids-Boys-LongUnderwear">Long Underwear</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-backpacks-lunch-boxes/-/N-k2d?cm_re=nav-_-boy-_-catagories-_-backpack-lunchboxes" ceid="TopNav-Kids-Boys-BackpacksLunchBoxes">Backpacks &amp; Lunch Boxes</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -460,7 +454,7 @@ com.landsend.global.PageConfigParms = Object1;
 						<li class="sub-nav-column">
 							<ul class="sub-nav-collections">
 								<li class="mobile-nav-header">
-									<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+									<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/swim/?cm_re=nav-_-swim-_-back" ceid="TopNav-Outerwear">Swim</a></h4>
 								</li>
 								<li class="desktop-nav-header">
@@ -484,24 +478,25 @@ com.landsend.global.PageConfigParms = Object1;
 						<li class="sub-nav-column sub-nav-feature-col">
 							<ul>
 								<li class="mobile-nav-header">
-									<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+									<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/shoes?cm_re=nav-_-shoes-acc-_-back" ceid="MobileTopNav-Shoes-Accessories">Shoes &amp; Accessories</a></h4>
 								</li>
 								<li class="mobile-nav-more">
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 									<!--added inline style min-width:235px; to get 'Water Shoes & Sandals' on one line-->
-									<ul class="sub-sub-nav sub-nav-featured sub-nav-divider" style="min-width:235px;">
+									<ul class="sub-sub-nav sub-nav-featured" style="min-width:235px;">
 									<!--added inline style min-width:235px; to get 'Water Shoes & Sandals' on one line-->
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Shoes &amp; Accessories</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Shoes &amp; Accessories</span>
 											<h4>Featured Shops</h4>
 										</li>
 										<li><a href="http://www.landsend.com/fall-accessories/?cm_re=nav-_-shoes-_-featureshop-_-fall-accessories" ceid="TopNav-Shoes-Accessories-Featured-fall-accessories" class="sub-nav-featured-link">Accessories Shop</a></li>
 										<li><a href="http://www.landsend.com/shop/shoes/-/N-k5v?cm_re=nav-_-shoes-_-featureshop-_-boots-booties" ceid="TopNav-Shoes-Accessories-Featured-boots-booties" class="sub-nav-featured-link">Boots &amp; Booties</a></li>
-										<li><a href="http://www.landsend.com/shop/womens-accessories-handbags/-/N-fyt?cm_re=nav-_-shoes-_-featureshop-_-totes-handbags" ceid="TopNav-Shoes-Accessories-Featured-totes-handbags" class="sub-nav-featured-link">Totes &amp; Handbags</a></li>
+										<li><a href="http://www.landsend.com/shop/womens-bags/-/N-kg3?cm_re=nav-_-shoes-_-featureshop-_-totes-handbags" ceid="TopNav-Shoes-Accessories-Featured-totes-handbags" class="sub-nav-featured-link">Totes &amp; Handbags</a></li>
 										<li><a href="http://www.landsend.com/shop/-/N-k28?cm_re=nav-_-shoes-_-featureshop-_-backpack-lunchboxes" ceid="TopNav-Shoes-Accessories-Featured-backpack-lunchboxes" class="sub-nav-featured-link">Backpacks &amp; Lunch Boxes</a></li>
-									<!--<li class="sub-nav-divider hidden-xs">Placeholder Only </li>-->
-										
+										<li class="sub-nav-divider hidden-xs"><!--Placeholder only--></li>
+										<li><a href="http://www.landsend.com/shop/shoes/-/N-jqh?cm_re=nav-_-shoes-_-featureshop-_-new-arrivals" ceid="TopNav-Shoes-Accessories-Featured-NewArrivals" class="sub-nav-featured-link">New Arrivals</a></li>
+										<li><a href="http://www.landsend.com/shop/shoes/-/N-jl7?cm_re=nav-_-shoes-_-featureshop-_-sale" ceid="TopNav-Shoes-Accessories-Featured-Sale" class="sub-nav-featured-link">Sale</a></li>
 									</ul>
 								</li>
 								
@@ -513,15 +508,14 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Women</h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Shoes &amp; Accessories</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Shoes &amp; Accessories</span>
 											<h4 class="sub-nav-header-link"><a>Women</a></h4>
 										</li>
 				
-				<li><a href="http://www.landsend.com/shop/womens-shoes/-/N-fyn?cm_re=nav-_-shoes-_-womens-_-shoes" ceid="TopNav-shoes-ws-shoes">Shoes</a></li>
-				<li><a href="http://www.landsend.com/shop/womens-accessories/-/N-fys?cm_re=nav-_-shoes-_-womens-_-accessories-_-handbags" ceid="TopNav-shoes-ws-accessories-handbags">Accessories &amp; Handbags</a></li>
-				<li ><a href="http://www.landsend.com/shop/womens-socks-tights-underwear/-/N-fyr?cm_re=nav-_-shoes-_-womens-_-socks-_-tights-_-underwear" ceid="TopNav-shoes-ws-socks-tights-underwear">Socks, Tights &amp; Underwear</a></li>
-				<li ><a href="http://www.landsend.com/shop/for-the-home-totes/-/N-g3z?cm_re=nav-_-shoes-_-womens-_-totes" ceid="TopNav-shoes-ws-totes">Totes</a></li>
-				<li ><a href="http://www.landsend.com/shop/womens-hats-gloves-scarves/-/N-fyg?cm_re=nav-_-shoes-_-womens-_-hats-_-gloves-_-scarves" ceid="TopNav-shoes-ws-hats-gloves-scarves">Hats, Gloves &amp; Scarves</a></li>
+										<li><a href="http://www.landsend.com/shop/womens-shoes/-/N-fyn?cm_re=nav-_-shoes-_-womens-_-shoes" ceid="TopNav-shoes-ws-shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/womens-accessories/-/N-fys?cm_re=nav-_-shoes-_-womens-_-accessories" ceid="TopNav-shoes-ws-accessories">Accessories</a></li>
+										<li ><a href="http://www.landsend.com/shop/womens-bags/-/N-kg3?cm_re=nav-_-shoes-_-womens-_-bags" ceid="TopNav-shoes-ws-bags">Bags</a></li>
+										<li ><a href="http://www.landsend.com/shop/womens-long-underwear/-/N-fyh?cm_re=nav-_-shoes-_-womens-_-long-underwear" ceid="TopNav-shoes-ws-long-underwear">Long Underwear</a></li>
 				
 									</ul>
 								</li>
@@ -529,15 +523,13 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Men</h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Shoes &amp; Accessories</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Shoes &amp; Accessories</span>
 											<h4 class="sub-nav-header-link"><a>Men</a></h4>
 										</li>
 				
-				<li><a href="http://www.landsend.com/shop/mens-shoes/-/N-fzr?cm_re=nav-_-shoes-_-men-_-shoes" ceid="TopNav-shoes-mn-shoes">Shoes</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-belts-accessories/-/N-g06?cm_re=nav-_-shoes-_-men-_-belts-_-accessories" ceid="TopNav-shoes-mn-belts-accessories">Belts &amp; Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/mens-socks-underwear/-/N-g02?cm_re=nav-_-shoes-_-men-_-socks-_-underwear" ceid="TopNav-shoes-mn-socks-underwear">Socks &amp; Underwear</a></li>
-				<li ><a href="http://www.landsend.com/shop/mens-ties/-/N-fzq?cm_re=nav-_-shoes-_-men-_-ties" ceid="TopNav-shoes-mn-ties">Ties</a></li>
-				<li ><a href="http://www.landsend.com/shop/mens-hats-gloves-scarves/-/N-fzb?cm_re=nav-_-shoes-_-men-_-hats-_-gloves-_-scarves" ceid="TopNav-shoes-mn-hats-gloves-scarves">Hats, Gloves &amp; Scarves</a></li>
+										<li><a href="http://www.landsend.com/shop/mens-shoes/-/N-fzr?cm_re=nav-_-shoes-_-men-_-shoes" ceid="TopNav-shoes-mn-shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/mens-accessories/-/N-g06?cm_re=nav-_-shoes-_-men-_-accessories" ceid="TopNav-shoes-mn-accessories">Accessories</a></li>
+										<li><a href="http://www.landsend.com/shop/mens-underwear-long-underwear/-/N-g02?cm_re=nav-_-shoes-_-men-_-underwear-_-longunderwear" ceid="TopNav-shoes-mn-underwear-long-underwear">Underwear &amp; Long Underwear</a></li>
 				
 									</ul>
 								</li>
@@ -545,29 +537,26 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Girls'</h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Shoes &amp; Accessories</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Shoes &amp; Accessories</span>
 											<h4 class="sub-nav-header-link"><a>Girls'</a></h4>
 										</li>
-				<li><a href="http://www.landsend.com/shop/girls-shoes/-/N-g1s?cm_re=nav-_-shoes-_-girl-_-shoes" ceid="TopNav-shoes-gr-shoes">Shoes</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-accessories/-/N-g1g?cm_re=nav-_-shoes-_-girl-_-accessories" ceid="TopNav-shoes-gr-accessories">Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/girls-tights-socks-underwear/-/N-g1c?cm_re=nav-_-shoes-_-girl-_-tights-_-socks-_-underwear" ceid="TopNav-shoes-gr-tights-socks-underwear">Tights, Socks &amp; Underwear</a></li>
-				<li ><a href="http://www.landsend.com/shop/girls-backpacks-lunch-boxes/-/N-k29?cm_re=nav-_-shoes-_-girl-_-backpacks-_-lunchboxes" ceid="TopNav-shoes-gr-backpacks-lunchboxes">Backpacks &amp; Lunch Boxes</a></li>
-				<li ><a href="http://www.landsend.com/shop/girls-hats-gloves-scarves/-/N-g19?cm_re=nav-_-shoes-_-girl-_-hats-_-gloves-_-scarves" ceid="TopNav-shoes-gr-hats-gloves-scarves">Hats, Gloves &amp; Scarves</a></li>
-				
+										<li><a href="http://www.landsend.com/shop/girls-shoes/-/N-g1s?cm_re=nav-_-shoes-_-girl-_-shoes" ceid="TopNav-shoes-gr-shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-accessories/-/N-g1g?cm_re=nav-_-shoes-_-girl-_-accessories" ceid="TopNav-shoes-gr-accessories">Accessories</a></li>
+										<li ><a href="http://www.landsend.com/shop/girls-backpacks-lunch-boxes/-/N-k29?cm_re=nav-_-shoes-_-girl-_-backpacks-_-lunchboxes" ceid="TopNav-shoes-gr-backpacks-lunchboxes">Backpacks &amp; Lunch Boxes</a></li>
+										<li><a href="http://www.landsend.com/shop/girls-long-underwear/-/N-g1c?cm_re=nav-_-shoes-_-girl-_-long-_-underwear" ceid="TopNav-shoes-gr-long-underwear">Long Underwear</a></li>
 									</ul>
 								</li>
 								<li class="mobile-nav-more">
 									<h4 class="mobile-nav-more-link fn-nav-more-link">Boys'</h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Shoes &amp; Accessories</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Shoes &amp; Accessories</span>
 											<h4 class="sub-nav-header-link"><a>Boys'</a></h4>
 										</li>
-				<li><a href="http://www.landsend.com/shop/boys-shoes/-/N-g2u?cm_re=nav-_-shoes-_-boy-_-shoes" ceid="TopNav-shoes-by-shoes">Shoes</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-ties-accessories/-/N-g2f?cm_re=nav-_-shoes-_-boy-_-ties-_-accessories" ceid="TopNav-shoes-by-ties-accessories">Ties &amp; Accessories</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-socks-underwear/-/N-g2m?cm_re=nav-_-shoes-_-boy-_-socks-_-underwear" ceid="TopNav-shoes-by-socks-underwear">Socks &amp; Underwear</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-backpacks-lunch-boxes/-/N-k2d?cm_re=nav-_-shoes-_-boy-_-backpacks-_-lunchboxes" ceid="TopNav-shoes-by-backpacks-lunchboxes">Backpacks &amp; Lunch Boxes</a></li>
-				<li><a href="http://www.landsend.com/shop/boys-hats-gloves-scarves/-/N-g20?cm_re=nav-_-shoes-_-boy-_-hats-_-gloves-_-scarves" ceid="TopNav-shoes-by-hats-gloves-scarves">Hats, Gloves &amp; Scarves</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-shoes/-/N-g2u?cm_re=nav-_-shoes-_-boy-_-shoes" ceid="TopNav-shoes-by-shoes">Shoes</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-accessories/-/N-g2f?cm_re=nav-_-shoes-_-boy-_-accessories" ceid="TopNav-shoes-by-accessories">Accessories</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-backpacks-lunch-boxes/-/N-k2d?cm_re=nav-_-shoes-_-boy-_-backpacks-_-lunchboxes" ceid="TopNav-shoes-by-backpacks-lunchboxes">Backpacks &amp; Lunch Boxes</a></li>
+										<li><a href="http://www.landsend.com/shop/boys-long-underwear/-/N-g2m?cm_re=nav-_-shoes-_-boy-_-long-_-underwear" ceid="TopNav-shoes-by-long-underwear">Long Underwear</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -576,46 +565,99 @@ com.landsend.global.PageConfigParms = Object1;
 				</li>
 				<!-- end SHOES & ACCCESSORIES-->
 				<!-- Home -->
-				<li class="tab-nav-item top-nav-item mobile-nav-more"><a href="http://www.landsend.com/shop/for-the-home/-/N-g31?cm_re=nav-_-home-_-main" ceid="MobileTopNav-Home" class="top-nav-link mobile-nav-more-link fn-nav-more-link">Home</a>
+				<li class="tab-nav-item top-nav-item mobile-nav-more"><a href="http://www.landsend.com/shop/home/-/N-g31?cm_re=nav-_-home-_-main" ceid="MobileTopNav-Home" class="top-nav-link mobile-nav-more-link fn-nav-more-link">Home</a>
 					<ul class="sub-nav two-col sub-nav-left sub-nav-home">
 						<li class="sub-nav-column sub-nav-feature-col">
 							<ul>
 								<li class="mobile-nav-header">
-									<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
-									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/for-the-home/-/N-g31?cm_re=nav-_-home-_-back" ceid="TopNav-Home">Home</a></h4>
+									<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
+									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/home/-/N-g31?cm_re=nav-_-home-_-back" ceid="TopNav-Home">Home</a></h4>
 								</li>
 								<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 									<ul class="sub-sub-nav sub-nav-featured last">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Home</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Home</span>
 											<h4>Featured Shops</h4>
 										</li>
-										<li><a href="http://www.landsend.com/shop/for-the-home/-/N-g31Zjv0?cm_re=nav-_-home-_-featureshop-_-supima-bed-bath" ceid="TopNav-Home-Featured-SupimaBedBath" class="sub-nav-featured-link">Supima Bed &amp; Bath</a></li>
+										<li><a href="http://www.landsend.com/shop/home/-/N-g31Zjqh?cm_re=nav-_-home-_-featureshop-_-new-arrivals" ceid="TopNav-Home-Featured-NewArrivals">New Arrivals</a></li>
+										<li><a href="http://www.landsend.com/shop/home/-/N-g31Zjv0?cm_re=nav-_-home-_-featureshop-_-supima-bed-bath" ceid="TopNav-Home-Featured-SupimaBedBath" class="sub-nav-featured-link">Supima Bedding &amp; Bath</a></li>
+										<li><a href="http://www.landsend.com/shop/home/-/N-g31Zkcj?cm_re=nav-_-home-_-featureshop-_-egyptian-_-cotton-_-collection" ceid="TopNav-Home-Featured-EgyptianCottonCollection" class="sub-nav-featured-link">Egyptian Cotton Collection</a></li>
 										<li><a href="http://www.landsend.com/shop/-/N-k8g?cm_re=nav-_-home-_-featureshop-_-no-iron-bedding" ceid="TopNav-Home-Featured-NoIronBedding" class="sub-nav-featured-link">No Iron Bedding</a></li>
-										<li><a href="http://www.landsend.com/shop/-/N-jnu?cm_re=nav-_-home-_-featureshop-_-beach-essentials" ceid="TopNav-Home-Featured-BeachEssentials" class="sub-nav-featured-link">Beach Essentials</a></li>
-										<li><a href="http://www.landsend.com/shop/-/N-g31Zjnk?cm_re=nav-_-home-_-featureshop-_-canvas-totes-more" ceid="TopNav-Home-Featured-TotesnMore" class="sub-nav-featured-link">Canvas Totes &amp; More</a></li>
-									<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only --></li>
-											<li><a href="http://www.landsend.com/shop/for-the-home/-/N-g31Zjqh?cm_re=nav-_-home-_-featureshop-_-new-arrivals" ceid="TopNav-Home-Featured-NewArrivals">New Arrivals</a></li>
-											<li><a href="http://www.landsend.com/homeguides?cm_re=nav-_-home-_-featureshop-_-homeguides" ceid="TopNav-Home-Featured-Homeguides">Home Buying Guide</a></li>
-											<li><a href="http://www.landsend.com/shop/for-the-home/-/N-g31Zjl7?cm_re=nav-_-home-_-featureshop-_-sale" ceid="TopNav-Home-Featured-Sale" class="sale">Sale</a></li>
+										<li><a href="http://www.landsend.com/shop/-/N-jl0?cm_re=nav-_-home-_-featureshop-_-bedding-_-collections" ceid="TopNav-Home-Featured-BeddingCollections">Bedding Collections</a></li>
+										<li><a href="http://www.landsend.com/shop/home/-/N-g31Zjl7?cm_re=nav-_-home-_-featureshop-_-sale" ceid="TopNav-Home-Featured-Sale" class="sale">Sale</a></li>
 									</ul>
 								</li>
 							</ul>
 						</li>
 						<li class="sub-nav-column sub-nav-column-category">
 							<ul class="sub-nav-category">
-								<li><h4 class="desktop-nav-header">Categories</h4>
+								<!--<li><h4 class="desktop-nav-header">Categories</h4>-->
 									<ul>
-				<li><a href="http://www.landsend.com/shop/for-the-home-bedding/-/N-g32?cm_re=nav-_-home-_-catagories-_-bedding" ceid="TopNav-Home-Categories-Bedding">Bedding</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-bath/-/N-g3a?cm_re=nav-_-home-_-catagories-_-bath" ceid="TopNav-Home-Categories-Bath">Bath</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-blankets-throws/-/N-g3g?cm_re=nav-_-home-_-catagories-_-blankets-throws" ceid="TopNav-Home-Categories-Blankets-Throws">Blankets &amp; Throws</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-storage-organization/-/N-g3m?cm_re=nav-_-home-_-catagories-_-storage-organization" ceid="TopNav-Home-Categories-StorageOrganization">Storage &amp; Organization</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-beach-towels/-/N-g3f?cm_re=nav-_-home-_-catagories-_-beach-towels" ceid="TopNav-Home-Categories-BeachTowels">Beach Towels</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-totes/-/N-g3z?cm_re=nav-_-home-_-catagories-_-totes" ceid="TopNav-Home-Categories-Totes">Totes</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-home-decor-gifts/-/N-g3o?cm_re=nav-_-home-_-catagories-_-HomeDecor-Gifts" ceid="TopNav-Home-Categories-HomeDecor-Gifts">Home D&eacute;cor &amp; Gifts</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-luggage-bags/-/N-g3y?cm_re=nav-_-home-_-catagories-_-luggage-bags" ceid="TopNav-Home-Categories-LuggageBags">Luggage &amp; Bags</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-kids-home/-/N-g4o?cm_re=nav-_-home-_-catagories-_-kids-home" ceid="TopNav-Home-Categories-KidsHome">Kids Home</a></li>
-				<li><a href="http://www.landsend.com/shop/for-the-home-dog-shop/-/N-g4y?cm_re=nav-_-home-_-catagories-_-dog-shop" ceid="TopNav-Home-Categories-DogShop">Dog Shop</a></li>
+									
+										<li class="mobile-nav-more">
+											<h4 class="mobile-nav-more-link fn-nav-more-link">Bedding</h4>
+											<ul class="sub-sub-nav">
+												<li class="mobile-nav-header">
+													<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to All Home</span>
+													<h4 class="sub-nav-header-link"><a>Bedding</a></h4>
+												</li>
+						
+												<li><a ceid="TopNav-home-sheets-_-pillowcases" href="http://www.landsend.com/shop/home-bedding-sheets-pillowcases/-/N-g34?cm_re=nav-_-home-_-sheets-_-pillowcases">Sheets &amp; Pillowcases</a></li>
+												<li><a ceid="TopNav-home-duvet-covers-_-comforters" href="http://www.landsend.com/shop/home-bedding-duvet-covers-comforters/-/N-g35?cm_re=nav-_-home-_-duvet-covers-_-comforters">Duvet Covers &amp; Comforters</a></li>
+												<li><a ceid="TopNav-home-blankets-_-throws" href="http://www.landsend.com/shop/home-bedding-blankets-throws/-/N-g3g?cm_re=nav-_-home-_-blankets-_-throws">Blankets &amp; Throws</a></li>
+												<li><a ceid="TopNav-home-mattresspads" href="http://www.landsend.com/shop/home-bedding-mattress-pads/-/N-g37?cm_re=nav-_-home-_-mattresspads">Mattress Pads</a></li>
+												<li><a ceid="TopNav-home-pillows" href="http://www.landsend.com/shop/home-bedding-pillows/-/N-g33?cm_re=nav-_-home-_-pillows">Pillows</a></li>
+												<li><a ceid="TopNav-home-all-_-bedding" href="http://www.landsend.com/shop/home-bedding/-/N-g32?cm_re=nav-_-home-_-all-bedding">Shop All Bedding</a></li>
+											</ul>
+										</li>
+										
+										<li class="mobile-nav-more">
+											<h4 class="mobile-nav-more-link fn-nav-more-link">Bath</h4>
+											<ul class="sub-sub-nav">
+												<li class="mobile-nav-header">
+													<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to All Home</span>
+													<h4 class="sub-nav-header-link"><a>Bath</a></h4>
+												</li>
+						
+												<li><a ceid="TopNav-home-bath-_-towels" href="http://www.landsend.com/shop/home-bath-bath-towels/-/N-g3b?cm_re=nav-_-home-_-bath-_-towels">Towels</a></li>
+												<li><a ceid="TopNav-home-bath-rugs-_-mats" href="http://www.landsend.com/shop/home-bath-bath-rugs-mats/-/N-g3c?cm_re=nav-_-home-_-bath-rugs-_-mats">Rugs &amp; Mats</a></li>
+												<li><a ceid="TopNav-home-beach-_-towels" href="http://www.landsend.com/shop/home-bath-beach-towels/-/N-g3f?cm_re=nav-_-home-_-beach-_-towels">Beach Towels</a></li>
+												<li><a ceid="TopNav-home-soaps-_-scents" href="http://www.landsend.com/shop/home-bath-soaps-scents/-/N-g3e?cm_re=nav-_-home-_-soaps-_-scents">Soaps &amp; Scents</a></li>
+												<li><a ceid="TopNav-home-all-_-bedding" href="http://www.landsend.com/shop/home-bath/-/N-g3a?cm_re=nav-_-home-_-all-bath">Shop All Bath</a></li>
+											</ul>
+										</li>
+										
+										<li class="mobile-nav-more">
+											<h4 class="mobile-nav-more-link fn-nav-more-link">Home D&Eacute;cor</h4>
+											<ul class="sub-sub-nav">
+												<li class="mobile-nav-header">
+													<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to All Home</span>
+													<h4 class="sub-nav-header-link"><a>D&Eacute;cor</a></h4>
+												</li>
+						
+												<li><a ceid="TopNav-home-storage-_-organization" href="http://www.landsend.com/shop/home-decor-storage-organization/-/N-g3m?cm_re=nav-_-home-_-storage-_-organization">Storage &amp; Organization</a></li>
+												<li><a ceid="TopNav-home-table-linens-_-decor" href="http://www.landsend.com/shop/home-decor-table-linens-decor/-/N-kg0?cm_re=nav-_-home-_-table-linens-_-decor">Table Linens</a></li>
+												<li><a ceid="TopNav-home-doormats" href="http://www.landsend.com/shop/home-decor-doormats/-/N-kg1?cm_re=nav-_-home-_-doormats">Doormats</a></li>
+												<li><a ceid="TopNav-home-seasonal-_-decor" href="http://www.landsend.com/shop/home-decor-seasonal-decor/-/N-kg2?cm_re=nav-_-home-_-seasonal-_-decor">Seasonal</a></li>
+											</ul>
+										</li>
+										
+										<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only --></li>
+										
+										<li class="mobile-nav-more">
+											<h4 class="mobile-nav-more-link fn-nav-more-link">More for the Home</h4>
+											<ul class="sub-sub-nav">
+												<li class="mobile-nav-header">
+													<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to All Home</span>
+													<h4 class="sub-nav-header-link"><a>More for the Home</a></h4>
+												</li>
+						
+												<li><a ceid="TopNav-home-kids-_-home" href="http://www.landsend.com/shop/home-more-for-the-home-kids-home/-/N-g4o?cm_re=nav-_-home-_-kids-_-home">Kids</a></li>
+												<li><a ceid="TopNav-home-dog-_-shop" href="http://www.landsend.com/shop/home-more-for-the-home-dog-shop/-/N-g4y?cm_re=nav-_-home-_-dog-_-shop">Dog Shop</a></li>
+												<li><a ceid="TopNav-home-luggage-_-bags" href="http://www.landsend.com/shop/home-more-for-the-home-luggage-bags/-/N-g3y?cm_re=nav-_-home-_-luggage-_-bags">Luggage &amp; Bags</a></li>
+												<li><a ceid="TopNav-home-CanvasTotes" href="http://www.landsend.com/shop/home-more-for-the-home-canvas-totes/-/N-g3z?cm_re=nav-_-home-_-canvas-_-totes">Canvas Totes</a></li>
+											</ul>
+										</li>
 									</ul>
 								</li>
 							</ul>
@@ -629,7 +671,7 @@ com.landsend.global.PageConfigParms = Object1;
 						<li class="sub-nav-column sub-nav-feature-col">
 							<ul>
 								<li class="mobile-nav-header">
-									<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+									<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 									<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54?cm_re=nav-_-schooluniform-_-back" ceid="TopNav-Unifoms">Uniforms</a></h4>
 								</li>
 								<li class="mobile-nav-header">
@@ -638,11 +680,10 @@ com.landsend.global.PageConfigParms = Object1;
 								<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Featured Shops</h4>
 									<ul class="sub-sub-nav sub-nav-featured sub-nav-divider">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Uniforms</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Uniforms</span>
 											<h4>Featured Shops</h4>
 										</li>
 										<li><a href="http://www.landsend.com/pp/px/schoolaccount?launchSearch=true" ceid="TopNav-Unifoms-Featured-FindYourSchool" class="sub-nav-featured-link">Find Your School</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54Zk28?cm_re=nav-_-school-_-featureshop-_-backpack-lunchboxes" ceid="TopNav-Unifoms-Featured-backpacks-lunchboxes" class="sub-nav-featured-link">Backpacks &amp; Lunch Boxes</a></li>
 										<li><a href="http://www.landsend.com/shop/kids/-/N-jl6?cm_re=nav-_-school-_-featureshop-_-after-school" ceid="TopNav-Unifoms-Featured-afterschool" class="sub-nav-featured-link">After School</a></li>
 									<li class="sub-nav-divider hidden-xs"><!-- Placeholder Only --></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54Zjml?cm_re=nav-_-school-_-featureshop-_-polos-that-perform" ceid="TopNav-Unifoms-Featured-PolosThatPerform">Polos that Perform</a></li>
@@ -655,7 +696,7 @@ com.landsend.global.PageConfigParms = Object1;
 								<li class="mobile-nav-more"><h4 class="mobile-nav-more-link fn-nav-more-link">Shop By Age Range</h4>
 									<ul class="sub-sub-nav sub-nav-fit last">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Uniforms</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Uniforms</span>
 											<h4>Shop By Age Range</h4>
 										</li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54Zggo?cm_re=nav-_-school-_-shopbysize-_-toddler" ceid="TopNav-Unifoms-ShopByAgeRange-Toddler">Toddler</a></li>
@@ -675,24 +716,20 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/school-uniforms-girls-women/-/N-g55?cm_re=nav-_-school-_-girl-_-main" ceid="MobileTopNav-Unifoms-GirlsWomen" class="tab-nav-more-link">Girls &amp; Women</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Uniforms</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Uniforms</span>
 											<h4><a href="http://www.landsend.com/shop/school-uniforms-girls-women/-/N-g55?cm_re=nav-_-school-_-girl-_-back" ceid="TopNav-Unifoms-Girls-Women">Girls &amp; Women</a></h4>
 										</li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-shirts/-/N-g56?cm_re=nav-_-school-_-girl-_-shirts" ceid="TopNav-Unifoms-GirlsWomen-Shirts">Shirts</a></li>
+										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-tops/-/N-g56?cm_re=nav-_-school-_-girl-_-Tops" ceid="TopNav-Unifoms-GirlsWomen-Tops">Tops</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-sweaters/-/N-g5b?cm_re=nav-_-school-_-girl-_-sweaters" ceid="TopNav-Unifoms-GirlsWomen-Sweaters">Sweaters</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-sweatshirts-hoodies/-/N-k1l?cm_re=nav-_-school-_-girl-_-sweatshirts-hoodies" ceid="TopNav-Unifoms-GirlsWomen-SweatshirtsHoodies">Sweatshirts &amp; Hoodies</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-pants/-/N-g5h?cm_re=nav-_-school-_-girl-_-pants" ceid="TopNav-Unifoms-GirlsWomen-Pants">Pants</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-shorts/-/N-g5k?cm_re=nav-_-school-_-girl-_-shorts" ceid="TopNav-Unifoms-GirlsWomen-Shorts">Shorts</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-dresses-jumpers/-/N-g5l?cm_re=nav-_-school-_-girl-_-dresses-jumpers" ceid="TopNav-Unifoms-GirlsWomen-DressesJumpers">Dresses &amp; Jumpers</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-skirts-skorts/-/N-g5m?cm_re=nav-_-school-_-girl-_-skirts-skorts" ceid="TopNav-Unifoms-GirlsWomen-SkirtsSkorts">Skirts &amp; Skorts</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-blazers/-/N-g5q?cm_re=nav-_-school-_-girl-_-blazers" ceid="TopNav-Unifoms-GirlsWomen-Blazers">Blazers</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-activewear/-/N-g5p?cm_re=nav-_-school-_-girl-_-activewear" ceid="TopNav-Unifoms-GirlsWomen-Activewear">Activewear</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-outerwear/-/N-g5r?cm_re=nav-_-school-_-girl-_-outerwear" ceid="TopNav-Unifoms-GirlsWomen-Outerwear">Outerwear</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-hats-gloves-scarves/-/N-g5u?cm_re=nav-_-school-_-girl-_-hats-gloves-scarves" ceid="TopNav-Unifoms-GirlsWomen-HatGlovesScarves">Hats, Gloves &amp; Scarves</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-shoes/-/N-g5v?cm_re=nav-_-school-_-girl-_-shoes-boots" ceid="TopNav-Unifoms-GirlsWomen-Shoes">Shoes</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-accessories/-/N-g5y?cm_re=nav-_-school-_-girl-_-accessories" ceid="TopNav-Unifoms-GirlsWomen-Accessories">Accessories</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-backpacks-bags/-/N-k2h?cm_re=nav-_-school-_-girl-_-backpacks-bags" ceid="TopNav-Unifoms-GirlsWomen-BackpackBags">Backpacks &amp; Bags</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-girls-women-swimsuits/-/N-g67?cm_re=nav-_-school-_-girl-_-swimsuits" ceid="TopNav-Unifoms-GirlsWomen-Swim">Swimsuits</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -704,22 +741,18 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/school-uniforms-boys-men/-/N-g68?cm_re=nav-_-school-_-boy-_-main" ceid="MobileTopNav-Unifoms-BoysMen" class="tab-nav-more-link">Boys &amp; Men</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Uniforms</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Uniforms</span>
 											<h4><a href="http://www.landsend.com/shop/school-uniforms-boys-men/-/N-g68?cm_re=nav-_-school-_-boy-_-back" ceid="TopNav-Unifoms-BoysMen">Boys &amp; Men</a></h4>
 										</li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-shirts/-/N-g69?cm_re=nav-_-school-_-boy-_-shirts" ceid="TopNav-Unifoms-BoysMen-Shirts">Shirts</a></li>
+										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-tops/-/N-g69?cm_re=nav-_-school-_-boy-_-tops" ceid="TopNav-Unifoms-BoysMen-Tops">Tops</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-sweaters/-/N-g6f?cm_re=nav-_-school-_-boy-_-sweaters" ceid="TopNav-Unifoms-BoysMen-Sweaters">Sweaters</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-sweatshirts-hoodies/-/N-k1m?cm_re=nav-_-school-_-boy-_-sweatshirts-hoodies" ceid="TopNav-Unifoms-BoysMen-SweatshirtsHoodies">Sweatshirts &amp; Hoodies</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-pants/-/N-g6l?cm_re=nav-_-school-_-boy-_-pants" ceid="TopNav-Unifoms-BoysMen-Pants">Pants</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-shorts/-/N-g6m?cm_re=nav-_-school-_-boy-_-shorts" ceid="TopNav-Unifoms-BoysMen-Shorts">Shorts</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-blazers/-/N-g6n?cm_re=nav-_-school-_-boy-_-blazers" ceid="TopNav-Unifoms-BoysMen-Blazers">Blazers</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-activewear/-/N-g6o?cm_re=nav-_-school-_-boy-_-activewear" ceid="TopNav-Unifoms-BoysMen-Activewear">Activewear</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-outerwear/-/N-g6p?cm_re=nav-_-school-_-boy-_-outerwear" ceid="TopNav-Unifoms-BoysMen-Outerwear">Outerwear</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-hats-gloves-scarves/-/N-g6s?cm_re=nav-_-school-_-boy-_-hats-gloves-scarves" ceid="TopNav-Unifoms-BoysMen-HatsGlovesScarves">Hats, Gloves &amp; Scarves</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-shoes/-/N-g6t?cm_re=nav-_-school-_-boy-_-shoes-boots" ceid="TopNav-Unifoms-BoysMen-Shoes">Shoes</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-accessories/-/N-g6w?cm_re=nav-_-school-_-boy-_-accessories" ceid="TopNav-Unifoms-BoysMen-Accessories">Accessories</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-backpacks-bags/-/N-k2m?cm_re=nav-_-school-_-boy-_-backpacks-bags" ceid="TopNav-Unifoms-BoysMen-BackpacksBags">Backpacks &amp; Bags</a></li>
-										<li><a href="http://www.landsend.com/shop/school-uniforms-boys-men-swimsuits/-/N-g72?cm_re=nav-_-school-_-boy-_-swimsuits" ceid="TopNav-Unifoms-BoysMen-Swim">Swimsuits</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -732,7 +765,7 @@ com.landsend.global.PageConfigParms = Object1;
 					<a href="http://www.landsend.com/shop/sale?cm_re=nav-_-sale-_-main" ceid="TopNav-Sale" class="top-nav-link mobile-nav-more-link fn-nav-more-link">Sale</a>
 					<ul class="sub-nav two-col sub-nav-left sub-nav-sale">
 						<li class="mobile-nav-header">
-							<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+							<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 						</li>
 						<!--start sale portion-->
 						<li class="sub-nav-column sub-nav-column-category">
@@ -741,14 +774,14 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/sale?cm_re=nav-_-sale-_-back" ceid="MobileTopNav-Sale-sale" class="tab-nav-more-link">Sale</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Sale</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Sale</span>
 											<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/sale?cm_re=nav-_-sale-_-back" ceid="TopNav-Sale-sale">Sale</a></h4>
 										</li>
 										<li><a href="http://www.landsend.com/shop/womens/-/N-fxlZjl7?cm_re=nav-_-sale-_-women" ceid="TopNav-Sale-women">Women</a></li>
 										<li><a href="http://www.landsend.com/shop/mens/-/N-fz6Zjl7?cm_re=nav-_-sale-_-men" ceid="TopNav-Sale-men">Men</a></li>
 										<li><a href="http://www.landsend.com/shop/girls/-/N-g0fZjl7?cm_re=nav-_-sale-_-girls" ceid="TopNav-Sale-girls">Girls</a></li>
 										<li><a href="http://www.landsend.com/shop/boys/-/N-g1wZjl7?cm_re=nav-_-sale-_-boys" ceid="TopNav-Sale-boys">Boys</a></li>
-										<li><a href="http://www.landsend.com/shop/for-the-home/-/N-g31Zjl7?cm_re=nav-_-sale-_-home" ceid="TopNav-Sale-home">Home</a></li>
+										<li><a href="http://www.landsend.com/shop/home/-/N-g31Zjl7?cm_re=nav-_-sale-_-home" ceid="TopNav-Sale-home">Home</a></li>
 										<li><a href="http://www.landsend.com/shop/school-uniforms/-/N-g54Zjl7?cm_re=nav-_-sale-_-school-uni" ceid="TopNav-Sale-school-uni">School Uniforms</a></li>
 									</ul>
 								</li>
@@ -763,7 +796,7 @@ com.landsend.global.PageConfigParms = Object1;
 									<h4 class="sub-nav-header-link mobile-nav-more-link fn-nav-more-link"><a href="http://www.landsend.com/shop/clearance?cm_re=nav-_-clearance" ceid="MobileTopNav-Clearance" class="tab-nav-more-link">Clearance</a></h4>
 									<ul class="sub-sub-nav">
 										<li class="mobile-nav-header">
-											<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Clearance</span>
+											<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Clearance</span>
 											<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/shop/clearance?cm_re=nav-_-clearance" ceid="TopNav-Clearance">Clearance</a></h4>
 											
 										</li>
@@ -771,7 +804,7 @@ com.landsend.global.PageConfigParms = Object1;
 										<li><a href="http://www.landsend.com/shop/clearance/mens/-/N-fz6?cm_re=nav-_-clearance-_-men" ceid="TopNav-Clearance-men">Men</a></li>
 										<li><a href="http://www.landsend.com/shop/clearance/girls/-/N-g0f?cm_re=nav-_-clearance-_-girl" ceid="TopNav-Clearance-girls">Girls</a></li>
 										<li><a href="http://www.landsend.com/shop/clearance/boys/-/N-g1w?cm_re=nav-_-clearance-_-boy" ceid="TopNav-Clearance-boys">Boys</a></li>
-										<li class="sub-nav-divider"><a href="http://www.landsend.com/shop/clearance/for-the-home/-/N-g31?cm_re=nav-_-clearance-_-home" ceid="TopNav-Clearance-home">Home</a></li>
+										<li class="sub-nav-divider"><a href="http://www.landsend.com/shop/clearance/home/-/N-g31?cm_re=nav-_-clearance-_-home" ceid="TopNav-Clearance-home">Home</a></li>
 										<li><a href="http://www.landsend.com/otc/index.html?tab=8&setPageSize=12&cm_re=nav-_-clearance-_-otc" ceid="TopNav-Sale-OnTheCounter">On The Counter</a></li>
 										<li><a href="http://www.landsend.com/shop/clearance/-/N-jl1?cm_re=nav-_-clearance-_-nqp" ceid="TopNav-Sale-NotQuitePerfect">Not Quite Perfect</a></li>
 										<li><a href="http://www.landsend.com/shop/clearance/-/N-jqw?cm_re=nav-_-clearance-_-in-season-savings" ceid="TopNav-Sale-InSeasonSavings">In-season Savings</a></li>
@@ -793,7 +826,7 @@ com.landsend.global.PageConfigParms = Object1;
 					<a href="https://www.landsend.com/co/AccountPortal" class="top-nav-link mobile-nav-more-link fn-nav-more-link">My Account</a>
 					<ul class="sub-nav">
 						<li class="mobile-nav-header">
-							<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+							<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 							<h4 class="sub-nav-header-link"><a href="https://www.landsend.com/co/AccountPortal">My Account</a></h4>
 						</li>
 						<li class="user-logged-out-li"><a href="https://www.landsend.com/co/LoginPage?cm_re=core-_-FT-_-signin" class="btn ut-sign-in-link">Sign In</a></li>
@@ -807,7 +840,7 @@ com.landsend.global.PageConfigParms = Object1;
 				<li class="mobile-nav-item mobile-nav-more"><a href="http://www.landsend.com/customerservice/?cm_re=core-_-FT-_-customerservice" class="top-nav-link mobile-nav-more-link fn-nav-more-link">Help Center</a>
 					<ul class="sub-nav">
 						<li class="mobile-nav-header">
-							<span class="mobile-nav-back fn-mobile-nav-back"><i class="icon-angle-left"></i>Back to Main Menu</span>
+							<span class="mobile-nav-back fn-mobile-nav-back"><i class="fa fa-angle-left"></i>Back to Main Menu</span>
 							<h4 class="sub-nav-header-link"><a href="http://www.landsend.com/customerservice/?cm_re=core-_-FT-_-customerservice">Help Center</a></h4>
 						</li>
 						<li><a href="https://www.landsend.com/customerservice/contact_us/?cm_re=core-_-FT-_-aboutus">Contact Us</a></li>
@@ -832,7 +865,7 @@ com.landsend.global.PageConfigParms = Object1;
 			<div class="utilities-inner">
 				<a href="https://www.landsend.com/co/ShoppingBag.html?cm_re=core-_-FT-_-shoppingbag" class="nav-cart ut-nav-link "><span class="inline hidden-xs">Bag</span><span class="nav-cart-count" id="pBagQ">0</span></a>
 				<ul class="ut-nav top-nav">
-					<li class="ut-top-nav top-nav-item left"><a href="http://www.landsend.com/customerservice/?cm_re=core-_-FT-_-customerservice" class="ut-nav-link top-nav-link"><span class="inline-block">Help</span><!--  <i class="icon-question-sign inline-block visible-xs first-left"></i> --> <i class="icon-caret-down"></i></a>
+					<li class="ut-top-nav top-nav-item left"><a href="http://www.landsend.com/customerservice/?cm_re=core-_-FT-_-customerservice" class="ut-nav-link top-nav-link"><span class="inline-block">Help</span><!--  <i class="fa fa-question-circle inline-block visible-xs first-left"></i> --> <i class="fa fa-caret-down"></i></a>
 						<ul class="ut-sub-nav sub-nav sub-nav-left">
 							<li><a href="https://www.landsend.com/customerservice/contact_us/?cm_re=core-_-FT-_-aboutus">Contact Us</a></li>
 							<li><a href="https://www.landsend.com/co/TrackOrder?cm_re=core-_-FT-_-trackyourorder">Order Tracking</a></li>
@@ -840,11 +873,11 @@ com.landsend.global.PageConfigParms = Object1;
 							<li><a href="http://www.landsend.com/#" class="fn-customer-assistance-text-chat">Live Chat</a></li>
 						</ul>
 					</li>
-					<li class="ut-top-nav top-nav-item left"><a href="http://www.landsend.com/co/StoreLocator" class="ut-nav-link">Store <i class="icon-map-marker"></i></a></li>
+					<li class="ut-top-nav top-nav-item left"><a href="http://www.landsend.com/co/StoreLocator" class="ut-nav-link">Store <i class="fa fa-map-marker"></i></a></li>
 					<li class="ut-top-nav top-nav-item left"><a href="http://www.landsend.com/gift-cards/?cm_re=core-_-HD-_-giftcards" class="ut-nav-link">Gift Cards</a></li>
 					<li class="ut-top-nav top-nav-item left"><a href="http://business.landsend.com/" class="ut-nav-link">Business Outfitters</a></li>
 					<li class="ut-top-nav top-nav-item right more user-log-in-menu"  id="ut-log-in" >
-						<a href="https://www.landsend.com/co/AccountPortal" class="top-nav-link ut-nav-link"><span id="sign-in">My Account</span> <!-- <i class="icon-user inline-block visible-xs two-icons"></i> --> <i class="icon-caret-down two-icons"></i></a>
+						<a href="https://www.landsend.com/co/AccountPortal" class="top-nav-link ut-nav-link"><span id="sign-in">My Account</span> <!-- <i class="fa fa-user inline-block visible-xs two-icons"></i> --> <i class="fa fa-caret-down two-icons"></i></a>
 						<ul id="ut-account-sub-nav" class="ut-sub-nav sub-nav sub-nav-right ut-logged-out">
 							<li class="user-logged-out-li"><a href="https://www.landsend.com/co/LoginPage?cm_re=core-_-FT-_-signin" class="btn ut-sign-in-link">Sign In</a></li>
 							<li class="user-logged-out-li ut-create-account"><a href="https://www.landsend.com/co/LoginPage?action=DISPLAY_CREATE_ACCOUNT&cm_re=core-_-FT-_-createaccount">Create an Account</a></li>
@@ -863,7 +896,7 @@ com.landsend.global.PageConfigParms = Object1;
 		<div class="logo-bar container">
 			<div id="mobile-menu" class="mobile-menu">
 				<div class="stripe-container">
-					<i class="icon-reorder"></i>
+					<i class="fa fa-bars"></i>
 				</div>
 				<span class="mobile-nav-title">menu</span>
 			</div>
@@ -873,7 +906,7 @@ com.landsend.global.PageConfigParms = Object1;
 			<form autocomplete="off" action="/shop/search" class="site-search-form fn-site-search-form container" novalidate>
 				<div class="inner-search-form">
 					<input type="search" placeholder="Enter Keyword or Style #" name="Ntt" id="site-search-input" required class="fn-site-search-input nav-search">
-					<button class="search-button" ><i class="icon-search"></i></button>
+					<button class="search-button" ><i class="fa fa-search"></i></button>
 				</div>
 			</form>
 		</div>
@@ -1127,7 +1160,7 @@ document.write('<script type=\"text\/javascript\"  src=\"'+location.protocol+'\/
 			</div>
 </div>
             </div>
-            	<!-- START GlobalNavFooter - Created on: Mon Aug 31 01:56:36 CDT 2015 -->
+            	<!-- START GlobalNavFooter - Created on: Tue Sep 01 02:42:01 CDT 2015 -->
 <div id="ft" class="footer container">
 	<div class="footer-social">
 		<div class="footer-row">
@@ -1137,7 +1170,7 @@ document.write('<script type=\"text\/javascript\"  src=\"'+location.protocol+'\/
 			        <input type="hidden" name="subSrcCode" value="_hp-footer" />
 			        <input type="hidden" name="action" value="SUBSCRIBE" />
 			        <div class="ft-lbl-wrp">
-			        	<label><i class="icon-envelope-alt"></i> Get Exclusive Offers + News</label>
+			        	<label><i class="fa fa-envelope-o"></i> Get Exclusive Offers + News</label>
 			        	<a class="fn-fancybox-ajax sub-input-text" target="_blank" href="/_popup/pop_help_0801_policies.html#privacy">Privacy Policy & Contact Info</a>
 					</div>
 			        <div class="ft-email-frm-wrp">
@@ -1183,7 +1216,7 @@ $(function() {
 					A helpful Customer Care Specialist is just a click or call away.<br>
 					<span class="footer-call"><a href="tel:8009634816">Call 1.800.963.4816</a></span>
 				</div>
-				<a href="javascript:void(0);" id="fn-customer-assistance-text-chat" class="fn-customer-assistance-text-chat btn footer-chat"><i class="icon-comments"></i> Text Chat Now</a>
+				<a href="javascript:void(0);" id="fn-customer-assistance-text-chat" class="fn-customer-assistance-text-chat btn footer-chat"><i class="fa fa-comments"></i> Text Chat Now</a>
 			</div>
 			<div class="footer-menu">
 				<ul class="footer-menu-list">
@@ -1230,7 +1263,7 @@ $(function() {
 				<ul class="footer-menu-list">
 					<li class="footer-menu-header"><h4 class="fn-mobile-accordian">Policies</h4>
 						<ul class="fn-mobile-accordian-list footer-sub-menu">
-							<li><a href="http://www.landsend.com/customerservice/legal_policies/privacy/"><b>Updated Privacy Policy</b></a></li>
+							<li><a href="http://www.landsend.com/customerservice/legal_policies/privacy/">Privacy Policy</a></li>
 							<li><a href="http://www.landsend.com/customerservice/legal_policies/terms_of_use/">Terms Of Use</a></li>
 							<li><a href="http://www.landsend.com/customerservice/shipping/">Shipping</a></li>
 							<li><a href="http://www.landsend.com/customerservice/returns/">Returns</a></li>
@@ -1307,14 +1340,14 @@ $(function() {
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular-sanitize.min.js"></script>
 	<script type="text/javascript">
 	  if(!window.angular){
-	    document.write('<scr' + 'ipt type="text/javascript" src="/pps/rae81068/js/global/angular.min.js"></scr' + 'ipt>');
-	    document.write('<scr' + 'ipt type="text/javascript" src="/pps/rae81068/js/global/angular-sanitize.min.js"></scr' + 'ipt>');
+	    document.write('<scr' + 'ipt type="text/javascript" src="/pps/r7051f3e/js/global/angular.min.js"></scr' + 'ipt>');
+	    document.write('<scr' + 'ipt type="text/javascript" src="/pps/r7051f3e/js/global/angular-sanitize.min.js"></scr' + 'ipt>');
 	  }
 	</script>
 <![endif]-->
 
 <!--[if lte IE 8]>
-	<script src="/pps/rae81068/js/global/ie8/le.angularie8.min.js"></script>
+	<script src="/pps/r7051f3e/js/global/ie8/le.angularie8.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-cookies.min.js"></script>
 <![endif]-->
@@ -1332,11 +1365,11 @@ $(function() {
   Modernizr.load([
     {
       test: Modernizr.localstorage,
-      nope: '/pps/rae81068/js/_libs/polyfills/storage.js'
+      nope: '/pps/r7051f3e/js/_libs/polyfills/storage.js'
     },
     {
       test: Modernizr.input.placeholder,
-      nope: '/pps/rae81068/js/_libs/polyfills/placeholder.js'
+      nope: '/pps/r7051f3e/js/_libs/polyfills/placeholder.js'
     }
   ]);
 
@@ -1359,7 +1392,7 @@ $(function() {
 </script>
 
 <!-- combined js -->
-        <script src="/pps/rae81068/js/secondary.js"></script>
+        <script src="/pps/r7051f3e/js/secondary.js"></script>
 <!-- combined js -->
 <!-- END delayed script includes -->
      			
