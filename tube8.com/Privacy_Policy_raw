@@ -32,7 +32,7 @@
 	<link rel="icon" href="http://cdn1.static.tube8.phncdn.com/images/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="http://cdn1.static.tube8.phncdn.com/images/favicon.ico" type="image/x-icon">
 	<!--CSS ASSET MANAGER SECTION-->
-<link rel="stylesheet" type="text/css" href="/assets/pc/css/common.css?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924"/><link rel="stylesheet" type="text/css" href="/assets/pc/css/info_page_asset_list.css?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924"/>			<!--HEADER SCRIPT SET UP BLOCK-->
+<link rel="stylesheet" type="text/css" href="/assets/pc/css/common.css?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209"/><link rel="stylesheet" type="text/css" href="/assets/pc/css/info_page_asset_list.css?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209"/>			<!--HEADER SCRIPT SET UP BLOCK-->
 	<script type="text/javascript">
 		//MAIN SITE VARS DECLARATION
 		var jsFileList = {},
@@ -51,7 +51,7 @@
 		page_params.segment = 0;
 		page_params.common_static_url = 'http://cdn1.static.tube8.phncdn.com/';
 		page_params.isLoggedIn = 0;
-		page_params.cacheKey = "d817f2ee6607540e2b4126b70665c6733dcb03801440555924";
+		page_params.cacheKey = "8602d4c6207d885993f0041ba54716d104ee0d6e1441124209";
 		page_params.controller_name = "info";
 
 
@@ -114,7 +114,7 @@
 			* TE-5365
 			* DESKTOP
 			*/
-			page_params.ad_urls = {"header":{"zone_id":90,"ad_zone":"zone_90_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=90&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=90&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"footer":{"zone_id":42,"ad_zone":"zone_42_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=42&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=42&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"underplayer":{"zone_id":1144,"ad_zone":"zone_1144_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=1144&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=1144&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"underplayer_hd":{"zone_id":0,"ad_zone":"zone_0_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=0&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=0&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"interstitial":{"zone_id":23931,"ad_zone":"zone_23931_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=23931&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=23931&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"popunder":{"zone_id":0,"ad_zone":"zone_0_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=0&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=0&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"videoA":{"zone_id":38,"ad_zone":"zone_38_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=38&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=38&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"videoB":{"zone_id":39,"ad_zone":"zone_39_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=39&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=39&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"videoC":{"zone_id":40,"ad_zone":"zone_40_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=40&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=40&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"video_header":{"zone_id":30801,"ad_zone":"zone_30801_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=30801&site_id=13&cache=1441063197&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=30801&site_id=13&cache=1441063197&c=&channel[Searched_Terms]="},"text_link":{"text":"","link":""}};
+			page_params.ad_urls = {"header":{"zone_id":90,"ad_zone":"zone_90_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=90&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=90&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"footer":{"zone_id":42,"ad_zone":"zone_42_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=42&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=42&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"underplayer":{"zone_id":1144,"ad_zone":"zone_1144_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=1144&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=1144&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"underplayer_hd":{"zone_id":0,"ad_zone":"zone_0_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=0&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=0&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"interstitial":{"zone_id":23931,"ad_zone":"zone_23931_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=23931&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=23931&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"popunder":{"zone_id":0,"ad_zone":"zone_0_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=0&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=0&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"videoA":{"zone_id":38,"ad_zone":"zone_38_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=38&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=38&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"videoB":{"zone_id":39,"ad_zone":"zone_39_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=39&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=39&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"videoC":{"zone_id":40,"ad_zone":"zone_40_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=40&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=40&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"video_header":{"zone_id":30801,"ad_zone":"zone_30801_site_13","ad_url":"http:\/\/ads.trafficjunky.net\/ads?zone_id=30801&site_id=13&cache=1441147708&c=&channel[Searched_Terms]=","friendly_iframe_url":"http:\/\/ss.phncdn.com\/iframe-1.1.1.html#zone_id=30801&site_id=13&cache=1441147708&c=&channel[Searched_Terms]="},"text_link":{"text":"","link":""}};
 			//var needed for modal window
 			page_params.mgModal = false;
 			page_params.controllersList = [];
@@ -153,7 +153,7 @@
 				<div class="header-wrapper">
 					<div class="logo">
 						<a href="http://www.tube8.com/" id="logo">
-							<img src="http://cdn1.static.tube8.phncdn.com/images/tube8-header-logo-2015.png?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924"
+							<img src="http://cdn1.static.tube8.phncdn.com/images/tube8-header-logo-2015.png?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209"
 								 alt="Tube8 Free Porn Videos - Sex Tube"
 								 class="off" />
 						</a>
@@ -211,6 +211,18 @@
 	</div><!--autocomplete_wrapper-->
 </div><!--/#mg_autoComplete-->
 					<div class="top-right-menu">
+						
+<!--LANGUAGE SWITCHER BLOCK-->			
+<div class="footer-lang">
+	<span class="globe"></span>					
+	<div class="lang-switch">
+		en<span class="arrow"></span>
+	</div>
+	<ul class="lang-drop grey-dropdown-menu">
+		<li><a href="http://de.tube8.com/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Deutsch');"><span class="lang-abr">DE</span> Deutsch</a></li><li><a href="http://www.tube8.es/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Español');"><span class="lang-abr">ES</span> Español</a></li><li><a href="http://www.tube8.fr/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Français');"><span class="lang-abr">FR</span> Français</a></li>		<li class="dropdown-arrow"></li>
+	</ul>
+</div><!-- /.footer-lang -->
+						
 						<div id="userLogIn-Out">
 														<div class="top-menu-button">
 									<a id="top-signup" href="http://www.tube8.com/signin.html" rel="nofollow">Sign up</a>
@@ -475,7 +487,7 @@
 </form><!--/#advertiseform-->		</div><!--/.advertiseWrapperLeft-->
 		<div class="advertiseWrapperRight">
 			<!-- TrafficJunky Logo Block -->
-<a rel="nofollow" target="_blank" href="http://www.trafficjunky.com"><img src="http://www.tube8.com/images/trafficjunky.png?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924" width="249" height="59" class="trafficJunkyLogo" alt="" border="0" /></a>
+<a rel="nofollow" target="_blank" href="http://www.trafficjunky.com"><img src="http://www.tube8.com/images/trafficjunky.png?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209" width="249" height="59" class="trafficJunkyLogo" alt="" border="0" /></a>
 <div class="trafficJunkyText">
 	Start advertising on Tube8 today: <a href="https://www.trafficjunky.com/signup/advertiser" target="_blank">Create your advertiser account</a>.</div>		</div><!--/.advertiseWrapperRight-->
 		<div class="reset"></div>
@@ -1055,11 +1067,11 @@
 		<p>Sign up link to your affiliate program;</p>
 		<p>Tube8.com username you created.</p>
 		<p>Email us at  <a href='mailto:affiliate@tube8.com' class='mailLk'>affiliate@tube8.com</a></p>	<div class="info-signup-button">
-		<a href="http://www.tube8.com/signin.html"><img src="http://www.tube8.com/images/sign-up-button.png?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924" border="0" width="322" height="121" alt="" /></a>
+		<a href="http://www.tube8.com/signin.html"><img src="http://www.tube8.com/images/sign-up-button.png?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209" border="0" width="322" height="121" alt="" /></a>
 	</div>
 </div>
 <div class="float-right col-02">
-	<a href="" id="promoTrigger"><img src="http://www.tube8.com/images/program-img.jpg?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924" width="416" height="533" border="0" alt="" /></a>
+	<a href="" id="promoTrigger"><img src="http://www.tube8.com/images/program-img.jpg?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209" width="416" height="533" border="0" alt="" /></a>
 </div>
 <div class="reset15"></div></div><!--/#disclamer-text-->
 	</div><!--/#information_partner-->
@@ -1104,7 +1116,7 @@
 	</div><!--/.content-wrapper-->
 
 	<script type="text/javascript">
-		jsFileList.page.push( "http://cdn1.static.tube8.phncdn.com/js/terms_setUp-min.js?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924" );
+		jsFileList.page.push( "http://cdn1.static.tube8.phncdn.com/js/terms_setUp-min.js?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209" );
 	</script>
 <!-- DESKTOP FOOTER -->
 			<div id="footer-text">
@@ -1269,19 +1281,20 @@
 
 				
 <!--LANGUAGE SWITCHER BLOCK-->			
-<div id="footer-lang">
+<div class="footer-lang">
 	<span class="globe"></span>					
-	<div id="lang-switch">
+	<div class="lang-switch">
 		en<span class="arrow"></span>
 	</div>
-	<ul id="lang-drop" class="grey-dropdown-menu">
+	<ul class="lang-drop grey-dropdown-menu">
 		<li><a href="http://de.tube8.com/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Deutsch');"><span class="lang-abr">DE</span> Deutsch</a></li><li><a href="http://www.tube8.es/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Español');"><span class="lang-abr">ES</span> Español</a></li><li><a href="http://www.tube8.fr/" onclick="ga('send', 'event', 'Language Flags Footer', 'click', 'Français');"><span class="lang-abr">FR</span> Français</a></li>		<li class="dropdown-arrow"></li>
 	</ul>
-</div><!-- /#footer-lang -->
+</div><!-- /.footer-lang -->
 			</div>
 		</div><!-- /.footer-stripe-wrapper -->
-
-<script data-cfasync='false' type='text/javascript'> /*23*/ (function(s, o, l, v, e, d) {
+		<!--COMMON PLAYER LOADER BLOCK-->
+		<!--NOT OURS START-->
+		<script data-cfasync='false' type='text/javascript'> /*23*/ (function(s, o, l, v, e, d) {
     if (s[o] == null && s[l + e]) {
         s[o] = "loading";
         s[l + e](d, l = function() {
@@ -3380,10 +3393,9 @@ var rAb = function() {
             } catch (e) {}
         }
     }, 25);
-}</script>
-
+}</script>		<!--NOT OURS END-->
 					<script type="text/javascript">
-					jsFileList.core.push( "http://ss.phncdn.com/networkbar-3.2.2.js?cache=d817f2ee6607540e2b4126b70665c6733dcb03801440555924" );
+					jsFileList.core.push( "http://ss.phncdn.com/networkbar-3.2.2.js?cache=8602d4c6207d885993f0041ba54716d104ee0d6e1441124209" );
 					jsFileList.core.push( urlPrefix + "general" +urlSuffix );
 			</script>
 				<!--LOADING AUTO COMPLETE PLUG IN DESKTOP-->
@@ -3436,8 +3448,6 @@ var rAb = function() {
 		'delta' : 500
 	};
 </script>
-
-		<!--COMMON PLAYER LOADER BLOCK-->
 
 		<script type="text/javascript">
 	/**
