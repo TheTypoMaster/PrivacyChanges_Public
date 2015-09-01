@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"FF1F319A0323FAF2C17454650A8A3DF4646174653D323031352D30382D3331267573657269643D3665646434626233313634363461646438323962326234386663363235633332","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"6edd4bb316464add829b2b48fc625c32","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"07d63df1-27b8-45c7-a052-7f668d52381e","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"85E1C7FB159FBC84CBBBCE05E6A9CA90646174653D323031352D30392D3031267573657269643D6330663764633930356337393436643438623638363832316363633233323436","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"c0f7dc905c7946d48b686821ccc23246","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"2d66d7e2-9953-4a82-87bd-ad96679c292f","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -149,7 +149,7 @@ window.nord.config.settings.environment = "Production";
 
 
 
-		<link rel="stylesheet"  href="http://c.nordstromimage.com/System/CSS/shop/global.css?v=201508261103">
+		<link rel="stylesheet"  href="http://c.nordstromimage.com/System/CSS/shop/global.css?v=201509011149">
 
 
 
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -820,8 +820,8 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-loafers-slip-ons"><a href="http://shop.nordstrom.com/c/mens-loafers-slip-ons?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Loafers &amp; Slip-Ons">Loafers &amp; Slip-Ons</a></li>
 				<li class="nav-entry-sneakers-athletic"><a href="http://shop.nordstrom.com/c/mens-sneakers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Sneakers &amp; Athletic">Sneakers &amp; Athletic</a></li>
 				<li class="nav-entry-boots"><a href="http://shop.nordstrom.com/c/men-boots?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Boots">Boots</a></li>
-				<li class="nav-entry-comfort-shoes"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Comfort Shoes">Comfort Shoes</a></li>
 				<li class="nav-entry-oxfords"><a href="http://shop.nordstrom.com/c/mens-oxfords?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Oxfords">Oxfords</a></li>
+				<li class="nav-entry-comfort-shoes"><a href="http://shop.nordstrom.com/c/mens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Comfort Shoes">Comfort Shoes</a></li>
 				<li class="nav-entry-boat-shoes"><a href="http://shop.nordstrom.com/c/mens-boat-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Boat Shoes">Boat Shoes</a></li>
 				<li class="nav-entry-driver-moccasin"><a href="http://shop.nordstrom.com/c/mens-driver-moccasin?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Driver &amp; Moccasin">Driver &amp; Moccasin</a></li>
 				<li class="nav-entry-sandals-flip-flops"><a href="http://shop.nordstrom.com/c/mens-sandals?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Men_Sandals &amp; Flip-Flops">Sandals &amp; Flip-Flops</a></li>
@@ -1002,11 +1002,10 @@ window.nord.config.settings.environment = "Production";
 			</ul>
 					<h3 class="stylewatch nav-entry-style-watch">Style Watch</h3>
 			<ul>
-				<li class="nav-entry-m&#183;a&#183;c-haute-dogs"><a href="http://shop.nordstrom.com/c/womens-mac?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_M&#183;A&#183;C Haute Dogs">M&#183;A&#183;C Haute Dogs</a></li>
+				<li class="nav-entry-new!-christian-louboutin-lip-colour"><a href="http://shop.nordstrom.com/c/christian-louboutin-beauty?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_New! Christian Louboutin Lip Colour">New! Christian Louboutin Lip Colour</a></li>
+				<li class="nav-entry-m&#183;a&#183;c-vamplify"><a href="http://shop.nordstrom.com/c/womens-mac?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_M&#183;A&#183;C Vamplify">M&#183;A&#183;C Vamplify</a></li>
 				<li class="nav-entry-chanel-nordstrom-exclusive-palette"><a href="http://shop.nordstrom.com/s/chanel-travel-makeuppalette-nordstrom-exclusive/3851873?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_CHANEL Nordstrom Exclusive Palette">CHANEL Nordstrom Exclusive Palette</a></li>
-				<li class="nav-entry-hot!-charlotte-tilbury-matte-lipstick"><a href="http://shop.nordstrom.com/s/charlotte-tilbury-matte-revolution-luminous-modern-matte-lipstick-nordstrom-exclusive/4083222?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_HOT! Charlotte Tilbury Matte Lipstick">HOT! Charlotte Tilbury Matte Lipstick</a></li>
-				<li class="nav-entry-trending-now:-the-graphic-eye"><a href="http://shop.nordstrom.com/c/graphic-eye-makeup?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_Trending Now: The Graphic Eye">Trending Now: The Graphic Eye</a></li>
-				<li class="nav-entry-fall-beauty-trend-event"><a href="http://shop.nordstrom.com/c/fall-beauty-events?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_Fall Beauty Trend Event">Fall Beauty Trend Event</a></li>
+				<li class="nav-entry-trending-now:-bold-lip"><a href="http://shop.nordstrom.com/c/bold-lipstick-colors?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Beauty-_-Style Watch_Trending Now: Bold Lip">Trending Now: Bold Lip</a></li>
 		</ul>
 
 						</div>
@@ -1752,11 +1751,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Let&#39;s get personal.</h2>
+		<h2>Get our iPad app.</h2>
 		<p>
-			See items selected especially for you.
+			Fashion&#39;s always a tap away with our free app.
 				
-					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
+					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
 				
 		</p>
 	</section>
