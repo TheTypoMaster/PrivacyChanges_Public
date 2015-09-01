@@ -36,15 +36,15 @@
 =================================================
              Version: 3.7.169.20
      Logging_Version: 3.6
-           Webserver: 2009I
+           Webserver: 501A
            Client_IP: 52.2.142.173
               VIP_IP: 8.5.1.54
            HTTP_Host: www.videobb.com
          Domain_Name: videobb.com
-  Total_Process_Time: 129ms
-       MemCache_Time: 57ms (44%)
+  Total_Process_Time: 130ms
+       MemCache_Time: 50ms (38%)
        Database_Time: 8ms (6%)
-            API_Time: 62ms (48%)
+            API_Time: 69ms (53%)
 =================================================
 ** END DEBUG OUTPUT                            **
 =================================================
@@ -112,7 +112,7 @@ function createXMLHttpRequest() {
   return null;
 }
 
-GetIPPI('208401cc-4ab3-479e-9c28-50c383dcb526');
+GetIPPI('7a7b9607-6d12-4980-a352-292a1dc1de43');
 </script>
 
 <script type="text/javascript">
