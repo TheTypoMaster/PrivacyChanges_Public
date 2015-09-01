@@ -8,7 +8,7 @@
 mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Privacy_policy","wgTitle":"Privacy policy","wgCurRevisionId":102516,"wgRevisionId":102516,"wgArticleId":2551,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Privacy policy","English","Policy"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Privacy_policy","wgRelevantArticleId":2551,"wgIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,
 "wgWikiEditorEnabledModules":{"toolbar":!0,"dialogs":!0,"preview":!1,"publish":!1},"wgBetaFeaturesFeatures":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":!0,"usePageDescriptions":!1},"wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.init","ext.uls.interface","skins.vector.js"]);
 } );</script>
-<link rel="stylesheet" href="https://wikimediafoundation.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.uls.nojs%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.shared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<link rel="stylesheet" href="https://wikimediafoundation.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.uls.nojs%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.shared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
 <link rel="stylesheet" href="https://wikimediafoundation.org/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint&amp;only=styles&amp;skin=vector&amp;*" media="print" />
 <meta name="ResourceLoaderDynamicStyles" content="" />
 <link rel="stylesheet" href="https://wikimediafoundation.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
@@ -865,9 +865,12 @@ Please remember that certain information is retained and displayed indefinitely,
 
 <!-- 
 NewPP limit report
-Parsed by mw1210
-CPU time usage: 0.307 seconds
-Real time usage: 0.426 seconds
+Parsed by mw1172
+Cached time: 20150831231759
+Cache expiry: 2592000
+Dyanmic content: false
+CPU time usage: 0.286 seconds
+Real time usage: 0.356 seconds
 Preprocessor visited node count: 8788/1000000
 Preprocessor generated node count: 0/1500000
 Post‐expand include size: 99623/2097152 bytes
@@ -878,19 +881,19 @@ Expensive parser function count: 0/500
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  259.310      1 - -total
- 41.75%  108.262    173 - Template:Dir
- 23.79%   61.678      1 - Template:Privacypolicy/Navigation
- 23.01%   59.658     23 - Template:Privacypolicy/Right
- 15.97%   41.404     23 - Template:Privacypolicy/Rheader
- 13.73%   35.594     23 - Template:Privacypolicy/Left
- 11.59%   30.056      5 - Template:IEG/Stacked_link
-  8.00%   20.752      1 - Template:TOC_hidden
-  7.86%   20.386    173 - Template:Pagelang
-  5.42%   14.042      5 - Template:IEG/Color/Black
+100.00%  208.405      1 - -total
+ 46.14%   96.157    173 - Template:Dir
+ 28.01%   58.370     23 - Template:Privacypolicy/Right
+ 19.22%   40.063     23 - Template:Privacypolicy/Rheader
+ 18.79%   39.169      1 - Template:Privacypolicy/Navigation
+ 17.03%   35.497     23 - Template:Privacypolicy/Left
+  9.84%   20.510    173 - Template:Pagelang
+  8.65%   18.033      5 - Template:IEG/Stacked_link
+  4.02%    8.377      1 - Template:PrivacyLang
+  4.02%    8.373      1 - Template:Privacy_policy_navigation_2
 -->
 
-<!-- Saved in parser cache with key foundationwiki:pcache:idhash:2551-0!*!0!!en!4!* and timestamp 20150801231756 and revision id 102516
+<!-- Saved in parser cache with key foundationwiki:pcache:idhash:2551-0!*!0!!en!4!* and timestamp 20150831231759 and revision id 102516
  -->
 </div>					<div class="printfooter">
 						Retrieved from "<a dir="ltr" href="https://wikimediafoundation.org/w/index.php?title=Privacy_policy&amp;oldid=102516">https://wikimediafoundation.org/w/index.php?title=Privacy_policy&amp;oldid=102516</a>"					</div>
@@ -1035,7 +1038,7 @@ mw.loader.state({"user":"ready","user.groups":"ready"});
 <script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
 mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.cirrusSearch.loggingSchema","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.wikimediaEvents.statsd","ext.wikimediaEvents.geoFeatures","ext.navigationTiming","ext.gadget.collapsibleTables","ext.visualEditor.targetLoader","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.pt"]);
 } );</script><script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
-mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1067"});
+mw.config.set({"wgBackendResponseTime":57,"wgHostname":"mw1244"});
 } );</script>
 	</body>
 </html>
