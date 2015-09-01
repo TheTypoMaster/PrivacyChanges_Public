@@ -27,14 +27,14 @@ ga("create","UA-322734-1",".deviantart.com");
 ga("set","dimension1","visitor");
 ga("set","dimension6","menu_dropdown-messages_n\/a");
 ga("send","pageview",{"dimension4":0});            </script>
-            <script type='text/javascript' id='dwaitdatex-55e4e28e4e189'>
+            <script type='text/javascript' id='dwaitdatex-55e62e8624231'>
 (function(){
-    function dwaitdatex_55e4e28e4e189(DWait) {
+    function dwaitdatex_55e62e8624231(DWait) {
         var DWaitReady = false
         ,context = this
         ,cb = function() {
             DWaitReady = true;
-            var elem = document.getElementById('dwaitdatex-55e4e28e4e189');
+            var elem = document.getElementById('dwaitdatex-55e62e8624231');
             context = elem ? elem.parentNode : context;
             (function(){ ga(function () { PubSub.publish('DaGa.init', {});  }); }).apply(context);
         };
@@ -43,7 +43,7 @@ ga("send","pageview",{"dimension4":0});            </script>
 
     function load() {
         if (window.DWait) {
-            dwaitdatex_55e4e28e4e189(DWait);
+            dwaitdatex_55e62e8624231(DWait);
         } else {
             setTimeout(load, 100);
         }
@@ -65,7 +65,7 @@ ga("send","pageview",{"dimension4":0});            </script>
           })();
         </script>
                 <script type="text/javascript">
-            window.vms_features={'simplesignup':1,'core_membership':1,'ads_provider_aol_cors':1,'helpdesk_friction':1};
+            window.vms_features={'simplesignup':1,'ads_provider_aol_cors':1};
             function vms_feature(feature) {
                 return (feature in window.vms_features);
             }
@@ -75,8 +75,8 @@ ga("send","pageview",{"dimension4":0});            </script>
         </script>
         
 <link rel="stylesheet" type="text/css" href="http://st.deviantart.net/css/about.policy_lc.css?1396646533" media="Screen,Projection,TV,Print">
-<link rel="stylesheet" type="text/css" href="http://st.deviantart.net/css/v6core_lc.css?2895932551" media="Screen,Projection,TV,Print">
-<link rel="stylesheet" type="text/css" href="http://st.deviantart.net/css/deviantart-network_lc.css?2430191334" media="Screen,Projection,TV,Print"><link rel="apple-touch-icon" sizes="180x180" href="http://st.deviantart.net/minish/touch-icons/ios-180.png">
+<link rel="stylesheet" type="text/css" href="http://st.deviantart.net/css/v6core_lc.css?3360982833" media="Screen,Projection,TV,Print">
+<link rel="stylesheet" type="text/css" href="http://st.deviantart.net/css/deviantart-network_lc.css?1504042698" media="Screen,Projection,TV,Print"><link rel="apple-touch-icon" sizes="180x180" href="http://st.deviantart.net/minish/touch-icons/ios-180.png">
 <link rel="apple-touch-icon" sizes="152x152" href="http://st.deviantart.net/minish/touch-icons/ios-152.png">
 <link rel="apple-touch-icon" sizes="120x120" href="http://st.deviantart.net/minish/touch-icons/ios-120.png">
 <link rel="apple-touch-icon" sizes="76x76" href="http://st.deviantart.net/minish/touch-icons/ios-76.png">
@@ -88,7 +88,7 @@ ga("send","pageview",{"dimension4":0});            </script>
 <link href="http://i.deviantart.net/icons/da_favicon.ico" rel="shortcut icon"/>
 <script type="text/javascript">
 if (!window.deviantART) deviantART = {};deviantART.deviant =[];
-deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_hit":{"dimension4":0},"pageviewID":"555mf272e234568dd35bd32e6d14f15f31d3","dwait_total":2};
+deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_hit":{"dimension4":0},"pageviewID":"555m0e2817906d3818568a5098cc6aa32377","dwait_total":2};
 
 </script>
 <script type="text/javascript">(function(t){var r=function(r){if(!r||"object"!=typeof r||r.nodeType||r==t)return!1;var n=Object.prototype.hasOwnProperty;try{if(r.constructor&&!n.call(r,"constructor")&&!n.call(r.constructor.prototype,"isPrototypeOf"))return!1}catch(o){return!1}var e;for(e in r);return void 0===e||n.call(r,e)},n=function(t){var o,e={};for(o in t)e[o]=r(t[o])?n(t[o]):t[o];return e},o=Array.isArray||function(t){return"[object Array]"===Object.prototype.toString.call(t)},e={},l=/^.*\..*$/,i=function(t){if(t){if("function"==typeof t)throw"Glbl isn't meant to store functions, yo";if(o(t))for(var n=0,e=t.length;e>n;n++)i(t[n]);else if(r(t))for(var n in t)i(t[n])}};t.Glbl=function(t,o){if(1==arguments.length)return o=e[t],r(o)&&(o=n(o)),o;if("string"!=typeof t||!l.test(t))throw console.trace(),"Glbl keys need to be namespaced (dot-separated)";return i(o),r(o)&&(o=n(o)),e[t]=o,o},t.Glbl.dflt=function(t,n){if(r(t)){if(void 0!==n)throw"Misuse of Glbl, you cannot pass a dictionary AND a default value";for(var o in t)Glbl.dflt(o,t[o])}else void 0===Glbl(t)&&Glbl(t,n)},t.Glbl.plus=function(t,r){return 1===arguments.length&&(r=1),i(r),Glbl(t,(0|Glbl(t))+r)},t.Glbl.minus=function(t,r){return 1===arguments.length&&(r=1),i(r),Glbl(t,(0|Glbl(t))-r)},t.Glbl.match=function(t){var r={};for(var n in e)t.test(n)&&(r[n]=e[n]);return r},t.Glbl.del=function(t){void 0!==e[t]&&delete e[t]}})(window);</script>
@@ -98,7 +98,7 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
 <script type="text/javascript">window.autobob={error:function(i){var e=i.target||i.srcElement;e.style.visibility="hidden";var t=e.src,s=parseInt(e.retries||0,10)+1;t=(-1==t.indexOf("?")?t:t.substr(0,t.length-(s-1+"").length-1))+"?"+s,(!window.isVM||vms_feature("vm_fileserving"))&&6>s?(e.retries=s,setTimeout(function(){(e.readyState||e.complete)&&(e.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",e.style.visibility="visible"),e.src=t},3500)):(e.autobob_done=!0,e.style.visibility="visible")},load:function(i){var e=i.target||i.srcElement;e.style.visibility="visible"}};</script>
 <script type="text/javascript">var d=(window.location.hash||"").match(/^#\/d([a-z0-9]+)$/);if(d){var pageid=((window.deviantART||{}).pageData||{}).pageviewID||-1;window.location="http://www.deviantart.com/deviation/"+parseInt(d[1],36)+"/?lapid="+pageid}</script>
 <script type="text/javascript">OHM_ON=150,OHM_OFF=300,OHM={disabled:!1,sync:function(e,t){var a;return(a=OHM.getLink(e.target||e.srcElement))?(t||(a=null),OHM.disabled?!1:(OHM.want=a,OHM.timer&&clearTimeout(OHM.timer),navigator.userAgent.indexOf("Mobile")>=0?OHM.hit("m",e.target):OHM.timer=setTimeout(OHM.hit,OHM.got&&a?10:a?OHM_ON:OHM_OFF),void 0)):!1},hit:function(e,t){if(delete OHM.timer,OHM.want&&"m"==e){for(;!t.href&&(t=t.parentNode););t&&!t.onclick&&(t.className||"").match(/\bmi\b/)&&(window.location.href=t.href)}OHM.want!=OHM.got&&(OHM.got&&(OHM.got.className=OHM.got.className.replace(/\s*\bmmhover{1,2}\b/g,""),window.Popup2&&Popup2.showOverlayElements(),window.PubSub&&PubSub.publish("OHM.hit",{id:OHM.got.id,on:0})),OHM.got=OHM.want,OHM.got&&window.Popup2&&(OHM.got.className+=" mmhover",window.PubSub&&PubSub.publish("OHM.hit",{id:OHM.got.id,on:1})))},getLink:function(e){for(;("DIV"!=e.tagName&&"TD"!=e.tagName||!((e.className||"").indexOf("oh-ml")>=0||(e.className||"").indexOf("oh-hashover")>=0||(e.className||"").indexOf("oh-hasbutton")>=0)||!((document.body.className||"").indexOf("no-apps")>=0||(document.body.className||"").indexOf("stash-submit-page")>=0||0>(e.className||"").indexOf("oh-mmain")))&&(e=e.parentNode);)if("H1"==e.tagName)return 0;return e}};</script><script type="text/javascript">if (window.DWait) {DWait.run('jms/lib/glbl.js');DWait.run('jms/dwait/dwait.js');DWait.run('jms/lib/ddt.js');DWait.run('jms/lib/unscripted.js');DWait.run('jms/chrome/autobob.js');DWait.run('jms/chrome/deviation_redirect.js');DWait.run('jms/chrome/overhead_mouse.js');}</script><script type="text/javascript">
-            DWait.loadRollupMap({"http:\/\/st.deviantart.net\/css\/about.policy_lc.css":["cssms\/pages\/policy.css","cssms\/pages\/policy.copyright.css","cssms\/pages\/policy.etiquette.css","cssms\/pages\/policy.irc.css","cssms\/pages\/policy.premiumcontent.css","cssms\/pages\/policy.prints.css","cssms\/pages\/policy.privacy.css","cssms\/pages\/policy.service.css","cssms\/pages\/policy.submission.css"],"http:\/\/st.deviantart.net\/css\/v6core_lc.css":["cssms\/pages\/lesport.css","cssms\/lib\/deviantsymbols.css","cssms\/lib\/logo.css","cssms\/chrome\/depthsv7.css","cssms\/pages\/misc\/tabselect.css","cssms\/chrome\/nav.css","cssms\/pages\/critique-deviation.css","cssms\/pages\/critique-itempage.css","cssms\/pages\/deviation\/groupmenu.css","cssms\/pages\/deviation\/journals.css","cssms\/pages\/deviation\/literature.css","cssms\/pages\/devwatch-editor.css","cssms\/pages\/browse\/browse.css","cssms\/pages\/browse\/browse-buttons.css","cssms\/pages\/browse\/browse-journals.css","cssms\/pages\/browse\/newbrowse.css","cssms\/pages\/ad-square.css","cssms\/pages\/ad-da-custom.css","cssms\/pages\/ad-download.css","cssms\/pages\/ad-top.css","cssms\/pages\/ad-mc.css","cssms\/pages\/ad-gruser.css","cssms\/pages\/ad-core.css","cssms\/pages\/sitback.css","cssms\/minish\/hpto.css","cssms\/pages\/misc\/gmbutton.css","cssms\/topsecret\/contests.css","cssms\/lib\/thumbnails-news.css","cssms\/lib\/thumbnails-portal.css","cssms\/lib\/commentcount.css","cssms\/lib\/thumbnails-cropthumb.css","cssms\/pages\/deviation\/deviation-favebtn.css","cssms\/pages\/deviation\/deviation-megabag.css","cssms\/pages\/deviation\/deviation-collect.css","cssms\/pages\/deviation\/deviation-more.css","cssms\/pages\/deviation\/deviation-iconcommentstats.css","cssms\/pages\/browselikethis\/browselikethis.css","cssms\/pages\/browselikethis\/browselikethis.top_bar.css","cssms\/pages\/browselikethis\/browselikethis.left_bar.css","cssms\/pages\/browselikethis\/browselikethis.results.css","cssms\/pages\/browselikethis\/browselikethis.deviation_full_views.css","cssms\/pages\/browselikethis\/browselikethis.groups.css","cssms\/pages\/browselikethis\/browselikethis.shop.css","cssms\/pages\/browselikethis\/browselikethis.ads.css","cssms\/pages\/browselikethis\/browselikethis.search_input.css","cssms\/pages\/discoverytag\/discoverytag.css","cssms\/pages\/discoverytag\/discoverytag.right_bar.css","cssms\/pages\/agegate.css"],"http:\/\/st.deviantart.net\/css\/deviantart-network_lc.css":["cssms\/lib\/survival.css","cssms\/lib\/nudge.css","cssms\/lib\/thumbnails.css","cssms\/lib\/thumbnails-200H.css","cssms\/lib\/thumbnails-stream.css","cssms\/lib\/thumbnails-maturefilter.css","cssms\/lib\/thumbnails-lit.css","cssms\/lib\/thumbnails-journal.css","cssms\/lib\/thumbnails-film.css","cssms\/lib\/thumbnails-misc.css","cssms\/lib\/thumbnails-profilecard.css","cssms\/lib\/thumbnails-stack.css","cssms\/lib\/deviation-placeholders.css","cssms\/lib\/maturefilter.css","cssms\/lib\/icons.css","cssms\/lib\/popup.css","cssms\/lib\/shadows.css","cssms\/lib\/modals.css","cssms\/modals\/purchase-modal.css","cssms\/pages\/misc\/gmbutton2.css","cssms\/pages\/misc\/smbutton.css","cssms\/pages\/grusers\/boxes.css","cssms\/modals\/signup-modal.css","cssms\/pages\/verify.css","cssms\/pages\/misc\/subble.css","cssms\/pages\/misc\/quicktip.css","cssms\/pages\/misc\/buttons.css","cssms\/pages\/comment-box.css","cssms\/pages\/misc\/megamisc.css","cssms\/pages\/deviation\/paddles-ab.css","cssms\/pages\/misc\/iconbar.css","cssms\/topsecret\/quiet-comments.css","cssms\/pages\/talkpost.css","cssms\/lib\/pager.css","cssms\/lib\/da.misc.widgets.pager.css","cssms\/pages\/deviation\/deviation-misc.css","cssms\/pages\/deviation\/deviation-devlinkzone.css","cssms\/pages\/deviation\/deviation-stash.css","cssms\/pages\/deviation\/deviation-group.css","cssms\/pages\/deviation\/deviation-share.css","cssms\/pages\/deviation\/deviation-ch.css","cssms\/pages\/deviation\/deviation-artistcomments.css","cssms\/pages\/deviation\/deviation-sparta.css","cssms\/pages\/deviation\/deviation-boxtop.css","cssms\/pages\/deviation\/deviation-popup2.css","cssms\/pages\/deviation\/deviation.css","cssms\/pages\/deviation\/dev-page-view-common.css","cssms\/pages\/deviation\/dev-page-view-right-bar.css","cssms\/pages\/deviation\/dev-page-view-about.css","cssms\/pages\/deviation\/dev-page-view-challenge.css","cssms\/font\/calibre.css","cssms\/chrome\/overhead.css","cssms\/chrome\/body-misc.css","cssms\/chrome\/v6-legacy.css","cssms\/chrome\/navbar.css","cssms\/pages\/writeranywhere.css","cssms\/lib\/writer-overrides.css"],"http:\/\/st.deviantart.net\/css\/v6loggedin_lc.css":["cssms\/lib\/drag.css","cssms\/minish\/lub.css","cssms\/pages\/misc\/progressbar.css","cssms\/pages\/grusers\/editmode.css","cssms\/pages\/grusers\/editmode-modal.css","cssms\/lib\/jquery\/jquery.select.pager.css"],"http:\/\/st.deviantart.net\/css\/notes-modal_lc.css":["cssms\/pages\/deviation\/note-modal.css"],"http:\/\/st.deviantart.net\/css\/writer_lc.css":["cssms\/lib\/writer.css","cssms\/lib\/writer-imagecontrols.css","cssms\/lib\/writer-toolbar.css","cssms\/lib\/writer-subtoolbar.css","cssms\/lib\/autocomplete.css"],"http:\/\/st.deviantart.net\/css\/stash_lc.css":["cssms\/pages\/stash\/stash.css","cssms\/pages\/stash\/stash.header.css","cssms\/pages\/stash\/stash.folder.css","cssms\/pages\/stash\/stash.uploadzone.css","cssms\/pages\/stash\/stash.auth.css","cssms\/pages\/stash\/stash.upgrade.css","cssms\/pages\/stash\/stash.thumb.dnd.css","cssms\/pages\/stash\/stash.thumb.hover.css","cssms\/pages\/stash\/stash.thumb.upload.css","cssms\/pages\/stash\/stash.thumb.stack.css","cssms\/pages\/stash\/stash.override.comments.css","cssms\/pages\/stash\/stash.override.deviation.css","cssms\/pages\/stash\/stash.override.global.css","cssms\/pages\/stash\/stash.override.header.css","cssms\/pages\/stash\/stash.override.modal.css","cssms\/pages\/stash\/stash.override.pagination.css","cssms\/pages\/stash\/stash.override.thumbs.css","cssms\/pages\/writeranywhere\/stashdesc.css","cssms\/pages\/writeranywhere\/stackdesc.css","cssms\/pages\/ile\/ile.shares.with.stash.css"],"http:\/\/st.deviantart.net\/css\/sidebar_lc.css":["cssms\/lib\/writer-sidebar.css"],"http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css":["cssms\/modals\/adcatch-modal.css"]});
+            DWait.loadRollupMap({"http:\/\/st.deviantart.net\/css\/about.policy_lc.css":["cssms\/pages\/policy.css","cssms\/pages\/policy.copyright.css","cssms\/pages\/policy.etiquette.css","cssms\/pages\/policy.irc.css","cssms\/pages\/policy.premiumcontent.css","cssms\/pages\/policy.prints.css","cssms\/pages\/policy.privacy.css","cssms\/pages\/policy.service.css","cssms\/pages\/policy.submission.css"],"http:\/\/st.deviantart.net\/css\/v6core_lc.css":["cssms\/pages\/lesport.css","cssms\/lib\/deviantsymbols.css","cssms\/lib\/logo.css","cssms\/chrome\/depthsv7.css","cssms\/pages\/misc\/tabselect.css","cssms\/chrome\/nav.css","cssms\/pages\/critique-deviation.css","cssms\/pages\/critique-itempage.css","cssms\/pages\/deviation\/groupmenu.css","cssms\/pages\/deviation\/journals.css","cssms\/pages\/deviation\/literature.css","cssms\/pages\/devwatch-editor.css","cssms\/pages\/browse\/browse.css","cssms\/pages\/browse\/browse-buttons.css","cssms\/pages\/browse\/browse-journals.css","cssms\/pages\/browse\/newbrowse.css","cssms\/pages\/ad-square.css","cssms\/pages\/ad-da-custom.css","cssms\/pages\/ad-download.css","cssms\/pages\/ad-top.css","cssms\/pages\/ad-mc.css","cssms\/pages\/ad-gruser.css","cssms\/pages\/ad-core.css","cssms\/pages\/sitback.css","cssms\/minish\/hpto.css","cssms\/pages\/misc\/gmbutton.css","cssms\/topsecret\/contests.css","cssms\/lib\/thumbnails-news.css","cssms\/lib\/thumbnails-portal.css","cssms\/lib\/commentcount.css","cssms\/lib\/thumbnails-cropthumb.css","cssms\/pages\/deviation\/deviation-favebtn.css","cssms\/pages\/deviation\/deviation-megabag.css","cssms\/pages\/deviation\/deviation-collect.css","cssms\/pages\/deviation\/deviation-more.css","cssms\/pages\/deviation\/deviation-iconcommentstats.css","cssms\/pages\/browselikethis\/browselikethis.css","cssms\/pages\/browselikethis\/browselikethis.top_bar.css","cssms\/pages\/browselikethis\/browselikethis.left_bar.css","cssms\/pages\/browselikethis\/browselikethis.results.css","cssms\/pages\/browselikethis\/browselikethis.deviation_full_views.css","cssms\/pages\/browselikethis\/browselikethis.groups.css","cssms\/pages\/browselikethis\/browselikethis.shop.css","cssms\/pages\/browselikethis\/browselikethis.ads.css","cssms\/pages\/browselikethis\/browselikethis.search_input.css","cssms\/pages\/discoverytag\/discoverytag.css","cssms\/pages\/discoverytag\/discoverytag.right_bar.css","cssms\/pages\/challenge\/challenge.css","cssms\/pages\/agegate.css"],"http:\/\/st.deviantart.net\/css\/deviantart-network_lc.css":["cssms\/lib\/survival.css","cssms\/lib\/nudge.css","cssms\/lib\/thumbnails.css","cssms\/lib\/thumbnails-200H.css","cssms\/lib\/thumbnails-stream.css","cssms\/lib\/thumbnails-maturefilter.css","cssms\/lib\/thumbnails-lit.css","cssms\/lib\/thumbnails-journal.css","cssms\/lib\/thumbnails-film.css","cssms\/lib\/thumbnails-misc.css","cssms\/lib\/thumbnails-profilecard.css","cssms\/lib\/thumbnails-stack.css","cssms\/lib\/deviation-placeholders.css","cssms\/lib\/maturefilter.css","cssms\/lib\/icons.css","cssms\/lib\/popup.css","cssms\/lib\/shadows.css","cssms\/lib\/modals.css","cssms\/modals\/purchase-modal.css","cssms\/pages\/misc\/gmbutton2.css","cssms\/pages\/misc\/smbutton.css","cssms\/pages\/grusers\/boxes.css","cssms\/modals\/signup-modal.css","cssms\/pages\/verify.css","cssms\/pages\/misc\/subble.css","cssms\/pages\/misc\/quicktip.css","cssms\/pages\/misc\/buttons.css","cssms\/pages\/comment-box.css","cssms\/pages\/misc\/megamisc.css","cssms\/pages\/deviation\/paddles-ab.css","cssms\/pages\/misc\/iconbar.css","cssms\/topsecret\/quiet-comments.css","cssms\/pages\/talkpost.css","cssms\/lib\/pager.css","cssms\/lib\/da.misc.widgets.pager.css","cssms\/pages\/deviation\/deviation-misc.css","cssms\/pages\/deviation\/deviation-devlinkzone.css","cssms\/pages\/deviation\/deviation-stash.css","cssms\/pages\/deviation\/deviation-group.css","cssms\/pages\/deviation\/deviation-share.css","cssms\/pages\/deviation\/deviation-ch.css","cssms\/pages\/deviation\/deviation-artistcomments.css","cssms\/pages\/deviation\/deviation-sparta.css","cssms\/pages\/deviation\/deviation-boxtop.css","cssms\/pages\/deviation\/deviation-popup2.css","cssms\/pages\/deviation\/deviation.css","cssms\/pages\/deviation\/dev-page-view-common.css","cssms\/pages\/deviation\/dev-page-view-right-bar.css","cssms\/pages\/deviation\/dev-page-view-about.css","cssms\/pages\/deviation\/dev-page-view-challenge.css","cssms\/font\/calibre.css","cssms\/chrome\/overhead.css","cssms\/chrome\/body-misc.css","cssms\/chrome\/v6-legacy.css","cssms\/chrome\/navbar.css","cssms\/pages\/writeranywhere.css","cssms\/lib\/writer-overrides.css"],"http:\/\/st.deviantart.net\/css\/v6loggedin_lc.css":["cssms\/lib\/drag.css","cssms\/minish\/lub.css","cssms\/pages\/misc\/progressbar.css","cssms\/pages\/grusers\/editmode.css","cssms\/pages\/grusers\/editmode-modal.css","cssms\/lib\/jquery\/jquery.select.pager.css"],"http:\/\/st.deviantart.net\/css\/notes-modal_lc.css":["cssms\/pages\/deviation\/note-modal.css"],"http:\/\/st.deviantart.net\/css\/writer_lc.css":["cssms\/lib\/writer.css","cssms\/lib\/writer-imagecontrols.css","cssms\/lib\/writer-toolbar.css","cssms\/lib\/writer-subtoolbar.css","cssms\/lib\/autocomplete.css"],"http:\/\/st.deviantart.net\/css\/stash_lc.css":["cssms\/pages\/stash\/stash.css","cssms\/pages\/stash\/stash.header.css","cssms\/pages\/stash\/stash.folder.css","cssms\/pages\/stash\/stash.uploadzone.css","cssms\/pages\/stash\/stash.auth.css","cssms\/pages\/stash\/stash.upgrade.css","cssms\/pages\/stash\/stash.thumb.dnd.css","cssms\/pages\/stash\/stash.thumb.hover.css","cssms\/pages\/stash\/stash.thumb.upload.css","cssms\/pages\/stash\/stash.thumb.stack.css","cssms\/pages\/stash\/stash.override.comments.css","cssms\/pages\/stash\/stash.override.deviation.css","cssms\/pages\/stash\/stash.override.global.css","cssms\/pages\/stash\/stash.override.header.css","cssms\/pages\/stash\/stash.override.modal.css","cssms\/pages\/stash\/stash.override.pagination.css","cssms\/pages\/stash\/stash.override.thumbs.css","cssms\/pages\/writeranywhere\/stashdesc.css","cssms\/pages\/writeranywhere\/stackdesc.css","cssms\/pages\/ile\/ile.shares.with.stash.css"],"http:\/\/st.deviantart.net\/css\/sidebar_lc.css":["cssms\/lib\/writer-sidebar.css"],"http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css":["cssms\/modals\/adcatch-modal.css"]});
             </script>
 <script type="text/javascript">
                 if (window.DWait) {
@@ -139,8 +139,8 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
     <td id="oh-menu-shop" class="oh-hasmenu oh-hashover oh-keep "
     ><div class="oh-menuctrl"><div class="oh-menu"><a href="http://shop.deviantart.com" data-ga_click_event="{&quot;category&quot;:&quot;Retail&quot;,&quot;action&quot;:&quot;shoplink_appbar&quot;,&quot;nofollow&quot;:0}" class="mi iconset-more"><i class="i2"></i> <b>Buy Art</b></a><a href="http://about.deviantart.com/advertising/adcast" appid="28" class="mi iconset-more"><i class="i19" data-ga_click_event="{&quot;category&quot;:&quot;BetterBrowse&quot;,&quot;action&quot;:&quot;appbar_shop_adcast&quot;,&quot;nofollow&quot;:0}"></i> Buy adCast</a>
         <a class="mi iconset-upsell" href="https://www.deviantart.com/checkout/?mx=premium&subpref=22870_0&point=loginbar" data-ga_click_event="{&quot;category&quot;:&quot;PremiumUpsell&quot;,&quot;action&quot;:&quot;Dropdown&quot;,&quot;nofollow&quot;:0}">
-                                    <span class="user-symbol premium mark-small"></span>
-                                Buy Core Membership</a>
+            <span class="user-symbol premium mark-small"></span>
+            Buy Core Membership</a>
         </div
     ></div><a class=oh-l href="http://shop.deviantart.com" data-ga_click_event="{&quot;category&quot;:&quot;Retail&quot;,&quot;action&quot;:&quot;shoplink_appbar&quot;,&quot;nofollow&quot;:0}" ontouchstart="if (Glbl('Site.is_mobile')) { return true; }
                                      event.preventDefault();
@@ -182,7 +182,71 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
                 <span>Submit</span>
             </a>
         </td>
-        <td class="oh-gap">&nbsp;</td><td id="oh-menu-join" class="oh-keep oh-hashover"
+        <td id="oh-menu-promo" class="oh-keep">
+            <div id="overhead-promo">
+                <a class="overhead-promo-a" href="http://danlev.deviantart.com/journal/App-Updates-Notes-and-Notifications-554855434" data-ga_click_event="{&quot;category&quot;:&quot;HeaderPromo&quot;,&quot;action&quot;:&quot;header_promo_click&quot;,&quot;nofollow&quot;:0,&quot;label&quot;:&quot;090115_MKT_MobileNotesHeaderWidget&quot;}">
+                                            <div class="overhead-promo-foreground-img"></div>
+                        <div class="overhead-promo-background-img"></div>
+                                    </a>
+            </div>
+                    <style>
+            #overhead-promo .overhead-promo-foreground-img {
+                position: absolute;
+                transition: all .15s;
+                width: 98px;
+                height: 49px;
+                top: 0px;
+                left: 0px;
+                z-index: 2;
+            }
+            #overhead-promo .overhead-promo-a:hover .overhead-promo-foreground-img {
+                -ms-transform:;
+                -webkit-transform:;
+                transform:;
+            }
+            #overhead-promo .overhead-promo-background-img {
+                position: absolute;
+                transition: all .15s;
+                width: 98px;
+                height: 49px;
+                top: 0px;
+                left: 0px;
+                z-index: 1;
+            }
+            #overhead-promo .overhead-promo-a:hover .overhead-promo-background-img {
+                -ms-transform: translateY(49px);
+                -webkit-transform: translateY(49px);
+                transform: translateY(49px);
+            }
+                            #overhead-promo .overhead-promo-foreground-img,
+                #overhead-promo .overhead-promo-background-img {
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+
+                #overhead-promo .overhead-promo-foreground-img {
+                    background-image: url(http://st.deviantart.net/promotions/201509/mobile-with-notes.png);
+                }
+
+                #overhead-promo .overhead-promo-background-img {
+                    background-image: url(http://st.deviantart.net/promotions/201509/mobile-with-notes-slide.png);
+                }
+
+                @media only screen and (-webkit-min-device-pixel-ratio: 1.3), 
+                    only screen and (min--moz-device-pixel-ratio: 1.3), 
+                    only screen and (-o-min-device-pixel-ratio: 1.3 / 1), 
+                    only screen and (min-resolution: 125dpi), 
+                    only screen and (min-resolution: 1.3dppx) {
+                        #overhead-promo .overhead-promo-foreground-img {
+                            background-image: url(http://st.deviantart.net/promotions/201509/mobile-with-notes2x.png);
+                        }
+                        #overhead-promo .overhead-promo-background-img {
+                            background-image: url(http://st.deviantart.net/promotions/201509/mobile-with-notes-slide2x.png);
+                        }
+                }
+
+                    </style>
+                </td><td class="oh-gap">&nbsp;</td><td id="oh-menu-join" class="oh-keep oh-hashover"
         ><a class="oh-l join-link" href="https://www.deviantart.com/join?joinpoint=standard&amp;no_js=1" data-ga_click_event="{&quot;category&quot;:&quot;Join&quot;,&quot;action&quot;:&quot;LoginBar&quot;,&quot;nofollow&quot;:0}">Join</a></td>
         <td
         id="oh-loginbutton"
@@ -226,8 +290,8 @@ deviantART.pageData={"overlay_sponsor":1,"user":{"symbol":"","username":""},"ga_
                 <span class="scripted"><a href="http://l.deviantart.com/" class="smbutton smbutton-blue" onclick="$('#loginbar-ref').val($('#loginbar-ref').val()||document.location.href);document.getElementById('form-login').submit();(window.event||{}).cancelBubble=true;return false"><span>Login</span></a></span>
                 <span class="unscripted"><input name="action" type="submit" value="Login" class="ibutton" style="width:12ex"></span>
                 <br>
-                        <input type="hidden" name="validate_token" value="9f9b0acef504bb794c7a" autocomplete="off"/>
-            <input type="hidden" name="validate_key" value="1441063566" autocomplete="off"/>
+                        <input type="hidden" name="validate_token" value="544cee1957bf7e5fddd4" autocomplete="off"/>
+            <input type="hidden" name="validate_key" value="1441148550" autocomplete="off"/>
         </form>
         <hr>
         <a class="mi iconset-gruser join-link" href="https://www.deviantart.com/join?joinpoint=standard&amp;no_js=1" data-ga_click_event="{&quot;category&quot;:&quot;Join&quot;,&quot;action&quot;:&quot;LoginBar&quot;,&quot;nofollow&quot;:0}"><i class="i44"></i> Join DeviantArt for FREE</a>
@@ -430,10 +494,10 @@ The most common 'undesired' viewing material may include, but is not limited to,
             })();
         </script>
         
-<script type="text/javascript" async  src="http://st.deviantart.net/css/deviantart-network_jc.js?3171311897" charset="utf-8"></script>
-<script type="text/javascript" async  src="http://st.deviantart.net/css/v6core_jc.js?1318272004" charset="utf-8"></script><a id="deviantART-loves-you"> </a>
+<script type="text/javascript" async  src="http://st.deviantart.net/css/deviantart-network_jc.js?211494559" charset="utf-8"></script>
+<script type="text/javascript" async  src="http://st.deviantart.net/css/v6core_jc.js?2263512834" charset="utf-8"></script><a id="deviantART-loves-you"> </a>
 <script type="text/javascript">
-                DWait.loadDownloadMap({"jms\/pages\/gruzecontrol\/widgets\/utils.js":["http:\/\/st.deviantart.net\/css\/page_editor_jc.js?4207914419","http:\/\/st.deviantart.net\/css\/group_privs_jc.js?867932388","http:\/\/st.deviantart.net\/css\/jquery-extras_jc.js?1650132890","http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001","http:\/\/st.deviantart.net\/css\/v6gruser_jc.js?3176063657","http:\/\/st.deviantart.net\/css\/v6loggedin_lc.css?3782353430"],"jms\/pages\/blogobox.js":["http:\/\/st.deviantart.net\/css\/deviation_old_jc.js?1317754334","http:\/\/st.deviantart.net\/css\/deviantart-network-admin_jc.js?4177286841"],"cssms\/pages\/deviation\/note-modal.css":["http:\/\/st.deviantart.net\/css\/notes-modal_lc.css?3383669418"],"jms\/lib\/pager.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"jms\/lib\/popup2menu.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"jms\/lib\/pager.js.mood.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"cssms\/lib\/writer.css":["http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"cssms\/pages\/stash\/stash.override.thumbs.css":["http:\/\/st.deviantart.net\/css\/stash_lc.css?2348513810"],"cssms\/lib\/writer-subtoolbar.css":["http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"jms\/lib\/writer\/factory.js":["http:\/\/st.deviantart.net\/css\/stashwriter_jc.js?2580329042","http:\/\/st.deviantart.net\/css\/jquery.scrollto_jc.js?1940288945","http:\/\/st.deviantart.net\/css\/art-common_jc.js?1032722947","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119","http:\/\/st.deviantart.net\/css\/dragger_jc.js?2588443181","http:\/\/st.deviantart.net\/css\/jquery-extras_jc.js?1650132890","http:\/\/st.deviantart.net\/css\/header_jc.js?3114820648","http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"jms\/lib\/sidebar.js":["http:\/\/st.deviantart.net\/css\/sidebar_jc.js?377646140","http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001","http:\/\/st.deviantart.net\/css\/stashwriter_jc.js?2580329042","http:\/\/st.deviantart.net\/css\/sidebar_lc.css?649346444","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119"],"jms\/pages\/stash\/stash.embedded.js":["http:\/\/st.deviantart.net\/css\/stash_jc.js?2078011259","http:\/\/st.deviantart.net\/css\/stash_lc.css?2348513810","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119"],"jms\/modals\/adcatch-modal.js":["http:\/\/st.deviantart.net\/css\/adcatch-modal_jc.js?4066089578","http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css?3969914004"],"cssms\/modals\/adcatch-modal.css":["http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css?3969914004"],"jms\/chrome\/more7.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917"],"jms\/chrome\/more7.custom2.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917","http:\/\/st.deviantart.net\/css\/v6loggedin_jc.js?516588047","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932"],"jms\/chrome\/loginbar.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917","http:\/\/st.deviantart.net\/css\/v6loggedin_jc.js?516588047","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932"]});
+                DWait.loadDownloadMap({"jms\/pages\/gruzecontrol\/widgets\/utils.js":["http:\/\/st.deviantart.net\/css\/page_editor_jc.js?1497691290","http:\/\/st.deviantart.net\/css\/group_privs_jc.js?202382859","http:\/\/st.deviantart.net\/css\/jquery-extras_jc.js?1650132890","http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001","http:\/\/st.deviantart.net\/css\/v6gruser_jc.js?3176063657","http:\/\/st.deviantart.net\/css\/v6loggedin_lc.css?3782353430"],"jms\/pages\/blogobox.js":["http:\/\/st.deviantart.net\/css\/deviation_old_jc.js?1317754334","http:\/\/st.deviantart.net\/css\/deviantart-network-admin_jc.js?4177286841"],"cssms\/pages\/deviation\/note-modal.css":["http:\/\/st.deviantart.net\/css\/notes-modal_lc.css?3383669418"],"jms\/lib\/pager.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"jms\/lib\/popup2menu.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"jms\/lib\/pager.js.mood.js":["http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001"],"cssms\/lib\/writer.css":["http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"cssms\/pages\/stash\/stash.override.thumbs.css":["http:\/\/st.deviantart.net\/css\/stash_lc.css?2348513810"],"cssms\/lib\/writer-subtoolbar.css":["http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"jms\/lib\/writer\/factory.js":["http:\/\/st.deviantart.net\/css\/stashwriter_jc.js?1092146215","http:\/\/st.deviantart.net\/css\/jquery.scrollto_jc.js?1940288945","http:\/\/st.deviantart.net\/css\/art-common_jc.js?1032722947","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119","http:\/\/st.deviantart.net\/css\/dragger_jc.js?2588443181","http:\/\/st.deviantart.net\/css\/jquery-extras_jc.js?1650132890","http:\/\/st.deviantart.net\/css\/header_jc.js?3114820648","http:\/\/st.deviantart.net\/css\/writer_lc.css?548671514"],"jms\/lib\/sidebar.js":["http:\/\/st.deviantart.net\/css\/sidebar_jc.js?3969809732","http:\/\/st.deviantart.net\/css\/menusys_jc.js?2997268001","http:\/\/st.deviantart.net\/css\/stashwriter_jc.js?1092146215","http:\/\/st.deviantart.net\/css\/sidebar_lc.css?649346444","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119"],"jms\/pages\/stash\/stash.embedded.js":["http:\/\/st.deviantart.net\/css\/stash_jc.js?2078011259","http:\/\/st.deviantart.net\/css\/stash_lc.css?2348513810","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932","http:\/\/st.deviantart.net\/css\/jquery.ui_jc.js?3740028119"],"jms\/modals\/adcatch-modal.js":["http:\/\/st.deviantart.net\/css\/adcatch-modal_jc.js?4066089578","http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css?3969914004"],"cssms\/modals\/adcatch-modal.css":["http:\/\/st.deviantart.net\/css\/adcatch-modal_lc.css?3969914004"],"jms\/chrome\/more7.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917"],"jms\/chrome\/more7.custom2.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917","http:\/\/st.deviantart.net\/css\/v6loggedin_jc.js?516588047","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932"],"jms\/chrome\/loginbar.js":["http:\/\/st.deviantart.net\/css\/more7_jc.js?551497917","http:\/\/st.deviantart.net\/css\/v6loggedin_jc.js?516588047","http:\/\/st.deviantart.net\/css\/deviantart-network-loggedin_jc.js?1438447932"]});
                 </script>        <script type="text/javascript">
         if (self._qevents) {
             _qevents.push( { qacct:"p-915Y6SMHQQJHI", labels: "UserStatus.LoggedOut"} );
@@ -451,9 +515,9 @@ The most common 'undesired' viewing material may include, but is not limited to,
                     n.async = 1;
                     n.src = "http://st.deviantart.net/css/dapx_jc.js?1023756257";
                     t.parentNode.insertBefore(n, t);
-                })(window, document, "script", 1441063566);
+                })(window, document, "script", 1441148550);
                 
-            </script><script type="text/javascript">DWait.ready(["jms\/lib\/pubsub.js"], function(){ PubSub.publish("DaPx.initialize", {"client":"dw","daid":"9751324d1322633e03e7399b3e609f00","requestid":"555m04882c1fad6b3f83a2a812d0d488eee2","log_data":[]}); });</script>
+            </script><script type="text/javascript">DWait.ready(["jms\/lib\/pubsub.js"], function(){ PubSub.publish("DaPx.initialize", {"client":"dw","daid":"84d5886a71e87ec183a340e1a9a13c58","requestid":"555m5f7779bb01055507c819cd1ca3ccb2e4","log_data":[]}); });</script>
 <script type="text/javascript">
         document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b")
         + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
