@@ -15,7 +15,7 @@
 		<meta property="og:site_name" content="SPIEGEL ONLINE" />
 	<meta property="og:url" content="http://www.spiegel.de/meinspiegel/artikel/a-703602.html" />
 	
-	<meta name="twitter:card" value="summary" />
+	<meta name="twitter:card" value="summary_large_image" />
 	<meta name="twitter:site" value="@SPIEGELONLINE" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Allgemeine Nutzungsbedingungen - SPIEGEL ONLINE" />
@@ -41,37 +41,37 @@
 <link rel="apple-touch-icon" sizes="144x144" href="/static/sys/v10/icons/touch-icon144.png" />
 <link rel="apple-touch-icon" sizes="152x152" href="/static/sys/v10/icons/touch-icon152.png" />
 <!-- ##SPONTAG: CSS## -->
-		<link rel="stylesheet" type="text/css" href="/layout/css/style-V6-12.css" />
+		<link rel="stylesheet" type="text/css" href="/layout/css/style-V6-13.css" />
 	<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="/layout/css/ie7-V6-12.css" />
+	<link rel="stylesheet" type="text/css" href="/layout/css/ie7-V6-13.css" />
 	<![endif]-->
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" href="/layout/css/ie8-V6-12.css" />
+	<link rel="stylesheet" type="text/css" href="/layout/css/ie8-V6-13.css" />
 	<![endif]-->
-	<script src="/layout/jscfg/http/global-V6-12.js" type="text/javascript"></script>
-		<script src="/layout/js/http/javascript-V6-12.js" type="text/javascript"></script>
+	<script src="/layout/jscfg/http/global-V6-13a.js" type="text/javascript"></script>
+		<script src="/layout/js/http/javascript-V6-13a.js" type="text/javascript"></script>
 		<script type="text/javascript" id="spIpadScript">
 		if (spUA.isIPad()) {
 			if ("https:" == window.location.protocol){
-				document.write('<scr' + 'ipt src="/layout/js/https/ipad-V6-12.js" type="text/javascript"><\/scr' + 'ipt>');
+				document.write('<scr' + 'ipt src="/layout/js/https/ipad-V6-13a.js" type="text/javascript"><\/scr' + 'ipt>');
 			} else
-				document.write('<scr' + 'ipt src="/layout/js/http/ipad-V6-12.js" type="text/javascript"><\/scr' + 'ipt>');
+				document.write('<scr' + 'ipt src="/layout/js/http/ipad-V6-13a.js" type="text/javascript"><\/scr' + 'ipt>');
 		}
 		</script>
 		<script type="text/javascript" id="spIpadVideoScript">
 			var hashParams = spGetHashParams();
 			var forceJWPlayer = hashParams['sp.forceJWPlayer'] && hashParams['sp.forceJWPlayer'] === '1';
 			if (spUA.isIDevice() || spUA.isAndroid() || !isValidPluginVersion() || forceJWPlayer) {
-				document.write('<scr' + 'ipt src="/layout/js/http/ipadvideo-V6-12.js" type="text/javascript"><\/scr' + 'ipt>');
+				document.write('<scr' + 'ipt src="/layout/js/http/ipadvideo-V6-13a.js" type="text/javascript"><\/scr' + 'ipt>');
 			}
 		</script>
-		<script src="/layout/js/http/interface-V6-12.js" type="text/javascript"></script>
+		<script src="/layout/js/http/interface-V6-13a.js" type="text/javascript"></script>
 
 
-	<script src="/layout/js/http/netmind-V6-12.js" type="text/javascript"></script>
+	<script src="/layout/js/http/netmind-V6-13a.js" type="text/javascript"></script>
 		<script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
 	<!--[if lte IE 8]>
-		<script src="/layout/js/http/respond_min-V6-12.js" type="text/javascript"></script>
+		<script src="/layout/js/http/respond_min-V6-13a.js" type="text/javascript"></script>
 	<![endif]-->
 	<script type="text/javascript">
 <!--
