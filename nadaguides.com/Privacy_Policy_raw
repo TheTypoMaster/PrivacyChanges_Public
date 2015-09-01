@@ -113,7 +113,7 @@
 <!--<![endif]-->
     <script src="/Scripts/ads.js"></script>
     <script>
-        NADAjs.ABDetect.LogResult('1632013', 'e9e54089-70f2-4a12-adf8-025f2298e047', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
+        NADAjs.ABDetect.LogResult('1400285', '85fbf540-e672-4570-acf5-b30bcbc63943', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
     </script>
 
  
@@ -149,7 +149,7 @@
 
                 var description = $("meta[property='og:description']").attr("content");
                 var title = $("meta[property='og:title']").attr("content");
-                var serverpageurl = "http://www.nadaguides.com/Privacy-policy";
+                var serverpageurl = "http://nadaguides.com/Privacy-policy";
                 var ogurl = $("meta[property='og:url']").attr("content");
 
                 if (description == undefined || description == '')
@@ -339,7 +339,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         if (typeof NADAEmailjs != 'undefined') {
-            NADAEmailjs.EmailFriend.Init('297','1632013', 'Privacy Policy', '');  
+            NADAEmailjs.EmailFriend.Init('297','1400285', 'Privacy Policy', '');  
         }
     });
 </script>     </div>
@@ -629,7 +629,7 @@
     
 <script type="text/javascript">
     
-    xyz = "helesia";
+    xyz = "hayes";
 </script>    
     
     
