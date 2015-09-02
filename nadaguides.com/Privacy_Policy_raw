@@ -113,7 +113,7 @@
 <!--<![endif]-->
     <script src="/Scripts/ads.js"></script>
     <script>
-        NADAjs.ABDetect.LogResult('1400285', '85fbf540-e672-4570-acf5-b30bcbc63943', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
+        NADAjs.ABDetect.LogResult('1538317', '947d5f2d-f8e4-4a7c-a96c-32c508f9854c', '/Privacy-policy', '297', 'Python-urllib/2.7', '52.2.142.173');
     </script>
 
  
@@ -339,7 +339,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         if (typeof NADAEmailjs != 'undefined') {
-            NADAEmailjs.EmailFriend.Init('297','1400285', 'Privacy Policy', '');  
+            NADAEmailjs.EmailFriend.Init('297','1538317', 'Privacy Policy', '');  
         }
     });
 </script>     </div>
