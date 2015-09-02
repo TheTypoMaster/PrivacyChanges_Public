@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441189702;
+  PageCriteria.timestamp = 1441197173;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441188256250),
+            serverDate: new Date(1441195847359),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,7 +428,7 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"10":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"11":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
+adverts.botIPs={"12":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"13":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
 
 adverts.initSlots({"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015090210',
+            weatherDate: '2015090212',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -942,13 +942,25 @@ DM.later('bundle', function () {
   <ul class="link-bogr2 linkro-wocc">
     <li>
       <a href="/tvshowbiz/article-3219373/Pregnant-Kim-Kardashian-daughter-North-West-two-sport-matching-bikinis-build-sandcastles-beach-St-Barts.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/10/2BE5D19F00000578-0-image-m-51_1441185433037.jpg" height="115" width="154" alt="" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE70D3D00000578-0-image-m-5_1441190898591.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           PICTURE EXCLUSIVE Pregnant Kim Kardashian and daughter North West, two, sport matching bikinis as they build sandcastles in St Barts&nbsp;
           </strong>
           
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219477/Michelle-Keegan-Mark-Wright-let-hair-White-Isle-wet-wild-day-Ibiza-water-park.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE739E000000578-0-image-m-83_1441191110632.jpg" height="115" width="154" alt="Ocean Mania. Ryan Birchall-0620.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Michelle Keegan and Mark Wright let their hair down on the White Isle with a wet and wild day at Ibiza water park
+          </strong>
+          It's not all sunbathing and selfies
         </span>
       </a>
     </li>
@@ -977,26 +989,14 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3218901/It-stolen-malicious-Cindy-Crawford-speaks-time-unretouched-photo.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE316D400000578-0-image-a-9_1441143825277.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3219418/Lily-Allen-pictured-suspicious-looking-cigarette-Notting-Hill-Carnival-joking-drug-taking-video-showing-pal-waving-bag-white-powder.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE61AD800000578-0-image-a-7_1441188594040.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          'It was stolen and it was malicious': Cindy Crawford &nbsp;speaks out for the first time about THAT 'unretouched' photo
+          PICTURED Lily Allen smokes suspicious-looking cigarette at Notting Hill Carnival after 'joking about drug-taking in a video'
           </strong>
-          Angry over leak
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3219390/Miley-Cyrus-cosies-love-Stella-Maxwell-confessing-not-relationship.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/10/2BE6012400000578-0-image-m-6_1441185703904.jpg" height="115" width="154" alt="miley cyrus - INSTAGRAM 2.jpg" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Pansexual Miley Cyrus cosies up to love interest Stella Maxwell after the MTV VMAs... days after insisting they're NOT in a 'serious' relationship
-          </strong>
-          
+          Partied hard with friends
         </span>
       </a>
     </li>
@@ -1016,6 +1016,115 @@ DM.later('bundle', function () {
           Carrots carved into flowers, princess hair made from pasta and a lunch box resembling a BASEBALL pitch: The most inventive packed lunches ever
           </strong>
           <b>SPONSORED</b>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219417/Chloe-Jasmine-Whichello-Stevi-Ritchie-indulge-steamy-PDA-CBB.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/13/2BE7A4FE00000578-0-image-m-2_1441195462845.jpg" height="115" width="154" alt="EROTEME.CO.UK
+If bylined, must credit Channel 5
+Celebrity Big Brother
+Day 5 Highlights
+Stevi Ritchie and Chloe Jasmine in the bath together kissing.
+Hosted by Emma Willis
+ 
+NON-EXCLUSIVE: Tuesday 1st September 2015
+Job: 150901UT10
+EROTEME.CO.UK
+44 207 431 1598
+Disclaimer note of Eroteme Ltd: Eroteme Ltd does not claim copyright for this image. This image is merely a supply image and payment will be on supply/usage fee only." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Stevi Ritchie accuses Chloe-Jasmine Whichello of eyeing up fellow CBB housemate James Hill... after indulging in a steamy bathtub PDA
+          </strong>
+          <br>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219390/Miley-Cyrus-cosies-love-Stella-Maxwell-confessing-not-relationship.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/10/2BE6012400000578-0-image-m-6_1441185703904.jpg" height="115" width="154" alt="miley cyrus - INSTAGRAM 2.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Pansexual Miley Cyrus cosies up to love interest Stella Maxwell after the MTV VMAs... days after insisting they're NOT in a 'serious' relationship
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219428/Jacqueline-Jossa-goes-make-free-fianc-Dan-Osborne-little-ones-shopping-shiny-new-Porsche.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/10/2BE6214B00000578-0-image-m-35_1441186665707.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Make-up free Jacqueline Jossa and fianc&eacute; Dan Osborne lavish affection on baby Ella and Teddy as they shop for a swanky new Porsche
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218901/It-stolen-malicious-Cindy-Crawford-speaks-time-unretouched-photo.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE316D400000578-0-image-a-9_1441143825277.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'It was stolen and it was malicious': Cindy Crawford &nbsp;speaks out for the first time about THAT 'unretouched' photo
+          </strong>
+          Angry over leak
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219590/Josie-Gibson-shows-toned-curves-polka-dot-bikini-soaking-sunshine-topless-paddle-boarding-summer-break.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE765C000000578-0-image-a-36_1441194172674.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Josie Gibson shows off her toned curves in a polka-dot bikini before soaking up the sun as she paddleboards topless in Formentera
+          </strong>
+          Made a splash
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219487/Caroline-Flack-puts-400-000-London-love-nest-shared-ex-boyfriend-Jack-Street-market.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE7455000000578-0-image-a-19_1441191854440.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'She wants a fresh start without the old memories': Caroline Flack 'puts &pound;400,000 London love nest she shared with ex Jack Street on the market'
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219494/Victoria-Justice-parades-bikini-body-PDA-boyfriend-Pierson-Fode-Hawaii.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE62A1600000578-0-image-m-64_1441190420361.jpg" height="115" width="154" alt="Picture Shows: Pierson Fode, Victoria Justice  August 27, 2015
+ 
+ Nickelodeon star Victoria Justice shows off her bikini body as she vacations with her boyfriend Pierson Fode in Oahu, Hawaii.
+ 
+ Victoria posted her first ever &quot;snelfie&quot; on Twitter yesterday while snorkeling in the water. She captioned the pic, &quot;My first ever snelfie. Snorkle+selfie=snelfie. Urban dictionary, you're welcome.&quot;
+ 
+ Exclusive - All Round
+ UK RIGHTS ONLY
+ 
+ Pictures by : FameFlynet UK &copy; 2015
+ Tel : +44 (0)20 3551 5049
+ Email : info@fameflynet.uk.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Victoria Justice parades her slim bikini body as she puts on affectionate display with shirtless beau Pierson Fode during Hawaii getaway
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1044,6 +1153,69 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3219506/TOWIE-s-Mario-Falcone-girlfriend-Emma-McVey-dispell-rumours-split.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE739D800000578-0-Picture_Shows_Mario_Falcone_Emma_McVey_August_27_2015_n_n_Min_15-m-9_1441192858188.jpg" height="115" width="154" alt="Picture Shows: Mario Falcone, Emma McVey  August 27, 2015\n \n **Min &pound;150 Web/Online Set Usage Fee**\n \n ***MINIMUM MAG PRINT USAGE FEE &pound;150 PER IMAGE***\n \n **Pictures taken 27th, August 2015**\n \n Mario Falcone and his girlfriend Emma McVey seen shopping at Sainsbury's together in Essex, UK after Mario picked Emma up from the train station.\n \n The couple have rekindled their relationship after splitting earlier this month after it was alleged that she had cheated on him!\n \n ***MINIMUM MAG PRINT USAGE FEE &pound;150 PER IMAGE***\n \n **Min &pound;150 Web/Online Set Usage Fee**\n \n Exclusive - All Round\n WORLDWIDE RIGHTS\n Pictures by : FameFlynet UK &copy; 2015\n Tel : +44 (0)20 3551 5049\n Email : info@fameflynet.uk.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Back-on again! Former TOWIE star Mario Falcone and girlfriend Emma McVey put on a united display during shopping spree following split rumours
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219496/Irina-Shayk-slips-plunging-navy-jumpsuit-hits-gym-returning-jet-set-summer-holiday-beau-Bradley-Cooper.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE739D400000578-0-image-a-69_1441193207111.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Irina Shayk slips into a plunging navy jumpsuit as she hits the gym after returning from jet-set summer holiday with beau Bradley Cooper
+          </strong>
+          Back to reality
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3219019/Bake-s-Sue-Perkins-reveals-brain-tumour.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE3FDC400000578-0-image-m-31_1441148396545.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Bake Off's Sue Perkins reveals she has been living with a brain tumour for EIGHT YEARS which stops her having children&nbsp;
+          </strong>
+          Discovered on TV show
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219441/Newlywed-Nicky-Hilton-continues-sport-bridal-white-shows-honeymoon-tan-hotpants-chic-sleeveless-blazer.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE624C800000578-0-image-m-3_1441190664014.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Newlywed Nicky Hilton continues to sport bridal white as she shows off honeymoon tan in hotpants and a chic sleeveless blazer
+          </strong>
+          Married life suits her!
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218694/Rare-black-white-photographs-naked-Angelina-Jolie-aged-20-gone-sale-London-gallery-1800.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/19/2BE242B100000578-0-image-a-27_1441132665005.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Rare black and white photographs of a naked Angelina Jolie at aged 20 have gone on sale at London gallery for &pound;1,800
+          </strong>
+          Sultry set taken in 1995
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3219319/Hollyoaks-Jorgie-Porter-strips-racy-new-photoshoot.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/08/2BE56EC800000578-0-image-m-2_1441178410988.jpg" height="115" width="154" alt="Embargoed until 00.01 Wednesday 2 September, MUST RUN COVER
 Hollyoaks star Jorgie Porter in a new photo shoot for FHM Magazine 
@@ -1062,19 +1234,26 @@ The pint-sized soap star told FHM she&iacute;s got a naughty side, admitting: &i
       </a>
     </li>
     <li>
-      <a href="/news/article-3219019/Bake-s-Sue-Perkins-reveals-brain-tumour.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE3FDC400000578-0-image-m-31_1441148396545.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3219563/Karlie-Kloss-swamps-supermodel-figure-semi-sheer-black-maxi-dress-following-VMAs-appearance.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE7595D00000578-0-image-m-76_1441192931332.jpg" height="115" width="154" alt="EXCLUSIVE: Karlie Kloss looks happy in a black dress after her VMAs appearance, NYC
+
+Pictured: Karlie Kloss
+Ref: SPL1113616  010915   EXCLUSIVE
+Picture by: Splash News
+
+Splash News and Pictures
+Los Angeles: 310-821-2666
+New York: 212-619-2666
+London: 870-934-2666
+photodesk@splashnews.com" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Bake Off's Sue Perkins reveals she has been living with a brain tumour for EIGHT YEARS which stops her having children&nbsp;
+          Karlie Kloss hides her supermodel figure in a semi-sheer black maxi dress as she returns to NYC after VMAs appearance
           </strong>
-          Discovered on TV show
+          Kept curves under wraps
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3218821/Here-come-girls-Soap-stars-Georgia-Foote-Kellie-Bright-join-Kirsty-Gallacher-lead-glamour-Strictly-Come-Dancing-photocall.html">
@@ -1085,18 +1264,6 @@ The pint-sized soap star told FHM she&iacute;s got a naughty side, admitting: &i
           Here come the girls!&nbsp;Soap stars Georgia May Foote and Kellie Bright join Kirsty Gallacher as they lead the glamour at Strictly Come Dancing photocall
           </strong>
           
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218694/Rare-black-white-photographs-naked-Angelina-Jolie-aged-20-gone-sale-London-gallery-1800.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/19/2BE242B100000578-0-image-a-27_1441132665005.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Rare black and white photographs of a naked Angelina Jolie at aged 20 have gone on sale at London gallery for &pound;1,800
-          </strong>
-          Sultry set taken in 1995
         </span>
       </a>
     </li>
@@ -1130,6 +1297,30 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
       </a>
     </li>
     <li>
+      <a href="/femail/article-3219465/Annabelle-Kavanagh-takes-big-screen-bid-Hollywood-star.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE7310200000578-0-image-a-1_1441190732469.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Watch out Emma Watson! 11-year-old set to become a Hollywood star after landing big screen role... but has to squeeze filming around her school schedule&nbsp;
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218991/SEBASTIAN-SHAKESPEARE-Seeing-double-meet-Jude-s-blue-eyed-girl.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE2B94A00000578-0-image-a-29_1441146698087.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Seeing double, meet Jude Law's blue-eyed girl Ada
+          </strong>
+          Share a striking resemblance, writes Sebastian Shakespeare
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3219047/Khloe-Kardashian-gets-mystical-crystal-shop-showcases-incredible-figure-skintight-outfit.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE4276B00000578-0-image-m-2_1441153740863.jpg" height="115" width="154" alt="1 Sep 2015 - HOLLYWOOD - USA  KHLOE KARDASHIAN FILMING IN HOLLYWOOD WHILE SHOPPING FOR STONES ON TUESDAY AFTERNOON.   BYLINE MUST READ : XPOSUREPHOTOS.COM  ***UK CLIENTS - PICTURES CONTAINING CHILDREN PLEASE PIXELATE FACE PRIOR TO PUBLICATION ***  **UK CLIENTS MUST CALL PRIOR TO TV OR ONLINE USAGE PLEASE TELEPHONE  44 208 344 2007 ***" />
         <span class="pufftext">
@@ -1154,14 +1345,26 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3218991/SEBASTIAN-SHAKESPEARE-Seeing-double-meet-Jude-s-blue-eyed-girl.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE2B94A00000578-0-image-a-29_1441146698087.jpg" height="115" width="154" alt="" />
+      <a href="/tvshowbiz/article-3219421/Selma-Blair-amps-glamour-metallic-sequinned-number-list-Beverly-Hills-party.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE61D3600000578-0-image-m-7_1441191136125.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Seeing double, meet Jude Law's blue-eyed girl Ada
+          Selma Blair ditches her usual low-key attire and amps up the glamour in a sparkling silver sequin minidress at A List Party
           </strong>
-          Share a striking resemblance, writes Sebastian Shakespeare
+          Looked sensational
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3219488/Glad-Bear-met-park-Obama-explorer-Bear-Grylls-hiking-Alaskan-wilderness-raise-awareness-climate-change.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE71D4300000578-0-image-m-33_1441189763897.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Glad this was the only Bear I met': Obama and Bear Grylls take selfies as presenter puts President through his paces in the Alaskan wilderness
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1203,9 +1406,6 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
-    </li>
     <li>
       <a href="/tvshowbiz/article-3219350/Rihanna-glams-black-tracksuit-skater-t-shirt-bright-red-lipstick-arrives-Los-Angles-cross-country-flight.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/09/2BE5A6B000000578-0-image-a-23_1441181626285.jpg" height="115" width="154" alt="" />
@@ -1213,6 +1413,41 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
           <span class="arrow-small-r"></span>
           <strong>
           Love The Way you style: Rihanna glams up her black tracksuit and skater t-shirt with bright red lipstick as she arrives in L A after cross-country flight
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219358/One-Direction-delight-fans-Philadelphia-gig-bagging-SIX-Guinness-World-Records-ahead-indefinite-hiatus.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/09/2BE5B5E800000578-0-image-a-33_1441182253582.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          One Direction delight their fans at Philadelphia gig after bagging SIX Guinness World Records ahead of indefinite hiatus
+          </strong>
+          Delighted the crowd
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219473/Karrueche-Tran-steps-suede-trousers-following-selfie-death-threats.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE63C1800000578-0-image-m-2_1441188524397.jpg" height="115" width="154" alt="Picture Shows: Karrueche Tran  September 01, 2015
+ 
+ Model Karrueche Tran is all smiles while lunching with friends in Hollywood, California. 
+ 
+ Karrueche was in good spirits despite all of the recent drama with her ex-boyfriend, singer Chris Brown. 
+ 
+ Exclusive - All Round
+ UK RIGHTS ONLY
+ 
+ Pictures by : FameFlynet UK &copy; 2015
+ Tel : +44 (0)20 3551 5049
+ Email : info@fameflynet.uk.com" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Putting on a brave face! Karrueche Tran beams as she steps out in high-waisted suede trousers... following death threats over sexy bikini selfie
           </strong>
           
         </span>
@@ -1412,7 +1647,7 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
     </li>
     <li>
       <a href="/femail/article-3219404/Crown-Princess-Mary-vision-white-addresses-crowd-Women-s-equality-event.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/08/2BE58EE500000578-0-image-a-4_1441180517133.jpg" height="115" width="154" alt="" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/11/2BE546F400000578-0-image-m-20_1441189991480.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
@@ -1664,7 +1899,7 @@ BYLINE MUST READ : XPOSUREPHOTOS.COM
     </li>
     <li>
       <a href="/news/article-3219204/BBC-Breakfast-s-Bill-Turnbull-59-quit-year-country-spend-time-looking-bees.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/06/1ADA2E8F000005DC-0-image-a-85_1441171152512.jpg" height="115" width="154" alt="" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/12/2BE5DD5100000578-0-image-m-62_1441191878088.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
@@ -2079,7 +2314,7 @@ Matt Cardle" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          EXCLUSIVE 'I would love to perform in the West End': Dannii Minogue doesn't rule out theatre return... as she supports X Factor prot&eacute;g&eacute; Matt Cardle
+          EXCLUSIVE 'I'd love to perform in the West End': Dannii Minogue flirts with a return to theatre... as she supports X Factor prot&eacute;g&eacute; Matt Cardle in Memphis:The Musical
           </strong>
           
         </span>
