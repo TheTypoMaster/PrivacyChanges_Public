@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441148818;
+  PageCriteria.timestamp = 1441154352;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441147383016),
+            serverDate: new Date(1441154044439),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"23":["95.172.74.42|*","164.151.129.211|*","206.225.132.111|*","194.138.39.62|*","109.169.6.135|*","146.23.209.228|*","192.31.106.40|*","151.237.238.126|*","108.171.133.176|*","54.206.182.240|*","196.35.246.194|*","168.167.134.101|*","94.118.0.8|*","139.139.19.68|*","192.35.35.40|*","145.62.32.129|*","86.28.18.1|*","168.168.43.250|*"],"24":[]};
+adverts.botIPs={"0":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"1":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
 
-adverts.initSlots({"interstitial":{"state":"off","enabled":false,"inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015090122',
+            weatherDate: '2015090200',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -953,12 +953,36 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3218901/It-stolen-malicious-Cindy-Crawford-speaks-time-unretouched-photo.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE316D400000578-0-image-a-9_1441143825277.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'It was stolen and it was malicious': Cindy Crawford &nbsp;speaks out for the first time about THAT 'unretouched' photo
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3218821/Here-come-girls-Soap-stars-Georgia-Foote-Kellie-Bright-join-Kirsty-Gallacher-lead-glamour-Strictly-Come-Dancing-photocall.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE30CDC00000578-0-image-a-132_1441143736149.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
           Here come the girls!&nbsp;Soap stars Georgia May Foote and Kellie Bright join Kirsty Gallacher as they lead the glamour at Strictly Come Dancing photocall
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/news/article-3219019/Bake-s-Sue-Perkins-reveals-brain-tumour.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE3FDC400000578-0-image-m-31_1441148396545.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Bake Off's Sue Perkins reveals she has been living with a brain tumour for EIGHT YEARS which stops her having children&nbsp;
           </strong>
           
         </span>
@@ -973,30 +997,6 @@ DM.later('bundle', function () {
           Rare black and white photographs of a naked Angelina Jolie at aged 20 have gone on sale at London gallery for &pound;1800
           </strong>
           Moody set was taken in 1995
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218823/Simon-Cowell-mentor-25s-X-Factor-saying-wanted-Girls.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/21/2BE2CFDE00000578-0-image-a-35_1441140186131.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          He won't be happy! Simon Cowell to mentor the over-25s on X Factor after saying he wanted the Girls... as judges' categories are confirmed
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218901/It-stolen-malicious-Cindy-Crawford-speaks-time-unretouched-photo.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE316D400000578-0-image-a-9_1441143825277.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'It was stolen and it was malicious': Cindy Crawford &nbsp;speaks out for the first time about THAT 'unretouched' photo
-          </strong>
-          
         </span>
       </a>
     </li>
@@ -1016,6 +1016,69 @@ DM.later('bundle', function () {
           The TRUTH behind health food fads: The popular healthy eating myths debunked and what you SHOULD be doing to lose weight
           </strong>
           <b>SPONSORED</b>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219034/Kristina-Rihanoff-puts-busty-display-attends-Strictly-photocall.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE42F9100000578-0-image-a-42_1441152334236.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Kristina Rihanoff puts on a VERY busty display as she attends Strictly photocall in revealing bra top and thigh-split ra-ra skirt
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219046/Strictly-contestant-Helen-George-split-husband-Oliver-Boot-following-three-years-marriage.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE41E4100000578-0-image-a-33_1441151012415.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Strictly contestant Helen George has split from her husband  Oliver Boot following three years of marriage
+          </strong>
+          Call The Midwife star is newly single
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218881/Presenters-Tess-Daly-Claudia-Winkleman-attend-Strictly-photocall.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE41A0E00000578-0-image-m-145_1441150666537.jpg" height="115" width="154" alt="Mandatory Credit: Photo by David Fisher/REX Shutterstock (5016967a)\n Claudia Winkleman and Tess Daly\n 'Strictly Come Dancing' TV series launch, Elstree Studios, Hertfordshire, Britain - 01 Sep 2015\n \n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Just the two of us! Presenter Tess Daly wows in floor-length blue gown at Strictly photocall as co-host Claudia Winkleman dazzles in a metallic number
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218823/Simon-Cowell-mentor-25s-X-Factor-saying-wanted-Girls.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/21/2BE2CFDE00000578-0-image-a-35_1441140186131.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          He won't be happy! Simon Cowell to mentor the over-25s on X Factor after saying he wanted the Girls... as judges' categories are confirmed
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_10">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218991/SEBASTIAN-SHAKESPEARE-Seeing-double-meet-Jude-s-blue-eyed-girl.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE2B94A00000578-0-image-a-29_1441146698087.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          SEBASTIAN SHAKESPEARE: Seeing double, meet Ada, Jude Law's blue-eyed girl &nbsp;
+          </strong>
+          Six-month-old shares a striking resemblance to the star in the first image shared by her mother Catherine Harding
         </span>
       </a>
     </li>
@@ -1067,58 +1130,27 @@ DM.later('bundle', function () {
         </span>
       </a>
     </li>
-    <li class="puff-ad" id="mpu_puff_10">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_10', type: '300x250',pos:'mpu_puff_10'});</script>
-    </li>
     <li>
-      <a href="/tvshowbiz/article-3218881/Presenters-Tess-Daly-Claudia-Winkleman-attend-Strictly-photocall.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/22/2BE2635100000578-0-image-m-17_1441141235196.jpg" height="115" width="154" alt="Mandatory Credit: Photo by David Fisher/REX Shutterstock (5016967c)
- Claudia Winkleman and Tess Daly
- 'Strictly Come Dancing' TV series launch, Elstree Studios, Hertfordshire, Britain - 01 Sep 2015" />
+      <a href="/femail/article-3203985/Carrots-carved-flowers-Princess-hair-pasta-lunch-box-resembling-BASEBALL-pitch-hilariously-inventive-packed-lunches-ever.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/08/24/15/2BA02C8C00000578-0-image-m-11_1440426384149.jpg" height="115" width="154" alt="Eats Amazing - Garden Bug Themed Lunch.jpg" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Just the two of us! Presenter Tess Daly wows in floor-length blue gown at Strictly photocall as co-host Claudia Winkleman dazzles in a metallic number
+          Carrots carved into flowers, princess hair made from pasta and a lunch box resembling a BASEBALL pitch: The most inventive packed lunches ever
+          </strong>
+          <b>SPONSORED</b>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219007/Bella-Hadid-flaunts-model-curves-bralet-leggings-NY-outing-amid-rumours-sister-Gigi-join-Victoria-s-Secret-angels.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE3742200000578-0-image-m-60_1441149494284.jpg" height="115" width="154" alt="***MANDATORY BYLINE TO READ INFPhoto.com ONLY***\nBella Hadid wears a black crop top and tight jeans while out with a friend in New York City.\nMandator\n\nPictured: Bella Hadid\nRef: SPL1114478  010915  \nPicture by: Alberto Reyes/INFphoto.com\n\n" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Bella Hadid flaunts her model curves in bralet and leggings on NY outing amid rumours she and sister Gigi will join Victoria's Secret angels&nbsp;
           </strong>
           
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218991/SEBASTIAN-SHAKESPEARE-Seeing-double-meet-Jude-s-blue-eyed-girl.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE2B94A00000578-0-image-a-29_1441146698087.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          SEBASTIAN SHAKESPEARE: Seeing double, meet Ada, Jude Law's blue-eyed girl &nbsp;
-          </strong>
-          Six-month-old shares a striking resemblance to the star in the first image shared by her mother Catherine Harding
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218401/Michelle-Keegan-Mark-Wright-matching-black-night-Ibiza.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/14/2BE0199E00000578-0-image-m-64_1441115097453.jpg" height="115" width="154" alt="EXCLUSIVE ALL ROUNDER Michelle Keegan was seen putting make up on while having drinks at their hotel before going out. Meanwhile Mark and another friend were serving a vodka drink to every one.
-28 August 2015.
-Please byline: Vantagenews.co.uk" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Michelle Keegan and Mark Wright highlight their glowing tans in matching black as they enjoy a low-key night out in Ibiza
-          </strong>
-          Sartorially in sync
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3218305/Miranda-Kerr-leaves-little-imagination-flashes-toned-derriere-black-bikini-bottoms.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1C9F400000578-0-image-a-7_1441125506920.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Sun's out, buns out! Miranda Kerr leaves little to the imagination as she flashes her toned derriere in black bikini bottoms
-          </strong>
-          Saucy social media snap
         </span>
       </a>
     </li>
@@ -1137,16 +1169,33 @@ Please byline: Vantagenews.co.uk" />
       </a>
     </li>
     <li>
-      <a href="/femail/article-3203985/Carrots-carved-flowers-Princess-hair-pasta-lunch-box-resembling-BASEBALL-pitch-hilariously-inventive-packed-lunches-ever.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/08/24/15/2BA02C8C00000578-0-image-m-11_1440426384149.jpg" height="115" width="154" alt="Eats Amazing - Garden Bug Themed Lunch.jpg" />
+      <a href="/tvshowbiz/article-3218305/Miranda-Kerr-leaves-little-imagination-flashes-toned-derriere-black-bikini-bottoms.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1C9F400000578-0-image-a-7_1441125506920.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Carrots carved into flowers, princess hair made from pasta and a lunch box resembling a BASEBALL pitch: The most inventive packed lunches ever
+          Sun's out, buns out! Miranda Kerr leaves little to the imagination as she flashes her toned derriere in black bikini bottoms
           </strong>
-          <b>SPONSORED</b>
+          Saucy social media snap
         </span>
       </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218401/Michelle-Keegan-Mark-Wright-matching-black-night-Ibiza.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/14/2BE0199E00000578-0-image-m-64_1441115097453.jpg" height="115" width="154" alt="EXCLUSIVE ALL ROUNDER Michelle Keegan was seen putting make up on while having drinks at their hotel before going out. Meanwhile Mark and another friend were serving a vodka drink to every one.
+28 August 2015.
+Please byline: Vantagenews.co.uk" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Michelle Keegan and Mark Wright highlight their glowing tans in matching black as they enjoy a low-key night out in Ibiza
+          </strong>
+          Sartorially in sync
+        </span>
+      </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3218191/Holly-Willoughby-slips-naturally-work-mode-chic-white-shirt-figure-hugging-skirt-makes-triumphant-return-Morning.html">
@@ -1173,6 +1222,18 @@ Please byline: Vantagenews.co.uk" />
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3218968/Cheeky-Bobby-Davro-gets-bum-Sherrie-Hewson-hoists-speedos-Celebrity-Big-Brother-hot-tub.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE33EE700000578-0-image-m-106_1441147687176.jpg" height="115" width="154" alt="****Ruckas Videograbs****  (01322) 861777\n*IMPORTANT* Please credit Channel 5 for this picture.\n01/09/15\nCelebrity Big Brother \nDay 6\nSEEN HERE: Bobby in a pair of speedos and Sherrie wearing a sun dress, get in the bath together.\nGrabs from today in the CBB house\nMobile (UK)  : 07742 164 106\n**IMPORTANT - PLEASE READ** The video grabs supplied by Ruckas Pictures always remain the copyright of the programme makers, we provide a service to purely capture and supply the images to the client, securing the copyright of the images will always remain the responsibility of the publisher at all times.\nStandard terms, conditions &amp; minimum fees apply to our videograbs unless varied by agreement prior to publication." />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Cheeky! Bobby Davro gets his bum out in front of Sherrie Hewson as he hoists up his speedos in the Celebrity Big Brother hot tub
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3218569/She-s-curl-s-girl-Geordie-Shore-s-Holly-Hagan-steps-rollers-ties-reveal-taut-tummy.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/16/2BE19CDF00000578-0-image-a-6_1441122777783.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1186,9 +1247,7 @@ Please byline: Vantagenews.co.uk" />
     </li>
     <li>
       <a href="/tvshowbiz/article-3218749/Former-butler-Paul-Burrell-make-surprise-arrival-Celebrity-Big-Brother-house.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE2F3D400000578-0-image-m-119_1441148066998.jpg" height="115" width="154" alt="Mandatory Credit: Photo by David Fisher/REX Shutterstock (5021621a)
- Paul Burrell enters the house
- 'Celebrity Big Brother: UK vs USA' TV show, Elstree Studios, Hertfordshire, Britain - 01 Sep 2015" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE407BB00000578-0-image-a-28_1441149948361.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
@@ -1197,9 +1256,6 @@ Please byline: Vantagenews.co.uk" />
           
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3218922/Kym-Marsh-puts-busty-display-works-park.html">
@@ -1332,6 +1388,18 @@ The magazine will feature an expansive portfolio of celebrity self-portraits, fo
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3219052/Sandra-Bullock-new-man-Bryan-Randall-dating-months-star-introducing-beau-friends-July-4-party-held-Austin-Texas.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE437B000000578-0-image-m-11_1441153714855.jpg" height="115" width="154" alt="LOS ANGELES, CA - JUNE 16:  Actress Sandra Bullock arrives at Women In Film 2015 Crystal + Lucy Awards at the Hyatt Regency Century Plaza on June 16, 2015 in Los Angeles, California.  (Photo by Jon Kopaloff/FilmMagic)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Sandra Bullock and new man Bryan Randall have been dating 'for several months' with star introducing beau to friends at July 4 party held in Austin, Texas
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3218979/SEBASTIAN-SHAKESPEARE-Taylor-Swift-ruffles-feathers-675-ostrich-shrug.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2BE07CF000000578-0-image-m-18_1441145646188.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1350,6 +1418,21 @@ The magazine will feature an expansive portfolio of celebrity self-portraits, fo
           <span class="arrow-small-r"></span>
           <strong>
           The apple of his eye: Jamie&nbsp;Dornan enjoys shopping trip with his wife&nbsp;Amelia Warner and their adorable daughter&nbsp;Dulcie
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218951/Dannii-Minogue-doesn-t-rule-return-theatre-supports-former-X-Factor-prot-g-Matt-Cardle-Memphis.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE2FD3F00000578-0-image-m-10_1441149185591.jpg" height="115" width="154" alt="Memphis the Musical
+Danni Minogue 
+Kylie Minogue
+Matt Cardle" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          EXCLUSIVE 'I would love to perform in the West End': Dannii Minogue doesn't rule out a return to theatre... as she supports former X Factor prot&eacute;g&eacute; Matt Cardle in Memphis
           </strong>
           
         </span>
@@ -1405,18 +1488,6 @@ BYLINE MUST READ:  XPOSUREPHOTOS.COM
           <span class="arrow-small-r"></span>
           <strong>
           She is Pitch Perfect! Elizabeth Banks looks stylish in printed jumpsuit as she arrives at Venice Film Festival
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/femail/article-3218414/L-Oreal-launches-range-pink-lipsticks-listers-showcasing-shade.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/15/2BDFD0C900000578-0-image-m-15_1441118944887.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Are you a Blake Lively or an Eva Longoria? L'Oreal launches range of pink lipsticks with A-listers showcasing each shade in glamorous rose-hued campaign&nbsp;
           </strong>
           
         </span>
@@ -1858,6 +1929,18 @@ Mandatory Credit:  Ordonez/Jackson/INFphoto.com Ref: infusny-160/284" />
       </a>
     </li>
     <li>
+      <a href="/femail/article-3218653/Instagram-account-documents-adventures-four-year-old-girl-beloved-Doberman-yoga-classes-bathtime.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/21/2BE0A16500000578-0-image-m-39_1441138232302.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Cutie and the Beast: Paw-fect Instagram account documents the adventures of a four-year-old girl and her beloved Doberman, from yoga classes to bathtime
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3218405/Michael-Fassbender-Marion-Cotillard-unite-trailer-new-blockbuster-Shakespeare-s-classic-play.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/14/2BE050F300000578-0-image-m-48_1441115706589.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -2143,6 +2226,18 @@ Please byline: Vantagenews.co.uk" />
           Cameron Diaz covers her stomach amid pregnancy rumours as she arrives back in LA with Benji Madden after Australian trip
           </strong>
           Kept people guessing
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218923/Julianne-Moore-reveals-Freeheld-star-Ellen-Page-opened-eyes-painful-closeted.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE2D7EE00000578-0-image-m-121_1441149745604.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I was very touched by that': Julianne Moore reveals Freeheld co-star Ellen Page opened her eyes to 'how painful it is to be closeted'
+          </strong>
+          
         </span>
       </a>
     </li>
