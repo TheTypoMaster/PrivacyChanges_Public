@@ -8,12 +8,21 @@
 
 
 
+
+
 <!--[if IE ]><![endif]-->
 <!doctype html>
-<!--[if IE 7]><html class="rwd no-js vis lt-ie10 lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="rwd no-js vis lt-ie10 lt-ie9"><![endif]-->
-<!--[if IE 9]><html class="rwd no-js vis lt-ie10"><![endif]-->
-<!--[if gt IE 9]><!--><html class="rwd no-js vis"><!--<![endif]-->
+<!--[if IE 7]><html class="rwd no-js vis lt-ie10 lt-ie9 lt-ie8 no-rtl"><![endif]-->
+<!--[if IE 8]><html class="rwd no-js vis lt-ie10 lt-ie9 no-rtl"><![endif]-->
+<!--[if IE 9]><html class="rwd no-js vis lt-ie10 no-rtl"><![endif]-->
+<!--[if gt IE 9]><!--><html class="rwd no-js vis no-rtl"><!--<![endif]-->
+
+
+
+
+
+
+
 
 
 
@@ -36,13 +45,13 @@
     
         <meta name="robots" content="follow,index,noarchive"/>
     
-        <meta name="keywords" content="Intel privacy notice"/>
+        <meta name="keywords" content="privacy, notice"/>
     
         <meta name="location" content="us"/>
     
         <meta name="description" content="Notice outlines Intel's privacy, marketing, and advertising practices regarding the collection of personal information through the Intel web site."/>
     
-        <meta name="X-Server" content="prd1pcqapp03"/>
+        <meta name="X-Server" content="PRD1PCQAPP06"/>
     
         <meta name="language" content="en"/>
     
@@ -62,8 +71,8 @@
         <meta property="og:url" content="http://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html"/>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/ver/5.3.154/intel/default/favicon.ico"/>
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/ver/5.3.154/intel/default/favicon.ico"/>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/ver/5.7.28/intel/default/favicon.ico"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/ver/5.7.28/intel/default/favicon.ico"/>
     <link rel="canonical" href="http://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html"/>
     
 
@@ -82,18 +91,18 @@
 			);
 			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
 		}
-	})();	
+	})();
 	</script>
     <!--[if gt IE 9 | !IE ]><!-->
-		<link rel="stylesheet" href="/etc/designs/ver/5.3.154.3.11/intel/clientlibs/pages/commons-page.min.css" type="text/css">
-<script type="text/javascript" src="/etc/designs/ver/5.3.154.3.11/intel/clientlibs/pages/commons-page.min.js"></script>
+        <link rel="stylesheet" href="/etc/designs/ver/5.7.28.8.19/intel/clientlibs/pages/commons-page.min.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/ver/5.7.28.8.19/intel/clientlibs/pages/commons-page.min.js"></script>
 
     <![endif]-->
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/etc/designs/intel/clientlibs/pages/commons-page-legacy.min.css" type="text/css">
+        <link rel="stylesheet" href="/etc/designs/intel/clientlibs/pages/commons-page-legacy.min.css" type="text/css">
 <script type="text/javascript" src="/etc/designs/intel/clientlibs/pages/commons-page-legacy.min.js"></script>
 
-    <link rel="stylesheet" href="/etc/designs/intel/clientlibs/pages/commons-page-legacy-ie9.min.css" type="text/css">
+        <link rel="stylesheet" href="/etc/designs/intel/clientlibs/pages/commons-page-legacy-ie9.min.css" type="text/css">
 
     <![endif]-->
     <div class="parbase clientcontext"><script type="text/javascript">
@@ -122,11 +131,20 @@
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="/etc/designs/intel/us/en/css/intel.rwd.override.css"/>
     
-	
-	<!--[if lt IE 9]>
+
+    <!--[if lt IE 9]>
         <script type="text/javascript" src="/etc/designs/intel/clientlibs/pages/commons-page-ieOverrides.min.js"></script>
 
     <![endif]-->
+    <script>
+        var redirectToSSL = "";
+        var loc = location;
+        var sslForCurrentURL = 'https://www-ssl.intel.com/content/www/us/en/privacy/intel-privacy-notice.html'+location.search;
+        if(loc.port == '' && loc.protocol != 'https:' && redirectToSSL == "true"){
+            loc.href = sslForCurrentURL;
+        }
+    </script>
+
 </head>
 
 
@@ -136,7 +154,11 @@
 
 
 
+
 <body class="page-is-published">
+<script type="text/javascript">
+    var isTargetEnabled=false;
+</script>
 
 
 
@@ -164,7 +186,8 @@ wa_intel_product_level3:"",
 wa_intel_product_level4:"",
 wa_topic_level1:"corporateinformation",
 wa_topic_level2:"policy",
-wa_target_audience:"",
+wa_primary_audience:"",
+wa_secondary_audience:"",
 wa_life_cycle_level1:"",
 wa_life_cycle_level2:"",
 wa_program_level:"",
@@ -176,7 +199,9 @@ wa_cq_url:"/content/www/us/en/privacy/intel-privacy-notice.html",
 wa_page_type_micro:"contentdetailpage",
 wa_env:"prd",
 wa_cq_pub_env:"publish",
-wa_transl_status:""
+wa_transl_status:"",
+wa_vphid_primary:"",
+wa_vphid_secondary:""
 };
 </script>
 <script type="text/javascript" src="/content/dam/www/global/wap/tms.sync.js"></script>
@@ -191,26 +216,12 @@ wa_transl_status:""
 
 
 
+
+
 <script>
-var isLoggedin = false;
-
-(function(){
-    var r=function(){
-            $('body').hide();
-            location='https://www-ssl.intel.com/content/www/us/en/privacy/intel-privacy-notice.html'+location.search;
-        },
-        h=location.hostname.toLowerCase();
-    if(document.cookie.indexOf('SMSESSION')!=-1){isLoggedin = true;}
-    if((document.cookie.indexOf('SMSESSION')!=-1) && (location.protocol=='http:')){r();}
-   else if(h.indexOf('.intel.com',h.length-10)===-1){
-        $.ajax({
-            dataType:'jsonp',
-            url:'https://www-ssl.intel.com/libs/apps/intel/myintel/profile.html/validate/loggedin',
-            success:function(d,s,x){if(x.status==200 && d.isLoggedIn){r();}}
-        });
-    }
-})();
-
+    var isLoggedin = (location.protocol=='https:' && document.cookie.indexOf('SMSESSION')!=-1);
+    var sslForCurrentURL = 'https://www-ssl.intel.com/content/www/us/en/privacy/intel-privacy-notice.html'+location.search;
+    var loginValidateURL = 'https://www-ssl.intel.com/libs/apps/intel/myintel/profile.html/validate/loggedin';
 </script>
 <div class="headerPublished">
 
@@ -231,8 +242,16 @@ var isLoggedin = false;
 
 
 
+
+
+    
+    
+        
+    
+
+
 <!-- start global intel header -->
-<nav class="navbar navbar-default navbar-fixed-top bs-docs-nav global-menu" role="banner">
+<nav class="navbar navbar-default navbar-fixed-top bs-docs-nav global-menu navbar-brand-primary" role="banner">
     <div class="container component" data-component-id="1" data-component="header">
         <div class="navbar-header">
             <button class="navbar-toggle">
@@ -248,7 +267,7 @@ var isLoggedin = false;
 
         <div class="navbar-menu-button" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
+                <li class="dropdown main-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <span style="color: #FFFFFF">Menu</span>
                         <figure class="menu-arrow"></figure>
@@ -310,12 +329,12 @@ var isLoggedin = false;
 
 
     <div class="component" data-component="homepagesearch" data-component-id="1">
-        <form class="navbar-search navbar-form navbar-right intel-search-new" role="search" name="hpsform-new" id="hpsform-new" action="/content/www/us/en/search.html">
+        <form class="navbar-search navbar-form navbar-right intel-search-new" role="search" name="hpsform-new" id="hpsform-new" action="/content/www/us/en/search.html" onsubmit="INTEL_TYPE_AHEAD.onSubmitHps('Search', '/content/www/us/en', 'en_US')">
             <div class="form-group">
                 <input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none">
                 <input tabindex="1" data-search-input id="mobile-search" name="keyword" type="text" title="Search" class="input clearOnFocus typeAheadSearchBox form-control" autocomplete="off" placeholder="Search">
                 <button id="header-btn-clear" class="btn-clear"></button>
-                <button type="submit" class="submit" value="Search" onclick="INTEL_TYPE_AHEAD.onSubmitHps('Search', '/content/www/us/en', 'en_US')"></button>
+                <button type="submit" class="submit" value="Search"></button>
             </div>
         </form>
     </div>
@@ -324,7 +343,7 @@ var isLoggedin = false;
     var globalSearch=globalSearch || {};
     globalSearch={
         sharePointSearch:false,
-        baseSearchQuery:'filter(localecode:string("en_US") ANDNOT generic1:"false" ANDNOT (reimaginerootlevel:"Social@Intel") ',
+        baseSearchQuery:'filter(localecode:string("en_US") ANDNOT generic1:"false" ',
         langRootPath:'/content/www/us/en',
         headingTxt:'Best Match',
         locale:'en_US',
@@ -358,7 +377,7 @@ var isLoggedin = false;
                         
                         
                         
-                            <li><a href="/content/www/us/en/library/find-content.html">Find Content</a></li>
+                            <li><a href=""> </a></li>
                         
                     
                     <li class="divider">|</li>
@@ -394,13 +413,13 @@ var isLoggedin = false;
 </script></div>
 
 
-
-<section>
+<section data-scroll-track="false">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 pull-right" id="alertMsg">
                 <div id="alertSupport">
-					<div class="browser_detect" id="browserdetectid" style="display:none;">
+					<!-- <div class="browser_detect" id="browserdetectid" style="display:none;"> -->
+                    <div class="browser_detect" id="browserdetectid">
 						<p>The browser version you are using is not recommended for this site.<br/>Please consider upgrading to the latest version of your browser by clicking one of the following links.</p>
 						<div class="browser_types">
 							<ul>
@@ -421,11 +440,39 @@ var isLoggedin = false;
         </div>
     </div>
 </section>
+<div class="mtWidget">
+
+
+
+
+
+
+
+
+
+
+<!-- TODO: replace this with business logic in US10949 -->
+
+<script>
+INTEL = window.INTEL || {}; INTEL.I18n = window.INTEL.I18n ||{};
+INTEL.I18n["category_components.mtwidget.goBack"] = "Go back";
+INTEL.I18n["category_components.mtwidget.translate"] = "Translate";
+INTEL.I18n["category_components.mtwidget.disclaimer"] = "Translate this page to your local language. Note: translations are provided by an automated system. $LINKSTART Terms $LINKEND";
+INTEL.I18n["category_components.mtwidget.notice"] = "Terms: The resulting translation is generated using 3rd party machine translation engines and is provided for general information only and should not be relied upon as complete or accurate.";
+</script></div>
+
 
 
 		
 
 
+
+
+
+
+
+    
+        
 
 
 
@@ -577,6 +624,9 @@ var isLoggedin = false;
             </div>
             <div class="contentdetailmasthead parbase masthead">
 
+    
+        
+
 
 
 
@@ -638,65 +688,68 @@ var isLoggedin = false;
 
 
 
-    <div id="pageContent">
+<div id="pageContent">
+    
+
+        
         
 
             
-            
+                <!-- start masthead component -->
 
                 
-                    <!-- start masthead component -->
+                
 
                     
-                    
-
                         
+                    
+                    
+                    
+                
+                
+                
+                <div id="contentdetailmasthead-1" class="row l3-masthead-content-container text-align-    wapwrapper" data-component="contentdetailmasthead" data-component-id="1">
+                    
+                    
+                        <div class="cross-navigation length-5">
                             
-                        
-                        
-                        
+                                
+                                    <a href="/content/www/us/en/privacy/intel-privacy.html" target="">Personal Information Protection Philosophy</a>
+                                
+                            
+                                
+                                    <a class="active" href="/content/www/us/en/privacy/intel-privacy-notice.html" target="">Intel Privacy Notice</a>
+                                
+                            
+                                
+                                    <a href="/content/www/us/en/privacy/intel-cookie-notice.html" target="">Intel Cookie Notice</a>
+                                
+                            
+                                
+                                    <a href="/content/www/us/en/forms/privacy-contact-us.html" target="">Contact Us</a>
+                                
+                            
+                                
+                                    <a href="/content/www/us/en/privacy/corporate-privacy-rules-deed-poll.html" target="">Intel Corporate Privacy Rules (Deed Poll)</a>
+                                
+                            
+                        </div>
                     
-                    
-                    
-                    <div id="contentdetailmasthead-1" class="row l3-masthead-content-container text-align-    wapwrapper" data-component="contentdetailmasthead" data-component-id="1">
-                        
-                        
-                            <div class="cross-navigation length-5">
-                                
-                                    
-                                        <a href="/content/www/us/en/privacy/intel-privacy.html" target="">Personal Information Protection Philosophy</a>
-                                    
-                                
-                                    
-                                        <a class="active" href="/content/www/us/en/privacy/intel-privacy-notice.html" target="">Intel Privacy Notice</a>
-                                    
-                                
-                                    
-                                        <a href="/content/www/us/en/privacy/intel-cookie-notice.html" target="">Intel Cookie Notice</a>
-                                    
-                                
-                                    
-                                        <a href="/content/www/us/en/forms/privacy-contact-us.html" target="">Contact Us</a>
-                                    
-                                
-                                    
-                                        <a href="/content/www/us/en/privacy/corporate-privacy-rules-deed-poll.html" target="">Intel Corporate Privacy Rules (Deed Poll)</a>
-                                    
-                                
-                            </div>
-                        
 
-                    </div>
+                </div>
 
-                    <!-- end masthead component -->
-                
+                <!-- end masthead component -->
             
         
-    </div>
-    <div id="teaserContent">
-        
+    
+</div>
+<div id="teaserContent">
+    
 
-    </div>
+</div>
+
+    
+    
 </div>
 
         </div>
@@ -727,7 +780,7 @@ The<b>&nbsp;Intel Privacy Notice </b>was updated on November 7, 2014.&nbsp;<br>
 To view our previous notices, please click <a href="/content/www/us/en/privacy/intel-privacy-notice-archive.html"><b>here</b></a>.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>Intel Corporation and its group companies (&quot;Intel&quot;, &quot;we&quot;, &quot;us&quot; and &quot;our&quot;) respect your privacy. This Privacy Notice describes our privacy practices regarding the collection, use, and disclosure of your information through the Intel web site, our products, online services, apps, and other services we provide both online and offline (collectively referred to as “Intel Services”), along with our marketing and advertising practices.</p>
+<p>Intel Corporation and its group companies (&quot;Intel&quot;, &quot;we&quot;, &quot;us&quot; and &quot;our&quot;) respect your privacy. This Privacy Notice describes our privacy practices regarding the collection, use, and disclosure of your information through the Intel web site, our products, online services, apps, and other services we provide both online and offline (collectively referred to as “Intel® Services”), along with our marketing and advertising practices.</p>
 <p>Some Intel Services use cookies and similar technologies to access or store information. Specific information about how we use cookies, and how you can refuse our cookies, is set out in our <a href="/content/www/us/en/privacy/intel-cookie-notice.html">Intel Cookies and Similar Technologies Notice</a>.</p>
 <h3><b>CONTENTS</b></h3>
 <ol>
@@ -830,7 +883,7 @@ How We May Use and Disclose Other Information</li>
 <p>The Intel Services are designed to provide reasonable organizational, technical and administrative measures to protect personal information within our organization against unauthorized or unlawful access, alteration, disclosure or destruction.&nbsp; Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure.&nbsp; If you have reason to believe that your interaction with us is no longer secure (for example, if you feel that the security of any account you have with us has been compromised), please immediately notify us of the problem by contacting us in accordance with the <i>“Contact Us”</i> section below.</p>
 <p>&nbsp;</p>
 <h3><a name="_Toc392509741"></a><a name="_Toc390242521"></a><b>6. MARKETING PREFERENCES</b></h3>
-<p>We give you many choices regarding our use and disclosure of your personal information for marketing purposes.&nbsp; You may access and update your contact details and communication preferences by using one of the following methods: visit the specific product or service web site; visit the <a href="/content/www/us/en/company-overview/subscriptions.html">Intel Subscription Center</a>; visit the <a href="https://ssl.intel.com/ipc-app/default.aspx" target="_blank">Intel Profile Center</a>; use the <a href="/content/www/us/en/forms/privacy-contact-us.html">Contact Us</a> form; or send a letter to the postal address below. You may choose to update your communication preferences for the following types of marketing activities:</p>
+<p>We give you many choices regarding our use and disclosure of your personal information for marketing purposes.&nbsp; You may access and update your contact details and communication preferences by using one of the following methods: visit the specific product or service web site; visit the <a href="/content/www/us/en/company-overview/subscriptions.html">Intel Subscription Center</a>; visit the <a target="_blank" href="https://ssl.intel.com/ipc-app/default.aspx">Intel Profile Center</a>; use the <a href="/content/www/us/en/forms/privacy-contact-us.html">Contact Us</a> form; or send a letter to the postal address below. You may choose to update your communication preferences for the following types of marketing activities:</p>
 <ul>
 <li>To accept or refuse receiving marketing-related emails from us in the future.&nbsp;</li>
 <li>To accept or refuse our sharing of your personal information with affiliates and subsidiaries so that they may market directly to you.</li>
@@ -839,7 +892,7 @@ How We May Use and Disclose Other Information</li>
 <p>You can also unsubscribe from Intel marketing-related e-mails by following the unsubscribe instructions included in each marketing-related email sent to you. We will comply with your request(s) as soon as reasonably practicable.&nbsp; Please also note that if you do choose not to receive marketing-related emails from us, we may still send you important administrative messages (i.e., service notifications).</p>
 <p>&nbsp;</p>
 <h3><a name="_Toc390242522"></a><a name="_Toc392509742"></a><b>7. HOW YOU CAN MANAGE YOUR PERSONAL INFORMATION</b></h3>
-<p>If you would like to access, correct, update, or delete the personal information that you have provided to us, you may contact us by: visiting the specific product or service web site; visiting the <a href="https://ssl.intel.com/ipc-app/default.aspx" target="_blank">Intel Profile Center</a>; using the online <a href="/content/www/us/en/forms/privacy-contact-us.html">Contact Us</a> form; sending an email to <a href="mailto:privacy.feedback@intel.com" target="_blank">privacy.feedback@intel.com</a>; or sending a letter to the postal address below including your name, e-mail address, account identification, and purpose of the request.</p>
+<p>If you would like to access, correct, update, or delete the personal information that you have provided to us, you may contact us by: visiting the specific product or service web site; visiting the <a target="_blank" href="https://ssl.intel.com/ipc-app/default.aspx">Intel Profile Center</a>; using the online <a href="/content/www/us/en/forms/privacy-contact-us.html">Contact Us</a> form; sending an email to <a target="_blank" href="mailto:privacy.feedback@intel.com">privacy.feedback@intel.com</a>; or sending a letter to the postal address below including your name, e-mail address, account identification, and purpose of the request.</p>
 <p>For your protection, we will only implement requests with respect to personal information about you (not anyone else), and we may need to verify your identity before implementing your request.&nbsp; We will comply with your request as soon as reasonably practicable and in accordance with applicable law. <a name="_DV_C213"></a>We may need to retain certain information for recordkeeping purposes, as required under applicable legal obligations, and/or to complete any transactions that you began prior to requesting such change or deletion (e.g., when you make a purchase or enter a promotion, you may not be able to change or delete the personal information provided until after the completion of such purchase or promotion).&nbsp; Some of your information may remain within our systems and other records, in compliance with applicable law.</p>
 <p>&nbsp;</p>
 <h3><a name="_Toc392509743"></a><a name="_Toc390242523"></a><b>8. RETENTION PERIOD</b></h3>
@@ -850,7 +903,7 @@ How We May Use and Disclose Other Information</li>
 <p>&nbsp;</p>
 <h3><a name="_Toc390242525"></a><a name="_Toc392509745"></a><b>10. <a name="_Toc392509746"></a>INTERNATIONAL TRANSFERS OF PERSONAL INFORMATION</b></h3>
 <p>Like any global company, Intel may transfer your personal information to its parent company, Intel Corporation in the United States (U.S.), or to any Intel group company worldwide when processing that information for the purposes described in this Privacy Notice. We may also transfer your personal information to our third party service providers, who may be located in a different country to you.</p>
-<p>Intel complies with the U.S.-EU and U.S.-Swiss Safe Harbor frameworks as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information from the European Union. Intel has certified that it adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement. While the U.S. may not have data privacy laws that are the same as those in the EU and Switzerland, we will protect the information we receive in the U.S. from the EU and Switzerland in accordance with our Safe Harbor commitments. To learn more about the Safe Harbor Program, and to view Intel’s certification, please visit <a href="http://www.export.gov/safeharbor" target="_blank">http://www.export.gov/safeharbor</a>.</p>
+<p>Intel complies with the U.S.-EU and U.S.-Swiss Safe Harbor frameworks as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information from the European Union. Intel has certified that it adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement. While the U.S. may not have data privacy laws that are the same as those in the EU and Switzerland, we will protect the information we receive in the U.S. from the EU and Switzerland in accordance with our Safe Harbor commitments. To learn more about the Safe Harbor Program, and to view Intel’s certification, please visit <a target="_blank" href="http://www.export.gov/safeharbor">http://www.export.gov/safeharbor</a>.</p>
 <p>&nbsp;</p>
 <h3><a name="_Toc392509747"></a><a name="_Toc390242526"></a><b>11. CONTACT US</b></h3>
 <p>If you have questions or concerns about Intel’s privacy practices, you can contact us by using the <a href="/content/www/us/en/forms/privacy-contact-us.html">Contact Us</a> form or send a letter to the postal address listed below. Please include your contact information, name of the Intel web site or service, and a detailed description of your request or privacy concern.</p>
@@ -874,6 +927,13 @@ Santa Clara, CA 95054 USA</p>
 
 <div class="intelparsys contentdetail">
 <div class="linklist section">
+
+
+
+
+
+    
+        
 
 
 
@@ -904,7 +964,7 @@ Santa Clara, CA 95054 USA</p>
 
 
 
-<section class="blade blade-list">
+<section class="blade blade-list ">
     <div class="container">
         <header class="row">
             <div class="col-xs-12 col-sm-9 col-xl-6">
@@ -919,6 +979,8 @@ Santa Clara, CA 95054 USA</p>
                 <div class="blade-item col-xs-12 col-ms-6 col-sm-4 col-xl-3">
                     
                     
+
+
 
 
 
@@ -1019,8 +1081,19 @@ Santa Clara, CA 95054 USA</p>
     </div>
 </section>
     </div>
-</div></div>
+</div>
+    
+    
+
+</div>
 <div class="customrelated section">
+
+
+
+
+
+    
+        
 
 
 
@@ -1050,6 +1123,8 @@ Santa Clara, CA 95054 USA</p>
         
     </div>
 </div>
+    
+    
 
 
 
@@ -1101,9 +1176,12 @@ Santa Clara, CA 95054 USA</p>
         </div>
     </div>
 </div>
+    
+    
 
-<!-- Including the disclaimer component for all the pages other than navigation,
-as disclaimer is added abobe the tags for navigation -->
+
+<!-- Including the disclaimer component for all the pages other than hub, navigation, and content detail,
+as disclaimer is added above the tags for those templates -->
 
 
 
@@ -1274,6 +1352,16 @@ as disclaimer is added abobe the tags for navigation -->
                                 
                             </li>
                         
+                            <li>
+                                
+                                
+                                    
+                                    
+                                        <a href="/content/www/us/en/policy/policy-human-trafficking-and-slavery.html">Supply Chain Transparency</a>
+                                    
+                                
+                            </li>
+                        
                     </ul>
                 </div>
                 
@@ -1416,536 +1504,656 @@ as disclaimer is added abobe the tags for navigation -->
 
 
 
+<script type="text/javascript">
+    var languageslectorexists = false;
+</script>
 
-
-
-
-    <ul class="dropdown-menu" id="language-accordion">
-        <li>
-            
-                
-
-                
-                    
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                    
-                
-                    
-                
-                
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="accordion-toggle expanded" data-toggle="collapse" data-parent="#language-accordion" data-target="#header-translations">This page is also available in</h4>
-                        </div>
-                        <div id="header-translations" class="accordion-panel in">
-                            
-                                
-
-                                    <div class="col-xs-3">
-                                        <ul>
-                                            <li><h4>Asia Pacific</h4></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xa" href="http://www.intel.sg/content/www/xa/en/privacy/intel-privacy-notice.html">Asia Pacific (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_au" href="http://www.intel.com.au/content/www/au/en/privacy/intel-privacy-notice.html">Australia (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="zh_cn" href="http://www.intel.cn/content/www/cn/zh/privacy/intel-privacy-notice.html">China (简体中文)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_in" href="http://www.intel.in/content/www/in/en/privacy/intel-privacy-notice.html">India (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="id_id" href="http://www.intel.co.id/content/www/id/id/privacy/intel-privacy-notice.html">Indonesia (Bahasa Indonesia)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="ja_jp" href="http://www.intel.co.jp/content/www/jp/ja/privacy/intel-privacy-notice.html">Japan (日本語)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="ko_kr" href="http://www.intel.co.kr/content/www/kr/ko/privacy/intel-privacy-notice.html">Korea (한국어)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_my" href="http://www.intel.my/content/www/my/en/privacy/intel-privacy-notice.html">Malaysia (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_ph" href="http://www.intel.ph/content/www/ph/en/privacy/intel-privacy-notice.html">Philippines (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xa" href="http://www.intel.sg/content/www/xa/en/privacy/intel-privacy-notice.html">Singapore (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="zh_tw" href="http://www.intel.com.tw/content/www/tw/zh/privacy/intel-privacy-notice.html">Taiwan (繁體中文)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="th_th" href="http://thailand.intel.com/content/www/th/th/privacy/intel-privacy-notice.html">Thailand (ไทย)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="vi_vn" href="http://www.intel.vn/content/www/vn/vi/privacy/intel-privacy-notice.html">Vietnam (Tiếng Việt)</a></li>
-                                            
-
-                                        </ul>
-                                    </div>
-                                
-                            
-                                
-
-                                    <div class="col-xs-3">
-                                        <ul>
-                                            <li><h4>Europe</h4></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_eu" href="http://www.intel.eu/content/www/eu/en/privacy/intel-privacy-notice.html">Europe (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="fr_fr" href="http://www.intel.fr/content/www/fr/fr/privacy/intel-privacy-notice.html">France (Français)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="de_de" href="http://www.intel.de/content/www/de/de/privacy/intel-privacy-notice.html">Germany (Deutsch)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_ie" href="http://www.intel.ie/content/www/ie/en/privacy/intel-privacy-notice.html">Ireland (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="it_it" href="http://www.intel.it/content/www/it/it/privacy/intel-privacy-notice.html">Italy (Italiano)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="nl_nl" href="http://www.intel.nl/content/www/nl/nl/privacy/intel-privacy-notice.html">Netherlands (Nederlands)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="pl_pl" href="http://www.intel.pl/content/www/pl/pl/privacy/intel-privacy-notice.html">Poland (Polski)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="ru_ru" href="http://www.intel.ru/content/www/ru/ru/privacy/intel-privacy-notice.html">Russia (Русский)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_es" href="http://www.intel.es/content/www/es/es/privacy/intel-privacy-notice.html">Spain (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="sv_se" href="http://www.intel.se/content/www/se/sv/privacy/intel-privacy-notice.html">Sweden (Svenska)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="tr_tr" href="http://www.intel.com.tr/content/www/tr/tr/privacy/intel-privacy-notice.html">Turkey (Türkçe)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="uk_ua" href="http://www.intel.ua/content/www/ua/uk/privacy/intel-privacy-notice.html">Ukraine (Українська)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_uk" href="http://www.intel.co.uk/content/www/uk/en/privacy/intel-privacy-notice.html">United Kingdom (English)</a></li>
-                                            
-
-                                        </ul>
-                                    </div>
-                                
-                            
-                                
-
-                                    <div class="col-xs-3">
-                                        <ul>
-                                            <li><h4>Latin America</h4></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Argentina (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Bolivia (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="pt_br" href="http://www.intel.com.br/content/www/br/pt/privacy/intel-privacy-notice.html">Brazil (Português)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Chile (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Colombia (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Costa Rica (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Latin America (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Mexico (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Peru (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Uruguay (Español)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html">Venezuela (Español)</a></li>
-                                            
-
-                                        </ul>
-                                    </div>
-                                
-                            
-                                
-
-                                    <div class="col-xs-3">
-                                        <ul>
-                                            <li><h4>Middle East/Africa</h4></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xr" href="http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html">Egypt (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="ar_xr" href="http://www.intel.com/content/www/xr/ar/privacy/intel-privacy-notice.html">Middle East (اللغة العربية)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xr" href="http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html">Middle East (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="ar_xr" href="http://www.intel.com/content/www/xr/ar/privacy/intel-privacy-notice.html">Saudi Arabia (اللغة العربية)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xr" href="http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html">Saudi Arabia (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_za" href="http://www.intel.co.za/content/www/za/en/privacy/intel-privacy-notice.html">South Africa (English)</a></li>
-                                            
-                                                <li class="lang-option"><a data-locale="en_xr" href="http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html">United Arab Emirates (English)</a></li>
-                                            
-
-                                        </ul>
-                                    </div>
-                                
-                            
-                                
-                            
-                        </div>
+    <script type="text/javascript">
+        languageslectorexists = true;
+    </script>
+    <script id="entry-template" type="text/x-handlebars-template">
+        <ul class="dropdown-menu" id="language-accordion">
+            {{#each sections}}
+            <li>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4 class="accordion-toggle {{#if @first}}expanded{{/if}}" data-toggle="collapse"
+                            data-parent="#language-accordion"
+                            data-target="{{#if @first}}#header-translations{{/if}}{{#unless @first}}#home-redirects{{/unless}}">
+                            {{{title}}}</h4>
                     </div>
-                
-            
-
-        </li>
-
-        <li>
-            
-                
-                
-                
-                    
-                    
-                
-            <div class="row">
-                <div class="col-xs-12">
-                    <h4 class="accordion-toggle" data-toggle="collapse" data-parent="#language-accordion" data-target="#home-redirects">Go to your Country or Location's Homepage</h4>
-
+                    <div id="{{#if @first}}header-translations{{/if}}{{#unless @first}}home-redirects{{/unless}}"
+                         class="accordion-panel {{#if @first}}in{{/if}}{{#unless @first}}collapse{{/unless}}">
+                        {{#each locale}}
+                        {{#if languageList}}
+                        <div class="col-xs-3">
+                            <ul>
+                                <li><h4>{{{countryName}}}</h4></li>
+                                {{#each languageList}}
+                                <li class="lang-option"><a data-locale="{{{language}}}_{{{locale}}}" href={{{link}}}>{{{label}}}</a>
+                                </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        {{/if}}
+                        {{/each}}
+                    </div>
                 </div>
+            </li>
+            {{/each}}
+        </ul>
+    </script>
 
-                <div id="home-redirects" class="accordion-panel collapse">
-                    
-                        <div class="col-xs-3">
-                            <ul>
-                                <li><h4>Asia Pacific</h4></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_xa" href="http://www.intel.com/content/www/xa/en/homepage.html">Asia Pacific (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_au" href="http://www.intel.com.au/content/www/au/en/homepage.html">Australia (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="zh_cn" href="http://www.intel.cn/content/www/cn/zh/homepage.html">China (简体中文)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_hk" href="http://www.intel.hk/content/www/hk/en/homepage.html">Hong Kong (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_in" href="http://www.intel.in/content/www/in/en/homepage.html">India (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="id_id" href="http://www.intel.co.id/content/www/id/id/homepage.html">Indonesia (Bahasa Indonesia)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ja_jp" href="http://www.intel.co.jp/content/www/jp/ja/homepage.html">Japan (日本語)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ko_kr" href="http://www.intel.co.kr/content/www/kr/ko/homepage.html">Korea (한국어)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_my" href="http://www.intel.my/content/www/my/en/homepage.html">Malaysia (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_nz" href="http://www.intel.co.nz/content/www/nz/en/homepage.html">New Zealand (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_pk" href="http://www.intel.pk/content/www/pk/en/homepage.html">Pakistan (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ph" href="http://www.intel.ph/content/www/ph/en/homepage.html">Philippines (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_xa" href="http://www.intel.com/content/www/xa/en/homepage.html">Singapore (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="zh_tw" href="http://www.intel.com.tw/content/www/tw/zh/homepage.html">Taiwan (繁體中文)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="th_th" href="http://thailand.intel.com/content/www/th/th/homepage.html">Thailand (ไทย)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="vi_vn" href="http://www.intel.vn/content/www/vn/vi/homepage.html">Vietnam (Tiếng Việt)</a></li>
-                                
-                            </ul>
-                        </div>
-                    
-                        <div class="col-xs-3">
-                            <ul>
-                                <li><h4>Europe</h4></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_eu" href="http://www.intel.eu/content/www/eu/en/homepage.html">Europe (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="fr_fr" href="http://www.intel.fr/content/www/fr/fr/homepage.html">France (Français)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="de_de" href="http://www.intel.de/content/www/de/de/homepage.html">Germany (Deutsch)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ie" href="http://www.intel.ie/content/www/ie/en/homepage.html">Ireland (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="it_it" href="http://www.intel.it/content/www/it/it/homepage.html">Italy (Italiano)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="nl_nl" href="http://www.intel.nl/content/www/nl/nl/homepage.html">Netherlands (Nederlands)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="pl_pl" href="http://www.intel.pl/content/www/pl/pl/homepage.html">Poland (Polski)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ru_ru" href="http://www.intel.ru/content/www/ru/ru/homepage.html">Russia (Русский)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_es" href="http://www.intel.es/content/www/es/es/homepage.html">Spain (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="sv_se" href="http://www.intel.se/content/www/se/sv/homepage.html">Sweden (Svenska)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="de_ch" href="http://www.intel.ch/content/www/ch/de/homepage.html">Switzerland (Deutsch)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="tr_tr" href="http://www.intel.com.tr/content/www/tr/tr/homepage.html">Turkey (Türkçe)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="uk_ua" href="http://www.intel.ua/content/www/ua/uk/homepage.html">Ukraine (Українська)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_uk" href="http://www.intel.co.uk/content/www/uk/en/homepage.html">United Kingdom (English)</a></li>
-                                
-                            </ul>
-                        </div>
-                    
-                        <div class="col-xs-3">
-                            <ul>
-                                <li><h4>Latin America</h4></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Argentina (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Bolivia (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="pt_br" href="http://www.intel.com.br/content/www/br/pt/homepage.html">Brazil (Português)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Chile (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Colombia (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Costa Rica (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Latin America (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Mexico (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Peru (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Uruguay (Español)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="es_xl" href="http://www.intel.la/content/www/xl/es/homepage.html">Venezuela (Español)</a></li>
-                                
-                            </ul>
-                        </div>
-                    
-                        <div class="col-xs-3">
-                            <ul>
-                                <li><h4>Middle East/Africa</h4></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_dz" href="http://www.intel.dz/content/www/dz/ar/homepage.html">Algeria (اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="fr_dz" href="http://www.intel.dz/content/www/dz/fr/homepage.html">Algeria (Français)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_eg" href="http://www.intel.eg/content/www/eg/ar/homepage.html">Egypt (اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_eg" href="http://www.intel.eg/content/www/eg/en/homepage.html">Egypt (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="he_il" href="http://www.intel.co.il/content/www/il/he/homepage.html">Israel (עברית)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ke" href="http://www.kenya.intel.com/content/www/ke/en/homepage.html">Kenya (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_xr" href="http://www.intel.com/content/www/xr/ar/homepage.html">Middle East (اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_xr" href="http://www.intel.com/content/www/xr/en/homepage.html">Middle East (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_ma" href="http://www.intel.ma/content/www/ma/ar/homepage.html">Morocco (اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="fr_ma" href="http://www.intel.ma/content/www/ma/fr/homepage.html">Morocco (Français)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ng" href="http://www.intel.ng/content/www/ng/en/homepage.html">Nigeria (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_sa" href="http://www.intel.sa/content/www/sa/ar/homepage.html">Saudi Arabia (اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_sa" href="http://www.intel.sa/content/www/sa/en/homepage.html">Saudi Arabia (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_za" href="http://www.intel.co.za/content/www/za/en/homepage.html">South Africa (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="ar_ae" href="http://www.intel.co.ae/content/www/ae/ar/homepage.html">United Arab Emirates<br/>(اللغة العربية)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ae" href="http://www.intel.co.ae/content/www/ae/en/homepage.html">United Arab Emirates (English)</a></li>
-                                
-                            </ul>
-                        </div>
-                    
-                        <div class="col-xs-3">
-                            <ul>
-                                <li><h4><br>North America</h4></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_us" href="http://www.intel.com/content/www/us/en/homepage.html">United States (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="en_ca" href="http://www.intel.ca/content/www/ca/en/homepage.html">Canada (English)</a></li>
-                                
-                                    <li class="lang-option"><a data-locale="fr_ca" href="http://www.intel.ca/content/www/ca/fr/homepage.html">Canada (Français)</a></li>
-                                
-                            </ul>
-                        </div>
-                    
-                </div>
+    <script id="drawer-2-generate" type="text/x-handlebars-template">
+        <ul id="drawer-2-locale">
+            {{#with mobileHomepageTitle}}
+            <li>
+                <h4>{{{this}}}</h4>
+            </li>
+            {{/with}}
 
+            {{#with mobileSelectTitle}}
+            <li>
+                <a class="drawer-link drawer-3-link" id="drawer-2-locale-homepage" href="#drawer-3-locale-homepage">{{{this}}}</a>
+            </li>
+            {{/with}}
 
+            {{#with mobileAvailableTitle}}
+            <li>
+                <h4>{{{this}}}</h4>
+            </li>
+            {{/with}}
 
-                
-        </li>
-    </ul>
+            {{#each list}}
+            <li>
+                <a class="external-link" data-locale="{{{language}}}_{{{locale}}}" href={{{link}}}>{{{label}}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </script>
+
+    <script id="drawer-3-generate" type="text/x-handlebars-template">
+        <ul id="drawer-3-locale-homepage">
+            {{#each this}}
+            <li>
+                <h4>{{{countryName}}}</h4>
+            </li>
+            {{#each languageList}}
+            <li>
+                <a class="external-link" data-locale="{{{language}}}_{{{locale}}}" href={{{link}}}>{{{label}}}</a>
+            </li>
+            {{/each}}
+            {{/each}}
+        </ul>
+    </script>
+
+    <script type="text/javascript">
+        var langSelectData = {
+  "alsoAvail" : true,
+  "mobileHomepageTitle" : "Find your Country's Homepage",
+  "mobileSelectTitle" : "Select a Country",
+  "mobileAvailableTitle" : "Page Available In",
+  "sections" : [ {
+    "title" : "This page is also available in",
+    "locale" : [ {
+      "countryName" : "Asia Pacific",
+      "languageList" : [ {
+        "link" : "http://www.intel.sg/content/www/xa/en/privacy/intel-privacy-notice.html",
+        "label" : "Asia Pacific (English)",
+        "locale" : "xa",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com.au/content/www/au/en/privacy/intel-privacy-notice.html",
+        "label" : "Australia (English)",
+        "locale" : "au",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.cn/content/www/cn/zh/privacy/intel-privacy-notice.html",
+        "label" : "China (简体中文)",
+        "locale" : "cn",
+        "language" : "zh"
+      }, {
+        "link" : "http://www.intel.in/content/www/in/en/privacy/intel-privacy-notice.html",
+        "label" : "India (English)",
+        "locale" : "in",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.id/content/www/id/id/privacy/intel-privacy-notice.html",
+        "label" : "Indonesia (Bahasa Indonesia)",
+        "locale" : "id",
+        "language" : "id"
+      }, {
+        "link" : "http://www.intel.co.jp/content/www/jp/ja/privacy/intel-privacy-notice.html",
+        "label" : "Japan (日本語)",
+        "locale" : "jp",
+        "language" : "ja"
+      }, {
+        "link" : "http://www.intel.co.kr/content/www/kr/ko/privacy/intel-privacy-notice.html",
+        "label" : "Korea (한국어)",
+        "locale" : "kr",
+        "language" : "ko"
+      }, {
+        "link" : "http://www.intel.my/content/www/my/en/privacy/intel-privacy-notice.html",
+        "label" : "Malaysia (English)",
+        "locale" : "my",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.ph/content/www/ph/en/privacy/intel-privacy-notice.html",
+        "label" : "Philippines (English)",
+        "locale" : "ph",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.sg/content/www/xa/en/privacy/intel-privacy-notice.html",
+        "label" : "Singapore (English)",
+        "locale" : "xa",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com.tw/content/www/tw/zh/privacy/intel-privacy-notice.html",
+        "label" : "Taiwan (繁體中文)",
+        "locale" : "tw",
+        "language" : "zh"
+      }, {
+        "link" : "http://thailand.intel.com/content/www/th/th/privacy/intel-privacy-notice.html",
+        "label" : "Thailand (ไทย)",
+        "locale" : "th",
+        "language" : "th"
+      }, {
+        "link" : "http://www.intel.vn/content/www/vn/vi/privacy/intel-privacy-notice.html",
+        "label" : "Vietnam (Tiếng Việt)",
+        "locale" : "vn",
+        "language" : "vi"
+      } ]
+    }, {
+      "countryName" : "Europe",
+      "languageList" : [ {
+        "link" : "http://www.intel.eu/content/www/eu/en/privacy/intel-privacy-notice.html",
+        "label" : "Europe (English)",
+        "locale" : "eu",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.fr/content/www/fr/fr/privacy/intel-privacy-notice.html",
+        "label" : "France (Français)",
+        "locale" : "fr",
+        "language" : "fr"
+      }, {
+        "link" : "http://www.intel.de/content/www/de/de/privacy/intel-privacy-notice.html",
+        "label" : "Germany (Deutsch)",
+        "locale" : "de",
+        "language" : "de"
+      }, {
+        "link" : "http://www.intel.ie/content/www/ie/en/privacy/intel-privacy-notice.html",
+        "label" : "Ireland (English)",
+        "locale" : "ie",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.it/content/www/it/it/privacy/intel-privacy-notice.html",
+        "label" : "Italy (Italiano)",
+        "locale" : "it",
+        "language" : "it"
+      }, {
+        "link" : "http://www.intel.nl/content/www/nl/nl/privacy/intel-privacy-notice.html",
+        "label" : "Netherlands (Nederlands)",
+        "locale" : "nl",
+        "language" : "nl"
+      }, {
+        "link" : "http://www.intel.pl/content/www/pl/pl/privacy/intel-privacy-notice.html",
+        "label" : "Poland (Polski)",
+        "locale" : "pl",
+        "language" : "pl"
+      }, {
+        "link" : "http://www.intel.ru/content/www/ru/ru/privacy/intel-privacy-notice.html",
+        "label" : "Russia (Русский)",
+        "locale" : "ru",
+        "language" : "ru"
+      }, {
+        "link" : "http://www.intel.es/content/www/es/es/privacy/intel-privacy-notice.html",
+        "label" : "Spain (Español)",
+        "locale" : "es",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.se/content/www/se/sv/privacy/intel-privacy-notice.html",
+        "label" : "Sweden (Svenska)",
+        "locale" : "se",
+        "language" : "sv"
+      }, {
+        "link" : "http://www.intel.com.tr/content/www/tr/tr/privacy/intel-privacy-notice.html",
+        "label" : "Turkey (Türkçe)",
+        "locale" : "tr",
+        "language" : "tr"
+      }, {
+        "link" : "http://www.intel.ua/content/www/ua/uk/privacy/intel-privacy-notice.html",
+        "label" : "Ukraine (Українська)",
+        "locale" : "ua",
+        "language" : "uk"
+      }, {
+        "link" : "http://www.intel.co.uk/content/www/uk/en/privacy/intel-privacy-notice.html",
+        "label" : "United Kingdom (English)",
+        "locale" : "uk",
+        "language" : "en"
+      } ]
+    }, {
+      "countryName" : "Latin America",
+      "languageList" : [ {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Argentina (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Bolivia (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.com.br/content/www/br/pt/privacy/intel-privacy-notice.html",
+        "label" : "Brazil (Português)",
+        "locale" : "br",
+        "language" : "pt"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Chile (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Colombia (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Costa Rica (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Latin America (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Mexico (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Peru (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Uruguay (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/privacy/intel-privacy-notice.html",
+        "label" : "Venezuela (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      } ]
+    }, {
+      "countryName" : "Middle East/Africa",
+      "languageList" : [ {
+        "link" : "http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html",
+        "label" : "Egypt (English)",
+        "locale" : "xr",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/ar/privacy/intel-privacy-notice.html",
+        "label" : "Middle East (اللغة العربية)",
+        "locale" : "xr",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html",
+        "label" : "Middle East (English)",
+        "locale" : "xr",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/ar/privacy/intel-privacy-notice.html",
+        "label" : "Saudi Arabia (اللغة العربية)",
+        "locale" : "xr",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html",
+        "label" : "Saudi Arabia (English)",
+        "locale" : "xr",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.za/content/www/za/en/privacy/intel-privacy-notice.html",
+        "label" : "South Africa (English)",
+        "locale" : "za",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/en/privacy/intel-privacy-notice.html",
+        "label" : "United Arab Emirates (English)",
+        "locale" : "xr",
+        "language" : "en"
+      } ]
+    }, {
+      "countryName" : "North America",
+      "languageList" : [ ]
+    } ]
+  }, {
+    "title" : "Go to your Country's Homepage",
+    "locale" : [ {
+      "countryName" : "Asia Pacific",
+      "languageList" : [ {
+        "link" : "http://www.intel.com/content/www/xa/en/homepage.html",
+        "label" : "Asia Pacific (English)",
+        "locale" : "xa",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com.au/content/www/au/en/homepage.html",
+        "label" : "Australia (English)",
+        "locale" : "au",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.cn/content/www/cn/zh/homepage.html",
+        "label" : "China (简体中文)",
+        "locale" : "cn",
+        "language" : "zh"
+      }, {
+        "link" : "http://www.intel.hk/content/www/hk/en/homepage.html",
+        "label" : "Hong Kong (English)",
+        "locale" : "hk",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.in/content/www/in/en/homepage.html",
+        "label" : "India (English)",
+        "locale" : "in",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.id/content/www/id/id/homepage.html",
+        "label" : "Indonesia (Bahasa Indonesia)",
+        "locale" : "id",
+        "language" : "id"
+      }, {
+        "link" : "http://www.intel.co.jp/content/www/jp/ja/homepage.html",
+        "label" : "Japan (日本語)",
+        "locale" : "jp",
+        "language" : "ja"
+      }, {
+        "link" : "http://www.intel.co.kr/content/www/kr/ko/homepage.html",
+        "label" : "Korea (한국어)",
+        "locale" : "kr",
+        "language" : "ko"
+      }, {
+        "link" : "http://www.intel.my/content/www/my/en/homepage.html",
+        "label" : "Malaysia (English)",
+        "locale" : "my",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.nz/content/www/nz/en/homepage.html",
+        "label" : "New Zealand (English)",
+        "locale" : "nz",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.pk/content/www/pk/en/homepage.html",
+        "label" : "Pakistan (English)",
+        "locale" : "pk",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.ph/content/www/ph/en/homepage.html",
+        "label" : "Philippines (English)",
+        "locale" : "ph",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com/content/www/xa/en/homepage.html",
+        "label" : "Singapore (English)",
+        "locale" : "xa",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com.tw/content/www/tw/zh/homepage.html",
+        "label" : "Taiwan (繁體中文)",
+        "locale" : "tw",
+        "language" : "zh"
+      }, {
+        "link" : "http://www.thailand.intel.com/content/www/th/th/homepage.html",
+        "label" : "Thailand (ไทย)",
+        "locale" : "th",
+        "language" : "th"
+      }, {
+        "link" : "http://www.intel.vn/content/www/vn/vi/homepage.html",
+        "label" : "Vietnam (Tiếng Việt)",
+        "locale" : "vn",
+        "language" : "vi"
+      } ]
+    }, {
+      "countryName" : "Europe",
+      "languageList" : [ {
+        "link" : "http://www.intel.eu/content/www/eu/en/homepage.html",
+        "label" : "Europe (English)",
+        "locale" : "eu",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.fr/content/www/fr/fr/homepage.html",
+        "label" : "France (Français)",
+        "locale" : "fr",
+        "language" : "fr"
+      }, {
+        "link" : "http://www.intel.de/content/www/de/de/homepage.html",
+        "label" : "Germany (Deutsch)",
+        "locale" : "de",
+        "language" : "de"
+      }, {
+        "link" : "http://www.intel.ie/content/www/ie/en/homepage.html",
+        "label" : "Ireland (English)",
+        "locale" : "ie",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.it/content/www/it/it/homepage.html",
+        "label" : "Italy (Italiano)",
+        "locale" : "it",
+        "language" : "it"
+      }, {
+        "link" : "http://www.intel.nl/content/www/nl/nl/homepage.html",
+        "label" : "Netherlands (Nederlands)",
+        "locale" : "nl",
+        "language" : "nl"
+      }, {
+        "link" : "http://www.intel.pl/content/www/pl/pl/homepage.html",
+        "label" : "Poland (Polski)",
+        "locale" : "pl",
+        "language" : "pl"
+      }, {
+        "link" : "http://www.intel.ru/content/www/ru/ru/homepage.html",
+        "label" : "Russia (Русский)",
+        "locale" : "ru",
+        "language" : "ru"
+      }, {
+        "link" : "http://www.intel.es/content/www/es/es/homepage.html",
+        "label" : "Spain (Español)",
+        "locale" : "es",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.se/content/www/se/sv/homepage.html",
+        "label" : "Sweden (Svenska)",
+        "locale" : "se",
+        "language" : "sv"
+      }, {
+        "link" : "http://www.intel.ch/content/www/ch/de/homepage.html ",
+        "label" : "Switzerland (Deutsch)",
+        "locale" : "ch",
+        "language" : "de"
+      }, {
+        "link" : "http://www.intel.com.tr/content/www/tr/tr/homepage.html",
+        "label" : "Turkey (Türkçe)",
+        "locale" : "tr",
+        "language" : "tr"
+      }, {
+        "link" : "http://www.intel.ua/content/www/ua/uk/homepage.html",
+        "label" : "Ukraine (Українська)",
+        "locale" : "ua",
+        "language" : "uk"
+      }, {
+        "link" : "http://www.intel.co.uk/content/www/uk/en/homepage.html",
+        "label" : "United Kingdom (English)",
+        "locale" : "uk",
+        "language" : "en"
+      } ]
+    }, {
+      "countryName" : "Latin America",
+      "languageList" : [ {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Argentina (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Bolivia (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.com.br/content/www/br/pt/homepage.html",
+        "label" : "Brazil (Português)",
+        "locale" : "br",
+        "language" : "pt"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Chile (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Colombia (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Costa Rica (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Latin America (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Mexico (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Peru (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Uruguay (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      }, {
+        "link" : "http://www.intel.la/content/www/xl/es/homepage.html",
+        "label" : "Venezuela (Español)",
+        "locale" : "xl",
+        "language" : "es"
+      } ]
+    }, {
+      "countryName" : "Middle East/Africa",
+      "languageList" : [ {
+        "link" : "http://www.intel.dz/content/www/dz/ar/homepage.html",
+        "label" : "Algeria (اللغة العربية)",
+        "locale" : "dz",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.dz/content/www/dz/fr/homepage.html",
+        "label" : "Algeria (Français)",
+        "locale" : "dz",
+        "language" : "fr"
+      }, {
+        "link" : "http://www.intel.eg/content/www/eg/ar/homepage.html",
+        "label" : "Egypt (اللغة العربية)",
+        "locale" : "eg",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.eg/content/www/eg/en/homepage.html",
+        "label" : "Egypt (English)",
+        "locale" : "eg",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.il/content/www/il/he/homepage.html",
+        "label" : "Israel (עברית)",
+        "locale" : "il",
+        "language" : "he"
+      }, {
+        "link" : "http://www.kenya.intel.com/content/www/ke/en/homepage.html",
+        "label" : "Kenya (English)",
+        "locale" : "ke",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/ar/homepage.html",
+        "label" : "Middle East (اللغة العربية)",
+        "locale" : "xr",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.com/content/www/xr/en/homepage.html",
+        "label" : "Middle East (English)",
+        "locale" : "xr",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.ma/content/www/ma/ar/homepage.html",
+        "label" : "Morocco (اللغة العربية)",
+        "locale" : "ma",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.ma/content/www/ma/fr/homepage.html",
+        "label" : "Morocco (Français)",
+        "locale" : "ma",
+        "language" : "fr"
+      }, {
+        "link" : "http://www.intel.ng/content/www/ng/en/homepage.html",
+        "label" : "Nigeria (English)",
+        "locale" : "ng",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.sa/content/www/sa/ar/homepage.html",
+        "label" : "Saudi Arabia (اللغة العربية)",
+        "locale" : "sa",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.sa/content/www/sa/en/homepage.html",
+        "label" : "Saudi Arabia (English)",
+        "locale" : "sa",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.za/content/www/za/en/homepage.html",
+        "label" : "South Africa (English)",
+        "locale" : "za",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.co.ae/content/www/ae/ar/homepage.html",
+        "label" : "United Arab Emirates<br/>(اللغة العربية)",
+        "locale" : "ae",
+        "language" : "ar"
+      }, {
+        "link" : "http://www.intel.co.ae/content/www/ae/en/homepage.html",
+        "label" : "United Arab Emirates (English)",
+        "locale" : "ae",
+        "language" : "en"
+      } ]
+    }, {
+      "countryName" : "North America",
+      "languageList" : [ {
+        "link" : "http://www.intel.com/content/www/us/en/homepage.html",
+        "label" : "United States (English)",
+        "locale" : "us",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.ca/content/www/ca/en/homepage.html",
+        "label" : "Canada (English)",
+        "locale" : "ca",
+        "language" : "en"
+      }, {
+        "link" : "http://www.intel.ca/content/www/ca/fr/homepage.html",
+        "label" : "Canada (Français)",
+        "locale" : "ca",
+        "language" : "fr"
+      } ]
+    } ]
+  } ]
+};
+        intel.generateGLS.initialize(langSelectData);
+
+    </script>
 
 
 
