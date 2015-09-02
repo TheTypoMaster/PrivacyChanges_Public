@@ -113,7 +113,7 @@
   PageCriteria.latitude = "39.0438";
   PageCriteria.longitude = "-77.4879";
   PageCriteria.geo = "US" || PageCriteria.geo;
-  PageCriteria.timestamp = 1441154352;
+  PageCriteria.timestamp = 1441159832;
   // device characteristics
   PageCriteria.isMobile = "is_mobilefalse";
   PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
@@ -334,7 +334,7 @@ var adType='dart',
 	    updatedDate: new Date(1380285502000),
             authorName: '',
             errorUrl: '',
-            serverDate: new Date(1441154044439),
+            serverDate: new Date(1441159217253),
             url: 'D=g',
             referringSubDomain: refererHost,
             inlineLinks: '',
@@ -428,9 +428,9 @@ PageCriteria.device = 'other';
 adverts.initEmergencyRules();
 if (adverts.setSupportedSlots) adverts.setSupportedSlots(["adx_page_skins","adx_tracking","banner_top","billboard","fff","native_fff_accessorise","halfsky_left_bottom","halfsky_left_middle","halfsky_left_top","halfsky_right_bottom","halfsky_right_middle","halfsky_right_top","inread_player","interstitial","ldr_top","puff_ad_1","puff_ad_2","puff_ad_3","mpu_bottom_zero","mpu_bottom_right_zero","mpu_middle_zero","mpu_top_zero","mpu_bottom_300x600","mpu_bottom_right_300x600","mpu_middle_300x600","mpu_top_300x600","mpu_bottom","mpu_bottom_right","mpu_middle","mpu_puff_10","mpu_puff_20","mpu_puff_30","mpu_top","mpu_mobile","mpu_mobile_top","mpu_mobile_bottom","native_channel","native_puff","native_mpu","native_related","network_banner","search_engine_sky","sky_left_top","sky_right_top","sticky_banner","video_carousel"]);
 
-adverts.botIPs={"0":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"],"1":["95.172.74.42|*","151.237.238.126|*","109.169.6.135|*","206.225.132.111|*","192.35.35.40|*","164.151.129.211|*","192.31.106.40|*","108.171.133.176|*","146.23.209.228|*","168.167.134.101|*","196.35.246.194|*","139.139.19.68|*","194.138.39.62|*","54.206.182.240|*","86.28.18.1|*","145.62.32.129|*","94.118.0.8|*","168.168.43.250|*"]};
+adverts.botIPs={"2":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"],"3":["54.206.182.240|*","206.225.132.111|*","109.169.6.135|*","108.171.133.176|*","164.151.129.211|*","95.172.74.42|*","146.23.209.228|*","168.167.134.101|*","145.62.32.129|*","139.139.19.68|*","196.35.246.194|*","151.237.238.126|*","94.118.0.8|*","194.138.39.62|*","192.31.106.40|*","192.35.35.40|*","86.28.18.1|*","168.168.43.250|*"]};
 
-adverts.initSlots({"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
+adverts.initSlots({"halfsky_right_top":{"state":"on","enabled":true,"inConflict":false},"sky_right_top":{"state":"off","enabled":false,"inConflict":false},"mpu_puff_20":{"state":"off","enabled":false,"inConflict":false},"sky_left_top":{"state":"off","enabled":false,"inConflict":false},"interstitial":{"state":"off","enabled":false,"inConflict":false},"ldr_top":{"state":"on","enabled":true,"inConflict":false},"inread_player":{"state":"on","enabled":true,"startTime":"1434495600000","endTime":"0","inConflict":false},"fff":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"mpu_mobile_bottom":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"native_related":{"state":"on","enabled":true,"startTime":"0","endTime":"0","inConflict":false},"search_engine_sky":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"native_channel":{"state":"on","enabled":true,"startTime":"1415008800000","endTime":"0","inConflict":false},"halfsky_right_middle":{"state":"on","enabled":true,"inConflict":false},"native_puff":{"state":"off","enabled":false,"startTime":"0","endTime":"0","inConflict":false},"adx_page_skins":{"state":"off","enabled":false,"inConflict":false},"adx_tracking":{"state":"off","enabled":false,"inConflict":false},"native_fff_accessorise":{"state":"off","enabled":false,"inConflict":false},"sticky_banner":{"state":"off","enabled":false,"inConflict":false},"network_banner":{"state":"off","enabled":false,"inConflict":false},"banner_top":{"state":"off","enabled":false,"inConflict":false},"billboard":{"state":"off","enabled":false,"inConflict":false},"puff_ad_1":{"state":"on","enabled":true,"inConflict":false},"puff_ad_2":{"state":"on","enabled":true,"inConflict":false},"puff_ad_3":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile":{"state":"on","enabled":true,"inConflict":false},"mpu_mobile_top":{"state":"on","enabled":true,"inConflict":false},"mpu_top":{"state":"on","enabled":true,"inConflict":false},"mpu_middle":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_10":{"state":"on","enabled":true,"inConflict":false},"mpu_puff_30":{"state":"on","enabled":true,"inConflict":false},"mpu_top_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_300x600":{"state":"on","enabled":true,"inConflict":false},"mpu_top_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_middle_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_zero":{"state":"on","enabled":true,"inConflict":false},"mpu_bottom_right_zero":{"state":"on","enabled":true,"inConflict":false},"halfsky_left_top":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_middle":{"state":"off","enabled":false,"inConflict":false},"halfsky_left_bottom":{"state":"off","enabled":false,"inConflict":false},"halfsky_right_bottom":{"state":"off","enabled":false,"inConflict":false},"video_carousel":{"state":"off","enabled":false,"inConflict":false},"native_mpu":{"state":"off","enabled":false,"inConflict":false}});
 
 var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingConfig.geoConfig||{};adTrackingConfig.geoConfig["default"]=[{"name":"botsPlugin","enabled":true},{"name":"devicePlugin","enabled":true},{"name":"criteoPlugin","enabled":true},{"name":"grapeshotPlugin","enabled":true},{"name":"audienceSciencePlugin","enabled":true},{"name":"audienceMembershipPlugin","enabled":true},{"name":"casaleIndexPlugin","enabled":true},{"name":"mediaDirectPlugin","enabled":true},{"name":"yieldbot","enabled":true},{"name":"openXBidderPlugin","enabled":true},{"name":"pageFairPlugin","enabled":true},{"name":"sonobiPlugin","enabled":true},{"name":"realTimePricingPlugin","enabled":false},{"name":"amazonPlugin","enabled":true},{"name":"forensiqPlugin","enabled":false}];
 
@@ -651,7 +651,7 @@ var adTrackingConfig=adTrackingConfig||{};adTrackingConfig.geoConfig=adTrackingC
 <script type="text/javascript">
     DM.later(['bundle', 'DOM_READY'], function() {
         DM.WeatherTop({
-            weatherDate: '2015090200',
+            weatherDate: '2015090202',
             mapId: '17',
             renderFromOld: '',
             tempScale: ''
@@ -1020,6 +1020,18 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3219046/Strictly-contestant-Helen-George-split-husband-Oliver-Boot-following-three-years-marriage.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE41E4100000578-0-image-a-33_1441151012415.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          It's the Strictly curse! Helen George has split from her husband Oliver Boot following three years of marriage
+          </strong>
+          Call The Midwife star is newly single
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3219034/Kristina-Rihanoff-puts-busty-display-attends-Strictly-photocall.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE42F9100000578-0-image-a-42_1441152334236.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1028,18 +1040,6 @@ DM.later('bundle', function () {
           Kristina Rihanoff puts on a VERY busty display as she attends Strictly photocall in revealing bra top and thigh-split ra-ra skirt
           </strong>
           
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/tvshowbiz/article-3219046/Strictly-contestant-Helen-George-split-husband-Oliver-Boot-following-three-years-marriage.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE41E4100000578-0-image-a-33_1441151012415.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Strictly contestant Helen George has split from her husband  Oliver Boot following three years of marriage
-          </strong>
-          Call The Midwife star is newly single
         </span>
       </a>
     </li>
@@ -1083,14 +1083,26 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3218562/I-m-little-vain-Kris-Jenner-cancels-TV-appearance-lip-swells-suspected-insect-bite.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1A49700000578-0-image-m-37_1441123643534.jpg" height="115" width="154" alt="image001.jpg" />
+      <a href="/femail/article-3219003/Lady-rouge-Kendall-Jenner-struts-stuff-street-Lady-Marmalade-stunning-new-video-ad-Estee-Lauder.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE41F6F00000578-0-image-a-129_1441152748868.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          'I'm a little too vain!' Kris Jenner cancels TV appearance after her lip swells up from suspected insect bite
+          Lady in rouge: Kendall Jenner struts her stuff on the street to Lady Marmalade in stunning new video ad for Estee Lauder
           </strong>
-          A little too much fly-on-the-wall for Kris
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3219067/Brody-Jenner-not-watch-Caitlyn-Jenner-s-day-proud-her.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE41A1200000578-0-image-m-2_1441151673813.jpg" height="115" width="154" alt="HONOLULU, HI - AUGUST 28:  Celebrity DJ Brody Jenner attends the Grand Opening of SKY Waikiki on August 28, 2015 in Honolulu, Hawaii.  (Photo by Jesse Grant/Getty Images for Sky Waikiki)" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Brody Jenner would not watch Caitlyn Jenner's show every day but is 'beyond proud of her'
+          </strong>
+          Bruce underwent transformation into Caitlyn Jenner
         </span>
       </a>
     </li>
@@ -1119,18 +1131,6 @@ DM.later('bundle', function () {
       </a>
     </li>
     <li>
-      <a href="/tvshowbiz/article-3218634/Shirtless-David-Beckham-shares-sweet-image-Romeo-13th-birthday.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1E03D00000578-0-image-m-13_1441126708580.jpg" height="115" width="154" alt="image001.png" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          'Happy birthday beautiful boy': Shirtless David Beckham shares sweet image of himself kissing son Romeo as he turns 13
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/femail/article-3203985/Carrots-carved-flowers-Princess-hair-pasta-lunch-box-resembling-BASEBALL-pitch-hilariously-inventive-packed-lunches-ever.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/08/24/15/2BA02C8C00000578-0-image-m-11_1440426384149.jpg" height="115" width="154" alt="Eats Amazing - Garden Bug Themed Lunch.jpg" />
         <span class="pufftext">
@@ -1139,6 +1139,42 @@ DM.later('bundle', function () {
           Carrots carved into flowers, princess hair made from pasta and a lunch box resembling a BASEBALL pitch: The most inventive packed lunches ever
           </strong>
           <b>SPONSORED</b>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3218090/Where-stars-Baywatch-Life-hasn-t-beach-s-pin-cast-three-decades-hanging-famous-red-swimsuits.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/15/2BE08EEA00000578-0-image-a-79_1441119073539.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          Where are stars of Baywatch now? Life hasn't been a beach for show's pin-up cast... three decades after hanging up their famous red swimsuits
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218562/I-m-little-vain-Kris-Jenner-cancels-TV-appearance-lip-swells-suspected-insect-bite.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1A49700000578-0-image-m-37_1441123643534.jpg" height="115" width="154" alt="image001.jpg" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'I'm a little too vain!' Kris Jenner cancels TV appearance after her lip swells up from suspected insect bite
+          </strong>
+          A little too much fly-on-the-wall for Kris
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/tvshowbiz/article-3218634/Shirtless-David-Beckham-shares-sweet-image-Romeo-13th-birthday.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/17/2BE1E03D00000578-0-image-m-13_1441126708580.jpg" height="115" width="154" alt="image001.png" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          'Happy birthday beautiful boy': Shirtless David Beckham shares sweet image of himself kissing son Romeo as he turns 13
+          </strong>
+          
         </span>
       </a>
     </li>
@@ -1153,6 +1189,9 @@ DM.later('bundle', function () {
           
         </span>
       </a>
+    </li>
+    <li class="puff-ad" id="mpu_puff_20">
+      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3218448/Ricky-Rayment-furiously-denies-Marnie-Simpson-cheated-dismisses-split-claims.html">
@@ -1193,9 +1232,6 @@ Please byline: Vantagenews.co.uk" />
           Sartorially in sync
         </span>
       </a>
-    </li>
-    <li class="puff-ad" id="mpu_puff_20">
-      <script type="text/javascript">adverts.addToArray({id: 'mpu_puff_20', type: '300x250',pos:'mpu_puff_20'});</script>
     </li>
     <li>
       <a href="/tvshowbiz/article-3218191/Holly-Willoughby-slips-naturally-work-mode-chic-white-shirt-figure-hugging-skirt-makes-triumphant-return-Morning.html">
@@ -1376,18 +1412,6 @@ The magazine will feature an expansive portfolio of celebrity self-portraits, fo
       </a>
     </li>
     <li>
-      <a href="/femail/article-3218090/Where-stars-Baywatch-Life-hasn-t-beach-s-pin-cast-three-decades-hanging-famous-red-swimsuits.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/15/2BE08EEA00000578-0-image-a-79_1441119073539.jpg" height="115" width="154" alt="" />
-        <span class="pufftext">
-          <span class="arrow-small-r"></span>
-          <strong>
-          Where are stars of Baywatch now? Life hasn't been a beach for show's pin-up cast... three decades after hanging up their famous red swimsuits
-          </strong>
-          
-        </span>
-      </a>
-    </li>
-    <li>
       <a href="/tvshowbiz/article-3219052/Sandra-Bullock-new-man-Bryan-Randall-dating-months-star-introducing-beau-friends-July-4-party-held-Austin-Texas.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE437B000000578-0-image-m-11_1441153714855.jpg" height="115" width="154" alt="LOS ANGELES, CA - JUNE 16:  Actress Sandra Bullock arrives at Women In Film 2015 Crystal + Lucy Awards at the Hyatt Regency Century Plaza on June 16, 2015 in Los Angeles, California.  (Photo by Jon Kopaloff/FilmMagic)" />
         <span class="pufftext">
@@ -1439,6 +1463,18 @@ Matt Cardle" />
       </a>
     </li>
     <li>
+      <a href="/tvshowbiz/article-3219059/The-Hairy-Bikers-elegantly-coiffed-motorcyclists-CHRISTOPHER-STEVENS-night-s-TV.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/00/2BE23AA800000578-0-image-m-52_1441151483365.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The Hairy Bikers are back... as elegantly coiffed motorcyclists: CHRISTOPHER STEVENS on last night's TV
+          </strong>
+          They're washed and blow-waved
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/femail/food/article-3218201/X-Men-s-Michael-Fassbender-play-Marco-Pierre-White-Ridley-Scott-s-biopic-legendary-three-Michelin-starred-chef.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/12/2BDFCA5D00000578-0-image-a-31_1441108719535.jpg" height="115" width="154" alt="" />
         <span class="pufftext">
@@ -1475,7 +1511,7 @@ BYLINE MUST READ:  XPOSUREPHOTOS.COM
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
-          Breaking the rules: Diane Kruger rocks triple black-and-white prints as she arrives for Venice Film Festival
+          Diane Kruger flashes her cleavage in sheer floral top as she rocks triple black-and-white prints ahead of Venice Film Festival
           </strong>
           
         </span>
@@ -1483,7 +1519,7 @@ BYLINE MUST READ:  XPOSUREPHOTOS.COM
     </li>
     <li>
       <a href="/tvshowbiz/article-3218776/She-Pitch-Perfect-Elizabeth-Banks-looks-stylish-printed-jumpsuit-arrives-Venice-Film-Festival.html">
-        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/20/2BE1ECDE00000578-0-image-m-10_1441134966340.jpg" height="115" width="154" alt="VENICE, ITALY - SEPTEMBER 01:  Elizabeth Banks is seen arriving at Venice Airport during The 72nd Venice Film Festival on September 1, 2015 in Venice, Italy.  (Photo by Jacopo Raule/GC Images)" />
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/02/01/2BE272C800000578-0-image-m-3_1441154444592.jpg" height="115" width="154" alt="VENICE, ITALY - SEPTEMBER 01:  Elizabeth Banks is seen arriving at Venice Airport during The 72nd Venice Film Festival on September 1, 2015 in Venice, Italy.  (Photo by Jacopo Raule/GC Images)" />
         <span class="pufftext">
           <span class="arrow-small-r"></span>
           <strong>
@@ -1570,6 +1606,18 @@ Credit: WENN.com" />
       </a>
     </li>
     <li>
+      <a href="/news/article-3218959/The-love-Billy-Wright-Joy-Beverly-Beverley-Sisters-recalls-far-innocent-age.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/00C3801900000190-0-image-m-11_1441147931281.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The original Posh &amp; Becks: How the love of footballer Billy Wright and girl band singer Joy Beverly, who has died at 91, recalls a far more innocent age
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
       <a href="/tvshowbiz/article-3218785/Elle-Fanning-wears-trendy-trousers-turtleneck-blouse-promotes-new-film-transgender-teen.html">
         <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/20/2BE27A4A00000578-0-image-m-76_1441136826709.jpg" height="115" width="154" alt="NEW YORK, NY - SEPTEMBER 01:  Elle Fanning visits at SiriusXM Studios on September 1, 2015 in New York City.  (Photo by Rob Kim/Getty Images)" />
         <span class="pufftext">
@@ -1636,6 +1684,18 @@ Credit: WENN.com" />
           <span class="arrow-small-r"></span>
           <strong>
           One Direction will be ending 2015 with a bang after it's revealed they've nabbed SIX Guinness World Records... before going on an indefinite hiatus in 2016
+          </strong>
+          
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/femail/article-3218913/The-Great-British-Bake-s-scrumptious-recipes-Seven-beautiful-breads-simply-try.html">
+        <img src="http://i.dailymail.co.uk/i/pix/2015/09/01/23/2B5C52E800000578-0-image-a-17_1441147527517.jpg" height="115" width="154" alt="" />
+        <span class="pufftext">
+          <span class="arrow-small-r"></span>
+          <strong>
+          The Great British Bake Off's most scrumptious recipes: Seven beautiful breads you simply MUST try&nbsp;
           </strong>
           
         </span>
