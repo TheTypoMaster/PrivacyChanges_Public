@@ -111,15 +111,15 @@
 		
       </div>
   </div>
-	                <div id="daypartbanner" class="current jp countdowntoclose">       
+	                <div id="daypartbanner" class="current uk beforethebell">       
                     <p class="marketstate">
-                        <span class="state">Tokyo Markets Close in:</span>
+                        <span class="state">London Markets Open in:</span>
                         <span id="daypartcountdown" class="time"></span>
                     </p>
                         <p class="links">
+                                    <a href="/column/asia-markets">Asia Markets</a>
                                     <a href="/investing/currencies/tools">Currencies</a>
-                                    <a href="/column/europe-markets">Europe Markets</a>
-                                    <a href="/column/london-markets">London Markets</a>
+                                    <a href="/column/market-snapshot">US Market Snapshot</a>
                         </p>
                 </div>
         </div>
@@ -425,7 +425,7 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">1:12 <span>AM EDT</span></div>
+	<div class="currenttime">2:43 <span>AM EDT</span></div>
 	<div class="currentdate">September 2, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
@@ -441,11 +441,11 @@
 				<div class="marketstatus bgCurrentMarketState">
 	Closed</div>
 			</div>
-			<div class="bgMarketState market open" title="Open">
+			<div class="bgMarketState market" title="Closed">
 				<span class="bgChannel">/marketstate/country/jp</span>
 				<div class="marketlabel">Tokyo</div>
 				<div class="marketstatus bgCurrentMarketState">
-	Open</div>
+	Closed</div>
 			</div>
 		<div class="clear"></div>
 	</div>
@@ -459,7 +459,7 @@
         <span class="bgChannel">/marketstate/country/uk</span>
         <div class="ukDot">&nbsp;</div>
 		</div>
-		<div class="bgMarketState mapstatus open" title="Open">
+		<div class="bgMarketState mapstatus" title="Closed">
         <span class="bgChannel">/marketstate/country/jp</span>
         <div class="jpDot">&nbsp;</div>
 		</div>
@@ -484,6 +484,12 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725222"><span class="timestamp"><span>2:43a</span></span><p><span target="_blank"><a href="/investing/index/ukx?countrycode=uk&amp;link=MW_latest_news" target="_blank">Futures for U.K.&#39;s FTSE 100 rise 0.5% after selloff on Monday </a></span></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725221"><span class="timestamp"><span>2:41a</span></span><p><span target="_blank"><a href="/investing/future/esu5?link=MW_latest_news" target="_blank">S&amp;P 500 futures up 20 points, or 1%, following Monday&#39;s slide </a></span></p></li>
+
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725220"><span class="timestamp"><span>2:40a</span></span><p><span target="_blank"><a href="/investing/future/ymu5?link=MW_latest_news" target="_blank">Dow futures rise 167 points, or 1%, after Monday&#39;s selloff </a></span></p></li>
+
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725219"><span class="timestamp"><span>12:01a</span></span><p><a href="/story/entrepreneurship-study-finds-highest-recorded-levels-2015-09-02?link=MW_latest_news" target="_blank">Entrepreneurship study finds highest recorded levels</a></p></li>
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725218"><span class="timestamp"><span>7:58p</span></span><p><a href="/story/canada-arguably-in-recession-after-2nd-straight-gdp-decline-2015-09-01?link=MW_latest_news" target="_blank">Canada arguably in recession after 2nd straight GDP decline</a></p></li>
@@ -516,13 +522,7 @@
 
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725203"><span class="timestamp"><span>4:54p</span></span><p><a href="/story/att-recommends-shareholders-reject-trc-capitals-3-million-share-mini-tender-offer-2015-09-01?link=MW_latest_news" target="_blank">AT&amp;T recommends shareholders reject TRC Capital&#39;s 3 million share mini-tender offer</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725201"><span class="timestamp"><span>4:50p</span></span><p><a href="/story/oil-prices-drop-after-api-data-show-weekly-jump-in-crude-supplies-2015-09-01?link=MW_latest_news" target="_blank">Oil prices drop after API data show weekly jump in crude supplies</a></p></li>
-
   <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725202"><span class="timestamp"><span>4:48p</span></span><p><a class="" href="http://www.wsj.com/video/cities-with-the-worst-traffic-2015-09-01-161054819/2A0EEC8F-A39E-4536-8023-61F5427925BA.html" target="_blank">Cities With the Worst Traffic</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725200"><span class="timestamp"><span>4:46p</span></span><p><a href="/story/drone-company-aerovironment-drops-up-to-14-after-earnings-miss-2015-09-01?link=MW_latest_news" target="_blank">Drone company AeroVironment drops up to 14% after earnings miss</a></p></li>
-
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725199"><span class="timestamp"><span>4:45p</span></span><p><span target="_blank"><a href="/investing/stock/t?link=MW_latest_news" target="_blank">AT&amp;T recommends shareholders reject TRC Capital&#39;s mini-tender offer</a></span></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -640,7 +640,7 @@
 
 
 			</li>
-			<li class=" invisible">
+			<li class="">
 				<div class="invisible startdate">1352872800000</div>
 				<div class="invisible enddate">1352872800000</div>
 				
@@ -743,7 +743,7 @@ Beijing's incompetence
 
 
 			</li>
-			<li class="">
+			<li class=" invisible">
 				<div class="invisible startdate">1363586400000</div>
 				<div class="invisible enddate">1363586400000</div>
 				
@@ -933,7 +933,7 @@ BlackBerry the takeover target
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Wednesday";
-			            s.eVar32 = "00:00";
+			            s.eVar32 = "01:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1153,7 +1153,7 @@ BlackBerry the takeover target
 	ScrillaZilla.Escort.addClient(
 		ScrillaZilla.Client('#ad_DaypartBannerNewYorkBeforeTheBell', 
 			{
-				ord : 1848543519,
+				ord : 953167755,
 				src : 'http://ad.doubleclick.net/adi/marketwatch.com/sponsor_beforethebell_us;u=NULL**140x31****;sz=140x31;pos=5;tile=5;ord=',
 				width : '140',
 				height : '31',
@@ -1177,7 +1177,7 @@ BlackBerry the takeover target
         
 		MarketWatch.Kiosk.setup("#kiosk",
 		{
-			startIndex: 3,
+			startIndex: 1,
 			autostart: true,
 			refresh: true,
 			adInRotation: false
@@ -1199,25 +1199,25 @@ BlackBerry the takeover target
          MarketWatch.DayParting.setup({
              
                  currentEvent: {  
-                 market: "JP",
-                 display: "Tokyo",
-                 state: DayParts.CountdownToClose,
-                 start: new Date("Wed, 02 Sep 2015 05:00:00 GMT"),
-                 end: new Date("Wed, 02 Sep 2015 06:00:00 GMT")
+                 market: "UK",
+                 display: "London",
+                 state: DayParts.BeforeTheBell,
+                 start: new Date("Wed, 02 Sep 2015 06:00:00 GMT"),
+                 end: new Date("Wed, 02 Sep 2015 07:00:00 GMT")
                  },
              
              
                  nextEvent: {
-                 market: "UK",
-                 display: "London", 
+                 market: "US",
+                 display: "New York", 
                  state: DayParts.BeforeTheBell,
-                 stateDisplay: "London Markets Open in:",
-                 start: new Date("Wed, 02 Sep 2015 06:00:00 GMT"),
-                 end: new Date("Wed, 02 Sep 2015 07:00:00 GMT"),
-                 links: ' <a href="/column/asia-markets">Asia Markets</a>  <a href="/investing/currencies/tools">Currencies</a>  <a href="/column/market-snapshot">US Market Snapshot</a> '
+                 stateDisplay: "New York Markets Open in:",
+                 start: new Date("Wed, 02 Sep 2015 10:00:00 GMT"),
+                 end: new Date("Wed, 02 Sep 2015 13:30:00 GMT"),
+                 links: ' <a href="/column/indications">Indications</a>  <a href="/tools/stockresearch/updown/?type=5">Analyst Ratings</a>  <a href="/news/markets/earningswatch.asp">EarningsWatch</a> '
                  },
              
-            time: new Date("Wed, 02 Sep 2015 05:12:06 GMT"),
+            time: new Date("Wed, 02 Sep 2015 06:43:32 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });
