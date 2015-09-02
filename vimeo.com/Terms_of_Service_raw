@@ -15,7 +15,7 @@
  <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="Vimeo search">
 <link rel="logo" type="image/svg" href="https://f.vimeocdn.com/logo.svg">
  <title>Terms of Service on Vimeo</title>
-     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?01ff039f9c">
+     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?44996efead">
   <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?7585c93a">
  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/legal.min.css?5e6473a0">
      <style>
@@ -24,7 +24,7 @@
    <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/js/player.js">
  <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/css/player.css">
   <script>
- var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.2\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css","player_url":"player.vimeo.com"};
+ var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.2\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css"};
  </script>
         <script>
  var googletag = googletag || {},
@@ -448,8 +448,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active"><a href="/videoschool/lesson/282/getting-down-with-low-angles">Low-angle shots</a> can give your next video a brand new perspective.</p>
- <p>Capture all sorts of angles to up your editing steez. Mikey explains how to master coverage + cutaways in <a href="https://vimeo.com/videoschool/lesson/459/coverage-and-cutaways">this VVS lesson.</a></p>
+ <p class="active">Animate all the things with the handy <a href="https://vimeo.com/videoschool/lesson/434/mclarens-workshop-app">McLaren Workshop app</a>, named after the filmmaking master himself.</p>
+ <p>Your face: it’s great. But with our <a href="/settings/profile">Profile Portrait Editor</a>, it could be the best.</p>
 </aside>
  </div>
 </footer>
@@ -591,7 +591,7 @@
   var CSS_DIR = 'https://f.vimeocdn.com/styles/css_opt/',
  JS_DIR = 'https://f.vimeocdn.com/js_opt/',
  IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
-  BUILD_HASH = 'aa3f6';
+  BUILD_HASH = 'dc332';
   var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"is_mobile":false});
  vimeo.config = _extend((vimeo.config || {}), []);
   var localeConfig = {
