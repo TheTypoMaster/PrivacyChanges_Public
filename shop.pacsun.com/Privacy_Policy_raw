@@ -26,7 +26,7 @@ if(mode == "mobile") {
 
 if(document.referrer && document.referrer.length > 0)
 document.cookie = "TRUEREFERRER="+escape(document.referrer);
-return '/on/demandware.store/Sites-pacsun-Site/default/mPage-Show?cid=privacy-policy';
+return '/on/demandware.store/Sites-pacsun-Site/default/mPage-Show?cid=about';
 
 }
 return url;
@@ -1618,10 +1618,10 @@ initializeMenu("mainmenu");
   "user_anonymous": "true",
   "user_authenticated": "false",
   "user_registered": "false",
-  "customer_id": "aduaHPLgGlUpb9E58fqpwXyTzY"
+  "customer_id": "abso3qAUQMNAjjbezQVViJvkUn"
 
 	,
-  "search_results": "0",
+  "search_results": "4902",
   "search_refinement_type": []
 };
 </script>
