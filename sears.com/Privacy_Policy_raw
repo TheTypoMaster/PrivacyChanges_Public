@@ -2007,13 +2007,14 @@ $(window).on('load', function() {
  if (!!$.cookie('irp-preview')){
   FED.Util.addJsFile(shc.URLs.staticAssets + 'js/previewHeader');
  }
- /*UHF-405 - flip URL based on signin vs guest
+/* pending UHF-405
  if ($('#profileArea.loggedIn').length) {
   $('#gnf_header, #gnf_footer').find('a[data-alt-href]').each(function() {
    var el = $(this), alt = el.attr('data-alt-href');
    if (!!alt) {el.attr('href', alt);}
   })
- }*/
+ }
+*/
 });
 </script>
 
@@ -2086,7 +2087,7 @@ var omtitle= "Customer Service > Policies > Privacy Policy";var omcategory= "Cus
 	<!-- End SiteCatalyst code version: H.9. -->
 
 <!-- Modified at: '2015-07-06T13:16:33.999-05:00' by: 'jh' -->
-<!-- Publish Server: '411p' -->
+<!-- Publish Server: '408p' -->
 <!-- Page path : 'shc/sears/en_us/customer-service/policies/privacy-policy.html' -->
 </body></html>
 
