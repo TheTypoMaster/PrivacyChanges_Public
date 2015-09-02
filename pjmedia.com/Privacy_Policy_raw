@@ -124,7 +124,7 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 
   if (safety < 4) {
     /* <![CDATA[ */
-        jQuery.post('http://pjmedia.com/wp-admin/admin-ajax.php', {action: 'wpp_update', token: '7298e356c9', id: 29384}, function(data){/*alert(data);*/});
+        jQuery.post('http://pjmedia.com/wp-admin/admin-ajax.php', {action: 'wpp_update', token: 'afab6aff8a', id: 29384}, function(data){/*alert(data);*/});
     /* ]]> */
   }
 
@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1155321789'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1434314698'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1935152265'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=12363727&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1459921674'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=819008018'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=587745800'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1525617293&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -218,7 +218,7 @@ window.fbAsyncInit = function() {
 
 </script>    <script>
     jQuery(document).ready(function() {
-      PJMedia.SharingButtons.initialize(null, null, 'f11b9d37a0');
+      PJMedia.SharingButtons.initialize(null, null, '87909e4853');
     });        
     </script>
     <style>
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=80255676');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1568783042');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1517946415');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1483767322');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=260801852');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1256949758');"></a>
   </span>
 </span>
 
@@ -610,9 +610,9 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 							
 											<li><a href="http://pjmedia.com/blog/nine-signs-of-the-impending-american-collapse/">Nine Signs of the Impending American Collapse</a></li>
 											
-											<li><a href="http://pjmedia.com/tatler/2015/08/31/life-coach-jaxi-west-texas-cop-killing-is-what-justice-looks-like/">Life Coach Jaxi West: Texas Cop Killing 'Is What Justice Looks Like'</a></li>
+											<li><a href="http://pjmedia.com/victordavishanson/illegal-immigration-finally-turned-off-public/">How Illegal Immigration Finally Turned Off the Public</a></li>
 											
-											<li><a href="http://pjmedia.com/tatler/2015/09/01/9th-planned-parenthood-video-baby-parts-vendor-pays-off-clinics/">Ninth Planned Parenthood Video: Baby Parts Vendor Pays Off Clinics</a></li>
+											<li><a href="http://pjmedia.com/tatler/2015/08/31/life-coach-jaxi-west-texas-cop-killing-is-what-justice-looks-like/">Life Coach Jaxi West: Texas Cop Killing 'Is What Justice Looks Like'</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -627,7 +627,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/tatler/2015/09/01/kentucky-county-clerk-defies-supreme-court-order-to-issue-gay-marriage-licenses/">Kentucky County Clerk Defies Supreme Court Order to Issue Gay Marriage Licenses</a></li><li><a href="http://pjmedia.com/tatler/2015/09/01/hillary-emails-heres-a-proposed-mission-statement-for-hillary-rodham-clinton-university/">Hillary Emails: Here&#8217;s a Proposed Mission Statement for Hillary Rodham Clinton University</a></li><li><a href="http://pjmedia.com/tatler/2015/09/01/9th-planned-parenthood-video-baby-parts-vendor-pays-off-clinics/">Ninth Planned Parenthood Video: Baby Parts Vendor Pays Off Clinics</a></li>
+				<li><a href="http://pjmedia.com/tatler/2015/09/01/cnn-amending-debate-criteria-benefiting-carly-fiorina/">CNN Amending Debate Criteria, Benefiting Carly Fiorina</a></li><li><a href="http://pjmedia.com/tatler/2015/09/01/kentucky-county-clerk-defies-supreme-court-order-to-issue-gay-marriage-licenses/">Kentucky County Clerk Defies Supreme Court Order to Issue Gay Marriage Licenses</a></li><li><a href="http://pjmedia.com/tatler/2015/09/01/hillary-emails-heres-a-proposed-mission-statement-for-hillary-rodham-clinton-university/">Hillary Emails: Here&#8217;s a Proposed Mission Statement for Hillary Rodham Clinton University</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213534/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">Most of the state’s water is drawn from the Delta, protected by levees that pretty much amount to mounds of dirt, even when compared to infrastructure that infamously failed New Orleans during Hurricane Katrina. Hurricanes don’t hit NorCal, but these levees are alarmingly susceptible to disaster. If enough were to breach—in an earthquake perhaps, or severe El Niño storm—sea water from San Francisco Bay could rush in, tainting the water supply serving two-thirds of the state. The worst-case scenario could cause up to three years of severely curtailed water for most Californians. ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213587/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">NEW SAN FRANCISCO RESTAURANT REPLACES HUMANS WITH IPADS: <a target="_blank" href="http://www.theguardian.com/us-news/2015/sep/01/san-francisco-restaurant-eatsa-ipad-orders">Eatsa in the city’s financial district offers iPad-based ordering</a>, with meals prepared by people whom customers never have to see: ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213532/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">POLITICALLY INCORRECT SCIENCE:  <a target="_blank" href="http://www.slate.com/blogs/the_slatest/2015/08/31/testosterone_and_the_brain_new_study_suggests_sex_hormones_change_the_way.html">More Evidence That Brains Are Not Gender Neutral.</a>  &#8220;However much we’d like to think of gender as a social construct, science suggests that real differences do exist between female and male brains. The latest evidence: a first-of-its-kind European study that finds that the female brain can be drastically reshaped by treating it with testosterone over time.&#8221; ...</a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213535/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">AT AMAZON, <a target="_blank" href="http://www.amazon.com/b/?ref_=assoc_tag_ph_1440439678795&#038;_encoding=UTF8&#038;camp=1789&#038;creative=9325&#038;linkCode=pf4&#038;node=8624942011&#038;tag=wwwviolentkicom&#038;linkId=2JEJFS7W2YQZIH25">Hot Deals On Music.</a></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213534/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">Most of the state’s water is drawn from the Delta, protected by levees that pretty much amount to mounds of dirt, even when compared to infrastructure that infamously failed New Orleans during Hurricane Katrina. Hurricanes don’t hit NorCal, but these levees are alarmingly susceptible to disaster. If enough were to breach—in an earthquake perhaps, or severe El Niño storm—sea water from San Francisco Bay could rush in, tainting the water supply serving two-thirds of the state. The worst-case scenario could cause up to three years of severely curtailed water for most Californians. ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213587/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">NEW SAN FRANCISCO RESTAURANT REPLACES HUMANS WITH IPADS: <a target="_blank" href="http://www.theguardian.com/us-news/2015/sep/01/san-francisco-restaurant-eatsa-ipad-orders">Eatsa in the city’s financial district offers iPad-based ordering</a>, with meals prepared by people whom customers never have to see: ...</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -779,7 +779,7 @@ jQuery(document).ready(function($){
     ga('create', 'UA-3218147-1', 'auto');
     ga('require', 'displayfeatures');
         ga('send', 'pageview', {
-      'dimension5': '|b=1|t=p|i=29384|d=1441116360|a=1|'
+      'dimension5': '|b=1|t=p|i=29384|d=1441202760|a=1|'
     });
         </script>    <script type='text/javascript'>
     PJInterop.CookieCache.bind();
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":385,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":361,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
