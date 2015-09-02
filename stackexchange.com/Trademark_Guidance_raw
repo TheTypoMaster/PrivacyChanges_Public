@@ -258,7 +258,7 @@
             contentPath: "//sstatic.net/stackexchange"
         };
         $(function() {
-            StackExchange.init({"serverTime":1441196875});
+            StackExchange.init({"serverTime":1441204813});
             StackExchange.topbar.init();
         });
     </script>
