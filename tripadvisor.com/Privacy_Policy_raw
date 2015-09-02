@@ -22,6 +22,14 @@ ta.util.error.record(error, 'error post load:: ' + msg, null, {'error_script': u
 };
 </script>
 <script type="text/javascript">
+var performancePingbackInit = {
+enabled: true,
+start: new Number( new Date() ),
+uid: "B5C7F57BF8BF266788498032F155D020|1|www.tripadvisor.com|v1",
+servlet: "StaticVelocityXmlPage",
+loadTimeSet : false,
+domreadyTimeSet : false,
+isTaReferrer : false    }
 </script>
 <meta http-equiv="imagetoolbar" content="no"/>
 <title>Privacy Policy - TripAdvisor</title>
@@ -184,17 +192,17 @@ var bingMapsCountry = "US".toLowerCase();
 var bingMapsBaseUrl = "http://www.bing.com/maps/default.aspx?cc=us&";
 var googleMapsBaseUrl = "http://maps.google.com/?";
 var yandexMapsBaseUrl = "http://maps.yandex.com";
-var serverPool = "T";
+var serverPool = "R";
 var reg_overhaul = true;
 var posLocale = "en_US";
-var cssPhotoViewerAsset = "http://static.tacdn.com/css2/photos_with_inline_review-v22433248836b.css";
-var cssAlbumViewerAsset = "http://static.tacdn.com/css2/photo_albums-v21965759098b.css";
-var jsPhotoViewerAsset = 'http://static.tacdn.com/js3/src/ta/photos/Viewer-v2458056087b.js';
-var jsAlbumViewerAsset = 'http://static.tacdn.com/js3/album_viewer-c-v2568175360b.js';
-var jsAlbumViewerExtendedAsset = 'http://static.tacdn.com/js3/album_viewer_extended-c-v2866802860b.js';
-var jsScrollingTabsAsset = 'http://static.tacdn.com/js3/src/ta/widgets/ScrollingTabs-v22369633560b.js';
-var jsPhotoViewerTALSOAsset = 'http://static.tacdn.com/js3/src/TALSO-v212862410b.js';
-var jsJWPlayerHelperAsset = 'http://static.tacdn.com/js3/src/ta/media/player/JwPlayer-v23770200875b.js';
+var cssPhotoViewerAsset = "http://static.tacdn.com/css2/photos_with_inline_review-v22433248836a.css";
+var cssAlbumViewerAsset = "http://static.tacdn.com/css2/photo_albums-v21965759098a.css";
+var jsPhotoViewerAsset = 'http://static.tacdn.com/js3/src/ta/photos/Viewer-v2458056087a.js';
+var jsAlbumViewerAsset = 'http://static.tacdn.com/js3/album_viewer-c-v2568175360a.js';
+var jsAlbumViewerExtendedAsset = 'http://static.tacdn.com/js3/album_viewer_extended-c-v2866802860a.js';
+var jsScrollingTabsAsset = 'http://static.tacdn.com/js3/src/ta/widgets/ScrollingTabs-v22369633560a.js';
+var jsPhotoViewerTALSOAsset = 'http://static.tacdn.com/js3/src/TALSO-v212862410a.js';
+var jsJWPlayerHelperAsset = 'http://static.tacdn.com/js3/src/ta/media/player/JwPlayer-v23770200875a.js';
 var taJwplayerVersion6 = true;
 var hasRequiredFlashPlayer = function() {
 return ta.media.JWPlayer.hasRequiredFlashPlayer();
@@ -209,13 +217,13 @@ var POINT_OF_SALE = "en_US";
 </script>
 <script type="text/javascript">
 var VERSION_MAP = {
-"ta-widgets-typeahead.js": "http://static.tacdn.com/js3/ta-widgets-typeahead-c-v2198805921b.js"
+"ta-widgets-typeahead.js": "http://static.tacdn.com/js3/ta-widgets-typeahead-c-v2198805921a.js"
 ,
-"ta-media.js": "http://static.tacdn.com/js3/ta-media-c-v23576733822b.js"
+"ta-media.js": "http://static.tacdn.com/js3/ta-media-c-v23576733822a.js"
 ,
-"ta-overlays.js": "http://static.tacdn.com/js3/ta-overlays-c-v21437812079b.js"
+"ta-overlays.js": "http://static.tacdn.com/js3/ta-overlays-c-v21437812079a.js"
 ,
-"ta-mapsv2.js": "http://static.tacdn.com/js3/ta-mapsv2-gmaps3-c-v22626538878b.js"
+"ta-mapsv2.js": "http://static.tacdn.com/js3/ta-mapsv2-gmaps3-c-v22626538878a.js"
 };
 </script>
 <script type="text/javascript">
@@ -237,7 +245,7 @@ var userLoggedIn = false;
 <script type="text/javascript">
 var migrationMember = false;
 var savesEnable = true;
-var savesJS = 'http://static.tacdn.com/js3/src/saves-v21445131811b.js';
+var savesJS = 'http://static.tacdn.com/js3/src/saves-v21445131811a.js';
 var flagsUrl = '/pages/privacy.html';
 var noPopClass = "no_cpu";
 var flagsSettings = [
@@ -254,18 +262,18 @@ var modelLocId = "";
 var gClient = 'gme-tripadvisorinc';
 var gKey = '';
 var gLang = '&language=en_US';
-var mapsJs = 'http://static.tacdn.com/js3/ta-maps-gmaps3-c-v2517161971b.js';
-var mapsJsLite = 'http://static.tacdn.com/js3/lib/TAMap-v22716202300b.js';
-var memoverlayCSS = 'http://static.tacdn.com/css2/pages/memberoverlay-v2735825778b.css';
-var flagsFlyoutCSS = 'http://static.tacdn.com/css2/overlays/flags/flags_flyout-v21502283186b.css';
-var globalCurrencyPickerCSS = 'http://static.tacdn.com/css2/overlays/global_currency_picker-v24284795853b.css';
-var emailHotelCSS = 'http://static.tacdn.com/css2/t4b/emailhotel-v21656377253b.css';
-var passportStampsCSS = 'http://static.tacdn.com/css2/modules/passport_stamps-v21996473260b.css';
-var autocompleteCss = "http://static.tacdn.com/css2/modules/autocomplete-v22296357173b.css";
-var globalTypeAheadCss = "http://static.tacdn.com/css2/global_typeahead-v2838400542b.css";
-var globalTypeAheadFontCss = "http://static.tacdn.com/css2/proxima_nova-v21536367270b.css";
+var mapsJs = 'http://static.tacdn.com/js3/ta-maps-gmaps3-c-v2517161971a.js';
+var mapsJsLite = 'http://static.tacdn.com/js3/lib/TAMap-v22716202300a.js';
+var memoverlayCSS = 'http://static.tacdn.com/css2/pages/memberoverlay-v2735825778a.css';
+var flagsFlyoutCSS = 'http://static.tacdn.com/css2/overlays/flags/flags_flyout-v21502283186a.css';
+var globalCurrencyPickerCSS = 'http://static.tacdn.com/css2/overlays/global_currency_picker-v24284795853a.css';
+var emailHotelCSS = 'http://static.tacdn.com/css2/t4b/emailhotel-v21656377253a.css';
+var passportStampsCSS = 'http://static.tacdn.com/css2/modules/passport_stamps-v21996473260a.css';
+var autocompleteCss = "http://static.tacdn.com/css2/modules/autocomplete-v22296357173a.css";
+var globalTypeAheadCss = "http://static.tacdn.com/css2/global_typeahead-v2838400542a.css";
+var globalTypeAheadFontCss = "http://static.tacdn.com/css2/proxima_nova-v21536367270a.css";
 var wiFriHasMember =  false  ;
-var JS_SECURITY_TOKEN = "AAABT4snT1Yg3iLtmMzVu1ixZuS2mhZI/4IORQ==";
+var JS_SECURITY_TOKEN = "AAABT4t7cit2OHQLApVq+hWgvaoRStBYeJOvfA==";
 var addOverlayCloseClass = "";
 var isOverlayServlet = "";
 var IS_OVERLAY_DEBUG = "false";
@@ -273,8 +281,8 @@ var IS_MTPU_ENABLED = true;
 var MTPU_RULE = 734;
 var cpu_enabled = true;
 </script>
-<script type='text/javascript' crossorigin='anonymous' src='http://static.tacdn.com/js3/tripadvisor-c-v22542353036b.js'></script>
-<script type="text/javascript">var taSecureToken = "AAABT4snT1Yg3iLtmMzVu1ixZuS2mhZI/4IORQ==";</script>
+<script type='text/javascript' crossorigin='anonymous' src='http://static.tacdn.com/js3/tripadvisor-c-v22542353036a.js'></script>
+<script type="text/javascript">var taSecureToken = "AAABT4t7cit2OHQLApVq+hWgvaoRStBYeJOvfA==";</script>
 <script type="text/javascript">
 if(window.ta && ta.store) {
 ta.store('photo.viewer.localization.videoError', 'We\'re sorry, video player could not load');     }
@@ -282,7 +290,7 @@ ta.store('photo.viewer.localization.videoError', 'We\'re sorry, video player cou
 <script type="text/javascript">
 var taEarlyRoyBattyStatus = 0;
 (function(){
-var taSecureToken = "AAABT4snT1Yg3iLtmMzVu1ixZuS2mhZI/4IORQ==";
+var taSecureToken = "AAABT4t7cit2OHQLApVq+hWgvaoRStBYeJOvfA==";
 var cookieDomain = ".tripadvisor.com";
 try {
 if (taSecureToken && navigator.userAgent.indexOf('MSIE 10.0')<0) {
@@ -326,12 +334,12 @@ taEarlyRoyBattyStatus = 2;
 <script type="text/javascript">
 var geoParam = "&geo=";
 </script>
-<link rel='stylesheet' type='text/css' media='screen, print' href='http://static.tacdn.com/css2/universal_new-v23860657804b.css'/>
+<link rel='stylesheet' type='text/css' media='screen, print' href='http://static.tacdn.com/css2/universal_new-v23860657804a.css'/>
 <!--[if IE 6]>
-    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE6-v22820092551b.css" />
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE6-v22820092551a.css" />
         <![endif]-->
 <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE7-v22702072199b.css" />
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE7-v22702072199a.css" />
         <![endif]-->
 <style type="text/css">
 body{}
@@ -371,10 +379,10 @@ width:100px; font-weight: normal; }
 .content_blocks #LVC_POPULAR_CITIES { margin:0 0 10px; padding-top:14px;}
 .content_blocks #LVC_POPULAR_CITIES .title { border-top:none;}
 </style>
-<!-- web48b.b.tripadvisor.com -->
+<!-- web718a.a.tripadvisor.com -->
 <!-- PRODUCTION -->
 <!-- PRODUCTION -->
-<script type="text/javascript" src="http://static.tacdn.com/js3/src/trsupp-v23584999669b.js"></script>
+<script type="text/javascript" src="http://static.tacdn.com/js3/src/trsupp-v23584999669a.js"></script>
 </head>
 <body class="ltr domn_en_US lang_en globalNav2011_reset js_logging css_commerce_buttons track_back" data-scroll='OVERVIEW' data-navArea-metaType="QC_Meta_Mini" data-navArea-placement="Unknown">
 <div id="fb-root"></div>
@@ -553,7 +561,7 @@ Write a Review <div id="WAR_NOTIFICATION_FLAG" class="lsJewelCounter">
 <div class="warLoc subItem" onclick="ta.setEvtCookie('WAR', 'WAR_PROJECT_GLOBAL_NAV_DROP_DOWN', 'PICK_ANOTHER_POI', '39392', '/UserReviewRedesign');ta.util.cookie.setPIDCookie(39392);location.href='https://www.tripadvisor.com/UserReview-e__2F__pages__2F__privacy__2E__html'">
 <div class="warLocImg">
 <div class="nophoto thumbNail">
-<img id='lazyload_235785180_0' class='lodge' src='http://static.tacdn.com/img2/x.gif'/>
+<img id='lazyload_303482696_0' class='lodge' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 </div>
 <div class="warLocDetail">
@@ -723,7 +731,7 @@ Travel Advisories</a>
 </ul>
 </div>
 </div>
-<div id="BODYCON" class="col poolT adjust_padding new_meta_chevron_v2">
+<div id="BODYCON" class="col poolR adjust_padding new_meta_chevron_v2">
 <div class="wrpHeader">
 </div>
 <style type="text/css">
@@ -1013,10 +1021,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60763-New_York_City_New_York-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='New York City' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_1' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='New York City' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_1' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">1,793,015 reviews</div>
+<div class="citydtlreviews">1,793,000 reviews</div>
 </div>
 </a>
 </div>
@@ -1028,10 +1036,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g1954828-Walt_Disney_World_Florida-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Walt Disney World' width='170' style='height: 113px; width: 170px;' id='lazyload_235785180_2' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Walt Disney World' width='170' style='height: 113px; width: 170px;' id='lazyload_303482696_2' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">306,750 reviews</div>
+<div class="citydtlreviews">306,747 reviews</div>
 </div>
 </a>
 </div>
@@ -1042,10 +1050,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60878-Seattle_Washington-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 244px; width: 360px; ">
-<img alt='Seattle' width='360' style='height: 244px; width: 405px; margin-left: -22px;' id='lazyload_235785180_3' class='photo_image' height='244' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Seattle' width='360' style='height: 244px; width: 405px; margin-left: -22px;' id='lazyload_303482696_3' class='photo_image' height='244' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">261,363 reviews</div>
+<div class="citydtlreviews">261,361 reviews</div>
 </div>
 </a>
 </div>
@@ -1056,10 +1064,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g54359-Myrtle_Beach_South_Carolina-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Myrtle Beach' width='170' style='height: 112px; width: 172px; margin-left: -1px;' id='lazyload_235785180_4' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Myrtle Beach' width='170' style='height: 112px; width: 172px; margin-left: -1px;' id='lazyload_303482696_4' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">225,299 reviews</div>
+<div class="citydtlreviews">225,298 reviews</div>
 </div>
 </a>
 </div>
@@ -1069,10 +1077,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g45963-Las_Vegas_Nevada-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Las Vegas' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_5' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Las Vegas' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_5' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">1,158,247 reviews</div>
+<div class="citydtlreviews">1,158,243 reviews</div>
 </div>
 </a>
 </div>
@@ -1084,7 +1092,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g29750-Atlantic_City_New_Jersey-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Atlantic City' width='170' style='height: 126px; width: 170px;' id='lazyload_235785180_6' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Atlantic City' width='170' style='height: 126px; width: 170px;' id='lazyload_303482696_6' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">79,141 reviews</div>
@@ -1097,10 +1105,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g35805-Chicago_Illinois-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Chicago' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_7' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Chicago' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_7' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">480,339 reviews</div>
+<div class="citydtlreviews">480,338 reviews</div>
 </div>
 </a>
 </div>
@@ -1113,10 +1121,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g32737-Monterey_Monterey_Peninsula_California-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Monterey' width='170' style='height: 113px; width: 170px;' id='lazyload_235785180_8' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Monterey' width='170' style='height: 113px; width: 170px;' id='lazyload_303482696_8' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">81,704 reviews</div>
+<div class="citydtlreviews">81,703 reviews</div>
 </div>
 </a>
 </div>
@@ -1126,7 +1134,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g56691-South_Padre_Island_Texas-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='South Padre Island' width='170' style='height: 113px; width: 170px;' id='lazyload_235785180_9' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='South Padre Island' width='170' style='height: 113px; width: 170px;' id='lazyload_303482696_9' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">27,857 reviews</div>
@@ -1139,7 +1147,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g34438-Miami_Florida-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Miami' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_10' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Miami' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_10' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">201,352 reviews</div>
@@ -1152,7 +1160,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60403-Wisconsin_Dells_Wisconsin-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Wisconsin Dells' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_11' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Wisconsin Dells' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_11' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">60,649 reviews</div>
@@ -1165,7 +1173,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60898-Atlanta_Georgia-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Atlanta' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_12' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Atlanta' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_12' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">212,575 reviews</div>
@@ -1181,7 +1189,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60842-Gatlinburg_Tennessee-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Gatlinburg' width='170' style='height: 114px; width: 170px;' id='lazyload_235785180_13' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Gatlinburg' width='170' style='height: 114px; width: 170px;' id='lazyload_303482696_13' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">134,280 reviews</div>
@@ -1194,10 +1202,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60956-San_Antonio_Texas-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='San Antonio' width='170' style='height: 112px; width: 257px; margin-left: -43px;' id='lazyload_235785180_14' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='San Antonio' width='170' style='height: 112px; width: 257px; margin-left: -43px;' id='lazyload_303482696_14' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">204,708 reviews</div>
+<div class="citydtlreviews">204,707 reviews</div>
 </div>
 </a>
 </div>
@@ -1209,7 +1217,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g60745-Boston_Massachusetts-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Boston' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_15' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Boston' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_15' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">311,993 reviews</div>
@@ -1222,7 +1230,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g55270-Pigeon_Forge_Tennessee-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Pigeon Forge' width='170' style='height: 127px; width: 170px;' id='lazyload_235785180_16' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Pigeon Forge' width='170' style='height: 127px; width: 170px;' id='lazyload_303482696_16' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">148,379 reviews</div>
@@ -1236,7 +1244,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g58277-Virginia_Beach_Virginia-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 244px; width: 360px; ">
-<img alt='Virginia Beach' width='360' style='height: 244px; width: 405px; margin-left: -22px;' id='lazyload_235785180_17' class='photo_image' height='244' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Virginia Beach' width='360' style='height: 244px; width: 405px; margin-left: -22px;' id='lazyload_303482696_17' class='photo_image' height='244' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">94,684 reviews</div>
@@ -1250,7 +1258,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g55879-Galveston_Galveston_Island_Texas-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Galveston' width='170' style='height: 113px; width: 170px;' id='lazyload_235785180_18' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Galveston' width='170' style='height: 113px; width: 170px;' id='lazyload_303482696_18' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
 <div class="citydtlreviews">53,392 reviews</div>
@@ -1265,10 +1273,10 @@ ta.queueForLoad(_csload, 5, 'comscore');
 </a>
 <a href="/Hotels-g34515-Orlando_Florida-Hotels.html" class="photo_link">
 <div class="sizedThumb  " style="height: 112px; width: 170px; ">
-<img alt='Orlando' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_235785180_19' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
+<img alt='Orlando' width='170' style='height: 112px; width: 187px; margin-left: -8px;' id='lazyload_303482696_19' class='photo_image' height='112' src='http://static.tacdn.com/img2/x.gif'/>
 </div>
 <div class="transbox">
-<div class="citydtlreviews">978,905 reviews</div>
+<div class="citydtlreviews">978,901 reviews</div>
 </div>
 </a>
 </div>
@@ -1283,7 +1291,7 @@ ta.queueForLoad(_csload, 5, 'comscore');
 <div class="block">
 <dl class="sep brand">
 <dt>
-<img width='132' alt='TripAdvisor' id='lazyload_235785180_20' height='20' src='http://static.tacdn.com/img2/x.gif'/>
+<img width='132' alt='TripAdvisor' id='lazyload_303482696_20' height='20' src='http://static.tacdn.com/img2/x.gif'/>
 </dt>
 <dd class="meta">
 Reviews and advice on hotels, resorts, flights, vacation rentals, travel packages, and more so you can plan and book your perfect trip!
@@ -1292,7 +1300,7 @@ Reviews and advice on hotels, resorts, flights, vacation rentals, travel package
 <div class="sep internal">
 <span><a class="taLnk" href="/PressCenter-c6-About_Us.html">About Us</a></span>
 | <span><a class="taLnk" href="/AllLocations-g1-c1-Hotels-World.html">Site Map</a></span>
-| <span class="taLnk" onclick="return ta.call('ta.overlays.Factory.helpCenterLB', event);">Help&nbsp;Center <img alt='' width='14' id='lazyload_235785180_21' height='10' src='http://static.tacdn.com/img2/x.gif'/></span> </div>
+| <span class="taLnk" onclick="return ta.call('ta.overlays.Factory.helpCenterLB', event);">Help&nbsp;Center <img alt='' width='14' id='lazyload_303482696_21' height='10' src='http://static.tacdn.com/img2/x.gif'/></span> </div>
 <div class="sep legal">
 <div class="copyright">
 © 2015 TripAdvisor LLC All rights reserved. TripAdvisor <a href="/pages/terms.html">Terms of Use</a> and <a href="/pages/privacy.html">Privacy Policy</a>.
@@ -1318,7 +1326,7 @@ Reviews and advice on hotels, resorts, flights, vacation rentals, travel package
 </div>
 <script type="text/javascript">
 ta.queueForReady( function() {
-ta.localStorage && ta.localStorage.updateSessionId('5061EFF3D74969625FE312ED00645EA4');
+ta.localStorage && ta.localStorage.updateSessionId('B5C7F57BF8BF266788498032F155D020');
 }, 1, "reset localStorage session id");
 </script>
 <script type="text/javascript">
@@ -1363,14 +1371,14 @@ ta.store("hotels_meta_focus", 4);
 ta.store("ib_supplier_direct_header", true);
 </script>
 <script type="text/javascript">
-var metaCheckRatesCSS = 'http://static.tacdn.com/css2/meta_ui_sk_box_chevron-v23334386978b.css';
+var metaCheckRatesCSS = 'http://static.tacdn.com/css2/meta_ui_sk_box_chevron-v23334386978a.css';
 ta.store('metaCheckRatesFeatureEnabled', true);
 </script>
 <script type="text/javascript">
 ta.store('mapProviderFeature.maps_api','ta-maps-gmaps3');
 </script>
 <script type="text/javascript">
-var dropdownMetaCSS = "http://static.tacdn.com/css2/meta_drop_down_overlay-v22656954200b.css";
+var dropdownMetaCSS = "http://static.tacdn.com/css2/meta_drop_down_overlay-v22656954200a.css";
 </script>
 <script type="text/javascript">
 ta.store('metaDatePickerEnabled', true);
@@ -1388,7 +1396,7 @@ ta.store('multiDP.checkIn', "mm/dd/yyyy");           ta.store('multiDP.checkOut'
 (function(window,ta,undefined){
 try {
 ta = window.ta = window.ta || {};
-ta.uid = 'VeYu7QoQLT4AAF0wVDUAAAAS';
+ta.uid = 'VeZEdwokLC8AAG6bXx0AAAAc';
 ta.userLoggedIn = false;
 ta.userSecurelyLoggedIn = false;
 }
@@ -1403,7 +1411,7 @@ ta.util.error.record(e,'global_ga.vm');
 (function(window,ta,undefined){
 try {
 ta = window.ta = window.ta || {};
-ta.uid = 'VeYu7QoQLT4AAF0wVDUAAAAS';
+ta.uid = 'VeZEdwokLC8AAG6bXx0AAAAc';
 ta.userLoggedIn = false;
 ta.userSecurelyLoggedIn = false;
 if (ta.prerender && ta.prerender._init){
@@ -1432,29 +1440,29 @@ ta.util.error.record(e,'global_ga.vm');
 </script>
 <script type="text/javascript">
 var lazyImgs = [
-{"data":"http://static.tacdn.com/img2/generic/site/pencil.png","scroll":false,"tagType":"img","id":"lazyload_235785180_0","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/d7/dc/ce/bigphotofornyc.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_1","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/bf/9d/fe/expedition-everestr-attraction.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_2","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-s/03/9b/30/26/seattle.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_3","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/7e/aa/a0/visit-myrtle-beach.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_4","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/d7/dc/b5/bigphotoforlas-vegas.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_5","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/26/d2/df/borgata-water-club-from.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_6","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2d/c3/chicago.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_7","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/f7/fa/89/monterey-county-convention.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_8","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/b0/9d/d9/south-padre-island-aerial.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_9","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/73/ad/32/bigphotoformiami.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_10","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/73/ad/5e/bigphotoforwisconsin.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_11","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2f/35/atlanta.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_12","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/08/4d/49/d0/gatlinburg-tennessee.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_13","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/07/a8/d7/ed/san-antonio-river-walk.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_14","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2f/47/boston.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_15","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/d0/a3/46/10-24-07-roaring-fork.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_16","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-s/06/73/ad/59/bigphotoforvirginia-beach.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_17","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/08/3d/b4/surfing-santa-at-schitterbahn.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_18","priority":100,"logerror":false}
-,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2d/f3/orlando.jpg","scroll":true,"tagType":"img","id":"lazyload_235785180_19","priority":100,"logerror":false}
-,   {"data":"http://static.tacdn.com/img2/branding/identityFOOT_2014.png","scroll":true,"tagType":"img","id":"lazyload_235785180_20","priority":100,"logerror":false}
-,   {"data":"http://static.tacdn.com/img2/icons/bell.png","scroll":true,"tagType":"img","id":"lazyload_235785180_21","priority":100,"logerror":false}
-,   {"data":"http://p.smartertravel.com/ext/pixel/ta/seed.gif?id=NY1QkB0y0N5kZl2P2u7FTTlbwuGpUn1PhrKItzaNO_c47SGjktw-DNtWIxTDMWjG","scroll":false,"tagType":"img","id":"p13n_tp_stm","priority":1000,"logerror":false}
+{"data":"http://static.tacdn.com/img2/generic/site/pencil.png","scroll":false,"tagType":"img","id":"lazyload_303482696_0","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/d7/dc/ce/bigphotofornyc.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_1","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/bf/9d/fe/expedition-everestr-attraction.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_2","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-s/03/9b/30/26/seattle.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_3","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/7e/aa/a0/visit-myrtle-beach.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_4","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/d7/dc/b5/bigphotoforlas-vegas.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_5","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/26/d2/df/borgata-water-club-from.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_6","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2d/c3/chicago.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_7","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/f7/fa/89/monterey-county-convention.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_8","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/b0/9d/d9/south-padre-island-aerial.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_9","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/73/ad/32/bigphotoformiami.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_10","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/06/73/ad/5e/bigphotoforwisconsin.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_11","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2f/35/atlanta.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_12","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/08/4d/49/d0/gatlinburg-tennessee.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_13","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/07/a8/d7/ed/san-antonio-river-walk.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_14","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2f/47/boston.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_15","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/01/d0/a3/46/10-24-07-roaring-fork.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_16","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-s/06/73/ad/59/bigphotoforvirginia-beach.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_17","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/08/3d/b4/surfing-santa-at-schitterbahn.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_18","priority":100,"logerror":false}
+,   {"data":"http://media-cdn.tripadvisor.com/media/photo-f/03/9b/2d/f3/orlando.jpg","scroll":true,"tagType":"img","id":"lazyload_303482696_19","priority":100,"logerror":false}
+,   {"data":"http://static.tacdn.com/img2/branding/identityFOOT_2014.png","scroll":true,"tagType":"img","id":"lazyload_303482696_20","priority":100,"logerror":false}
+,   {"data":"http://static.tacdn.com/img2/icons/bell.png","scroll":true,"tagType":"img","id":"lazyload_303482696_21","priority":100,"logerror":false}
+,   {"data":"http://p.smartertravel.com/ext/pixel/ta/seed.gif?id=NY1QkB0y0N5c4wQxrQUwjHN36JetyX31X6AwJ38EfjjXKiMdcu4W8sddtTZrFnHo","scroll":false,"tagType":"img","id":"p13n_tp_stm","priority":1000,"logerror":false}
 ];
 var lazyHtml = [
 ];
@@ -1471,7 +1479,7 @@ ta.store('facebook.disableLogin', false);
 ta.store('facebook.apiKey', "f1e687a58f0cdac60b7af2317a5febb3");
 ta.store('facebook.appId', "162729813767876");
 ta.store('facebook.appName', "tripadvisor");
-ta.store('facebook.taServerTime', "1441148653");
+ta.store('facebook.taServerTime', "1441154167");
 ta.store('facebook.skip.session.check',"false");
 ta.store('facebook.apiVersion', "v2.2");
 ta.store("facebook.invalidFBCreds", true);
@@ -1533,11 +1541,11 @@ window.addEvent('scroll', window.ta_handleAdDefer );
 }
 })();
 }
-var avlb_hero_photos = "http://static.tacdn.com/css2/modules/avlb_hero_photos-v23950307902b.css";
-var floatingMapCSS = "http://static.tacdn.com/css2/modules/floating_map-v22419345840b.css";
-var t4bSlideshowCSS = "http://static.tacdn.com/css2/modules/t4b_slideshow-v24112077699b.css";
-var dhtml_cr_redesign_basic = "http://static.tacdn.com/css2/overlays/cr_flyout-v22544950678b.css";
-var dhtml_cr_redesign_png24 = "http://static.tacdn.com/css2/overlays/cr_flyout-v22544950678b.css";
+var avlb_hero_photos = "http://static.tacdn.com/css2/modules/avlb_hero_photos-v23950307902a.css";
+var floatingMapCSS = "http://static.tacdn.com/css2/modules/floating_map-v22419345840a.css";
+var t4bSlideshowCSS = "http://static.tacdn.com/css2/modules/t4b_slideshow-v24112077699a.css";
+var dhtml_cr_redesign_basic = "http://static.tacdn.com/css2/overlays/cr_flyout-v22544950678a.css";
+var dhtml_cr_redesign_png24 = "http://static.tacdn.com/css2/overlays/cr_flyout-v22544950678a.css";
 ta.store('checkrates.check_more_re',true);
 ta.store('checkrates.check_more_re_center_large_hero_photos',true);
 ta.store('checkrates.check_more_hero_photos',true);
@@ -1594,7 +1602,7 @@ ta.common.dmp.store.setActiveDMP( ta.common.dmp.bluekai);
 else if (ta && ta.util && ta.util.error && ta.util.error.record) {
 ta.util.error.record.apply(this, [null, "DMP JavaScript not found"]);
 }
-ta.common.dmp.store.storeValue("taUUID", "lCw0bhdC/F/jZqXC+DquC4Ka4ODZLTOxjdneARpC0as=");
+ta.common.dmp.store.storeValue("taUUID", "cMDK8fQVRq/LnTbrLkTVvex3WS4FGxUyBGDuECq9/qM2jHwltRJPGQ==");
 ta.common.dmp.store.setBehaviors({
 "ServletName" : [
 "StaticVelocityXmlPage"
@@ -1628,7 +1636,7 @@ ta.store('secure_registration.enabled',true);
 ta.store( 'meta.disclaimerLinkText', 'Disclaimer' );
 ta.store('restaurant_reserve_ui',true);
 ta.store('hotels_placements_short_cells', true);
-ta.store('hotels_placements_short_cells.overlaysCss', "http://static.tacdn.com/css2/hotels_list_short_cells_overlays-v22724604168b.css" )
+ta.store('hotels_placements_short_cells.overlaysCss', "http://static.tacdn.com/css2/hotels_list_short_cells_overlays-v22724604168a.css" )
 </script>
 <script class="allowAbsoluteUrls" type="text/javascript">
 ta.store('ta.registration.currentUrlDefaults', {'url' : 'http%3A__2F____2F__www__2E__tripadvisor__2E__com__2F__pages__2F__privacy__2E__html','partnerKey' : '1','urlKey' : '62d692634839b0171'} );
@@ -1637,7 +1645,7 @@ ta.store('ta.registration.currentUrlDefaults', {'url' : 'http%3A__2F____2F__www_
 ta.store('ta.isIE11orHigher', false);
 </script>
 <script type='text/javascript'>
-ta.store("calendar.serverTime", 1441148653391);
+ta.store("calendar.serverTime", 1441154167332);
 </script>
 <script type="text/javascript">
 ta.store('meta.meta_chevron_module_2014', true);
@@ -1749,6 +1757,6 @@ ta.store('meta_focus_no_servlet_in_key', true);
 ta.store('meta_focus_seen_timeout', 259200 * 1000);           </script>
 <div id="IP_IFRAME_HOLDER"></div>
 </body>
-<!-- st: 37 dc: 0 sc: 1 -->
-<!-- uid: VeYu7QoQLT4AAF0wVDUAAAAS -->
+<!-- st: 40 dc: 0 sc: 1 -->
+<!-- uid: VeZEdwokLC8AAG6bXx0AAAAc -->
 </html>
