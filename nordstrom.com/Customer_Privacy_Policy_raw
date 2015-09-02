@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"63E89F770547DFAAE1E7AAB597706AF5646174653D323031352D30392D3031267573657269643D6639646533613965633134353433316139323838333537633864663232623134","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"f9de3a9ec145431a9288357c8df22b14","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"d10763e9-8dc5-4d09-ba24-a3d8d15c7560","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4BBA9DC67C79682D588F12C03B84981F646174653D323031352D30392D3031267573657269643D3339316239353839323333333464336539346234386231626434326661623665","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"391b958923334d3e94b48b1bd42fab6e","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6da56131-cc00-4711-869f-32d3794de4fd","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>SPACE:</h2>
+		<h2>End-of-Summer Clearance Sale.</h2>
 		<p>
-			A new shop for emerging and advanced designers.
+			Up to 40% off through 9/13.
 				
-					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
+					<a href="all-womens-sale?origin=header-left-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpheaderleftcorp_shop" title="Shop women&#39;s sale">Shop women's sale</a>.
 				
 		</p>
 	</section>
