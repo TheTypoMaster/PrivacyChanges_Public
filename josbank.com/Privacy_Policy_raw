@@ -23,6 +23,7 @@ marketingPixelsData.LSConfig.trackingKey = '111462';
 <link rel="stylesheet" href="/wcsstore/JABAuroraStorefrontAssetStore/css/styles.css" type="text/css" />
 
 <link rel="stylesheet" href="/wcsstore/JABAuroraStorefrontAssetStore/css/select2.min.css" type="text/css" />
+<link rel="stylesheet" href="/wcsstore/JABAuroraStorefrontAssetStore/css/modal.css" type="text/css" />
 <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojo.js" djConfig="parseOnLoad: true, isDebug: false, modulePaths: {storetext: '/wcsstore/JABAuroraStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script>
 <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojodesktop-rwd.js" djConfig="parseOnLoad: true, isDebug: false, modulePaths: {storetext: '/wcsstore/JABAuroraStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script>
 <meta name="CommerceSearch" content="storeId_13452" />
@@ -154,6 +155,8 @@ dojo.attr(dojo.body(),"data-wc-device","mobile");
 <link rel="canonical" href="http://www.josbank.com/privacy-policy" /> 
 <link rel="alternate" media="only screen and (max-width: 640px)" href="http://mobile.josbank.com/privacy-policy" />
 
+<link rel="stylesheet" href="/wcsstore/JABAuroraStorefrontAssetStore/css/modal.css" type="text/css"/>
+<script type="text/javascript" src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/Widgets/modal.js"></script>
 <script type="text/javascript" src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/StoreCommonUtilities.js"></script>
 <script type="text/javascript" src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/CommonContextsDeclarations.js"></script>
 <script type="text/javascript" src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/CommonControllersDeclaration.js"></script>
@@ -496,6 +499,8 @@ window.jQuery_1_10_2 = $.noConflict(true);
 
 
 
+
+
 <script src="/wcsstore/JABAuroraStorefrontAssetStore/javascript/Analytics.js"></script>
 <script>
 dojo.addOnLoad(function() {
@@ -562,8 +567,9 @@ MessageHelper.setMessage('FORM_GIFT_CARD_NUMBER', "Please enter a valid gift car
 /* Override Base Configuration */
 APP.Form.baseFormConfig();
 </script>
+<a class="visuallyhidden" href="#skip_to_maincontent" name="skip_to_main_content">skip to main content</a> 
 <div id="header" role="banner">
-<div id="headerRow1">
+<div id="headerRow1"> 
 <div id="logo">
 
 <div id="contentRecommendationWidget_HeaderStoreLogo_Content" class="contentRecommendationWidget" >
@@ -771,6 +777,7 @@ aria-label="Shopping Cart">
 <span>Checkout</span>
 </a>
 <div id="freeShippingMessage">
+FREE SHIPPING, NO MINIMUM ORDER!
 </div>
 </div>
 </div>
@@ -812,9 +819,9 @@ console.error('Failed to init mini shopping cart, reason: ' + e);
 <div id="modalLanguageCurrency" class="modal-component">
 <div class="modal-wrapper modal-language-currency">
 <div class="modal-header">
-<a class="modal-close" title="CLOSE" href="javascript:dijit.byId('widget_language_and_currency_popup').hide();">
-CLOSE
-</a>
+<button type="button" class="modal-close"> 
+International shipping dialog close 
+</button> 
 </div>
 <div class="modal-body">
 <div class="row">
@@ -826,10 +833,12 @@ CLOSE
 <div class="language-currency-selectors">
 <form id="ChangeRegionForm" method="post">
 <div class="language-currency-selector">
-<select id="intCountryCode" name="langId">
+<label class="visuallyhidden" for="intCountryCode">Country</label>
+<select id="intCountryCode" name="langId"> 
 <option value="">Select Country</option><option value="AL" data-defaultcurrency="USD">Albania</option><option value="DZ" data-defaultcurrency="USD">Algeria</option><option value="AD" data-defaultcurrency="EUR">Andorra</option><option value="AO" data-defaultcurrency="USD">Angola</option><option value="AI" data-defaultcurrency="USD">Anguilla</option><option value="AG" data-defaultcurrency="USD">Antigua and Barbuda</option><option value="AM" data-defaultcurrency="USD">Armenia</option><option value="AW" data-defaultcurrency="USD">Aruba</option><option value="AU" data-defaultcurrency="AUD">Australia</option><option value="AT" data-defaultcurrency="EUR">Austria</option><option value="AZ" data-defaultcurrency="USD">Azerbaijan</option><option value="BS" data-defaultcurrency="BSD">Bahamas</option><option value="BH" data-defaultcurrency="BHD">Bahrain</option><option value="BD" data-defaultcurrency="BDT">Bangladesh</option><option value="BB" data-defaultcurrency="BBD">Barbados</option><option value="BY" data-defaultcurrency="USD">Belarus</option><option value="BE" data-defaultcurrency="EUR">Belgium</option><option value="BZ" data-defaultcurrency="BZD">Belize</option><option value="BJ" data-defaultcurrency="XOF">Benin</option><option value="BM" data-defaultcurrency="USD">Bermuda</option><option value="BT" data-defaultcurrency="USD">Bhutan</option><option value="BO" data-defaultcurrency="BOB">Bolivia</option><option value="BQ" data-defaultcurrency="USD">Bonaire, Sint Eustatius and Saba</option><option value="BA" data-defaultcurrency="BAM">Bosnia and Herzegovina</option><option value="BW" data-defaultcurrency="USD">Botswana</option><option value="BR" data-defaultcurrency="USD">Brazil</option><option value="BN" data-defaultcurrency="USD">Brunei Darussalam</option><option value="BG" data-defaultcurrency="BGN">Bulgaria</option><option value="BF" data-defaultcurrency="XOF">Burkina Faso</option><option value="BI" data-defaultcurrency="USD">Burundi</option><option value="KH" data-defaultcurrency="KHR">Cambodia</option><option value="CM" data-defaultcurrency="XAF">Cameroon</option><option value="CA" data-defaultcurrency="CAD">Canada</option><option value="CV" data-defaultcurrency="USD">Cape Verde</option><option value="KY" data-defaultcurrency="KYD">Cayman Islands</option><option value="CF" data-defaultcurrency="XAF">Central African Republic</option><option value="TD" data-defaultcurrency="XAF">Chad</option><option value="CL" data-defaultcurrency="CLP">Chile</option><option value="CN" data-defaultcurrency="CNY">China</option><option value="CX" data-defaultcurrency="AUD">Christmas Island</option><option value="CC" data-defaultcurrency="AUD">Cocos (Keeling) Islands</option><option value="CO" data-defaultcurrency="COP">Colombia</option><option value="KM" data-defaultcurrency="USD">Comoros</option><option value="CD" data-defaultcurrency="USD">Congo, Democratic Republic of the</option><option value="CK" data-defaultcurrency="NZD">Cook Islands</option><option value="CR" data-defaultcurrency="CRC">Costa Rica</option><option value="HR" data-defaultcurrency="HRK">Croatia</option><option value="CW" data-defaultcurrency="USD">CuraÃ§ao</option><option value="CY" data-defaultcurrency="EUR">Cyprus</option><option value="CZ" data-defaultcurrency="CZK">Czech Republic</option><option value="CI" data-defaultcurrency="USD">CÃ´te d'Ivoire</option><option value="DK" data-defaultcurrency="DKK">Denmark</option><option value="DJ" data-defaultcurrency="USD">Djibouti</option><option value="DM" data-defaultcurrency="USD">Dominica</option><option value="DO" data-defaultcurrency="DOP">Dominican Republic</option><option value="EC" data-defaultcurrency="USD">Ecuador</option><option value="EG" data-defaultcurrency="EGP">Egypt</option><option value="SV" data-defaultcurrency="USD">El Salvador</option><option value="GQ" data-defaultcurrency="XAF">Equatorial Guinea</option><option value="ER" data-defaultcurrency="USD">Eritrea</option><option value="EE" data-defaultcurrency="EUR">Estonia</option><option value="ET" data-defaultcurrency="USD">Ethiopia</option><option value="FK" data-defaultcurrency="USD">Falkland Islands (Malvinas)</option><option value="FO" data-defaultcurrency="DKK">Faroe Islands</option><option value="FJ" data-defaultcurrency="USD">Fiji</option><option value="FI" data-defaultcurrency="EUR">Finland</option><option value="FR" data-defaultcurrency="EUR">France</option><option value="GF" data-defaultcurrency="EUR">French Guiana</option><option value="PF" data-defaultcurrency="USD">French Polynesia</option><option value="GA" data-defaultcurrency="XAF">Gabon</option><option value="GM" data-defaultcurrency="USD">Gambia</option><option value="GE" data-defaultcurrency="USD">Georgia</option><option value="DE" data-defaultcurrency="EUR">Germany</option><option value="GH" data-defaultcurrency="USD">Ghana</option><option value="GI" data-defaultcurrency="GBP">Gibraltar</option><option value="GR" data-defaultcurrency="EUR">Greece</option><option value="GL" data-defaultcurrency="DKK">Greenland</option><option value="GD" data-defaultcurrency="USD">Grenada</option><option value="GP" data-defaultcurrency="EUR">Guadeloupe</option><option value="GT" data-defaultcurrency="GTQ">Guatemala</option><option value="GG" data-defaultcurrency="GBP">Guernsey</option><option value="GN" data-defaultcurrency="USD">Guinea</option><option value="GW" data-defaultcurrency="XOF">Guinea-Bissau</option><option value="GY" data-defaultcurrency="USD">Guyana</option><option value="HT" data-defaultcurrency="USD">Haiti</option><option value="VA" data-defaultcurrency="EUR">Holy See (Vatican City State)</option><option value="HN" data-defaultcurrency="HNL">Honduras</option><option value="HK" data-defaultcurrency="HKD">Hong Kong</option><option value="HU" data-defaultcurrency="HUF">Hungary</option><option value="IS" data-defaultcurrency="EUR">Iceland</option><option value="IN" data-defaultcurrency="INR">India</option><option value="ID" data-defaultcurrency="IDR">Indonesia</option><option value="IQ" data-defaultcurrency="USD">Iraq</option><option value="IE" data-defaultcurrency="EUR">Ireland</option><option value="IM" data-defaultcurrency="USD">Isle of Man</option><option value="IL" data-defaultcurrency="ILS">Israel</option><option value="IT" data-defaultcurrency="EUR">Italy</option><option value="JM" data-defaultcurrency="JMD">Jamaica</option><option value="JP" data-defaultcurrency="JPY">Japan</option><option value="JE" data-defaultcurrency="GBP">Jersey</option><option value="JO" data-defaultcurrency="JOD">Jordan</option><option value="KZ" data-defaultcurrency="KZT">Kazakhstan</option><option value="KE" data-defaultcurrency="USD">Kenya</option><option value="KI" data-defaultcurrency="AUD">Kiribati</option><option value="KR" data-defaultcurrency="KRW">Korea, Republic of</option><option value="XK" data-defaultcurrency="EUR">Kosovo</option><option value="KW" data-defaultcurrency="KWD">Kuwait</option><option value="KG" data-defaultcurrency="USD">Kyrgyzstan</option><option value="LA" data-defaultcurrency="USD">Lao People's Democratic Republic</option><option value="LV" data-defaultcurrency="EUR">Latvia</option><option value="LB" data-defaultcurrency="LBP">Lebanon</option><option value="LS" data-defaultcurrency="USD">Lesotho</option><option value="LR" data-defaultcurrency="USD">Liberia</option><option value="LY" data-defaultcurrency="USD">Libya</option><option value="LI" data-defaultcurrency="CHF">Liechtenstein</option><option value="LT" data-defaultcurrency="EUR">Lithuania</option><option value="LU" data-defaultcurrency="EUR">Luxembourg</option><option value="MO" data-defaultcurrency="HKD">Macao</option><option value="MK" data-defaultcurrency="USD">Macedonia, the former Yugoslav Republic of</option><option value="MG" data-defaultcurrency="USD">Madagascar</option><option value="MW" data-defaultcurrency="USD">Malawi</option><option value="MY" data-defaultcurrency="MYR">Malaysia</option><option value="MV" data-defaultcurrency="MVR">Maldives</option><option value="ML" data-defaultcurrency="XOF">Mali</option><option value="MT" data-defaultcurrency="EUR">Malta</option><option value="MH" data-defaultcurrency="USD">Marshall Islands</option><option value="MQ" data-defaultcurrency="EUR">Martinique</option><option value="MR" data-defaultcurrency="USD">Mauritania</option><option value="MU" data-defaultcurrency="USD">Mauritius</option><option value="YT" data-defaultcurrency="EUR">Mayotte</option><option value="MX" data-defaultcurrency="MXN">Mexico</option><option value="FM" data-defaultcurrency="USD">Micronesia, Federated States of</option><option value="MD" data-defaultcurrency="USD">Moldova, Republic of</option><option value="MC" data-defaultcurrency="EUR">Monaco</option><option value="MN" data-defaultcurrency="USD">Mongolia</option><option value="ME" data-defaultcurrency="EUR">Montenegro</option><option value="MS" data-defaultcurrency="USD">Montserrat</option><option value="MA" data-defaultcurrency="MAD">Morocco</option><option value="MZ" data-defaultcurrency="USD">Mozambique</option><option value="MM" data-defaultcurrency="USD">Myanmar</option><option value="NA" data-defaultcurrency="NAD">Namibia</option><option value="NR" data-defaultcurrency="AUD">Nauru</option><option value="NP" data-defaultcurrency="NPR">Nepal</option><option value="NL" data-defaultcurrency="EUR">Netherlands</option><option value="NC" data-defaultcurrency="USD">New Caledonia</option><option value="NZ" data-defaultcurrency="NZD">New Zealand</option><option value="NI" data-defaultcurrency="NIO">Nicaragua</option><option value="NE" data-defaultcurrency="XOF">Niger</option><option value="NG" data-defaultcurrency="USD">Nigeria</option><option value="NU" data-defaultcurrency="NZD">Niue</option><option value="NO" data-defaultcurrency="NOK">Norway</option><option value="OM" data-defaultcurrency="OMR">Oman</option><option value="PK" data-defaultcurrency="PKR">Pakistan</option><option value="PW" data-defaultcurrency="USD">Palau</option><option value="PA" data-defaultcurrency="PAB">Panama</option><option value="PG" data-defaultcurrency="USD">Papua New Guinea</option><option value="PY" data-defaultcurrency="PYG">Paraguay</option><option value="PE" data-defaultcurrency="PEN">Peru</option><option value="PH" data-defaultcurrency="PHP">Philippines</option><option value="PL" data-defaultcurrency="PLN">Poland</option><option value="PT" data-defaultcurrency="EUR">Portugal</option><option value="QA" data-defaultcurrency="QAR">Qatar</option><option value="RO" data-defaultcurrency="RON">Romania</option><option value="RU" data-defaultcurrency="RUB">Russian Federation</option><option value="RW" data-defaultcurrency="USD">Rwanda</option><option value="RE" data-defaultcurrency="EUR">RÃ©union</option><option value="BL" data-defaultcurrency="EUR">Saint BarthÃ©lemy</option><option value="KN" data-defaultcurrency="USD">Saint Kitts and Nevis</option><option value="LC" data-defaultcurrency="USD">Saint Lucia</option><option value="PM" data-defaultcurrency="EUR">Saint Pierre and Miquelon</option><option value="VC" data-defaultcurrency="USD">Saint Vincent and the Grenadines</option><option value="WS" data-defaultcurrency="USD">Samoa</option><option value="SM" data-defaultcurrency="EUR">San Marino</option><option value="ST" data-defaultcurrency="USD">Sao Tome and Principe</option><option value="SA" data-defaultcurrency="SAR">Saudi Arabia</option><option value="SN" data-defaultcurrency="XOF">Senegal</option><option value="RS" data-defaultcurrency="USD">Serbia</option><option value="SC" data-defaultcurrency="USD">Seychelles</option><option value="SL" data-defaultcurrency="USD">Sierra Leone</option><option value="SG" data-defaultcurrency="SGD">Singapore</option><option value="SX" data-defaultcurrency="ANG">Sint Maarten (Dutch part)</option><option value="SK" data-defaultcurrency="EUR">Slovakia</option><option value="SI" data-defaultcurrency="EUR">Slovenia</option><option value="SB" data-defaultcurrency="USD">Solomon Islands</option><option value="SO" data-defaultcurrency="USD">Somalia</option><option value="ZA" data-defaultcurrency="ZAR">South Africa</option><option value="ES" data-defaultcurrency="EUR">Spain</option><option value="LK" data-defaultcurrency="LKR">Sri Lanka</option><option value="SR" data-defaultcurrency="USD">Suriname</option><option value="SZ" data-defaultcurrency="SZL">Swaziland</option><option value="SE" data-defaultcurrency="SEK">Sweden</option><option value="CH" data-defaultcurrency="CHF">Switzerland</option><option value="TW" data-defaultcurrency="TWD">Taiwan</option><option value="TJ" data-defaultcurrency="USD">Tajikistan</option><option value="TZ" data-defaultcurrency="USD">Tanzania, United Republic of</option><option value="TH" data-defaultcurrency="THB">Thailand</option><option value="TL" data-defaultcurrency="USD">Timor-Leste</option><option value="TG" data-defaultcurrency="XOF">Togo</option><option value="TO" data-defaultcurrency="USD">Tonga</option><option value="TT" data-defaultcurrency="USD">Trinidad and Tobago</option><option value="TN" data-defaultcurrency="USD">Tunisia</option><option value="TR" data-defaultcurrency="TRY">Turkey</option><option value="TC" data-defaultcurrency="USD">Turks and Caicos Islands</option><option value="TV" data-defaultcurrency="AUD">Tuvalu</option><option value="UG" data-defaultcurrency="USD">Uganda</option><option value="UA" data-defaultcurrency="UAH">Ukraine</option><option value="AE" data-defaultcurrency="AED">United Arab Emirates</option><option value="GB" data-defaultcurrency="GBP">United Kingdom</option><option value="UY" data-defaultcurrency="UYU">Uruguay</option><option value="UZ" data-defaultcurrency="USD">Uzbekistan</option><option value="VU" data-defaultcurrency="USD">Vanuatu</option><option value="VN" data-defaultcurrency="USD">Vietnam</option><option value="VG" data-defaultcurrency="USD">Virgin Islands, British</option><option value="WF" data-defaultcurrency="USD">Wallis and Futuna</option><option value="YE" data-defaultcurrency="USD">Yemen</option><option value="ZM" data-defaultcurrency="USD">Zambia</option><option value="ZW" data-defaultcurrency="USD">Zimbabwe</option></select>
 </div>
 <div class="language-currency-selector">
+<label class="visuallyhidden" for="intCurrencyCode">Currency</label>
 <select id="intCurrencyCode" name="currency">	
 <option value="AUD" >Australian Dollar</option><option value="BSD" >Bahamian Dollar</option><option value="BHD" >Bahraini Dinar</option><option value="PAB" >Balboa</option><option value="BBD" >Barbados Dollar</option><option value="BZD" >Belize Dollar</option><option value="BOB" >Boliviano</option><option value="BAM" >Bosnian Convertible Mark</option><option value="GBP" >British Pound</option><option value="BGN" >Bulgarian Lev</option><option value="XOF" >CFA Franc BCEAO</option><option value="XAF" >CFA Franc BEAC</option><option value="CAD" >Canadian Dollar</option><option value="KYD" >Cayman Islands Dollar</option><option value="CLP" >Chilean Peso</option><option value="COP" >Colombian Peso</option><option value="NIO" >Cordoba Oro</option><option value="CRC" >Costa Rican Colon</option><option value="HRK" >Croatian Kuna</option><option value="CZK" >Czech Koruna</option><option value="DKK" >Danish Krone</option><option value="DOP" >Dominican Peso</option><option value="EGP" >Egyptian Pound</option><option value="EUR" >Euro</option><option value="PYG" >Guarani</option><option value="HKD" >Hong Kong Dollar</option><option value="HUF" >Hungarian Forint</option><option value="INR" >Indian Rupee</option><option value="IDR" >Indonesian Rupiah</option><option value="ILS" >Israeli Shekel</option><option value="JMD" >Jamaican Dollar</option><option value="JPY" >Japanese Yen</option><option value="JOD" >Jordanian Dinar</option><option value="KRW" >Korean Won</option><option value="KWD" >Kuwaiti Dinar</option><option value="LBP" >Lebanese Pound</option><option value="HNL" >Lempira</option><option value="SZL" >Lilangeni</option><option value="MYR" >Malayan Ringgit</option><option value="MXN" >Mexican Peso</option><option value="MAD" >Moroccan Dirham</option><option value="NAD" >Namibia Dollar</option><option value="NPR" >Nepalese Rupee</option><option value="ANG" >Netherlands Antillan Guilder</option><option value="RON" >New Romanian Leu</option><option value="NZD" >New Zealand Dollar</option><option value="NOK" >Norwegian Krone</option><option value="OMR" >Omani Rial</option><option value="PKR" >Pakistan Rupee</option><option value="PEN" >Peruvian Nuevo Sol</option><option value="PHP" >Philippine Peso</option><option value="PLN" >Polish Zloty</option><option value="QAR" >Qatari Riyal</option><option value="GTQ" >Quetzal</option><option value="KHR" >Riel</option><option value="MVR" >Rufiyaa</option><option value="RUB" >Russian Ruble</option><option value="SAR" >Saudi Riyal</option><option value="SGD" >Singapore Dollar</option><option value="ZAR" >South African Rand</option><option value="LKR" >Sri Lanka Rupee</option><option value="SEK" >Swedish Krona</option><option value="CHF" >Swiss Franc</option><option value="TWD" >Taiwan Dollar</option><option value="BDT" >Taka</option><option value="KZT" >Tenge</option><option value="THB" >Thai Baht</option><option value="TRY" >Turkish Lira</option><option value="USD" selected>US Dollar</option><option value="UAH" >Ukraine Hryvnia</option><option value="AED" >United Arab Emirates Dirham</option><option value="UYU" >Uruguay New Peso</option><option value="CNY" >Yuan Renminbi</option></select>
 </div>
@@ -858,16 +867,16 @@ Jos. A. Bank has partnered with international shipping solution Borderfree to al
 </div>
 </div>
 <div class="acol12 col4">
-<img src="/wcsstore/JABAuroraStorefrontAssetStore//images/global/IntShipping_Models.jpg">
+<img alt="International shipping models" src="/wcsstore/JABAuroraStorefrontAssetStore//images/global/IntShipping_Models.jpg">
 </div>
 </div>
 </div>
 </div>
 </div>
 <a class="header-international-link" data-modal-fn="languageCurrencyModal" href="#">
-<span class="header-international-label" id="header-international-label">Change Region</span><img class="header-international-img" id="header-international-img" data-url-pattern="/wcsstore/JABAuroraStorefrontAssetStore//images/global/flags/[COUNTRY].gif" alt="" style="display:none;"/>
+<span class="header-international-label" id="header-international-label">Change Region</span><span class="visuallyhidden">. This action will open a modal dialog.</span><img class="header-international-img" id="header-international-img" data-url-pattern="/wcsstore/JABAuroraStorefrontAssetStore//images/global/flags/[COUNTRY].gif" alt="" style="display:none;"/>
 </a>
-<input type="hidden" id="miniShopingCartInvalidateURL" name="miniShopingCartInvalidateURL" value="https://www.josbank.com/TMWINMiniCartInvalidate?catalogId=14052&langId=-1&storeId=13452" />	
+<input type="hidden" id="miniShopingCartInvalidateURL" name="miniShopingCartInvalidateURL" value="http://www.josbank.com/TMWINMiniCartInvalidate?catalogId=14052&langId=-1&storeId=13452" />	
 <input type="hidden" id="shoppingCartURL" name="shoppingCartURL" value="OrderCalculate?langId=-1&storeId=13452&catalogId=14052&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&updatePrices=1&orderId=.&URL=AjaxOrderItemDisplayView&errorViewName=AjaxOrderItemDisplayView" />
 
 </div>
@@ -879,7 +888,7 @@ international.init('2440');
 </script>
 <script type="text/javascript">
 try {
-UserInfoJS.setURL('getUserInfoURL','https://www.josbank.com/FetchUserDetailsAjax?catalogId=14052&langId=-1&storeId=13452');
+UserInfoJS.setURL('getUserInfoURL','http://www.josbank.com/FetchUserDetailsAjax?catalogId=14052&langId=-1&storeId=13452');
 if (UserInfoJS.isAjaxCallNeeded()) {
 dojo.addOnLoad(function() {
 UserInfoJS.init();	
@@ -911,7 +920,8 @@ data-toggle="departmentMenu_900023103">
 <span>
 Suits
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023103" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023103" aria-label="Suits">
@@ -1121,7 +1131,7 @@ Big or Tall Suits
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1137,6 +1147,7 @@ Big or Tall Suits
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1146,7 +1157,8 @@ data-toggle="departmentMenu_900023104">
 <span>
 Dress Shirts
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023104" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023104" aria-label="Dress Shirts">
@@ -1229,7 +1241,7 @@ Clearance Dress Shirts
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1245,6 +1257,7 @@ Clearance Dress Shirts
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1254,7 +1267,8 @@ data-toggle="departmentMenu_900023110">
 <span>
 Sportcoats
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023110" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023110" aria-label="Sportcoats">
@@ -1313,7 +1327,7 @@ Tropical Blend Sportcoats
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1329,6 +1343,7 @@ Tropical Blend Sportcoats
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1338,7 +1353,8 @@ data-toggle="departmentMenu_900023106">
 <span>
 Pants
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023106" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023106" aria-label="Pants">
@@ -1465,7 +1481,7 @@ Shorts
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1481,6 +1497,7 @@ Shorts
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1490,7 +1507,8 @@ data-toggle="departmentMenu_900023107">
 <span>
 Ties
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023107" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023107" aria-label="Ties">
@@ -1567,7 +1585,7 @@ Tie Bars
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1583,6 +1601,7 @@ Tie Bars
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1592,7 +1611,8 @@ data-toggle="departmentMenu_900023102">
 <span>
 Sportswear
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023102" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023102" aria-label="Sportswear">
@@ -1880,7 +1900,7 @@ David Leadbetter Apparel
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1896,6 +1916,7 @@ David Leadbetter Apparel
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1905,7 +1926,8 @@ data-toggle="departmentMenu_900023105">
 <span>
 Golf
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023105" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023105" aria-label="Golf">
@@ -1934,7 +1956,7 @@ David Leadbetter Golf Shirts
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -1950,6 +1972,7 @@ David Leadbetter Golf Shirts
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -1959,7 +1982,8 @@ data-toggle="departmentMenu_900023109">
 <span>
 Shoes and Accessories
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023109" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023109" aria-label="Shoes and Accessories">
@@ -2163,7 +2187,7 @@ Gift Cards
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -2179,6 +2203,7 @@ Gift Cards
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -2188,7 +2213,8 @@ data-toggle="departmentMenu_900023111">
 <span>
 Tuxedos
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023111" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023111" aria-label="Tuxedos">
@@ -2213,7 +2239,7 @@ Buy A Tuxedo
 
 </div>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -2237,6 +2263,7 @@ Buy A Tuxedo
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 <li class="">
@@ -2246,7 +2273,8 @@ data-toggle="departmentMenu_900023602">
 <span>
 Big And Tall
 </span>
-</a>
+<span class="visuallyhidden"> top menu, to open submenu links, press the up or down arrows on your keyboard. For moving to next top menu item, press tab key.</span> 
+</a> 
 <div id="departmentMenu_900023602" class="departmentMenu"
 role="menu" data-parent="departmentsMenu"
 data-id="900023602" aria-label="Big And Tall">
@@ -2634,7 +2662,7 @@ Clearance Suits
 </ul>
 </li>
 
-</ul>
+</ul> 
 <ul class="categoryEspot">
 <li>
 
@@ -2650,6 +2678,7 @@ Clearance Suits
 <div class="clear"></div>
 </ul>
 <div class="clear"></div>
+<p class="visuallyhidden">End of Submenu list.</p>
 </div>
 </li>
 </ul>
@@ -2665,7 +2694,7 @@ wc.render.getRefreshControllerById("departmentSubMenu_Controller").url = getAbso
 });
 </script>
 <div id="sweepStakesPanel" class="sweep-panel" role="dialog" tabindex="-1"> 
-<a href="#" class="sweep-close" data-toggle-el="sweepStakesPanel">Close</a>
+<a href="#" class="sweep-close" data-toggle-el="sweepStakesPanel">Sweepstakes dialog close</a> 
 <div class="sweep-main-body">
 <div class="sweep-main-bg">
 <img src="https://content.josbank.com/Global/GlobalFly-Bkgrd_sweeps.png" alt="Win A Gift Card" border="0">
@@ -2683,7 +2712,11 @@ wc.render.getRefreshControllerById("departmentSubMenu_Controller").url = getAbso
 <button class="button"><span>Submit</span></button>
 </div>
 </div>
-<a href="#" data-modal-fn="giftCardRulesModal">More Information</a>
+<a href="#" data-modal-fn="giftCardRulesModal">
+<span class="visuallyhidden">Click here to show </span>
+More Information 
+<span class="visuallyhidden">about gift card official rules</span> 
+</a>
 </form>
 </div>
 </div>
@@ -2692,7 +2725,7 @@ wc.render.getRefreshControllerById("departmentSubMenu_Controller").url = getAbso
 <div class="modal-wrapper modal-gift-card-rules">
 <div class="modal-header">
 <a href="#" class="modal-close" title="CLOSE"> 
-CLOSE
+Gift card official rules dialog close 
 </a>
 </div>
 <div class="modal-body">
@@ -2733,7 +2766,7 @@ WITHOUT LIMITING THE FOREGOING, AND EXCEPT WHERE PROHIBITED BY LAW, EVERYTHING R
 </div>
 
 </div>
-<strong>PAST WINNERS</strong> - <a href="#" data-modal-fn="sweepstakesPastWinnersModal">Click here</a>
+<strong>PAST WINNERS</strong> - <a href="#" data-modal-fn="sweepstakesPastWinnersModal">Click here <span class="visuallyhidden"> to show dialog with past sweepstakes winners</span></a> 
 </div>
 </div>
 </div>
@@ -2741,7 +2774,7 @@ WITHOUT LIMITING THE FOREGOING, AND EXCEPT WHERE PROHIBITED BY LAW, EVERYTHING R
 <div class="modal-wrapper modal-gift-card-rules">
 <div class="modal-header">
 <a href="#" class="modal-close" title="CLOSE"> 
-CLOSE
+Sweepstakes past winners dialog close 
 </a>
 </div>
 <div class="modal-body">
@@ -2797,7 +2830,7 @@ Amber Smithson - Knoxville, TN </p><br>
 <div class="row row-margin">
 <div class="col12" data-slot-id="1">
 
-<div id="contentRecommendationWidget_Espot-Global-ShopByShipSweeps" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_1_-1012_3074457345618262969" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <script type="text/javascript">
@@ -2824,7 +2857,7 @@ Shop By:
 </span>
 </div>
 <div class="top-free-ship">
-<div style="color:#dc291e; font-weight:bold;padding: 4px 3px;">FREE SHIPPING ON ALL ORDERS $50+
+<div style="color:#dc291e; font-weight:bold;padding: 4px 3px;">FREE SHIPPING! NO MINIMUM ORDER!
 <span style="font-size:xx-small; vertical-align:top;">&loz;</span>
 </div>
 </div>
@@ -2901,11 +2934,11 @@ dojo.publish("CMPageRefreshEvent");
 </script>
 
 
-<div id="contentRecommendationWidget_Espot-TopNav-PromoBanner" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_1_-1012_3074457345618262974" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <a href="/current-promotions" title="" target="">
-<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_090115.gif" alt="" BORDER="0"/>
+<img src="//content.josbank.com/Navigation/TopNav-PromoBanner_090215.gif" alt="" BORDER="0"/>
 </a>
 </div>
 
@@ -5632,7 +5665,7 @@ Japanese</td>
 <div class="row row-margin">
 <div class="col6 acol12" data-slot-id="21">
 
-<div id="contentRecommendationWidget_Espot-Global-BottomLeft" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_8_-1012_3074457345618262973" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <div class="win-gift dc_hide"> <div class="win-gift-bg"> <img src="//content.josbank.com/Global/GlobalFly-BttmLeftBkgrd_sweeps.jpg" alt="Gift Card Sweepstakes" border="0"> </div> <div class="win-gift-body"> <div class="win-gift-form"> <form name="JoinSweepstakesBottomForm" id="JoinSweepstakesBottomForm" action="JABSweepStakes" method="post"> <input type="hidden" name="storeId" value="13452" id="storeId2"> <input type="hidden" name="catalogId" value="14052" id="catalogId2"> <input type="hidden" name="URL" value="JABThankYouView" id="URL2"> <div class="row"> <div class="col12"> <input type="email" id="email1" name="email11" errpage="97" errors="15,1"> <button class="button"><span>Enter</span></button> </div> </div> </form> </div> <a class="win-gift-more" href="#" data-modal-fn="giftCardRulesModal">More Information</a> </div></div>
@@ -5697,7 +5730,7 @@ dojo.publish("CMPageRefreshEvent");
 </div>
 <div class="col6 acol12" data-slot-id="22">
 
-<div id="contentRecommendationWidget_Espot-Global-BottomRight" class="contentRecommendationWidget" >
+<div id="contentRecommendationWidget_9_-1012_3074457345618262972" class="contentRecommendationWidget" >
 
 <div class="left_espot">
 <div class="free-ship-bottom">
@@ -5707,8 +5740,7 @@ FREE <br/>
 SHIPPING
 </span>
 <span class="free-ship-content">
-On all online orders <br/>
-$50 or more <span style="font-size:xx-small; vertical-align:top;">&loz;</span>
+NO MINIMUM! <span style="font-size:xx-small; vertical-align:top;">&loz;</span>
 </span>
 </a>
 </div>
@@ -5789,7 +5821,7 @@ dojo.publish("CMPageRefreshEvent");
 <li><a id="footerClearanceCenterLink" href="/clearance-center">Clearance Center</a></li>
 <li><a href="/current-promotions">Current Promotions</a></li>
 <li><a href="/deal-of-the-day">Deals of the Day</a></li>
-<li class ="factory-store-link"><a href="/factory-store">Factory Store</a></li>
+<li class ="factory-store"><a href="/factory-store">Factory Store</a></li>
 <li class="gift-cards-link"><a href="/gift-cards">Gift Cards</a></li>
 </ul>
 </div>
@@ -5818,14 +5850,39 @@ dojo.publish("CMPageRefreshEvent");
 </div>
 <div id="footerSocialMedia" class="section">
 <ul>
-<li><a id="footerFacebookLink" href="http://www.facebook.com/Jos.A.Bank.Clothiers.Inc" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_facebook.gif" alt="Facebook icon" border="0"/>Join us on Facebook</a></li>
-<li><a id="footerTwitterLink" href="http://twitter.com/josabank" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_twitter.gif" alt="Twitter icon" border="0"/>Follow us on Twitter</a></li> 
-<li><a id="footerInstagramLink" href="http://instagram.com/JosABank/" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_instagram.gif" alt="nstagram icon" border="0"/>Follow us on Instagram</a></li>
-<li><a id="footerGooglePlusLink" href="http://plus.google.com/111895265730261374585" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_googleplus.gif" alt="Google icon" border="0"/>Circle us on Google+</a></li>
-<li><a id="footerYouTubeLink" href="http://www.youtube.com/user/josabankbrand" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_youTube.gif" alt="YouTube icon" border="0"/>Watch us on YouTube</a></li> 
+<li> 
+<a id="footerFacebookLink" href="http://www.facebook.com/Jos.A.Bank.Clothiers.Inc" target="_blank">
+<img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_facebook.gif" alt="Facebook icon" border="0"/>
+Join us on Facebook <span class="visuallyhidden">will be opened in new tab on click</span>
+</a>
+</li>
+<li>
+<a id="footerTwitterLink" href="http://twitter.com/josabank" target="_blank">
+<img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_twitter.gif" alt="Twitter icon" border="0"/>
+Follow us on Twitter <span class="visuallyhidden">will be opened in new tab on click</span>
+</a>
+</li> 
+<li>
+<a id="footerInstagramLink" href="http://instagram.com/JosABank/" target="_blank">
+<img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_instagram.gif" alt="nstagram icon" border="0"/>
+Follow us on Instagram <span class="visuallyhidden">will be opened in new tab on click</span>
+</a>
+</li>
+<li>
+<a id="footerGooglePlusLink" href="http://plus.google.com/111895265730261374585" target="_blank">
+<img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_googleplus.gif" alt="Google icon" border="0"/>
+Circle us on Google+ <span class="visuallyhidden">will be opened in new tab on click</span>
+</a>
+</li>
+<li>
+<a id="footerYouTubeLink" href="http://www.youtube.com/user/josabankbrand" target="_blank">
+<img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_youTube.gif" alt="YouTube icon" border="0"/>
+Watch us on YouTube <span class="visuallyhidden">will be opened in new tab on click</span>
+</a>
+</li> 
 </ul>
 <ul>
-<li><a id="footerPinterestLink" href="http://pinterest.com/JosABank/" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_pinterest.gif" alt="Pinterest icon" border="0"/>Follow us on Pinterest</a></li>
+<li><a id="footerPinterestLink" href="http://pinterest.com/JosABank/" target="_blank"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_pinterest.gif" alt="Pinterest icon" border="0"/>Follow us on Pinterest <span class="visuallyhidden">Will be opened in new tab on click</span></a></li>
 <li><a id="footerReadAdviceLink" href="http://www.josbank.com/expert-advice"><img src="/wcsstore/JABAuroraStorefrontAssetStore/images/socialMedia/footer_expertAdvice.gif" alt="Expert Advice" border="0"/>Read Our Expert Advice</a></li>
 </ul>
 </div> 
@@ -5838,9 +5895,9 @@ dojo.publish("CMPageRefreshEvent");
 </ul>
 </div>
 <div id="footerRow3">
-<p class="FooterBottomText"><a href="http://scene7.josbank.com/is/content/JosBank/CaliforniaTransparencyInSupplyChainsActOf2010pdf" target="_blank" title="California Transparency In Supply Chains Disclosure"><font color="#FFFFFF"><b><i><u>California Transparency In Supply Chains Disclosure</u></i></b></font></a></p>
-</div>
-</div>
+<p class="FooterBottomText"><a href="http://scene7.josbank.com/is/content/JosBank/CaliforniaTransparencyInSupplyChainsActOf2010pdf" target="_blank"><font color="#FFFFFF"><b><i><u>California Transparency In Supply Chains Disclosure <span class="visuallyhidden">pdf file will be opened in new tab on click</span></u></i></b></font></a></p>
+</div> 
+</div> 
 <script type="text/javascript">
 var marketingPixelsData = marketingPixelsData || {};
 marketingPixelsData.currency = 'USD';
@@ -5988,14 +6045,18 @@ parseAllWidgets();
 <div id="modalJoinEmail" class="modal-component">
 <div class="modal-wrapper modal-join-email">
 <div class="modal-header">
-<a href="#" class="modal-close">Close</a> 
+<a href="#" class="modal-close">
+Join email list dialog close 
+</a> 
 </div>
 <div class="modal-body">
 <h3 class="modal-title">Join Email List</h3>
 <div class="row">
 <div class="col bcol9">
 <div class="modal-details">
-<p><strong>Join to receive exclusive Jos. A. Bank sales and promotions.</strong></p>
+<p>
+<label for="emailUpdatesEmail"><strong>Join to receive exclusive Jos. A. Bank sales and promotions.</strong></label> 
+</p>
 <form name="JoinEmailForm" id="JoinEmailForm" action="JABUserEmailOptIn" method="post">
 <input type="email" id="emailUpdatesEmail" name="emailUpdatesEmail" placeholder="Email Address" maxlength="50" required>
 <input type="hidden" id="storeId" name="storeId" value="13452"/>
