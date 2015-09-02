@@ -492,7 +492,7 @@
 <script type='text/javascript'>
 	Weebly.Storage.onReady = function() {
 		var wuid = '' || Weebly.Storage.get('wuid');
-		var wcid = Weebly.Storage.get('wcid') || 'w0vhqj5nti2g8w6j';
+		var wcid = Weebly.Storage.get('wcid') || 'ojoepl245anign9h';
 		if (!wcid) {
 			var possible = 'abcdefghijklmnopqrstuvwxyz0123456789';
 			for( var i=0; i < 16; i++ ) { wcid += possible.charAt(Math.floor(Math.random() * possible.length)); }
