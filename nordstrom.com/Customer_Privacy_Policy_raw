@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"85E1C7FB159FBC84CBBBCE05E6A9CA90646174653D323031352D30392D3031267573657269643D6330663764633930356337393436643438623638363832316363633233323436","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"c0f7dc905c7946d48b686821ccc23246","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"2d66d7e2-9953-4a82-87bd-ad96679c292f","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"EDDEF12D1F4007144D6EED1227DB4551646174653D323031352D30392D3031267573657269643D3432646262323738353038303464613139306633343635316332333265633063","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"42dbb27850804da190f34651c232ec0c","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"a05dacd6-b2ab-4d0f-b01a-4f92d4958eed","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Nice to see you.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			Pop-In@Nordstrom x Warby Parker.
+			A new shop for emerging and advanced designers.
 				
-					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -1176,8 +1176,8 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-toys-gifts"><a href="http://shop.nordstrom.com/c/kids-toys?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Toys &amp; Gifts">Toys &amp; Gifts</a></li>
 				<li class="nav-entry-newborn-baby-essentials"><a href="http://shop.nordstrom.com/c/newborn-baby-essentials?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Newborn Baby Essentials">Newborn Baby Essentials</a></li>
 				<li class="nav-entry-kids-special-occasions"><a href="http://shop.nordstrom.com/c/best-dressed-kids-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids&#39; Special Occasions">Kids&#39; Special Occasions</a></li>
-				<li class="nav-entry-disney-shop"><a href="http://shop.nordstrom.com/c/disney-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Disney Shop">Disney Shop</a></li>
-				<li class="nav-entry-swimwear"><a href="http://shop.nordstrom.com/c/baby-kids-swimwear?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Swimwear">Swimwear</a></li>
+				<li class="nav-entry-kids-denim-shop"><a href="http://shop.nordstrom.com/c/kids-denim-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids Denim Shop">Kids Denim Shop</a></li>
+				<li class="nav-entry-sports-fan-gear"><a href="http://shop.nordstrom.com/c/60190228?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Sports Fan Gear">Sports Fan Gear</a></li>
 		</ul>
 
 						</div>
@@ -1751,11 +1751,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Get our iPad app.</h2>
+		<h2>Back to school.</h2>
 		<p>
-			Fashion&#39;s always a tap away with our free app.
+			
 				
-					<a href="nordstrom-apps?origin=footer-promo" manual_cm_sp="corp-_-multi_ipadapp0903-_-swpfooter_info" title="Learn more">Learn more</a>.
+					<a href="back-to-school-shopping?origin=footer-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpfooter_guide" title="Shop our guide">Shop our guide</a>.
 				
 		</p>
 	</section>
