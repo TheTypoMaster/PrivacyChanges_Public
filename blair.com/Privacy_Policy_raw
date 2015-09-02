@@ -15,6 +15,13 @@ yo_deferLoadResource('all.js', 5000);
 //yo_deferLoadResource(/^((?!bvapi).)*$/, 10);
 
 </script><!-- INSERT BY TRANSFORMER. SELECTOR=head,LOCATION=prepend --><script>yo_addScaner('script');</script>
+<script type="text/javascript">
+function yo_loader(url){ 
+ 
+ try{(new Image()).src = url;}catch(e){ } 
+ }
+
+</script>
 	<script type="text/javascript">/*<![CDATA[*/(function(c,f){function h(a){if(a.mode){var b=g("mobify-mode");b&&a[b]||(b=a.mode(d.ua));return a[b]}return a}function m(){function a(a){c.addEventListener(a,function(){d[a]=+new Date},!1)}c.addEventListener&&(a("DOMContentLoaded"),a("load"))}function n(){var a=new Date;a.setTime(a.getTime()+3E5);f.cookie="mobify-path=; expires="+a.toGMTString()+"; path=/";c.location.reload()}function p(){k({src:"https://preview.mobify.com/v7/"})}function g(a){if(a=f.cookie.match(RegExp("(^|; )"+a+"((=([^;]*))|(; |$))")))return a[4]||""}function l(a){f.write('<plaintext style="display:none">');setTimeout(function(){e.capturing=!0;a()},0)}function k(a,b){var c=f.getElementsByTagName("script")[0],d=f.createElement("script"),e;for(e in a)d[e]=a[e];b&&d.setAttribute("class",b);c.parentNode.insertBefore(d,c)}var e=c.Mobify={},d=e.Tag={};e.points=[+new Date];e.tagVersion=[7,0];d.ua=c.navigator.userAgent;d.getOptions=h;d.init=function(a){d.options=a;if(""!==g("mobify-path"))if(m(),a.skipPreview||"true"!=g("mobify-path")&&!/mobify-path=true/.test(c.location.hash)){var b=h(a);if(b){var e=function(){b.post&&b.post()};a=function(){b.pre&&b.pre();k({id:"mobify-js",src:b.url,onerror:n,onload:e},"mobify")};!1===b.capture?a():l(a)}}else l(p)}})(window,document);(function(){Mobify.Tag.init({mode:function(c){return/ip(hone|od)|android.*(mobile)|blackberry.*applewebkit|bb1\d.*mobile/i.test(c)?"smartphone":/ipad/i.test(c)?"tablet":"desktop"},smartphone:{url:"//cdn.mobify.com/sites/orchard-brands-mobile/production/mobify.js"},tablet:{url:"//cdn.mobify.com/sites/orchard-brands-tablet/production/adaptive.min.js"},desktop:{capture:!1,url:"//a.mobify.com/orchard-brands-mobile/a.js"}})})();/*]]>*/</script>
 	<title>Privacy and Security | Blair</title>
 	<link rel="shortcut icon" type="image/x-icon" href="http://cdn-us-ec.yottaa.net/54dac433ea2e0c5b18000282/www.blair.com/v~c.27/assets/bla/favicon.ico?v=5&amp;yocs=_&amp;yoloc=us"/>
@@ -92,7 +99,15 @@ yo_deferLoadResource('all.js', 5000);
 	<meta name="keywords" content="Privacy and Security"/>
 	<meta name="description" content="Privacy and Security"/>
 	</head>
-	<body id="Privacy and Security" class="custserv  site-bla"><!-- INSERT BY TRANSFORMER. SELECTOR=body,LOCATION=prepend --><script type="text/javascript">
+	
+<!-- END OF YOTTAA PREFETCH LOCATION=<body> -->
+<!--PREFETCH COOKIES START-->
+
+<script type="text/javascript">yo_loader("yo-app-sequencer.png?v=APgbKsZHyW7fG6844ZrhglslV9Epc5kj0995ItmLWwTzGBNGqLWvE_RkLaWr5EvEBbQ7Wwb0ak6jCrKZQHuftQ==,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,cj_xCNXKgeYjr_JV2mrD_9v-LY79XfWlSoD0HzJ1gOO-hSVfcrEdDOKQTZgd1cXxBf9v7O2sv33pcKJdawxnO7hBF_6i1mt8HGwrqXT_5ghRDgd8OfJ6_Wp4MSDXt-5i5gJBafps_6ljaDbUf3eCXfJNtht2-p10GSHMugVXpng=,CB7XqynyytLYo2N0_PppTSLHijMRfk-2R9t3AWjSYFZWicohC39VyP7WPjOOy1UL,BevpC4JQZDjR2WlnujnFTl8bjQ2zOKyROA4cnjD0hYa_9WMpR_7TX6NsyGV_aweDdz3iiVxKmyi3i8Tffc5QimytasP5EQhpGAZ7-qP0XUzfkDm4v_wWofL8GsEf7O6m&t=6Clu0Th-IzPh57P_XPp9pA==&s=3c627ab6858d46eaf9b82f19017b6feb");
+
+</script>
+<!--PREFETCH COOKIES END-->
+<body id="Privacy and Security" class="custserv  site-bla"><!-- INSERT BY TRANSFORMER. SELECTOR=body,LOCATION=prepend --><script type="text/javascript">
   ensi.evar56 = 'yottaa';
 </script>
 		<script language="JavaScript" type="text/javascript">
