@@ -24,7 +24,7 @@
    <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/js/player.js">
  <link rel="subresource" href="https://f.vimeocdn.com/p/2.8.7/css/player.css">
   <script>
- var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.2\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css"};
+ var playerAssetUrls = {"js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/player.js","moog":"https:\/\/f.vimeocdn.com\/p\/flash\/moogaloop\/6.2.2\/moogaloop.swf","moog_js":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/js\/moogaloop.js","css":"https:\/\/f.vimeocdn.com\/p\/2.8.7\/css\/player.css","player_url":"player.vimeo.com"};
  </script>
         <script>
  var googletag = googletag || {},
@@ -401,8 +401,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active"><a href="/videoschool/lesson/211/an-introduction-to-flying-camera-stabilizers">Steadicams and Glidecams</a> can help you get smooth shots. Vimeo Video School will show you how.</p>
- <p><a href="https://vimeo.com/s/tbj">Add multiple email addresses</a> to your Vimeo account (to maintain those multiple personalities).</p>
+ <p class="active">Want to privately share a video with a client or coworker? Vimeo PRO members can create unlisted <a href="https://vimeo.com/s/tak">Video Review Pages.</a></p>
+ <p>If you’re a freak for facts and figures, get the full picture of video performance with <a href="/stats">Advanced Stats</a>.</p>
 </aside>
  </div>
 </footer>
