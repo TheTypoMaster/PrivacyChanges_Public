@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<!-- Begin Ensighten --><!-- End Ensighten --><!-- Begin Ensighten -->
-			<script type="text/javascript" src="/dtagent56_ajp3_5924.js" data-dtconfig="rid=RID_960652801|rpid=-199333438|domain=kay.com|reportUrl=/dynaTraceMonitor|tp=500,50,3|instr=clk"></script><script type="text/javascript" src="//nexus.ensighten.com/sterlingjewelers/Bootstrap.js">
+			<script type="text/javascript" src="/dtagent56_ajp3_5924.js" data-dtconfig="rid=RID_960652801|rpid=311190879|domain=kay.com|reportUrl=/dynaTraceMonitor|tp=500,50,3|instr=clk"></script><script type="text/javascript" src="//nexus.ensighten.com/sterlingjewelers/Bootstrap.js">
 			</script>
 		<!-- End Ensighten --><!-- Start- JSP File Name: CMSContentSpotDisplay.jsp -->
 		<title>Kay - Kay Privacy Policy</title>
@@ -897,36 +897,7 @@ function search(){
 <![endif]-->
 		</div>
 	</div> 
-	
-	<div id="storeContainer">
-		<div id='findAStore' class="sprite">
-			<div id='findAStore2'>
-				<table id="findAStore3" border="0" cellpadding="0" cellspacing="0" summary="Find A Store text">
-					<tbody>
-						<tr>
-							<td>
-								<label for="input_location"><span id="find">FIND A STORE</span></label>
-							</td>
-							<td><span id="findAStoreErrMsg" class="hidden">There are no store locations at the selected location.</span></td>
-						</tr>
-					</tbody>
-				</table>
-				<form id="find_stores" action="#" onsubmit="return false;">
-					<label for="input_location">
-					<input id="input_location" type="text" size="45" maxlength="50" title="location"/>
-					
-							<a href="#" id="findStoresBtn" onclick="javascript:fsmFindStores(-1); return false;" class="sprite sprite-80btn_findstores">
-								
-							</a>
-						
-					</label>
-				</form>
-				<ul class="horizontalList">
-					<li>Enter Street Address, City, State or Zip Code</li>
-				</ul>
-			</div>
-		</div>
-	</div><!--  change the following url to SEO friendly wcf when we have a pattern for StoreLocator : SEO -->
+	<!--  change the following url to SEO friendly wcf when we have a pattern for StoreLocator : SEO -->
  
 <div class="logo">
 	<a href="/en/kaystore" tabindex="310" />
