@@ -136,10 +136,10 @@ var ajaxurl = 'http://pjmedia.com/wp-admin/admin-ajax.php';
 var ssoTokenCookieName = "pjssocsrf";
 var cacheCookieName = "pjssocache";
 
-function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1880872924'); }
-function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=539145666'); }
-function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=971089669'); }
-function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1670390402&source=loginbar'); }
+function ssoAccount(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1078710987'); }
+function ssoLogin() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=274214923'); }
+function ssoLogout(){ PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=2027551492'); }
+function ssoRegister() { PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=2054871086&source=loginbar'); }
 
 var oldS = null;
 if($) { oldS = $; }
@@ -428,14 +428,14 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-8');
   <span class="pjsso-bind" style="display:none" id="pjsso-logged-in" data-pjsso-bind="inline,email">
   <a href="#" class="pjsso-bind" data-pjsso-bind="onClick,profileURL" onClick="void(0);">My Account</a>
   |
-  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1672271492');">Sign Out</a>
+  <a href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=logout&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&random=1175382637');">Sign Out</a>
   </span>
 
   <span class="pjsso-bind" style="display:none" id="pjsso-login" data-pjsso-bind="inline,!email">
   <a class="fbreg" href="#" onclick="PJTV.SingleSignOn.connectWithFacebook('login', true);" title="Connect Using Facebook">&nbsp;</a>
   <span class="text" id="or">or</span>
-  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1150340273');"></a>
-  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=715907629');"></a>
+  <a class="sign-in" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=login&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=1551235622');"></a>
+  <a class="sign-up" href="#" onClick="PJTV.SingleSignOn.openDialog('http://pjmedia.com/plugins/pjinteropplugin/pjinteropplugin.php?cmd=register&ssor=http%3A%2F%2Fpjmedia.com%2Fprivacy-policy%2F&branded-site-id=12&random=677145395');"></a>
   </span>
 </span>
 
@@ -608,11 +608,11 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 
 
 							
+											<li><a href="http://pjmedia.com/tatler/2015/08/31/life-coach-jaxi-west-texas-cop-killing-is-what-justice-looks-like/">Life Coach Jaxi West: Texas Cop Killing 'Is What Justice Looks Like'</a></li>
+											
 											<li><a href="http://pjmedia.com/parenting/2015/09/01/what-the-times-square-topless-girls-will-teach-my-son/">What the Times Square Topless Girls Will Teach My Son</a></li>
 											
-											<li><a href="http://pjmedia.com/victordavishanson/illegal-immigration-finally-turned-off-public/">How Illegal Immigration Finally Turned Off the Public</a></li>
-											
-											<li><a href="http://pjmedia.com/richardfernandez/2015/09/02/marx-materializes-at-the-border/">Marx Materializes at the Border</a></li>
+											<li><a href="http://pjmedia.com/andrewmccarthy/2015/09/02/thanks-to-gops-corker-bill-mikulski-puts-obama-over-the-top-as-iran-vows-to-overthrow-israel/">Thanks to GOP’s Corker Bill, Mikulski Puts Obama Over the Top … as Iran Vows to 'Overthrow Israel'</a></li>
 																		</ul>
 
 									<div class="sidebar-footer" style="margin-top:10px;"><a class="more-link" href="/popular/">More</a> </div>
@@ -627,7 +627,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1347323895031-5');
 			</div>
 
 			<ul class="sidebar-content">
-				<li><a href="http://pjmedia.com/tatler/2015/09/02/some-food-companies-cave-to-michelle-obamas-school-lunch-standards/">Some Food Companies Cave to Michelle Obama&#8217;s School-Lunch Standards</a></li><li><a href="http://pjmedia.com/tatler/2015/09/02/retiring-mikulski-becomes-final-vote-obama-needs-to-override-iran-deal-veto/">Retiring Mikulski Becomes Final Vote Obama Needs to Override Iran Deal Veto</a></li><li><a href="http://pjmedia.com/tatler/2015/09/02/watch-tramp-for-president/">WATCH: Tramp for President</a></li>
+				<li><a href="http://pjmedia.com/tatler/2015/09/02/anthony-weiner-lashes-out-at-trump-for-impugning-huma-abedin/">Anthony Weiner Lashes Out at Trump for &#8216;Impugning&#8217; Huma Abedin</a></li><li><a href="http://pjmedia.com/tatler/2015/09/02/some-food-companies-cave-to-michelle-obamas-school-lunch-standards/">Some Food Companies Cave to Michelle Obama&#8217;s School-Lunch Standards</a></li><li><a href="http://pjmedia.com/tatler/2015/09/02/retiring-mikulski-becomes-final-vote-obama-needs-to-override-iran-deal-veto/">Retiring Mikulski Becomes Final Vote Obama Needs to Override Iran Deal Veto</a></li>
 			</ul>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
@@ -659,7 +659,7 @@ Scribol.frames.push('3946842');</script>
 			</div>
 
 			<table border="0" cellpadding="0" cellspacing="0" class="sidebar-instapundit">
-				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213645/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">A VICTORY FOR OBAMA, A DEFEAT FOR AMERICA:  <a target="_blank" href="http://thehill.com/homenews/senate/252516-mikulski-pushes-obamas-iran-nuke-deal-over-the-top-in-senate">Mikulski pushes Obama&#8217;s Iran nuke deal over the top in Senate.</A>  The GOP should make him veto, and make them vote, anyway.</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213611/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">YET ANOTHER MYTH SHATTERED: <a target="_blank" href="http://www.vice.com/read/whats-mavis-beacon-up-to-these-days-nothing-shes-fake-926">&#8220;What&#8217;s Mavis Beacon Up To These Days? Nothing. She&#8217;s Fake:&#8221;</a> ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/212769/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">IN THE MAIL: <a target="_blank" href="http://www.amazon.com/gp/product/007180630X/ref=as_li_tl?ie=UTF8&#038;camp=1789&#038;creative=9325&#038;creativeASIN=007180630X&#038;linkCode=as2&#038;tag=wwwviolentkicom&#038;linkId=5VEGHNOKPWG6KP2V"><em>Driven to Delight: Delivering World-Class Customer Experience the Mercedes-Benz Way.</em></a>  ...</a></div></td></tr>			</table>
+				<tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213610/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">ABUSING THE EQUIPMENT:  <a target="_blank" href="http://www.popularmechanics.com/technology/a17164/plasma-tv-lightning-storm/">Watch 2,000 Volts Turn a Plasma TV Into a Lightning Storm:  It&#8217;s&#8230; so beautiful.</A></a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213637/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">BLOGGINGHEADS:  <a target="_blank" href="http://bloggingheads.tv/videos/36635?in=29:18&#038;out=31:37">Glenn Loury On Cops:  They deserve ‘sympathetic regard… respect and gratitude’ for doing ‘a nearly impossible job… they’re not the enemy.’</a>  I yield to no one in thinking that police need to be held accountable for misconduct, and that currently they&#8217;re not held sufficiently accountable.  That&#8217;s not the same as treating them as the enemy.  And, as I&#8217;ve noted, those doing so need to think hard about who the &#8220;thin blue line&#8221; is really protecting. ...</a></div></td></tr><tr><td valign="top"><div class="bullet-instapundit"><a href="http://pjmedia.com/instapundit/213648/" target="_blank"><img src="http://pjmedia-new.pjmedia.netdna-cdn.com/themes/pjm/images/orangebullet.gif?pjmv=1.000051f alt="bullet" border="0" /></a></div></td><td valign="top"><div class="content-instapundit">HEY, PRESIDENT OBAMA IGNORES THE LAW WHEN HE DOESN&#8217;T LIKE IT AND NOTHING BAD HAPPENS TO HIM.  <a target="_blank" href="https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/09/02/justice-scalia-explains-why-kim-davis-should-issue-marriage-licenses-to-same-sex-couples-or-find-a-new-job/">Justice Scalia explains why Kim Davis should issue marriage licenses to same-sex couples or find a new job.</A> ...</a></div></td></tr>			</table>
 
 			<div class="sidebar-footer" style="margin-top:10px;">
 			<a href="http://pjmedia.com/instapundit/" class="more-link">More</a>
@@ -849,5 +849,5 @@ _qevents.push([{
     })();
     </script><!-- end chartbeat end-->
     
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":485,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a07db8704","applicationID":"4071090","transactionName":"MVFTMRRXVhEDB0RRVggbcAYSX1cMTRRRX1w=","queueTime":0,"applicationTime":352,"atts":"HRZQR1xNRR8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
