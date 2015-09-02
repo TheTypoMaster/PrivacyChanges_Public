@@ -74,6 +74,50 @@
 
     <div class="genericESpot" data-espotname="anf-EspotFixEMS">
     <style>
+/* Andy RAD Fixes Quailman */
+#account-social-sign-on-v2 .welcomeMessage:after,
+#account-social-login-v2 .welcomeMessage:after  {
+	content: "Sign in or register using Facebook for a faster more secure way to 	access your account.";
+	font-family: "Arial";
+	color: #696761;
+	font-size: 13px;
+	display: block;
+	width: 60%;
+	margin: 45px auto -145px;
+	text-transform: none;
+}
+#account-social-sign-on-v2 #sso-step-2 .actions.create-account-button,
+#account-social-login-v2  #sso-step-2 .actions.create-account-button {
+	margin: 0;
+}
+
+#account-social-sign-on-v2 .phone-tooltip-trigger,
+#account-social-login-v2 .phone-tooltip-trigger {
+	display: none;
+}
+
+#account-social-sign-on-v2 .social-signon__error-message,
+#account-social-login-v2 .social-signon__error-message {
+	display:none;
+}
+
+
+#account-social-sign-on-v2 .welcomeMessage p,
+#account-social-login-v2 .welcomeMessage p {
+	display: none;
+}
+/* Phil Fix Quailman */
+#account-social-sign-on-v2 header {
+    margin-top: -3px;
+}
+
+.search-sort-container .search-sort-content .search-sort-option-tile > span {
+    padding-right: 0;
+}
+
+div.active .search-sort-options {
+    min-width: 173px;
+}
 /* Hides Lookbook Top Nav */
 header .header__nav ul.nav__utility.left li:nth-of-type(2) {
 		display: none;
@@ -3856,9 +3900,9 @@ header .nav__primary .main {
 }
 </style> 
 <div class="header__gms-wrapper banner-adults">
-	<p>Today, online only: up to 70% off outerwear, sweaters &amp; sweatshirts + free shipping over $75. 
+	<p>Last day: 50% off wear-now styles + free shipping over $75. 
 		<span>
-			<a class="legal promo-detail" href="/anf/media/legalText/viewDetailsText20150901_OuterwearUpTo70_Ship.html">See Details</a>
+			<a class="legal promo-detail" href="/anf/media/legalText/viewDetailsText20150902_SelectStyles50_Ship.html">See Details</a>
 		</span>
 	</p>
 
