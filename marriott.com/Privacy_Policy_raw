@@ -128,7 +128,7 @@
 	
 	
 
-	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='0079D82B19E76E13DABEF36CC7B7747D';JAWR.app_context_path='';</script>
+	<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='2AAF246F5441A8D7C01E8657586250BB';JAWR.app_context_path='';</script>
 <link rel="stylesheet" type="text/css" media="all" href="/miCSSPath/N2038945338/bundles/foundation_all.css" />
 
 
@@ -201,7 +201,7 @@
 <!--<![endif]-->
 
 
-<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='0C11A245F32648C72B009EEA49F96118';JAWR.app_context_path='';</script>
+<script type="text/javascript">if(!JAWR){var JAWR = {};};;JAWR.jawr_dwr_path='/dwr';JAWR.dwr_scriptSessionId='45C62F2E269CA9D643B704AC68690668';JAWR.app_context_path='';</script>
 <script type="text/javascript" src="/miJSPath/1742414831/common/js/libs/modernzr/modernzr.js" ></script>
 
 
@@ -232,27 +232,14 @@ var dataLayer = {
 	
 		"srchBrands": "all|",
 	
-		"ctrlgrp": "79",
+		"ctrlgrp": "59",
 	
 		"isProd": "true",
 	
 		"domainName": "Marriott.com",
 	
-	    "TestName": "dcr_monetate_poc",
-	    "TestArea": "dcr",
-	    "SwimLane": "Dcr1",
-	    "FriendlyName": "Monetate POC",
-	    "TestAllocation": "249999",
-	    "GenRecNumb": "51295",
-	    "GenTestNumb": "66320",       
-	    "TestEndDate": "9/11/2015",
-	    "NumberOfrecipes": "3",
-	    "RecipeList": "control*m1*m2",
-	    "RecipeToDisplay": "0",
-	    "RecipeFriendlyName": "",
-	
 		"buildVers": "WEM10.5.13",       
-	"testControl1":"false","testControl2":"false","PersControl":"false","AdControl":"false","ExControl":"false",
+	"testControl1":"false","testControl2":"true","PersControl":"false","AdControl":"false","ExControl":"false",
 	    "brwsrLang": "en_US"
     
 	}; 
@@ -325,6 +312,9 @@ var dataLayer = {
 	
 		
 		
+			
+			
+		
 		
 	
 
@@ -344,7 +334,7 @@ var dataLayer = {
 		
 		
 		
-			 l-responsive" data-responsive="true" >
+			 l-responsive ie8 lt-ie10 lt-ie9" data-responsive="true" >
 
 		
 
@@ -506,7 +496,7 @@ var webfontloads = true;
 
 
 
-<!-- TIMESTAMP="Wed Sep 02 07:52:48 EDT 2015" JVMID="pEbizMdcom8D244_prd3" -->
+<!-- TIMESTAMP="Wed Sep 02 09:11:05 EDT 2015" JVMID="pEbizMdcom8D168_prd4" -->
 
 
 
@@ -2173,7 +2163,7 @@ var webfontloads = true;
 						<label for="global-header--fromDate">
 							Check-in
 						</label>
-						<input name="fromDate" type="text" id="global-header-hotel-fromDate" maxlength="10" data-min="09/01/2015" data-max="08/21/2016" data-value="" value="" class="l-margin-bottom l-width-max js-date-from" />
+						<input name="fromDate" type="text" id="global-header-hotel-fromDate" maxlength="10" data-min="09/02/2015" data-max="08/21/2016" data-value="" value="" class="l-margin-bottom l-width-max js-date-from" />
 					</p>
 					<div class="l-pos-rel js-date-from-pick-container l-em-reset l-date-container"></div>
 			
@@ -2759,7 +2749,7 @@ var webfontloads = true;
 <div class="l-equal-height-child-column m-lookup-reservation l-split-50">
     <p class="m-panel-title l-padding-left l-padding-top">View and Manage Reservations</p>
     <p class="t-desc l-padding-left">Find specific reservations, including those made by phone or when not signed in.</p>
-   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=4-UNwl0_rviir5I4C4623UG">
+   <form name="reservationLookUpForm" method="post" action="https://www.marriott.com/reservation/findReservationDetail.mi;jsessionid=a9XbNI2oKJ6eQI--s0Qmxuv">
         <input type="hidden" name="bc" value="MC" />
         <input type="hidden" name="returnURL" value="/reservation/lookupReservation.mi" />
         
@@ -2789,7 +2779,7 @@ var webfontloads = true;
         
         <div class="form-block  l-width-half l-clear is-lookup-res is-date-field">
 			<label for="checkInDate"  class="is-field is-required" ><i class="icon icon-asterisk t-form-asterisk"></i><span class="is-hidden-text">Required Field</span>Check-in date</label> 
-			<input type="text" name="checkInDate" id="checkInDate" value="" maxlength="10" class="calendar-module-fromdate search-fromDate js-moreoptions-expander" /><input type="hidden" name="minDate" value="09/01/2015" /><input type="hidden" name="maxDate" value="08/21/2016" /><input type="hidden" name="monthNames" value="January,February,March,April,May,June,July,August,September,October,November,December" /><input type="hidden" name="weekDays" value="S,M,T,W,T,F,S" /><input type="hidden" name="dateFormatPattern" value="MM/dd/yy" />
+			<input type="text" name="checkInDate" id="checkInDate" value="" maxlength="10" class="calendar-module-fromdate search-fromDate js-moreoptions-expander" /><input type="hidden" name="minDate" value="09/02/2015" /><input type="hidden" name="maxDate" value="08/21/2016" /><input type="hidden" name="monthNames" value="January,February,March,April,May,June,July,August,September,October,November,December" /><input type="hidden" name="weekDays" value="S,M,T,W,T,F,S" /><input type="hidden" name="dateFormatPattern" value="MM/dd/yy" />
 		 </div>
 				
         <p class="t-find-button clearfix">
@@ -2830,7 +2820,7 @@ var webfontloads = true;
     
 	    
 	         
-	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=4-UNwl0_rviir5I4C4623UG">
+	        <form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=a9XbNI2oKJ6eQI--s0Qmxuv">
 
 	                
 	                
@@ -2961,7 +2951,7 @@ var webfontloads = true;
 
 		<div class="m-header-myaccount-container is-default-state">
 			<div class="m-header-myaccount">
-				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=4-UNwl0_rviir5I4C4623UG">
+				<form name="directLoginForm" method="post" action="https://www.marriott.com/directLogin.mi;jsessionid=a9XbNI2oKJ6eQI--s0Qmxuv">
 					
 					
 
@@ -10280,7 +10270,7 @@ var hdVars = {
 
 
 	
-		<script type="text/javascript" src="/miJSPath/826592996/bundles/micorelib.js" ></script>
+		<script type="text/javascript" src="/miJSPath/N1335543524/bundles/micorelib.js" ></script>
 
 	
 	
