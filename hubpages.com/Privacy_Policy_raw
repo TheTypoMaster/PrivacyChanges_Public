@@ -1,5 +1,5 @@
 <!doctype html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>HubPages Privacy Policy</title><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-hub30447500.css"/><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-base98019548.css"/>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>HubPages Privacy Policy</title><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-hub92130322.css"/><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-base98019548.css"/>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 <script type="text/javascript" >jq = $.noConflict();</script>
@@ -10,7 +10,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-286186-1', 'hubpages.com');
 ga('send', 'pageview');
 </script><script type="text/javascript" async src="http://z.hubimg.com/s/tt137299230.js"></script>
-<script type="text/javascript" src="http://z.hubimg.com/s/js53829821.js"></script>
+<script type="text/javascript" src="http://z.hubimg.com/s/js38548340.js"></script>
 <!--[if lt IE 9]><script src="http://z.hubimg.com/s/ht46313583.js"></script><![endif]--><meta name="format-detection" content="telephone=no" />
 <script type="text/javascript">
 var _qevents = _qevents || [];
@@ -29,7 +29,7 @@ scpt.parentNode.insertBefore(elem, scpt);
 </noscript>
 <script type="text/javascript">
 	jq(function() { new FollowButtonManager(); })
-	jq(function() { jq('img.lazy').lazyload({threshold:500}); });
+	jq(function() { jq('img.lazy').show().lazyload({threshold:100, failure_limit:9000}); });
 	setupNavMenu();
 </script>
 <div id="header_wrap"><div id="header"><div id="site_title"><a tabindex="20" href="http://hubpages.com/" title="HubPages">HubPages</a></div><div id="header_search"><form action="/search/" name="search_form" id="search_form"><input tabindex="21" id="search_input" name="s" accesskey="s" type="text" size="24" placeholder="Search" value="" /><input tabindex="22" id="search_button" type="submit" value="search"/></form><script type="text/javascript">
@@ -140,7 +140,7 @@ jq('#search_form').bind('submit',function(event) {
     s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
     el.parentNode.insertBefore(s, el);
   })();
-</script></div><div id="footer_wrap"><div id="footer"><a id="footer_home" href="http://hubpages.com/" title="To the HubPages home page">HubPages</a><ul id="footerlist"><li><a href="http://hubpages.com/about/us">About Us</a></li><li><a href="http://hubpages.com/help-wizard/">Contact Us</a></li><li><a href="http://hubpages.com/help/copyright_infringement">Copyright</a></li></ul><div class="glam_logo"></div><p>Copyright &copy; 2015 HubPages Inc. and respective owners.</p><p class="disclaimer">Other product and company names shown may be trademarks of their respective owners.</p><p>HubPages<sup>&reg;</sup> is a registered Service Mark of HubPages, Inc.</p><p>HubPages and Hubbers (authors) may earn revenue on this page based on affiliate relationships and advertisements with partners including Amazon, eBay, Google, and others.</p><p><a href="http://hubpages.com/help/user_agreement">terms of use</a> <a href="http://hubpages.com/help/privacy_policy">privacy policy</a> (0.02 sec)</p></div></div>	<div id="ajaxing"><div id="ajaxing_box"><img src="http://z.hubimg.com/x/spinner.gif" alt="Please wait" class="spinner"/> <span>working</span></div></div>
+</script></div><div id="footer_wrap"><div id="footer"><a id="footer_home" href="http://hubpages.com/" title="To the HubPages home page">HubPages</a><ul id="footerlist"><li><a href="http://hubpages.com/about/us">About Us</a></li><li><a href="http://hubpages.com/help-wizard/">Contact Us</a></li><li><a href="http://hubpages.com/help/copyright_infringement">Copyright</a></li></ul><div class="glam_logo"></div><p>Copyright &copy; 2015 HubPages Inc. and respective owners.</p><p class="disclaimer">Other product and company names shown may be trademarks of their respective owners.</p><p>HubPages<sup>&reg;</sup> is a registered Service Mark of HubPages, Inc.</p><p>HubPages and Hubbers (authors) may earn revenue on this page based on affiliate relationships and advertisements with partners including Amazon, eBay, Google, and others.</p><p><a href="http://hubpages.com/help/user_agreement">terms of use</a> <a href="http://hubpages.com/help/privacy_policy">privacy policy</a> (0.01 sec)</p></div></div>	<div id="ajaxing"><div id="ajaxing_box"><img src="http://z.hubimg.com/x/spinner.gif" alt="Please wait" class="spinner"/> <span>working</span></div></div>
 	<script type="text/javascript">
 _qevents.push({
 qacct:"p-40hb1Sup4Jk_U"});
@@ -150,6 +150,6 @@ qacct:"p-40hb1Sup4Jk_U"});
 </noscript>
 </body>
 </html>
-<!-- rendered by hubwbc09 at Tue, 01 Sep 15 16:06:23 -0700 -->
+<!-- rendered by hubwbc03 at Tue, 01 Sep 15 18:13:30 -0700 -->
 <!-- uncategorized hpads-ourshare -->
-<!-- served from cache Tue, 01 Sep 15 17:38:22 -0700 -->
+<!-- served from cache Tue, 01 Sep 15 19:09:55 -0700 -->
