@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"5D64A89851E43957085223CF4FDE1CD8646174653D323031352D30392D3032267573657269643D6133393133333931383133663438306538626339636465343939333531396335","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"a3913391813f480e8bc9cde4993519c5","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"35b24ea3-ba65-4652-acf8-116153c68328","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"E38EA689486932439101158B1F0E6B76646174653D323031352D30392D3032267573657269643D3034656634663266646434663430613161393437363434313538633534313833","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"04ef4f2fdd4f40a1a947644158c54183","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"07eb1592-d7c2-4c39-925e-c9fb26bff114","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Nice to see you.</h2>
+		<h2>End-of-Summer Clearance Sale.</h2>
 		<p>
-			Pop-In@Nordstrom x Warby Parker.
+			Up to 40% off through 9/13.
 				
-					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
+					<a href="all-womens-sale?origin=header-left-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpheaderleftcorp_shop" title="Shop women&#39;s sale">Shop women's sale</a>.
 				
 		</p>
 	</section>
@@ -2288,11 +2288,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>End-of-Summer Clearance Sale: save up to 40%.</h2>
+		<h2>Want a Personal Stylist?</h2>
 		<p>
-			Through September 13.
+			It&#39;s fast, fun, free ... and zero pressure.
 				
-					<a href="sale?origin=footer-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpfootercorp_shopall" title="Shop sale">Shop sale</a>.
+					<a href="personal-stylists?origin=footer-promo" manual_cm_sp="merch-_-corp_0218personalstylist-_-swpfooter_info" title="Get started">Get started</a>.
 				
 		</p>
 	</section>
