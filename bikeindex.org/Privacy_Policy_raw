@@ -18,10 +18,10 @@
 <meta property="og:description" content="Privacy on the Bike Index"/>
 <meta property="twitter:description" content="Privacy on the Bike Index"/>
 <meta content="authenticity_token" name="csrf-param"/>
-<meta content="VjWWyxMNHwHOzUf/VYPYanuLQAWt2TCJcXT6/S55Ae0=" name="csrf-token"/>
+<meta content="znxf91k9rFfwn4daQqxBfGxCheyjqGPju4b8mhItB/Y=" name="csrf-token"/>
 <script type="text/javascript">
 //<![CDATA[
-try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"9a579f86ff44df4ab3927edac7eee669",petok:"9dfb8644270f09e38bf94b2ed97446508b005621-1441182576-1800",betok:"c1576d489c46a7709335774d35813b0c8000509b-1441182576-120",zone:"bikeindex.org",rocket:"0",apps:{"ga_key":{"ua":"UA-38316708-1","ga_bs":"1"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e9627cd26a/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"9a579f86ff44df4ab3927edac7eee669",petok:"40957bd2be548ea0747b9ea96d1448f7d6c73e7f-1441189841-1800",betok:"251cc2770b554c38a591e6a6ad5de8e973fe47ab-1441189841-120",zone:"bikeindex.org",rocket:"0",apps:{"ga_key":{"ua":"UA-38316708-1","ga_bs":"1"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e9627cd26a/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
 //]]>
 </script>
 <link rel="shortcut icon" href="/fav.ico"/>
@@ -152,7 +152,7 @@ Preferences
 </ul>
 </div>
 <div class='tab-pane login-header no_user hidden' id='signup'>
-<form accept-charset="UTF-8" action="https://bikeindex.org/session" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="VjWWyxMNHwHOzUf/VYPYanuLQAWt2TCJcXT6/S55Ae0="/></div><div class='field'>
+<form accept-charset="UTF-8" action="https://bikeindex.org/session" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="znxf91k9rFfwn4daQqxBfGxCheyjqGPju4b8mhItB/Y="/></div><div class='field'>
 <input id="session_email" name="session[email]" placeholder="Email address" size="30" type="email"/>
 </div>
 <div class='field'>
