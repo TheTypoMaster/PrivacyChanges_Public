@@ -6,9 +6,9 @@
 
  itemscope itemtype="http://schema.org/WebPage">
 <!--
-<globe-environment environment="prod" application="globe" dataCenter="ny" serverName="nyglobe10" />
+<globe-environment environment="prod" application="globe" dataCenter="ny" serverName="nyglobe9" />
 <globe-server version="1.46.3" vendor="" title="Globe Server" />
-<globe-resources version="1.46.4" loadStartTime="1441145244101" loadTimeTaken="3285" />
+<globe-resources version="1.46.4" loadStartTime="1441144790366" loadTimeTaken="3658" />
 -->
 <head>
 
@@ -80,7 +80,7 @@ environment : {
 environment : "prod",
 application : "globe",
 dataCenter : "ny",
-serverName : "nyglobe10"
+serverName : "nyglobe9"
 },
 server : {
 version : "1.46.3",
@@ -89,8 +89,8 @@ title : "Globe Server"
 },
 resources : {
 version : "1.46.4",
-loadStartTime : "1441145244101",
-loadTimeTaken : "3285"
+loadStartTime : "1441144790366",
+loadTimeTaken : "3658"
 },
 client : {
 browserUA : navigator.userAgent,
