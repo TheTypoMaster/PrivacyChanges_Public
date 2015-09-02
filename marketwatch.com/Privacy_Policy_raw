@@ -72,13 +72,13 @@
 
 
 <div id="notificationwrap" class="">
-    <div id="notificationbanner" class="bull day showing2">
+    <div id="notificationbanner" class="day showing1">
     
         <div id="bulletinwrap">
                 <div id="bulletinbanner">
         <span class="xlabel">Bulletin</span>
         <span class="meat ">
-            <a href="/story/vera-bradleys-stock-soars-on-better-than-expected-results-upbeat-outlook-2015-09-02">Vera Bradley&#39;s stock soars 21% on better-than-expected results, upbeat outlook</a>&nbsp;&raquo;
+            
         </span>
     </div>
 
@@ -111,15 +111,15 @@
 		
       </div>
   </div>
-	                <div id="daypartbanner" class="current us beforethebell">       
+	                <div id="daypartbanner" class="current uk countdowntoclose">       
                     <p class="marketstate">
-                        <span class="state">New York Markets Open in:</span>
+                        <span class="state">London Markets Close in:</span>
                         <span id="daypartcountdown" class="time"></span>
                     </p>
                         <p class="links">
-                                    <a href="/column/indications">Indications</a>
-                                    <a href="/tools/stockresearch/updown/?type=5">Analyst Ratings</a>
-                                    <a href="/news/markets/earningswatch.asp">EarningsWatch</a>
+                                    <a href="/investing/currencies/tools">Currencies</a>
+                                    <a href="/column/futures-movers">Futures</a>
+                                    <a href="/column/metals-stocks">Metals Stocks</a>
                         </p>
                 </div>
         </div>
@@ -425,15 +425,15 @@
 
 
 <div id="marketstate">
-	<div class="currenttime">8:30 <span>AM EDT</span></div>
+	<div class="currenttime">10:43 <span>AM EDT</span></div>
 	<div class="currentdate">September 2, 2015</div>
 	<div class="marketlist">
 			<div class="bgMarketState market usmarket 
-	pre" title="Pre-Market">
+	open" title="Open">
 				<span class="bgChannel">/marketstate/country/us</span>
 				<div class="marketlabel">New York</div>
 				<div class="marketstatus bgCurrentMarketState">
-	Pre</div>
+	Open</div>
 			</div>
 			<div class="bgMarketState market open" title="Open">
 				<span class="bgChannel">/marketstate/country/uk</span>
@@ -451,7 +451,7 @@
 	</div>
 	<div class="marketmap">
 		<div class="bgMarketState mapstatus 
-	pre" title="Pre-Market">
+	open" title="Open">
         <span class="bgChannel">/marketstate/country/us</span>
         <div class="usDot">&nbsp;</div>
 		</div>
@@ -484,45 +484,45 @@
     <ol id="latestnewsviewport">
       <span class="bgChannel">/news/latest</span>
       
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725321"><span class="timestamp"><span>8:31a</span></span><p><span target="_blank"><a href="/investing/stock/armh?link=MW_latest_news" target="_blank">ARM Holdings upgraded to neutral from underweight at J.P. Morgan Cazenove</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725375"><span class="timestamp"><span>10:42a</span></span><p><span target="_blank"><a href="/investing/index/djia?link=MW_latest_news" target="_blank">U.S. stocks off session highs, Dow up 109 points at 16,168</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725318"><span class="timestamp"><span>8:30a</span></span><p><span target="_blank">Output in second quarter raised to 4.7% gain from 2.8%</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725374"><span class="timestamp"><span>10:40a</span></span><p><a href="/story/gold-struggles-as-dollar-global-markets-rebound-2015-09-02?link=MW_latest_news" target="_blank">Gold struggles as dollar, global markets rebound</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725317"><span class="timestamp"><span>8:30a</span></span><p><span target="_blank">Unit-labor costs drop 1.1% in second quarter </span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725373"><span class="timestamp"><span>10:36a</span></span><p><a href="/story/blythe-masters-back-in-business-with-blockchain-for-banks-2015-09-02?link=MW_latest_news" target="_blank">Blythe Masters back in business with blockchain for banks</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725320"><span class="timestamp"><span>8:30a</span></span><p><span target="_blank">Second-quarter U.S. productivity revised up to 3.3%</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725372"><span class="timestamp"><span>10:36a</span></span><p><a href="/story/oil-falls-below-45-eia-reports-47-million-barrel-rise-in-crude-supplies-2015-09-02?link=MW_latest_news" target="_blank">Oil falls below $45; EIA reports 4.7 million-barrel rise in crude supplies </a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725319"><span class="timestamp"><span>8:30a</span></span><p><span target="_blank">Hours worked in second quarter rise revised 1.4%</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725371"><span class="timestamp"><span>10:33a</span></span><p><a href="/story/does-this-survey-confirm-our-worst-fears-about-the-sexes-2015-09-01?link=MW_latest_news" target="_blank">Does this survey confirm our worst fears about the sexes?</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725316"><span class="timestamp"><span>8:28a</span></span><p><span target="_blank"><a href="/investing/stock/gpro?link=MW_latest_news" target="_blank">GoPro stock price target cut to $50 from $71 at Raymond James</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725368"><span class="timestamp"><span>10:32a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">Gasoline supplies down 300,000 barrels: EIA</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725315"><span class="timestamp"><span>8:28a</span></span><p><span target="_blank"><a href="/investing/stock/htwr?link=MW_latest_news" target="_blank">Heartware downgraded to market perform from outperform at Raymond James</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725367"><span class="timestamp"><span>10:32a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">U.S. crude-oil inventories climb 4.7 million barrels: EIA</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725314"><span class="timestamp"><span>8:26a</span></span><p><a href="/story/treasurys-little-changed-after-rise-in-adp-private-sector-payrolls-2015-09-02?link=MW_latest_news" target="_blank">Treasurys little changed after rise in ADP private-sector payrolls</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725370"><span class="timestamp"><span>10:32a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">Oct. oil falls further to trade at $44.65/bbl vs. $45.20 before the supply data</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725313"><span class="timestamp"><span>8:26a</span></span><p><a href="/story/vera-bradleys-stock-soars-on-better-than-expected-results-upbeat-outlook-2015-09-02?link=MW_latest_news" target="_blank">Vera Bradley&#39;s stock soars on better-than-expected results, upbeat outlook</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725369"><span class="timestamp"><span>10:32a</span></span><p><span target="_blank"><a href="/investing/future/clv5?link=MW_latest_news" target="_blank">Distillate supplies up 100,000 barrels: EIA</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725312"><span class="timestamp"><span>8:23a</span></span><p><a href="/story/elves-and-ninjas-send-lego-earnings-up-31-2015-09-02?link=MW_latest_news" target="_blank">Elves and Ninjas send Lego earnings up 31% </a></p></li>
+	<li class="breaking fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725366"><span class="timestamp"><span>10:18a</span></span><p>BREAKING</p><span class="timestamp"></span><p><a href="/story/mikulski-backs-iran-deal-giving-obama-last-needed-vote-2015-09-02?link=MW_latest_news" target="_blank">Mikulski backs Iran deal, giving Obama last needed vote </a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725311"><span class="timestamp"><span>8:21a</span></span><p><span target="_blank"><a href="/investing/currency/usdjpy?link=MW_latest_news" target="_blank">Yen modestly lower at 120.10 yen vs. 120.16 before ADP report</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725365"><span class="timestamp"><span>10:14a</span></span><p><a href="/story/dow-futures-jump-almost-100-points-as-us-stocks-look-set-for-rebound-2015-09-02?link=MW_latest_news" target="_blank">U.S. stocks rebound 1% after two-day rout</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725310"><span class="timestamp"><span>8:20a</span></span><p><span target="_blank">10-year Treasury yield up less than a half basis point at 2.1587%</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725364"><span class="timestamp"><span>10:08a</span></span><p><a href="/story/video-everything-you-need-to-know-about-the-iran-nuclear-deal-in-30-seconds-2015-09-02?link=MW_latest_news" target="_blank">Video: Everything you need to know about the Iran nuclear deal </a></p></li>
 
-	<li class="breaking fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725309"><span class="timestamp"><span>8:19a</span></span><p>BREAKING</p><span class="timestamp"></span><p><a href="/story/private-sector-adds-190000-jobs-in-august-adp-2015-09-02-8911922?link=MW_latest_news" target="_blank">Private sector adds 190,000 jobs in August: ADP</a></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725363"><span class="timestamp"><span>10:06a</span></span><p><a href="/story/factory-orders-rise-for-second-month-in-july-2015-09-02?link=MW_latest_news" target="_blank">Factory orders rise for second month in July</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725307"><span class="timestamp"><span>8:19a</span></span><p><span target="_blank"><a href="/investing/currency/usdeur?link=MW_latest_news" target="_blank">Euro inches higher against dollar after ADP report </a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725362"><span class="timestamp"><span>10:04a</span></span><p><a href="/story/rebekah-brooks-to-return-to-news-uk-as-ceo-2015-09-02?link=MW_latest_news" target="_blank">Rebekah Brooks to return to News UK as CEO</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725308"><span class="timestamp"><span>8:19a</span></span><p><span target="_blank"><a href="/investing/currency/usdeur?link=MW_latest_news" target="_blank">Euro at $1.1268 vs. $1.1262 before report</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725361"><span class="timestamp"><span>10:02a</span></span><p><a href="/story/fresh-market-upgraded-to-neutral-from-sell-at-goldman-sachs-2015-09-02-1091146?link=MW_latest_news" target="_blank">Fresh Market upgraded to neutral from sell at Goldman Sachs</a></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725304"><span class="timestamp"><span>8:19a</span></span><p><span target="_blank"><a href="/investing/future/nqu5?link=MW_latest_news" target="_blank">S&amp;P 500 futures up 0.6% at 1,927</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725360"><span class="timestamp"><span>10:02a</span></span><p><span target="_blank">Factory orders rise 0.4% in July</span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725305"><span class="timestamp"><span>8:19a</span></span><p><span target="_blank"><a href="/investing/future/nqu5?link=MW_latest_news" target="_blank">Dow futures up 0.6% at 16,188</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725359"><span class="timestamp"><span>9:45a</span></span><p><span target="_blank"><a href="/investing/stock/surg?link=MW_latest_news" target="_blank">Valeant Pharmaceuticals&#39; stock gains 0.6% after merger deal with Synergetics</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725306"><span class="timestamp"><span>8:19a</span></span><p><span target="_blank"><a href="/investing/future/nqu5?link=MW_latest_news" target="_blank">Nasdaq 100 futures up 0.7% at 4,185</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725358"><span class="timestamp"><span>9:45a</span></span><p><span target="_blank"><a href="/investing/stock/surg?link=MW_latest_news" target="_blank">Synergetics shares soar 50% after buyout deal with Valeant Pharmaceuticals</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725303"><span class="timestamp"><span>8:18a</span></span><p><span target="_blank"><a href="/investing/stock/vra?link=MW_latest_news" target="_blank">Vera Bradley&#39;s stock soars 24% premarket after Q2 results</a></span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725357"><span class="timestamp"><span>9:43a</span></span><p><span target="_blank"><a href="/investing/stock/aria?link=MW_latest_news" target="_blank">Ariad Pharmaceuticals shares plunge 20% in active trade</a></span></p></li>
 
-  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725302"><span class="timestamp"><span>8:17a</span></span><p><span target="_blank">Treasury yields little changed after ADP data</span></p></li>
+  <li class="fnewsitem" data-uniqueid="8c077dc4-5ad2-4f73-b9c3-a381c5fece05:725356"><span class="timestamp"><span>9:42a</span></span><p><span target="_blank"><a href="/investing/stock/bac?link=MW_latest_news" target="_blank">Bank of America&#39;s stock climbs 1.6%; is NYSE&#39;s volume leader</a></span></p></li>
 
       <li class="loading">Loading more headlines...</li>
     </ol>
@@ -532,36 +532,36 @@
 <div id="mastheadmarket">
 	<div class="market">
 		<h4><a href="/investing/index/DJIA" title="Dow Jones Industrial Average">dow</a></h4>
-		<div class="marketdata bgQuote down">
+		<div class="marketdata bgQuote up">
 			<span class="bgChannel">/quotes/zigman/627449/realtime</span>
-			<div class="bgLast marketprice">16,058.35</div>
+			<div class="bgLast marketprice">16,173.79</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-469.68</div>
-				<div class="bgPercentChange marketpercent">-2.84%</div>
+				<div class="bgChange marketchange">+115.44</div>
+				<div class="bgPercentChange marketpercent">+0.72%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="market">
 		<h4><a href="/investing/index/COMP" title="NASDAQ Composite Index">nasdaq</a></h4>
-		<div class="marketdata bgQuote down">
+		<div class="marketdata bgQuote up">
 			<span class="bgChannel">/quotes/zigman/12633936/realtime</span>
-			<div class="bgLast marketprice">4,636.10</div>
+			<div class="bgLast marketprice">4,669.96</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-140.40</div>
-				<div class="bgPercentChange marketpercent">-2.94%</div>
+				<div class="bgChange marketchange">+33.86</div>
+				<div class="bgPercentChange marketpercent">+0.73%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="market rightmostmarket">
 		<h4><a href="/investing/index/SPX" title="S&amp;P 500 Index">s&amp;p 500</a></h4>
-		<div class="marketdata bgQuote down">
+		<div class="marketdata bgQuote up">
 			<span class="bgChannel">/quotes/zigman/3870025/realtime</span>
-			<div class="bgLast marketprice">1,913.85</div>
+			<div class="bgLast marketprice">1,924.33</div>
 			<div class="marketchangedata">
-				<div class="bgChange marketchange">-58.33</div>
-				<div class="bgPercentChange marketpercent">-2.96%</div>
+				<div class="bgChange marketchange">+10.48</div>
+				<div class="bgPercentChange marketpercent">+0.55%</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -933,7 +933,7 @@ BlackBerry the takeover target
 			            s.prop27 = "nomem";
 			            s.eVar4 = "";
 			            s.eVar31 = "Wednesday";
-			            s.eVar32 = "07:00";
+			            s.eVar32 = "09:00";
         /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
         var s_code=s.t();if(s_code)document.write(s_code) }
         </script>
@@ -1153,7 +1153,7 @@ BlackBerry the takeover target
 	ScrillaZilla.Escort.addClient(
 		ScrillaZilla.Client('#ad_DaypartBannerNewYorkBeforeTheBell', 
 			{
-				ord : 1083375819,
+				ord : 1111907664,
 				src : 'http://ad.doubleclick.net/adi/marketwatch.com/sponsor_beforethebell_us;u=NULL**140x31****;sz=140x31;pos=5;tile=5;ord=',
 				width : '140',
 				height : '31',
@@ -1199,14 +1199,25 @@ BlackBerry the takeover target
          MarketWatch.DayParting.setup({
              
                  currentEvent: {  
-                 market: "US",
-                 display: "New York",
-                 state: DayParts.BeforeTheBell,
-                 start: new Date("Wed, 02 Sep 2015 10:00:00 GMT"),
-                 end: new Date("Wed, 02 Sep 2015 13:30:00 GMT")
+                 market: "UK",
+                 display: "London",
+                 state: DayParts.CountdownToClose,
+                 start: new Date("Wed, 02 Sep 2015 14:30:00 GMT"),
+                 end: new Date("Wed, 02 Sep 2015 15:30:00 GMT")
                  },
              
-            time: new Date("Wed, 02 Sep 2015 12:30:57 GMT"),
+             
+                 nextEvent: {
+                 market: "US",
+                 display: "New York", 
+                 state: DayParts.CountdownToClose,
+                 stateDisplay: "New York Markets Close in:",
+                 start: new Date("Wed, 02 Sep 2015 19:00:00 GMT"),
+                 end: new Date("Wed, 02 Sep 2015 20:00:00 GMT"),
+                 links: ' <a href="/column/movers-and-shakers?dist=countdown">After Hours Preview</a>  <a href="/tools/marketsummary/screener.asp?exchange=15&amp;view=8&amp;lookup=Look+Up">Winners and Losers</a> '
+                 },
+             
+            time: new Date("Wed, 02 Sep 2015 14:43:13 GMT"),
             isNewsHole: false,
             eventEndpoint: "/Theme/home/getnextdaypart"
          });
