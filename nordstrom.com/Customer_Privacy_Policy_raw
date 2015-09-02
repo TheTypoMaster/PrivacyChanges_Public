@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4BBA9DC67C79682D588F12C03B84981F646174653D323031352D30392D3031267573657269643D3339316239353839323333333464336539346234386231626434326661623665","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"391b958923334d3e94b48b1bd42fab6e","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6da56131-cc00-4711-869f-32d3794de4fd","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"9B91E7C2232DC5453D6006CC8250207B646174653D323031352D30392D3032267573657269643D3766623065643932666666333433343961306364656433646633626434353432","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"7fb0ed92fff34349a0cded3df3bd4542","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"12374ec3-3a20-4d5b-b3f7-09674b795200","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>End-of-Summer Clearance Sale.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			Up to 40% off through 9/13.
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="all-womens-sale?origin=header-left-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpheaderleftcorp_shop" title="Shop women&#39;s sale">Shop women's sale</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
