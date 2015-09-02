@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"3A4DE57D5E588D3F4FA698C10E522E92646174653D323031352D30392D3032267573657269643D3535663536396434373061393461333861303263323932643166373733363433","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"55f569d470a94a38a02c292d1f773643","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"94255032-f868-459d-b97d-b1521cda42af","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"89EB7B186E9C245B812AB5EAC052BBF2646174653D323031352D30392D3032267573657269643D3435383861373066353861373466303061373531623966663431366433613237","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"4588a70f58a74f00a751b9ff416d3a27","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"941aae03-0cc4-4ffe-97d9-bb86228cc908","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -149,7 +149,7 @@ window.nord.config.settings.environment = "Production";
 
 
 
-		<link rel="stylesheet"  href="http://c.nordstromimage.com/System/CSS/shop/global.css?v=201509011149">
+		<link rel="stylesheet"  href="http://c.nordstromimage.com/System/CSS/shop/global.css?v=201508311103">
 
 
 
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>End-of-Summer Clearance Sale.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			Up to 40% off through 9/13.
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="all-mens-sale?origin=header-left-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpheaderleftcorp_shopall" title="Shop men&#39;s sale">Shop men's sale</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -602,10 +602,10 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-dresses"><a href="http://shop.nordstrom.com/c/womens-dresses-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Dresses">Dresses</a></li>
 				<li class="nav-entry-tops"><a href="http://shop.nordstrom.com/c/womens-tops-tees?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Tops">Tops</a></li>
 				<li class="nav-entry-jeans"><a href="http://shop.nordstrom.com/c/womens-jeans-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Jeans">Jeans</a></li>
+				<li class="nav-entry-sweaters"><a href="http://shop.nordstrom.com/c/womens-sweaters?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Sweaters">Sweaters</a></li>
 				<li class="nav-entry-coats"><a href="http://shop.nordstrom.com/c/womens-coats?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Coats">Coats</a></li>
 				<li class="nav-entry-jackets"><a href="http://shop.nordstrom.com/c/jackets-for-women?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Jackets">Jackets</a></li>
 				<li class="nav-entry-pants"><a href="http://shop.nordstrom.com/c/womens-pants?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Pants">Pants</a></li>
-				<li class="nav-entry-sweaters"><a href="http://shop.nordstrom.com/c/womens-sweaters?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Sweaters">Sweaters</a></li>
 				<li class="nav-entry-skirts"><a href="http://shop.nordstrom.com/c/womens-skirts?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Skirts">Skirts</a></li>
 				<li class="nav-entry-shorts"><a href="http://shop.nordstrom.com/c/shorts-women?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Shorts">Shorts</a></li>
 				<li class="nav-entry-swimsuits-cover-ups"><a href="http://shop.nordstrom.com/c/womens-swimsuits-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Women-_-Clothing_Swimsuits &amp; Cover-Ups">Swimsuits &amp; Cover-Ups</a></li>
@@ -801,7 +801,6 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-sneakers-athletic"><a href="http://shop.nordstrom.com/c/womens-sneakers?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Sneakers &amp; Athletic">Sneakers &amp; Athletic</a></li>
 				<li class="nav-entry-comfort"><a href="http://shop.nordstrom.com/c/womens-comfort-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Comfort">Comfort</a></li>
 				<li class="nav-entry-mules-clogs"><a href="http://shop.nordstrom.com/c/womens-mules-clogs?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Mules &amp; Clogs">Mules &amp; Clogs</a></li>
-				<li class="nav-entry-rain-winter-boots"><a href="http://shop.nordstrom.com/c/womens-rain-boots-winter-boots?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Rain &amp; Winter Boots">Rain &amp; Winter Boots</a></li>
 				<li class="nav-entry-wedges"><a href="http://shop.nordstrom.com/c/wedges-for-women?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Wedges">Wedges</a></li>
 				<li class="nav-entry-party-evening"><a href="http://shop.nordstrom.com/c/womens-evening-shoes?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Shoes-_-Women_Party &amp; Evening">Party &amp; Evening</a></li>
 					<li class="spacer-hack"></li>
@@ -1176,6 +1175,7 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-toys-gifts"><a href="http://shop.nordstrom.com/c/kids-toys?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Toys &amp; Gifts">Toys &amp; Gifts</a></li>
 				<li class="nav-entry-newborn-baby-essentials"><a href="http://shop.nordstrom.com/c/newborn-baby-essentials?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Newborn Baby Essentials">Newborn Baby Essentials</a></li>
 				<li class="nav-entry-kids-special-occasions"><a href="http://shop.nordstrom.com/c/best-dressed-kids-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids&#39; Special Occasions">Kids&#39; Special Occasions</a></li>
+				<li class="nav-entry-coats-jackets"><a href="http://shop.nordstrom.com/c/kids-coats-and-jackets?origin=topnav&amp;dept=8000001" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Coats &amp; Jackets">Coats &amp; Jackets</a></li>
 				<li class="nav-entry-kids-denim-shop"><a href="http://shop.nordstrom.com/c/kids-denim-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids Denim Shop">Kids Denim Shop</a></li>
 				<li class="nav-entry-sports-fan-gear"><a href="http://shop.nordstrom.com/c/60190228?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Sports Fan Gear">Sports Fan Gear</a></li>
 		</ul>
@@ -1751,11 +1751,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>End-of-Summer Clearance Sale: save up to 40%.</h2>
+		<h2>Emails with style.</h2>
 		<p>
-			Through September 13.
+			Events and expert advice that matter to you.
 				
-					<a href="sale?origin=footer-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpfootercorp_shopall" title="Shop sale">Shop sale</a>.
+					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
 				
 		</p>
 	</section>
