@@ -24,7 +24,7 @@
 	    <link rel="canonical" href="http://www.peekyou.com/privacy_policy" />
 	         <!-- CSS -->
             
-        <link rel="stylesheet" media="screen" href="/css/main.css?ver=22" type="text/css" />
+        <link rel="stylesheet" media="screen" href="/css/main.css?ver=23" type="text/css" />
       
          
 
@@ -39,7 +39,7 @@
         <![endif]-->
          
         
-    	<link rel="stylesheet" media="screen" href="/css/results.css?ver=34" type="text/css" />
+    	<link rel="stylesheet" media="screen" href="/css/results.css?ver=35" type="text/css" />
   	           <link rel="stylesheet" media="screen" href="/css/results_new.css?ver=5" type="text/css" />
                 
     	    		
@@ -110,7 +110,7 @@
 <script src="/js/frontpage/lib/bootstrap.min.js"></script>
 
 <script src="/js/frontpage/lib/select2.min.js"></script>
-<script src="/js/frontpage/script.js"></script>
+<script src="/js/frontpage/script.js?ver=2"></script>
 <script src="/js/searchbox.js"></script>       
 
 
@@ -1238,7 +1238,7 @@ function ImgError(source,placeholder){
 <script type='text/javascript'>
 	 	var MD5 = "9ac4e58b2a97d77ca7065b269f6ed5ec";
 	 	var is_phone = "";
-	 	var serialized ="+Zmlyc3RfbmFtZT1wcml2YWN5+bGFzdF9uYW1lPXBvbGljeQ%3D%3D+bnVtX3Byb2ZpbGVzPTE%3D+RkFDRUJPT0tfRlJPTV9TSVRFTUFQPTE%3D+UkVTVUxUU19DTEFTU19EQVRFPTA5LzAyLzIwMTUgMTA6NTI6NTYgYW0%3D+aXJfY2xpY2tzPTA%3D+cGZfY2xpY2tzPTA%3D";
+	 	var serialized ="+Zmlyc3RfbmFtZT1wcml2YWN5+bGFzdF9uYW1lPXBvbGljeQ%3D%3D+bnVtX3Byb2ZpbGVzPTE%3D+RkFDRUJPT0tfRlJPTV9TSVRFTUFQPTE%3D+UkVTVUxUU19DTEFTU19EQVRFPTA5LzAyLzIwMTUgMTI6NTU6MTEgcG0%3D+aXJfY2xpY2tzPTA%3D+cGZfY2xpY2tzPTA%3D";
 		var web_results_search ="YTo3OntzOjQ6Imxhc3QiO3M6NjoicG9saWN5IjtzOjU6ImZpcnN0IjtzOjc6InByaXZhY3kiO3M6MTI6IjMwMV9yZWRpcmVjdCI7czoxNToiL3ByaXZhY3lfcG9saWN5IjtzOjExOiJyZWdpb25fY29kZSI7czowOiIiO3M6MTA6ImZpcnN0X25hbWUiO3M6NzoicHJpdmFjeSI7czo5OiJsYXN0X25hbWUiO3M6NjoicG9saWN5IjtzOjEyOiJudW1fcHJvZmlsZXMiO2k6MTt9";
 		checkCachedResults();
 		var arg;
@@ -1511,15 +1511,12 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=bgcheck
-" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');">
-					 Privacy Policy - Background Check
-				</a>
-				<a onclick="javascript: pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" target="_blank" rel="nofollow" href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=bgcheck">
-					<span class="textAlignRight">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=bgcheck&path=privacy+policy">
+						 Privacy Policy - Background Check
+					</span>
+					<span class="pseudo_link textAlignRight" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=bgcheck&path=privacy+policy">
 					<img class='icon dim webResultSprite arrowRedSprite'  src="/images/transparent.gif" width=16 alt="" />
 					Get Full Report</span>
-				</a>
 			</p>
 			</div>
 			<div class="clear"></div> 
@@ -1530,14 +1527,12 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=onlineprof" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');">
+				<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=onlineprof&path=privacy+policy">
 					 Privacy Policy - Photos & Online Profiles
-				</a>
-				<a onclick="javascript: pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" target="_blank" rel="nofollow" href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=onlineprof">
-					<span class="textAlignRight">
-					<img class='icon dim webResultSprite arrowRedSprite'  src="/images/transparent.gif" width=16 alt="" />
-					Access Profiles</span>
-				</a>
+				</span>
+				<span class="pseudo_link textAlignRight" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=onlineprof&path=privacy+policy">
+				<img class='icon dim webResultSprite arrowRedSprite'  src="/images/transparent.gif" width=16 alt="" />
+				Access Profiles</span>
 			</p>
 			</div>
 			<div class="clear"></div> 
@@ -1548,14 +1543,12 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=contactinfo" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');">
+				<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=contactinfo&path=privacy+policy">
 					 Privacy Policy - Contact Information
-				</a>
-				<a onclick="javascript: pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" target="_blank" rel="nofollow" href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=pubrec&utm_medium=text_links&utm_campaign=contactinfo">
-					<span class="textAlignRight">
-					<img class='icon dim webResultSprite arrowRedSprite'  src="/images/transparent.gif" width=16 alt="" />
-					View All Details</span>
-				</a>
+				</span>
+				<span class="pseudo_link textAlignRight" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_pubrec_results_static_web');" data-id="provider=peoplecheckpro&utm=contactinfo&path=privacy+policy">
+				<img class='icon dim webResultSprite arrowRedSprite'  src="/images/transparent.gif" width=16 alt="" />
+				View All Details</span>
 			</p>
 			</div>
 			<div class="clear"></div> 
@@ -1619,12 +1612,10 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://tcgtrkr.com/?a=59&oc=5&c=241&s1=arrestresultsweb&fname=privacy&lname=policy&state=all" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/instantcheckmate_arrestrec_results_static_web');">
-					 Privacy Policy				</a>
-			   <span class="textAlignRight instantcheckmate_static_button">
-			   	<a href="http://tcgtrkr.com/?a=59&oc=5&c=241&s1=arrestresultsweb&fname=privacy&lname=policy&state=all" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/instantcheckmate_arrestrec_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/instantcheckmate_arrestrec_results_static_web');" data-id='provider=instantcheckmate&a=59&oc=5&c=241&s1=arrestresultsweb&fname=privacy&lname=policy&state=all'>
+					 Privacy Policy				</span>
+			   <span class="pseudo_link textAlignRight instantcheckmate_static_button" data-id='provider=instantcheckmate&a=59&oc=5&c=241&s1=arrestresultsweb&fname=privacy&lname=policy&state=all'>
 			   		<img rel="nofollow" width="163" height="39" alt="" src="/images/spriteMe.gif"></span>
-				</a>
 			</p>
 			 <p class="user_line3">
 				Search Their Arrest Record, Driving Record, Marital Status and More...	
@@ -1661,14 +1652,12 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=phone&utm_medium=text_links&utm_campaign=phone" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_phonebook_results_static_web');">
+				<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_phonebook_results_static_web');" data-id="provider=peoplecheckpro&utm=phone&path=privacy+policy">
 					 Privacy Policy - Get Contact Information
-				</a>
-				<a onclick="javascript: pageTracker._trackPageview('/outgoing/peoplecheckpro_phonebook_results_static_web');" target="_blank" rel="nofollow" href="https://www.peoplecheckpro.com/processing/privacy+policy/?utm_source=peekyou.com&utm_content=phone&utm_medium=text_links&utm_campaign=phone">
-					<span class="textAlignRight">
-					<img rel="nofollow" src="/images/phone.gif">
-					Phone Number</span>
-				</a>
+				</span>
+				<span class="pseudo_link textAlignRight" onClick="pageTracker._trackPageview('/outgoing/peoplecheckpro_phonebook_results_static_web');" data-id="provider=peoplecheckpro&utm=phone&path=privacy+policy">
+				<img rel="nofollow" src="/images/phone.gif">
+				Phone Number</span>
 			</p>
 			</div>
 			<div class="clear"></div> 
@@ -1696,9 +1685,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/reverse-phone-search?g=phone_peekyou_ad01" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');" data-id="provider=spokeo_phone&g=phone_peekyou_ad01">
 						1) Enter  Privacy Policy's Phone Number. 2) Get Their Current Address.
-					</a>
+					</span>
 				</p>
 			</div>
 			<div class="clear"></div>
@@ -1709,9 +1698,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/reverse-phone-search?g=phone_peekyou_sp01" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');" data-id="provider=spokeo_phone&g=phone_peekyou_sp01">
 						1) Enter  Privacy Policy's Phone Number. 2) Get Their Social Profiles.
-					</a>
+					</span>
 				</p>
 			</div>
 			<div class="clear"></div>
@@ -1722,9 +1711,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/reverse-phone-search?g=phone_peekyou_em01" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_phonebook_results_static_web');" data-id="provider=spokeo_phone&g=phone_peekyou_em01">
 						1) Enter  Privacy Policy's Phone Number. 2) Get Their Email Address.
-					</a>
+					</span>
 				</p>
 			 </p>
 			</div>
@@ -1766,9 +1755,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_emg1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');" data-id="provider=spokeo_email&g=email_peekyou_import_emg1_1">
 						View Privacy's Hidden Profiles on Facebook and 60+ Networks, privacy****@gmail
-					</a>
+					</span>
 				</p>
 			</div>
 			<div class="clear"></div>
@@ -1779,9 +1768,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_emy1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');" data-id="provider=spokeo_email&g=email_peekyou_import_emy1_1">
 						View Privacy's Hidden Profiles on Facebook and 60+ Networks, privacy****@yahoo
-					</a>
+					</span>
 				</p>
 			</div>
 			<div class="clear"></div>
@@ -1792,9 +1781,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_emh1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');" data-id="provider=spokeo_email&g=email_peekyou_import_emh1_1">
 						View Privacy's Hidden Profiles on Facebook and 60+ Networks, privacy****@hotmail
-					</a>
+					</span>
 				</p>
 			</div>
 			<div class="clear"></div>
@@ -1805,9 +1794,9 @@ function ImgError(source,placeholder){
 			</div>
 			<div class="user_info">
 				<p class="user_line1">
-					<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_ema1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
+					<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');" data-id="provider=spokeo_email&g=email_peekyou_import_ema1_1">
 						View Privacy's Hidden Profiles on Facebook and 60+ Networks, privacy****@aol
-					</a>
+					</span>
 				</p>
 			 </p>
 			</div>
@@ -1815,15 +1804,13 @@ function ImgError(source,placeholder){
 			</li>
 			<li class="resultsCard">
 				<div class="user_nopic">
-					<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_emo1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
-						<img class='icon dim webResultSprite spokeoSprite'  src="/images/transparent.gif" width=16 alt="" />
-					</a>
+					<img class='icon dim webResultSprite spokeoSprite'  src="/images/transparent.gif" width=16 alt="" />
 				</div>
 				<div class="user_info">
 					<p class="user_line1">
-						<a href="http://www.spokeo.com/email-search?g=email_peekyou_import_emo1_1" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');">
+						<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/spokeo_email_results_static_web');" data-id="provider=spokeo_email&g=email_peekyou_import_emo1_1">
 							View Privacy's Hidden Profiles on Facebook and 60+ Networks, privacy****@outlook
-						</a>
+						</span>
 					</p>
 				 </p>
 				</div>
@@ -1854,13 +1841,11 @@ function ImgError(source,placeholder){
 				<img class='icon dim webResultSprite beenverifiedSprite'  src="/images/transparent.gif" width=16 alt="" />
 			</div>
 			<div class="user_info">
-				<p class="user_line1">
-					<a href="http://www.beenverified.com/?fn=privacy&ln=policy&city=&state=&age=&bvid=&utm_source=peekyou&utm_medium=channel_partner&utm_campaign=beenverified_contactinfo_results_static_web&utm_content=static" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/beenverified_contactinfo_results_static_web');">
-					 Privacy Policy				</a>
-			   <span class="textAlignRight beenverified_static_button">
-				<a href="http://www.beenverified.com/?fn=privacy&ln=policy&city=&state=&age=&bvid=&utm_source=peekyou&utm_medium=channel_partner&utm_campaign=beenverified_contactinfo_results_static_web&utm_content=static" target="_blank" rel="nofollow" onClick="pageTracker._trackPageview('/outgoing/beenverified_contactinfo_results_static_web');">
-					<img rel="nofollow" width="163" height="39" alt="" src="/images/spriteMe.gif"></span>
-				</a>
+			<p class="user_line1">
+				<span class="pseudo_link" onClick="pageTracker._trackPageview('/outgoing/beenverified_contactinfo_results_static_web');" data-id="provider=beenverified&fn=privacy&ln=policy&city=&state=&age=&bvid=&utm_source=peekyou&utm_medium=channel_partner&utm_campaign=beenverified_contactinfo_results_static_web&utm_content=static">
+					 Privacy Policy				</span>
+				<span class="textAlignRight beenverified_static_button pseudo_link" onClick="pageTracker._trackPageview('/outgoing/beenverified_contactinfo_results_static_web');" data-id="provider=beenverified&fn=privacy&ln=policy&city=&state=&age=&bvid=&utm_source=peekyou&utm_medium=channel_partner&utm_campaign=beenverified_contactinfo_results_static_web&utm_content=static">
+				<img rel="nofollow" width="163" height="39" alt="" src="/images/spriteMe.gif"></span>
 			</p>
 			 <p class="user_line3">
 				Discover  Privacy Policy's address history, phone, age & more.
@@ -2670,6 +2655,7 @@ jQuery(document).ready(function() {
     if (location.hash) {
           location.href = location.hash;
     }
+ 
  });
 
  function int_get_cookie(cname) {
