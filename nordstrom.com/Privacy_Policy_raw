@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"E38EA689486932439101158B1F0E6B76646174653D323031352D30392D3032267573657269643D3034656634663266646434663430613161393437363434313538633534313833","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"04ef4f2fdd4f40a1a947644158c54183","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"07eb1592-d7c2-4c39-925e-c9fb26bff114","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"273815EBE512AD332B69BB2011B0CA28646174653D323031352D30392D3032267573657269643D3839663364363635616538303431353738316137656231376461623764376665","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"89f3d665ae80415781a7eb17dab7d7fe","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"93a12d4f-9872-483c-8a13-41f2398fa282","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -2288,11 +2288,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Want a Personal Stylist?</h2>
+		<h2>End-of-Summer Clearance Sale: save up to 40%.</h2>
 		<p>
-			It&#39;s fast, fun, free ... and zero pressure.
+			Through September 13.
 				
-					<a href="personal-stylists?origin=footer-promo" manual_cm_sp="merch-_-corp_0218personalstylist-_-swpfooter_info" title="Get started">Get started</a>.
+					<a href="sale?origin=footer-promo" manual_cm_sp="corp-_-corp_2853_EOS_Clearance-_-swpfootercorp_shopall" title="Shop sale">Shop sale</a>.
 				
 		</p>
 	</section>
