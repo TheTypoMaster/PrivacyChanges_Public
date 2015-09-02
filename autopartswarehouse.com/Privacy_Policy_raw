@@ -196,7 +196,7 @@ var SMARTFIT_TEST_OBJECT = {"enable":"1","ab_test_config":{"smart_fit":{"traffic
 	var sid_no       = $.cookie("sid");
 	var email_ref 	 = $.cookie("ref_email");
 	
-			affiliate_no = 'APWED20150828EM519';
+			affiliate_no = 'APWED20150812EM510';
 		
 	if (affiliate_no == null || sid_no == null || ref_email == null)
 	{
@@ -531,7 +531,7 @@ var SMARTFIT_TEST_OBJECT = {"enable":"1","ab_test_config":{"smart_fit":{"traffic
 
 
 $.ajax({
-	'url'  : '/ajax/dcms/?apwcoupon=PRE15NMB&apwcid=APWED20150828EM519&om_u=AAAAAA&om_i=&REQUEST_URI=/privacy/?apwcoupon=PRE15NMB&apwcid=APWED20150828EM519&om_u=AAAAAA&om_i=&QUERY_STRING=apwcoupon=PRE15NMB&apwcid=APWED20150828EM519&om_u=AAAAAA&om_i=&controller=miscellaneous&action=privacypolicy',
+	'url'  : '/ajax/dcms/?apwcoupon=MIDSMR20B&apwcid=APWED20150812EM510&om_u=AAAAAA&om_i=&REQUEST_URI=/privacy/?apwcoupon=MIDSMR20B&apwcid=APWED20150812EM510&om_u=AAAAAA&om_i=&QUERY_STRING=apwcoupon=MIDSMR20B&apwcid=APWED20150812EM510&om_u=AAAAAA&om_i=&controller=miscellaneous&action=privacypolicy',
 	'type' : 'GET',
 	success : function(data){
 		// :: update order data display if necessary 
@@ -1647,6 +1647,6 @@ ProactiveChat.init(proActiveVars, [], []).writeCookie().writeTag();
 </script>
 
 <!-- Include Amazon Widget -->
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"55916a94dc","applicationID":"5106520","transactionName":"Zl0HNRNXCkEDAUBaDV8XJAIVXwtcTSxbfg1VTQkETlsNQQEHWF8DX10KFBIZFEALFFVQG0FXCQgCTw==","queueTime":0,"applicationTime":188,"atts":"ShoEQ1tNGU8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"55916a94dc","applicationID":"5106520","transactionName":"Zl0HNRNXCkEDAUBaDV8XJAIVXwtcTSxbfg1VTQkETlsNQQEHWF8DX10KFBIZFEALFFVQG0FXCQgCTw==","queueTime":0,"applicationTime":190,"atts":"ShoEQ1tNGU8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
