@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"FCC46FDA3454EFD09D447147BA179432646174653D323031352D30392D3031267573657269643D6562656534376163366134313430666339313064636233663364653036613139","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"ebee47ac6a4140fc910dcb3f3de06a19","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"efb05056-fc7b-4ba2-841e-aaf1dc5f072c","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4954208287DF4520F5999B916464C2A4646174653D323031352D30392D3031267573657269643D6266306531353666393737353462353861636530316533366233326634303866","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"bf0e156f97754b58ace01e36b32f408f","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6cfcd4c3-6e41-4d72-af59-a52308a8d16a","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>SPACE:</h2>
 		<p>
-			
+			A new shop for emerging and advanced designers.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
 				
 		</p>
 	</section>
@@ -1176,8 +1176,8 @@ window.nord.config.settings.environment = "Production";
 				<li class="nav-entry-toys-gifts"><a href="http://shop.nordstrom.com/c/kids-toys?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Toys &amp; Gifts">Toys &amp; Gifts</a></li>
 				<li class="nav-entry-newborn-baby-essentials"><a href="http://shop.nordstrom.com/c/newborn-baby-essentials?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Newborn Baby Essentials">Newborn Baby Essentials</a></li>
 				<li class="nav-entry-kids-special-occasions"><a href="http://shop.nordstrom.com/c/best-dressed-kids-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids&#39; Special Occasions">Kids&#39; Special Occasions</a></li>
-				<li class="nav-entry-disney-shop"><a href="http://shop.nordstrom.com/c/disney-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Disney Shop">Disney Shop</a></li>
-				<li class="nav-entry-swimwear"><a href="http://shop.nordstrom.com/c/baby-kids-swimwear?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Swimwear">Swimwear</a></li>
+				<li class="nav-entry-kids-denim-shop"><a href="http://shop.nordstrom.com/c/kids-denim-shop?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Kids Denim Shop">Kids Denim Shop</a></li>
+				<li class="nav-entry-sports-fan-gear"><a href="http://shop.nordstrom.com/c/60190228?dept=8000001&amp;origin=topnav" manual_cm_sp="Top Navigation-_-Kids-_-Kids_Sports Fan Gear">Sports Fan Gear</a></li>
 		</ul>
 
 						</div>
@@ -2288,11 +2288,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Emails with style.</h2>
+		<h2>Back to school.</h2>
 		<p>
-			Events and expert advice that matter to you.
+			
 				
-					<a class="js-popup-link" data-popup-height="650" data-popup-width="700" href="https://em.nordstrom.com/pub/rf?_ri_=X0Gzc2X%3DWQpglLjHJlYQGutzbmR0vHUuGizf5mFISrP8FnMRVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGggkiytwrrAHmKgsimB2PM8MGn&amp;FORM_ID=GEC" title="Sign up">Sign up</a>.
+					<a href="back-to-school-shopping?origin=footer-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpfooter_guide" title="Shop our guide">Shop our guide</a>.
 				
 		</p>
 	</section>
