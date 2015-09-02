@@ -50,7 +50,7 @@ gmtb.siteSpecificPixelFolder = 'bc';
 </script>
 <script type="text/javascript" id="contentbase"> var ContentBase = {"$type":"VB$AnonymousType_0`3[[System.String, mscorlib],[System.String, mscorlib],[System.Object, mscorlib]], GeneralMills.CIA.Framework.Core","ContentId":"fcd9a28a-7df4-4447-9808-4289817559cc","RelatedContentSearchPhrase":"","CompositeSearchResult":{"$type":"System.Object, mscorlib"}}; </script>
             <script type="text/javascript">
-                window.utag_data = {"PageName":"","PageType":"Other","UserId":"9f3482ba-a8d9-4aa1-9413-c8451c7f4608","UserStatus":"Anonymous","EsrcCode":"2","Language":"en"};
+                window.utag_data = {"PageName":"","PageType":"Other","UserId":"27e23f43-1296-4cde-884d-11a06442bba4","UserStatus":"Anonymous","EsrcCode":"2","Language":"en"};
             </script>
         
             <script type="text/javascript">
@@ -154,7 +154,7 @@ gmtb.siteSpecificPixelFolder = 'bc';
         </h1>
             
 
-<div class="search-box-container search clearfix" id="19a89505-7388-4aa1-b6c9-34e9f503b09d">
+<div class="search-box-container search clearfix" id="f4005d54-8896-4f23-af26-8f8016e11700">
     <div class="search-box-hints">
         <input class="search-box" data-bind="value : searchBoxText, valueUpdate: 'keydown', hasfocus : searchBoxHasFocus, event: { focus: getDataSourceType }, attr: {enable : searchBoxEnable}" />
         <div class="search-hint-container" data-bind="visible:showHints, html:searchHintsHtml"></div>
@@ -164,7 +164,7 @@ gmtb.siteSpecificPixelFolder = 'bc';
 
 <script type="text/javascript">
     (function($) {
-        var settings = {"SearchDefaultText":"Search easy, delicious recipes","SearchProcessingMessage":"Please Wait..","SearchLinkButtonText":"Search","SearchLinkButtonToolTip":"Search","HeaderSearchBoxTitle":"Search","SearchBoxTitle":"","AutocompleteSearchPath":"/search","AutocompleteSuggestionLimit":10,"MinimumSearchHintCharacters":3,"Language":"en","Id":"19a89505-7388-4aa1-b6c9-34e9f503b09d","EnableSearchTerms":true,"ContentTypeFilter":"","DataSourceId":"d6fb75f5-d19a-49cd-9ba0-c10a6e45afb2"};
+        var settings = {"SearchDefaultText":"Search easy, delicious recipes","SearchProcessingMessage":"Please Wait..","SearchLinkButtonText":"Search","SearchLinkButtonToolTip":"Search","HeaderSearchBoxTitle":"Search","SearchBoxTitle":"","AutocompleteSearchPath":"/search","AutocompleteSuggestionLimit":10,"MinimumSearchHintCharacters":3,"Language":"en","Id":"f4005d54-8896-4f23-af26-8f8016e11700","EnableSearchTerms":true,"ContentTypeFilter":"","DataSourceId":"d6fb75f5-d19a-49cd-9ba0-c10a6e45afb2"};
         window.GeneralMills.SearchBox.init(settings);             
     })(jQuery);
 </script>
@@ -1321,4 +1321,4 @@ Creation Date: 02/04/2013
     <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script><![endif]-->
 </body>
 </html>
-<!-- ST: 635767324543426377, PID: 0 -->
+<!-- ST: 635767379554604312, PID: 0 -->
