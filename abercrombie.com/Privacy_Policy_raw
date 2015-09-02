@@ -13,7 +13,7 @@
 	<meta name="description" content="Find Answers to Our Most Frequently Asked Questions. Or contact us by email at Abercrombie@Abercrombie.com or by phone at 866.681.3115 or +1 614.219.5380." />
 	<meta name="keywords" content="Abercrombie & Fitch, customer service" />
 	<!--[if lt IE 9]>
-	<script src="/anf/af54b7d/base/js/include/lib/html5shiv.min.js"></script>
+	<script src="/anf/64ed3c4/base/js/include/lib/html5shiv.min.js"></script>
 <![endif]-->
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
@@ -22,11 +22,11 @@
 
 		<link href='//fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 	
-			<link rel="stylesheet" href="/anf/af54b7d/css/min/global.min.css" />
-			<link rel="stylesheet" href="/anf/af54b7d/css/min/site.min.css" />
-			<link rel="stylesheet" href="/anf/af54b7d/css/min/accountsection.min.css" />
+			<link rel="stylesheet" href="/anf/64ed3c4/css/min/global.min.css" />
+			<link rel="stylesheet" href="/anf/64ed3c4/css/min/site.min.css" />
+			<link rel="stylesheet" href="/anf/64ed3c4/css/min/accountsection.min.css" />
 		
-			<link rel="stylesheet" href="/anf/af54b7d/min/css/globalV2.min.css " />
+			<link rel="stylesheet" href="/anf/64ed3c4/min/css/globalV2.min.css " />
 		
 
 <meta http-equiv="cache-control" content="no-cache" />
@@ -3947,7 +3947,7 @@ header .nav__primary .main {
 
 						<li id="util-account" class="nav__utility--account util-main first guest">
 							
-							<a class="util-main" title="Sign In" href="/webapp/wcs/stores/servlet/UserAccountView?catalogId=10901&langId=-1&storeId=10051"></a>
+							<a class="util-main" title="Sign In" href="/webapp/wcs/stores/servlet/AccountRouterView?isUserLogin=true&catalogId=10901&langId=-1&storeId=10051"></a>
 							<ul id="util-account-text">
 								<li class="util-account-sign-in" data-property="GLB_SIGNIN">Sign In</li>
 								<li class="util-account-my-account" data-property="GLB_MYACCOUNT">My Info</li>
@@ -4000,9 +4000,9 @@ header .nav__primary .main {
 							<div class="tooltip-arrow-top"></div>
 							
 		                    <div class="utility-nav-saves__sign-in-msg" data-property="GLB_SIGNIN_HEARTS">
-		                        Want your saves to last forever? <a href="/webapp/wcs/stores/servlet/LogonForm?catalogId=10901&langId=-1&storeId=10051">Sign in</a>!
+		                        Want your saves to last forever? <a href="/webapp/wcs/stores/servlet/AccountRouterView?isUserLogin=true&catalogId=10901&langId=-1&storeId=10051">Sign in</a>!
 		                        <p class="utility-nav-saves__create-account-msg" data-property="GLB_CREATEACCOUNTLINK">
-		                            <a href="/webapp/wcs/stores/servlet/UserRegistrationForm?catalogId=10901&langId=-1&storeId=10051">Create an Account</a>
+		                            <a href="/webapp/wcs/stores/servlet/AccountRouterView?isUserLogin=false&catalogId=10901&langId=-1&storeId=10051">Create an Account</a>
 		                        </p>
 		                    </div>
 		                </div>
@@ -4043,17 +4043,17 @@ header .nav__primary .main {
 
 <ul class="main">
 	
-							<li id="cat-12202" data-test="kids mens true" class="cat-12202 first 168206 ">
+							<li id="cat-12202" data-test="mens" class="cat-12202 first 168206">
 								
 								<a id="division_12202" title="Mens" href="/shop/us/mens">Mens</a>
 							</li>
 						
-							<li id="cat-12203" data-test="kids womens true" class="cat-12203 168206 ">
+							<li id="cat-12203" data-test="womens" class="cat-12203 168206">
 								
 								<a id="division_12203" title="Womens" href="/shop/us/womens">Womens</a>
 							</li>
 						
-							<li id="cat-130706" data-test="kids jeans true" class="cat-130706 168206 ">
+							<li id="cat-130706" data-test="jeans" class="cat-130706 168206">
 								
 								<a id="division_130706" title="Jeans" href="/shop/us/jeans">Jeans</a>
 							</li>
@@ -4282,7 +4282,7 @@ header .nav__primary .main {
 						<ul class="about-us-items secondary">
 							
 										<li class="brand-protection
-											 ">
+											 first ">
 
 											
 											<a title="GLB_BRANDPROTECTION" href="CustomerService?catalogId=10901&storeId=10051&langId=-1&amp;textKey=HELP_BRANDPROTECTION&amp;pageName=brand-protection" data-property="GLB_BRANDPROTECTION">
@@ -4829,9 +4829,9 @@ If you would like to make sure that we do not disclose your name and postal mail
 	
 		<script src="/webapp/wcs/stores/servlet/ConstantsJS?catalogId=10901&langId=-1&storeId=10051"></script>
 	 
-		<script src="/anf/af54b7d/base/js/min/global.min.js"></script>
+		<script src="/anf/64ed3c4/base/js/min/global.min.js"></script>
 		
-		<script src="/anf/af54b7d/min/js/globalV2.min.js"></script>
+		<script src="/anf/64ed3c4/min/js/globalV2.min.js"></script>
 	
 <script type="text/template" id="userPrefrenceMenu">
 	
@@ -4842,7 +4842,7 @@ If you would like to make sure that we do not disclose your name and postal mail
 {{^hasOneChild}}
 <div {{#attr}}{{{attribute}}}{{/attr}}>
 	<div class="menu__submenu-container">
-		<div class="menu__submenu-description" data-property="GLB_USER_PREFRENCE_MENU_DESC">??????</div>
+		<div class="menu__submenu-description" data-property="GLB_USER_PREFRENCE_MENU_DESC">How would you like to shop A&F?</div>
 {{/hasOneChild}}
 		{{#submenu}}
 			{{^hasOneChild}}
@@ -4911,6 +4911,135 @@ If you would like to make sure that we do not disclose your name and postal mail
 </div>
 {{/hasOneChild}}
 
+</script>
+
+<script type="text/template" id="userPreferenceModal">
+	
+
+
+<div>
+	<style>
+		#intl-modal{ 
+			background-color:#FFFEF7; 
+			text-transform:none;
+		}
+		#intl-modal .simplemodal-data{ 
+			overflow:hidden;
+			font-size:14px; 
+			padding:2rem 0;
+		}
+		#intl-modal .modalCloseImg.simplemodal-close{
+			top:2rem;
+			right:2rem;
+		}
+		#intl-modal .intl-modal__title{
+			border-bottom: 2px solid #ccc;
+			padding:0 1.5rem 2rem;
+			color:#666;
+		}
+		#intl-modal .intl-modal__desc{
+			font-family: Arial,Helvetica,sans-serif;
+			padding: 2.5rem;
+		}
+		#intl-modal .intl-modal__action-container{
+			overflow: hidden; 
+			padding: 2rem;
+		}
+		#intl-modal .intl-modal__action-container button{
+			float:none;
+			width:100%;
+			border: 1px solid #666;
+			margin: 0 0 2rem 0;
+			padding: 6px 0;
+			font-family: "Trade Gothic Condensed Bold", Arial, Helvetica, sans-serif;
+			font-size:14px;
+			text-transform: uppercase;
+			cursor: pointer;
+			outline: none;
+			-webkit-transition-property: background-color;
+			-moz-transition-property: background-color;
+			transition-property: background-color;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+		}
+		#intl-modal .intl-modal__action-container button.intl-modal__action-primary{
+			background-color: #666;
+			color: #FFFEF7;
+		}
+		#intl-modal .intl-modal__action-container button.intl-modal__action-primary:hover{
+			background-color: transparent;
+			color: #666;
+		}
+		#intl-modal .intl-modal__action-container button.intl-modal__action-secondary{
+			background-color: transparent;
+			color: #666;
+		}
+		#intl-modal .intl-modal__action-container button.intl-modal__action-secondary:hover{
+			background-color: #666;
+			color: #FFFEF7;
+		}
+		#intl-modal .data { display: none; }
+		#intl-modal .intl-modal__optionalText{
+			font-family: Arial,Helvetica,sans-serif;
+			font-style:italic;
+			padding:0 2rem 1rem;
+		}
+		@media all and (min-width: 800px){
+			#intl-modal .simplemodal-data{
+				padding:2rem;
+			}
+			#intl-modal .intl-modal__title{
+				padding:0 0 1.5rem 0;
+			}
+			#intl-modal .intl-modal__desc{
+				border-bottom: 1px solid #ccc;
+				padding: 2.5rem 0;
+			}
+			#intl-modal .intl-modal__action-container{
+				padding: 2rem 0;
+			}
+			#intl-modal .intl-modal__action-container button{
+				float:left;
+				width:auto;
+				padding:6px 20px;
+			}
+			#intl-modal .intl-modal__action-container button:first-child{ margin:0 1.5rem 0 0; }
+			#intl-modal .intl-modal__optionalText{
+				padding:0 0 1rem 0;
+			}
+		}
+	</style>
+	<form id="intl-modal__form" action="" method="POST">
+		<h2 class="intl-modal__title" data-property="{{title.prop}}">{{title.val}}</h2>
+
+		<div class="intl-modal__desc" data-property="{{desc.prop}}">
+			{{>description}}
+		</div>
+
+		<ul class="intl-modal__action-container">
+		    {{#actions}}
+		    	<li>
+			    	<button type="{{type}}" class="{{class}}" data-property="{{text.prop}}">{{text.val}}</button>
+			    </li>
+		    {{/actions}}
+		</ul>
+
+		<div class="data">
+	        <input type="hidden" name="storeId" value="10051"/>
+	        <input type="hidden" name="catalogId" value="10901"/>
+	        <input type="hidden" name="langId" value="-1"/>
+	        <input type="hidden" name="checkGeoLocation" value="N"/>
+	        <input type="hidden" name="URL" value=""/>
+	        <input type="hidden" name="country" value=""/>
+	        <input type="hidden" name="currency" value=""/>
+	    </div>
+
+	    {{#optionalText}}
+	    	<div class="intl-modal__optionalText" data-property="{{prop}}">{{val}}</div>
+	    {{/optionalText}}
+	</form>
+</div>
 </script>
 
 
@@ -5008,7 +5137,7 @@ If you would like to make sure that we do not disclose your name and postal mail
 </script>
 
 
-			<script src="/anf/af54b7d/base/js/min/include/TeaLeaf.min.js"></script>
+			<script src="/anf/64ed3c4/base/js/min/include/TeaLeaf.min.js"></script>
 		
 		<script type="text/javascript">
 		<!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//-->
