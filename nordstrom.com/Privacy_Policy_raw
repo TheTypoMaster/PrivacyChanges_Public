@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"2B3E4ECD707A82A0938E29D6385FA865646174653D323031352D30392D3031267573657269643D6535336630613064343135633433313738336136336538303631353136396561","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"e53f0a0d415c431783a63e80615169ea","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"8295c113-3151-4dc4-af9e-1d49d55a2497","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"A3FA83BA41D142C9A362DE598F976EC8646174653D323031352D30392D3031267573657269643D6537653133353236623136323436333462623438636162336138376635306366","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"e7bc5d226e7f41aa809cbac42ac0dbd6","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"42d01548-a84d-4996-bf30-238d6bcd2146","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Nice to see you.</h2>
 		<p>
-			
+			Pop-In@Nordstrom x Warby Parker.
 				
-					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="all-pop-in-olivia-kim?campaign=0807POPIN&amp;origin=header-left-promo" manual_cm_sp="merch-_-corp_0807POPIN_2849-_-swpheaderleft_shop" title="Shop eyewear and more">Shop eyewear and more</a>.
 				
 		</p>
 	</section>
@@ -2288,11 +2288,11 @@ The examples contained in this Privacy Policy are illustrations only, and are no
 
 
 	<section id="text-promotion-footerpromo" class="text-promo">
-		<h2>Back to school.</h2>
+		<h2>Let&#39;s get personal.</h2>
 		<p>
-			
+			See items selected especially for you.
 				
-					<a href="back-to-school-shopping?origin=footer-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpfooter_guide" title="Shop our guide">Shop our guide</a>.
+					<a href="recommendations?origin=footer-promo" manual_cm_sp="merch-_-corp_080513getrecommendations-_-swpfooter_shop" title="Shop recommendations">Shop recommendations</a>.
 				
 		</p>
 	</section>
