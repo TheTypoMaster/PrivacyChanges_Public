@@ -115,7 +115,7 @@ window.nord.config.settings.recommendations = {"v2":{"AnniversaryGWPBrands":["65
 		};
 	}
 
-	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"4954208287DF4520F5999B916464C2A4646174653D323031352D30392D3031267573657269643D6266306531353666393737353462353861636530316533366233326634303866","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"bf0e156f97754b58ace01e36b32f408f","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"6cfcd4c3-6e41-4d72-af59-a52308a8d16a","shipToCountry":"","environmentInfo":{"isPos":false}};
+	var shopper = {"currencyCode":"","currencyExchangeRates":0,"beautyBoardId":"","email":"","encodedUserToken":"2B3E4ECD707A82A0938E29D6385FA865646174653D323031352D30392D3031267573657269643D6535336630613064343135633433313738336136336538303631353136396561","firstName":"","gender":0,"hasMultipleRewardsLevels":false,"hasQualifiedItem":false,"hasSamples":false,"id":"e53f0a0d415c431783a63e80615169ea","ipAddress":"52.2.142.173","isEmployee":false,"isLoggedIn":false,"isRegisteredForFitRecs":false,"isEarlyAccessEligible":false,"isSameDayDeliveryEligible":false,"maxRewardsLevel":0,"sessionId":"8295c113-3151-4dc4-af9e-1d49d55a2497","shipToCountry":"","environmentInfo":{"isPos":false}};
 	shopper.clientInfo = {};
 	shopper.clientInfo.browserWidth = function(){
 		return getViewport().width;
@@ -368,11 +368,11 @@ window.nord.config.settings.environment = "Production";
 
 
 	<section id="text-promotion-mainpromo" class="text-promo">
-		<h2>SPACE:</h2>
+		<h2>Back to school.</h2>
 		<p>
-			A new shop for emerging and advanced designers.
+			
 				
-					<a href="space?campaign=0817spacelaunch_2877&amp;origin=header-left-promo" manual_cm_sp="merch-_-Designer_0817spacelaunch_2877-_-swpheaderleft_shop" title="Shop now">Shop now</a>.
+					<a href="back-to-school-shopping?origin=header-left-promo" manual_cm_sp="corp-_-corp_0803backtoschool2832-_-swpheaderleft_guide" title="Shop our guide">Shop our guide</a>.
 				
 		</p>
 	</section>
