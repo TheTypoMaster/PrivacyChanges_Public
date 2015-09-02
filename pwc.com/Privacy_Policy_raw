@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
 	<meta http-equiv="content-language" content="en-gx" />
-	<meta http-equiv="Last-Modified" content="Tue Sep 01 07:14:06 EDT 2015" />
+	<meta http-equiv="Last-Modified" content="Tue Sep 01 13:39:39 EDT 2015" />
 	
     <meta property="og:title" content="PwC's privacy commitment"/>
 
@@ -31,7 +31,7 @@
 		
 			
 		
-	<meta name="clientvm" content="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0" />
+	<meta name="clientvm" content="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML, like Gecko) Version/6.0 Safari/536.25" />
 	<!-- ESI Mobile:  -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/en_US/gx/assets/image/apple-touch-icon-144x144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/en_US/gx/assets/image/apple-touch-icon-114x114-precomposed.png">
@@ -541,7 +541,7 @@ $('#countrycontactsddl option').filter(function() { return $(this).attr('value')
 var sharetitle = "PwC's privacy commitment";
 
 function emailpage(){
-var urlToOpen = "/en_GX/webadmin/forms/email_a_colleague.jhtml?localeOverride=en_GX&color_stylesheet=tangerine&urlref=c3RyZvJ+3yS601p0NEHOfvaEpI4sxb++KzFBPlOqQ+RUoPpW+dW4qyDUXrU/CPKg3Ijzl9Zfkg8=";
+var urlToOpen = "/en_GX/webadmin/forms/email_a_colleague.jhtml?localeOverride=en_GX&color_stylesheet=tangerine&urlref=wcFjRRtVsV9SvAG9zqJkabD4w1sBhcDyf2wKjErEA09datzF3TU4bb+ne2bdsrFrigk1srU+8Qs=";
 PopUp = window.open( urlToOpen, 'Popup', 'width=450,height=500,menubar=no,scrollbars=yes,resizable=yes' );
 }
 
