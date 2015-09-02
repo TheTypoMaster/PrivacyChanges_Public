@@ -15,7 +15,7 @@
  <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="Vimeo search">
 <link rel="logo" type="image/svg" href="https://f.vimeocdn.com/logo.svg">
  <title>Terms of Service on Vimeo</title>
-     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?62ba372804">
+     <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global/icon_fonts.min.css?01ff039f9c">
   <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/global_combined.min.css?7585c93a">
  <link rel="stylesheet" href="https://f.vimeocdn.com/styles/css_opt/legal.min.css?5e6473a0">
      <style>
@@ -448,8 +448,8 @@
  <aside id="footer_tip" class="footer_tip medium-8 column" aria-live="polite">
  <h4>Did you know?</h4>
  <button type="button" class="iconify_resume_b get_tip" id="get_tip"><span class="offstage">Show another tip</span></button>
- <p class="active">Learn when to avoid and embrace abrupt transitions. We’ll tell you everything you need to know about <a href="https://vimeo.com/videoschool/lesson/360/understanding-jump-cuts">jump cuts.</a></p>
- <p>Cords are the life force behind any video shoot. Tap into it with some <a href="/videoschool/lesson/169/keeping-cords-in-order">wire-wrapping wisdom</a> in Vimeo Video School.</p>
+ <p class="active"><a href="/videoschool/lesson/282/getting-down-with-low-angles">Low-angle shots</a> can give your next video a brand new perspective.</p>
+ <p>Capture all sorts of angles to up your editing steez. Mikey explains how to master coverage + cutaways in <a href="https://vimeo.com/videoschool/lesson/459/coverage-and-cutaways">this VVS lesson.</a></p>
 </aside>
  </div>
 </footer>
@@ -591,7 +591,7 @@
   var CSS_DIR = 'https://f.vimeocdn.com/styles/css_opt/',
  JS_DIR = 'https://f.vimeocdn.com/js_opt/',
  IMAGE_DIR = 'https://f.vimeocdn.com/images_v6/',
-  BUILD_HASH = 'a43a2';
+  BUILD_HASH = 'aa3f6';
   var vimeo = _extend((window.vimeo || {}), {"app_version":"v6","domain":"vimeo.com","url":"vimeo.com","cur_user":false,"is_mobile":false});
  vimeo.config = _extend((vimeo.config || {}), []);
   var localeConfig = {
